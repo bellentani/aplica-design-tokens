@@ -4,7 +4,7 @@
       "Brand": {
         "Main": {
           "Default": {
-            "value": "#fd109f",
+            "value": "#127EFC",
             "type": "color"
           }
         }
@@ -12,23 +12,23 @@
       "Function": {
         "Primary": {
           "Darkest": {
-            "value": "#09157f",
+            "value": "#4B3703",
             "type": "color"
           },
           "Action": {
-            "value": "#2435ca",
+            "value": "#C48F08",
             "type": "color"
           },
           "Default": {
-            "value": "#3c4ef2",
+            "value": "#FCBA12",
             "type": "color"
           },
           "Active": {
-            "value": "#737fe5",
+            "value": "#F5D37D",
             "type": "color"
           },
           "Lightest": {
-            "value": "#e1e4fd",
+            "value": "#FEF8E6",
             "type": "color"
           }
         },
