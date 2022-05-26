@@ -184,7 +184,8 @@
             },
             "default": {
               "value": "#d60f43",
-              "type": "color"
+              "type": "color",
+              "description": "Primary action color, use on links, buttons and main interactions."
             },
             "active": {
               "value": "#f46188",
