@@ -1,6 +1,30 @@
 {
   "global": {
     "color": {
+      "brand": {
+        "main": {
+          "value": "#fe196b",
+          "type": "color"
+        },
+        "opposite": {
+          "value": "#2ca0e1",
+          "type": "color"
+        },
+        "complementary": {
+          "value": "#955ca6",
+          "type": "color"
+        },
+        "gradient": {
+          "main": {
+            "value": "linear-gradient(137deg, {color.brand.main} 0%, {color.brand.opposite} 100%)",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "radial-gradient(165.5% 165.5% at 12% 10.5%, {color.brand.main} 0%, {color.brand.complementary} 100%)",
+            "type": "color"
+          }
+        }
+      },
       "ambient": {
         "grayscale": {
           "5": {
@@ -142,32 +166,6 @@
               "value": "#ffffff",
               "type": "color"
             }
-          }
-        }
-      },
-      "brand": {
-        "solid": {
-          "main": {
-            "value": "#fe196b",
-            "type": "color"
-          },
-          "opposite": {
-            "value": "#2ca0e1",
-            "type": "color"
-          },
-          "complementary": {
-            "value": "#955ca6",
-            "type": "color"
-          }
-        },
-        "gradient": {
-          "main": {
-            "value": "linear-gradient(137deg, {color.brand.solid.main} 0%, {color.brand.solid.opposite} 100%)",
-            "type": "color"
-          },
-          "secondary": {
-            "value": "radial-gradient(165.5% 165.5% at 12% 10.5%, {color.brand.solid.main} 0%, {color.brand.solid.complementary} 100%)",
-            "type": "color"
           }
         }
       },
