@@ -28,6 +28,28 @@
         }
       },
       "ambient": {
+        "contrast": {
+          "base": {
+            "dark": {
+              "value": "#15070c",
+              "type": "color"
+            },
+            "light": {
+              "value": "#f7f7f7",
+              "type": "color"
+            }
+          },
+          "deep": {
+            "dark": {
+              "value": "#000000",
+              "type": "color"
+            },
+            "light": {
+              "value": "#ffffff",
+              "type": "color"
+            }
+          }
+        },
         "grayscale": {
           "5": {
             "value": "#f7f7f7",
@@ -147,28 +169,6 @@
             "value": "#2a0e18",
             "type": "color"
           }
-        },
-        "contrast": {
-          "base": {
-            "dark": {
-              "value": "#15070c",
-              "type": "color"
-            },
-            "light": {
-              "value": "#f7f7f7",
-              "type": "color"
-            }
-          },
-          "deep": {
-            "dark": {
-              "value": "#000000",
-              "type": "color"
-            },
-            "light": {
-              "value": "#ffffff",
-              "type": "color"
-            }
-          }
         }
       },
       "interaction": {
@@ -206,7 +206,7 @@
               "type": "color"
             },
             "default": {
-              "value": "#177CB5",
+              "value": "#177cb5",
               "type": "color"
             },
             "active": {
