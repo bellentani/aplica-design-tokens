@@ -242,6 +242,28 @@
           }
         },
         "feedback": {
+          "info": {
+            "darkest": {
+              "value": "#001E30",
+              "type": "color"
+            },
+            "action": {
+              "value": "#006AA7",
+              "type": "color"
+            },
+            "default": {
+              "value": "#0098EE",
+              "type": "color"
+            },
+            "active": {
+              "value": "#5CC4FF",
+              "type": "color"
+            },
+            "lightest": {
+              "value": "#E4F5FF",
+              "type": "color"
+            }
+          },
           "success": {
             "darkest": {
               "value": "#001c06",
@@ -307,6 +329,578 @@
               "value": "#fee4e4",
               "type": "color"
             }
+          }
+        }
+      },
+      "text": {
+        "base": {
+          "positive": {
+            "title": {
+              "value": "{color.ambient.grayscale.80}",
+              "type": "color"
+            },
+            "body": {
+              "value": "{color.ambient.grayscale.80}",
+              "type": "color"
+            },
+            "muted": {
+              "value": "{color.ambient.grayscale.50}",
+              "type": "color"
+            },
+            "labels": {
+              "value": "{color.ambient.grayscale.90}",
+              "type": "color"
+            }
+          },
+          "negative": {
+            "title": {
+              "value": "{color.ambient.grayscale.20}",
+              "type": "color"
+            },
+            "body": {
+              "value": "{color.ambient.grayscale.20}",
+              "type": "color"
+            },
+            "muted": {
+              "value": "{color.ambient.grayscale.40}",
+              "type": "color"
+            },
+            "labels": {
+              "value": "{color.ambient.grayscale.20}",
+              "type": "color"
+            }
+          }
+        },
+        "feedback": {
+          "positive": {
+            "info": {
+              "value": "{color.interaction.feedback.info.action}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{color.interaction.feedback.success.action}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{color.interaction.feedback.warning.action}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{color.interaction.feedback.danger.action}",
+              "type": "color"
+            }
+          },
+          "negative": {
+            "info": {
+              "value": "{color.interaction.feedback.info.action}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{color.interaction.feedback.success.action}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{color.interaction.feedback.warning.action}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{color.interaction.feedback.danger.action}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "_helper-color-palette": {
+    "colorHSL": {
+      "h": {
+        "base": {
+          "value": "339",
+          "type": "other"
+        }
+      },
+      "s": {
+        "base": {
+          "value": "99",
+          "type": "other"
+        },
+        "darkmode": {
+          "value": "{color-palette.colorHSL.s.base} * {color-palette.colorHSL.variables.darkmodeSaturation}",
+          "type": "other"
+        }
+      },
+      "l": {
+        "base": {
+          "value": "55",
+          "type": "other"
+        }
+      },
+      "hsl": {
+        "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.colorHSL.l.base})",
+        "type": "color"
+      },
+      "variables": {
+        "neutralLevels": {
+          "value": "13"
+        },
+        "darkmodeSaturation": {
+          "value": "0.75"
+        }
+      }
+    },
+    "decompose": {
+      "tint": {
+        "l": {
+          "90": {
+            "value": "{color-palette.colorHSL.l.base} + (5 * 1)",
+            "type": "other"
+          },
+          "80": {
+            "value": "{color-palette.colorHSL.l.base} + (5 * 2)",
+            "type": "other"
+          },
+          "70": {
+            "value": "{color-palette.colorHSL.l.base} + (5 * 3)",
+            "type": "other"
+          },
+          "60": {
+            "value": "{color-palette.colorHSL.l.base} + (5 * 4)",
+            "type": "other"
+          },
+          "50": {
+            "value": "{color-palette.colorHSL.l.base} + (5 * 5)",
+            "type": "other"
+          },
+          "40": {
+            "value": "{color-palette.colorHSL.l.base} + (5 * 6)",
+            "type": "other"
+          },
+          "30": {
+            "value": "{color-palette.colorHSL.l.base} + (5 * 7)",
+            "type": "other"
+          },
+          "20": {
+            "value": "{color-palette.colorHSL.l.base} + (5 * 8)",
+            "type": "other"
+          },
+          "10": {
+            "value": "{color-palette.colorHSL.l.base} + (5 * 9)",
+            "type": "other"
+          },
+          "0": {
+            "value": "{color-palette.colorHSL.l.base} + (5 * 10)",
+            "type": "other"
+          }
+        }
+      },
+      "shade": {
+        "l": {
+          "110": {
+            "value": "{color-palette.colorHSL.l.base} - (5 * 1)",
+            "type": "other"
+          },
+          "120": {
+            "value": "{color-palette.colorHSL.l.base} - (5 * 2)",
+            "type": "other"
+          },
+          "130": {
+            "value": "{color-palette.colorHSL.l.base} - (5 * 3)",
+            "type": "other"
+          },
+          "140": {
+            "value": "{color-palette.colorHSL.l.base} - (5 * 4)",
+            "type": "other"
+          },
+          "150": {
+            "value": "{color-palette.colorHSL.l.base} - (5 * 5)",
+            "type": "other"
+          },
+          "160": {
+            "value": "{color-palette.colorHSL.l.base} - (5 * 6)",
+            "type": "other"
+          },
+          "170": {
+            "value": "{color-palette.colorHSL.l.base} - (5 * 7)",
+            "type": "other"
+          },
+          "180": {
+            "value": "{color-palette.colorHSL.l.base} - (5 * 8)",
+            "type": "other"
+          },
+          "190": {
+            "value": "{color-palette.colorHSL.l.base} - (5 * 9)",
+            "type": "other"
+          },
+          "200": {
+            "value": "{color-palette.colorHSL.l.base} - (5 * 10)",
+            "type": "other"
+          }
+        }
+      },
+      "neutral": {
+        "l": {
+          "140": {
+            "value": "{color-palette.decompose.shade.l.190}",
+            "type": "other"
+          },
+          "130": {
+            "value": "{color-palette.decompose.shade.l.180}",
+            "type": "other"
+          },
+          "120": {
+            "value": "{color-palette.decompose.neutral.l.130} + ((100 - {color-palette.decompose.neutral.l.130}) / {color-palette.colorHSL.variables.neutralLevels})",
+            "type": "other"
+          },
+          "110": {
+            "value": "{color-palette.decompose.neutral.l.120} + ((100 - {color-palette.decompose.neutral.l.130}) / {color-palette.colorHSL.variables.neutralLevels})",
+            "type": "other"
+          },
+          "100": {
+            "value": "{color-palette.decompose.neutral.l.110} + ((100 - {color-palette.decompose.neutral.l.130}) / {color-palette.colorHSL.variables.neutralLevels})",
+            "type": "other"
+          },
+          "90": {
+            "value": "{color-palette.decompose.neutral.l.100} + ((100 - {color-palette.decompose.neutral.l.130}) / {color-palette.colorHSL.variables.neutralLevels})",
+            "type": "other"
+          },
+          "80": {
+            "value": "{color-palette.decompose.neutral.l.90} + ((100 - {color-palette.decompose.neutral.l.130}) / {color-palette.colorHSL.variables.neutralLevels})",
+            "type": "other"
+          },
+          "70": {
+            "value": "{color-palette.decompose.neutral.l.80} + ((100 - {color-palette.decompose.neutral.l.130}) / {color-palette.colorHSL.variables.neutralLevels})",
+            "type": "other"
+          },
+          "60": {
+            "value": "{color-palette.decompose.neutral.l.70} + ((100 - {color-palette.decompose.neutral.l.130}) / {color-palette.colorHSL.variables.neutralLevels})",
+            "type": "other"
+          },
+          "50": {
+            "value": "{color-palette.decompose.neutral.l.60} + ((100 - {color-palette.decompose.neutral.l.130}) / {color-palette.colorHSL.variables.neutralLevels})",
+            "type": "other"
+          },
+          "40": {
+            "value": "{color-palette.decompose.neutral.l.50} + ((100 - {color-palette.decompose.neutral.l.130}) / {color-palette.colorHSL.variables.neutralLevels})",
+            "type": "other"
+          },
+          "30": {
+            "value": "{color-palette.decompose.neutral.l.40} + ((100 - {color-palette.decompose.neutral.l.130}) / {color-palette.colorHSL.variables.neutralLevels})",
+            "type": "other"
+          },
+          "20": {
+            "value": "{color-palette.decompose.neutral.l.30} + ((100 - {color-palette.decompose.neutral.l.130}) / {color-palette.colorHSL.variables.neutralLevels})",
+            "type": "other"
+          },
+          "10": {
+            "value": "{color-palette.decompose.neutral.l.20} + ((100 - {color-palette.decompose.neutral.l.130}) / {color-palette.colorHSL.variables.neutralLevels})",
+            "type": "other"
+          },
+          "5": {
+            "value": "{color-palette.decompose.neutral.l.10} + ((100 - {color-palette.decompose.neutral.l.10}) / 2)",
+            "type": "other"
+          },
+          "0": {
+            "value": "{color-palette.decompose.neutral.l.10} + ((100 - {color-palette.decompose.neutral.l.130}) / {color-palette.colorHSL.variables.neutralLevels})",
+            "type": "other"
+          }
+        }
+      }
+    },
+    "colors": {
+      "lightmode": {
+        "tints": {
+          "90": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.tint.l.90})",
+            "type": "color"
+          },
+          "80": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.tint.l.80})",
+            "type": "color"
+          },
+          "70": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.tint.l.70})",
+            "type": "color"
+          },
+          "60": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.tint.l.60})",
+            "type": "color"
+          },
+          "50": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.tint.l.50})",
+            "type": "color"
+          },
+          "40": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.tint.l.40})",
+            "type": "color"
+          },
+          "30": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.tint.l.30})",
+            "type": "color"
+          },
+          "20": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.tint.l.20})",
+            "type": "color"
+          },
+          "10": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.tint.l.10})",
+            "type": "color"
+          },
+          "0": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.tint.l.0})",
+            "type": "color"
+          }
+        },
+        "shades": {
+          "90": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.shade.l.110})",
+            "type": "color"
+          },
+          "80": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.shade.l.120})",
+            "type": "color"
+          },
+          "70": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.shade.l.130})",
+            "type": "color"
+          },
+          "60": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.shade.l.140})",
+            "type": "color"
+          },
+          "50": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.shade.l.150})",
+            "type": "color"
+          },
+          "40": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.shade.l.160})",
+            "type": "color"
+          },
+          "30": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.shade.l.170})",
+            "type": "color"
+          },
+          "20": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.shade.l.180})",
+            "type": "color"
+          },
+          "10": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.shade.l.190})",
+            "type": "color"
+          },
+          "0": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.shade.l.200})",
+            "type": "color"
+          }
+        },
+        "neutrals": {
+          "140": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.140})",
+            "type": "color"
+          },
+          "130": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.130})",
+            "type": "color"
+          },
+          "120": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.120})",
+            "type": "color"
+          },
+          "110": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.110})",
+            "type": "color"
+          },
+          "100": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.100})",
+            "type": "color"
+          },
+          "90": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.90})",
+            "type": "color"
+          },
+          "80": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.80})",
+            "type": "color"
+          },
+          "70": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.70})",
+            "type": "color"
+          },
+          "60": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.60})",
+            "type": "color"
+          },
+          "50": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.50})",
+            "type": "color"
+          },
+          "40": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.40})",
+            "type": "color"
+          },
+          "30": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.30})",
+            "type": "color"
+          },
+          "20": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.20})",
+            "type": "color"
+          },
+          "10": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.10})",
+            "type": "color"
+          },
+          "5": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.base}, {color-palette.decompose.neutral.l.5})",
+            "type": "color"
+          }
+        }
+      },
+      "darkmode": {
+        "tints": {
+          "90": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.tint.l.90})",
+            "type": "color"
+          },
+          "80": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.tint.l.80})",
+            "type": "color"
+          },
+          "70": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.tint.l.70})",
+            "type": "color"
+          },
+          "60": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.tint.l.60})",
+            "type": "color"
+          },
+          "50": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.tint.l.50})",
+            "type": "color"
+          },
+          "40": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.tint.l.40})",
+            "type": "color"
+          },
+          "30": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.tint.l.30})",
+            "type": "color"
+          },
+          "20": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.tint.l.20})",
+            "type": "color"
+          },
+          "10": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.tint.l.10})",
+            "type": "color"
+          },
+          "0": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.tint.l.0})",
+            "type": "color"
+          }
+        },
+        "shades": {
+          "90": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.shade.l.110})",
+            "type": "color"
+          },
+          "80": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.shade.l.120})",
+            "type": "color"
+          },
+          "70": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.shade.l.130})",
+            "type": "color"
+          },
+          "60": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.shade.l.140})",
+            "type": "color"
+          },
+          "50": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.shade.l.150})",
+            "type": "color"
+          },
+          "40": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.shade.l.160})",
+            "type": "color"
+          },
+          "30": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.shade.l.170})",
+            "type": "color"
+          },
+          "20": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.shade.l.180})",
+            "type": "color"
+          },
+          "10": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.shade.l.190})",
+            "type": "color"
+          },
+          "0": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.shade.l.200})",
+            "type": "color"
+          }
+        },
+        "neutrals": {
+          "140": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.140})",
+            "type": "color"
+          },
+          "130": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.130})",
+            "type": "color"
+          },
+          "120": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.120})",
+            "type": "color"
+          },
+          "110": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.110})",
+            "type": "color"
+          },
+          "100": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.100})",
+            "type": "color"
+          },
+          "90": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.90})",
+            "type": "color"
+          },
+          "80": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.80})",
+            "type": "color"
+          },
+          "70": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.70})",
+            "type": "color"
+          },
+          "60": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.60})",
+            "type": "color"
+          },
+          "50": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.50})",
+            "type": "color"
+          },
+          "40": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.40})",
+            "type": "color"
+          },
+          "30": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.30})",
+            "type": "color"
+          },
+          "20": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.20})",
+            "type": "color"
+          },
+          "10": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.10})",
+            "type": "color"
+          },
+          "5": {
+            "value": "hsl({color-palette.colorHSL.h.base}, {color-palette.colorHSL.s.darkmode}, {color-palette.decompose.neutral.l.5})",
+            "type": "color"
           }
         }
       }
