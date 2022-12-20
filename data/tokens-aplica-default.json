@@ -664,63 +664,63 @@
         },
         "neutral": {
           "5": {
-            "value": "#FFEEF4",
+            "value": "#FEF0F5",
             "type": "color"
           },
           "10": {
-            "value": "#FBE2EB",
+            "value": "#FCE2EB",
             "type": "color"
           },
           "20": {
-            "value": "#F6C5D6",
+            "value": "#FAC4D7",
             "type": "color"
           },
           "30": {
-            "value": "#F2A8C2",
+            "value": "#F7A7C3",
             "type": "color"
           },
           "40": {
-            "value": "#EE8BAD",
+            "value": "#F58AAF",
             "type": "color"
           },
           "50": {
-            "value": "#EA6E99",
+            "value": "#F26D9C",
             "type": "color"
           },
           "60": {
-            "value": "#E55185",
+            "value": "#F04F88",
             "type": "color"
           },
           "70": {
-            "value": "#E13470",
+            "value": "#ED3274",
             "type": "color"
           },
           "80": {
-            "value": "#D41F5F",
+            "value": "#EB1560",
             "type": "color"
           },
           "90": {
-            "value": "#B71B52",
+            "value": "#CE1254",
             "type": "color"
           },
           "100": {
-            "value": "#9A1745",
+            "value": "#B10F48",
             "type": "color"
           },
           "110": {
-            "value": "#7D1238",
+            "value": "#940D3C",
             "type": "color"
           },
           "120": {
-            "value": "#600E2B",
+            "value": "#760A30",
             "type": "color"
           },
           "130": {
-            "value": "#430A1E",
+            "value": "#590824",
             "type": "color"
           },
           "140": {
-            "value": "#2C0714",
+            "value": "#44061C",
             "type": "color"
           }
         }
@@ -2003,18 +2003,18 @@
             "saturation": {
               "mode": {
                 "light": {
-                  "value": "{_helper-color-palette.colorHSL.s.base} * 0.75",
+                  "value": "{_helper-color-palette.colorHSL.s.base} * 0.85",
                   "type": "other"
                 },
                 "dark": {
-                  "value": "{_helper-color-palette.colorHSL.s.base} * 0.85",
+                  "value": "{_helper-color-palette.colorHSL.s.base} * 0.6",
                   "type": "other"
                 }
               }
             }
           },
           "darkmodeSaturation": {
-            "value": "0.75",
+            "value": "0.6",
             "type": "other"
           }
         }
@@ -2023,43 +2023,43 @@
         "tint": {
           "l": {
             "0": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + (5 * 10)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + (100 - {_helper-color-palette.colorHSL.l.base})",
               "type": "other"
             },
             "10": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + (5 * 9)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.9)",
               "type": "other"
             },
             "20": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + (5 * 8)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.8)",
               "type": "other"
             },
             "30": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + (5 * 7)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.7)",
               "type": "other"
             },
             "40": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + (5 * 6)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.6)",
               "type": "other"
             },
             "50": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + (5 * 5)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.5)",
               "type": "other"
             },
             "60": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + (5 * 4)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.4)",
               "type": "other"
             },
             "70": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + (5 * 3)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.3)",
               "type": "other"
             },
             "80": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + (5 * 2)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.2)",
               "type": "other"
             },
             "90": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + (5 * 1)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.1)",
               "type": "other"
             }
           }
@@ -2067,43 +2067,43 @@
         "shade": {
           "l": {
             "110": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - (5 * 1)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.1)",
               "type": "other"
             },
             "120": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - (5 * 2)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.2)",
               "type": "other"
             },
             "130": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - (5 * 3)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.3)",
               "type": "other"
             },
             "140": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - (5 * 4)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.4)",
               "type": "other"
             },
             "150": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - (5 * 5)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.5)",
               "type": "other"
             },
             "160": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - (5 * 6)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.6)",
               "type": "other"
             },
             "170": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - (5 * 7)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.7)",
               "type": "other"
             },
             "180": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - (5 * 8)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.8)",
               "type": "other"
             },
             "190": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - (5 * 9)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.9)",
               "type": "other"
             },
             "200": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - (5 * 10)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - (100 - {_helper-color-palette.colorHSL.l.base})",
               "type": "other"
             }
           }
@@ -2324,6 +2324,28 @@
               "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.140})",
               "type": "color"
             }
+          },
+          "interaction": {
+            "darkest": {
+              "value": "{_helper-color-palette.colors.lightmode.shades.20}",
+              "type": "color"
+            },
+            "action": {
+              "value": "{_helper-color-palette.colors.lightmode.shades.70}",
+              "type": "color"
+            },
+            "default": {
+              "value": "{_helper-color-palette.colorHSL.hsl}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{_helper-color-palette.colors.lightmode.tints.60}",
+              "type": "color"
+            },
+            "lightest": {
+              "value": "{_helper-color-palette.colors.lightmode.tints.10}",
+              "type": "color"
+            }
           }
         },
         "darkmode": {
@@ -2471,6 +2493,28 @@
             "140": {
               "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.140})",
               "type": "color"
+            },
+            "interaction": {
+              "darkest": {
+                "value": "{_helper-color-palette.colors.darkmode.shades.20}",
+                "type": "color"
+              },
+              "action": {
+                "value": "{_helper-color-palette.colors.darkmode.shades.70}",
+                "type": "color"
+              },
+              "default": {
+                "value": "{_helper-color-palette.colorHSL.hsl}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{_helper-color-palette.colors.darkmode.tints.60}",
+                "type": "color"
+              },
+              "lightest": {
+                "value": "{_helper-color-palette.colors.darkmode.tints.10}",
+                "type": "color"
+              }
             }
           }
         }
