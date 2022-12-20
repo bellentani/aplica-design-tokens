@@ -61,50 +61,6 @@
     "decompose": {
       "tint": {
         "l": {
-          "0": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 10)",
-            "type": "other"
-          },
-          "10": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 9)",
-            "type": "other"
-          },
-          "20": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 8)",
-            "type": "other"
-          },
-          "30": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 7)",
-            "type": "other"
-          },
-          "40": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 6)",
-            "type": "other"
-          },
-          "50": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 5)",
-            "type": "other"
-          },
-          "60": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 4)",
-            "type": "other"
-          },
-          "70": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 3)",
-            "type": "other"
-          },
-          "80": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 2)",
-            "type": "other"
-          },
-          "90": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 1)",
-            "type": "other"
-          }
-        }
-      },
-      "shade": {
-        "l": {
           "110": {
             "value": "{_helper-color-scheme.colorHSL.l.base} + (((100 - {_helper-color-scheme.colorHSL.l.base}) / 10) * 1)",
             "type": "other"
@@ -143,6 +99,50 @@
           },
           "200": {
             "value": "{_helper-color-scheme.colorHSL.l.base} + (((100 - {_helper-color-scheme.colorHSL.l.base}) / 10) * 10)",
+            "type": "other"
+          }
+        }
+      },
+      "shade": {
+        "l": {
+          "0": {
+            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 10)",
+            "type": "other"
+          },
+          "10": {
+            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 9)",
+            "type": "other"
+          },
+          "20": {
+            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 8)",
+            "type": "other"
+          },
+          "30": {
+            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 7)",
+            "type": "other"
+          },
+          "40": {
+            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 6)",
+            "type": "other"
+          },
+          "50": {
+            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 5)",
+            "type": "other"
+          },
+          "60": {
+            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 4)",
+            "type": "other"
+          },
+          "70": {
+            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 3)",
+            "type": "other"
+          },
+          "80": {
+            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 2)",
+            "type": "other"
+          },
+          "90": {
+            "value": "{_helper-color-scheme.colorHSL.l.base} - (((0 + {_helper-color-scheme.colorHSL.l.base}) / 10) * 1)",
             "type": "other"
           }
         }
