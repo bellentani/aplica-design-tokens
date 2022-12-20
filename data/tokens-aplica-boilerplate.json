@@ -414,6 +414,36 @@
           }
         }
       }
+    },
+    "opacity": {
+      "transparent": {
+        "value": "0%",
+        "type": "opacity"
+      },
+      "superTransparent": {
+        "value": "10%",
+        "type": "opacity"
+      },
+      "semiTranslucid": {
+        "value": "25%",
+        "type": "opacity"
+      },
+      "translucid": {
+        "value": "50%",
+        "type": "opacity"
+      },
+      "superTranslucid": {
+        "value": "75%",
+        "type": "opacity"
+      },
+      "semiOpaque": {
+        "value": "90%",
+        "type": "opacity"
+      },
+      "opaque": {
+        "value": "100%",
+        "type": "opacity"
+      }
     }
   },
   "_helper-color-palette": {
