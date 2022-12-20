@@ -66,39 +66,39 @@
             "type": "other"
           },
           "10": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.9)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * (9/10)",
             "type": "other"
           },
           "20": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.8)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * (8/10))",
             "type": "other"
           },
           "30": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.7)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * (7/10))",
             "type": "other"
           },
           "40": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.6)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * (6/10))",
             "type": "other"
           },
           "50": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.5)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * (5/10))",
             "type": "other"
           },
           "60": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.4)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * (4/10))",
             "type": "other"
           },
           "70": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.3)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * (3/10))",
             "type": "other"
           },
           "80": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.2)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * (3/10))",
             "type": "other"
           },
           "90": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.1)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * (1/10))",
             "type": "other"
           }
         }
@@ -106,39 +106,39 @@
       "shade": {
         "l": {
           "110": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.1)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * (1/10))",
             "type": "other"
           },
           "120": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.2)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * (2/10))",
             "type": "other"
           },
           "130": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.3)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * (3/10))",
             "type": "other"
           },
           "140": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.4)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * (4/10))",
             "type": "other"
           },
           "150": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.5)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * (5/10))",
             "type": "other"
           },
           "160": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.6)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * (6/10))",
             "type": "other"
           },
           "170": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.7)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * (7/10))",
             "type": "other"
           },
           "180": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.8)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * (8/10))",
             "type": "other"
           },
           "190": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.9)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} - ((100 - {_helper-color-scheme.colorHSL.l.base}) * (9/10))",
             "type": "other"
           },
           "200": {
