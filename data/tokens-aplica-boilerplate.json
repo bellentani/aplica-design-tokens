@@ -114,63 +114,63 @@
         },
         "neutral": {
           "5": {
-            "value": "#FFEEF4",
+            "value": "#FDF1F5",
             "type": "color"
           },
           "10": {
-            "value": "#FBE2EB",
+            "value": "#FBE3EC",
             "type": "color"
           },
           "20": {
-            "value": "#F6C5D6",
+            "value": "#F7C8D8",
             "type": "color"
           },
           "30": {
-            "value": "#F2A8C2",
+            "value": "#F3ACC5",
             "type": "color"
           },
           "40": {
-            "value": "#EE8BAD",
+            "value": "#EF90B1",
             "type": "color"
           },
           "50": {
-            "value": "#EA6E99",
+            "value": "#EB759E",
             "type": "color"
           },
           "60": {
-            "value": "#E55185",
+            "value": "#E6598A",
             "type": "color"
           },
           "70": {
-            "value": "#E13470",
+            "value": "#E23D77",
             "type": "color"
           },
           "80": {
-            "value": "#D41F5F",
+            "value": "#DE2264",
             "type": "color"
           },
           "90": {
-            "value": "#B71B52",
+            "value": "#C31D57",
             "type": "color"
           },
           "100": {
-            "value": "#9A1745",
+            "value": "#A7194B",
             "type": "color"
           },
           "110": {
-            "value": "#7D1238",
+            "value": "#8C153E",
             "type": "color"
           },
           "120": {
-            "value": "#600E2B",
+            "value": "#701132",
             "type": "color"
           },
           "130": {
-            "value": "#430A1E",
+            "value": "#540C26",
             "type": "color"
           },
           "140": {
-            "value": "#2C0714",
+            "value": "#400A1D",
             "type": "color"
           }
         }
@@ -805,6 +805,28 @@
               "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.140})",
               "type": "color"
             }
+          },
+          "interaction": {
+            "darkest": {
+              "value": "{_helper-color-palette.colors.lightmode.shades.20}",
+              "type": "color"
+            },
+            "action": {
+              "value": "{_helper-color-palette.colors.lightmode.shades.70}",
+              "type": "color"
+            },
+            "default": {
+              "value": "{_helper-color-palette.colorHSL.hsl}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{_helper-color-palette.colors.lightmode.shades.60}",
+              "type": "color"
+            },
+            "lightest": {
+              "value": "{_helper-color-palette.colors.lightmode.tints.10}",
+              "type": "color"
+            }
           }
         },
         "darkmode": {
@@ -952,6 +974,28 @@
             "140": {
               "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.140})",
               "type": "color"
+            },
+            "interaction": {
+              "darkest": {
+                "value": "{_helper-color-palette.colors.darkmode.shades.20}",
+                "type": "color"
+              },
+              "action": {
+                "value": "{_helper-color-palette.colors.darkmode.shades.70}",
+                "type": "color"
+              },
+              "default": {
+                "value": "{_helper-color-palette.colorHSL.hsl}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{_helper-color-palette.colors.darkmode.shades.60}",
+                "type": "color"
+              },
+              "lightest": {
+                "value": "{_helper-color-palette.colors.darkmode.tints.10}",
+                "type": "color"
+              }
             }
           }
         }
