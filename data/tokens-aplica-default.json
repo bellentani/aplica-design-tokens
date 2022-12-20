@@ -729,24 +729,24 @@
         "function": {
           "primary": {
             "darkest": {
-              "value": "#380014",
+              "value": "#570A25",
               "type": "color"
             },
             "action": {
-              "value": "#960b2f",
+              "value": "#BD1651",
               "type": "color"
             },
             "default": {
-              "value": "#d60f43",
+              "value": "#E73271",
               "type": "color",
               "description": "Primary action color, use on links, buttons and main interactions."
             },
             "active": {
-              "value": "#f46188",
+              "value": "#F184AA",
               "type": "color"
             },
             "lightest": {
-              "value": "#fde5eb",
+              "value": "#FDEAF1",
               "type": "color"
             }
           },
