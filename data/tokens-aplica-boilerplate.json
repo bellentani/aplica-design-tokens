@@ -454,11 +454,11 @@
             "saturation": {
               "mode": {
                 "light": {
-                  "value": "0.75",
+                  "value": "{_helper-color-palette.colorHSL.s.base} * 0.75",
                   "type": "other"
                 },
                 "dark": {
-                  "value": "0.85",
+                  "value": "{_helper-color-palette.colorHSL.s.base} * 0.85",
                   "type": "other"
                 }
               }
@@ -716,63 +716,63 @@
           },
           "neutrals": {
             "5": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.5})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.5})",
               "type": "color"
             },
             "10": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.10})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.10})",
               "type": "color"
             },
             "20": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.20})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.20})",
               "type": "color"
             },
             "30": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.30})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.30})",
               "type": "color"
             },
             "40": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.40})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.40})",
               "type": "color"
             },
             "50": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.50})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.50})",
               "type": "color"
             },
             "60": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.60})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.60})",
               "type": "color"
             },
             "70": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.70})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.70})",
               "type": "color"
             },
             "80": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.80})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.80})",
               "type": "color"
             },
             "90": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.90})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.90})",
               "type": "color"
             },
             "100": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.100})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.100})",
               "type": "color"
             },
             "110": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.110})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.110})",
               "type": "color"
             },
             "120": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.120})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.120})",
               "type": "color"
             },
             "130": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.130})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.130})",
               "type": "color"
             },
             "140": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}), {_helper-color-palette.decompose.neutral.l.140})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.light}, {_helper-color-palette.decompose.neutral.l.140})",
               "type": "color"
             }
           }
@@ -864,63 +864,63 @@
           },
           "neutrals": {
             "5": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.5})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.5})",
               "type": "color"
             },
             "10": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.10})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.10})",
               "type": "color"
             },
             "20": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.20})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.20})",
               "type": "color"
             },
             "30": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.30})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.30})",
               "type": "color"
             },
             "40": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.40})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.40})",
               "type": "color"
             },
             "50": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.50})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.50})",
               "type": "color"
             },
             "60": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.60})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.60})",
               "type": "color"
             },
             "70": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.70})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.70})",
               "type": "color"
             },
             "80": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.80})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.80})",
               "type": "color"
             },
             "90": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.90})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.90})",
               "type": "color"
             },
             "100": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.100})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.100})",
               "type": "color"
             },
             "110": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.110})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.110})",
               "type": "color"
             },
             "120": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.120})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.120})",
               "type": "color"
             },
             "130": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.130})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.130})",
               "type": "color"
             },
             "140": {
-              "value": "hsl({_helper-color-palette.colorHSL.h.base}, ({_helper-color-palette.colorHSL.s.base} * {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}), {_helper-color-palette.decompose.neutral.l.140})",
+              "value": "hsl({_helper-color-palette.colorHSL.h.base}, {_helper-color-palette.colorHSL.variables.neutral.saturation.mode.dark}, {_helper-color-palette.decompose.neutral.l.140})",
               "type": "color"
             }
           }
