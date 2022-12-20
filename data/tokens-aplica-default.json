@@ -793,6 +793,28 @@
               "value": "#f4eff6",
               "type": "color"
             }
+          },
+          "link": {
+            "darkest": {
+              "value": "#00082a",
+              "type": "color"
+            },
+            "action": {
+              "value": "#001c93",
+              "type": "color"
+            },
+            "default": {
+              "value": "#0028d2",
+              "type": "color"
+            },
+            "active": {
+              "value": "#4b6dff",
+              "type": "color"
+            },
+            "lightest": {
+              "value": "#e1e7ff",
+              "type": "color"
+            }
           }
         },
         "feedback": {
