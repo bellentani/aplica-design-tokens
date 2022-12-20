@@ -94,7 +94,7 @@
             "type": "other"
           },
           "80": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * (3/10))",
+            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * (2/10))",
             "type": "other"
           },
           "90": {
