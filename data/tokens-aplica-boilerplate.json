@@ -484,18 +484,18 @@
             "saturation": {
               "mode": {
                 "light": {
-                  "value": "{_helper-color-palette.colorHSL.s.base} * 0.75",
+                  "value": "{_helper-color-palette.colorHSL.s.base} * 0.85",
                   "type": "other"
                 },
                 "dark": {
-                  "value": "{_helper-color-palette.colorHSL.s.base} * 0.85",
+                  "value": "{_helper-color-palette.colorHSL.s.base} * 0.6",
                   "type": "other"
                 }
               }
             }
           },
           "darkmodeSaturation": {
-            "value": "0.75",
+            "value": "0.6",
             "type": "other"
           }
         }
