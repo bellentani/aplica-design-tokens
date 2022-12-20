@@ -820,7 +820,7 @@
               "type": "color"
             },
             "active": {
-              "value": "{_helper-color-palette.colors.lightmode.shades.60}",
+              "value": "{_helper-color-palette.colors.lightmode.tints.60}",
               "type": "color"
             },
             "lightest": {
@@ -989,7 +989,7 @@
                 "type": "color"
               },
               "active": {
-                "value": "{_helper-color-palette.colors.darkmode.shades.60}",
+                "value": "{_helper-color-palette.colors.darkmode.tints.60}",
                 "type": "color"
               },
               "lightest": {
