@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
     "global",
-    "_helper-color-palette"
+    "_helper-color-palette",
+    "_color-palette"
   ]
 }
