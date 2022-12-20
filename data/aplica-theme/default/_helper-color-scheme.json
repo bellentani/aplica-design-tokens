@@ -142,7 +142,7 @@
             "type": "other"
           },
           "200": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} - (100 - {_helper-color-scheme.colorHSL.l.base})",
+            "value": "{_helper-color-scheme.colorHSL.l.base} + (100 - {_helper-color-scheme.colorHSL.l.base})",
             "type": "other"
           }
         }
