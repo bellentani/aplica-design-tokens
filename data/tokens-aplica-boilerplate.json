@@ -504,43 +504,43 @@
         "tint": {
           "l": {
             "0": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - (100 - {_helper-color-palette.colorHSL.l.base})",
+              "value": "{_helper-color-palette.colorHSL.l.base} + (100 - {_helper-color-palette.colorHSL.l.base})",
               "type": "other"
             },
             "10": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.9)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.9)",
               "type": "other"
             },
             "20": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.8)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.8)",
               "type": "other"
             },
             "30": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.7)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.7)",
               "type": "other"
             },
             "40": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.6)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.6)",
               "type": "other"
             },
             "50": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.5)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.5)",
               "type": "other"
             },
             "60": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.4)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.4)",
               "type": "other"
             },
             "70": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.3)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.3)",
               "type": "other"
             },
             "80": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.2)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.2)",
               "type": "other"
             },
             "90": {
-              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.1)",
+              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.1)",
               "type": "other"
             }
           }
@@ -548,43 +548,43 @@
         "shade": {
           "l": {
             "110": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.1)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.1)",
               "type": "other"
             },
             "120": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.2)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.2)",
               "type": "other"
             },
             "130": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.3)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.3)",
               "type": "other"
             },
             "140": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.4)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.4)",
               "type": "other"
             },
             "150": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.5)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.5)",
               "type": "other"
             },
             "160": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.6)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.6)",
               "type": "other"
             },
             "170": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.7)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.7)",
               "type": "other"
             },
             "180": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.8)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.8)",
               "type": "other"
             },
             "190": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.9)",
+              "value": "{_helper-color-palette.colorHSL.l.base} - ((100 - {_helper-color-palette.colorHSL.l.base}) * 0.9)",
               "type": "other"
             },
             "200": {
-              "value": "{_helper-color-palette.colorHSL.l.base} + (100 - {_helper-color-palette.colorHSL.l.base})",
+              "value": "{_helper-color-palette.colorHSL.l.base} - (100 - {_helper-color-palette.colorHSL.l.base})",
               "type": "other"
             }
           }
