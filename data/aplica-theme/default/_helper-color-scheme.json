@@ -374,7 +374,7 @@
             "type": "color"
           },
           "default": {
-            "value": "{_helper-color-scheme.colorHSL.hsl}",
+            "value": "{_helper-color-scheme.colorHSL.hsla}",
             "type": "color"
           },
           "active": {
@@ -543,7 +543,7 @@
               "type": "color"
             },
             "default": {
-              "value": "{_helper-color-scheme.colorHSL.hsl}",
+              "value": "{_helper-color-scheme.colorHSL.hsla}",
               "type": "color"
             },
             "active": {
