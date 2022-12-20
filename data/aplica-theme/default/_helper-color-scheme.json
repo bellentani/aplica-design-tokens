@@ -62,7 +62,7 @@
       "tint": {
         "l": {
           "0": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} + (100 - {_helper-color-scheme.colorHSL.l.base})",
+            "value": "100",
             "type": "other"
           },
           "10": {
@@ -98,7 +98,7 @@
             "type": "other"
           },
           "90": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * 0.1)",
+            "value": "0",
             "type": "other"
           }
         }
@@ -142,7 +142,7 @@
             "type": "other"
           },
           "200": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} + (100 - {_helper-color-scheme.colorHSL.l.base})",
+            "value": "{_helper-color-scheme.colorHSL.l.base} - (100 - {_helper-color-scheme.colorHSL.l.base})",
             "type": "other"
           }
         }
