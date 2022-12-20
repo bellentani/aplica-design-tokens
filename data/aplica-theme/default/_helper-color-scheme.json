@@ -66,7 +66,7 @@
             "type": "other"
           },
           "10": {
-            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * (9/10)",
+            "value": "{_helper-color-scheme.colorHSL.l.base} + ((100 - {_helper-color-scheme.colorHSL.l.base}) * (9/10))",
             "type": "other"
           },
           "20": {
