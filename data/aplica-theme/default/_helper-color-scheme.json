@@ -30,7 +30,7 @@
         }
       },
       "hsla": {
-        "value": "hsla({_helper-color-scheme.colorHSL.h.base}, {_helper-color-scheme.colorHSL.s.base}, {_helper-color-scheme.colorHSL.l.base}), {_helper-color-scheme.colorHSL.a.base})",
+        "value": "hsla({_helper-color-scheme.colorHSL.h.base}, {_helper-color-scheme.colorHSL.s.base}, {_helper-color-scheme.colorHSL.l.base}, {_helper-color-scheme.colorHSL.a.base})",
         "type": "color"
       },
       "variables": {
