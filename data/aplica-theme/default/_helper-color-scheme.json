@@ -254,10 +254,6 @@
           "10": {
             "value": "hsla({_helper-color-scheme.colorHSL.h.base}, {_helper-color-scheme.colorHSL.s.base}%, {_helper-color-scheme.decompose.tint.l.10}%, {_helper-color-scheme.colorHSL.a.base})",
             "type": "color"
-          },
-          "0": {
-            "value": "hsla({_helper-color-scheme.colorHSL.h.base}, {_helper-color-scheme.colorHSL.s.base}%, {_helper-color-scheme.decompose.tint.l.0}%, {_helper-color-scheme.colorHSL.a.base})",
-            "type": "color"
           }
         },
         "shades": {
@@ -295,10 +291,6 @@
           },
           "10": {
             "value": "hsla({_helper-color-scheme.colorHSL.h.base}, {_helper-color-scheme.colorHSL.s.base}%, {_helper-color-scheme.decompose.shade.l.190}%, {_helper-color-scheme.colorHSL.a.base})",
-            "type": "color"
-          },
-          "0": {
-            "value": "hsla({_helper-color-scheme.colorHSL.h.base}, {_helper-color-scheme.colorHSL.s.base}%, {_helper-color-scheme.decompose.shade.l.200}%, {_helper-color-scheme.colorHSL.a.base})",
             "type": "color"
           }
         },
@@ -389,10 +381,6 @@
       },
       "darkmode": {
         "tints": {
-          "0": {
-            "value": "hsla({_helper-color-scheme.colorHSL.h.base}, {_helper-color-scheme.colorHSL.s.dark}%, {_helper-color-scheme.decompose.tint.l.0}%, {_helper-color-scheme.colorHSL.a.base})",
-            "type": "color"
-          },
           "10": {
             "value": "hsla({_helper-color-scheme.colorHSL.h.base}, {_helper-color-scheme.colorHSL.s.dark}%, {_helper-color-scheme.decompose.tint.l.10}%, {_helper-color-scheme.colorHSL.a.base})",
             "type": "color"
@@ -431,10 +419,6 @@
           }
         },
         "shades": {
-          "0": {
-            "value": "hsla({_helper-color-scheme.colorHSL.h.base}, {_helper-color-scheme.colorHSL.s.dark}%, {_helper-color-scheme.decompose.shade.l.200}%, {_helper-color-scheme.colorHSL.a.base})",
-            "type": "color"
-          },
           "10": {
             "value": "hsla({_helper-color-scheme.colorHSL.h.base}, {_helper-color-scheme.colorHSL.s.dark}%, {_helper-color-scheme.decompose.shade.l.190}%, {_helper-color-scheme.colorHSL.a.base})",
             "type": "color"
