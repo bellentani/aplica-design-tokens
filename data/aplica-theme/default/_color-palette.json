@@ -146,7 +146,7 @@
             },
             "interaction": {
               "darkest": {
-                "value": "{_color-palette.mode.light.brand.magenta.palette.120}",
+                "value": "{_color-palette.mode.light.brand.magenta.palette.180}",
                 "type": "color"
               },
               "action": {
@@ -1716,7 +1716,7 @@
             },
             "interaction": {
               "darkest": {
-                "value": "{_color-palette.mode.dark.brand.magenta.palette.120}",
+                "value": "{_color-palette.mode.dark.brand.magenta.palette.180}",
                 "type": "color"
               },
               "action": {
