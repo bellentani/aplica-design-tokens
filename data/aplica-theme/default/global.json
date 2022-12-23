@@ -553,15 +553,15 @@
     "brand": {
       "solid": {
         "main": {
-          "value": "{_color-palette.mode.light.brand.radical-red.100}",
+          "value": "{_color-palette.mode.light.brand.radical-red.palette.100}",
           "type": "color"
         },
         "opposite": {
-          "value": "{_color-palette.mode.light.brand.curious-blue.100}",
+          "value": "{_color-palette.mode.light.brand.curious-blue.palette.100}",
           "type": "color"
         },
         "complementary": {
-          "value": "{_color-palette.mode.light.brand.wisteria.100}",
+          "value": "{_color-palette.mode.light.brand.wisteria.palette.100}",
           "type": "color"
         }
       },
