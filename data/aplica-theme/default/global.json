@@ -553,15 +553,15 @@
     "brand": {
       "solid": {
         "main": {
-          "value": "#fe196b",
+          "value": "{_color.palette.light.brand.radical-red.100}",
           "type": "color"
         },
         "opposite": {
-          "value": "#2ca0e1",
+          "value": "{_color.palette.light.brand.curious-blue.100}",
           "type": "color"
         },
         "complementary": {
-          "value": "#955ca6",
+          "value": "{_color.palette.light.brand.wisteria.100}",
           "type": "color"
         }
       },
