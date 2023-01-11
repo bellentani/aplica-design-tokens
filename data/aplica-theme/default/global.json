@@ -724,6 +724,10 @@
         }
       }
     },
+    "mood": {
+      "warm": {},
+      "cold": {}
+    },
     "interaction": {
       "function": {
         "primary": {
