@@ -1,42 +1,4 @@
 {
-  "spacing": {
-    "zero": {
-      "value": "0",
-      "type": "spacing"
-    },
-    "micro": {
-      "value": "4",
-      "type": "spacing"
-    },
-    "extraSmall": {
-      "value": "8",
-      "type": "spacing"
-    },
-    "small": {
-      "value": "12",
-      "type": "spacing"
-    },
-    "medium": {
-      "value": "16",
-      "type": "spacing"
-    },
-    "large": {
-      "value": "28",
-      "type": "spacing"
-    },
-    "extraLarge": {
-      "value": "44",
-      "type": "spacing"
-    },
-    "mega": {
-      "value": "72",
-      "type": "spacing"
-    },
-    "giga": {
-      "value": "116",
-      "type": "spacing"
-    }
-  },
   "size": {
     "zero": {
       "value": "0.01",
@@ -81,6 +43,44 @@
     "giga": {
       "value": "116",
       "type": "sizing"
+    }
+  },
+  "spacing": {
+    "zero": {
+      "value": "0",
+      "type": "spacing"
+    },
+    "micro": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "extraSmall": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "small": {
+      "value": "12",
+      "type": "spacing"
+    },
+    "medium": {
+      "value": "16",
+      "type": "spacing"
+    },
+    "large": {
+      "value": "28",
+      "type": "spacing"
+    },
+    "extraLarge": {
+      "value": "44",
+      "type": "spacing"
+    },
+    "mega": {
+      "value": "72",
+      "type": "spacing"
+    },
+    "giga": {
+      "value": "116",
+      "type": "spacing"
     }
   },
   "border": {
