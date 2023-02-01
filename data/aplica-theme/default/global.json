@@ -1,42 +1,4 @@
 {
-  "spacing": {
-    "zero": {
-      "value": "0",
-      "type": "spacing"
-    },
-    "micro": {
-      "value": "4",
-      "type": "spacing"
-    },
-    "extraSmall": {
-      "value": "8",
-      "type": "spacing"
-    },
-    "small": {
-      "value": "12",
-      "type": "spacing"
-    },
-    "medium": {
-      "value": "16",
-      "type": "spacing"
-    },
-    "large": {
-      "value": "28",
-      "type": "spacing"
-    },
-    "extraLarge": {
-      "value": "44",
-      "type": "spacing"
-    },
-    "mega": {
-      "value": "72",
-      "type": "spacing"
-    },
-    "giga": {
-      "value": "116",
-      "type": "spacing"
-    }
-  },
   "size": {
     "zero": {
       "value": "0.01",
@@ -81,6 +43,44 @@
     "giga": {
       "value": "116",
       "type": "sizing"
+    }
+  },
+  "spacing": {
+    "zero": {
+      "value": "0",
+      "type": "spacing"
+    },
+    "micro": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "extraSmall": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "small": {
+      "value": "12",
+      "type": "spacing"
+    },
+    "medium": {
+      "value": "16",
+      "type": "spacing"
+    },
+    "large": {
+      "value": "28",
+      "type": "spacing"
+    },
+    "extraLarge": {
+      "value": "44",
+      "type": "spacing"
+    },
+    "mega": {
+      "value": "72",
+      "type": "spacing"
+    },
+    "giga": {
+      "value": "116",
+      "type": "spacing"
     }
   },
   "border": {
@@ -553,15 +553,15 @@
     "brand": {
       "solid": {
         "main": {
-          "value": "{_color-palette.mode.light.brand.radical-red.palette.100}",
+          "value": "{_color-palette.mode.light.brand.first.palette.100}",
           "type": "color"
         },
         "opposite": {
-          "value": "{_color-palette.mode.light.brand.curious-blue.palette.100}",
+          "value": "{_color-palette.mode.light.brand.second.palette.100}",
           "type": "color"
         },
         "complementary": {
-          "value": "{_color-palette.mode.light.brand.wisteria.palette.100}",
+          "value": "{_color-palette.mode.light.brand.third.palette.100}",
           "type": "color"
         }
       },
@@ -580,11 +580,11 @@
       "contrast": {
         "base": {
           "dark": {
-            "value": "{_color-palette.mode.light.brand.radical-red.neutrals.140}",
+            "value": "{_color-palette.mode.light.brand.first.neutrals.140}",
             "type": "color"
           },
           "light": {
-            "value": "{_color-palette.mode.light.brand.radical-red.neutrals.5}",
+            "value": "{_color-palette.mode.light.brand.first.neutrals.5}",
             "type": "color"
           }
         },
@@ -663,63 +663,63 @@
       },
       "neutral": {
         "5": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.5}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.5}",
           "type": "color"
         },
         "10": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.10}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.10}",
           "type": "color"
         },
         "20": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.20}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.20}",
           "type": "color"
         },
         "30": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.30}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.30}",
           "type": "color"
         },
         "40": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.40}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.40}",
           "type": "color"
         },
         "50": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.50}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.50}",
           "type": "color"
         },
         "60": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.60}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.60}",
           "type": "color"
         },
         "70": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.70}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.70}",
           "type": "color"
         },
         "80": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.80}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.80}",
           "type": "color"
         },
         "90": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.90}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.90}",
           "type": "color"
         },
         "100": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.100}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.100}",
           "type": "color"
         },
         "110": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.110}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.110}",
           "type": "color"
         },
         "120": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.120}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.120}",
           "type": "color"
         },
         "130": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.130}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.130}",
           "type": "color"
         },
         "140": {
-          "value": "{_color-palette.mode.light.brand.radical-red.neutrals.140}",
+          "value": "{_color-palette.mode.light.brand.first.neutrals.140}",
           "type": "color"
         }
       }
@@ -732,93 +732,93 @@
       "function": {
         "primary": {
           "darkest": {
-            "value": "{_color-palette.mode.light.interaction.function.red-violet.behavior.darkest}",
+            "value": "{_color-palette.mode.light.interaction.function.primary.behavior.darkest}",
             "type": "color"
           },
           "action": {
-            "value": "{_color-palette.mode.light.interaction.function.red-violet.behavior.action}",
+            "value": "{_color-palette.mode.light.interaction.function.primary.behavior.action}",
             "type": "color"
           },
           "default": {
-            "value": "{_color-palette.mode.light.interaction.function.red-violet.behavior.default}",
+            "value": "{_color-palette.mode.light.interaction.function.primary.behavior.default}",
             "type": "color",
             "description": "Primary action color, use on links, buttons and main interactions."
           },
           "active": {
-            "value": "{_color-palette.mode.light.interaction.function.red-violet.behavior.active}",
+            "value": "{_color-palette.mode.light.interaction.function.primary.behavior.active}",
             "type": "color"
           },
           "lightest": {
-            "value": "{_color-palette.mode.light.interaction.function.red-violet.behavior.lightest}",
+            "value": "{_color-palette.mode.light.interaction.function.primary.behavior.lightest}",
             "type": "color"
           }
         },
         "secondary": {
           "darkest": {
-            "value": "{_color-palette.mode.light.interaction.function.denim.behavior.darkest}",
+            "value": "{_color-palette.mode.light.interaction.function.secondary.behavior.darkest}",
             "type": "color"
           },
           "action": {
-            "value": "{_color-palette.mode.light.interaction.function.denim.behavior.action}",
+            "value": "{_color-palette.mode.light.interaction.function.secondary.behavior.action}",
             "type": "color"
           },
           "default": {
-            "value": "{_color-palette.mode.light.interaction.function.denim.behavior.default}",
+            "value": "{_color-palette.mode.light.interaction.function.secondary.behavior.default}",
             "type": "color",
             "description": "Primary action color, use on links, buttons and main interactions."
           },
           "active": {
-            "value": "{_color-palette.mode.light.interaction.function.denim.behavior.active}",
+            "value": "{_color-palette.mode.light.interaction.function.secondary.behavior.active}",
             "type": "color"
           },
           "lightest": {
-            "value": "{_color-palette.mode.light.interaction.function.denim.behavior.lightest}",
+            "value": "{_color-palette.mode.light.interaction.function.secondary.behavior.lightest}",
             "type": "color"
           }
         },
         "tertiary": {
           "darkest": {
-            "value": "{_color-palette.mode.light.interaction.function.purple.behavior.darkest}",
+            "value": "{_color-palette.mode.light.interaction.function.tertiary.behavior.darkest}",
             "type": "color"
           },
           "action": {
-            "value": "{_color-palette.mode.light.interaction.function.purple.behavior.action}",
+            "value": "{_color-palette.mode.light.interaction.function.tertiary.behavior.action}",
             "type": "color"
           },
           "default": {
-            "value": "{_color-palette.mode.light.interaction.function.purple.behavior.default}",
+            "value": "{_color-palette.mode.light.interaction.function.tertiary.behavior.default}",
             "type": "color",
             "description": "Primary action color, use on links, buttons and main interactions."
           },
           "active": {
-            "value": "{_color-palette.mode.light.interaction.function.purple.behavior.active}",
+            "value": "{_color-palette.mode.light.interaction.function.tertiary.behavior.active}",
             "type": "color"
           },
           "lightest": {
-            "value": "{_color-palette.mode.light.interaction.function.purple.behavior.lightest}",
+            "value": "{_color-palette.mode.light.interaction.function.tertiary.behavior.lightest}",
             "type": "color"
           }
         },
         "link": {
           "darkest": {
-            "value": "{_color-palette.mode.light.interaction.function.dark-blue.behavior.darkest}",
+            "value": "{_color-palette.mode.light.interaction.function.link.behavior.darkest}",
             "type": "color"
           },
           "action": {
-            "value": "{_color-palette.mode.light.interaction.function.dark-blue.behavior.action}",
+            "value": "{_color-palette.mode.light.interaction.function.link.behavior.action}",
             "type": "color"
           },
           "default": {
-            "value": "{_color-palette.mode.light.interaction.function.dark-blue.behavior.default}",
+            "value": "{_color-palette.mode.light.interaction.function.link.behavior.default}",
             "type": "color",
             "description": "Primary action color, use on links, buttons and main interactions."
           },
           "active": {
-            "value": "{_color-palette.mode.light.interaction.function.dark-blue.behavior.active}",
+            "value": "{_color-palette.mode.light.interaction.function.link.behavior.active}",
             "type": "color"
           },
           "lightest": {
-            "value": "{_color-palette.mode.light.interaction.function.dark-blue.behavior.lightest}",
+            "value": "{_color-palette.mode.light.interaction.function.link.behavior.lightest}",
             "type": "color"
           }
         }
@@ -826,172 +826,174 @@
       "feedback": {
         "info": {
           "darkest": {
-            "value": "{_color-palette.mode.light.interaction.feedback.cerulean.behavior.darkest}",
+            "value": "{_color-palette.mode.light.interaction.feedback.info.behavior.darkest}",
             "type": "color"
           },
           "action": {
-            "value": "{_color-palette.mode.light.interaction.feedback.cerulean.behavior.action}",
+            "value": "{_color-palette.mode.light.interaction.feedback.info.behavior.action}",
             "type": "color"
           },
           "default": {
-            "value": "{_color-palette.mode.light.interaction.feedback.cerulean.behavior.default}",
+            "value": "{_color-palette.mode.light.interaction.feedback.info.behavior.default}",
             "type": "color",
             "description": "Primary action color, use on links, buttons and main interactions."
           },
           "active": {
-            "value": "{_color-palette.mode.light.interaction.feedback.cerulean.behavior.active}",
+            "value": "{_color-palette.mode.light.interaction.feedback.info.behavior.active}",
             "type": "color"
           },
           "lightest": {
-            "value": "{_color-palette.mode.light.interaction.feedback.cerulean.behavior.lightest}",
+            "value": "{_color-palette.mode.light.interaction.feedback.info.behavior.lightest}",
             "type": "color"
           }
         },
         "success": {
           "darkest": {
-            "value": "{_color-palette.mode.light.interaction.feedback.fun-green.behavior.darkest}",
+            "value": "{_color-palette.mode.light.interaction.feedback.success.behavior.darkest}",
             "type": "color"
           },
           "action": {
-            "value": "{_color-palette.mode.light.interaction.feedback.fun-green.behavior.action}",
+            "value": "{_color-palette.mode.light.interaction.feedback.success.behavior.action}",
             "type": "color"
           },
           "default": {
-            "value": "{_color-palette.mode.light.interaction.feedback.fun-green.behavior.default}",
+            "value": "{_color-palette.mode.light.interaction.feedback.success.behavior.default}",
             "type": "color",
             "description": "Primary action color, use on links, buttons and main interactions."
           },
           "active": {
-            "value": "{_color-palette.mode.light.interaction.feedback.fun-green.behavior.active}",
+            "value": "{_color-palette.mode.light.interaction.feedback.success.behavior.active}",
             "type": "color"
           },
           "lightest": {
-            "value": "{_color-palette.mode.light.interaction.feedback.fun-green.behavior.lightest}",
+            "value": "{_color-palette.mode.light.interaction.feedback.success.behavior.lightest}",
             "type": "color"
           }
         },
         "warning": {
           "darkest": {
-            "value": "{_color-palette.mode.light.interaction.feedback.saffron.behavior.darkest}",
+            "value": "{_color-palette.mode.light.interaction.feedback.warning.behavior.darkest}",
             "type": "color"
           },
           "action": {
-            "value": "{_color-palette.mode.light.interaction.feedback.saffron.behavior.action}",
+            "value": "{_color-palette.mode.light.interaction.feedback.warning.behavior.action}",
             "type": "color"
           },
           "default": {
-            "value": "{_color-palette.mode.light.interaction.feedback.saffron.behavior.default}",
+            "value": "{_color-palette.mode.light.interaction.feedback.warning.behavior.default}",
             "type": "color",
             "description": "Primary action color, use on links, buttons and main interactions."
           },
           "active": {
-            "value": "{_color-palette.mode.light.interaction.feedback.saffron.behavior.active}",
+            "value": "{_color-palette.mode.light.interaction.feedback.warning.behavior.active}",
             "type": "color"
           },
           "lightest": {
-            "value": "{_color-palette.mode.light.interaction.feedback.saffron.behavior.lightest}",
+            "value": "{_color-palette.mode.light.interaction.feedback.warning.behavior.lightest}",
             "type": "color"
           }
         },
         "danger": {
           "darkest": {
-            "value": "{_color-palette.mode.light.interaction.feedback.monza.behavior.darkest}",
+            "value": "{_color-palette.mode.light.interaction.feedback.danger.behavior.darkest}",
             "type": "color"
           },
           "action": {
-            "value": "{_color-palette.mode.light.interaction.feedback.monza.behavior.action}",
+            "value": "{_color-palette.mode.light.interaction.feedback.danger.behavior.action}",
             "type": "color"
           },
           "default": {
-            "value": "{_color-palette.mode.light.interaction.feedback.monza.behavior.default}",
+            "value": "{_color-palette.mode.light.interaction.feedback.danger.behavior.default}",
             "type": "color",
             "description": "Primary action color, use on links, buttons and main interactions."
           },
           "active": {
-            "value": "{_color-palette.mode.light.interaction.feedback.monza.behavior.active}",
+            "value": "{_color-palette.mode.light.interaction.feedback.danger.behavior.active}",
             "type": "color"
           },
           "lightest": {
-            "value": "{_color-palette.mode.light.interaction.feedback.monza.behavior.lightest}",
+            "value": "{_color-palette.mode.light.interaction.feedback.danger.behavior.lightest}",
             "type": "color"
           }
         }
       }
     },
     "text": {
-      "base": {
+      "text": {
         "positive": {
-          "title": {
-            "value": "{color.ambient.grayscale.80}",
-            "type": "color"
+          "base": {
+            "title": {
+              "value": "{color.ambient.grayscale.80}",
+              "type": "color"
+            },
+            "body": {
+              "value": "{color.ambient.grayscale.80}",
+              "type": "color"
+            },
+            "muted": {
+              "value": "{color.ambient.grayscale.50}",
+              "type": "color"
+            },
+            "labels": {
+              "value": "{color.ambient.grayscale.90}",
+              "type": "color"
+            }
           },
-          "body": {
-            "value": "{color.ambient.grayscale.80}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{color.ambient.grayscale.50}",
-            "type": "color"
-          },
-          "labels": {
-            "value": "{color.ambient.grayscale.90}",
-            "type": "color"
+          "feedback": {
+            "info": {
+              "value": "{color.interaction.feedback.info.action}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{color.interaction.feedback.success.action}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{color.interaction.feedback.warning.action}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{color.interaction.feedback.danger.action}",
+              "type": "color"
+            }
           }
         },
         "negative": {
-          "title": {
-            "value": "{color.ambient.grayscale.20}",
-            "type": "color"
+          "base": {
+            "title": {
+              "value": "{color.ambient.grayscale.20}",
+              "type": "color"
+            },
+            "body": {
+              "value": "{color.ambient.grayscale.20}",
+              "type": "color"
+            },
+            "muted": {
+              "value": "{color.ambient.grayscale.40}",
+              "type": "color"
+            },
+            "labels": {
+              "value": "{color.ambient.grayscale.20}",
+              "type": "color"
+            }
           },
-          "body": {
-            "value": "{color.ambient.grayscale.20}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{color.ambient.grayscale.40}",
-            "type": "color"
-          },
-          "labels": {
-            "value": "{color.ambient.grayscale.20}",
-            "type": "color"
-          }
-        }
-      },
-      "feedback": {
-        "positive": {
-          "info": {
-            "value": "{color.interaction.feedback.info.action}",
-            "type": "color"
-          },
-          "success": {
-            "value": "{color.interaction.feedback.success.action}",
-            "type": "color"
-          },
-          "warning": {
-            "value": "{color.interaction.feedback.warning.action}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{color.interaction.feedback.danger.action}",
-            "type": "color"
-          }
-        },
-        "negative": {
-          "info": {
-            "value": "{color.interaction.feedback.info.action}",
-            "type": "color"
-          },
-          "success": {
-            "value": "{color.interaction.feedback.success.action}",
-            "type": "color"
-          },
-          "warning": {
-            "value": "{color.interaction.feedback.warning.action}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{color.interaction.feedback.danger.action}",
-            "type": "color"
+          "feedback": {
+            "info": {
+              "value": "{color.interaction.feedback.info.action}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{color.interaction.feedback.success.action}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{color.interaction.feedback.warning.action}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{color.interaction.feedback.danger.action}",
+              "type": "color"
+            }
           }
         }
       }
