@@ -444,6 +444,52 @@
             }
           }
         }
+      },
+      "mood": {
+        "warm": {
+          "darkest": {
+            "value": "{_color-palette.mode.light.mood.amaranth.behavior.darkest}",
+            "type": "color"
+          },
+          "action": {
+            "value": "{_color-palette.mode.light.mood.amaranth.behavior.action}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{_color-palette.mode.light.mood.amaranth.behavior.default}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{_color-palette.mode.light.mood.amaranth.behavior.active}",
+            "type": "color"
+          },
+          "lightest": {
+            "value": "{_color-palette.mode.light.mood.amaranth.behavior.lightest}",
+            "type": "color"
+          }
+        },
+        "cold": {
+          "darkest": {
+            "value": "{_color-palette.mode.light.mood.turquoise-blue.behavior.darkest}",
+            "type": "color"
+          },
+          "action": {
+            "value": "{_color-palette.mode.light.mood.turquoise-blue.behavior.action}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{_color-palette.mode.light.mood.turquoise-blue.behavior.default}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{_color-palette.mode.light.mood.turquoise-blue.behavior.active}",
+            "type": "color"
+          },
+          "lightest": {
+            "value": "{_color-palette.mode.light.mood.turquoise-blue.behavior.lightest}",
+            "type": "color"
+          }
+        }
       }
     },
     "opacity": {
