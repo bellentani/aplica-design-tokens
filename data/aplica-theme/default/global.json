@@ -1241,86 +1241,84 @@
       }
     },
     "text": {
-      "text": {
-        "positive": {
-          "base": {
-            "title": {
-              "value": "{color.ambient.grayscale.80}",
-              "type": "color"
-            },
-            "body": {
-              "value": "{color.ambient.grayscale.80}",
-              "type": "color"
-            },
-            "muted": {
-              "value": "{color.ambient.grayscale.50}",
-              "type": "color"
-            },
-            "labels": {
-              "value": "{color.ambient.grayscale.90}",
-              "type": "color"
-            }
+      "positive": {
+        "base": {
+          "title": {
+            "value": "{color.ambient.grayscale.80}",
+            "type": "color"
           },
-          "feedback": {
-            "info": {
-              "value": "{color.interaction.feedback.info.action}",
-              "type": "color"
-            },
-            "success": {
-              "value": "{color.interaction.feedback.success.action}",
-              "type": "color"
-            },
-            "warning": {
-              "value": "{color.interaction.feedback.warning.action}",
-              "type": "color"
-            },
-            "error": {
-              "value": "{color.interaction.feedback.danger.action}",
-              "type": "color"
-            }
+          "body": {
+            "value": "{color.ambient.grayscale.80}",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{color.ambient.grayscale.50}",
+            "type": "color"
+          },
+          "labels": {
+            "value": "{color.ambient.grayscale.90}",
+            "type": "color"
           }
         },
-        "negative": {
-          "base": {
-            "title": {
-              "value": "{color.ambient.grayscale.20}",
-              "type": "color"
-            },
-            "body": {
-              "value": "{color.ambient.grayscale.20}",
-              "type": "color"
-            },
-            "muted": {
-              "value": "{color.ambient.grayscale.40}",
-              "type": "color"
-            },
-            "labels": {
-              "value": "{color.ambient.grayscale.20}",
-              "type": "color"
-            }
+        "feedback": {
+          "info": {
+            "value": "{color.interaction.feedback.info.action}",
+            "type": "color"
           },
-          "feedback": {
-            "info": {
-              "value": "{color.interaction.feedback.info.action}",
-              "type": "color"
-            },
-            "success": {
-              "value": "{color.interaction.feedback.success.action}",
-              "type": "color"
-            },
-            "warning": {
-              "value": "{color.interaction.feedback.warning.action}",
-              "type": "color"
-            },
-            "error": {
-              "value": "{color.interaction.feedback.danger.action}",
-              "type": "color"
-            }
+          "success": {
+            "value": "{color.interaction.feedback.success.action}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{color.interaction.feedback.warning.action}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{color.interaction.feedback.danger.action}",
+            "type": "color"
+          }
+        }
+      },
+      "negative": {
+        "base": {
+          "title": {
+            "value": "{color.ambient.grayscale.20}",
+            "type": "color"
+          },
+          "body": {
+            "value": "{color.ambient.grayscale.20}",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{color.ambient.grayscale.40}",
+            "type": "color"
+          },
+          "labels": {
+            "value": "{color.ambient.grayscale.20}",
+            "type": "color"
+          }
+        },
+        "feedback": {
+          "info": {
+            "value": "{color.interaction.feedback.info.action}",
+            "type": "color"
+          },
+          "success": {
+            "value": "{color.interaction.feedback.success.action}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{color.interaction.feedback.warning.action}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{color.interaction.feedback.danger.action}",
+            "type": "color"
           }
         }
       }
     },
-    "mood": {
+    "chart": {
       "warm": {
         "red": {
           "default": {
