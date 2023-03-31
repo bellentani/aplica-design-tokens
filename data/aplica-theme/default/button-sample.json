@@ -1,0 +1,39 @@
+{
+    "buttonStencil": {
+        "solid": {
+          "content": {
+            "label": {
+              "family": {
+                "value": "{text.fontFamilies.content}",
+                "type": "fontFamilies",
+                "description": ""
+              },
+              "weight": {
+                "value": "{text.fontWeights.regular}",
+                "type": "fontWeights",
+                "description": ""
+              }
+            }
+          },
+          "size": {
+            "medium": {
+              "box": {},
+              "content": {},
+              "border": {
+                "radii": {
+                  "value": "{border.radii.circular}",
+                  "type": "borderRadius",
+                  "description": ""
+                }
+              }
+            },
+            "extraSmall": {}
+          },
+          "state": {
+            "normal": {},
+            "hover": {}
+          }
+        }
+      },
+    "button": {}
+}
