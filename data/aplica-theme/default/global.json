@@ -720,7 +720,7 @@
           "base": {
             "dark": {
               "transparent": {
-                "value": "{color.ambient.contrast.base.dark}",
+                "value": "{color.solid.ambient.contrast.base.dark}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -733,7 +733,7 @@
                 }
               },
               "superTransparent": {
-                "value": "{color.ambient.contrast.base.dark}",
+                "value": "{color.solid.ambient.contrast.base.dark}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -746,7 +746,7 @@
                 }
               },
               "semiTranslucid": {
-                "value": "{color.ambient.contrast.base.dark}",
+                "value": "{color.solid.ambient.contrast.base.dark}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -759,7 +759,7 @@
                 }
               },
               "translucid": {
-                "value": "{color.ambient.contrast.base.dark}",
+                "value": "{color.solid.ambient.contrast.base.dark}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -772,7 +772,7 @@
                 }
               },
               "superTranslucid": {
-                "value": "{color.ambient.contrast.base.dark}",
+                "value": "{color.solid.ambient.contrast.base.dark}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -785,7 +785,7 @@
                 }
               },
               "semiOpaque": {
-                "value": "{color.ambient.contrast.base.dark}",
+                "value": "{color.solid.ambient.contrast.base.dark}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -800,7 +800,7 @@
             },
             "light": {
               "transparent": {
-                "value": "{color.ambient.contrast.base.light}",
+                "value": "{color.solid.ambient.contrast.base.light}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -813,7 +813,7 @@
                 }
               },
               "superTransparent": {
-                "value": "{color.ambient.contrast.base.light}",
+                "value": "{color.solid.ambient.contrast.base.light}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -826,7 +826,7 @@
                 }
               },
               "semiTranslucid": {
-                "value": "{color.ambient.contrast.base.light}",
+                "value": "{color.solid.ambient.contrast.base.light}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -839,7 +839,7 @@
                 }
               },
               "translucid": {
-                "value": "{color.ambient.contrast.base.light}",
+                "value": "{color.solid.ambient.contrast.base.light}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -852,7 +852,7 @@
                 }
               },
               "superTranslucid": {
-                "value": "{color.ambient.contrast.base.light}",
+                "value": "{color.solid.ambient.contrast.base.light}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -865,7 +865,7 @@
                 }
               },
               "semiOpaque": {
-                "value": "{color.ambient.contrast.base.light}",
+                "value": "{color.solid.ambient.contrast.base.light}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -882,7 +882,7 @@
           "deep": {
             "dark": {
               "transparent": {
-                "value": "{color.ambient.contrast.deep.dark}",
+                "value": "{color.solid.ambient.contrast.deep.dark}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -895,7 +895,7 @@
                 }
               },
               "superTransparent": {
-                "value": "{color.ambient.contrast.deep.dark}",
+                "value": "{color.solid.ambient.contrast.deep.dark}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -908,7 +908,7 @@
                 }
               },
               "semiTranslucid": {
-                "value": "{color.ambient.contrast.deep.dark}",
+                "value": "{color.solid.ambient.contrast.deep.dark}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -921,7 +921,7 @@
                 }
               },
               "translucid": {
-                "value": "{color.ambient.contrast.deep.dark}",
+                "value": "{color.solid.ambient.contrast.deep.dark}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -934,7 +934,7 @@
                 }
               },
               "superTranslucid": {
-                "value": "{color.ambient.contrast.deep.dark}",
+                "value": "{color.solid.ambient.contrast.deep.dark}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -947,7 +947,7 @@
                 }
               },
               "semiOpaque": {
-                "value": "{color.ambient.contrast.deep.dark}",
+                "value": "{color.solid.ambient.contrast.deep.dark}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -962,7 +962,7 @@
             },
             "light": {
               "transparent": {
-                "value": "{color.ambient.contrast.deep.light}",
+                "value": "{color.solid.ambient.contrast.deep.light}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -975,7 +975,7 @@
                 }
               },
               "superTransparent": {
-                "value": "{color.ambient.contrast.deep.light}",
+                "value": "{color.solid.ambient.contrast.deep.light}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -988,7 +988,7 @@
                 }
               },
               "semiTranslucid": {
-                "value": "{color.ambient.contrast.deep.light}",
+                "value": "{color.solid.ambient.contrast.deep.light}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -1001,7 +1001,7 @@
                 }
               },
               "translucid": {
-                "value": "{color.ambient.contrast.deep.light}",
+                "value": "{color.solid.ambient.contrast.deep.light}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -1014,7 +1014,7 @@
                 }
               },
               "superTranslucid": {
-                "value": "{color.ambient.contrast.deep.light}",
+                "value": "{color.solid.ambient.contrast.deep.light}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -1027,7 +1027,7 @@
                 }
               },
               "semiOpaque": {
-                "value": "{color.ambient.contrast.deep.light}",
+                "value": "{color.solid.ambient.contrast.deep.light}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -2187,7 +2187,7 @@
       "luminosity": {
         "shadow": {
           "deep": {
-            "value": "{color.ambient.contrast.deep.dark}",
+            "value": "{color.solid.ambient.contrast.deep.dark}",
             "type": "other"
           },
           "regular": {
@@ -2201,7 +2201,7 @@
         },
         "light": {
           "bright": {
-            "value": "{color.ambient.contrast.deep.light}",
+            "value": "{color.solid.ambient.contrast.deep.light}",
             "type": "other"
           },
           "primary": {
