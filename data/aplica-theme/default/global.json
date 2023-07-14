@@ -552,11 +552,11 @@
   "color": {
     "solid": {
       "brand": {
-        "main": {
+        "first": {
           "value": "{_color-palette.mode.light.brand.first.palette.100}",
           "type": "color"
         },
-        "secondary": {
+        "second": {
           "value": "{_color-palette.mode.light.brand.second.palette.100}",
           "type": "color"
         },
