@@ -1,8 +1,6 @@
 {
   "tokenSetOrder": [
-    "global",
-    "button-sample",
-    "_color-palette",
-    "_helper-color-scheme"
+    "_primitive-color-palette",
+    "global"
   ]
 }
