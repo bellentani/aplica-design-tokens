@@ -1065,9 +1065,9 @@
             "description": ""
           },
           "action": {
-            "value": "#290B6D",
+            "value": "{_color-palette.mode.light.interaction.function.primary.behavior.action}",
             "type": "color",
-            "description": "[SYSTEM EXCEPTION] The original system color is {_color-palette.mode.light.interaction.function.primary.behavior.action}, this color was used because suggestion made by W&C."
+            "description": ""
           },
           "default": {
             "value": "{_color-palette.mode.light.interaction.function.primary.behavior.default}",
@@ -1190,9 +1190,9 @@
             "description": ""
           },
           "lightest": {
-            "value": "#D2FCEA",
+            "value": "{_color-palette.mode.light.interaction.function.primary.behavior.lightest}",
             "type": "color",
-            "description": "[SYSTEM EXCEPTION] The original funcional color is {_color-palette.mode.light.interaction.feedback.success.behavior.lightest}, this color was used because suggestion made by W&C."
+            "description": ""
           }
         },
         "warning": {
@@ -1244,9 +1244,9 @@
             "description": ""
           },
           "lightest": {
-            "value": "#FFD7D7",
+            "value": "{_color-palette.mode.light.interaction.feedback.danger.behavior.lightest}",
             "type": "color",
-            "description": "[SYSTEM EXCEPTION] The original funcional color is {_color-palette.mode.light.interaction.feedback.danger.behavior.lightest}, this color was used because suggestion made by W&C"
+            "description": ""
           }
         }
       },
