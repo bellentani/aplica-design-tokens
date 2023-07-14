@@ -1250,19 +1250,19 @@
       "positive": {
         "base": {
           "title": {
-            "value": "{color.ambient.grayscale.80}",
+            "value": "{color.solid.ambient.grayscale.80}",
             "type": "color"
           },
           "body": {
-            "value": "{color.ambient.grayscale.80}",
+            "value": "{color.solid.ambient.grayscale.80}",
             "type": "color"
           },
           "muted": {
-            "value": "{color.ambient.grayscale.50}",
+            "value": "{color.solid.ambient.grayscale.50}",
             "type": "color"
           },
           "labels": {
-            "value": "{color.ambient.grayscale.90}",
+            "value": "{color.solid.ambient.grayscale.90}",
             "type": "color"
           }
         },
@@ -1288,19 +1288,19 @@
       "negative": {
         "base": {
           "title": {
-            "value": "{color.ambient.grayscale.20}",
+            "value": "{color.solid.ambient.grayscale.20}",
             "type": "color"
           },
           "body": {
-            "value": "{color.ambient.grayscale.20}",
+            "value": "{color.solid.ambient.grayscale.20}",
             "type": "color"
           },
           "muted": {
-            "value": "{color.ambient.grayscale.40}",
+            "value": "{color.solid.ambient.grayscale.40}",
             "type": "color"
           },
           "labels": {
-            "value": "{color.ambient.grayscale.20}",
+            "value": "{color.solid.ambient.grayscale.20}",
             "type": "color"
           }
         },
@@ -2191,11 +2191,11 @@
             "type": "other"
           },
           "regular": {
-            "value": "{color.ambient.grayscale.50}",
+            "value": "{color.solid.ambient.grayscale.50}",
             "type": "other"
           },
           "smooth": {
-            "value": "{color.ambient.grayscale.30}",
+            "value": "{color.solid.ambient.grayscale.30}",
             "type": "other"
           }
         },
