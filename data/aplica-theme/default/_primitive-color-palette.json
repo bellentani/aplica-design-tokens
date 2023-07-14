@@ -4879,7 +4879,7 @@
                 }
               },
               "100": {
-                "value": "#6C43CF",
+                "value": "{_color-palette.raw.dark.brand.first}",
                 "type": "color"
               },
               "90": {
