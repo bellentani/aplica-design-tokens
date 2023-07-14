@@ -5045,7 +5045,7 @@
                 }
               },
               "100": {
-                "value": "{_color-palette.mode.dark.brand.second.neutrals.130}",
+                "value": "{_color-palette.mode.dark.brand.first.neutrals.130}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
