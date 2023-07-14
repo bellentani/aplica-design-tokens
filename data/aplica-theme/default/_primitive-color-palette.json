@@ -18,7 +18,7 @@
         },
         "ambient": {
           "neutral": {
-            "value": "#340415",
+            "value": "#2A0E18",
             "type": "color",
             "description": "To make neutrals value we get the brand.first and divide the Saturation value from HSL by 2, but in this design we use by 4. Original color is brand.first with hexa #6C43CF and Saturation value on 59; modified turns on #82789A with a Saturation value resulting on 15"
           }
