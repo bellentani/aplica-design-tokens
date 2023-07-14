@@ -552,11 +552,11 @@
   "color": {
     "solid": {
       "brand": {
-        "first": {
+        "main": {
           "value": "{_color-palette.mode.light.brand.first.palette.100}",
           "type": "color"
         },
-        "second": {
+        "secondary": {
           "value": "{_color-palette.mode.light.brand.second.palette.100}",
           "type": "color"
         },
@@ -568,86 +568,24 @@
       "ambient": {
         "contrast": {
           "base": {
-            "dark": {
-              "value": "{_color-palette.mode.light.brand.first.neutrals.140}",
-              "type": "color"
-            },
             "light": {
               "value": "{_color-palette.mode.light.brand.first.neutrals.5}",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{_color-palette.mode.light.brand.first.neutrals.140}",
               "type": "color"
             }
           },
           "deep": {
-            "dark": {
-              "value": "#000000",
-              "type": "color"
-            },
             "light": {
               "value": "#ffffff",
               "type": "color"
+            },
+            "dark": {
+              "value": "#000000",
+              "type": "color"
             }
-          }
-        },
-        "grayscale": {
-          "5": {
-            "value": "#f7f7f7",
-            "type": "color"
-          },
-          "10": {
-            "value": "#eeeeee",
-            "type": "color"
-          },
-          "20": {
-            "value": "#dddddd",
-            "type": "color"
-          },
-          "30": {
-            "value": "#cccccc",
-            "type": "color"
-          },
-          "40": {
-            "value": "#bbbbbb",
-            "type": "color"
-          },
-          "50": {
-            "value": "#aaaaaa",
-            "type": "color"
-          },
-          "60": {
-            "value": "#999999",
-            "type": "color"
-          },
-          "70": {
-            "value": "#888888",
-            "type": "color"
-          },
-          "80": {
-            "value": "#777777",
-            "type": "color"
-          },
-          "90": {
-            "value": "#666666",
-            "type": "color"
-          },
-          "100": {
-            "value": "#555555",
-            "type": "color"
-          },
-          "110": {
-            "value": "#444444",
-            "type": "color"
-          },
-          "120": {
-            "value": "#333333",
-            "type": "color"
-          },
-          "130": {
-            "value": "#222222",
-            "type": "color"
-          },
-          "140": {
-            "value": "#111111",
-            "type": "color"
           }
         },
         "neutral": {
@@ -711,6 +649,68 @@
             "value": "{_color-palette.mode.light.brand.first.neutrals.140}",
             "type": "color"
           }
+        },
+        "grayscale": {
+          "5": {
+            "value": "#f7f7f7",
+            "type": "color"
+          },
+          "10": {
+            "value": "#eeeeee",
+            "type": "color"
+          },
+          "20": {
+            "value": "#dddddd",
+            "type": "color"
+          },
+          "30": {
+            "value": "#cccccc",
+            "type": "color"
+          },
+          "40": {
+            "value": "#bbbbbb",
+            "type": "color"
+          },
+          "50": {
+            "value": "#aaaaaa",
+            "type": "color"
+          },
+          "60": {
+            "value": "#999999",
+            "type": "color"
+          },
+          "70": {
+            "value": "#888888",
+            "type": "color"
+          },
+          "80": {
+            "value": "#777777",
+            "type": "color"
+          },
+          "90": {
+            "value": "#666666",
+            "type": "color"
+          },
+          "100": {
+            "value": "#555555",
+            "type": "color"
+          },
+          "110": {
+            "value": "#444444",
+            "type": "color"
+          },
+          "120": {
+            "value": "#333333",
+            "type": "color"
+          },
+          "130": {
+            "value": "#222222",
+            "type": "color"
+          },
+          "140": {
+            "value": "#111111",
+            "type": "color"
+          }
         }
       }
     },
@@ -726,7 +726,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0",
+                      "value": "{opacity.transparent}",
                       "space": "hsl"
                     }
                   }
@@ -739,7 +739,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.1",
+                      "value": "{opacity.superTransparent}",
                       "space": "hsl"
                     }
                   }
@@ -752,7 +752,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.25",
+                      "value": "{opacity.semiTranslucid}",
                       "space": "hsl"
                     }
                   }
@@ -765,7 +765,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.5",
+                      "value": "{opacity.translucid}",
                       "space": "hsl"
                     }
                   }
@@ -778,7 +778,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.75",
+                      "value": "{opacity.superTranslucid}",
                       "space": "hsl"
                     }
                   }
@@ -791,7 +791,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.9",
+                      "value": "{opacity.semiOpaque}",
                       "space": "hsl"
                     }
                   }
@@ -806,7 +806,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0",
+                      "value": "{opacity.transparent}",
                       "space": "hsl"
                     }
                   }
@@ -819,7 +819,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.1",
+                      "value": "{opacity.superTransparent}",
                       "space": "hsl"
                     }
                   }
@@ -832,7 +832,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.25",
+                      "value": "{opacity.semiTranslucid}",
                       "space": "hsl"
                     }
                   }
@@ -845,7 +845,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.5",
+                      "value": "{opacity.translucid}",
                       "space": "hsl"
                     }
                   }
@@ -858,7 +858,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.75",
+                      "value": "{opacity.superTranslucid}",
                       "space": "hsl"
                     }
                   }
@@ -871,7 +871,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.9",
+                      "value": "{opacity.semiOpaque}",
                       "space": "hsl"
                     }
                   }
@@ -888,7 +888,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0",
+                      "value": "{opacity.transparent}",
                       "space": "hsl"
                     }
                   }
@@ -901,7 +901,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.1",
+                      "value": "{opacity.superTransparent}",
                       "space": "hsl"
                     }
                   }
@@ -914,7 +914,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.25",
+                      "value": "{opacity.semiTranslucid}",
                       "space": "hsl"
                     }
                   }
@@ -927,7 +927,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.5",
+                      "value": "{opacity.translucid}",
                       "space": "hsl"
                     }
                   }
@@ -940,7 +940,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.75",
+                      "value": "{opacity.superTranslucid}",
                       "space": "hsl"
                     }
                   }
@@ -953,7 +953,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.9",
+                      "value": "{opacity.semiOpaque}",
                       "space": "hsl"
                     }
                   }
@@ -968,7 +968,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0",
+                      "value": "{opacity.transparent}",
                       "space": "hsl"
                     }
                   }
@@ -981,7 +981,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.1",
+                      "value": "{opacity.superTransparent}",
                       "space": "hsl"
                     }
                   }
@@ -994,7 +994,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.25",
+                      "value": "{opacity.semiTranslucid}",
                       "space": "hsl"
                     }
                   }
@@ -1007,7 +1007,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.5",
+                      "value": "{opacity.translucid}",
                       "space": "hsl"
                     }
                   }
@@ -1020,20 +1020,20 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.75",
+                      "value": "{opacity.superTranslucid}",
                       "space": "hsl"
                     }
                   }
                 }
               },
-              "semiOpaque": {
+              "se miOpaque": {
                 "value": "{color.solid.ambient.contrast.deep.light}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.9",
+                      "value": "{opacity.semiOpaque}",
                       "space": "hsl"
                     }
                   }
@@ -1047,11 +1047,11 @@
     "gradient": {
       "brand": {
         "first": {
-          "value": "linear-gradient(137deg, {color.brand.solid.main} 0%, {color.brand.solid.opposite} 100%)",
+          "value": "linear-gradient(137deg, {color.solid.brand.first} 0%, {color.solid.brand.second} 100%)",
           "type": "color"
         },
         "second": {
-          "value": "radial-gradient(165.5% 165.5% at 12% 10.5%, {color.brand.solid.main} 0%, {color.brand.solid.complementary} 100%)",
+          "value": "radial-gradient(165.5% 165.5% at 12% 10.5%, {color.solid.brand.first} 0%, {color.solid.brand.second} 100%)",
           "type": "color"
         }
       }
@@ -1061,93 +1061,82 @@
         "primary": {
           "darkest": {
             "value": "{_color-palette.mode.light.interaction.function.primary.behavior.darkest}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "action": {
-            "value": "{_color-palette.mode.light.interaction.function.primary.behavior.action}",
-            "type": "color"
+            "value": "#290B6D",
+            "type": "color",
+            "description": "[SYSTEM EXCEPTION] The original system color is {_color-palette.mode.light.interaction.function.primary.behavior.action}, this color was used because suggestion made by W&C."
           },
           "default": {
             "value": "{_color-palette.mode.light.interaction.function.primary.behavior.default}",
             "type": "color",
-            "description": "Primary action color, use on links, buttons and main interactions."
+            "description": ""
           },
           "active": {
             "value": "{_color-palette.mode.light.interaction.function.primary.behavior.active}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "lightest": {
             "value": "{_color-palette.mode.light.interaction.function.primary.behavior.lightest}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           }
         },
         "secondary": {
           "darkest": {
             "value": "{_color-palette.mode.light.interaction.function.secondary.behavior.darkest}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "action": {
             "value": "{_color-palette.mode.light.interaction.function.secondary.behavior.action}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "default": {
             "value": "{_color-palette.mode.light.interaction.function.secondary.behavior.default}",
             "type": "color",
-            "description": "Primary action color, use on links, buttons and main interactions."
+            "description": ""
           },
           "active": {
             "value": "{_color-palette.mode.light.interaction.function.secondary.behavior.active}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "lightest": {
             "value": "{_color-palette.mode.light.interaction.function.secondary.behavior.lightest}",
-            "type": "color"
-          }
-        },
-        "tertiary": {
-          "darkest": {
-            "value": "{_color-palette.mode.light.interaction.function.tertiary.behavior.darkest}",
-            "type": "color"
-          },
-          "action": {
-            "value": "{_color-palette.mode.light.interaction.function.tertiary.behavior.action}",
-            "type": "color"
-          },
-          "default": {
-            "value": "{_color-palette.mode.light.interaction.function.tertiary.behavior.default}",
             "type": "color",
-            "description": "Primary action color, use on links, buttons and main interactions."
-          },
-          "active": {
-            "value": "{_color-palette.mode.light.interaction.function.tertiary.behavior.active}",
-            "type": "color"
-          },
-          "lightest": {
-            "value": "{_color-palette.mode.light.interaction.function.tertiary.behavior.lightest}",
-            "type": "color"
+            "description": ""
           }
         },
         "link": {
           "darkest": {
             "value": "{_color-palette.mode.light.interaction.function.link.behavior.darkest}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "action": {
             "value": "{_color-palette.mode.light.interaction.function.link.behavior.action}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "default": {
             "value": "{_color-palette.mode.light.interaction.function.link.behavior.default}",
             "type": "color",
-            "description": "Primary action color, use on links, buttons and main interactions."
+            "description": ""
           },
           "active": {
             "value": "{_color-palette.mode.light.interaction.function.link.behavior.active}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "lightest": {
             "value": "{_color-palette.mode.light.interaction.function.link.behavior.lightest}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           }
         }
       },
@@ -1155,94 +1144,122 @@
         "info": {
           "darkest": {
             "value": "{_color-palette.mode.light.interaction.feedback.info.behavior.darkest}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "action": {
             "value": "{_color-palette.mode.light.interaction.feedback.info.behavior.action}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "default": {
             "value": "{_color-palette.mode.light.interaction.feedback.info.behavior.default}",
             "type": "color",
-            "description": "Primary action color, use on links, buttons and main interactions."
+            "description": ""
           },
           "active": {
             "value": "{_color-palette.mode.light.interaction.feedback.info.behavior.active}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "lightest": {
             "value": "{_color-palette.mode.light.interaction.feedback.info.behavior.lightest}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           }
         },
         "success": {
           "darkest": {
             "value": "{_color-palette.mode.light.interaction.feedback.success.behavior.darkest}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "action": {
             "value": "{_color-palette.mode.light.interaction.feedback.success.behavior.action}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "default": {
             "value": "{_color-palette.mode.light.interaction.feedback.success.behavior.default}",
             "type": "color",
-            "description": "Primary action color, use on links, buttons and main interactions."
+            "description": ""
           },
           "active": {
             "value": "{_color-palette.mode.light.interaction.feedback.success.behavior.active}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "lightest": {
-            "value": "{_color-palette.mode.light.interaction.feedback.success.behavior.lightest}",
-            "type": "color"
+            "value": "#D2FCEA",
+            "type": "color",
+            "description": "[SYSTEM EXCEPTION] The original funcional color is {_color-palette.mode.light.interaction.feedback.success.behavior.lightest}, this color was used because suggestion made by W&C."
           }
         },
         "warning": {
           "darkest": {
             "value": "{_color-palette.mode.light.interaction.feedback.warning.behavior.darkest}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "action": {
             "value": "{_color-palette.mode.light.interaction.feedback.warning.behavior.action}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "default": {
             "value": "{_color-palette.mode.light.interaction.feedback.warning.behavior.default}",
             "type": "color",
-            "description": "Primary action color, use on links, buttons and main interactions."
+            "description": ""
           },
           "active": {
             "value": "{_color-palette.mode.light.interaction.feedback.warning.behavior.active}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "lightest": {
             "value": "{_color-palette.mode.light.interaction.feedback.warning.behavior.lightest}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           }
         },
         "danger": {
           "darkest": {
             "value": "{_color-palette.mode.light.interaction.feedback.danger.behavior.darkest}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "action": {
             "value": "{_color-palette.mode.light.interaction.feedback.danger.behavior.action}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "default": {
             "value": "{_color-palette.mode.light.interaction.feedback.danger.behavior.default}",
             "type": "color",
-            "description": "Primary action color, use on links, buttons and main interactions."
+            "description": "$color.interaction.feedback.danger.default"
           },
           "active": {
             "value": "{_color-palette.mode.light.interaction.feedback.danger.behavior.active}",
-            "type": "color"
+            "type": "color",
+            "description": ""
           },
           "lightest": {
-            "value": "{_color-palette.mode.light.interaction.feedback.danger.behavior.lightest}",
-            "type": "color"
+            "value": "#FFD7D7",
+            "type": "color",
+            "description": "[SYSTEM EXCEPTION] The original funcional color is {_color-palette.mode.light.interaction.feedback.danger.behavior.lightest}, this color was used because suggestion made by W&C"
           }
+        }
+      },
+      "disabled": {
+        "background": {
+          "value": "{color.solid.ambient.grayscale.10}",
+          "type": "color",
+          "description": ""
+        },
+        "text": {
+          "value": "{color.solid.ambient.grayscale.60}",
+          "type": "color",
+          "description": ""
         }
       }
     },
