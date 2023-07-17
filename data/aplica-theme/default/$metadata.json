@@ -1,9 +1,8 @@
 {
   "tokenSetOrder": [
     "global",
-    "depracated/_color-charts",
-    "depracated/_color-palette",
-    "depracated/_helper-color-scheme",
-    "color/_primitive-color-palette"
+    "color/_primitive-color-palette",
+    "color/light",
+    "color/dark"
   ]
 }
