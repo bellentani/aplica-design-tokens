@@ -155,8 +155,7 @@
     },
     "selectedTokenSets": {
       "_primitive-color-palette": "source",
-      "global": "enabled",
-      "global_dark": "disabled"
+      "global": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:704:11131",
     "$figmaModeId": "704:1",
