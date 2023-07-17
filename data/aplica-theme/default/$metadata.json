@@ -3,6 +3,10 @@
     "global",
     "color/_primitive-color-palette",
     "color/light",
-    "color/dark"
+    "color/dark",
+    "color/depracated/_color-charts",
+    "color/depracated/_color-palette",
+    "color/depracated/_helper-color-scheme",
+    "color/semantic"
   ]
 }
