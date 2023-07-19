@@ -716,11 +716,11 @@
       "positive": {
         "base": {
           "title": {
-            "value": "{color.solid.ambient.grayscale.80}",
+            "value": "{color.solid.ambient.grayscale.20}",
             "type": "color"
           },
           "body": {
-            "value": "{color.solid.ambient.grayscale.80}",
+            "value": "{color.solid.ambient.grayscale.20}",
             "type": "color"
           },
           "muted": {
@@ -728,7 +728,7 @@
             "type": "color"
           },
           "labels": {
-            "value": "{color.solid.ambient.grayscale.90}",
+            "value": "{color.solid.ambient.grayscale.10}",
             "type": "color"
           }
         },
@@ -754,11 +754,11 @@
       "negative": {
         "base": {
           "title": {
-            "value": "{color.solid.ambient.grayscale.20}",
+            "value": "{color.solid.ambient.grayscale.80}",
             "type": "color"
           },
           "body": {
-            "value": "{color.solid.ambient.grayscale.20}",
+            "value": "{color.solid.ambient.grayscale.80}",
             "type": "color"
           },
           "muted": {
@@ -766,7 +766,7 @@
             "type": "color"
           },
           "labels": {
-            "value": "{color.solid.ambient.grayscale.20}",
+            "value": "{color.solid.ambient.grayscale.90}",
             "type": "color"
           }
         },
