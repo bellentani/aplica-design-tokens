@@ -4762,7 +4762,7 @@
           "first": {
             "palette": {
               "10": {
-                "value": "{_color-palette.mode.dark.brand.first.neutrals.190}",
+                "value": "{_color-palette.mode.dark.brand.first.palette.100}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -5002,7 +5002,7 @@
             },
             "neutrals": {
               "5": {
-                "value": "{_color-palette.mode.dark.brand.first.neutrals.190}",
+                "value": "{_color-palette.mode.dark.brand.first.neutrals.10}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
