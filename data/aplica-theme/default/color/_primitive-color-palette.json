@@ -178,19 +178,59 @@
           "feedback": {
             "info": {
               "value": "#00B8F0",
-              "type": "color"
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.2",
+                    "space": "hsl",
+                    "color": "#000"
+                  }
+                }
+              }
             },
             "success": {
               "value": "#008A1E",
-              "type": "color"
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.2",
+                    "space": "hsl",
+                    "color": "#000"
+                  }
+                }
+              }
             },
             "warning": {
               "value": "#F6AC3C",
-              "type": "color"
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.2",
+                    "space": "hsl",
+                    "color": "#000"
+                  }
+                }
+              }
             },
             "danger": {
               "value": "#DF0707",
-              "type": "color"
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.2",
+                    "space": "hsl",
+                    "color": "#000"
+                  }
+                }
+              }
             }
           }
         },
