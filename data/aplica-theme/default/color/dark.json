@@ -19,11 +19,11 @@
         "contrast": {
           "base": {
             "light": {
-              "value": "{_color-palette.mode.dark.brand.first.neutrals.5}",
+              "value": "{_color-palette.mode.dark.brand.first.neutrals.140}",
               "type": "color"
             },
             "dark": {
-              "value": "{_color-palette.mode.dark.brand.first.neutrals.140}",
+              "value": "{_color-palette.mode.dark.brand.first.neutrals.5}",
               "type": "color"
             }
           },
