@@ -4762,7 +4762,7 @@
           "first": {
             "palette": {
               "10": {
-                "value": "{_color-palette.mode.dark.brand.first.palette.100}",
+                "value": "{_color-palette.mode.dark.brand.first.neutrals.190}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
