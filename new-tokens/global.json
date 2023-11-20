@@ -1,0 +1,58 @@
+{
+  "flavor": {
+    "color": {
+      "bg": {
+        "brand": {
+          "first": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "second": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "third": {
+            "value": "#",
+            "type": "color"
+          }
+        },
+        "ambient": {
+          "contrast": {
+            "base": {
+              "positive": {
+                "value": "#",
+                "type": "color"
+              },
+              "negative": {
+                "value": "#",
+                "type": "color"
+              }
+            },
+            "deep": {
+              "positive": {
+                "value": "#",
+                "type": "color"
+              },
+              "negative": {
+                "value": "#",
+                "type": "color"
+              }
+            }
+          },
+          "neutral": {
+            "140": {
+              "value": "#",
+              "type": "color"
+            }
+          },
+          "grayscale": {
+            "140": {
+              "value": "#",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  }
+}
