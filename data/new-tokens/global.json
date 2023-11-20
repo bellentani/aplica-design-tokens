@@ -4,15 +4,15 @@
       "bg": {
         "brand": {
           "first": {
-            "value": "#ffffff",
+            "value": "{flavors.color.bg.brand.first}",
             "type": "color"
           },
           "second": {
-            "value": "#ffffff",
+            "value": "{flavors.color.bg.brand.second}",
             "type": "color"
           },
           "third": {
-            "value": "#",
+            "value": "{flavors.color.bg.brand.third}",
             "type": "color"
           }
         },
@@ -20,11 +20,11 @@
           "contrast": {
             "base": {
               "positive": {
-                "value": "#",
+                "value": "{flavors.color.bg.ambient.contrast.base.positive}",
                 "type": "color"
               },
               "negative": {
-                "value": "#",
+                "value": "{flavors.color.bg.ambient.contrast.base.negative}",
                 "type": "color"
               }
             },
@@ -40,21 +40,21 @@
             }
           },
           "neutral": {
-            "140": {
+            "5": {
               "value": "#",
               "type": "color"
             },
-            "5": {
+            "140": {
               "value": "#",
               "type": "color"
             }
           },
           "grayscale": {
-            "140": {
+            "5": {
               "value": "#",
               "type": "color"
             },
-            "5": {
+            "140": {
               "value": "#",
               "type": "color"
             }
@@ -100,21 +100,21 @@
             }
           },
           "neutral": {
-            "140": {
+            "5": {
               "value": "#",
               "type": "color"
             },
-            "5": {
+            "140": {
               "value": "#",
               "type": "color"
             }
           },
           "grayscale": {
-            "140": {
+            "5": {
               "value": "#",
               "type": "color"
             },
-            "5": {
+            "140": {
               "value": "#",
               "type": "color"
             }
@@ -138,21 +138,21 @@
         },
         "ambient": {
           "neutral": {
-            "140": {
+            "5": {
               "value": "#",
               "type": "color"
             },
-            "5": {
+            "140": {
               "value": "#",
               "type": "color"
             }
           },
           "grayscale": {
-            "140": {
+            "5": {
               "value": "#",
               "type": "color"
             },
-            "5": {
+            "140": {
               "value": "#",
               "type": "color"
             }
