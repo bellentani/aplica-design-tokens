@@ -1,18 +1,18 @@
 {
-  "global": {
+  "flavors": {
     "color": {
       "bg": {
         "brand": {
           "first": {
-            "value": "#ffffff",
+            "value": "#fe1b6a",
             "type": "color"
           },
           "second": {
-            "value": "#ffffff",
+            "value": "#2d9fe1",
             "type": "color"
           },
           "third": {
-            "value": "#",
+            "value": "#955ea6",
             "type": "color"
           }
         },
@@ -20,42 +20,42 @@
           "contrast": {
             "base": {
               "positive": {
-                "value": "#",
+                "value": "#faf1f4",
                 "type": "color"
               },
               "negative": {
-                "value": "#",
+                "value": "#040203",
                 "type": "color"
               }
             },
             "deep": {
               "positive": {
-                "value": "#",
+                "value": "#ffffff",
                 "type": "color"
               },
               "negative": {
-                "value": "#",
+                "value": "#000000",
                 "type": "color"
               }
             }
           },
           "neutral": {
             "140": {
-              "value": "#",
+              "value": "#040203",
               "type": "color"
             },
             "5": {
-              "value": "#",
+              "value": "#faf1f4",
               "type": "color"
             }
           },
           "grayscale": {
             "140": {
-              "value": "#",
+              "value": "#111111",
               "type": "color"
             },
             "5": {
-              "value": "#",
+              "value": "#f7f7f7",
               "type": "color"
             }
           }
