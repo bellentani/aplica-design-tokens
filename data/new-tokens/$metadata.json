@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
     "flavors/_default-light",
+    "flavors/_default-dark",
     "flavor"
   ]
 }
