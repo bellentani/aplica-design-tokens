@@ -4,15 +4,15 @@
       "bg": {
         "brand": {
           "first": {
-            "value": "#fe1b6a",
+            "value": "#911741",
             "type": "color"
           },
           "second": {
-            "value": "#2d9fe1",
+            "value": "#366F90",
             "type": "color"
           },
           "third": {
-            "value": "#955ea6",
+            "value": "#432B4A",
             "type": "color"
           }
         },

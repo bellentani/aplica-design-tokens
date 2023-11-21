@@ -11,6 +11,9 @@
     "$figmaCollectionId": "VariableCollectionId:8:3197",
     "$figmaModeId": "8:2",
     "$figmaVariableReferences": {
+      "components.button.primary.box.background": "ecede64c518b2560b0089692e87b91a47fc29d07",
+      "components.button.primary.box.border.color": "1de1aefbba352119f8ec45bfb9beb5461074363b",
+      "components.button.primary.label.font.color": "e2781ad6abff63f16c289fc14b7e82a0f656caa5",
       "foundation.color.bg.brand.first": "75f6a384e45cb88529d4afef46321ca5217bf42c",
       "foundation.color.bg.brand.second": "e94f4b940f91345f7f98833b63794f68fd26116e",
       "foundation.color.bg.brand.third": "de9523ddfe8d775ceec0ce9f73e07ca2400865bd",
@@ -51,6 +54,9 @@
     "$figmaCollectionId": "VariableCollectionId:8:3197",
     "$figmaModeId": "8:3",
     "$figmaVariableReferences": {
+      "components.button.primary.box.background": "ecede64c518b2560b0089692e87b91a47fc29d07",
+      "components.button.primary.box.border.color": "1de1aefbba352119f8ec45bfb9beb5461074363b",
+      "components.button.primary.label.font.color": "e2781ad6abff63f16c289fc14b7e82a0f656caa5",
       "foundation.color.bg.brand.first": "75f6a384e45cb88529d4afef46321ca5217bf42c",
       "foundation.color.bg.brand.second": "e94f4b940f91345f7f98833b63794f68fd26116e",
       "foundation.color.bg.brand.third": "de9523ddfe8d775ceec0ce9f73e07ca2400865bd",
