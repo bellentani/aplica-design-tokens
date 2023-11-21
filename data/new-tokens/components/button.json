@@ -1,28 +1,28 @@
 {
-    "components": {
-        "button": {
-            "primary": {
-                "box": {
-                    "background": {
-                        "value": "#",
-                        "type": "color"
-                    },
-                    "border": {
-                        "color": {
-                            "value": "#",
-                            "type": "color"
-                        }
-                    }
-                },
-                "label": {
-                    "font": {
-                        "color": {
-                            "value": "#",
-                            "type": "color"
-                        }
-                    }
-                }
+  "components": {
+    "button": {
+      "primary": {
+        "box": {
+          "background": {
+            "value": "{flavors.color.bg.brand.first}",
+            "type": "color"
+          },
+          "border": {
+            "color": {
+              "value": "{flavors.color.bg.brand.first}",
+              "type": "color"
             }
+          }
+        },
+        "label": {
+          "font": {
+            "color": {
+              "value": "{flavors.color.txt.brand.first}",
+              "type": "color"
+            }
+          }
         }
+      }
     }
+  }
 }
