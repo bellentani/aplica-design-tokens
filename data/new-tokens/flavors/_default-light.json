@@ -132,8 +132,8 @@
             "type": "color"
           },
           "third": {
-            "value": "#",
-            "type": "EADFED"
+            "value": "#EADFED",
+            "type": "color"
           }
         }
       }
