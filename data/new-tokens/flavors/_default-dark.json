@@ -64,11 +64,11 @@
       "txt": {
         "brand": {
           "first": {
-            "value": "#040203",
+            "value": "#ffffff",
             "type": "color"
           },
           "second": {
-            "value": "#040203",
+            "value": "#ffffff",
             "type": "color"
           },
           "third": {
