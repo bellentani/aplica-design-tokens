@@ -135,28 +135,6 @@
             "value": "{flavors.color.border.brand.third}",
             "type": "color"
           }
-        },
-        "ambient": {
-          "neutral": {
-            "140": {
-              "value": "{flavors.color.border.ambient.neutral.140}",
-              "type": "color"
-            },
-            "5": {
-              "value": "{flavors.color.border.ambient.neutral.5}",
-              "type": "color"
-            }
-          },
-          "grayscale": {
-            "140": {
-              "value": "{flavors.color.border.ambient.grayscale.140}",
-              "type": "color"
-            },
-            "5": {
-              "value": "{flavors.color.border.ambient.grayscale.5}",
-              "type": "color"
-            }
-          }
         }
       }
     }

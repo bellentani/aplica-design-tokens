@@ -64,15 +64,15 @@
       "txt": {
         "brand": {
           "first": {
-            "value": "#ffffff",
+            "value": "#040203",
             "type": "color"
           },
           "second": {
-            "value": "#ffffff",
+            "value": "#040203",
             "type": "color"
           },
           "third": {
-            "value": "#",
+            "value": "#ffffff",
             "type": "color"
           }
         },
@@ -80,42 +80,42 @@
           "contrast": {
             "base": {
               "positive": {
-                "value": "#",
+                "value": "#FAF1F4",
                 "type": "color"
               },
               "negative": {
-                "value": "#",
+                "value": "#040203",
                 "type": "color"
               }
             },
             "deep": {
               "positive": {
-                "value": "#",
+                "value": "#000000",
                 "type": "color"
               },
               "negative": {
-                "value": "#",
+                "value": "#ffffff",
                 "type": "color"
               }
             }
           },
           "neutral": {
-            "5": {
-              "value": "#",
+            "140": {
+              "value": "#FAF1F4",
               "type": "color"
             },
-            "140": {
-              "value": "#",
+            "5": {
+              "value": "#040203",
               "type": "color"
             }
           },
-          "grayscale": {
-            "5": {
-              "value": "#",
+          "grayscale": {            
+            "140": {
+              "value": "#F7F7F7",
               "type": "color"
             },
-            "140": {
-              "value": "#",
+            "5": {
+              "value": "#111111",
               "type": "color"
             }
           }
@@ -124,38 +124,16 @@
       "border": {
         "brand": {
           "first": {
-            "value": "#ffffff",
+            "value": "#FFD4E2",
             "type": "color"
           },
           "second": {
-            "value": "#ffffff",
+            "value": "#D5ECF9",
             "type": "color"
           },
           "third": {
             "value": "#",
-            "type": "color"
-          }
-        },
-        "ambient": {
-          "neutral": {
-            "5": {
-              "value": "#",
-              "type": "color"
-            },
-            "140": {
-              "value": "#",
-              "type": "color"
-            }
-          },
-          "grayscale": {
-            "5": {
-              "value": "#",
-              "type": "color"
-            },
-            "140": {
-              "value": "#",
-              "type": "color"
-            }
+            "type": "EADFED"
           }
         }
       }
