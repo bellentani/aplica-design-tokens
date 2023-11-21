@@ -100,22 +100,22 @@
             }
           },
           "neutral": {
-            "140": {
-              "value": "#FAF1F4",
-              "type": "color"
-            },
             "5": {
               "value": "#040203",
               "type": "color"
+            },
+            "140": {
+              "value": "#FAF1F4",
+              "type": "color"
             }
           },
-          "grayscale": {            
-            "140": {
-              "value": "#F7F7F7",
-              "type": "color"
-            },
+          "grayscale": {
             "5": {
               "value": "#111111",
+              "type": "color"
+            },
+            "140": {
+              "value": "#F7F7F7",
               "type": "color"
             }
           }

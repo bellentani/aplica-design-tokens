@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "c372d331d8e75a21516f5842b04aed25190e2656",
+    "name": "default-light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "flavors/_default-light": "enabled",
+      "flavor": "enabled"
+    },
+    "group": "flavor"
+  }
+]
