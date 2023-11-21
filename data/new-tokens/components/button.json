@@ -1,26 +1,28 @@
 {
-    "button": {
-      "primary": {
-        "box": {
-          "background": {
-            "value": "#",
-            "type": "color"
-          },
-          "border": {
-            "color": {
-              "value": "#",
-              "type": "color"
+    "components": {
+        "button": {
+            "primary": {
+                "box": {
+                    "background": {
+                        "value": "#",
+                        "type": "color"
+                    },
+                    "border": {
+                        "color": {
+                            "value": "#",
+                            "type": "color"
+                        }
+                    }
+                },
+                "label": {
+                    "font": {
+                        "color": {
+                            "value": "#",
+                            "type": "color"
+                        }
+                    }
+                }
             }
-          }
-        },
-        "label": {
-          "font": {
-            "color": {
-              "value": "#",
-              "type": "color"
-            }
-          }
         }
-      }
     }
-  }
+}
