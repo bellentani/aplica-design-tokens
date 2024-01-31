@@ -1,7 +1,7 @@
 {
   "color-theme": {
-    "brand": {
-      "branding": {
+    "solid": {
+      "brand": {
         "first": {
           "value": "{_color-palette.mode.light.brand.first.palette.100}",
           "type": "color"
@@ -39,56 +39,140 @@
           }
         },
         "neutral": {
-          "lowest": {
+          "5": {
             "value": "{_color-palette.mode.light.brand.first.neutrals.5}",
             "type": "color"
           },
-          "lower": {
+          "10": {
             "value": "{_color-palette.mode.light.brand.first.neutrals.10}",
             "type": "color"
           },
-          "low": {
+          "20": {
+            "value": "{_color-palette.mode.light.brand.first.neutrals.20}",
+            "type": "color"
+          },
+          "30": {
+            "value": "{_color-palette.mode.light.brand.first.neutrals.30}",
+            "type": "color"
+          },
+          "40": {
             "value": "{_color-palette.mode.light.brand.first.neutrals.40}",
             "type": "color"
           },
-          "mid": {
+          "50": {
+            "value": "{_color-palette.mode.light.brand.first.neutrals.50}",
+            "type": "color"
+          },
+          "60": {
+            "value": "{_color-palette.mode.light.brand.first.neutrals.60}",
+            "type": "color"
+          },
+          "70": {
             "value": "{_color-palette.mode.light.brand.first.neutrals.70}",
             "type": "color"
           },
-          "high": {
+          "80": {
+            "value": "{_color-palette.mode.light.brand.first.neutrals.80}",
+            "type": "color"
+          },
+          "90": {
+            "value": "{_color-palette.mode.light.brand.first.neutrals.90}",
+            "type": "color"
+          },
+          "100": {
             "value": "{_color-palette.mode.light.brand.first.neutrals.100}",
             "type": "color"
           },
-          "higher": {
+          "110": {
+            "value": "{_color-palette.mode.light.brand.first.neutrals.110}",
+            "type": "color"
+          },
+          "120": {
+            "value": "{_color-palette.mode.light.brand.first.neutrals.120}",
+            "type": "color"
+          },
+          "130": {
+            "value": "{_color-palette.mode.light.brand.first.neutrals.130}",
+            "type": "color"
+          },
+          "140": {
             "value": "{_color-palette.mode.light.brand.first.neutrals.140}",
             "type": "color"
           }
         },
         "grayscale": {
-          "lowest": {
+          "5": {
             "value": "#f7f7f7",
             "type": "color"
           },
-          "lower": {
+          "10": {
             "value": "#eeeeee",
             "type": "color"
           },
-          "low": {
+          "20": {
+            "value": "#dddddd",
+            "type": "color"
+          },
+          "30": {
+            "value": "#cccccc",
+            "type": "color"
+          },
+          "40": {
             "value": "#bbbbbb",
             "type": "color"
           },
-          "mid": {
+          "50": {
+            "value": "#aaaaaa",
+            "type": "color"
+          },
+          "60": {
+            "value": "#999999",
+            "type": "color"
+          },
+          "70": {
             "value": "#888888",
             "type": "color"
           },
-          "high": {
+          "80": {
+            "value": "#777777",
+            "type": "color"
+          },
+          "90": {
+            "value": "#666666",
+            "type": "color"
+          },
+          "100": {
             "value": "#555555",
             "type": "color"
           },
-          "higher": {
+          "110": {
+            "value": "#444444",
+            "type": "color"
+          },
+          "120": {
+            "value": "#333333",
+            "type": "color"
+          },
+          "130": {
+            "value": "#222222",
+            "type": "color"
+          },
+          "140": {
             "value": "#111111",
             "type": "color"
           }
+        }
+      }
+    },
+    "gradient": {
+      "brand": {
+        "first": {
+          "value": "linear-gradient(137deg, {color.solid.brand.first} 0%, {color.solid.brand.second} 100%)",
+          "type": "color"
+        },
+        "second": {
+          "value": "radial-gradient(165.5% 165.5% at 12% 10.5%, {color.solid.brand.first} 0%, {color.solid.brand.second} 100%)",
+          "type": "color"
         }
       }
     },
