@@ -7,43 +7,43 @@
       "branding": {
         "primary": {
           "background": {
-            "value": "{color-theme.branding.brand.first.background}",
+            "value": "{color-theme.brand.branding.first.background}",
             "type": "color"
           },
           "textOn": {
-            "value": "{color-theme.branding.brand.first.textOn}",
+            "value": "{color-theme.brand.branding.first.textOn}",
             "type": "color"
           },
           "border": {
-            "value": "{color-theme.branding.brand.first.border}",
+            "value": "{color-theme.brand.branding.first.border}",
             "type": "color"
           }
         },
         "second": {
           "background": {
-            "value": "{color-theme.branding.brand.second.background}",
+            "value": "{color-theme.brand.branding.second.background}",
             "type": "color"
           },
           "textOn": {
-            "value": "{color-theme.branding.brand.second.textOn}",
+            "value": "{color-theme.brand.branding.second.textOn}",
             "type": "color"
           },
           "border": {
-            "value": "{color-theme.branding.brand.second.border}",
+            "value": "{color-theme.brand.branding.second.border}",
             "type": "color"
           }
         },
         "third": {
           "background": {
-            "value": "{color-theme.branding.brand.third.background}",
+            "value": "{color-theme.brand.branding.third.background}",
             "type": "color"
           },
           "textOn": {
-            "value": "{color-theme.branding.brand.third.textOn}",
+            "value": "{color-theme.brand.branding.third.textOn}",
             "type": "color"
           },
           "border": {
-            "value": "{color-theme.branding.brand.third.border}",
+            "value": "{color-theme.brand.branding.third.border}",
             "type": "color"
           }
         }
