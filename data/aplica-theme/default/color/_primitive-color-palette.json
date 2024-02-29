@@ -56,56 +56,6 @@
               "type": "color"
             }
           }
-        },
-        "product-semantic": {
-          "coupons": {
-            "product": {
-              "value": "#9B73FF",
-              "type": "color"
-            },
-            "discount": {
-              "value": "#290B6D",
-              "type": "color"
-            },
-            "free-delivery": {
-              "value": "#009EBF",
-              "type": "color"
-            },
-            "sports": {
-              "value": "#FFD416",
-              "type": "color"
-            },
-            "events": {
-              "value": "#FFA729",
-              "type": "color"
-            }
-          },
-          "commerce": {
-            "cashback": {
-              "value": "#3BB482",
-              "type": "color"
-            },
-            "returnable": {
-              "value": "#C8B5F4",
-              "type": "color"
-            },
-            "discount-low": {
-              "value": "#DBCAFF",
-              "type": "color"
-            },
-            "discount-medium": {
-              "value": "#B89CFB",
-              "type": "color"
-            },
-            "discount-high": {
-              "value": "#6C43CF",
-              "type": "color"
-            },
-            "discount-super": {
-              "value": "#290B6D",
-              "type": "color"
-            }
-          }
         }
       },
       "dark": {
@@ -231,56 +181,6 @@
                   }
                 }
               }
-            }
-          }
-        },
-        "product-semantic": {
-          "coupons": {
-            "product": {
-              "value": "#9B73FF",
-              "type": "color"
-            },
-            "discount": {
-              "value": "#290B6D",
-              "type": "color"
-            },
-            "free-delivery": {
-              "value": "#009EBF",
-              "type": "color"
-            },
-            "sports": {
-              "value": "#FFD416",
-              "type": "color"
-            },
-            "events": {
-              "value": "#FFA729",
-              "type": "color"
-            }
-          },
-          "commerce": {
-            "cashback": {
-              "value": "#3BB482",
-              "type": "color"
-            },
-            "returnable": {
-              "value": "#C8B5F4",
-              "type": "color"
-            },
-            "discount-low": {
-              "value": "#DBCAFF",
-              "type": "color"
-            },
-            "discount-medium": {
-              "value": "#B89CFB",
-              "type": "color"
-            },
-            "discount-high": {
-              "value": "#6C43CF",
-              "type": "color"
-            },
-            "discount-super": {
-              "value": "#290B6D",
-              "type": "color"
             }
           }
         }
