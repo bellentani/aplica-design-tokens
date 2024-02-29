@@ -4,13 +4,13 @@
     "name": "theme-foundation",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "foundation-theme": "source",
+      "foundation-theme": "enabled",
       "color/_primitive-color-palette": "source",
       "color/semantic": "source"
     },
-    "group": "foundation",
-    "$figmaCollectionId": "VariableCollectionId:1002:7578",
-    "$figmaModeId": "1002:3",
-    "$figmaVariableReferences": {}
+    "$figmaCollectionId": "VariableCollectionId:1004:7508",
+    "$figmaModeId": "1004:0",
+    "$figmaVariableReferences": {},
+    "group": "foundation"
   }
 ]
