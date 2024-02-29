@@ -8,6 +8,9 @@
       "color/_primitive-color-palette": "source",
       "color/semantic": "source"
     },
-    "group": "foundation"
+    "group": "foundation",
+    "$figmaCollectionId": "VariableCollectionId:1002:7578",
+    "$figmaModeId": "1002:3",
+    "$figmaVariableReferences": {}
   }
 ]
