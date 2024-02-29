@@ -83,7 +83,7 @@
         "interaction": {
           "function": {
             "primary": {
-              "value": "#BF0D82",
+              "value": "{_color-pallet.raw.light.interaction.function.primary}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -97,7 +97,7 @@
               }
             },
             "secondary": {
-              "value": "#177BB5",
+              "value": "{_color-pallet.raw.light.interaction.function.secondary}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -111,7 +111,7 @@
               }
             },
             "link": {
-              "value": "#0026D1",
+              "value": "{_color-pallet.raw.light.interaction.function.link}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -127,7 +127,7 @@
           },
           "feedback": {
             "info": {
-              "value": "#00B8F0",
+              "value": "{_color-pallet.raw.light.interaction.feedback.info}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -141,7 +141,7 @@
               }
             },
             "success": {
-              "value": "#008A1E",
+              "value": "{_color-pallet.raw.light.interaction.feedback.success}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -155,7 +155,7 @@
               }
             },
             "warning": {
-              "value": "#F6AC3C",
+              "value": "{_color-pallet.raw.light.interaction.feedback.warning}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -169,7 +169,7 @@
               }
             },
             "danger": {
-              "value": "#DF0707",
+              "value": "{_color-pallet.raw.light.interaction.feedback.danger}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
