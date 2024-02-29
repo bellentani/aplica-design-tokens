@@ -83,7 +83,7 @@
         "interaction": {
           "function": {
             "primary": {
-              "value": "{_color-pallet.raw.light.interaction.function.primary}",
+              "value": "{_color-pallete.raw.light.interaction.function.primary}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -97,7 +97,7 @@
               }
             },
             "secondary": {
-              "value": "{_color-pallet.raw.light.interaction.function.secondary}",
+              "value": "{_color-pallete.raw.light.interaction.function.secondary}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -111,7 +111,7 @@
               }
             },
             "link": {
-              "value": "{_color-pallet.raw.light.interaction.function.link}",
+              "value": "{_color-pallete.raw.light.interaction.function.link}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -127,7 +127,7 @@
           },
           "feedback": {
             "info": {
-              "value": "{_color-pallet.raw.light.interaction.feedback.info}",
+              "value": "{_color-pallete.raw.light.interaction.feedback.info}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -141,7 +141,7 @@
               }
             },
             "success": {
-              "value": "{_color-pallet.raw.light.interaction.feedback.success}",
+              "value": "{_color-pallete.raw.light.interaction.feedback.success}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -155,7 +155,7 @@
               }
             },
             "warning": {
-              "value": "{_color-pallet.raw.light.interaction.feedback.warning}",
+              "value": "{_color-pallete.raw.light.interaction.feedback.warning}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -169,7 +169,7 @@
               }
             },
             "danger": {
-              "value": "{_color-pallet.raw.light.interaction.feedback.danger}",
+              "value": "{_color-pallete.raw.light.interaction.feedback.danger}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
