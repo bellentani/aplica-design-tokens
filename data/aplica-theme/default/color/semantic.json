@@ -8,11 +8,11 @@
             "type": "color"
           },
           "textOn": {
-            "value": "{_color-palette.mode.light.brand.first.palette.100}",
+            "value": "{_color-palette.mode.light.brand.first.palette.190}",
             "type": "color"
           },
           "border": {
-            "value": "{_color-palette.mode.light.brand.first.palette.100}",
+            "value": "{_color-palette.mode.light.brand.first.palette.110}",
             "type": "color"
           }
         },
@@ -22,11 +22,11 @@
             "type": "color"
           },
           "textOn": {
-            "value": "{_color-palette.mode.light.brand.second.palette.100}",
+            "value": "{_color-palette.mode.light.brand.second.palette.190}",
             "type": "color"
           },
           "border": {
-            "value": "{_color-palette.mode.light.brand.second.palette.100}",
+            "value": "{_color-palette.mode.light.brand.second.palette.110}",
             "type": "color"
           }
         },
@@ -36,11 +36,11 @@
             "type": "color"
           },
           "textOn": {
-            "value": "{_color-palette.mode.light.brand.third.palette.100}",
+            "value": "{color-theme.ambient.deep.positive}",
             "type": "color"
           },
           "border": {
-            "value": "{_color-palette.mode.light.brand.third.palette.100}",
+            "value": "{_color-palette.mode.light.brand.third.palette.110}",
             "type": "color"
           }
         }
