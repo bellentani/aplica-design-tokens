@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "3d9fef7743db715bf9bdb4e077a7754384cf5eb9",
+    "name": "theme-foundation",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "foundation-theme": "source",
+      "color/_primitive-color-palette": "source",
+      "color/semantic": "source"
+    },
+    "group": "foundation"
+  }
+]

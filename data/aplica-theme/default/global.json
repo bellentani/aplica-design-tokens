@@ -1,7 +1,4 @@
 {
-  "size": {},
-  "spacing": {},
-  "border": {},
   "color": {
     "brand": {
       "branding": {
@@ -47,74 +44,6 @@
             "type": "color"
           }
         }
-      },
-      "ambient": {
-        "contrast": {
-          "base": {
-            "positive": {},
-            "negative": {}
-          },
-          "deep": {
-            "positive": {},
-            "negative": {}
-          }
-        },
-        "neutral": {
-          "lower": {},
-          "low": {},
-          "mid": {},
-          "hight": {},
-          "higher": {}
-        },
-        "grayscale": {
-          "lower": {},
-          "low": {},
-          "mid": {},
-          "hight": {},
-          "higher": {}
-        }
-      }
-    },
-    "interface": {
-      "function": {
-        "primary": {},
-        "secondary": {},
-        "link": {},
-        "disabled": {}
-      },
-      "feedback": {
-        "info": {},
-        "success": {},
-        "warning": {},
-        "danger": {}
-      }
-    },
-    "text": {
-      "positive": {
-        "title": {},
-        "body": {},
-        "highlight": {},
-        "muted": {},
-        "label": {},
-        "secondary": {},
-        "link": {},
-        "info": {},
-        "success": {},
-        "warning": {},
-        "danger": {}
-      },
-      "negative": {
-        "title": {},
-        "body": {},
-        "highlight": {},
-        "muted": {},
-        "label": {},
-        "secondary": {},
-        "link": {},
-        "info": {},
-        "success": {},
-        "warning": {},
-        "danger": {}
       }
     }
   },

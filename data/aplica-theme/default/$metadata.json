@@ -1,5 +1,13 @@
 {
   "tokenSetOrder": [
-    "foundation-theme"
+    "foundation-theme",
+    "color/_primitive-color-palette",
+    "color/dark",
+    "color/deprecated/_color-charts",
+    "color/deprecated/_color-palette",
+    "color/deprecated/_helper-color-scheme",
+    "color/light",
+    "color/semantic",
+    "global"
   ]
 }
