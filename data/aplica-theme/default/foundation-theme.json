@@ -44,6 +44,70 @@
             "type": "color"
           }
         }
+      },
+      "ambient": {
+        "contrast": {
+          "base": {
+            "positive": {
+              "background": {
+                "value": "{color-theme.contrast.base.positive.background}",
+                "type": "color"
+              },
+              "textOn": {
+                "value": "{color-theme.contrast.base.negative.textOn}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{color-theme.contrast.base.positive.border}",
+                "type": "color"
+              }
+            },
+            "negative": {
+              "background": {
+                "value": "{color-theme.contrast.base.negative.background}",
+                "type": "color"
+              },
+              "textOn": {
+                "value": "{color-theme.contrast.base.positive.textOn}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{color-theme.contrast.base.negative.border}",
+                "type": "color"
+              }
+            }
+          },
+          "deep": {
+            "positive": {
+              "background": {
+                "value": "{color-theme.contrast.deep.positive.background}",
+                "type": "color"
+              },
+              "textOn": {
+                "value": "{color-theme.contrast.deep.negative.textOn}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{color-theme.contrast.deep.positive.border}",
+                "type": "color"
+              }
+            },
+            "negative": {
+              "background": {
+                "value": "{color-theme.contrast.deep.negative.background}",
+                "type": "color"
+              },
+              "textOn": {
+                "value": "{color-theme.contrast.deep.positive.textOn}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{color-theme.contrast.deep.negative.border}",
+                "type": "color"
+              }
+            }
+          }
+        }
       }
     }
   },
