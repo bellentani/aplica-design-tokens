@@ -305,17 +305,19 @@
           }
         },
         "disabled": {
-          "background": {
-            "value": "{color.brand.ambient.grayscale.low}",
-            "type": "color"
-          },
-          "textOn": {
-            "value": "{color.brand.ambient.grayscale.higher}",
-            "type": "color"
-          },
-          "border": {
-            "value": "{color.brand.ambient.grayscale.low}",
-            "type": "color"
+          "normal": {
+            "background": {
+              "value": "{color.brand.ambient.grayscale.low}",
+              "type": "color"
+            },
+            "textOn": {
+              "value": "{color.brand.ambient.grayscale.higher}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{color.brand.ambient.grayscale.low}",
+              "type": "color"
+            }
           }
         }
       },
