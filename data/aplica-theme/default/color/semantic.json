@@ -143,8 +143,8 @@
             "type": "color",
             "description": ""
           },
-          "default": {
-            "value": "{_color-palette.mode.light.interaction.function.primary.behavior.default}",
+          "normal": {
+            "value": "{_color-palette.mode.light.interaction.function.primary.behavior.normal}",
             "type": "color",
             "description": ""
           },
@@ -170,8 +170,8 @@
             "type": "color",
             "description": ""
           },
-          "default": {
-            "value": "{_color-palette.mode.light.interaction.function.secondary.behavior.default}",
+          "normal": {
+            "value": "{_color-palette.mode.light.interaction.function.secondary.behavior.normal}",
             "type": "color",
             "description": ""
           },
@@ -197,8 +197,8 @@
             "type": "color",
             "description": ""
           },
-          "default": {
-            "value": "{_color-palette.mode.light.interaction.function.link.behavior.default}",
+          "normal": {
+            "value": "{_color-palette.mode.light.interaction.function.link.behavior.normal}",
             "type": "color",
             "description": ""
           },
@@ -226,8 +226,8 @@
             "type": "color",
             "description": ""
           },
-          "default": {
-            "value": "{_color-palette.mode.light.interaction.feedback.info.behavior.default}",
+          "normal": {
+            "value": "{_color-palette.mode.light.interaction.feedback.info.behavior.normal}",
             "type": "color",
             "description": ""
           },
@@ -253,8 +253,8 @@
             "type": "color",
             "description": ""
           },
-          "default": {
-            "value": "{_color-palette.mode.light.interaction.feedback.success.behavior.default}",
+          "normal": {
+            "value": "{_color-palette.mode.light.interaction.feedback.success.behavior.normal}",
             "type": "color",
             "description": ""
           },
@@ -279,8 +279,8 @@
             "type": "color",
             "description": ""
           },
-          "default": {
-            "value": "{_color-palette.mode.light.interaction.feedback.warning.behavior.default}",
+          "normal": {
+            "value": "{_color-palette.mode.light.interaction.feedback.warning.behavior.normal}",
             "type": "color",
             "description": ""
           },
@@ -306,10 +306,10 @@
             "type": "color",
             "description": ""
           },
-          "default": {
-            "value": "{_color-palette.mode.light.interaction.feedback.danger.behavior.default}",
+          "normal": {
+            "value": "{_color-palette.mode.light.interaction.feedback.danger.behavior.normal}",
             "type": "color",
-            "description": "$color.interaction.feedback.danger.default"
+            "description": "$color.interaction.feedback.danger.normal"
           },
           "active": {
             "value": "{_color-palette.mode.light.interaction.feedback.danger.behavior.active}",
