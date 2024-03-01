@@ -263,43 +263,43 @@
         "link": {
           "normal": {
             "background": {
-              "value": "{color-theme.interface.function.secondary.normal}",
+              "value": "{color-theme.interface.function.link.normal}",
               "type": "color"
             },
             "textOn": {
-              "value": "{color-theme.interface.function.secondary.lightest}",
+              "value": "{color-theme.interface.function.link.lightest}",
               "type": "color"
             },
             "border": {
-              "value": "{color-theme.interface.function.secondary.normal}",
+              "value": "{color-theme.interface.function.link.normal}",
               "type": "color"
             }
           },
           "action": {
             "background": {
-              "value": "{color-theme.interface.function.secondary.action}",
+              "value": "{color-theme.interface.function.link.action}",
               "type": "color"
             },
             "textOn": {
-              "value": "{color-theme.interface.function.secondary.lightest}",
+              "value": "{color-theme.interface.function.link.lightest}",
               "type": "color"
             },
             "border": {
-              "value": "{color-theme.interface.function.secondary.action}",
+              "value": "{color-theme.interface.function.link.action}",
               "type": "color"
             }
           },
           "active": {
             "background": {
-              "value": "{color-theme.interface.function.secondary.active}",
+              "value": "{color-theme.interface.function.link.active}",
               "type": "color"
             },
             "textOn": {
-              "value": "{color-theme.interface.function.secondary.darkest}",
+              "value": "{color-theme.interface.function.link.darkest}",
               "type": "color"
             },
             "border": {
-              "value": "{color-theme.interface.function.secondary.active}",
+              "value": "{color-theme.interface.function.link.active}",
               "type": "color"
             }
           }
