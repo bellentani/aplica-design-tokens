@@ -1,49 +1,17 @@
 {
-  "color": {
+  "bg": {
     "brand": {
-      "branding": {
-        "primary": {
-          "background": {
-            "value": "{color-theme.branding.brand.first.background}",
-            "type": "color"
-          },
-          "textOn": {
-            "value": "{color-theme.branding.brand.first.textOn}",
-            "type": "color"
-          },
-          "border": {
-            "value": "{color-theme.branding.brand.first.border}",
-            "type": "color"
-          }
-        },
-        "second": {
-          "background": {
-            "value": "{color-theme.branding.brand.second.background}",
-            "type": "color"
-          },
-          "textOn": {
-            "value": "{color-theme.branding.brand.second.textOn}",
-            "type": "color"
-          },
-          "border": {
-            "value": "{color-theme.branding.brand.second.border}",
-            "type": "color"
-          }
-        },
-        "third": {
-          "background": {
-            "value": "{color-theme.branding.brand.third.background}",
-            "type": "color"
-          },
-          "textOn": {
-            "value": "{color-theme.branding.brand.third.textOn}",
-            "type": "color"
-          },
-          "border": {
-            "value": "{color-theme.branding.brand.third.border}",
-            "type": "color"
-          }
-        }
+      "first": {
+        "value": "{color.brand.branding.first.background}",
+        "type": "color"
+      },
+      "second": {
+        "value": "{color.brand.branding.second.background}",
+        "type": "color"
+      },
+      "third": {
+        "value": "{color.brand.branding.third.background}",
+        "type": "color"
       }
     }
   },

@@ -2,7 +2,7 @@
   "color": {
     "brand": {
       "branding": {
-        "primary": {
+        "first": {
           "background": {
             "value": "{color-theme.brand.branding.first.background}",
             "type": "color"
