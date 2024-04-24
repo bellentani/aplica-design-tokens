@@ -4,8 +4,7 @@
     "name": "primitives",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color/_primitive-color-palette": "enabled",
-      "theme-foundation": "disabled"
+      "color/_primitive-color-palette": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3002:2858",
     "$figmaModeId": "3002:10",
@@ -819,8 +818,7 @@
     "name": "light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color/light": "enabled",
-      "theme-foundation": "disabled"
+      "color/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3002:3726",
     "$figmaModeId": "3002:13",
@@ -897,8 +895,7 @@
     "name": "dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color/dark": "enabled",
-      "theme-foundation": "disabled"
+      "color/dark": "enabled"
     },
     "group": "theme",
     "$figmaCollectionId": "VariableCollectionId:3002:3726",
