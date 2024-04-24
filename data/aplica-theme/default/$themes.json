@@ -818,7 +818,7 @@
     "name": "light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color/semantic": "enabled"
+      "color/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3002:3726",
     "$figmaModeId": "3002:13",
