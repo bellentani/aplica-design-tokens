@@ -320,12 +320,6 @@
             }
           }
         }
-      },
-      "feedback": {
-        "info": {},
-        "success": {},
-        "warning": {},
-        "danger": {}
       }
     }
   },
