@@ -819,8 +819,7 @@
     "name": "light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color/light": "enabled",
-      "foundation": "disabled"
+      "color/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3005:805",
     "$figmaModeId": "3005:1",
@@ -897,8 +896,7 @@
     "name": "dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color/dark": "enabled",
-      "foundation": "disabled"
+      "color/dark": "enabled"
     },
     "group": "theme",
     "$figmaCollectionId": "VariableCollectionId:3005:805",
