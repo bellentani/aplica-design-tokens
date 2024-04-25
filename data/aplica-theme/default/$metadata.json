@@ -7,6 +7,6 @@
     "color/deprecated/_color-palette",
     "color/deprecated/_helper-color-scheme",
     "color/light",
-    "global"
+    "foundation"
   ]
 }
