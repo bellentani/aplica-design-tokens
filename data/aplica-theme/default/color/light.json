@@ -115,7 +115,7 @@
               "type": "color"
             },
             "textOn": {
-              "value": "{_color-palette.mode.light.brand.first.neutrals.5}",
+              "value": "{_color-palette.mode.light.brand.first.neutrals.100}",
               "type": "color"
             },
             "border": {
@@ -129,7 +129,7 @@
               "type": "color"
             },
             "textOn": {
-              "value": "{_color-palette.mode.light.brand.first.neutrals.10}",
+              "value": "{_color-palette.mode.light.brand.first.neutrals.100}",
               "type": "color"
             },
             "border": {
@@ -143,7 +143,7 @@
               "type": "color"
             },
             "textOn": {
-              "value": "{_color-palette.mode.light.brand.first.neutrals.40}",
+              "value": "{_color-palette.mode.light.brand.first.neutrals.100}",
               "type": "color"
             },
             "border": {
@@ -157,7 +157,7 @@
               "type": "color"
             },
             "textOn": {
-              "value": "{_color-palette.mode.light.brand.first.neutrals.70}",
+              "value": "{_color-palette.mode.light.brand.first.neutrals.5}",
               "type": "color"
             },
             "border": {
@@ -171,7 +171,7 @@
               "type": "color"
             },
             "textOn": {
-              "value": "{_color-palette.mode.light.brand.first.neutrals.100}",
+              "value": "{_color-palette.mode.light.brand.first.neutrals.10}",
               "type": "color"
             },
             "border": {
@@ -185,7 +185,7 @@
               "type": "color"
             },
             "textOn": {
-              "value": "{_color-palette.mode.light.brand.first.neutrals.120}",
+              "value": "{_color-palette.mode.light.brand.first.neutrals.10}",
               "type": "color"
             },
             "border": {
@@ -199,7 +199,7 @@
               "type": "color"
             },
             "textOn": {
-              "value": "{_color-palette.mode.light.brand.first.neutrals.140}",
+              "value": "{_color-palette.mode.light.brand.first.neutrals.40}",
               "type": "color"
             },
             "border": {
