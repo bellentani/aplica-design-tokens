@@ -16,11 +16,64 @@
     },
     "ambient": {
       "contrast": {
-        "base": {},
-        "deep": {}
+        "base": {
+          "positive": {
+            "value": "{color.ambient.contrast.base.positive}",
+            "type": "color"
+          },
+          "negative": {
+            "value": "{color.ambient.contrast.base.negative}",
+            "type": "color"
+          }
+        },
+        "deep": {
+          "positive": {
+            "value": "{color.ambient.contrast.deep.positive}",
+            "type": "color"
+          },
+          "negative": {
+            "value": "{color.ambient.contrast.deep.negative}",
+            "type": "color"
+          }
+        }
       },
-      "neutral": {},
-      "grayscale": {}
+      "neutral": {
+        "highest": {},
+        "higher": {},
+        "high": {},
+        "mid": {},
+        "low": {},
+        "lower": {},
+        "lowest": {}
+      },
+      "grayscale": {
+        "highest": {},
+        "higher": {},
+        "high": {},
+        "mid": {},
+        "low": {},
+        "lower": {},
+        "lowest": {}
+      }
+    },
+    "function": {
+      "primary": {},
+      "secondary": {},
+      "link": {}
+    },
+    "feedback": {
+      "main": {
+        "info": {},
+        "success": {},
+        "warning": {},
+        "danger": {}
+      },
+      "secondary": {
+        "info": {},
+        "success": {},
+        "warning": {},
+        "danger": {}
+      }
     }
   },
   "border": {},
@@ -29,15 +82,43 @@
       "brand": {},
       "ambient": {
         "contrast": {
-          "base": {},
-          "deep": {}
+          "base": {
+            "positive": {},
+            "negative": {}
+          },
+          "deep": {
+            "positive": {},
+            "negative": {}
+          }
         },
-        "neutral": {},
-        "grayscale": {}
+        "neutral": {
+          "highest": {},
+          "higher": {},
+          "high": {},
+          "mid": {},
+          "low": {},
+          "lower": {},
+          "lowest": {}
+        },
+        "grayscale": {
+          "highest": {},
+          "higher": {},
+          "high": {},
+          "mid": {},
+          "low": {},
+          "lower": {},
+          "lowest": {}
+        }
       },
       "function": {},
       "feedback": {
         "main": {
+          "info": {},
+          "success": {},
+          "warning": {},
+          "danger": {}
+        },
+        "secondary": {
           "info": {},
           "success": {},
           "warning": {},
