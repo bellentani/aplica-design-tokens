@@ -313,7 +313,7 @@
     "interface": {
       "function": {
         "primary": {
-          "darkest": {
+          "negative": {
             "value": "{_color-palette.mode.light.interface.function.primary.behavior.darkest}",
             "type": "color",
             "description": ""
@@ -333,14 +333,14 @@
             "type": "color",
             "description": ""
           },
-          "lightest": {
+          "positive": {
             "value": "{_color-palette.mode.light.interface.function.primary.behavior.lightest}",
             "type": "color",
             "description": ""
           }
         },
         "secondary": {
-          "darkest": {
+          "negative": {
             "value": "{_color-palette.mode.light.interface.function.secondary.behavior.darkest}",
             "type": "color",
             "description": ""
@@ -360,14 +360,14 @@
             "type": "color",
             "description": ""
           },
-          "lightest": {
+          "positive": {
             "value": "{_color-palette.mode.light.interface.function.secondary.behavior.lightest}",
             "type": "color",
             "description": ""
           }
         },
         "link": {
-          "darkest": {
+          "negative": {
             "value": "{_color-palette.mode.light.interface.function.link.behavior.darkest}",
             "type": "color",
             "description": ""
@@ -387,7 +387,7 @@
             "type": "color",
             "description": ""
           },
-          "lightest": {
+          "positive": {
             "value": "{_color-palette.mode.light.interface.function.link.behavior.lightest}",
             "type": "color",
             "description": ""
@@ -396,7 +396,7 @@
       },
       "feedback": {
         "info": {
-          "darkest": {
+          "negative": {
             "value": "{_color-palette.mode.light.interface.feedback.info.behavior.darkest}",
             "type": "color",
             "description": ""
@@ -416,14 +416,14 @@
             "type": "color",
             "description": ""
           },
-          "lightest": {
+          "positive": {
             "value": "{_color-palette.mode.light.interface.feedback.info.behavior.lightest}",
             "type": "color",
             "description": ""
           }
         },
         "success": {
-          "darkest": {
+          "negative": {
             "value": "{_color-palette.mode.light.interface.feedback.success.behavior.darkest}",
             "type": "color",
             "description": ""
@@ -443,13 +443,13 @@
             "type": "color",
             "description": ""
           },
-          "lightest": {
+          "positive": {
             "value": "{_color-palette.mode.light.interface.feedback.success.behavior.lightest}",
             "type": "color"
           }
         },
         "warning": {
-          "darkest": {
+          "negative": {
             "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.darkest}",
             "type": "color",
             "description": ""
@@ -469,14 +469,14 @@
             "type": "color",
             "description": ""
           },
-          "lightest": {
+          "positive": {
             "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.lightest}",
             "type": "color",
             "description": ""
           }
         },
         "danger": {
-          "darkest": {
+          "negative": {
             "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.darkest}",
             "type": "color",
             "description": ""
@@ -496,7 +496,7 @@
             "type": "color",
             "description": ""
           },
-          "lightest": {
+          "positive": {
             "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.lightest}",
             "type": "color",
             "description": ""
