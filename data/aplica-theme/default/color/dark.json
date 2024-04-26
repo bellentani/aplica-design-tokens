@@ -50,29 +50,29 @@
           "base": {
             "positive": {
               "background": {
-                "value": "{_color-palette.mode.dark.brand.first.neutrals.140}",
+                "value": "{_color-palette.mode.dark.brand.first.neutrals.5}",
                 "type": "color"
               },
               "textOn": {
-                "value": "{_color-palette.mode.dark.brand.first.neutrals.140}",
+                "value": "{_color-palette.mode.dark.brand.first.neutrals.5}",
                 "type": "color"
               },
               "border": {
-                "value": "{_color-palette.mode.dark.brand.first.neutrals.140}",
+                "value": "{_color-palette.mode.dark.brand.first.neutrals.5}",
                 "type": "color"
               }
             },
             "negative": {
               "background": {
-                "value": "{_color-palette.mode.dark.brand.first.neutrals.5}",
+                "value": "{_color-palette.mode.dark.brand.first.neutrals.140}",
                 "type": "color"
               },
               "textOn": {
-                "value": "{_color-palette.mode.dark.brand.first.neutrals.5}",
+                "value": "{_color-palette.mode.dark.brand.first.neutrals.140}",
                 "type": "color"
               },
               "border": {
-                "value": "{_color-palette.mode.dark.brand.first.neutrals.5}",
+                "value": "{_color-palette.mode.dark.brand.first.neutrals.140}",
                 "type": "color"
               }
             }
