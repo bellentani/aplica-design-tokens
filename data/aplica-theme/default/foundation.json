@@ -18,21 +18,21 @@
       "contrast": {
         "base": {
           "positive": {
-            "value": "{color.ambient.contrast.base.positive.background}",
+            "value": "{color.brand.ambient.contrast.base.positive.background}",
             "type": "color"
           },
           "negative": {
-            "value": "{color.ambient.contrast.base.negative.background}",
+            "value": "{color.brand.ambient.contrast.base.negative.background}",
             "type": "color"
           }
         },
         "deep": {
           "positive": {
-            "value": "{color.ambient.contrast.deep.positive.background}",
+            "value": "{color.brand.ambient.contrast.deep.positive.background}",
             "type": "color"
           },
           "negative": {
-            "value": "{color.ambient.contrast.deep.negative.background}",
+            "value": "{color.brand.ambient.contrast.deep.negative.background}",
             "type": "color"
           }
         }
