@@ -371,7 +371,7 @@
           "type": "color"
         },
         "error": {
-          "value": "{color-theme.interface.feedback.error.darkest}",
+          "value": "{color-theme.interface.feedback.danger.darkest}",
           "type": "color"
         }
       },
@@ -409,7 +409,7 @@
           "type": "color"
         },
         "error": {
-          "value": "{color-theme.interface.feedback.error.darkest}",
+          "value": "{color-theme.interface.feedback.danger.darkest}",
           "type": "color"
         }
       }
