@@ -100,23 +100,54 @@
     },
     "function": {
       "primary": {
-        
+        "value": "{color.interface.function.primary.normal.background}",
+        "type": "color"
       },
-      "secondary": {},
-      "link": {}
+      "secondary": {
+        "value": "{color.interface.function.secondary.normal.background}",
+        "type": "color"
+      },
+      "link": {
+        "value": "{color.interface.function.link.normal.background}",
+        "type": "color"
+      }
     },
     "feedback": {
       "main": {
-        "info": {},
-        "success": {},
-        "warning": {},
-        "danger": {}
+        "info": {
+          "value": "{color.interface.feedback.main.info.background}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.interface.feedback.main.success.background}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.interface.feedback.main.warning.background}",
+          "type": "color"
+        },
+        "danger": {
+          "value": "{color.interface.feedback.main.danger.background}",
+          "type": "color"
+        }
       },
       "secondary": {
-        "info": {},
-        "success": {},
-        "warning": {},
-        "danger": {}
+        "info": {
+          "value": "{color.interface.feedback.secondary.info.background}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.interface.feedback.secondary.success.background}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.interface.feedback.secondary.warning.background}",
+          "type": "color"
+        },
+        "danger": {
+          "value": "{color.interface.feedback.secondary.danger.background}",
+          "type": "color"
+        }
       }
     }
   },
