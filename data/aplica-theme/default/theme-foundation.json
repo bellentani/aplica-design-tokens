@@ -510,35 +510,7 @@
           "secondary": {
             "normal": {
               "background": {
-                "value": "{color-theme.interface.feedback.info.normal}",
-                "type": "color"
-              },
-              "textOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.negative.textOn}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{color-theme.interface.feedback.info.normal}",
-                "type": "color"
-              }
-            },
-            "action": {
-              "background": {
-                "value": "{color-theme.interface.feedback.info.action}",
-                "type": "color"
-              },
-              "textOn": {
                 "value": "{color-theme.interface.feedback.info.lightest}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{color-theme.interface.feedback.info.action}",
-                "type": "color"
-              }
-            },
-            "active": {
-              "background": {
-                "value": "{color-theme.interface.feedback.info.active}",
                 "type": "color"
               },
               "textOn": {
@@ -546,7 +518,35 @@
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.info.active}",
+                "value": "{color-theme.interface.feedback.info.lightest}",
+                "type": "color"
+              }
+            },
+            "action": {
+              "background": {
+                "value": "{color-theme.interface.feedback.info.lightest}",
+                "type": "color"
+              },
+              "textOn": {
+                "value": "{color-theme.interface.feedback.info.action}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{color-theme.interface.feedback.info.lightest}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "background": {
+                "value": "{color-theme.interface.feedback.info.darkest}",
+                "type": "color"
+              },
+              "textOn": {
+                "value": "{color-theme.interface.feedback.info.lightest}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{color-theme.interface.feedback.info.darkest}",
                 "type": "color"
               }
             }
@@ -600,35 +600,7 @@
           "secondary": {
             "normal": {
               "background": {
-                "value": "{color-theme.interface.feedback.success.normal}",
-                "type": "color"
-              },
-              "textOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.negative.textOn}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{color-theme.interface.feedback.success.normal}",
-                "type": "color"
-              }
-            },
-            "action": {
-              "background": {
-                "value": "{color-theme.interface.feedback.success.action}",
-                "type": "color"
-              },
-              "textOn": {
                 "value": "{color-theme.interface.feedback.success.lightest}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{color-theme.interface.feedback.success.action}",
-                "type": "color"
-              }
-            },
-            "active": {
-              "background": {
-                "value": "{color-theme.interface.feedback.success.active}",
                 "type": "color"
               },
               "textOn": {
@@ -636,7 +608,35 @@
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.success.active}",
+                "value": "{color-theme.interface.feedback.success.lightest}",
+                "type": "color"
+              }
+            },
+            "action": {
+              "background": {
+                "value": "{color-theme.interface.feedback.success.lightest}",
+                "type": "color"
+              },
+              "textOn": {
+                "value": "{color-theme.interface.feedback.success.action}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{color-theme.interface.feedback.success.lightest}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "background": {
+                "value": "{color-theme.interface.feedback.success.darkest}",
+                "type": "color"
+              },
+              "textOn": {
+                "value": "{color-theme.interface.feedback.success.lightest}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{color-theme.interface.feedback.success.darkest}",
                 "type": "color"
               }
             }
@@ -690,35 +690,7 @@
           "secondary": {
             "normal": {
               "background": {
-                "value": "{color-theme.interface.feedback.warning.normal}",
-                "type": "color"
-              },
-              "textOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.negative.textOn}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{color-theme.interface.feedback.warning.normal}",
-                "type": "color"
-              }
-            },
-            "action": {
-              "background": {
-                "value": "{color-theme.interface.feedback.warning.action}",
-                "type": "color"
-              },
-              "textOn": {
                 "value": "{color-theme.interface.feedback.warning.lightest}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{color-theme.interface.feedback.warning.action}",
-                "type": "color"
-              }
-            },
-            "active": {
-              "background": {
-                "value": "{color-theme.interface.feedback.warning.active}",
                 "type": "color"
               },
               "textOn": {
@@ -726,7 +698,35 @@
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.warning.active}",
+                "value": "{color-theme.interface.feedback.warning.lightest}",
+                "type": "color"
+              }
+            },
+            "action": {
+              "background": {
+                "value": "{color-theme.interface.feedback.warning.lightest}",
+                "type": "color"
+              },
+              "textOn": {
+                "value": "{color-theme.interface.feedback.warning.action}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{color-theme.interface.feedback.warning.lightest}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "background": {
+                "value": "{color-theme.interface.feedback.warning.darkest}",
+                "type": "color"
+              },
+              "textOn": {
+                "value": "{color-theme.interface.feedback.warning.lightest}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{color-theme.interface.feedback.warning.darkest}",
                 "type": "color"
               }
             }
@@ -780,35 +780,7 @@
           "secondary": {
             "normal": {
               "background": {
-                "value": "{color-theme.interface.feedback.danger.normal}",
-                "type": "color"
-              },
-              "textOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.negative.textOn}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{color-theme.interface.feedback.danger.normal}",
-                "type": "color"
-              }
-            },
-            "action": {
-              "background": {
-                "value": "{color-theme.interface.feedback.danger.action}",
-                "type": "color"
-              },
-              "textOn": {
                 "value": "{color-theme.interface.feedback.danger.lightest}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{color-theme.interface.feedback.danger.action}",
-                "type": "color"
-              }
-            },
-            "active": {
-              "background": {
-                "value": "{color-theme.interface.feedback.danger.active}",
                 "type": "color"
               },
               "textOn": {
@@ -816,7 +788,35 @@
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.danger.active}",
+                "value": "{color-theme.interface.feedback.danger.lightest}",
+                "type": "color"
+              }
+            },
+            "action": {
+              "background": {
+                "value": "{color-theme.interface.feedback.danger.lightest}",
+                "type": "color"
+              },
+              "textOn": {
+                "value": "{color-theme.interface.feedback.danger.action}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{color-theme.interface.feedback.danger.lightest}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "background": {
+                "value": "{color-theme.interface.feedback.danger.darkest}",
+                "type": "color"
+              },
+              "textOn": {
+                "value": "{color-theme.interface.feedback.danger.lightest}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{color-theme.interface.feedback.danger.darkest}",
                 "type": "color"
               }
             }

@@ -16,22 +16,22 @@
     },
     "ambient": {
       "contrast": {
-        "base": {
-          "positive": {
+        "positive": {
+          "base": {
             "value": "{color.brand.ambient.contrast.base.positive.background}",
             "type": "color"
           },
-          "negative": {
-            "value": "{color.brand.ambient.contrast.base.negative.background}",
+          "deep": {
+            "value": "{color.brand.ambient.contrast.deep.positive.background}",
             "type": "color"
           }
         },
-        "deep": {
-          "positive": {
-            "value": "{color.brand.ambient.contrast.deep.positive.background}",
+        "negative": {
+          "base": {
+            "value": "{color.brand.ambient.contrast.base.negative.background}",
             "type": "color"
           },
-          "negative": {
+          "deep": {
             "value": "{color.brand.ambient.contrast.deep.negative.background}",
             "type": "color"
           }
