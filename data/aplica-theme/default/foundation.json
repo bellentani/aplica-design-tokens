@@ -38,13 +38,34 @@
         }
       },
       "neutral": {
-        "highest": {},
-        "higher": {},
-        "high": {},
-        "mid": {},
-        "low": {},
-        "lower": {},
-        "lowest": {}
+        "highest": {
+          "value": "{color.brand.ambient.neutral.highest}",
+          "type": "color"
+        },
+        "higher": {
+          "value": "{color.brand.ambient.neutral.higher}",
+          "type": "color"
+        },
+        "high": {
+          "value": "{color.brand.ambient.neutral.high}",
+          "type": "color"
+        },
+        "mid": {
+          "value": "{color.brand.ambient.neutral.mid}",
+          "type": "color"
+        },
+        "low": {
+          "value": "{color.brand.ambient.neutral.low}",
+          "type": "color"
+        },
+        "lower": {
+          "value": "{color.brand.ambient.neutral.lower}",
+          "type": "color"
+        },
+        "lowest": {
+          "value": "{color.brand.ambient.neutral.lowest}",
+          "type": "color"
+        }
       },
       "grayscale": {
         "highest": {},
