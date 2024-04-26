@@ -470,7 +470,7 @@
                 "type": "color"
               },
               "textOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.negative.textOn}",
+                "value": "{color-theme.brand.ambient.contrast.deep.positive.textOn}",
                 "type": "color"
               },
               "border": {
@@ -560,7 +560,7 @@
                 "type": "color"
               },
               "textOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.negative.textOn}",
+                "value": "{color-theme.brand.ambient.contrast.deep.positive.textOn}",
                 "type": "color"
               },
               "border": {
@@ -650,7 +650,7 @@
                 "type": "color"
               },
               "textOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.negative.textOn}",
+                "value": "{color-theme.brand.ambient.contrast.deep.positive.textOn}",
                 "type": "color"
               },
               "border": {
@@ -740,7 +740,7 @@
                 "type": "color"
               },
               "textOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.negative.textOn}",
+                "value": "{color-theme.brand.ambient.contrast.deep.positive.textOn}",
                 "type": "color"
               },
               "border": {
