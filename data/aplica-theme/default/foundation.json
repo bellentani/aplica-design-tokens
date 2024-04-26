@@ -115,37 +115,37 @@
     "feedback": {
       "main": {
         "info": {
-          "value": "{color.interface.feedback.main.info.background}",
+          "value": "{color.interface.feedback.info.main.normal.background}",
           "type": "color"
         },
         "success": {
-          "value": "{color.interface.feedback.main.success.background}",
+          "value": "{color.interface.feedback.success.main.normal.background}",
           "type": "color"
         },
         "warning": {
-          "value": "{color.interface.feedback.main.warning.background}",
+          "value": "{color.interface.feedback.warning.main.normal.background}",
           "type": "color"
         },
         "danger": {
-          "value": "{color.interface.feedback.main.danger.background}",
+          "value": "{color.interface.feedback.danger.main.normal.background}",
           "type": "color"
         }
       },
       "secondary": {
         "info": {
-          "value": "{color.interface.feedback.secondary.info.background}",
+          "value": "{color.interface.feedback.info.secondary.normal.background}",
           "type": "color"
         },
         "success": {
-          "value": "{color.interface.feedback.secondary.success.background}",
+          "value": "{color.interface.feedback.success.secondary.normal.background}",
           "type": "color"
         },
         "warning": {
-          "value": "{color.interface.feedback.secondary.warning.background}",
+          "value": "{color.interface.feedback.warning.secondary.normal.background}",
           "type": "color"
         },
         "danger": {
-          "value": "{color.interface.feedback.secondary.danger.background}",
+          "value": "{color.interface.feedback.danger.secondary.normal.background}",
           "type": "color"
         }
       }
