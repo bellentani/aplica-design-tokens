@@ -191,61 +191,61 @@
       },
       "neutral": {
         "highest": {
-          "value": "{color.brand.ambient.neutral.highest}",
+          "value": "{color.brand.ambient.neutral.highest.border}",
           "type": "color"
         },
         "higher": {
-          "value": "{color.brand.ambient.neutral.higher}",
+          "value": "{color.brand.ambient.neutral.higher.border}",
           "type": "color"
         },
         "high": {
-          "value": "{color.brand.ambient.neutral.high}",
+          "value": "{color.brand.ambient.neutral.high.border}",
           "type": "color"
         },
         "mid": {
-          "value": "{color.brand.ambient.neutral.mid}",
+          "value": "{color.brand.ambient.neutral.mid.border}",
           "type": "color"
         },
         "low": {
-          "value": "{color.brand.ambient.neutral.low}",
+          "value": "{color.brand.ambient.neutral.low.border}",
           "type": "color"
         },
         "lower": {
-          "value": "{color.brand.ambient.neutral.lower}",
+          "value": "{color.brand.ambient.neutral.lower.border}",
           "type": "color"
         },
         "lowest": {
-          "value": "{color.brand.ambient.neutral.lowest}",
+          "value": "{color.brand.ambient.neutral.lowest.border}",
           "type": "color"
         }
       },
       "grayscale": {
         "highest": {
-          "value": "{color.brand.ambient.grayscale.highest}",
+          "value": "{color.brand.ambient.grayscale.highest.border}",
           "type": "color"
         },
         "higher": {
-          "value": "{color.brand.ambient.grayscale.higher}",
+          "value": "{color.brand.ambient.grayscale.higher.border}",
           "type": "color"
         },
         "high": {
-          "value": "{color.brand.ambient.grayscale.high}",
+          "value": "{color.brand.ambient.grayscale.high.border}",
           "type": "color"
         },
         "mid": {
-          "value": "{color.brand.ambient.grayscale.mid}",
+          "value": "{color.brand.ambient.grayscale.mid.border}",
           "type": "color"
         },
         "low": {
-          "value": "{color.brand.ambient.grayscale.low}",
+          "value": "{color.brand.ambient.grayscale.low.border}",
           "type": "color"
         },
         "lower": {
-          "value": "{color.brand.ambient.grayscale.lower}",
+          "value": "{color.brand.ambient.grayscale.lower.border}",
           "type": "color"
         },
         "lowest": {
-          "value": "{color.brand.ambient.grayscale.lowest}",
+          "value": "{color.brand.ambient.grayscale.lowest.border}",
           "type": "color"
         }
       }
@@ -344,61 +344,61 @@
         },
         "neutral": {
           "highest": {
-            "value": "{color.brand.ambient.neutral.highest}",
+            "value": "{color.brand.ambient.neutral.highest.textOn}",
             "type": "color"
           },
           "higher": {
-            "value": "{color.brand.ambient.neutral.higher}",
+            "value": "{color.brand.ambient.neutral.higher.textOn}",
             "type": "color"
           },
           "high": {
-            "value": "{color.brand.ambient.neutral.high}",
+            "value": "{color.brand.ambient.neutral.high.textOn}",
             "type": "color"
           },
           "mid": {
-            "value": "{color.brand.ambient.neutral.mid}",
+            "value": "{color.brand.ambient.neutral.mid.textOn}",
             "type": "color"
           },
           "low": {
-            "value": "{color.brand.ambient.neutral.low}",
+            "value": "{color.brand.ambient.neutral.low.textOn}",
             "type": "color"
           },
           "lower": {
-            "value": "{color.brand.ambient.neutral.lower}",
+            "value": "{color.brand.ambient.neutral.lower.textOn}",
             "type": "color"
           },
           "lowest": {
-            "value": "{color.brand.ambient.neutral.lowest}",
+            "value": "{color.brand.ambient.neutral.lowest.textOn}",
             "type": "color"
           }
         },
         "grayscale": {
           "highest": {
-            "value": "{color.brand.ambient.grayscale.highest}",
+            "value": "{color.brand.ambient.grayscale.highest.textOn}",
             "type": "color"
           },
           "higher": {
-            "value": "{color.brand.ambient.grayscale.higher}",
+            "value": "{color.brand.ambient.grayscale.higher.textOn}",
             "type": "color"
           },
           "high": {
-            "value": "{color.brand.ambient.grayscale.high}",
+            "value": "{color.brand.ambient.grayscale.high.textOn}",
             "type": "color"
           },
           "mid": {
-            "value": "{color.brand.ambient.grayscale.mid}",
+            "value": "{color.brand.ambient.grayscale.mid.textOn}",
             "type": "color"
           },
           "low": {
-            "value": "{color.brand.ambient.grayscale.low}",
+            "value": "{color.brand.ambient.grayscale.low.textOn}",
             "type": "color"
           },
           "lower": {
-            "value": "{color.brand.ambient.grayscale.lower}",
+            "value": "{color.brand.ambient.grayscale.lower.textOn}",
             "type": "color"
           },
           "lowest": {
-            "value": "{color.brand.ambient.grayscale.lowest}",
+            "value": "{color.brand.ambient.grayscale.lowest.textOn}",
             "type": "color"
           }
         }
