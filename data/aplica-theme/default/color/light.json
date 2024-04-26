@@ -36,7 +36,7 @@
             "type": "color"
           },
           "textOn": {
-            "value": "{_color-palette.mode.brand.ambient.contrast.deep.positive}",
+            "value": "{color-theme.brand.ambient.contrast.deep.positive.textOn}",
             "type": "color"
           },
           "border": {
