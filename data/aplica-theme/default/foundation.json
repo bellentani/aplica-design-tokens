@@ -457,26 +457,80 @@
       }
     },
     "positive": {
-      "title": {},
-      "body": {},
-      "highlight": {},
-      "muted": {},
-      "label": {},
-      "info": {},
-      "success": {},
-      "warning": {},
-      "danger": {}
+      "title": {
+        "value": "{color.text.positive.title}",
+        "type": "color"
+      },
+      "body": {
+        "value": "{color.text.positive.body}",
+        "type": "color"
+      },
+      "highlight": {
+        "value": "{color.text.positive.highlight}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.text.positive.muted}",
+        "type": "color"
+      },
+      "label": {
+        "value": "{color.text.positive.label}",
+        "type": "color"
+      },
+      "info": {
+        "value": "{color.text.positive.info}",
+        "type": "color"
+      },
+      "success": {
+        "value": "{color.text.positive.success}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{color.text.positive.warning}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{color.text.positive.danger}",
+        "type": "color"
+      }
     },
     "negative": {
-      "title": {},
-      "body": {},
-      "highlight": {},
-      "muted": {},
-      "label": {},
-      "info": {},
-      "success": {},
-      "warning": {},
-      "danger": {}
+      "title": {
+        "value": "{color.text.negative.title}",
+        "type": "color"
+      },
+      "body": {
+        "value": "{color.text.negative.body}",
+        "type": "color"
+      },
+      "highlight": {
+        "value": "{color.text.negative.highlight}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.text.negative.muted}",
+        "type": "color"
+      },
+      "label": {
+        "value": "{color.text.negative.label}",
+        "type": "color"
+      },
+      "info": {
+        "value": "{color.text.negative.info}",
+        "type": "color"
+      },
+      "success": {
+        "value": "{color.text.negative.success}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{color.text.negative.warning}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{color.text.negative.danger}",
+        "type": "color"
+      }
     }
   }
 }
