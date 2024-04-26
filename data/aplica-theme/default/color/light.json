@@ -359,19 +359,19 @@
           "type": "color"
         },
         "info": {
-          "value": "{color-theme.interface.info.darkest}",
+          "value": "{color-theme.interface.feedback.info.darkest}",
           "type": "color"
         },
         "success": {
-          "value": "{color-theme.interface.success.darkest}",
+          "value": "{color-theme.interface.feedback.success.darkest}",
           "type": "color"
         },
         "warning": {
-          "value": "{color-theme.interface.warning.darkest}",
+          "value": "{color-theme.interface.feedback.warning.darkest}",
           "type": "color"
         },
         "error": {
-          "value": "{color-theme.interface.error.darkest}",
+          "value": "{color-theme.interface.feedback.error.darkest}",
           "type": "color"
         }
       },
@@ -397,19 +397,19 @@
           "type": "color"
         },
         "info": {
-          "value": "{color-theme.interface.info.darkest}",
+          "value": "{color-theme.interface.feedback.info.darkest}",
           "type": "color"
         },
         "success": {
-          "value": "{color-theme.interface.success.darkest}",
+          "value": "{color-theme.interface.feedback.success.darkest}",
           "type": "color"
         },
         "warning": {
-          "value": "{color-theme.interface.warning.darkest}",
+          "value": "{color-theme.interface.feedback.warning.darkest}",
           "type": "color"
         },
         "error": {
-          "value": "{color-theme.interface.error.darkest}",
+          "value": "{color-theme.interface.feedback.error.darkest}",
           "type": "color"
         }
       }
