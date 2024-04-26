@@ -694,7 +694,7 @@
                 "type": "color"
               },
               "textOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.negative}",
+                "value": "{color-theme.brand.ambient.contrast.deep.negative.textOn}",
                 "type": "color"
               },
               "border": {
