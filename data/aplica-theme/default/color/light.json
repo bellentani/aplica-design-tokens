@@ -558,6 +558,10 @@
         "danger": {
           "value": "{color-theme.interface.feedback.danger.negative}",
           "type": "color"
+        },
+        "disabled": {
+          "value": "{color-theme.interface.disabled.text}",
+          "type": "color"
         }
       },
       "negative": {
@@ -595,6 +599,10 @@
         },
         "danger": {
           "value": "{color-theme.interface.feedback.danger.positive}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color-theme.interface.disabled.text}",
           "type": "color"
         }
       }

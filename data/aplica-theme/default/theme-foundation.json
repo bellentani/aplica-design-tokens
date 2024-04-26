@@ -861,6 +861,10 @@
         "danger": {
           "value": "{color-theme.text.positive.danger}",
           "type": "color"
+        },
+        "disabled": {
+          "value": "{color.interface.function.disabled.textOn}",
+          "type": "color"
         }
       },
       "negative": {
@@ -898,6 +902,10 @@
         },
         "danger": {
           "value": "{color-theme.text.negative.danger}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.interface.function.disabled.textOn}",
           "type": "color"
         }
       }

@@ -110,6 +110,10 @@
       "link": {
         "value": "{color.interface.function.link.normal.background}",
         "type": "color"
+      },
+      "disabled": {
+        "value": "{color.interface.function.disabled.normal.background}",
+        "type": "color"
       }
     },
     "feedback": {
@@ -301,6 +305,10 @@
           "type": "color"
         }
       }
+    },
+    "disabled": {
+      "value": "{color.interface.function.disabled.normal.border}",
+      "type": "color"
     }
   },
   "txt": {
@@ -415,6 +423,10 @@
         "link": {
           "value": "{color.interface.function.link.normal.textOn}",
           "type": "color"
+        },
+        "disabled": {
+          "value": "{color.interface.function.disabled.normal.textOn}",
+          "type": "color"
         }
       },
       "feedback": {
@@ -492,6 +504,10 @@
       "danger": {
         "value": "{color.text.positive.danger}",
         "type": "color"
+      },
+      "disabled": {
+        "value": "{color.text.positive.disabled}",
+        "type": "color"
       }
     },
     "negative": {
@@ -529,6 +545,10 @@
       },
       "danger": {
         "value": "{color.text.negative.danger}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.text.negative.disabled}",
         "type": "color"
       }
     }
