@@ -39,61 +39,61 @@
       },
       "neutral": {
         "highest": {
-          "value": "{color.brand.ambient.neutral.highest}",
+          "value": "{color.brand.ambient.neutral.highest.background}",
           "type": "color"
         },
         "higher": {
-          "value": "{color.brand.ambient.neutral.higher}",
+          "value": "{color.brand.ambient.neutral.higher.background}",
           "type": "color"
         },
         "high": {
-          "value": "{color.brand.ambient.neutral.high}",
+          "value": "{color.brand.ambient.neutral.high.background}",
           "type": "color"
         },
         "mid": {
-          "value": "{color.brand.ambient.neutral.mid}",
+          "value": "{color.brand.ambient.neutral.mid.background}",
           "type": "color"
         },
         "low": {
-          "value": "{color.brand.ambient.neutral.low}",
+          "value": "{color.brand.ambient.neutral.low.background}",
           "type": "color"
         },
         "lower": {
-          "value": "{color.brand.ambient.neutral.lower}",
+          "value": "{color.brand.ambient.neutral.lower.background}",
           "type": "color"
         },
         "lowest": {
-          "value": "{color.brand.ambient.neutral.lowest}",
+          "value": "{color.brand.ambient.neutral.lowest.background}",
           "type": "color"
         }
       },
       "grayscale": {
         "highest": {
-          "value": "{color.brand.ambient.grayscale.highest}",
+          "value": "{color.brand.ambient.grayscale.highest.background}",
           "type": "color"
         },
         "higher": {
-          "value": "{color.brand.ambient.grayscale.higher}",
+          "value": "{color.brand.ambient.grayscale.higher.background}",
           "type": "color"
         },
         "high": {
-          "value": "{color.brand.ambient.grayscale.high}",
+          "value": "{color.brand.ambient.grayscale.high.background}",
           "type": "color"
         },
         "mid": {
-          "value": "{color.brand.ambient.grayscale.mid}",
+          "value": "{color.brand.ambient.grayscale.mid.background}",
           "type": "color"
         },
         "low": {
-          "value": "{color.brand.ambient.grayscale.low}",
+          "value": "{color.brand.ambient.grayscale.low.background}",
           "type": "color"
         },
         "lower": {
-          "value": "{color.brand.ambient.grayscale.lower}",
+          "value": "{color.brand.ambient.grayscale.lower.background}",
           "type": "color"
         },
         "lowest": {
-          "value": "{color.brand.ambient.grayscale.lowest}",
+          "value": "{color.brand.ambient.grayscale.lowest.background}",
           "type": "color"
         }
       }
