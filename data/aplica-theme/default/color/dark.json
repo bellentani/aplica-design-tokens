@@ -335,6 +335,84 @@
           "description": ""
         }
       }
+    },
+    "text": {
+      "positive": {
+        "title": {
+          "value": "{color-theme.brand.ambient.grayscale.lower}",
+          "type": "color"
+        },
+        "body": {
+          "value": "{color-theme.brand.ambient.grayscale.lower}",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "{color-theme.brand.ambient.grayscale.lower}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{color-theme.brand.ambient.grayscale.high}",
+          "type": "color"
+        },
+        "label": {
+          "value": "{color-theme.brand.ambient.grayscale.lower}",
+          "type": "color"
+        },
+        "info": {
+          "value": "{color-theme.interface.info.darkest}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color-theme.interface.success.darkest}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color-theme.interface.warning.darkest}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{color-theme.interface.error.darkest}",
+          "type": "color"
+        }
+      },
+      "negative": {
+        "title": {
+          "value": "{color-theme.brand.ambient.grayscale.higher}",
+          "type": "color"
+        },
+        "body": {
+          "value": "{color-theme.brand.ambient.grayscale.higher}",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "{color-theme.brand.ambient.grayscale.higher}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{color-theme.brand.ambient.grayscale.low}",
+          "type": "color"
+        },
+        "label": {
+          "value": "{color-theme.brand.ambient.grayscale.higher}",
+          "type": "color"
+        },
+        "info": {
+          "value": "{color-theme.interface.info.darkest}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color-theme.interface.success.darkest}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color-theme.interface.warning.darkest}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{color-theme.interface.error.darkest}",
+          "type": "color"
+        }
+      }
     }
   }
 }
