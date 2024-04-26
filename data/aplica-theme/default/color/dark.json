@@ -544,19 +544,19 @@
           "type": "color"
         },
         "info": {
-          "value": "{color-theme.interface.feedback.info.positive}",
+          "value": "{color-theme.interface.feedback.info.normal}",
           "type": "color"
         },
         "success": {
-          "value": "{color-theme.interface.feedback.success.positive}",
+          "value": "{color-theme.interface.feedback.success.normal}",
           "type": "color"
         },
         "warning": {
-          "value": "{color-theme.interface.feedback.warning.positive}",
+          "value": "{color-theme.interface.feedback.warning.normal}",
           "type": "color"
         },
         "danger": {
-          "value": "{color-theme.interface.feedback.danger.positive}",
+          "value": "{color-theme.interface.feedback.danger.normal}",
           "type": "color"
         }
       },
