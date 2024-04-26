@@ -718,8 +718,8 @@
           "value": "{color-theme.text.positive.warning}",
           "type": "color"
         },
-        "error": {
-          "value": "{color-theme.text.positive.error}",
+        "danger": {
+          "value": "{color-theme.text.positive.danger}",
           "type": "color"
         }
       },
@@ -756,8 +756,8 @@
           "value": "{color-theme.text.negative.warning}",
           "type": "color"
         },
-        "error": {
-          "value": "{color-theme.text.negative.error}",
+        "danger": {
+          "value": "{color-theme.text.negative.danger}",
           "type": "color"
         }
       }
