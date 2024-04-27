@@ -447,15 +447,15 @@
         "disabled": {
           "normal": {
             "background": {
-              "value": "{color.brand.ambient.grayscale.low.textOn}",
+              "value": "{color.brand.ambient.grayscale.lower.background}",
               "type": "color"
             },
             "textOn": {
-              "value": "{color.brand.ambient.grayscale.higher.textOn}",
+              "value": "{color.brand.ambient.grayscale.mid.background}",
               "type": "color"
             },
             "border": {
-              "value": "{color.brand.ambient.grayscale.low.textOn}",
+              "value": "{color.brand.ambient.grayscale.lower.border}",
               "type": "color"
             }
           }
