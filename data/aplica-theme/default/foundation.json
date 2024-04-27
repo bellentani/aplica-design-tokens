@@ -266,6 +266,10 @@
       "link": {
         "value": "{color.interface.function.link.normal.border}",
         "type": "color"
+      },
+      "disabled": {
+        "value": "{color.interface.function.disabled.normal.border}",
+        "type": "color"
       }
     },
     "feedback": {
@@ -305,10 +309,6 @@
           "type": "color"
         }
       }
-    },
-    "disabled": {
-      "value": "{color.interface.function.disabled.normal.border}",
-      "type": "color"
     }
   },
   "txt": {
