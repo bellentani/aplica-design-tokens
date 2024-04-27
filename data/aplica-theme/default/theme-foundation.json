@@ -863,7 +863,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{color.interface.disabled.normal.textOn}",
+          "value": "{color.interface.function.disabled.normal.textOn}",
           "type": "color"
         }
       },
@@ -905,7 +905,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{color.interface.disabled.normal.textOn}",
+          "value": "{color.interface.function.disabled.normal.textOn}",
           "type": "color"
         }
       }
