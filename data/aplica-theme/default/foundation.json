@@ -504,10 +504,6 @@
       "danger": {
         "value": "{color.text.positive.danger}",
         "type": "color"
-      },
-      "disabled": {
-        "value": "{color.text.positive.disabled}",
-        "type": "color"
       }
     },
     "negative": {
@@ -545,10 +541,6 @@
       },
       "danger": {
         "value": "{color.text.negative.danger}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "{color.text.negative.disabled}",
         "type": "color"
       }
     }

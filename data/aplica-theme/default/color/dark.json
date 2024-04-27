@@ -544,23 +544,19 @@
           "type": "color"
         },
         "info": {
-          "value": "{color-theme.interface.feedback.info.normal}",
+          "value": "{color-theme.interface.feedback.info.active}",
           "type": "color"
         },
         "success": {
-          "value": "{color-theme.interface.feedback.success.normal}",
+          "value": "{color-theme.interface.feedback.success.active}",
           "type": "color"
         },
         "warning": {
-          "value": "{color-theme.interface.feedback.warning.normal}",
+          "value": "{color-theme.interface.feedback.warning.active}",
           "type": "color"
         },
         "danger": {
-          "value": "{color-theme.interface.feedback.danger.normal}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{color-theme.interface.disabled.text}",
+          "value": "{color-theme.interface.feedback.danger.active}",
           "type": "color"
         }
       },
@@ -586,24 +582,20 @@
           "type": "color"
         },
         "info": {
-          "value": "{color-theme.interface.feedback.info.negative}",
+          "value": "{color-theme.interface.feedback.info.action}",
           "type": "color"
         },
         "success": {
-          "value": "{color-theme.interface.feedback.success.negative}",
+          "value": "{color-theme.interface.feedback.success.action}",
           "type": "color"
         },
         "warning": {
-          "value": "{color-theme.interface.feedback.warning.negative}",
+          "value": "{color-theme.interface.feedback.warning.action}",
           "type": "color"
         },
         "danger": {
-          "value": "{color-theme.interface.feedback.danger.negative}",
+          "value": "{color-theme.interface.feedback.danger.action}",
           "type,": "color"
-        },
-        "disabled": {
-          "value": "{color-theme.interface.disabled.text}",
-          "type": "color"
         }
       }
     }
