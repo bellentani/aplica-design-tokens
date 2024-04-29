@@ -20,9 +20,11 @@
           "neutral": {
             "brand": {
               "first": {
-                "value": "#15070C",
-                "type": "color",
-                "description": "To make neutrals value we get the brand.first and divide the Saturation value from HSL by 2, but in this design we use by 4. Original color is brand.first with hexa #6C43CF and Saturation value on 59; modified turns on #82789A with a Saturation value resulting on 15"
+                "base": {
+                  "value": "#15070C",
+                  "type": "color",
+                  "description": "To make neutrals value we get the brand.first and divide the Saturation value from HSL by 2, but in this design we use by 4. Original color is brand.first with hexa #6C43CF and Saturation value on 59; modified turns on #82789A with a Saturation value resulting on 15"
+                }
               }
             }
           }
@@ -81,9 +83,11 @@
           "neutral": {
             "brand": {
               "first": {
-                "value": "#F6DAE4",
-                "type": "color",
-                "description": "To make neutrals value we get the brand.first and divide the Saturation value from HSL by 2, but in this design we use by 4. Original color is brand.first with hexa #6C43CF and Saturation value on 59; modified turns on #82789A with a Saturation value resulting on 15"
+                "base": {
+                  "value": "#F6DAE4",
+                  "type": "color",
+                  "description": "To make neutrals value we get the brand.first and divide the Saturation value from HSL by 2, but in this design we use by 4. Original color is brand.first with hexa #6C43CF and Saturation value on 59; modified turns on #82789A with a Saturation value resulting on 15"
+                }
               }
             }
           }
@@ -609,7 +613,7 @@
                 }
               },
               "130": {
-                "value": "{_color-palette.raw.light.ambient.neutral.brand.first}",
+                "value": "{_color-palette.raw.light.ambient.neutral.brand.first.base}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -5149,7 +5153,7 @@
                 }
               },
               "130": {
-                "value": "{_color-palette.raw.dark.ambient.neutral.brand.first}",
+                "value": "{_color-palette.raw.dark.ambient.neutral.brand.first.base}",
                 "type": "color"
               },
               "140": {
