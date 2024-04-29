@@ -1,5 +1,5 @@
 {
-  "_color-palette-config": {
+  "_color-palette-config-default": {
     "light": {
       "brand": {
         "first": {
@@ -195,7 +195,7 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette-config.light.ambient.neutral.brand.first.base}",
+                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
                   "type": "color"
                 },
                 "140": {
@@ -446,7 +446,7 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette-config.dark.ambient.neutral.brand.first.base}",
+                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
                   "type": "color"
                 },
                 "140": {
