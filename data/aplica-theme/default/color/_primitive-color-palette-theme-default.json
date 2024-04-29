@@ -304,7 +304,7 @@
                 }
               },
               "90": {
-                "value": "{_color-palette.raw.light.ambient.neutral.first}",
+                "value": "{_color-palette.mode.light.brand.first.palette.100}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -4857,7 +4857,7 @@
                 }
               },
               "100": {
-                "value": "{_color-palette.raw.dark.brand.first}",
+                "value": "{_color-palette.raw.dark.ambient.neutral.brand.first}",
                 "type": "color"
               },
               "110": {
