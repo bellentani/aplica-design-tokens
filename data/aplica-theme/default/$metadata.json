@@ -1,7 +1,8 @@
 {
   "tokenSetOrder": [
     "theme-foundation",
-    "color/_primitive-color-palette",
+    "color/_primitive-color-palette-theme-default",
+    "color/_primitive-color-palette-theme-orange",
     "color/dark",
     "color/deprecated/_color-charts",
     "color/deprecated/_color-palette",
