@@ -7125,7 +7125,7 @@
                 }
               },
               "100": {
-                "value": "{_theme-factory-tangerine.dark.interface.function.link}",
+                "value": "{_theme-raw-tangerine.dark.interface.function.link}",
                 "type": "color"
               },
               "110": {
