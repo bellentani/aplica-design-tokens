@@ -4852,7 +4852,7 @@
                 }
               },
               "100": {
-                "value": "{_color-palette.raw.dark.ambient.neutral.brand.first}",
+                "value": "{_color-palette.raw.dark.brand.first}",
                 "type": "color"
               },
               "110": {
