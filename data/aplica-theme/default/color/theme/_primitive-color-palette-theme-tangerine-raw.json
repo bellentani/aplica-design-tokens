@@ -6965,7 +6965,7 @@
                 }
               },
               "130": {
-                "value": "{_theme-raw-tangerine.dark.interface.function.secondary.palette.180}",
+                "value": "{_theme-factory-tangerine.dark.interface.function.secondary.palette.180}",
                 "type": "color"
               },
               "140": {
@@ -7579,7 +7579,7 @@
                 }
               },
               "100": {
-                "value": "{_theme-raw-tangerine.dark.interface.feedback.primary}",
+                "value": "{_theme-factory-tangerine.dark.interface.feedback.primary}",
                 "type": "color"
               },
               "110": {
