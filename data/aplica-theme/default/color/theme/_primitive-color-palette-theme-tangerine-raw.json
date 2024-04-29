@@ -6513,7 +6513,7 @@
                 }
               },
               "130": {
-                "value": "{_theme-raw-tangerine.dark.interface.function.primary.palette.180}",
+                "value": "{_theme-factory-tangerine.dark.interface.function.primary.palette.180}",
                 "type": "color"
               },
               "140": {
@@ -6673,7 +6673,7 @@
                 }
               },
               "100": {
-                "value": "{_theme-raw-tangerine.dark.interface.function.primary}",
+                "value": "{_theme-raw-tangerine.dark.interface.function.secondary}",
                 "type": "color"
               },
               "110": {
@@ -7125,7 +7125,7 @@
                 }
               },
               "100": {
-                "value": "{_theme-raw-tangerine.dark.interface.function.primary}",
+                "value": "{_theme-factory-tangerine.dark.interface.function.link}",
                 "type": "color"
               },
               "110": {
@@ -7417,7 +7417,7 @@
                 }
               },
               "130": {
-                "value": "{_theme-raw-tangerine.dark.interface.function.link.palette.180}",
+                "value": "{_theme-factory-tangerine.dark.interface.function.link.palette.180}",
                 "type": "color"
               },
               "140": {
