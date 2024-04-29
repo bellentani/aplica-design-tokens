@@ -1572,27 +1572,3170 @@
       "interface": {
         "function": {
           "primary": {
-            "palette": {}
+            "palette": {
+              "10": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.9",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "20": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "30": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.7",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "40": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.6",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "50": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "60": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "70": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.3",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "80": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "90": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "100": {
+                "value": "{_theme-raw-tangerine.light.interface.function.primary}",
+                "type": "color"
+              },
+              "110": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "120": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "130": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.3",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "140": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "150": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "160": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.6",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "170": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.7",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "180": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "190": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.9",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "neutrals": {
+              "5": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.10}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "10": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.92",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "20": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.85",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "30": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.77",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "40": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.69",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "50": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.62",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "60": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.54",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "70": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.46",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "80": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.38",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "90": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.31",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "100": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.23",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "110": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.15",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "120": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.08",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "130": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.180}",
+                "type": "color"
+              },
+              "140": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "behavior": {
+              "darkest": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.180}",
+                "type": "color"
+              },
+              "action": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.130}",
+                "type": "color"
+              },
+              "normal": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.60}",
+                "type": "color"
+              },
+              "lightest": {
+                "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.10}",
+                "type": "color"
+              }
+            }
           },
           "secondary": {
-            "palette": {}
+            "palette": {
+              "10": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.9",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "20": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "30": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.7",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "40": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.6",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "50": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "60": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "70": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.3",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "80": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "90": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "100": {
+                "value": "{_theme-raw-tangerine.light.interface.function.secondary}",
+                "type": "color"
+              },
+              "110": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "120": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "130": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.3",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "140": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "150": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "160": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.6",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "170": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.7",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "180": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "190": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.9",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "neutrals": {
+              "5": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.10}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "10": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.92",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "20": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.85",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "30": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.77",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "40": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.69",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "50": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.62",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "60": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.54",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "70": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.46",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "80": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.38",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "90": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.31",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "100": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.23",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "110": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.15",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "120": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.08",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "130": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.180}",
+                "type": "color"
+              },
+              "140": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "behavior": {
+              "darkest": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.180}",
+                "type": "color"
+              },
+              "action": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.130}",
+                "type": "color"
+              },
+              "normal": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.60}",
+                "type": "color"
+              },
+              "lightest": {
+                "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.10}",
+                "type": "color"
+              }
+            }
           },
           "link": {
-            "palette": {}
+            "palette": {
+              "10": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.9",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "20": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "30": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.7",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "40": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.6",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "50": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "60": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "70": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.3",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "80": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "90": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "100": {
+                "value": "{_theme-raw-tangerine.light.interface.function.link}",
+                "type": "color"
+              },
+              "110": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "120": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "130": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.3",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "140": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "150": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "160": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.6",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "170": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.7",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "180": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "190": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.9",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "neutrals": {
+              "5": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.10}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "10": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.92",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "20": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.85",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "30": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.77",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "40": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.69",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "50": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.62",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "60": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.54",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "70": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.46",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "80": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.38",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "90": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.31",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "100": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.23",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "110": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.15",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "120": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.08",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "130": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.180}",
+                "type": "color"
+              },
+              "140": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "behavior": {
+              "darkest": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.180}",
+                "type": "color"
+              },
+              "action": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.130}",
+                "type": "color"
+              },
+              "normal": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.60}",
+                "type": "color"
+              },
+              "lightest": {
+                "value": "{_theme-factory-tangerine.light.interface.function.link.palette.10}",
+                "type": "color"
+              }
+            }
           }
         },
         "feedback": {
           "info": {
-            "palette": {}
+            "palette": {
+              "10": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.9",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "20": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "30": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.7",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "40": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.6",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "50": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "60": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "70": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.3",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "80": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "90": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "100": {
+                "value": "{_theme-raw-tangerine.light.interface.feedback.info}",
+                "type": "color"
+              },
+              "110": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "120": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "130": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.3",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "140": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "150": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "160": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.6",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "170": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.7",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "180": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "190": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.9",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "neutrals": {
+              "5": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.10}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "10": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.92",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "20": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.85",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "30": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.77",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "40": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.69",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "50": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.62",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "60": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.54",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "70": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.46",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "80": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.38",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "90": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.31",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "100": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.23",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "110": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.15",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "120": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.08",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "130": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.180}",
+                "type": "color"
+              },
+              "140": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "behavior": {
+              "darkest": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.180}",
+                "type": "color"
+              },
+              "action": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.130}",
+                "type": "color"
+              },
+              "normal": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.60}",
+                "type": "color"
+              },
+              "lightest": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.10}",
+                "type": "color"
+              }
+            }
           },
           "success": {
-            "palette": {}
+            "palette": {
+              "10": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.9",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "20": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "30": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.7",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "40": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.6",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "50": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "60": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "70": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.3",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "80": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "90": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "100": {
+                "value": "{_theme-raw-tangerine.light.interface.feedback.success}",
+                "type": "color"
+              },
+              "110": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "120": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "130": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.3",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "140": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "150": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "160": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.6",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "170": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.7",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "180": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "190": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.9",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "neutrals": {
+              "5": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.10}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "10": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.92",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "20": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.85",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "30": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.77",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "40": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.69",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "50": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.62",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "60": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.54",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "70": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.46",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "80": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.38",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "90": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.31",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "100": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.23",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "110": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.15",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "120": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.08",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "130": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.180}",
+                "type": "color"
+              },
+              "140": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "behavior": {
+              "darkest": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.180}",
+                "type": "color"
+              },
+              "action": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.130}",
+                "type": "color"
+              },
+              "normal": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.60}",
+                "type": "color"
+              },
+              "lightest": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.10}",
+                "type": "color"
+              }
+            }
           },
           "warning": {
-            "palette": {}
+            "palette": {
+              "10": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.9",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "20": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "30": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.7",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "40": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.6",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "50": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "60": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "70": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.3",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "80": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "90": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "100": {
+                "value": "{_theme-raw-tangerine.light.interface.feedback.warning}",
+                "type": "color"
+              },
+              "110": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "120": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "130": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.3",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "140": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "150": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "160": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.6",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "170": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.7",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "180": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "190": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.9",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "neutrals": {
+              "5": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.10}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "10": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.92",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "20": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.85",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "30": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.77",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "40": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.69",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "50": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.62",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "60": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.54",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "70": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.46",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "80": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.38",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "90": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.31",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "100": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.23",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "110": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.15",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "120": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.08",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "130": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.180}",
+                "type": "color"
+              },
+              "140": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "behavior": {
+              "darkest": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.180}",
+                "type": "color"
+              },
+              "action": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.130}",
+                "type": "color"
+              },
+              "normal": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.60}",
+                "type": "color"
+              },
+              "lightest": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.10}",
+                "type": "color"
+              }
+            }
           },
           "danger": {
-            "palette": {}
+            "palette": {
+              "10": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.9",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "20": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "30": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.7",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "40": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.6",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "50": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "60": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "70": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.3",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "80": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "90": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "100": {
+                "value": "{_theme-raw-tangerine.light.interface.feedback.danger}",
+                "type": "color"
+              },
+              "110": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "120": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.2",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "130": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.3",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "140": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.4",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "150": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "160": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.6",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "170": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.7",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "180": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.8",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "190": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.9",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "neutrals": {
+              "5": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.10}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "10": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.92",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "20": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.85",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "30": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.77",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "40": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.69",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "50": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.62",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "60": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.54",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "70": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.46",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "80": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.38",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "90": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.31",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "100": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.23",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "110": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.15",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "120": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "lighten",
+                      "value": "0.08",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "130": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.180}",
+                "type": "color"
+              },
+              "140": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.5",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              }
+            },
+            "behavior": {
+              "darkest": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.180}",
+                "type": "color"
+              },
+              "action": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.130}",
+                "type": "color"
+              },
+              "normal": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.60}",
+                "type": "color"
+              },
+              "lightest": {
+                "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.10}",
+                "type": "color"
+              }
+            }
           }
         }
       }
