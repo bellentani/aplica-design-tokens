@@ -104,7 +104,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette-config.light.ambient.neutral.brand.first.base}",
+                  "value": "#15070C",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
