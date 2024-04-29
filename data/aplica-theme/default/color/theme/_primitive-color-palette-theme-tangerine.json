@@ -501,7 +501,7 @@
             "primary": {
               "palette": {
                 "10": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -514,7 +514,7 @@
                   }
                 },
                 "20": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -527,7 +527,7 @@
                   }
                 },
                 "30": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -540,7 +540,7 @@
                   }
                 },
                 "40": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -553,7 +553,7 @@
                   }
                 },
                 "50": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -566,7 +566,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -579,7 +579,7 @@
                   }
                 },
                 "70": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -592,7 +592,7 @@
                   }
                 },
                 "80": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -605,7 +605,7 @@
                   }
                 },
                 "90": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -618,11 +618,11 @@
                   }
                 },
                 "100": {
-                  "value": "{_theme-factory-tangerine.light.interface.function.primary}",
+                  "value": "{_theme-raw-tangerine.light.interface.function.primary}",
                   "type": "color"
                 },
                 "110": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -635,7 +635,7 @@
                   }
                 },
                 "120": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -648,7 +648,7 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -661,7 +661,7 @@
                   }
                 },
                 "140": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -674,7 +674,7 @@
                   }
                 },
                 "150": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -687,7 +687,7 @@
                   }
                 },
                 "160": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -700,7 +700,7 @@
                   }
                 },
                 "170": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -713,7 +713,7 @@
                   }
                 },
                 "180": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -726,7 +726,7 @@
                   }
                 },
                 "190": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -741,7 +741,7 @@
               },
               "neutrals": {
                 "5": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.neutrals.10}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.10}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -754,7 +754,7 @@
                   }
                 },
                 "10": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -767,7 +767,7 @@
                   }
                 },
                 "20": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -780,7 +780,7 @@
                   }
                 },
                 "30": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -793,7 +793,7 @@
                   }
                 },
                 "40": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -806,7 +806,7 @@
                   }
                 },
                 "50": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -819,7 +819,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -832,7 +832,7 @@
                   }
                 },
                 "70": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -845,7 +845,7 @@
                   }
                 },
                 "80": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -858,7 +858,7 @@
                   }
                 },
                 "90": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -871,7 +871,7 @@
                   }
                 },
                 "100": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -884,7 +884,7 @@
                   }
                 },
                 "110": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -897,7 +897,7 @@
                   }
                 },
                 "120": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -910,11 +910,11 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.180}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.180}",
                   "type": "color"
                 },
                 "140": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -929,23 +929,23 @@
               },
               "behavior": {
                 "darkest": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.180}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.180}",
                   "type": "color"
                 },
                 "action": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.130}",
                   "type": "color"
                 },
                 "normal": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.100}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.60}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.60}",
                   "type": "color"
                 },
                 "lightest": {
-                  "value": "{_color-palette.mode.light.interface.function.primary.palette.10}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.primary.palette.10}",
                   "type": "color"
                 }
               }
@@ -953,7 +953,7 @@
             "secondary": {
               "palette": {
                 "10": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -966,7 +966,7 @@
                   }
                 },
                 "20": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -979,7 +979,7 @@
                   }
                 },
                 "30": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -992,7 +992,7 @@
                   }
                 },
                 "40": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1005,7 +1005,7 @@
                   }
                 },
                 "50": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1018,7 +1018,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1031,7 +1031,7 @@
                   }
                 },
                 "70": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1044,7 +1044,7 @@
                   }
                 },
                 "80": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1057,7 +1057,7 @@
                   }
                 },
                 "90": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1070,11 +1070,11 @@
                   }
                 },
                 "100": {
-                  "value": "{_theme-factory-tangerine.light.interface.function.secondary}",
+                  "value": "{_theme-raw-tangerine.light.interface.function.secondary}",
                   "type": "color"
                 },
                 "110": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1087,7 +1087,7 @@
                   }
                 },
                 "120": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1100,7 +1100,7 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1113,7 +1113,7 @@
                   }
                 },
                 "140": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1126,7 +1126,7 @@
                   }
                 },
                 "150": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1139,7 +1139,7 @@
                   }
                 },
                 "160": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1152,7 +1152,7 @@
                   }
                 },
                 "170": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1165,7 +1165,7 @@
                   }
                 },
                 "180": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1178,7 +1178,7 @@
                   }
                 },
                 "190": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1193,7 +1193,7 @@
               },
               "neutrals": {
                 "5": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.10}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.10}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1206,7 +1206,7 @@
                   }
                 },
                 "10": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1219,7 +1219,7 @@
                   }
                 },
                 "20": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1232,7 +1232,7 @@
                   }
                 },
                 "30": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1245,7 +1245,7 @@
                   }
                 },
                 "40": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1258,7 +1258,7 @@
                   }
                 },
                 "50": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1271,7 +1271,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1284,7 +1284,7 @@
                   }
                 },
                 "70": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1297,7 +1297,7 @@
                   }
                 },
                 "80": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1310,7 +1310,7 @@
                   }
                 },
                 "90": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1323,7 +1323,7 @@
                   }
                 },
                 "100": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1336,7 +1336,7 @@
                   }
                 },
                 "110": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1349,7 +1349,7 @@
                   }
                 },
                 "120": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1362,11 +1362,11 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.180}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.180}",
                   "type": "color"
                 },
                 "140": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1381,23 +1381,23 @@
               },
               "behavior": {
                 "darkest": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.180}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.180}",
                   "type": "color"
                 },
                 "action": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.130}",
                   "type": "color"
                 },
                 "normal": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.100}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.60}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.60}",
                   "type": "color"
                 },
                 "lightest": {
-                  "value": "{_color-palette.mode.light.interface.function.secondary.palette.10}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.secondary.palette.10}",
                   "type": "color"
                 }
               }
@@ -1405,7 +1405,7 @@
             "link": {
               "palette": {
                 "10": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1418,7 +1418,7 @@
                   }
                 },
                 "20": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1431,7 +1431,7 @@
                   }
                 },
                 "30": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1444,7 +1444,7 @@
                   }
                 },
                 "40": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1457,7 +1457,7 @@
                   }
                 },
                 "50": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1470,7 +1470,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1483,7 +1483,7 @@
                   }
                 },
                 "70": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1496,7 +1496,7 @@
                   }
                 },
                 "80": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1509,7 +1509,7 @@
                   }
                 },
                 "90": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1522,11 +1522,11 @@
                   }
                 },
                 "100": {
-                  "value": "{_theme-factory-tangerine.light.interface.function.link}",
+                  "value": "{_theme-raw-tangerine.light.interface.function.link}",
                   "type": "color"
                 },
                 "110": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1539,7 +1539,7 @@
                   }
                 },
                 "120": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1552,7 +1552,7 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1565,7 +1565,7 @@
                   }
                 },
                 "140": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1578,7 +1578,7 @@
                   }
                 },
                 "150": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1591,7 +1591,7 @@
                   }
                 },
                 "160": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1604,7 +1604,7 @@
                   }
                 },
                 "170": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1617,7 +1617,7 @@
                   }
                 },
                 "180": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1630,7 +1630,7 @@
                   }
                 },
                 "190": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1645,7 +1645,7 @@
               },
               "neutrals": {
                 "5": {
-                  "value": "{_color-palette.mode.light.interface.function.link.neutrals.10}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.10}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1658,7 +1658,7 @@
                   }
                 },
                 "10": {
-                  "value": "{_color-palette.mode.light.interface.function.link.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1671,7 +1671,7 @@
                   }
                 },
                 "20": {
-                  "value": "{_color-palette.mode.light.interface.function.link.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1684,7 +1684,7 @@
                   }
                 },
                 "30": {
-                  "value": "{_color-palette.mode.light.interface.function.link.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1697,7 +1697,7 @@
                   }
                 },
                 "40": {
-                  "value": "{_color-palette.mode.light.interface.function.link.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1710,7 +1710,7 @@
                   }
                 },
                 "50": {
-                  "value": "{_color-palette.mode.light.interface.function.link.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1723,7 +1723,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette.mode.light.interface.function.link.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1736,7 +1736,7 @@
                   }
                 },
                 "70": {
-                  "value": "{_color-palette.mode.light.interface.function.link.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1749,7 +1749,7 @@
                   }
                 },
                 "80": {
-                  "value": "{_color-palette.mode.light.interface.function.link.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1762,7 +1762,7 @@
                   }
                 },
                 "90": {
-                  "value": "{_color-palette.mode.light.interface.function.link.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1775,7 +1775,7 @@
                   }
                 },
                 "100": {
-                  "value": "{_color-palette.mode.light.interface.function.link.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1788,7 +1788,7 @@
                   }
                 },
                 "110": {
-                  "value": "{_color-palette.mode.light.interface.function.link.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1801,7 +1801,7 @@
                   }
                 },
                 "120": {
-                  "value": "{_color-palette.mode.light.interface.function.link.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1814,11 +1814,11 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.180}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.180}",
                   "type": "color"
                 },
                 "140": {
-                  "value": "{_color-palette.mode.light.interface.function.link.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1833,23 +1833,23 @@
               },
               "behavior": {
                 "darkest": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.180}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.180}",
                   "type": "color"
                 },
                 "action": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.130}",
                   "type": "color"
                 },
                 "normal": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.100}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.60}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.60}",
                   "type": "color"
                 },
                 "lightest": {
-                  "value": "{_color-palette.mode.light.interface.function.link.palette.10}",
+                  "value": "{_theme-factory-tangerine.light.interface.function.link.palette.10}",
                   "type": "color"
                 }
               }
@@ -1859,7 +1859,7 @@
             "info": {
               "palette": {
                 "10": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1872,7 +1872,7 @@
                   }
                 },
                 "20": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1885,7 +1885,7 @@
                   }
                 },
                 "30": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1898,7 +1898,7 @@
                   }
                 },
                 "40": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1911,7 +1911,7 @@
                   }
                 },
                 "50": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1924,7 +1924,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1937,7 +1937,7 @@
                   }
                 },
                 "70": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1950,7 +1950,7 @@
                   }
                 },
                 "80": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1963,7 +1963,7 @@
                   }
                 },
                 "90": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1976,11 +1976,11 @@
                   }
                 },
                 "100": {
-                  "value": "{_theme-factory-tangerine.light.interface.feedback.info}",
+                  "value": "{_theme-raw-tangerine.light.interface.feedback.info}",
                   "type": "color"
                 },
                 "110": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -1993,7 +1993,7 @@
                   }
                 },
                 "120": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2006,7 +2006,7 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2019,7 +2019,7 @@
                   }
                 },
                 "140": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2032,7 +2032,7 @@
                   }
                 },
                 "150": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2045,7 +2045,7 @@
                   }
                 },
                 "160": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2058,7 +2058,7 @@
                   }
                 },
                 "170": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2071,7 +2071,7 @@
                   }
                 },
                 "180": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2084,7 +2084,7 @@
                   }
                 },
                 "190": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2099,7 +2099,7 @@
               },
               "neutrals": {
                 "5": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.neutrals.10}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.10}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2112,7 +2112,7 @@
                   }
                 },
                 "10": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2125,7 +2125,7 @@
                   }
                 },
                 "20": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2138,7 +2138,7 @@
                   }
                 },
                 "30": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2151,7 +2151,7 @@
                   }
                 },
                 "40": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2164,7 +2164,7 @@
                   }
                 },
                 "50": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2177,7 +2177,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2190,7 +2190,7 @@
                   }
                 },
                 "70": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2203,7 +2203,7 @@
                   }
                 },
                 "80": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2216,7 +2216,7 @@
                   }
                 },
                 "90": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2229,7 +2229,7 @@
                   }
                 },
                 "100": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2242,7 +2242,7 @@
                   }
                 },
                 "110": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2255,7 +2255,7 @@
                   }
                 },
                 "120": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2268,11 +2268,11 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.180}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.180}",
                   "type": "color"
                 },
                 "140": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2287,23 +2287,23 @@
               },
               "behavior": {
                 "darkest": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.180}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.180}",
                   "type": "color"
                 },
                 "action": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.130}",
                   "type": "color"
                 },
                 "normal": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.100}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.60}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.60}",
                   "type": "color"
                 },
                 "lightest": {
-                  "value": "{_color-palette.mode.light.interface.feedback.info.palette.10}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.info.palette.10}",
                   "type": "color"
                 }
               }
@@ -2311,7 +2311,7 @@
             "success": {
               "palette": {
                 "10": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2324,7 +2324,7 @@
                   }
                 },
                 "20": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2337,7 +2337,7 @@
                   }
                 },
                 "30": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2350,7 +2350,7 @@
                   }
                 },
                 "40": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2363,7 +2363,7 @@
                   }
                 },
                 "50": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2376,7 +2376,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2389,7 +2389,7 @@
                   }
                 },
                 "70": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2402,7 +2402,7 @@
                   }
                 },
                 "80": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2415,7 +2415,7 @@
                   }
                 },
                 "90": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2428,11 +2428,11 @@
                   }
                 },
                 "100": {
-                  "value": "{_theme-factory-tangerine.light.interface.feedback.success}",
+                  "value": "{_theme-raw-tangerine.light.interface.feedback.success}",
                   "type": "color"
                 },
                 "110": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2445,7 +2445,7 @@
                   }
                 },
                 "120": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2458,7 +2458,7 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2471,7 +2471,7 @@
                   }
                 },
                 "140": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2484,7 +2484,7 @@
                   }
                 },
                 "150": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2497,7 +2497,7 @@
                   }
                 },
                 "160": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2510,7 +2510,7 @@
                   }
                 },
                 "170": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2523,7 +2523,7 @@
                   }
                 },
                 "180": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2536,7 +2536,7 @@
                   }
                 },
                 "190": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2551,7 +2551,7 @@
               },
               "neutrals": {
                 "5": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.neutrals.10}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.10}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2564,7 +2564,7 @@
                   }
                 },
                 "10": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2577,7 +2577,7 @@
                   }
                 },
                 "20": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2590,7 +2590,7 @@
                   }
                 },
                 "30": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2603,7 +2603,7 @@
                   }
                 },
                 "40": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2616,7 +2616,7 @@
                   }
                 },
                 "50": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2629,7 +2629,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2642,7 +2642,7 @@
                   }
                 },
                 "70": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2655,7 +2655,7 @@
                   }
                 },
                 "80": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2668,7 +2668,7 @@
                   }
                 },
                 "90": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2681,7 +2681,7 @@
                   }
                 },
                 "100": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2694,7 +2694,7 @@
                   }
                 },
                 "110": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2707,7 +2707,7 @@
                   }
                 },
                 "120": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2720,11 +2720,11 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.180}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.180}",
                   "type": "color"
                 },
                 "140": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2739,23 +2739,23 @@
               },
               "behavior": {
                 "darkest": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.180}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.180}",
                   "type": "color"
                 },
                 "action": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.130}",
                   "type": "color"
                 },
                 "normal": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.100}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.60}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.60}",
                   "type": "color"
                 },
                 "lightest": {
-                  "value": "{_color-palette.mode.light.interface.feedback.success.palette.10}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.success.palette.10}",
                   "type": "color"
                 }
               }
@@ -2763,7 +2763,7 @@
             "warning": {
               "palette": {
                 "10": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2776,7 +2776,7 @@
                   }
                 },
                 "20": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2789,7 +2789,7 @@
                   }
                 },
                 "30": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2802,7 +2802,7 @@
                   }
                 },
                 "40": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2815,7 +2815,7 @@
                   }
                 },
                 "50": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2828,7 +2828,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2841,7 +2841,7 @@
                   }
                 },
                 "70": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2854,7 +2854,7 @@
                   }
                 },
                 "80": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2867,7 +2867,7 @@
                   }
                 },
                 "90": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2880,11 +2880,11 @@
                   }
                 },
                 "100": {
-                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning}",
+                  "value": "{_theme-raw-tangerine.light.interface.feedback.warning}",
                   "type": "color"
                 },
                 "110": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2897,7 +2897,7 @@
                   }
                 },
                 "120": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2910,7 +2910,7 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2923,7 +2923,7 @@
                   }
                 },
                 "140": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2936,7 +2936,7 @@
                   }
                 },
                 "150": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2949,7 +2949,7 @@
                   }
                 },
                 "160": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2962,7 +2962,7 @@
                   }
                 },
                 "170": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2975,7 +2975,7 @@
                   }
                 },
                 "180": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -2988,7 +2988,7 @@
                   }
                 },
                 "190": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3003,7 +3003,7 @@
               },
               "neutrals": {
                 "5": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.neutrals.10}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.10}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3016,7 +3016,7 @@
                   }
                 },
                 "10": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3029,7 +3029,7 @@
                   }
                 },
                 "20": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3042,7 +3042,7 @@
                   }
                 },
                 "30": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3055,7 +3055,7 @@
                   }
                 },
                 "40": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3068,7 +3068,7 @@
                   }
                 },
                 "50": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3081,7 +3081,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3094,7 +3094,7 @@
                   }
                 },
                 "70": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3107,7 +3107,7 @@
                   }
                 },
                 "80": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3120,7 +3120,7 @@
                   }
                 },
                 "90": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3133,7 +3133,7 @@
                   }
                 },
                 "100": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3146,7 +3146,7 @@
                   }
                 },
                 "110": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3159,7 +3159,7 @@
                   }
                 },
                 "120": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3172,11 +3172,11 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.180}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.180}",
                   "type": "color"
                 },
                 "140": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3191,23 +3191,23 @@
               },
               "behavior": {
                 "darkest": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.180}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.180}",
                   "type": "color"
                 },
                 "action": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.130}",
                   "type": "color"
                 },
                 "normal": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.100}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.60}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.60}",
                   "type": "color"
                 },
                 "lightest": {
-                  "value": "{_color-palette.mode.light.interface.feedback.warning.palette.10}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.warning.palette.10}",
                   "type": "color"
                 }
               }
@@ -3215,7 +3215,7 @@
             "danger": {
               "palette": {
                 "10": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3228,7 +3228,7 @@
                   }
                 },
                 "20": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3241,7 +3241,7 @@
                   }
                 },
                 "30": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3254,7 +3254,7 @@
                   }
                 },
                 "40": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3267,7 +3267,7 @@
                   }
                 },
                 "50": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3280,7 +3280,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3293,7 +3293,7 @@
                   }
                 },
                 "70": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3306,7 +3306,7 @@
                   }
                 },
                 "80": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3319,7 +3319,7 @@
                   }
                 },
                 "90": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3332,11 +3332,11 @@
                   }
                 },
                 "100": {
-                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger}",
+                  "value": "{_theme-raw-tangerine.light.interface.feedback.danger}",
                   "type": "color"
                 },
                 "110": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3349,7 +3349,7 @@
                   }
                 },
                 "120": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3362,7 +3362,7 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3375,7 +3375,7 @@
                   }
                 },
                 "140": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3388,7 +3388,7 @@
                   }
                 },
                 "150": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3401,7 +3401,7 @@
                   }
                 },
                 "160": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3414,7 +3414,7 @@
                   }
                 },
                 "170": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3427,7 +3427,7 @@
                   }
                 },
                 "180": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3440,7 +3440,7 @@
                   }
                 },
                 "190": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3455,7 +3455,7 @@
               },
               "neutrals": {
                 "5": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.neutrals.10}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.10}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3468,7 +3468,7 @@
                   }
                 },
                 "10": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3481,7 +3481,7 @@
                   }
                 },
                 "20": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3494,7 +3494,7 @@
                   }
                 },
                 "30": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3507,7 +3507,7 @@
                   }
                 },
                 "40": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3520,7 +3520,7 @@
                   }
                 },
                 "50": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3533,7 +3533,7 @@
                   }
                 },
                 "60": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3546,7 +3546,7 @@
                   }
                 },
                 "70": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3559,7 +3559,7 @@
                   }
                 },
                 "80": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3572,7 +3572,7 @@
                   }
                 },
                 "90": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3585,7 +3585,7 @@
                   }
                 },
                 "100": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3598,7 +3598,7 @@
                   }
                 },
                 "110": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3611,7 +3611,7 @@
                   }
                 },
                 "120": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3624,11 +3624,11 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.180}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.180}",
                   "type": "color"
                 },
                 "140": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.neutrals.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.neutrals.130}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -3643,23 +3643,23 @@
               },
               "behavior": {
                 "darkest": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.180}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.180}",
                   "type": "color"
                 },
                 "action": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.130}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.130}",
                   "type": "color"
                 },
                 "normal": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.100}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.100}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.60}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.60}",
                   "type": "color"
                 },
                 "lightest": {
-                  "value": "{_color-palette.mode.light.interface.feedback.danger.palette.10}",
+                  "value": "{_theme-factory-tangerine.light.interface.feedback.danger.palette.10}",
                   "type": "color"
                 }
               }
