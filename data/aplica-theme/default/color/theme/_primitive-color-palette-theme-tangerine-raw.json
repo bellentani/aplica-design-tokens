@@ -24,6 +24,18 @@
                 "type": "color",
                 "description": "To make neutrals value we get the brand.first and divide the Saturation value from HSL by 2, but in this design we use by 4. Original color is brand.first with hexa #6C43CF and Saturation value on 59; modified turns on #82789A with a Saturation value resulting on 15"
               }
+            },
+            "second": {
+              "base": {
+                "value": "#005AE1",
+                "type": "color"
+              }
+            },
+            "third": {
+              "base": {
+                "value": "#8d2251",
+                "type": "color"
+              }
             }
           }
         }
@@ -772,7 +784,7 @@
               }
             },
             "100": {
-              "value": "{_theme-raw-tangerine.light.brand.first}",
+              "value": "{_theme-raw-tangerine.light.brand.second}",
               "type": "color"
             },
             "110": {
@@ -1224,7 +1236,7 @@
               }
             },
             "100": {
-              "value": "{_theme-raw-tangerine.light.brand.first}",
+              "value": "{_theme-raw-tangerine.light.brand.third}",
               "type": "color"
             },
             "110": {
