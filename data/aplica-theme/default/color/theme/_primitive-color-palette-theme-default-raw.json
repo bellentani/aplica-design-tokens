@@ -195,7 +195,7 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
+                  "value": "{_color-palette-config-default.light.ambient.neutral.brand.first.base}",
                   "type": "color"
                 },
                 "140": {
@@ -446,7 +446,7 @@
                   }
                 },
                 "130": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
+                  "value": "{_color-palette-config-default.dark.ambient.neutral.brand.first.base}",
                   "type": "color"
                 },
                 "140": {
