@@ -7579,7 +7579,7 @@
                 }
               },
               "100": {
-                "value": "{_theme-factory-tangerine.dark.interface.feedback.primary}",
+                "value": "{_theme-factory-tangerine.dark.interface.feedback.info}",
                 "type": "color"
               },
               "110": {
@@ -8031,7 +8031,7 @@
                 }
               },
               "100": {
-                "value": "{_theme-raw-tangerine.dark.interface.feedback.primary}",
+                "value": "{_theme-raw-tangerine.dark.interface.feedback.success}",
                 "type": "color"
               },
               "110": {
@@ -8483,7 +8483,7 @@
                 }
               },
               "100": {
-                "value": "{_theme-raw-tangerine.dark.interface.feedback.primary}",
+                "value": "{_theme-raw-tangerine.dark.interface.feedback.warning}",
                 "type": "color"
               },
               "110": {
@@ -8935,7 +8935,7 @@
                 }
               },
               "100": {
-                "value": "{_theme-raw-tangerine.dark.interface.feedback.primary}",
+                "value": "{_theme-raw-tangerine.dark.interface.feedback.danger}",
                 "type": "color"
               },
               "110": {
