@@ -1,13 +1,16 @@
 {
   "tokenSetOrder": [
     "theme-foundation",
-    "color/_primitive-color-palette-theme-default",
-    "color/_primitive-color-palette-theme-orange",
     "color/dark",
     "color/deprecated/_color-charts",
     "color/deprecated/_color-palette",
     "color/deprecated/_helper-color-scheme",
     "color/light",
-    "foundation"
+    "foundation",
+    "color/theme/_primitive-color-palette-theme-default",
+    "color/theme/_primitive-color-palette-theme-default-raw",
+    "color/theme/_primitive-color-palette-theme-orange",
+    "color/theme/_primitive-color-palette-theme-tangerine",
+    "color/theme/_primitive-color-palette-theme-tangerine-raw"
   ]
 }

@@ -3,15 +3,15 @@
     "light": {
       "brand": {
         "first": {
-          "value": "#FE1B6A",
+          "value": "#FE8719",
           "type": "color"
         },
         "second": {
-          "value": "#2D9FE1",
+          "value": "#005AE1",
           "type": "color"
         },
         "third": {
-          "value": "#955EA6",
+          "value": "#8d2251",
           "type": "color"
         }
       },
@@ -20,7 +20,7 @@
           "brand": {
             "first": {
               "base": {
-                "value": "#15070C",
+                "value": "#1C0D00",
                 "type": "color",
                 "description": "To make neutrals value we get the brand.first and divide the Saturation value from HSL by 2, but in this design we use by 4. Original color is brand.first with hexa #6C43CF and Saturation value on 59; modified turns on #82789A with a Saturation value resulting on 15"
               },
@@ -104,7 +104,7 @@
                   }
                 },
                 "60": {
-                  "value": "#15070C",
+                  "value": "{_color-palette-config.light.ambient.neutral.brand.first.base}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
@@ -219,11 +219,11 @@
       "interface": {
         "function": {
           "primary": {
-            "value": "#BF0D82",
+            "value": "#FE8719",
             "type": "color"
           },
           "secondary": {
-            "value": "#177BB5",
+            "value": "#005AE1",
             "type": "color"
           },
           "link": {
@@ -254,15 +254,15 @@
     "dark": {
       "brand": {
         "first": {
-          "value": "#FE1B6A",
+          "value": "#FE8719",
           "type": "color"
         },
         "second": {
-          "value": "#2D9FE1",
+          "value": "#005AE1",
           "type": "color"
         },
         "third": {
-          "value": "#955EA6",
+          "value": "#8d2251",
           "type": "color"
         }
       },
@@ -271,7 +271,7 @@
           "brand": {
             "first": {
               "base": {
-                "value": "#F6DAE4",
+                "value": "#FFEAD8",
                 "type": "color",
                 "description": "To make neutrals value we get the brand.first and divide the Saturation value from HSL by 2, but in this design we use by 4. Original color is brand.first with hexa #6C43CF and Saturation value on 59; modified turns on #82789A with a Saturation value resulting on 15"
               },

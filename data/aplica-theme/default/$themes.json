@@ -4,7 +4,8 @@
     "name": "aplica-joy",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color/_primitive-color-palette-theme-default": "enabled"
+      "color/theme/_primitive-color-palette-theme-default": "enabled",
+      "color/theme/_primitive-color-palette-theme-default-raw": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:3016:2",
     "$figmaModeId": "3016:0",
@@ -1405,10 +1406,11 @@
   },
   {
     "id": "9b8061be67292268c1b6fffd7996a78aa10b24d0",
-    "name": "aplica-orange",
+    "name": "aplica-tangerine",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color/_primitive-color-palette-theme-orange": "enabled"
+      "color/theme/_primitive-color-palette-theme-tangerine": "enabled",
+      "color/theme/_primitive-color-palette-theme-tangerine-raw": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:3016:2",
     "$figmaModeId": "3022:0",
