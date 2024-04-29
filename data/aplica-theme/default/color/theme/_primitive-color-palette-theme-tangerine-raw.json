@@ -1,5 +1,5 @@
 {
-  "_color-palette-config-tangerine": {
+  "_theme-raw-tangerine": {
     "light": {
       "brand": {
         "first": {
@@ -23,194 +23,6 @@
                 "value": "#1C0D00",
                 "type": "color",
                 "description": "To make neutrals value we get the brand.first and divide the Saturation value from HSL by 2, but in this design we use by 4. Original color is brand.first with hexa #6C43CF and Saturation value on 59; modified turns on #82789A with a Saturation value resulting on 15"
-              },
-              "neutrals": {
-                "5": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.96",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "10": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.92",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "20": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.85",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "30": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.77",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "40": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.69",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "50": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.62",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "60": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.54",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "70": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.46",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "80": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.38",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "90": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.31",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "100": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.23",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "110": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.15",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "120": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.08",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "130": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color"
-                },
-                "140": {
-                  "value": "{_color-palette-config-tangerine.light.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "0.5",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                }
               }
             }
           }
@@ -274,194 +86,6 @@
                 "value": "#FFEAD8",
                 "type": "color",
                 "description": "To make neutrals value we get the brand.first and divide the Saturation value from HSL by 2, but in this design we use by 4. Original color is brand.first with hexa #6C43CF and Saturation value on 59; modified turns on #82789A with a Saturation value resulting on 15"
-              },
-              "neutrals": {
-                "5": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "0.96",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "10": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "0.92",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "20": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "0.85",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "30": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "0.77",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "40": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "0.69",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "50": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "0.62",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "60": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "0.54",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "70": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "0.46",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "80": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "0.38",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "90": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "0.31",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "100": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "0.23",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "110": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "0.15",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "120": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "darken",
-                        "value": "0.08",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "130": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color"
-                },
-                "140": {
-                  "value": "{_color-palette-config-tangerine.dark.ambient.neutral.brand.first.base}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "lighten",
-                        "value": "0.5",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                }
               }
             }
           }
@@ -568,6 +192,480 @@
                 }
               }
             }
+          }
+        }
+      }
+    }
+  },
+  "_theme-factory-tangerine": {
+    "light": {
+      "brand": {
+        "first": {
+          "palette": {}
+        },
+        "second": {
+          "palette": {}
+        },
+        "third": {
+          "palette": {}
+        }
+      },
+      "ambient": {
+        "neutral": {
+          "brand": {
+            "first": {
+              "neutrals": {
+                "5": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "lighten",
+                        "value": "0.96",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "10": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "lighten",
+                        "value": "0.92",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "20": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "lighten",
+                        "value": "0.85",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "30": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "lighten",
+                        "value": "0.77",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "40": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "lighten",
+                        "value": "0.69",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "50": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "lighten",
+                        "value": "0.62",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "60": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "lighten",
+                        "value": "0.54",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "70": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "lighten",
+                        "value": "0.46",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "80": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "lighten",
+                        "value": "0.38",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "90": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "lighten",
+                        "value": "0.31",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "100": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "lighten",
+                        "value": "0.23",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "110": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "lighten",
+                        "value": "0.15",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "120": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "lighten",
+                        "value": "0.08",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "130": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color"
+                },
+                "140": {
+                  "value": "{_theme-raw-tangerinelight.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "0.5",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "interface": {
+        "function": {
+          "primary": {
+            "palette": {}
+          },
+          "secondary": {
+            "palette": {}
+          },
+          "link": {
+            "palette": {}
+          }
+        },
+        "feedback": {
+          "info": {
+            "palette": {}
+          },
+          "success": {
+            "palette": {}
+          },
+          "warning": {
+            "palette": {}
+          },
+          "danger": {
+            "palette": {}
+          }
+        }
+      }
+    },
+    "dark": {
+      "brand": {
+        "first": {
+          "palette": {}
+        },
+        "second": {
+          "palette": {}
+        },
+        "third": {
+          "palette": {}
+        }
+      },
+      "ambient": {
+        "neutral": {
+          "brand": {
+            "first": {
+              "neutrals": {
+                "5": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "0.96",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "10": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "0.92",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "20": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "0.85",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "30": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "0.77",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "40": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "0.69",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "50": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "0.62",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "60": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "0.54",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "70": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "0.46",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "80": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "0.38",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "90": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "0.31",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "100": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "0.23",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "110": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "0.15",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "120": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "darken",
+                        "value": "0.08",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "130": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color"
+                },
+                "140": {
+                  "value": "{_theme-raw-tangerinedark.ambient.neutral.brand.first.base}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "lighten",
+                        "value": "0.5",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "interface": {
+        "function": {
+          "primary": {
+            "palette": {}
+          },
+          "secondary": {
+            "palette": {}
+          },
+          "link": {
+            "palette": {}
+          }
+        },
+        "feedback": {
+          "info": {
+            "palette": {}
+          },
+          "success": {
+            "palette": {}
+          },
+          "warning": {
+            "palette": {}
+          },
+          "danger": {
+            "palette": {}
           }
         }
       }
