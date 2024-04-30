@@ -84,10 +84,6 @@
                 }
               },
               "txtOn": {
-                "5": {
-                  "value": "{_theme-factory-default.light.brand.first.palette.180}",
-                  "type": "color"
-                },
                 "10": {
                   "value": "{_theme-factory-default.light.brand.first.palette.180}",
                   "type": "color"
@@ -230,6 +226,10 @@
                 }
               },
               "txtOn": {
+                "5": {
+                  "value": "{_theme-factory-default.light.brand.first.neutrals.130}",
+                  "type": "color"
+                },
                 "10": {
                   "value": "{_theme-factory-default.light.brand.first.neutrals.130}",
                   "type": "color"
