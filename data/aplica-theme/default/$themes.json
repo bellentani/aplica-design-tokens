@@ -5,9 +5,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "color/theme/_primitive-theme-default-config": "source",
-      "color/theme/_primitive-theme-default": "enabled",
-      "color/theme/_primitive-theme-tangerine": "disabled",
-      "color/theme/_primitive-theme-tangerine-config": "disabled"
+      "color/theme/_primitive-theme-default": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3016:2",
     "$figmaModeId": "3016:0",
@@ -800,11 +798,7 @@
     "name": "light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color/light": "enabled",
-      "color/theme/_primitive-theme-default-config": "disabled",
-      "color/theme/_primitive-theme-default": "disabled",
-      "color/theme/_primitive-theme-tangerine": "disabled",
-      "color/theme/_primitive-theme-tangerine-config": "disabled"
+      "color/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3016:805",
     "$figmaModeId": "3016:1",
@@ -936,11 +930,7 @@
     "name": "dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color/dark": "enabled",
-      "color/theme/_primitive-theme-default-config": "disabled",
-      "color/theme/_primitive-theme-default": "disabled",
-      "color/theme/_primitive-theme-tangerine": "disabled",
-      "color/theme/_primitive-theme-tangerine-config": "disabled"
+      "color/dark": "enabled"
     },
     "group": "theme",
     "$figmaCollectionId": "VariableCollectionId:3016:805",
@@ -1071,11 +1061,7 @@
     "name": "default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "foundation": "enabled",
-      "color/theme/_primitive-theme-default-config": "disabled",
-      "color/theme/_primitive-theme-default": "disabled",
-      "color/theme/_primitive-theme-tangerine": "disabled",
-      "color/theme/_primitive-theme-tangerine-config": "disabled"
+      "foundation": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3016:942",
     "$figmaModeId": "3016:3",
@@ -1205,11 +1191,7 @@
     "name": "default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "theme-foundation": "enabled",
-      "color/theme/_primitive-theme-default-config": "disabled",
-      "color/theme/_primitive-theme-default": "disabled",
-      "color/theme/_primitive-theme-tangerine": "disabled",
-      "color/theme/_primitive-theme-tangerine-config": "disabled"
+      "theme-foundation": "enabled"
     },
     "group": "semantic",
     "$figmaCollectionId": "VariableCollectionId:3016:1057",
@@ -1405,8 +1387,6 @@
     "name": "aplica-tangerine",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color/theme/_primitive-theme-default-config": "disabled",
-      "color/theme/_primitive-theme-default": "disabled",
       "color/theme/_primitive-theme-tangerine": "enabled",
       "color/theme/_primitive-theme-tangerine-config": "source"
     },
