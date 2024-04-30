@@ -7,10 +7,9 @@
     "color/deprecated/_helper-color-scheme",
     "color/light",
     "foundation",
-    "color/theme/_primitive-color-palette-theme-default",
-    "color/theme/_primitive-color-palette-theme-default-raw",
-    "color/theme/_primitive-color-palette-theme-orange",
-    "color/theme/_primitive-color-palette-theme-tangerine",
-    "color/theme/_primitive-color-palette-theme-tangerine-raw"
+    "color/theme/_primitive-theme-default",
+    "color/theme/_primitive-theme-default-config",
+    "color/theme/_primitive-theme-tangerine",
+    "color/theme/_primitive-theme-tangerine-config"
   ]
 }
