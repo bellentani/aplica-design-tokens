@@ -6561,7 +6561,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.9",
                       "space": "hsl"
                     }
@@ -6574,20 +6574,20 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.8",
                       "space": "hsl"
                     }
                   }
                 }
               },
-              "30": {
+               "30": {
                 "value": "{_theme-factory-default.dark.interface.function.secondary.palette.100}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.7",
                       "space": "hsl"
                     }
@@ -6600,7 +6600,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.6",
                       "space": "hsl"
                     }
@@ -6613,7 +6613,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.5",
                       "space": "hsl"
                     }
@@ -6626,7 +6626,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.4",
                       "space": "hsl"
                     }
@@ -6639,7 +6639,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.3",
                       "space": "hsl"
                     }
@@ -6652,7 +6652,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.2",
                       "space": "hsl"
                     }
@@ -6665,7 +6665,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.1",
                       "space": "hsl"
                     }
@@ -6682,7 +6682,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.1",
                       "space": "hsl"
                     }
@@ -6695,7 +6695,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.2",
                       "space": "hsl"
                     }
@@ -6708,7 +6708,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.3",
                       "space": "hsl"
                     }
@@ -6721,7 +6721,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.4",
                       "space": "hsl"
                     }
@@ -6734,20 +6734,20 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.5",
                       "space": "hsl"
                     }
                   }
                 }
-              },
+              }, 
               "160": {
                 "value": "{_theme-factory-default.dark.interface.function.secondary.palette.100}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.6",
                       "space": "hsl"
                     }
@@ -6760,7 +6760,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.7",
                       "space": "hsl"
                     }
@@ -6773,7 +6773,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.8",
                       "space": "hsl"
                     }
@@ -6786,7 +6786,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.9",
                       "space": "hsl"
                     }
@@ -6801,7 +6801,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.96",
                       "space": "hsl"
                     }
@@ -6814,7 +6814,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.92",
                       "space": "hsl"
                     }
@@ -6827,7 +6827,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.85",
                       "space": "hsl"
                     }
@@ -6840,7 +6840,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.77",
                       "space": "hsl"
                     }
@@ -6853,7 +6853,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.69",
                       "space": "hsl"
                     }
@@ -6866,7 +6866,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.62",
                       "space": "hsl"
                     }
@@ -6879,7 +6879,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.54",
                       "space": "hsl"
                     }
@@ -6892,7 +6892,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.46",
                       "space": "hsl"
                     }
@@ -6905,7 +6905,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.38",
                       "space": "hsl"
                     }
@@ -6918,7 +6918,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.31",
                       "space": "hsl"
                     }
@@ -6931,7 +6931,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.23",
                       "space": "hsl"
                     }
@@ -6944,7 +6944,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.15",
                       "space": "hsl"
                     }
@@ -6957,7 +6957,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.08",
                       "space": "hsl"
                     }
@@ -6965,7 +6965,7 @@
                 }
               },
               "130": {
-                "value": "{_theme-factory-default.dark.interface.function.secondary.palette.180}",
+                "value": "{_theme-raw-default.dark.interface.function.secondary}",
                 "type": "color"
               },
               "140": {
@@ -6974,7 +6974,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.5",
                       "space": "hsl"
                     }
@@ -7013,7 +7013,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.9",
                       "space": "hsl"
                     }
@@ -7026,20 +7026,20 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.8",
                       "space": "hsl"
                     }
                   }
                 }
               },
-              "30": {
+               "30": {
                 "value": "{_theme-factory-default.dark.interface.function.link.palette.100}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.7",
                       "space": "hsl"
                     }
@@ -7052,7 +7052,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.6",
                       "space": "hsl"
                     }
@@ -7065,7 +7065,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.5",
                       "space": "hsl"
                     }
@@ -7078,7 +7078,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.4",
                       "space": "hsl"
                     }
@@ -7091,7 +7091,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.3",
                       "space": "hsl"
                     }
@@ -7104,7 +7104,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.2",
                       "space": "hsl"
                     }
@@ -7117,7 +7117,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.1",
                       "space": "hsl"
                     }
@@ -7134,7 +7134,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.1",
                       "space": "hsl"
                     }
@@ -7147,7 +7147,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.2",
                       "space": "hsl"
                     }
@@ -7160,7 +7160,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.3",
                       "space": "hsl"
                     }
@@ -7173,7 +7173,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.4",
                       "space": "hsl"
                     }
@@ -7186,20 +7186,20 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.5",
                       "space": "hsl"
                     }
                   }
                 }
-              },
+              }, 
               "160": {
                 "value": "{_theme-factory-default.dark.interface.function.link.palette.100}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.6",
                       "space": "hsl"
                     }
@@ -7212,7 +7212,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.7",
                       "space": "hsl"
                     }
@@ -7225,7 +7225,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.8",
                       "space": "hsl"
                     }
@@ -7238,7 +7238,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.9",
                       "space": "hsl"
                     }
@@ -7253,7 +7253,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.96",
                       "space": "hsl"
                     }
@@ -7266,7 +7266,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.92",
                       "space": "hsl"
                     }
@@ -7279,7 +7279,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.85",
                       "space": "hsl"
                     }
@@ -7292,7 +7292,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.77",
                       "space": "hsl"
                     }
@@ -7305,7 +7305,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.69",
                       "space": "hsl"
                     }
@@ -7318,7 +7318,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.62",
                       "space": "hsl"
                     }
@@ -7331,7 +7331,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.54",
                       "space": "hsl"
                     }
@@ -7344,7 +7344,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.46",
                       "space": "hsl"
                     }
@@ -7357,7 +7357,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.38",
                       "space": "hsl"
                     }
@@ -7370,7 +7370,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.31",
                       "space": "hsl"
                     }
@@ -7383,7 +7383,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.23",
                       "space": "hsl"
                     }
@@ -7396,7 +7396,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.15",
                       "space": "hsl"
                     }
@@ -7409,7 +7409,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "lighten",
+                      "type": "darken",
                       "value": "0.08",
                       "space": "hsl"
                     }
@@ -7417,7 +7417,7 @@
                 }
               },
               "130": {
-                "value": "{_theme-factory-default.dark.interface.function.link.palette.180}",
+                "value": "{_theme-raw-default.dark.interface.function.link}",
                 "type": "color"
               },
               "140": {
@@ -7426,7 +7426,7 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
+                      "type": "lighten",
                       "value": "0.5",
                       "space": "hsl"
                     }
