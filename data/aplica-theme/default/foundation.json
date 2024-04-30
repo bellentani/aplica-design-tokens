@@ -315,15 +315,15 @@
     "on": {
       "brand": {
         "first": {
-          "value": "{color.brand.branding.first.textOn}",
+          "value": "{color.brand.branding.first.txtOn}",
           "type": "color"
         },
         "second": {
-          "value": "{color.brand.branding.second.textOn}",
+          "value": "{color.brand.branding.second.txtOn}",
           "type": "color"
         },
         "third": {
-          "value": "{color.brand.branding.third.textOn}",
+          "value": "{color.brand.branding.third.txtOn}",
           "type": "color"
         }
       },
@@ -331,138 +331,138 @@
         "contrast": {
           "positive": {
             "base": {
-              "value": "{color.brand.ambient.contrast.base.positive.textOn}",
+              "value": "{color.brand.ambient.contrast.base.positive.txtOn}",
               "type": "color"
             },
             "deep": {
-              "value": "{color.brand.ambient.contrast.deep.positive.textOn}",
+              "value": "{color.brand.ambient.contrast.deep.positive.txtOn}",
               "type": "color"
             }
           },
           "negative": {
             "base": {
-              "value": "{color.brand.ambient.contrast.base.negative.textOn}",
+              "value": "{color.brand.ambient.contrast.base.negative.txtOn}",
               "type": "color"
             },
             "deep": {
-              "value": "{color.brand.ambient.contrast.deep.negative.textOn}",
+              "value": "{color.brand.ambient.contrast.deep.negative.txtOn}",
               "type": "color"
             }
           }
         },
         "neutral": {
           "highest": {
-            "value": "{color.brand.ambient.neutral.highest.textOn}",
+            "value": "{color.brand.ambient.neutral.highest.txtOn}",
             "type": "color"
           },
           "higher": {
-            "value": "{color.brand.ambient.neutral.higher.textOn}",
+            "value": "{color.brand.ambient.neutral.higher.txtOn}",
             "type": "color"
           },
           "high": {
-            "value": "{color.brand.ambient.neutral.high.textOn}",
+            "value": "{color.brand.ambient.neutral.high.txtOn}",
             "type": "color"
           },
           "mid": {
-            "value": "{color.brand.ambient.neutral.mid.textOn}",
+            "value": "{color.brand.ambient.neutral.mid.txtOn}",
             "type": "color"
           },
           "low": {
-            "value": "{color.brand.ambient.neutral.low.textOn}",
+            "value": "{color.brand.ambient.neutral.low.txtOn}",
             "type": "color"
           },
           "lower": {
-            "value": "{color.brand.ambient.neutral.lower.textOn}",
+            "value": "{color.brand.ambient.neutral.lower.txtOn}",
             "type": "color"
           },
           "lowest": {
-            "value": "{color.brand.ambient.neutral.lowest.textOn}",
+            "value": "{color.brand.ambient.neutral.lowest.txtOn}",
             "type": "color"
           }
         },
         "grayscale": {
           "highest": {
-            "value": "{color.brand.ambient.grayscale.highest.textOn}",
+            "value": "{color.brand.ambient.grayscale.highest.txtOn}",
             "type": "color"
           },
           "higher": {
-            "value": "{color.brand.ambient.grayscale.higher.textOn}",
+            "value": "{color.brand.ambient.grayscale.higher.txtOn}",
             "type": "color"
           },
           "high": {
-            "value": "{color.brand.ambient.grayscale.high.textOn}",
+            "value": "{color.brand.ambient.grayscale.high.txtOn}",
             "type": "color"
           },
           "mid": {
-            "value": "{color.brand.ambient.grayscale.mid.textOn}",
+            "value": "{color.brand.ambient.grayscale.mid.txtOn}",
             "type": "color"
           },
           "low": {
-            "value": "{color.brand.ambient.grayscale.low.textOn}",
+            "value": "{color.brand.ambient.grayscale.low.txtOn}",
             "type": "color"
           },
           "lower": {
-            "value": "{color.brand.ambient.grayscale.lower.textOn}",
+            "value": "{color.brand.ambient.grayscale.lower.txtOn}",
             "type": "color"
           },
           "lowest": {
-            "value": "{color.brand.ambient.grayscale.lowest.textOn}",
+            "value": "{color.brand.ambient.grayscale.lowest.txtOn}",
             "type": "color"
           }
         }
       },
       "function": {
         "primary": {
-          "value": "{color.interface.function.primary.normal.textOn}",
+          "value": "{color.interface.function.primary.normal.txtOn}",
           "type": "color"
         },
         "secondary": {
-          "value": "{color.interface.function.secondary.normal.textOn}",
+          "value": "{color.interface.function.secondary.normal.txtOn}",
           "type": "color"
         },
         "link": {
-          "value": "{color.interface.function.link.normal.textOn}",
+          "value": "{color.interface.function.link.normal.txtOn}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.interface.function.disabled.normal.textOn}",
+          "value": "{color.interface.function.disabled.normal.txtOn}",
           "type": "color"
         }
       },
       "feedback": {
         "main": {
           "info": {
-            "value": "{color.interface.feedback.info.main.normal.textOn}",
+            "value": "{color.interface.feedback.info.main.normal.txtOn}",
             "type": "color"
           },
           "success": {
-            "value": "{color.interface.feedback.success.main.normal.textOn}",
+            "value": "{color.interface.feedback.success.main.normal.txtOn}",
             "type": "color"
           },
           "warning": {
-            "value": "{color.interface.feedback.warning.main.normal.textOn}",
+            "value": "{color.interface.feedback.warning.main.normal.txtOn}",
             "type": "color"
           },
           "danger": {
-            "value": "{color.interface.feedback.danger.main.normal.textOn}",
+            "value": "{color.interface.feedback.danger.main.normal.txtOn}",
             "type": "color"
           }
         },
         "secondary": {
           "info": {
-            "value": "{color.interface.feedback.info.secondary.normal.textOn}",
+            "value": "{color.interface.feedback.info.secondary.normal.txtOn}",
             "type": "color"
           },
           "success": {
-            "value": "{color.interface.feedback.success.secondary.normal.textOn}",
+            "value": "{color.interface.feedback.success.secondary.normal.txtOn}",
             "type": "color"
           },
           "warning": {
-            "value": "{color.interface.feedback.warning.secondary.normal.textOn}",
+            "value": "{color.interface.feedback.warning.secondary.normal.txtOn}",
             "type": "color"
           },
           "danger": {
-            "value": "{color.interface.feedback.danger.secondary.normal.textOn}",
+            "value": "{color.interface.feedback.danger.secondary.normal.txtOn}",
             "type": "color"
           }
         }
