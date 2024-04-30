@@ -5606,7 +5606,7 @@
               }
             },
             "130": {
-              "value": "{_theme-raw-default.dark.ambient.neutral.brand.second}",
+              "value": "{_theme-factory-default.dark.brand.second.palette.180}",
               "type": "color"
             },
             "140": {
@@ -6058,7 +6058,7 @@
               }
             },
             "130": {
-              "value": "{_theme-raw-default.dark.ambient.neutral.brand.third}",
+              "value": "{_theme-factory-default.dark.brand.third.palette.180}",
               "type": "color"
             },
             "140": {
@@ -6513,7 +6513,7 @@
                 }
               },
               "130": {
-                "value": "{_theme-raw-default.dark.interface.function.primary}",
+                "value": "{_theme-factory-default.dark.interface.function.primary.palette.180}",
                 "type": "color"
               },
               "140": {
@@ -6965,7 +6965,7 @@
                 }
               },
               "130": {
-                "value": "{_theme-raw-default.dark.interface.function.secondary}",
+                "value": "{_theme-factory-default.dark.interface.function.secondary.palette.180}",
                 "type": "color"
               },
               "140": {
@@ -7417,7 +7417,7 @@
                 }
               },
               "130": {
-                "value": "{_theme-raw-default.dark.interface.function.link}",
+                "value": "{_theme-factory-default.dark.interface.function.link.palette.180}",
                 "type": "color"
               },
               "140": {
@@ -7871,7 +7871,7 @@
                 }
               },
               "130": {
-                "value": "{_theme-raw-default.dark.interface.feedback.info}",
+                "value": "{_theme-factory-default.dark.interface.feedback.info.palette.180}",
                 "type": "color"
               },
               "140": {
@@ -8323,7 +8323,7 @@
                 }
               },
               "130": {
-                "value": "{_theme-raw-default.dark.interface.feedback.success}",
+                "value": "{_theme-factory-default.dark.interface.feedback.success.palette.180}",
                 "type": "color"
               },
               "140": {
@@ -8775,7 +8775,7 @@
                 }
               },
               "130": {
-                "value": "{_theme-raw-default.dark.interface.feedback.warning}",
+                "value": "{_theme-factory-default.dark.interface.feedback.warning.palette.180}",
                 "type": "color"
               },
               "140": {
@@ -9227,7 +9227,7 @@
                 }
               },
               "130": {
-                "value": "{_theme-raw-default.dark.interface.feedback.danger}",
+                "value": "{_theme-factory-default.dark.interface.feedback.danger.palette.180}",
                 "type": "color"
               },
               "140": {
