@@ -5154,7 +5154,7 @@
               }
             },
             "130": {
-              "value": "{_theme-raw-default.dark.ambient.neutral.brand.first}",
+              "value": "{_theme-factory-default.dark.brand.first.palette.180}",
               "type": "color"
             },
             "140": {
