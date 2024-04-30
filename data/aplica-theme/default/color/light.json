@@ -80,7 +80,7 @@
           "deep": {
             "positive": {
               "background": {
-                "value": "#000000",
+                "value": "#FFFFFF",
                 "type": "color"
               },
               "txtOn": {
@@ -88,7 +88,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "#000000",
+                "value": "#FFFFFF",
                 "type": "color"
               }
             },

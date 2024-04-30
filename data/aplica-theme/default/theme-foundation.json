@@ -54,7 +54,7 @@
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.brand.ambient.contrast.base.negative.txtOn}",
+                "value": "{color-theme.brand.ambient.contrast.base.positive.txtOn}",
                 "type": "color"
               },
               "border": {
@@ -68,7 +68,7 @@
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.brand.ambient.contrast.base.positive.txtOn}",
+                "value": "{color-theme.brand.ambient.contrast.base.negative.txtOn}",
                 "type": "color"
               },
               "border": {
@@ -84,7 +84,7 @@
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.negative.txtOn}",
+                "value": "{color-theme.brand.ambient.contrast.deep.positive.txtOn}",
                 "type": "color"
               },
               "border": {
@@ -98,7 +98,7 @@
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.positive.txtOn}",
+                "value": "{color-theme.brand.ambient.contrast.deep.negative.txtOn}",
                 "type": "color"
               },
               "border": {
