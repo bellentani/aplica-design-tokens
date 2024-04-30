@@ -37,11 +37,11 @@
       "interface": {
         "function": {
           "primary": {
-            "value": "#FE8719",
+            "value": "#C40145",
             "type": "color"
           },
           "secondary": {
-            "value": "#005AE1",
+            "value": "#1872A6",
             "type": "color"
           },
           "link": {
