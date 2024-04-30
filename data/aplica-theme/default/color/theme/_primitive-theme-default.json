@@ -121,11 +121,11 @@
                   "type": "color"
                 },
                 "100": {
-                  "value": "{_theme-factory-default.light.brand.first.palette.180}",
+                  "value": "#000000",
                   "type": "color"
                 },
                 "110": {
-                  "value": "#000000",
+                  "value": "#FFFFFF",
                   "type": "color"
                 },
                 "120": {
@@ -785,15 +785,15 @@
                   "type": "color"
                 },
                 "100": {
-                  "value": "{_theme-factory-default.light.brand.third.palette.190}",
+                  "value": "#FFFFFF",
                   "type": "color"
                 },
                 "110": {
-                  "value": "{_theme-factory-default.light.brand.third.palette.190}",
+                  "value": "{_theme-factory-default.light.brand.third.palette.10}",
                   "type": "color"
                 },
                 "120": {
-                  "value": "#000000",
+                  "value": "{_theme-factory-default.light.brand.third.palette.10}",
                   "type": "color"
                 },
                 "130": {
