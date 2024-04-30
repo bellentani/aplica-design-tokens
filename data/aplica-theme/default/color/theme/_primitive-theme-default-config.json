@@ -6513,7 +6513,7 @@
                 }
               },
               "130": {
-                "value": "{_theme-raw-default.dark.ambient.neutral.interface.function.primary}",
+                "value": "{_theme-raw-default.dark.interface.function.primary}",
                 "type": "color"
               },
               "140": {
