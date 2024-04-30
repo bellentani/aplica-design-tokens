@@ -2130,43 +2130,43 @@
                 },
                 "txtOn": {
                   "5": {
-                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.180}",
+                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.130}",
                     "type": "color"
                   },
                   "10": {
-                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.180}",
+                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.130}",
                     "type": "color"
                   },
                   "20": {
-                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.180}",
+                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.130}",
                     "type": "color"
                   },
                   "30": {
-                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.180}",
+                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.130}",
                     "type": "color"
                   },
                   "40": {
-                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.180}",
+                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.130}",
                     "type": "color"
                   },
                   "50": {
-                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.180}",
+                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.130}",
                     "type": "color"
                   },
                   "60": {
-                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.180}",
+                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.130}",
                     "type": "color"
                   },
                   "70": {
-                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.180}",
+                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.130}",
                     "type": "color"
                   },
                   "80": {
-                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.180}",
+                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.130}",
                     "type": "color"
                   },
                   "90": {
-                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.180}",
+                    "value": "{_color-palette.mode.light.interface.function.secondary.neutrals.bg.130}",
                     "type": "color"
                   },
                   "100": {
