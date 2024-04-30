@@ -19,12 +19,12 @@
         "neutral": {
           "brand": {
             "first": {
-              "value": "#1C0D00",
+              "value": "#291B0E",
               "type": "color",
               "description": "To make neutrals value we get the brand.first and divide the Saturation value from HSL by 2, but in this design we use by 4. Original color is brand.first with hexa #6C43CF and Saturation value on 59; modified turns on #82789A with a Saturation value resulting on 15"
             },
             "second": {
-              "value": "#005AE1",
+              "value": "#00122D",
               "type": "color"
             },
             "third": {
@@ -88,16 +88,16 @@
         "neutral": {
           "brand": {
             "first": {
-              "value": "#FFEAD8",
+              "value": "#F3E7DD",
               "type": "color",
               "description": "To make neutrals value we get the brand.first and divide the Saturation value from HSL by 2, but in this design we use by 4. Original color is brand.first with hexa #6C43CF and Saturation value on 59; modified turns on #82789A with a Saturation value resulting on 15"
             },
             "second": {
-              "value": "#005AE1",
+              "value": "#C6DDFF",
               "type": "color"
             },
             "third": {
-              "value": "#8d2251",
+              "value": "#E8D3DC",
               "type": "color"
             }
           }
