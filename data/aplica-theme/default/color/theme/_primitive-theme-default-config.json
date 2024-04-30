@@ -6283,7 +6283,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.5",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -6523,7 +6523,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.5",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -6735,7 +6735,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.5",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -6975,7 +6975,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.5",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -7187,7 +7187,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.5",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -7427,7 +7427,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.5",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -7641,7 +7641,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.5",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -7881,7 +7881,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.5",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -8093,7 +8093,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.5",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -8333,7 +8333,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.5",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -8545,7 +8545,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.5",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -8785,7 +8785,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.5",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -8997,7 +8997,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.5",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
@@ -9237,7 +9237,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "lighten",
-                      "value": "0.5",
+                      "value": "0.08",
                       "space": "hsl"
                     }
                   }
