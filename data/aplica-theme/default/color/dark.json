@@ -84,7 +84,7 @@
                 "type": "color"
               },
               "txtOn": {
-                "value": "#000000",
+                "value": "#ffffff",
                 "type": "color"
               },
               "border": {
@@ -98,7 +98,7 @@
                 "type": "color"
               },
               "txtOn": {
-                "value": "#ffffff",
+                "value": "#000000",
                 "type": "color"
               },
               "border": {
