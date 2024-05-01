@@ -5154,7 +5154,7 @@
               }
             },
             "130": {
-              "value": "{_theme-factory-default.dark.brand.first.palette.180}",
+              "value": "{_theme-raw-default.dark.ambient.neutral.brand.first}",
               "type": "color"
             },
             "140": {
@@ -5606,7 +5606,7 @@
               }
             },
             "130": {
-              "value": "{_theme-factory-default.dark.brand.second.palette.180}",
+              "value": "{_theme-raw-default.dark.ambient.neutral.brand.second}",
               "type": "color"
             },
             "140": {
@@ -6058,7 +6058,7 @@
               }
             },
             "130": {
-              "value": "{_theme-factory-default.dark.brand.third.palette.180}",
+              "value": "{_theme-raw-default.dark.ambient.neutral.brand.third}",
               "type": "color"
             },
             "140": {

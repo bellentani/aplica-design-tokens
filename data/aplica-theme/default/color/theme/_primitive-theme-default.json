@@ -5467,11 +5467,11 @@
                   "type": "color"
                 },
                 "100": {
-                  "value": "{_theme-factory-default.dark.brand.first.palette.180}",
+                  "value": "#000000",
                   "type": "color"
                 },
                 "110": {
-                  "value": "#000000",
+                  "value": "{_theme-factory-default.dark.brand.first.palette.180}",
                   "type": "color"
                 },
                 "120": {
