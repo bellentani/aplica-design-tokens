@@ -1,0 +1,986 @@
+{
+  "_color-palette": {
+    "mode": {
+      "light": {
+        "brand": {
+          "first": {
+            "palette": {
+              "surface": {
+                "10": {
+                  "value": "#fff"
+                },
+                "20": {
+                  "value": "#fff"
+                },
+                "30": {
+                  "value": "#fff"
+                },
+                "40": {
+                  "value": "#fff"
+                },
+                "50": {
+                  "value": "#ffe9ed"
+                },
+                "60": {
+                  "value": "#ffcad3"
+                },
+                "70": {
+                  "value": "#ffa9b8"
+                },
+                "80": {
+                  "value": "#ff849d"
+                },
+                "90": {
+                  "value": "#ff5682"
+                },
+                "100": {
+                  "value": "#fe1b6a"
+                },
+                "110": {
+                  "value": "#e60058"
+                },
+                "120": {
+                  "value": "#c60049"
+                },
+                "130": {
+                  "value": "#a6003b"
+                },
+                "140": {
+                  "value": "#87002e"
+                },
+                "150": {
+                  "value": "#6a0021"
+                },
+                "160": {
+                  "value": "#4e0015"
+                },
+                "170": {
+                  "value": "#33000a"
+                },
+                "180": {
+                  "value": "#1b0003"
+                },
+                "190": {
+                  "value": "#060000"
+                }
+              },
+              "txtOn": {
+                "10": {
+                  "value": "#1b0003"
+                },
+                "20": {
+                  "value": "#1b0003"
+                },
+                "30": {
+                  "value": "#1b0003"
+                },
+                "40": {
+                  "value": "#1b0003"
+                },
+                "50": {
+                  "value": "#1b0003"
+                },
+                "60": {
+                  "value": "#1b0003"
+                },
+                "70": {
+                  "value": "#1b0003"
+                },
+                "80": {
+                  "value": "#1b0003"
+                },
+                "90": {
+                  "value": "#1b0003"
+                },
+                "100": {
+                  "value": "#1b0003"
+                },
+                "110": {
+                  "value": "#1b0003"
+                },
+                "120": {
+                  "value": "#1b0003"
+                },
+                "130": {
+                  "value": "#ff5682"
+                },
+                "140": {
+                  "value": "#ff5682"
+                },
+                "150": {
+                  "value": "#ff5682"
+                },
+                "160": {
+                  "value": "#ff5682"
+                },
+                "170": {
+                  "value": "#ff5682"
+                },
+                "180": {
+                  "value": "#ff5682"
+                },
+                "190": {
+                  "value": "#ff5682"
+                }
+              }
+            },
+            "neutrals": {
+              "todo": "TODO"
+            },
+            "behavior": {
+              "surface": {
+                "darkest": {
+                  "value": "#1b0003"
+                },
+                "action": {
+                  "value": "#a6003b"
+                },
+                "normal": {
+                  "value": "#fe1b6a"
+                },
+                "active": {
+                  "value": "#ffcad3"
+                },
+                "lightest": {
+                  "value": "#fff"
+                }
+              },
+              "txtOn": {
+                "darkest": {
+                  "value": "#fff"
+                },
+                "action": {
+                  "value": "#fff"
+                },
+                "normal": {
+                  "value": "#060000"
+                },
+                "active": {
+                  "value": "#1b0003"
+                },
+                "lightest": {
+                  "value": "#1b0003"
+                }
+              }
+            }
+          },
+          "second": {
+            "palette": {
+              "surface": {
+                "10": {
+                  "value": "#fff"
+                },
+                "20": {
+                  "value": "#fff"
+                },
+                "30": {
+                  "value": "#fff"
+                },
+                "40": {
+                  "value": "#fff"
+                },
+                "50": {
+                  "value": "#fff"
+                },
+                "60": {
+                  "value": "#caf1ff"
+                },
+                "70": {
+                  "value": "#9bdeff"
+                },
+                "80": {
+                  "value": "#64caff"
+                },
+                "90": {
+                  "value": "#48b4f8"
+                },
+                "100": {
+                  "value": "#2d9fe1"
+                },
+                "110": {
+                  "value": "#008acb"
+                },
+                "120": {
+                  "value": "#0075b5"
+                },
+                "130": {
+                  "value": "#00619d"
+                },
+                "140": {
+                  "value": "#004e81"
+                },
+                "150": {
+                  "value": "#003b66"
+                },
+                "160": {
+                  "value": "#00294c"
+                },
+                "170": {
+                  "value": "#001834"
+                },
+                "180": {
+                  "value": "#00091d"
+                },
+                "190": {
+                  "value": "#000109"
+                }
+              },
+              "txtOn": {
+                "10": {
+                  "value": "#00091d"
+                },
+                "20": {
+                  "value": "#00091d"
+                },
+                "30": {
+                  "value": "#00091d"
+                },
+                "40": {
+                  "value": "#00091d"
+                },
+                "50": {
+                  "value": "#00091d"
+                },
+                "60": {
+                  "value": "#00091d"
+                },
+                "70": {
+                  "value": "#00091d"
+                },
+                "80": {
+                  "value": "#00091d"
+                },
+                "90": {
+                  "value": "#00091d"
+                },
+                "100": {
+                  "value": "#00091d"
+                },
+                "110": {
+                  "value": "#00091d"
+                },
+                "120": {
+                  "value": "#00091d"
+                },
+                "130": {
+                  "value": "#48b4f8"
+                },
+                "140": {
+                  "value": "#48b4f8"
+                },
+                "150": {
+                  "value": "#48b4f8"
+                },
+                "160": {
+                  "value": "#48b4f8"
+                },
+                "170": {
+                  "value": "#48b4f8"
+                },
+                "180": {
+                  "value": "#48b4f8"
+                },
+                "190": {
+                  "value": "#48b4f8"
+                }
+              }
+            },
+            "neutrals": {
+              "todo": "TODO"
+            },
+            "behavior": {
+              "surface": {
+                "darkest": {
+                  "value": "#00091d"
+                },
+                "action": {
+                  "value": "#00619d"
+                },
+                "normal": {
+                  "value": "#2d9fe1"
+                },
+                "active": {
+                  "value": "#caf1ff"
+                },
+                "lightest": {
+                  "value": "#fff"
+                }
+              },
+              "txtOn": {
+                "darkest": {
+                  "value": "#fff"
+                },
+                "action": {
+                  "value": "#fff"
+                },
+                "normal": {
+                  "value": "#000109"
+                },
+                "active": {
+                  "value": "#00091d"
+                },
+                "lightest": {
+                  "value": "#00091d"
+                }
+              }
+            }
+          },
+          "third": {
+            "palette": {
+              "surface": {
+                "10": {
+                  "value": "#fff"
+                },
+                "20": {
+                  "value": "#fff"
+                },
+                "30": {
+                  "value": "#ffeaff"
+                },
+                "40": {
+                  "value": "#feceff"
+                },
+                "50": {
+                  "value": "#f1b6ff"
+                },
+                "60": {
+                  "value": "#dea3f0"
+                },
+                "70": {
+                  "value": "#cb92dd"
+                },
+                "80": {
+                  "value": "#b980cb"
+                },
+                "90": {
+                  "value": "#a76fb8"
+                },
+                "100": {
+                  "value": "#955ea6"
+                },
+                "110": {
+                  "value": "#844d94"
+                },
+                "120": {
+                  "value": "#723d83"
+                },
+                "130": {
+                  "value": "#622d71"
+                },
+                "140": {
+                  "value": "#511c61"
+                },
+                "150": {
+                  "value": "#420a50"
+                },
+                "160": {
+                  "value": "#320040"
+                },
+                "170": {
+                  "value": "#21002c"
+                },
+                "180": {
+                  "value": "#0f0017"
+                },
+                "190": {
+                  "value": "#020005"
+                }
+              },
+              "txtOn": {
+                "10": {
+                  "value": "#0f0017"
+                },
+                "20": {
+                  "value": "#0f0017"
+                },
+                "30": {
+                  "value": "#0f0017"
+                },
+                "40": {
+                  "value": "#0f0017"
+                },
+                "50": {
+                  "value": "#0f0017"
+                },
+                "60": {
+                  "value": "#0f0017"
+                },
+                "70": {
+                  "value": "#0f0017"
+                },
+                "80": {
+                  "value": "#0f0017"
+                },
+                "90": {
+                  "value": "#0f0017"
+                },
+                "100": {
+                  "value": "#0f0017"
+                },
+                "110": {
+                  "value": "#0f0017"
+                },
+                "120": {
+                  "value": "#0f0017"
+                },
+                "130": {
+                  "value": "#a76fb8"
+                },
+                "140": {
+                  "value": "#a76fb8"
+                },
+                "150": {
+                  "value": "#a76fb8"
+                },
+                "160": {
+                  "value": "#a76fb8"
+                },
+                "170": {
+                  "value": "#a76fb8"
+                },
+                "180": {
+                  "value": "#a76fb8"
+                },
+                "190": {
+                  "value": "#a76fb8"
+                }
+              }
+            },
+            "neutrals": {
+              "todo": "TODO"
+            },
+            "behavior": {
+              "surface": {
+                "darkest": {
+                  "value": "#0f0017"
+                },
+                "action": {
+                  "value": "#622d71"
+                },
+                "normal": {
+                  "value": "#955ea6"
+                },
+                "active": {
+                  "value": "#dea3f0"
+                },
+                "lightest": {
+                  "value": "#fff"
+                }
+              },
+              "txtOn": {
+                "darkest": {
+                  "value": "#fff"
+                },
+                "action": {
+                  "value": "#fff"
+                },
+                "normal": {
+                  "value": "#020005"
+                },
+                "active": {
+                  "value": "#0f0017"
+                },
+                "lightest": {
+                  "value": "#0f0017"
+                }
+              }
+            }
+          }
+        },
+        "interface": {
+          "todo": "TODO"
+        }
+      },
+      "dark": {
+        "brand": {
+          "first": {
+            "palette": {
+              "surface": {
+                "10": {
+                  "value": "#060000"
+                },
+                "20": {
+                  "value": "#1b0003"
+                },
+                "30": {
+                  "value": "#33000a"
+                },
+                "40": {
+                  "value": "#4e0015"
+                },
+                "50": {
+                  "value": "#6a0021"
+                },
+                "60": {
+                  "value": "#87002e"
+                },
+                "70": {
+                  "value": "#a6003b"
+                },
+                "80": {
+                  "value": "#c60049"
+                },
+                "90": {
+                  "value": "#e60058"
+                },
+                "100": {
+                  "value": "#fe1b6a"
+                },
+                "110": {
+                  "value": "#ff5682"
+                },
+                "120": {
+                  "value": "#ff849d"
+                },
+                "130": {
+                  "value": "#ffa9b8"
+                },
+                "140": {
+                  "value": "#ffcad3"
+                },
+                "150": {
+                  "value": "#ffe9ed"
+                },
+                "160": {
+                  "value": "#fff"
+                },
+                "170": {
+                  "value": "#fff"
+                },
+                "180": {
+                  "value": "#fff"
+                },
+                "190": {
+                  "value": "#fff"
+                }
+              },
+              "txtOn": {
+                "10": {
+                  "value": "#fff"
+                },
+                "20": {
+                  "value": "#fff"
+                },
+                "30": {
+                  "value": "#fff"
+                },
+                "40": {
+                  "value": "#fff"
+                },
+                "50": {
+                  "value": "#fff"
+                },
+                "60": {
+                  "value": "#fff"
+                },
+                "70": {
+                  "value": "#fff"
+                },
+                "80": {
+                  "value": "#1b0003"
+                },
+                "90": {
+                  "value": "#e60058"
+                },
+                "100": {
+                  "value": "#c60049"
+                },
+                "110": {
+                  "value": "#c60049"
+                },
+                "120": {
+                  "value": "#c60049"
+                },
+                "130": {
+                  "value": "#c60049"
+                },
+                "140": {
+                  "value": "#c60049"
+                },
+                "150": {
+                  "value": "#c60049"
+                },
+                "160": {
+                  "value": "#c60049"
+                },
+                "170": {
+                  "value": "#c60049"
+                },
+                "180": {
+                  "value": "#c60049"
+                },
+                "190": {
+                  "value": "#c60049"
+                }
+              }
+            },
+            "neutrals": {
+              "todo": "TODO"
+            },
+            "behavior": {
+              "surface": {
+                "darkest": {
+                  "value": "#fff"
+                },
+                "action": {
+                  "value": "#ffa9b8"
+                },
+                "normal": {
+                  "value": "#fe1b6a"
+                },
+                "active": {
+                  "value": "#87002e"
+                },
+                "lightest": {
+                  "value": "#060000"
+                }
+              },
+              "txtOn": {
+                "darkest": {
+                  "value": "#060000"
+                },
+                "action": {
+                  "value": "#060000"
+                },
+                "normal": {
+                  "value": "#060000"
+                },
+                "active": {
+                  "value": "#fff"
+                },
+                "lightest": {
+                  "value": "#fff"
+                }
+              }
+            }
+          },
+          "second": {
+            "palette": {
+              "surface": {
+                "10": {
+                  "value": "#000109"
+                },
+                "20": {
+                  "value": "#00091d"
+                },
+                "30": {
+                  "value": "#001834"
+                },
+                "40": {
+                  "value": "#00294c"
+                },
+                "50": {
+                  "value": "#003b66"
+                },
+                "60": {
+                  "value": "#004e81"
+                },
+                "70": {
+                  "value": "#00619d"
+                },
+                "80": {
+                  "value": "#0075b5"
+                },
+                "90": {
+                  "value": "#008acb"
+                },
+                "100": {
+                  "value": "#2d9fe1"
+                },
+                "110": {
+                  "value": "#48b4f8"
+                },
+                "120": {
+                  "value": "#64caff"
+                },
+                "130": {
+                  "value": "#9bdeff"
+                },
+                "140": {
+                  "value": "#caf1ff"
+                },
+                "150": {
+                  "value": "#fff"
+                },
+                "160": {
+                  "value": "#fff"
+                },
+                "170": {
+                  "value": "#fff"
+                },
+                "180": {
+                  "value": "#fff"
+                },
+                "190": {
+                  "value": "#fff"
+                }
+              },
+              "txtOn": {
+                "10": {
+                  "value": "#fff"
+                },
+                "20": {
+                  "value": "#fff"
+                },
+                "30": {
+                  "value": "#fff"
+                },
+                "40": {
+                  "value": "#fff"
+                },
+                "50": {
+                  "value": "#fff"
+                },
+                "60": {
+                  "value": "#fff"
+                },
+                "70": {
+                  "value": "#fff"
+                },
+                "80": {
+                  "value": "#00091d"
+                },
+                "90": {
+                  "value": "#008acb"
+                },
+                "100": {
+                  "value": "#0075b5"
+                },
+                "110": {
+                  "value": "#0075b5"
+                },
+                "120": {
+                  "value": "#0075b5"
+                },
+                "130": {
+                  "value": "#0075b5"
+                },
+                "140": {
+                  "value": "#0075b5"
+                },
+                "150": {
+                  "value": "#0075b5"
+                },
+                "160": {
+                  "value": "#0075b5"
+                },
+                "170": {
+                  "value": "#0075b5"
+                },
+                "180": {
+                  "value": "#0075b5"
+                },
+                "190": {
+                  "value": "#0075b5"
+                }
+              }
+            },
+            "neutrals": {
+              "todo": "TODO"
+            },
+            "behavior": {
+              "surface": {
+                "darkest": {
+                  "value": "#fff"
+                },
+                "action": {
+                  "value": "#9bdeff"
+                },
+                "normal": {
+                  "value": "#2d9fe1"
+                },
+                "active": {
+                  "value": "#004e81"
+                },
+                "lightest": {
+                  "value": "#000109"
+                }
+              },
+              "txtOn": {
+                "darkest": {
+                  "value": "#000109"
+                },
+                "action": {
+                  "value": "#000109"
+                },
+                "normal": {
+                  "value": "#000109"
+                },
+                "active": {
+                  "value": "#fff"
+                },
+                "lightest": {
+                  "value": "#fff"
+                }
+              }
+            }
+          },
+          "third": {
+            "palette": {
+              "surface": {
+                "10": {
+                  "value": "#020005"
+                },
+                "20": {
+                  "value": "#0f0017"
+                },
+                "30": {
+                  "value": "#21002c"
+                },
+                "40": {
+                  "value": "#320040"
+                },
+                "50": {
+                  "value": "#420a50"
+                },
+                "60": {
+                  "value": "#511c61"
+                },
+                "70": {
+                  "value": "#622d71"
+                },
+                "80": {
+                  "value": "#723d83"
+                },
+                "90": {
+                  "value": "#844d94"
+                },
+                "100": {
+                  "value": "#955ea6"
+                },
+                "110": {
+                  "value": "#a76fb8"
+                },
+                "120": {
+                  "value": "#b980cb"
+                },
+                "130": {
+                  "value": "#cb92dd"
+                },
+                "140": {
+                  "value": "#dea3f0"
+                },
+                "150": {
+                  "value": "#f1b6ff"
+                },
+                "160": {
+                  "value": "#feceff"
+                },
+                "170": {
+                  "value": "#ffeaff"
+                },
+                "180": {
+                  "value": "#fff"
+                },
+                "190": {
+                  "value": "#fff"
+                }
+              },
+              "txtOn": {
+                "10": {
+                  "value": "#fff"
+                },
+                "20": {
+                  "value": "#fff"
+                },
+                "30": {
+                  "value": "#fff"
+                },
+                "40": {
+                  "value": "#fff"
+                },
+                "50": {
+                  "value": "#fff"
+                },
+                "60": {
+                  "value": "#fff"
+                },
+                "70": {
+                  "value": "#fff"
+                },
+                "80": {
+                  "value": "#0f0017"
+                },
+                "90": {
+                  "value": "#844d94"
+                },
+                "100": {
+                  "value": "#723d83"
+                },
+                "110": {
+                  "value": "#723d83"
+                },
+                "120": {
+                  "value": "#723d83"
+                },
+                "130": {
+                  "value": "#723d83"
+                },
+                "140": {
+                  "value": "#723d83"
+                },
+                "150": {
+                  "value": "#723d83"
+                },
+                "160": {
+                  "value": "#723d83"
+                },
+                "170": {
+                  "value": "#723d83"
+                },
+                "180": {
+                  "value": "#723d83"
+                },
+                "190": {
+                  "value": "#723d83"
+                }
+              }
+            },
+            "neutrals": {
+              "todo": "TODO"
+            },
+            "behavior": {
+              "surface": {
+                "darkest": {
+                  "value": "#fff"
+                },
+                "action": {
+                  "value": "#cb92dd"
+                },
+                "normal": {
+                  "value": "#955ea6"
+                },
+                "active": {
+                  "value": "#511c61"
+                },
+                "lightest": {
+                  "value": "#020005"
+                }
+              },
+              "txtOn": {
+                "darkest": {
+                  "value": "#020005"
+                },
+                "action": {
+                  "value": "#020005"
+                },
+                "normal": {
+                  "value": "#020005"
+                },
+                "active": {
+                  "value": "#fff"
+                },
+                "lightest": {
+                  "value": "#fff"
+                }
+              }
+            }
+          }
+        },
+        "interface": {
+          "todo": "TODO"
+        }
+      }
+    }
+  }
+}
