@@ -155,6 +155,90 @@
       }
     }
   },
+  "sizing": {
+    "zero": {
+      "value": "{dimensions.sizing.zero}",
+      "type": "spacing"
+    },
+    "pico": {
+      "value": "{dimensions.sizing.pico}",
+      "type": "spacing"
+    },
+    "nano": {
+      "value": "{dimensions.sizing.nano}",
+      "type": "spacing"
+    },
+    "micro": {
+      "value": "{dimensions.sizing.micro}",
+      "type": "spacing"
+    },
+    "extraSmall": {
+      "value": "{dimensions.sizing.extraSmall}",
+      "type": "spacing"
+    },
+    "small": {
+      "value": "{dimensions.sizing.small}",
+      "type": "spacing"
+    },
+    "medium": {
+      "value": "{dimensions.sizing.medium}",
+      "type": "spacing"
+    },
+    "large": {
+      "value": "{dimensions.sizing.large}",
+      "type": "spacing"
+    },
+    "extraLarge": {
+      "value": "{dimensions.sizing.extraLarge}",
+      "type": "spacing"
+    },
+    "mega": {
+      "value": "{dimensions.sizing.mega}",
+      "type": "spacing"
+    },
+    "giga": {
+      "value": "{dimensions.sizing.giga}",
+      "type": "spacing"
+    }
+  },
+  "spacing": {
+    "zero": {
+      "value": "{dimensions.spacing.zero}",
+      "type": "spacing"
+    },
+    "micro": {
+      "value": "{dimensions.spacing.micro}",
+      "type": "spacing"
+    },
+    "extraSmall": {
+      "value": "{dimensions.spacing.extraSmall}",
+      "type": "spacing"
+    },
+    "small": {
+      "value": "{dimensions.spacing.small}",
+      "type": "spacing"
+    },
+    "medium": {
+      "value": "{dimensions.spacing.medium}",
+      "type": "spacing"
+    },
+    "large": {
+      "value": "{dimensions.spacing.large}",
+      "type": "spacing"
+    },
+    "extraLarge": {
+      "value": "{dimensions.spacing.extraLarge}",
+      "type": "spacing"
+    },
+    "mega": {
+      "value": "{dimensions.spacing.mega}",
+      "type": "spacing"
+    },
+    "giga": {
+      "value": "{dimensions.spacing.giga}",
+      "type": "spacing"
+    }
+  },
   "border": {
     "brand": {
       "first": {
@@ -308,6 +392,28 @@
           "value": "{color.interface.feedback.danger.secondary.normal.border}",
           "type": "color"
         }
+      }
+    },
+    "width": {
+      "none": {
+        "value": "{sizing.zero}",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "{sizing.pico}",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "{sizing.nano}",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "{sizing.micro}",
+        "type": "spacing"
+      },
+      "extraLarge": {
+        "value": "{sizing.extraSmall}",
+        "type": "spacing"
       }
     }
   },

@@ -903,6 +903,92 @@
       }
     }
   },
+  "dimensions": {
+    "sizing": {
+      "zero": {
+        "value": "{_theme-dimensions.zero}",
+        "type": "spacing"
+      },
+      "pico": {
+        "value": "{_theme-dimensions.pico}",
+        "type": "spacing"
+      },
+      "nano": {
+        "value": "{_theme-dimensions.nano}",
+        "type": "spacing"
+      },
+      "micro": {
+        "value": "{_theme-dimensions.micro}",
+        "type": "spacing"
+      },
+      "extraSmall": {
+        "value": "{_theme-dimensions.extraSmall}",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "{_theme-dimensions.small}",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "{_theme-dimensions.medium}",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "{_theme-dimensions.large}",
+        "type": "spacing"
+      },
+      "extraLarge": {
+        "value": "{_theme-dimensions.extraLarge}",
+        "type": "spacing"
+      },
+      "mega": {
+        "value": "{_theme-dimensions.mega}",
+        "type": "spacing"
+      },
+      "giga": {
+        "value": "{_theme-dimensions.giga}",
+        "type": "spacing"
+      }
+    },
+    "spacing": {
+      "zero": {
+        "value": "{_theme-dimensions.zero}",
+        "type": "spacing"
+      },
+      "micro": {
+        "value": "{_theme-dimensions.micro}",
+        "type": "spacing"
+      },
+      "extraSmall": {
+        "value": "{_theme-dimensions.extraSmall}",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "{_theme-dimensions.small}",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "{_theme-dimensions.medium}",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "{_theme-dimensions.large}",
+        "type": "spacing"
+      },
+      "extraLarge": {
+        "value": "{_theme-dimensions.extraLarge}",
+        "type": "spacing"
+      },
+      "mega": {
+        "value": "{_theme-dimensions.mega}",
+        "type": "spacing"
+      },
+      "giga": {
+        "value": "{_theme-dimensions.giga}",
+        "type": "spacing"
+      }
+    }
+  },
   "opacity": {
     "transparent": {
       "value": "0%",
