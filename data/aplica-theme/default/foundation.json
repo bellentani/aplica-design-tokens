@@ -157,85 +157,199 @@
   },
   "sizing": {
     "zero": {
-      "value": "{dimensions.sizing.zero}",
+      "value": "{dimension.sizing.zero}",
       "type": "spacing"
     },
     "pico": {
-      "value": "{dimensions.sizing.pico}",
+      "value": "{dimension.sizing.pico}",
       "type": "spacing"
     },
     "nano": {
-      "value": "{dimensions.sizing.nano}",
+      "value": "{dimension.sizing.nano}",
       "type": "spacing"
     },
     "micro": {
-      "value": "{dimensions.sizing.micro}",
+      "value": "{dimension.sizing.micro}",
       "type": "spacing"
     },
     "extraSmall": {
-      "value": "{dimensions.sizing.extraSmall}",
+      "value": "{dimension.sizing.extraSmall}",
       "type": "spacing"
     },
     "small": {
-      "value": "{dimensions.sizing.small}",
+      "value": "{dimension.sizing.small}",
       "type": "spacing"
     },
     "medium": {
-      "value": "{dimensions.sizing.medium}",
+      "value": "{dimension.sizing.medium}",
       "type": "spacing"
     },
     "large": {
-      "value": "{dimensions.sizing.large}",
+      "value": "{dimension.sizing.large}",
       "type": "spacing"
     },
     "extraLarge": {
-      "value": "{dimensions.sizing.extraLarge}",
+      "value": "{dimension.sizing.extraLarge}",
       "type": "spacing"
     },
     "mega": {
-      "value": "{dimensions.sizing.mega}",
+      "value": "{dimension.sizing.mega}",
       "type": "spacing"
     },
     "giga": {
-      "value": "{dimensions.sizing.giga}",
+      "value": "{dimension.sizing.giga}",
       "type": "spacing"
     }
   },
-  "spacing": {
+  "padding-vertical": {
     "zero": {
-      "value": "{dimensions.spacing.zero}",
+      "value": "{dimension.spacing.zero}",
       "type": "spacing"
     },
     "micro": {
-      "value": "{dimensions.spacing.micro}",
+      "value": "{dimension.spacing.micro}",
       "type": "spacing"
     },
     "extraSmall": {
-      "value": "{dimensions.spacing.extraSmall}",
+      "value": "{dimension.spacing.extraSmall}",
       "type": "spacing"
     },
     "small": {
-      "value": "{dimensions.spacing.small}",
+      "value": "{dimension.spacing.small}",
       "type": "spacing"
     },
     "medium": {
-      "value": "{dimensions.spacing.medium}",
+      "value": "{dimension.spacing.medium}",
       "type": "spacing"
     },
     "large": {
-      "value": "{dimensions.spacing.large}",
+      "value": "{dimension.spacing.large}",
       "type": "spacing"
     },
     "extraLarge": {
-      "value": "{dimensions.spacing.extraLarge}",
+      "value": "{dimension.spacing.extraLarge}",
       "type": "spacing"
     },
     "mega": {
-      "value": "{dimensions.spacing.mega}",
+      "value": "{dimension.spacing.mega}",
       "type": "spacing"
     },
     "giga": {
-      "value": "{dimensions.spacing.giga}",
+      "value": "{dimension.spacing.giga}",
+      "type": "spacing"
+    }
+  },
+  "padding-horizontal": {
+    "zero": {
+      "value": "{dimension.spacing.zero}",
+      "type": "spacing"
+    },
+    "micro": {
+      "value": "{dimension.spacing.micro}",
+      "type": "spacing"
+    },
+    "extraSmall": {
+      "value": "{dimension.spacing.extraSmall}",
+      "type": "spacing"
+    },
+    "small": {
+      "value": "{dimension.spacing.small}",
+      "type": "spacing"
+    },
+    "medium": {
+      "value": "{dimension.spacing.medium}",
+      "type": "spacing"
+    },
+    "large": {
+      "value": "{dimension.spacing.large}",
+      "type": "spacing"
+    },
+    "extraLarge": {
+      "value": "{dimension.spacing.extraLarge}",
+      "type": "spacing"
+    },
+    "mega": {
+      "value": "{dimension.spacing.mega}",
+      "type": "spacing"
+    },
+    "giga": {
+      "value": "{dimension.spacing.giga}",
+      "type": "spacing"
+    }
+  },
+  "gap-vertical": {
+    "zero": {
+      "value": "{dimension.spacing.zero}",
+      "type": "spacing"
+    },
+    "micro": {
+      "value": "{dimension.spacing.micro}",
+      "type": "spacing"
+    },
+    "extraSmall": {
+      "value": "{dimension.spacing.extraSmall}",
+      "type": "spacing"
+    },
+    "small": {
+      "value": "{dimension.spacing.small}",
+      "type": "spacing"
+    },
+    "medium": {
+      "value": "{dimension.spacing.medium}",
+      "type": "spacing"
+    },
+    "large": {
+      "value": "{dimension.spacing.large}",
+      "type": "spacing"
+    },
+    "extraLarge": {
+      "value": "{dimension.spacing.extraLarge}",
+      "type": "spacing"
+    },
+    "mega": {
+      "value": "{dimension.spacing.mega}",
+      "type": "spacing"
+    },
+    "giga": {
+      "value": "{dimension.spacing.giga}",
+      "type": "spacing"
+    }
+  },
+  "gap-horizontal": {
+    "zero": {
+      "value": "{dimension.spacing.zero}",
+      "type": "spacing"
+    },
+    "micro": {
+      "value": "{dimension.spacing.micro}",
+      "type": "spacing"
+    },
+    "extraSmall": {
+      "value": "{dimension.spacing.extraSmall}",
+      "type": "spacing"
+    },
+    "small": {
+      "value": "{dimension.spacing.small}",
+      "type": "spacing"
+    },
+    "medium": {
+      "value": "{dimension.spacing.medium}",
+      "type": "spacing"
+    },
+    "large": {
+      "value": "{dimension.spacing.large}",
+      "type": "spacing"
+    },
+    "extraLarge": {
+      "value": "{dimension.spacing.extraLarge}",
+      "type": "spacing"
+    },
+    "mega": {
+      "value": "{dimension.spacing.mega}",
+      "type": "spacing"
+    },
+    "giga": {
+      "value": "{dimension.spacing.giga}",
       "type": "spacing"
     }
   },
@@ -396,23 +510,23 @@
     },
     "width": {
       "none": {
-        "value": "{sizing.zero}",
+        "value": "{dimension.sizing.zero}",
         "type": "spacing"
       },
       "small": {
-        "value": "{sizing.pico}",
+        "value": "{dimension.sizing.pico}",
         "type": "spacing"
       },
       "medium": {
-        "value": "{sizing.nano}",
+        "value": "{dimension.sizing.nano}",
         "type": "spacing"
       },
       "large": {
-        "value": "{sizing.micro}",
+        "value": "{dimension.sizing.micro}",
         "type": "spacing"
       },
       "extraLarge": {
-        "value": "{sizing.extraSmall}",
+        "value": "{dimension.sizing.extraSmall}",
         "type": "spacing"
       }
     }

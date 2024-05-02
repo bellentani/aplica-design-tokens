@@ -903,7 +903,7 @@
       }
     }
   },
-  "dimensions": {
+  "dimension": {
     "sizing": {
       "zero": {
         "value": "{_theme-dimensions.zero}",
