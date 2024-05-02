@@ -158,47 +158,47 @@
   "sizing": {
     "zero": {
       "value": "{dimension.sizing.zero}",
-      "type": "spacing"
+      "type": "sizing"
     },
     "pico": {
       "value": "{dimension.sizing.pico}",
-      "type": "spacing"
+      "type": "sizing"
     },
     "nano": {
       "value": "{dimension.sizing.nano}",
-      "type": "spacing"
+      "type": "sizing"
     },
     "micro": {
       "value": "{dimension.sizing.micro}",
-      "type": "spacing"
+      "type": "sizing"
     },
     "extraSmall": {
       "value": "{dimension.sizing.extraSmall}",
-      "type": "spacing"
+      "type": "sizing"
     },
     "small": {
       "value": "{dimension.sizing.small}",
-      "type": "spacing"
+      "type": "sizing"
     },
     "medium": {
       "value": "{dimension.sizing.medium}",
-      "type": "spacing"
+      "type": "sizing"
     },
     "large": {
       "value": "{dimension.sizing.large}",
-      "type": "spacing"
+      "type": "sizing"
     },
     "extraLarge": {
       "value": "{dimension.sizing.extraLarge}",
-      "type": "spacing"
+      "type": "sizing"
     },
     "mega": {
       "value": "{dimension.sizing.mega}",
-      "type": "spacing"
+      "type": "sizing"
     },
     "giga": {
       "value": "{dimension.sizing.giga}",
-      "type": "spacing"
+      "type": "sizing"
     }
   },
   "padding-vertical": {
@@ -511,23 +511,57 @@
     "width": {
       "none": {
         "value": "{dimension.sizing.zero}",
-        "type": "spacing"
+        "type": "borderWidth"
       },
       "small": {
         "value": "{dimension.sizing.pico}",
-        "type": "spacing"
+        "type": "borderWidth"
       },
       "medium": {
         "value": "{dimension.sizing.nano}",
-        "type": "spacing"
+        "type": "borderWidth"
       },
       "large": {
         "value": "{dimension.sizing.micro}",
-        "type": "spacing"
+        "type": "borderWidth"
       },
       "extraLarge": {
         "value": "{dimension.sizing.extraSmall}",
-        "type": "spacing"
+        "type": "borderWidth"
+      }
+    },
+    "radii": {
+      "none": {
+        "value": "{dimension.sizing.zero}",
+        "type": "borderRadius"
+      },
+      "micro": {
+        "value": "{dimension.sizing.micro}",
+        "type": "borderRadius"
+      },
+      "extraSmall": {
+        "value": "{dimension.sizing.extraSmall}",
+        "type": "borderRadius"
+      },
+      "small": {
+        "value": "{dimension.sizing.small}",
+        "type": "borderRadius"
+      },
+      "medium": {
+        "value": "{dimension.sizing.medium}",
+        "type": "borderRadius"
+      },
+      "large": {
+        "value": "{dimension.sizing.large}",
+        "type": "borderRadius"
+      },
+      "extraLarge": {
+        "value": "{dimension.sizing.extraLarge}",
+        "type": "borderRadius"
+      },
+      "circular": {
+        "value": "10000",
+        "type": "borderRadius"
       }
     }
   },
