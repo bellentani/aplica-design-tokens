@@ -6616,31 +6616,31 @@
                     "type": "color"
                   },
                   "70": {
-                    "value": "#FFFFFF",
+                    "value": "{_color-palette.mode.dark.interface.function.primary.palette.surface.170}",
                     "type": "color"
                   },
                   "80": {
-                    "value": "{_color-palette.mode.dark.interface.function.primary.palette.surface.10}",
+                    "value": "{_color-palette.mode.dark.interface.function.primary.palette.surface.170}",
                     "type": "color"
                   },
                   "90": {
-                    "value": "{_color-palette.mode.dark.interface.function.primary.palette.surface.10}",
+                    "value": "{_color-palette.mode.dark.interface.function.primary.palette.surface.170}",
                     "type": "color"
                   },
                   "100": {
-                    "value": "{_color-palette.mode.dark.interface.function.primary.palette.surface.10}",
+                    "value": "{_color-palette.mode.dark.interface.function.primary.palette.surface.170}",
                     "type": "color"
                   },
                   "110": {
-                    "value": "{_color-palette.mode.dark.interface.function.primary.palette.surface.10}",
+                    "value": "{_color-palette.mode.dark.interface.function.primary.palette.surface.180}",
                     "type": "color"
                   },
                   "120": {
-                    "value": "{_color-palette.mode.dark.interface.function.primary.palette.surface.10}",
+                    "value": "{_color-palette.mode.dark.interface.function.primary.palette.surface.190}",
                     "type": "color"
                   },
                   "130": {
-                    "value": "{_color-palette.mode.dark.interface.function.primary.palette.surface.10}",
+                    "value": "#FFFFFF",
                     "type": "color"
                   },
                   "140": {
@@ -6762,11 +6762,11 @@
                     "type": "color"
                   },
                   "70": {
-                    "value": "{_theme-factory-default.dark.interface.function.primary.neutrals.140}",
+                    "value": "#FFFFFF",
                     "type": "color"
                   },
                   "80": {
-                    "value": "{_theme-factory-default.dark.interface.function.primary.neutrals.10}",
+                    "value": "{_theme-factory-default.dark.interface.function.primary.neutrals.5}",
                     "type": "color"
                   },
                   "90": {
@@ -7110,15 +7110,15 @@
                     "type": "color"
                   },
                   "70": {
-                    "value": "{_color-palette.mode.dark.interface.function.secondary.palette.surface.170}",
+                    "value": "{_color-palette.mode.dark.interface.function.secondary.palette.surface.190}",
                     "type": "color"
                   },
                   "80": {
-                    "value": "{_color-palette.mode.dark.interface.function.secondary.palette.surface.170}",
+                    "value": "{_color-palette.mode.dark.interface.function.secondary.palette.surface.10}",
                     "type": "color"
                   },
                   "90": {
-                    "value": "#FFFFFF",
+                    "value": "{_color-palette.mode.dark.interface.function.secondary.palette.surface.10}",
                     "type": "color"
                   },
                   "100": {
@@ -7252,11 +7252,11 @@
                     "type": "color"
                   },
                   "60": {
-                    "value": "{_theme-factory-default.dark.interface.function.secondary.neutrals.130}",
+                    "value": "{_theme-factory-default.dark.interface.function.secondary.neutrals.10}",
                     "type": "color"
                   },
                   "70": {
-                    "value": "{_theme-factory-default.dark.interface.function.secondary.neutrals.140}",
+                    "value": "{_theme-factory-default.dark.interface.function.secondary.neutrals.10}",
                     "type": "color"
                   },
                   "80": {
