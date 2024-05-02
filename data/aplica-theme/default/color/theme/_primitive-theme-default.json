@@ -5637,45 +5637,45 @@
             "behavior": {
               "surface": {
                 "darkest": {
-                  "value": "{_color-palette.mode.dark.first.palette.surface.180}",
+                  "value": "{_color-palette.mode.dark.brand.first.palette.surface.180}",
                   "type": "color"
                 },
                 "action": {
-                  "value": "{_color-palette.mode.dark.first.palette.surface.130}",
+                  "value": "{_color-palette.mode.dark.brand.first.palette.surface.130}",
                   "type": "color"
                 },
                 "normal": {
-                  "value": "{_color-palette.mode.dark.first.palette.surface.100}",
+                  "value": "{_color-palette.mode.dark.brand.first.palette.surface.100}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{_color-palette.mode.dark.first.palette.surface.60}",
+                  "value": "{_color-palette.mode.dark.brand.first.palette.surface.60}",
                   "type": "color"
                 },
                 "lightest": {
-                  "value": "{_color-palette.mode.dark.first.palette.surface.10}",
+                  "value": "{_color-palette.mode.dark.brand.first.palette.surface.10}",
                   "type": "color"
                 }
               },
               "txtOn": {
                 "darkest": {
-                  "value": "{_color-palette.mode.dark.first.palette.txtOn.10}",
+                  "value": "{_color-palette.mode.dark.brand.first.palette.txtOn.180}",
                   "type": "color"
                 },
                 "action": {
-                  "value": "{_color-palette.mode.dark.first.palette.txtOn.10}",
+                  "value": "{_color-palette.mode.dark.brand.first.palette.txtOn.130}",
                   "type": "color"
                 },
                 "normal": {
-                  "value": "{_color-palette.mode.dark.first.palette.txtOn.10}",
+                  "value": "{_color-palette.mode.dark.brand.first.palette.txtOn.100}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{_color-palette.mode.dark.first.palette.txtOn.180}",
+                  "value": "{_color-palette.mode.dark.brand.first.palette.txtOn.60}",
                   "type": "color"
                 },
                 "lightest": {
-                  "value": "{_color-palette.mode.dark.first.palette.txtOn.180}",
+                  "value": "{_color-palette.mode.dark.brand.first.palette.txtOn.10}",
                   "type": "color"
                 }
               }
@@ -5969,45 +5969,45 @@
             "behavior": {
               "surface": {
                 "darkest": {
-                  "value": "{_color-palette.mode.dark.brand.second.palette.surface.180}",
+                  "value": "{_color-palette.mode.dark.second.palette.surface.180}",
                   "type": "color"
                 },
                 "action": {
-                  "value": "{_color-palette.mode.dark.brand.second.palette.surface.130}",
+                  "value": "{_color-palette.mode.dark.second.palette.surface.130}",
                   "type": "color"
                 },
                 "normal": {
-                  "value": "{_color-palette.mode.dark.brand.second.palette.surface.100}",
+                  "value": "{_color-palette.mode.dark.second.palette.surface.100}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{_color-palette.mode.dark.brand.second.palette.surface.60}",
+                  "value": "{_color-palette.mode.dark.second.palette.surface.60}",
                   "type": "color"
                 },
                 "lightest": {
-                  "value": "{_color-palette.mode.dark.brand.second.palette.surface.10}",
+                  "value": "{_color-palette.mode.dark.second.palette.surface.10}",
                   "type": "color"
                 }
               },
               "txtOn": {
                 "darkest": {
-                  "value": "{_color-palette.mode.dark.brand.second.palette.surface.20}",
+                  "value": "{_color-palette.mode.dark.second.palette.textOn.20}",
                   "type": "color"
                 },
                 "action": {
-                  "value": "{_color-palette.mode.dark.brand.second.palette.surface.20}",
+                  "value": "{_color-palette.mode.dark.second.palette.textOn.20}",
                   "type": "color"
                 },
                 "normal": {
-                  "value": "{_color-palette.mode.dark.brand.second.palette.surface.20}",
+                  "value": "{_color-palette.mode.dark.second.palette.textOn.20}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{_color-palette.mode.dark.brand.second.palette.surface.180}",
+                  "value": "{_color-palette.mode.dark.second.palette.textOn.180}",
                   "type": "color"
                 },
                 "lightest": {
-                  "value": "{_color-palette.mode.dark.brand.second.palette.surface.180}",
+                  "value": "{_color-palette.mode.dark.second.palette.textOn.180}",
                   "type": "color"
                 }
               }
@@ -6301,45 +6301,45 @@
             "behavior": {
               "surface": {
                 "darkest": {
-                  "value": "{_color-palette.mode.dark.brand.third.palette.surface.180}",
+                  "value": "{_color-palette.mode.dark.third.palette.surface.180}",
                   "type": "color"
                 },
                 "action": {
-                  "value": "{_color-palette.mode.dark.brand.third.palette.surface.130}",
+                  "value": "{_color-palette.mode.dark.third.palette.surface.130}",
                   "type": "color"
                 },
                 "normal": {
-                  "value": "{_color-palette.mode.dark.brand.third.palette.surface.100}",
+                  "value": "{_color-palette.mode.dark.third.palette.surface.100}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{_color-palette.mode.dark.brand.third.palette.surface.60}",
+                  "value": "{_color-palette.mode.dark.third.palette.surface.60}",
                   "type": "color"
                 },
                 "lightest": {
-                  "value": "{_color-palette.mode.dark.brand.third.palette.surface.10}",
+                  "value": "{_color-palette.mode.dark.third.palette.surface.10}",
                   "type": "color"
                 }
               },
               "txtOn": {
                 "darkest": {
-                  "value": "{_color-palette.mode.dark.brand.third.palette.surface.20}",
+                  "value": "{_color-palette.mode.dark.third.palette.textOn.180}",
                   "type": "color"
                 },
                 "action": {
-                  "value": "{_color-palette.mode.dark.brand.third.palette.surface.20}",
+                  "value": "{_color-palette.mode.dark.third.palette.textOn.130}",
                   "type": "color"
                 },
                 "normal": {
-                  "value": "#FFFFFF",
+                  "value": "{_color-palette.mode.dark.third.palette.textOn.100}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{_color-palette.mode.dark.brand.third.palette.surface.180}",
+                  "value": "{_color-palette.mode.dark.third.palette.textOn.60}",
                   "type": "color"
                 },
                 "lightest": {
-                  "value": "{_color-palette.mode.dark.brand.third.palette.surface.170}",
+                  "value": "{_color-palette.mode.dark.third.palette.textOn.10}",
                   "type": "color"
                 }
               }
