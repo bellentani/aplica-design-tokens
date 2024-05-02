@@ -8266,47 +8266,47 @@
                     "type": "color"
                   },
                   "40": {
-                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.180}",
+                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.170}",
                     "type": "color"
                   },
                   "50": {
-                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.180}",
+                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.170}",
                     "type": "color"
                   },
                   "60": {
-                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.180}",
+                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.170}",
                     "type": "color"
                   },
                   "70": {
-                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.180}",
+                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.170}",
                     "type": "color"
                   },
                   "80": {
-                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.180}",
+                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.10}",
                     "type": "color"
                   },
                   "90": {
-                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.180}",
+                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.10}",
                     "type": "color"
                   },
                   "100": {
-                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.180}",
+                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.10}",
                     "type": "color"
                   },
                   "110": {
-                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.180}",
+                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.10}",
                     "type": "color"
                   },
                   "120": {
-                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.180}",
+                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.10}",
                     "type": "color"
                   },
                   "130": {
-                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.180}",
+                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.10}",
                     "type": "color"
                   },
                   "140": {
-                    "value": "#000000",
+                    "value": "{_color-palette.mode.dark.interface.feedback.warning.palette.surface.10}",
                     "type": "color"
                   },
                   "150": {
@@ -8412,19 +8412,19 @@
                     "type": "color"
                   },
                   "40": {
-                    "value": "{_theme-factory-default.dark.interface.feedback.warning.neutrals.130}",
+                    "value": "{_theme-factory-default.dark.interface.feedback.warning.neutrals.140}",
                     "type": "color"
                   },
                   "50": {
-                    "value": "{_theme-factory-default.dark.interface.feedback.warning.neutrals.130}",
+                    "value": "{_theme-factory-default.dark.interface.feedback.warning.neutrals.140}",
                     "type": "color"
                   },
                   "60": {
-                    "value": "{_theme-factory-default.dark.interface.feedback.warning.neutrals.130}",
+                    "value": "{_theme-factory-default.dark.interface.feedback.warning.neutrals.10}",
                     "type": "color"
                   },
                   "70": {
-                    "value": "{_theme-factory-default.dark.interface.feedback.warning.neutrals.140}",
+                    "value": "{_theme-factory-default.dark.interface.feedback.warning.neutrals.10}",
                     "type": "color"
                   },
                   "80": {
@@ -8626,19 +8626,19 @@
                     "type": "color"
                   },
                   "110": {
-                    "value": "{_color-palette.mode.dark.interface.feedback.danger.palette.surface.180}",
+                    "value": "{_color-palette.mode.dark.interface.feedback.danger.palette.surface.190}",
                     "type": "color"
                   },
                   "120": {
-                    "value": "{_color-palette.mode.dark.interface.feedback.danger.palette.surface.180}",
+                    "value": "#FFFFFF",
                     "type": "color"
                   },
                   "130": {
-                    "value": "{_color-palette.mode.dark.interface.feedback.danger.palette.surface.180}",
+                    "value": "{_color-palette.mode.dark.interface.feedback.danger.palette.surface.10}",
                     "type": "color"
                   },
                   "140": {
-                    "value": "#000000",
+                    "value": "{_color-palette.mode.dark.interface.feedback.danger.palette.surface.10}",
                     "type": "color"
                   },
                   "150": {
@@ -8756,11 +8756,11 @@
                     "type": "color"
                   },
                   "70": {
-                    "value": "{_theme-factory-default.dark.interface.feedback.danger.neutrals.140}",
+                    "value": "#FFFFFF",
                     "type": "color"
                   },
                   "80": {
-                    "value": "{_theme-factory-default.dark.interface.feedback.danger.neutrals.10}",
+                    "value": "{_theme-factory-default.dark.interface.feedback.danger.neutrals.5}",
                     "type": "color"
                   },
                   "90": {
