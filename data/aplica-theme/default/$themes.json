@@ -2181,7 +2181,6 @@
     "name": "normal",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color/theme/_primitive-theme-default-config": "enabled",
       "dimensions/dimension": "enabled"
     },
     "group": "dimension"
