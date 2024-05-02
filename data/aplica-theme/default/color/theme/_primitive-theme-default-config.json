@@ -4770,7 +4770,7 @@
                 }
               }
             },
-             "30": {
+            "30": {
               "value": "{_theme-factory-default.dark.brand.first.palette.100}",
               "type": "color",
               "$extensions": {
@@ -4929,7 +4929,7 @@
                   }
                 }
               }
-            }, 
+            },
             "160": {
               "value": "{_theme-factory-default.dark.brand.first.palette.100}",
               "type": "color",
@@ -5222,7 +5222,7 @@
                 }
               }
             },
-             "30": {
+            "30": {
               "value": "{_theme-factory-default.dark.brand.second.palette.100}",
               "type": "color",
               "$extensions": {
@@ -5381,7 +5381,7 @@
                   }
                 }
               }
-            }, 
+            },
             "160": {
               "value": "{_theme-factory-default.dark.brand.second.palette.100}",
               "type": "color",
@@ -5674,7 +5674,7 @@
                 }
               }
             },
-             "30": {
+            "30": {
               "value": "{_theme-factory-default.dark.brand.third.palette.100}",
               "type": "color",
               "$extensions": {
@@ -5833,7 +5833,7 @@
                   }
                 }
               }
-            }, 
+            },
             "160": {
               "value": "{_theme-factory-default.dark.brand.third.palette.100}",
               "type": "color",
@@ -6129,7 +6129,7 @@
                   }
                 }
               },
-               "30": {
+              "30": {
                 "value": "{_theme-factory-default.dark.interface.function.primary.palette.100}",
                 "type": "color",
                 "$extensions": {
@@ -6288,7 +6288,7 @@
                     }
                   }
                 }
-              }, 
+              },
               "160": {
                 "value": "{_theme-factory-default.dark.interface.function.primary.palette.100}",
                 "type": "color",
@@ -6581,7 +6581,7 @@
                   }
                 }
               },
-               "30": {
+              "30": {
                 "value": "{_theme-factory-default.dark.interface.function.secondary.palette.100}",
                 "type": "color",
                 "$extensions": {
@@ -6740,7 +6740,7 @@
                     }
                   }
                 }
-              }, 
+              },
               "160": {
                 "value": "{_theme-factory-default.dark.interface.function.secondary.palette.100}",
                 "type": "color",
@@ -7033,7 +7033,7 @@
                   }
                 }
               },
-               "30": {
+              "30": {
                 "value": "{_theme-factory-default.dark.interface.function.link.palette.100}",
                 "type": "color",
                 "$extensions": {
@@ -7192,7 +7192,7 @@
                     }
                   }
                 }
-              }, 
+              },
               "160": {
                 "value": "{_theme-factory-default.dark.interface.function.link.palette.100}",
                 "type": "color",
@@ -7487,7 +7487,7 @@
                   }
                 }
               },
-               "30": {
+              "30": {
                 "value": "{_theme-factory-default.dark.interface.feedback.info.palette.100}",
                 "type": "color",
                 "$extensions": {
@@ -7646,7 +7646,7 @@
                     }
                   }
                 }
-              }, 
+              },
               "160": {
                 "value": "{_theme-factory-default.dark.interface.feedback.info.palette.100}",
                 "type": "color",
@@ -7939,7 +7939,7 @@
                   }
                 }
               },
-               "30": {
+              "30": {
                 "value": "{_theme-factory-default.dark.interface.feedback.success.palette.100}",
                 "type": "color",
                 "$extensions": {
@@ -8098,7 +8098,7 @@
                     }
                   }
                 }
-              }, 
+              },
               "160": {
                 "value": "{_theme-factory-default.dark.interface.feedback.success.palette.100}",
                 "type": "color",
@@ -8391,7 +8391,7 @@
                   }
                 }
               },
-               "30": {
+              "30": {
                 "value": "{_theme-factory-default.dark.interface.feedback.warning.palette.100}",
                 "type": "color",
                 "$extensions": {
@@ -8550,7 +8550,7 @@
                     }
                   }
                 }
-              }, 
+              },
               "160": {
                 "value": "{_theme-factory-default.dark.interface.feedback.warning.palette.100}",
                 "type": "color",
@@ -8843,7 +8843,7 @@
                   }
                 }
               },
-               "30": {
+              "30": {
                 "value": "{_theme-factory-default.dark.interface.feedback.danger.palette.100}",
                 "type": "color",
                 "$extensions": {
@@ -9002,7 +9002,7 @@
                     }
                   }
                 }
-              }, 
+              },
               "160": {
                 "value": "{_theme-factory-default.dark.interface.feedback.danger.palette.100}",
                 "type": "color",

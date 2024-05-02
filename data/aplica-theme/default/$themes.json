@@ -2175,5 +2175,15 @@
       "_color-palette.mode.dark.interface.feedback.danger.behavior.lightest": "454c91220225ffc65b0dbac4cf2edd2645388292"
     },
     "group": "brand"
+  },
+  {
+    "id": "a35fec6a7455cb12d888dbdd4878ba12bcb84aad",
+    "name": "normal",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "color/theme/_primitive-theme-default-config": "enabled",
+      "dimensions/dimension": "enabled"
+    },
+    "group": "dimension"
   }
 ]

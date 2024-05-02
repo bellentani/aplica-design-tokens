@@ -10,6 +10,8 @@
     "color/theme/_primitive-theme-default",
     "color/theme/_primitive-theme-default-config",
     "color/theme/_primitive-theme-tangerine",
-    "color/theme/_primitive-theme-tangerine-config"
+    "color/theme/_primitive-theme-tangerine-config",
+    "dimensions/dimension",
+    "figma-generators/_generator-dimension"
   ]
 }
