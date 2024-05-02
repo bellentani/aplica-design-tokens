@@ -6007,7 +6007,7 @@
                   "type": "color"
                 },
                 "lightest": {
-                  "value": "{_color-palette.mode.dark.second.palette.txtOn.10}",
+                  "value": "{_color-palette.mode.dark.brand.second.palette.txtOn.10}",
                   "type": "color"
                 }
               }
