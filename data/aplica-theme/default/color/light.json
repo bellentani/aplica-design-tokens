@@ -524,44 +524,6 @@
     "text": {
       "positive": {
         "title": {
-          "value": "{color-theme.brand.ambient.grayscale.lower.background}",
-          "type": "color"
-        },
-        "body": {
-          "value": "{color-theme.brand.ambient.grayscale.lower.background}",
-          "type": "color"
-        },
-        "highlight": {
-          "value": "{color-theme.brand.ambient.grayscale.lower.background}",
-          "type": "color"
-        },
-        "muted": {
-          "value": "{color-theme.brand.ambient.grayscale.high.background}",
-          "type": "color"
-        },
-        "label": {
-          "value": "{color-theme.brand.ambient.grayscale.lower.background}",
-          "type": "color"
-        },
-        "info": {
-          "value": "{color-theme.interface.feedback.info.active}",
-          "type": "color"
-        },
-        "success": {
-          "value": "{color-theme.interface.feedback.success.active}",
-          "type": "color"
-        },
-        "warning": {
-          "value": "{color-theme.interface.feedback.warning.active}",
-          "type": "color"
-        },
-        "danger": {
-          "value": "{color-theme.interface.feedback.danger.active}",
-          "type": "color"
-        }
-      },
-      "negative": {
-        "title": {
           "value": "{color-theme.brand.ambient.grayscale.higher.background}",
           "type": "color"
         },
@@ -597,6 +559,44 @@
           "value": "{color-theme.interface.feedback.danger.action}",
           "type,": "color",
           "type": "other"
+        }
+      },
+      "negative": {
+        "title": {
+          "value": "{color-theme.brand.ambient.grayscale.higher.background}",
+          "type": "color"
+        },
+        "body": {
+          "value": "{color-theme.brand.ambient.grayscale.higher.background}",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "{color-theme.brand.ambient.grayscale.higher.background}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{color-theme.brand.ambient.grayscale.low.background}",
+          "type": "color"
+        },
+        "label": {
+          "value": "{color-theme.brand.ambient.grayscale.lower.background}",
+          "type": "color"
+        },
+        "info": {
+          "value": "{color-theme.interface.feedback.info.active}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color-theme.interface.feedback.success.active}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color-theme.interface.feedback.warning.active}",
+          "type": "color"
+        },
+        "danger": {
+          "value": "{color-theme.interface.feedback.danger.active}",
+          "type": "color"
         }
       }
     }
