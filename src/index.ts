@@ -69,6 +69,7 @@ const themeTangerine = {
   }
 }
 
+const writeFile = true; // alterar para não gerar arquivo toda hora em modo dev
 //  só alterar para o tema desejado e rodar o script
 const themeChoosed = themeDefault;
 
@@ -405,21 +406,22 @@ const themeFactoryDefault = (colorsLight: ColorsList, colorsDark: ColorsList) =>
     }
   }
 };
+if (writeFile) {
 
-if (!fs.existsSync('./temp')) {
-  fs.mkdirSync('./temp');
+  if (!fs.existsSync('./temp')) {
+    fs.mkdirSync('./temp');
+  }
+
+  fs.writeFileSync(
+    `./temp/${+new Date()}_${THEME_NAME || `default`}.json`,
+    JSON.stringify(
+      themeFactoryDefault(themeChoosed.light, themeChoosed.dark),
+      null,
+      2
+    )
+  );
+
+  console.log("Arquivo gerado...")
+} else {
+  console.log("rodou...")
 }
-
-fs.writeFileSync(
-  `./temp/${+new Date()}_${THEME_NAME || `default`}.json`,
-  JSON.stringify(
-    themeFactoryDefault(themeChoosed.light, themeChoosed.dark),
-    null,
-    2
-  )
-);
-
-console.log("Arquivo gerado...")
-
-
-
