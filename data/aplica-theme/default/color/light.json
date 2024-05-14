@@ -746,19 +746,19 @@
           "type": "color"
         },
         "info": {
-          "value": "{color-theme.interface.feedback.info.action}",
+          "value": "{color-theme.interface.feedback.info..surfaceaction}",
           "type": "color"
         },
         "success": {
-          "value": "{color-theme.interface.feedback.success.action}",
+          "value": "{color-theme.interface.feedback.success.surface.action}",
           "type": "color"
         },
         "warning": {
-          "value": "{color-theme.interface.feedback.warning.action}",
+          "value": "{color-theme.interface.feedback.warning.surface.action}",
           "type": "color"
         },
         "danger": {
-          "value": "{color-theme.interface.feedback.danger.action}",
+          "value": "{color-theme.interface.feedback.danger.surface.action}",
           "type,": "color",
           "type": "other"
         }
@@ -785,19 +785,19 @@
           "type": "color"
         },
         "info": {
-          "value": "{color-theme.interface.feedback.info.active}",
+          "value": "{color-theme.interface.feedback.info.surface.active}",
           "type": "color"
         },
         "success": {
-          "value": "{color-theme.interface.feedback.success.active}",
+          "value": "{color-theme.interface.feedback.success.surface.active}",
           "type": "color"
         },
         "warning": {
-          "value": "{color-theme.interface.feedback.warning.active}",
+          "value": "{color-theme.interface.feedback.warning.surface.active}",
           "type": "color"
         },
         "danger": {
-          "value": "{color-theme.interface.feedback.danger.active}",
+          "value": "{color-theme.interface.feedback.danger.surface.active}",
           "type": "color"
         }
       }
