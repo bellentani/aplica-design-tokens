@@ -746,7 +746,7 @@
           "type": "color"
         },
         "info": {
-          "value": "{color-theme.interface.feedback.info..surfaceaction}",
+          "value": "{color-theme.interface.feedback.info.surface.action}",
           "type": "color"
         },
         "success": {
