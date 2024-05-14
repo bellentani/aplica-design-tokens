@@ -4086,11 +4086,11 @@
                     "type": "color"
                   },
                   "action": {
-                    "value": "#000000",
+                    "value": "{_theme-factory-default.light.interface.feedback.success.palette.10}",
                     "type": "color"
                   },
                   "normal": {
-                    "value": "{_theme-factory-default.light.interface.feedback.success.palette.180}",
+                    "value": "#000000",
                     "type": "color"
                   },
                   "active": {
@@ -5326,11 +5326,11 @@
                     "type": "color"
                   },
                   "action": {
-                    "value": "#000000",
+                    "value": "{_theme-factory-default.light.interface.feedback.danger.palette.10}",
                     "type": "color"
                   },
                   "normal": {
-                    "value": "{_theme-factory-default.light.interface.feedback.danger.palette.180}",
+                    "value": "#FFFFFF",
                     "type": "color"
                   },
                   "active": {
