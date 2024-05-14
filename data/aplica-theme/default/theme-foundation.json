@@ -315,43 +315,43 @@
         "primary": {
           "normal": {
             "background": {
-              "value": "{color-theme.interface.function.primary.normal}",
+              "value": "{color-theme.interface.function.primary.surface.normal}",
               "type": "color"
             },
             "txtOn": {
-              "value": "{color-theme.interface.function.primary.positive}",
+              "value": "{color-theme.interface.function.primary.txtOn.normal}",
               "type": "color"
             },
             "border": {
-              "value": "{color-theme.interface.function.primary.normal}",
+              "value": "{color-theme.interface.function.primary.surface.normal}",
               "type": "color"
             }
           },
           "action": {
             "background": {
-              "value": "{color-theme.interface.function.primary.action}",
+              "value": "{color-theme.interface.function.primary.surface.action}",
               "type": "color"
             },
             "txtOn": {
-              "value": "{color-theme.interface.function.primary.positive}",
+              "value": "{color-theme.interface.function.primary.txtOn.action}",
               "type": "color"
             },
             "border": {
-              "value": "{color-theme.interface.function.primary.action}",
+              "value": "{color-theme.interface.function.primary.surface.action}",
               "type": "color"
             }
           },
           "active": {
             "background": {
-              "value": "{color-theme.interface.function.primary.active}",
+              "value": "{color-theme.interface.function.primary.surface.active}",
               "type": "color"
             },
             "txtOn": {
-              "value": "{color-theme.interface.function.primary.negative}",
+              "value": "{color-theme.interface.function.primary.txtOn.active}",
               "type": "color"
             },
             "border": {
-              "value": "{color-theme.interface.function.primary.active}",
+              "value": "{color-theme.interface.function.primary.surface.active}",
               "type": "color"
             }
           }
@@ -359,43 +359,43 @@
         "secondary": {
           "normal": {
             "background": {
-              "value": "{color-theme.interface.function.secondary.normal}",
+              "value": "{color-theme.interface.function.secondary.surface.normal}",
               "type": "color"
             },
             "txtOn": {
-              "value": "{color-theme.brand.ambient.contrast.deep.negative.txtOn}",
+              "value": "{color-theme.interface.function.secondary.txtOn.normal}",
               "type": "color"
             },
             "border": {
-              "value": "{color-theme.interface.function.secondary.normal}",
+              "value": "{color-theme.interface.function.secondary.surface.normal}",
               "type": "color"
             }
           },
           "action": {
             "background": {
-              "value": "{color-theme.interface.function.secondary.action}",
+              "value": "{color-theme.interface.function.secondary.surface.action}",
               "type": "color"
             },
             "txtOn": {
-              "value": "{color-theme.interface.function.secondary.positive}",
+              "value": "{color-theme.interface.function.secondary.txtOn.action}",
               "type": "color"
             },
             "border": {
-              "value": "{color-theme.interface.function.secondary.action}",
+              "value": "{color-theme.interface.function.secondary.surface.action}",
               "type": "color"
             }
           },
           "active": {
             "background": {
-              "value": "{color-theme.interface.function.secondary.active}",
+              "value": "{color-theme.interface.function.secondary.surface.active}",
               "type": "color"
             },
             "txtOn": {
-              "value": "{color-theme.interface.function.secondary.negative}",
+              "value": "{color-theme.interface.function.secondary.txtOn.active}",
               "type": "color"
             },
             "border": {
-              "value": "{color-theme.interface.function.secondary.active}",
+              "value": "{color-theme.interface.function.secondary.surface.active}",
               "type": "color"
             }
           }
@@ -403,43 +403,43 @@
         "link": {
           "normal": {
             "background": {
-              "value": "{color-theme.interface.function.link.normal}",
+              "value": "{color-theme.interface.function.link.surface.normal}",
               "type": "color"
             },
             "txtOn": {
-              "value": "{color-theme.interface.function.link.positive}",
+              "value": "{color-theme.interface.function.link.txtOn.normal}",
               "type": "color"
             },
             "border": {
-              "value": "{color-theme.interface.function.link.normal}",
+              "value": "{color-theme.interface.function.link.surface.normal}",
               "type": "color"
             }
           },
           "action": {
             "background": {
-              "value": "{color-theme.interface.function.link.action}",
+              "value": "{color-theme.interface.function.link.surface.action}",
               "type": "color"
             },
             "txtOn": {
-              "value": "{color-theme.interface.function.link.positive}",
+              "value": "{color-theme.interface.function.link.txtOn.action}",
               "type": "color"
             },
             "border": {
-              "value": "{color-theme.interface.function.link.action}",
+              "value": "{color-theme.interface.function.link.surface.action}",
               "type": "color"
             }
           },
           "active": {
             "background": {
-              "value": "{color-theme.interface.function.link.active}",
+              "value": "{color-theme.interface.function.link.surface.active}",
               "type": "color"
             },
             "txtOn": {
-              "value": "{color-theme.interface.function.link.negative}",
+              "value": "{color-theme.interface.function.link.txtOn.active}",
               "type": "color"
             },
             "border": {
-              "value": "{color-theme.interface.function.link.active}",
+              "value": "{color-theme.interface.function.link.surface.active}",
               "type": "color"
             }
           }
@@ -466,43 +466,43 @@
           "main": {
             "normal": {
               "background": {
-                "value": "{color-theme.interface.feedback.info.normal}",
+                "value": "{color-theme.interface.feedback.info.surface.normal}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.positive.txtOn}",
+                "value": "{color-theme.interface.feedback.info.txtOn.normal}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.info.normal}",
+                "value": "{color-theme.interface.feedback.info.surface.normal}",
                 "type": "color"
               }
             },
             "action": {
               "background": {
-                "value": "{color-theme.interface.feedback.info.action}",
+                "value": "{color-theme.interface.feedback.info.surface.action}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.info.positive}",
+                "value": "{color-theme.interface.feedback.info.txtOn.action}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.info.action}",
+                "value": "{color-theme.interface.feedback.info.surface.action}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color-theme.interface.feedback.info.active}",
+                "value": "{color-theme.interface.feedback.info.surface.active}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.info.negative}",
+                "value": "{color-theme.interface.feedback.info.txtOn.active}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.info.active}",
+                "value": "{color-theme.interface.feedback.info.surface.active}",
                 "type": "color"
               }
             }
@@ -510,43 +510,43 @@
           "secondary": {
             "normal": {
               "background": {
-                "value": "{color-theme.interface.feedback.info.positive}",
+                "value": "{color-theme.interface.feedback.info.surface.positive}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.info.negative}",
+                "value": "{color-theme.interface.feedback.info.txtOn.positive}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.info.positive}",
+                "value": "{color-theme.interface.feedback.info.surface.positive}",
                 "type": "color"
               }
             },
             "action": {
               "background": {
-                "value": "{color-theme.interface.feedback.info.positive}",
+                "value": "{color-theme.interface.feedback.info.surface.positive}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.info.action}",
+                "value": "{color-theme.interface.feedback.info.txtOn.positive}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.info.positive}",
+                "value": "{color-theme.interface.feedback.info.surface.positive}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color-theme.interface.feedback.info.negative}",
+                "value": "{color-theme.interface.feedback.info.surface.negative}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.info.positive}",
+                "value": "{color-theme.interface.feedback.info.txtOn.negative}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.info.negative}",
+                "value": "{color-theme.interface.feedback.info.surface.negative}",
                 "type": "color"
               }
             }
@@ -556,43 +556,43 @@
           "main": {
             "normal": {
               "background": {
-                "value": "{color-theme.interface.feedback.success.normal}",
+                "value": "{color-theme.interface.feedback.success.surface.normal}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.positive.txtOn}",
+                "value": "{color-theme.interface.feedback.success.txtOn.normal}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.success.normal}",
+                "value": "{color-theme.interface.feedback.success.surface.normal}",
                 "type": "color"
               }
             },
             "action": {
               "background": {
-                "value": "{color-theme.interface.feedback.success.action}",
+                "value": "{color-theme.interface.feedback.success.surface.action}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.success.positive}",
+                "value": "{color-theme.interface.feedback.success.txtOn.action}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.success.action}",
+                "value": "{color-theme.interface.feedback.success.surface.action}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color-theme.interface.feedback.success.active}",
+                "value": "{color-theme.interface.feedback.success.surface.active}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.success.negative}",
+                "value": "{color-theme.interface.feedback.success.txtOn.active}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.success.active}",
+                "value": "{color-theme.interface.feedback.success.surface.active}",
                 "type": "color"
               }
             }
@@ -600,43 +600,43 @@
           "secondary": {
             "normal": {
               "background": {
-                "value": "{color-theme.interface.feedback.success.positive}",
+                "value": "{color-theme.interface.feedback.success.surface.positive}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.success.negative}",
+                "value": "{color-theme.interface.feedback.success.txtOn.positive}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.success.positive}",
+                "value": "{color-theme.interface.feedback.success.surface.positive}",
                 "type": "color"
               }
             },
             "action": {
               "background": {
-                "value": "{color-theme.interface.feedback.success.positive}",
+                "value": "{color-theme.interface.feedback.success.surface.positive}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.success.action}",
+                "value": "{color-theme.interface.feedback.success.txtOn.positive}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.success.positive}",
+                "value": "{color-theme.interface.feedback.success.surface.positive}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color-theme.interface.feedback.success.negative}",
+                "value": "{color-theme.interface.feedback.success.surface.negative}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.success.positive}",
+                "value": "{color-theme.interface.feedback.success.txtOn.negative}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.success.negative}",
+                "value": "{color-theme.interface.feedback.success.surface.negative}",
                 "type": "color"
               }
             }
@@ -646,43 +646,43 @@
           "main": {
             "normal": {
               "background": {
-                "value": "{color-theme.interface.feedback.warning.normal}",
+                "value": "{color-theme.interface.feedback.warning.surface.normal}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.positive.txtOn}",
+                "value": "{color-theme.interface.feedback.warning.txtOn.normal}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.warning.normal}",
+                "value": "{color-theme.interface.feedback.warning.surface.normal}",
                 "type": "color"
               }
             },
             "action": {
               "background": {
-                "value": "{color-theme.interface.feedback.warning.action}",
+                "value": "{color-theme.interface.feedback.warning.surface.action}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.warning.positive}",
+                "value": "{color-theme.interface.feedback.warning.txtOn.action}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.warning.action}",
+                "value": "{color-theme.interface.feedback.warning.surface.action}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color-theme.interface.feedback.warning.active}",
+                "value": "{color-theme.interface.feedback.warning.surface.active}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.warning.negative}",
+                "value": "{color-theme.interface.feedback.warning.txtOn.active}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.warning.active}",
+                "value": "{color-theme.interface.feedback.warning.surface.active}",
                 "type": "color"
               }
             }
@@ -690,43 +690,43 @@
           "secondary": {
             "normal": {
               "background": {
-                "value": "{color-theme.interface.feedback.warning.positive}",
+                "value": "{color-theme.interface.feedback.warning.surface.positive}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.warning.negative}",
+                "value": "{color-theme.interface.feedback.warning.txtOn.positive}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.warning.positive}",
+                "value": "{color-theme.interface.feedback.warning.surface.positive}",
                 "type": "color"
               }
             },
             "action": {
               "background": {
-                "value": "{color-theme.interface.feedback.warning.positive}",
+                "value": "{color-theme.interface.feedback.warning.surface.positive}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.warning.action}",
+                "value": "{color-theme.interface.feedback.warning.txtOn.positive}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.warning.positive}",
+                "value": "{color-theme.interface.feedback.warning.surface.positive}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color-theme.interface.feedback.warning.negative}",
+                "value": "{color-theme.interface.feedback.warning.surface.negative}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.warning.positive}",
+                "value": "{color-theme.interface.feedback.warning.txtOn.negative}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.warning.negative}",
+                "value": "{color-theme.interface.feedback.warning.surface.negative}",
                 "type": "color"
               }
             }
@@ -736,43 +736,43 @@
           "main": {
             "normal": {
               "background": {
-                "value": "{color-theme.interface.feedback.danger.normal}",
+                "value": "{color-theme.interface.feedback.danger.surface.normal}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.brand.ambient.contrast.deep.positive.txtOn}",
+                "value": "{color-theme.interface.feedback.danger.txtOn.normal}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.danger.normal}",
+                "value": "{color-theme.interface.feedback.danger.surface.normal}",
                 "type": "color"
               }
             },
             "action": {
               "background": {
-                "value": "{color-theme.interface.feedback.danger.action}",
+                "value": "{color-theme.interface.feedback.danger.surface.action}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.danger.positive}",
+                "value": "{color-theme.interface.feedback.danger.txtOn.action}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.danger.action}",
+                "value": "{color-theme.interface.feedback.danger.surface.action}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color-theme.interface.feedback.danger.active}",
+                "value": "{color-theme.interface.feedback.danger.surface.active}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.danger.negative}",
+                "value": "{color-theme.interface.feedback.danger.txtOn.active}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.danger.active}",
+                "value": "{color-theme.interface.feedback.danger.surface.active}",
                 "type": "color"
               }
             }
@@ -780,43 +780,43 @@
           "secondary": {
             "normal": {
               "background": {
-                "value": "{color-theme.interface.feedback.danger.positive}",
+                "value": "{color-theme.interface.feedback.danger.surface.positive}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.danger.negative}",
+                "value": "{color-theme.interface.feedback.danger.txtOn.positive}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.danger.positive}",
+                "value": "{color-theme.interface.feedback.danger.surface.positive}",
                 "type": "color"
               }
             },
             "action": {
               "background": {
-                "value": "{color-theme.interface.feedback.danger.positive}",
+                "value": "{color-theme.interface.feedback.danger.surface.positive}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.danger.action}",
+                "value": "{color-theme.interface.feedback.danger.txtOn.positive}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.danger.positive}",
+                "value": "{color-theme.interface.feedback.danger.surface.positive}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color-theme.interface.feedback.danger.negative}",
+                "value": "{color-theme.interface.feedback.danger.surface.negative}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color-theme.interface.feedback.danger.positive}",
+                "value": "{color-theme.interface.feedback.danger.txtOn.negative}",
                 "type": "color"
               },
               "border": {
-                "value": "{color-theme.interface.feedback.danger.negative}",
+                "value": "{color-theme.interface.feedback.danger.surface.negative}",
                 "type": "color"
               }
             }

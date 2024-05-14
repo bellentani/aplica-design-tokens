@@ -313,193 +313,395 @@
     "interface": {
       "function": {
         "primary": {
-          "negative": {
-            "value": "{_color-palette.mode.light.interface.function.primary.behavior.surface.lightest}",
-            "type": "color",
-            "description": ""
+          "surface": {
+            "negative": {
+              "value": "{_color-palette.mode.light.interface.function.primary.behavior.surface.lightest}",
+              "type": "color",
+              "description": ""
+            },
+            "action": {
+              "value": "{_color-palette.mode.light.interface.function.primary.behavior.surface.action}",
+              "type": "color",
+              "description": ""
+            },
+            "normal": {
+              "value": "{_color-palette.mode.light.interface.function.primary.behavior.surface.normal}",
+              "type": "color",
+              "description": ""
+            },
+            "active": {
+              "value": "{_color-palette.mode.light.interface.function.primary.behavior.surface.active}",
+              "type": "color",
+              "description": ""
+            },
+            "positive": {
+              "value": "{_color-palette.mode.light.interface.function.primary.behavior.surface.darkest}",
+              "type": "color",
+              "description": ""
+            }
           },
-          "action": {
-            "value": "{_color-palette.mode.light.interface.function.primary.behavior.surface.action}",
-            "type": "color",
-            "description": ""
-          },
-          "normal": {
-            "value": "{_color-palette.mode.light.interface.function.primary.behavior.surface.normal}",
-            "type": "color",
-            "description": ""
-          },
-          "active": {
-            "value": "{_color-palette.mode.light.interface.function.primary.behavior.surface.active}",
-            "type": "color",
-            "description": ""
-          },
-          "positive": {
-            "value": "{_color-palette.mode.light.interface.function.primary.behavior.surface.darkest}",
-            "type": "color",
-            "description": ""
+          "txtOn": {
+            "negative": {
+              "value": "{_color-palette.mode.light.interface.function.primary.behavior.txtOn.lightest}",
+              "type": "color",
+              "description": ""
+            },
+            "action": {
+              "value": "{_color-palette.mode.light.interface.function.primary.behavior.txtOn.action}",
+              "type": "color",
+              "description": ""
+            },
+            "normal": {
+              "value": "{_color-palette.mode.light.interface.function.primary.behavior.txtOn.normal}",
+              "type": "color",
+              "description": ""
+            },
+            "active": {
+              "value": "{_color-palette.mode.light.interface.function.primary.behavior.txtOn.active}",
+              "type": "color",
+              "description": ""
+            },
+            "positive": {
+              "value": "{_color-palette.mode.light.interface.function.primary.behavior.txtOn.darkest}",
+              "type": "color",
+              "description": ""
+            }
           }
         },
         "secondary": {
-          "negative": {
-            "value": "{_color-palette.mode.light.interface.function.secondary.behavior.surface.lightest}",
-            "type": "color",
-            "description": ""
+          "surface": {
+            "negative": {
+              "value": "{_color-palette.mode.light.interface.function.secondary.behavior.surface.lightest}",
+              "type": "color",
+              "description": ""
+            },
+            "action": {
+              "value": "{_color-palette.mode.light.interface.function.secondary.behavior.surface.action}",
+              "type": "color",
+              "description": ""
+            },
+            "normal": {
+              "value": "{_color-palette.mode.light.interface.function.secondary.behavior.surface.normal}",
+              "type": "color",
+              "description": ""
+            },
+            "active": {
+              "value": "{_color-palette.mode.light.interface.function.secondary.behavior.surface.active}",
+              "type": "color",
+              "description": ""
+            },
+            "positive": {
+              "value": "{_color-palette.mode.light.interface.function.secondary.behavior.surface.darkest}",
+              "type": "color",
+              "description": ""
+            }
           },
-          "action": {
-            "value": "{_color-palette.mode.light.interface.function.secondary.behavior.surface.action}",
-            "type": "color",
-            "description": ""
-          },
-          "normal": {
-            "value": "{_color-palette.mode.light.interface.function.secondary.behavior.surface.normal}",
-            "type": "color",
-            "description": ""
-          },
-          "active": {
-            "value": "{_color-palette.mode.light.interface.function.secondary.behavior.surface.active}",
-            "type": "color",
-            "description": ""
-          },
-          "positive": {
-            "value": "{_color-palette.mode.light.interface.function.secondary.behavior.surface.darkest}",
-            "type": "color",
-            "description": ""
+          "txtOn": {
+            "negative": {
+              "value": "{_color-palette.mode.light.interface.function.secondary.behavior.txtOn.lightest}",
+              "type": "color",
+              "description": ""
+            },
+            "action": {
+              "value": "{_color-palette.mode.light.interface.function.secondary.behavior.txtOn.action}",
+              "type": "color",
+              "description": ""
+            },
+            "normal": {
+              "value": "{_color-palette.mode.light.interface.function.secondary.behavior.txtOn.normal}",
+              "type": "color",
+              "description": ""
+            },
+            "active": {
+              "value": "{_color-palette.mode.light.interface.function.secondary.behavior.txtOn.active}",
+              "type": "color",
+              "description": ""
+            },
+            "positive": {
+              "value": "{_color-palette.mode.light.interface.function.secondary.behavior.txtOn.darkest}",
+              "type": "color",
+              "description": ""
+            }
           }
         },
         "link": {
-          "negative": {
-            "value": "{_color-palette.mode.light.interface.function.link.behavior.surface.lightest}",
-            "type": "color",
-            "description": ""
+          "surface": {
+            "negative": {
+              "value": "{_color-palette.mode.light.interface.function.link.behavior.surface.lightest}",
+              "type": "color",
+              "description": ""
+            },
+            "action": {
+              "value": "{_color-palette.mode.light.interface.function.link.behavior.surface.action}",
+              "type": "color",
+              "description": ""
+            },
+            "normal": {
+              "value": "{_color-palette.mode.light.interface.function.link.behavior.surface.normal}",
+              "type": "color",
+              "description": ""
+            },
+            "active": {
+              "value": "{_color-palette.mode.light.interface.function.link.behavior.surface.active}",
+              "type": "color",
+              "description": ""
+            },
+            "positive": {
+              "value": "{_color-palette.mode.light.interface.function.link.behavior.surface.darkest}",
+              "type": "color",
+              "description": ""
+            }
           },
-          "action": {
-            "value": "{_color-palette.mode.light.interface.function.link.behavior.surface.action}",
-            "type": "color",
-            "description": ""
-          },
-          "normal": {
-            "value": "{_color-palette.mode.light.interface.function.link.behavior.surface.normal}",
-            "type": "color",
-            "description": ""
-          },
-          "active": {
-            "value": "{_color-palette.mode.light.interface.function.link.behavior.surface.active}",
-            "type": "color",
-            "description": ""
-          },
-          "positive": {
-            "value": "{_color-palette.mode.light.interface.function.link.behavior.surface.darkest}",
-            "type": "color",
-            "description": ""
+          "txtOn": {
+            "negative": {
+              "value": "{_color-palette.mode.light.interface.function.link.behavior.txtOn.lightest}",
+              "type": "color",
+              "description": ""
+            },
+            "action": {
+              "value": "{_color-palette.mode.light.interface.function.link.behavior.txtOn.action}",
+              "type": "color",
+              "description": ""
+            },
+            "normal": {
+              "value": "{_color-palette.mode.light.interface.function.link.behavior.txtOn.normal}",
+              "type": "color",
+              "description": ""
+            },
+            "active": {
+              "value": "{_color-palette.mode.light.interface.function.link.behavior.txtOn.active}",
+              "type": "color",
+              "description": ""
+            },
+            "positive": {
+              "value": "{_color-palette.mode.light.interface.function.link.behavior.txtOn.darkest}",
+              "type": "color",
+              "description": ""
+            }
           }
         }
       },
       "feedback": {
         "info": {
-          "negative": {
-            "value": "{_color-palette.mode.light.interface.feedback.info.behavior.surface.lightest}",
-            "type": "color",
-            "description": ""
+          "surface": {
+            "negative": {
+              "value": "{_color-palette.mode.light.interface.feedback.info.behavior.surface.lightest}",
+              "type": "color",
+              "description": ""
+            },
+            "action": {
+              "value": "{_color-palette.mode.light.interface.feedback.info.behavior.surface.action}",
+              "type": "color",
+              "description": ""
+            },
+            "normal": {
+              "value": "{_color-palette.mode.light.interface.feedback.info.behavior.surface.normal}",
+              "type": "color",
+              "description": ""
+            },
+            "active": {
+              "value": "{_color-palette.mode.light.interface.feedback.info.behavior.surface.active}",
+              "type": "color",
+              "description": ""
+            },
+            "positive": {
+              "value": "{_color-palette.mode.light.interface.feedback.info.behavior.surface.darkest}",
+              "type": "color",
+              "description": ""
+            }
           },
-          "action": {
-            "value": "{_color-palette.mode.light.interface.feedback.info.behavior.surface.action}",
-            "type": "color",
-            "description": ""
-          },
-          "normal": {
-            "value": "{_color-palette.mode.light.interface.feedback.info.behavior.surface.normal}",
-            "type": "color",
-            "description": ""
-          },
-          "active": {
-            "value": "{_color-palette.mode.light.interface.feedback.info.behavior.surface.active}",
-            "type": "color",
-            "description": ""
-          },
-          "positive": {
-            "value": "{_color-palette.mode.light.interface.feedback.info.behavior.surface.darkest}",
-            "type": "color",
-            "description": ""
+          "txtOn": {
+            "negative": {
+              "value": "{_color-palette.mode.light.interface.feedback.info.behavior.txtOn.lightest}",
+              "type": "color",
+              "description": ""
+            },
+            "action": {
+              "value": "{_color-palette.mode.light.interface.feedback.info.behavior.txtOn.action}",
+              "type": "color",
+              "description": ""
+            },
+            "normal": {
+              "value": "{_color-palette.mode.light.interface.feedback.info.behavior.txtOn.normal}",
+              "type": "color",
+              "description": ""
+            },
+            "active": {
+              "value": "{_color-palette.mode.light.interface.feedback.info.behavior.txtOn.active}",
+              "type": "color",
+              "description": ""
+            },
+            "positive": {
+              "value": "{_color-palette.mode.light.interface.feedback.info.behavior.txtOn.darkest}",
+              "type": "color",
+              "description": ""
+            }
           }
         },
         "success": {
-          "negative": {
-            "value": "{_color-palette.mode.light.interface.feedback.success.behavior.surface.lightest}",
-            "type": "color",
-            "description": ""
+          "surface": {
+            "negative": {
+              "value": "{_color-palette.mode.light.interface.feedback.success.behavior.surface.lightest}",
+              "type": "color",
+              "description": ""
+            },
+            "action": {
+              "value": "{_color-palette.mode.light.interface.feedback.success.behavior.surface.action}",
+              "type": "color",
+              "description": ""
+            },
+            "normal": {
+              "value": "{_color-palette.mode.light.interface.feedback.success.behavior.surface.normal}",
+              "type": "color",
+              "description": ""
+            },
+            "active": {
+              "value": "{_color-palette.mode.light.interface.feedback.success.behavior.surface.active}",
+              "type": "color",
+              "description": ""
+            },
+            "positive": {
+              "value": "{_color-palette.mode.light.interface.feedback.success.behavior.surface.darkest}",
+              "type": "color"
+            }
           },
-          "action": {
-            "value": "{_color-palette.mode.light.interface.feedback.success.behavior.surface.action}",
-            "type": "color",
-            "description": ""
-          },
-          "normal": {
-            "value": "{_color-palette.mode.light.interface.feedback.success.behavior.surface.normal}",
-            "type": "color",
-            "description": ""
-          },
-          "active": {
-            "value": "{_color-palette.mode.light.interface.feedback.success.behavior.surface.active}",
-            "type": "color",
-            "description": ""
-          },
-          "positive": {
-            "value": "{_color-palette.mode.light.interface.feedback.success.behavior.surface.darkest}",
-            "type": "color"
+          "txtOn": {
+            "negative": {
+              "value": "{_color-palette.mode.light.interface.feedback.success.behavior.txtOn.lightest}",
+              "type": "color",
+              "description": ""
+            },
+            "action": {
+              "value": "{_color-palette.mode.light.interface.feedback.success.behavior.txtOn.action}",
+              "type": "color",
+              "description": ""
+            },
+            "normal": {
+              "value": "{_color-palette.mode.light.interface.feedback.success.behavior.txtOn.normal}",
+              "type": "color",
+              "description": ""
+            },
+            "active": {
+              "value": "{_color-palette.mode.light.interface.feedback.success.behavior.txtOn.active}",
+              "type": "color",
+              "description": ""
+            },
+            "positive": {
+              "value": "{_color-palette.mode.light.interface.feedback.success.behavior.txtOn.darkest}",
+              "type": "color"
+            }
           }
         },
         "warning": {
-          "negative": {
-            "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.surface.lightest}",
-            "type": "color",
-            "description": ""
+          "surface": {
+            "negative": {
+              "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.surface.lightest}",
+              "type": "color",
+              "description": ""
+            },
+            "action": {
+              "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.surface.action}",
+              "type": "color",
+              "description": ""
+            },
+            "normal": {
+              "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.surface.normal}",
+              "type": "color",
+              "description": ""
+            },
+            "active": {
+              "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.surface.active}",
+              "type": "color",
+              "description": ""
+            },
+            "positive": {
+              "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.surface.darkest}",
+              "type": "color",
+              "description": ""
+            }
           },
-          "action": {
-            "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.surface.action}",
-            "type": "color",
-            "description": ""
-          },
-          "normal": {
-            "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.surface.normal}",
-            "type": "color",
-            "description": ""
-          },
-          "active": {
-            "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.surface.active}",
-            "type": "color",
-            "description": ""
-          },
-          "positive": {
-            "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.surface.darkest}",
-            "type": "color",
-            "description": ""
+          "txtOn": {
+            "negative": {
+              "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.txtOn.lightest}",
+              "type": "color",
+              "description": ""
+            },
+            "action": {
+              "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.txtOn.action}",
+              "type": "color",
+              "description": ""
+            },
+            "normal": {
+              "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.txtOn.normal}",
+              "type": "color",
+              "description": ""
+            },
+            "active": {
+              "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.txtOn.active}",
+              "type": "color",
+              "description": ""
+            },
+            "positive": {
+              "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.txtOn.darkest}",
+              "type": "color",
+              "description": ""
+            }
           }
         },
         "danger": {
-          "negative": {
-            "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.surface.lightest}",
-            "type": "color",
-            "description": ""
+          "surface": {
+            "negative": {
+              "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.surface.lightest}",
+              "type": "color",
+              "description": ""
+            },
+            "action": {
+              "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.surface.action}",
+              "type": "color",
+              "description": ""
+            },
+            "normal": {
+              "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.surface.normal}",
+              "type": "color",
+              "description": "$color.interface.feedback.danger.normal"
+            },
+            "active": {
+              "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.surface.active}",
+              "type": "color",
+              "description": ""
+            },
+            "positive": {
+              "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.surface.darkest}",
+              "type": "color",
+              "description": ""
+            }
           },
-          "action": {
-            "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.surface.action}",
-            "type": "color",
-            "description": ""
-          },
-          "normal": {
-            "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.surface.normal}",
-            "type": "color",
-            "description": "$color.interface.feedback.danger.normal"
-          },
-          "active": {
-            "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.surface.active}",
-            "type": "color",
-            "description": ""
-          },
-          "positive": {
-            "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.surface.darkest}",
-            "type": "color",
-            "description": ""
+          "txtOn": {
+            "negative": {
+              "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.txtOn.lightest}",
+              "type": "color",
+              "description": ""
+            },
+            "action": {
+              "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.txtOn.action}",
+              "type": "color",
+              "description": ""
+            },
+            "normal": {
+              "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.txtOn.normal}",
+              "type": "color",
+              "description": "$color.interface.feedback.danger.normal"
+            },
+            "active": {
+              "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.txtOn.active}",
+              "type": "color",
+              "description": ""
+            },
+            "positive": {
+              "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.txtOn.darkest}",
+              "type": "color",
+              "description": ""
+            }
           }
         }
       },
