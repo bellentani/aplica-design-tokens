@@ -2,15 +2,15 @@
   "bg": {
     "brand": {
       "first": {
-        "value": "{semantic.brand.branding.first.background}",
+        "value": "{semantic.color.brand.branding.first.background}",
         "type": "color"
       },
       "second": {
-        "value": "{semantic.brand.branding.second.background}",
+        "value": "{semantic.color.brand.branding.second.background}",
         "type": "color"
       },
       "third": {
-        "value": "{semantic.brand.branding.third.background}",
+        "value": "{semantic.color.brand.branding.third.background}",
         "type": "color"
       }
     },
@@ -18,138 +18,138 @@
       "contrast": {
         "positive": {
           "base": {
-            "value": "{semantic.brand.ambient.contrast.base.positive.background}",
+            "value": "{semantic.color.brand.ambient.contrast.base.positive.background}",
             "type": "color"
           },
           "deep": {
-            "value": "{semantic.brand.ambient.contrast.deep.positive.background}",
+            "value": "{semantic.color.brand.ambient.contrast.deep.positive.background}",
             "type": "color"
           }
         },
         "negative": {
           "base": {
-            "value": "{semantic.brand.ambient.contrast.base.negative.background}",
+            "value": "{semantic.color.brand.ambient.contrast.base.negative.background}",
             "type": "color"
           },
           "deep": {
-            "value": "{semantic.brand.ambient.contrast.deep.negative.background}",
+            "value": "{semantic.color.brand.ambient.contrast.deep.negative.background}",
             "type": "color"
           }
         }
       },
       "neutral": {
         "highest": {
-          "value": "{semantic.brand.ambient.neutral.highest.background}",
+          "value": "{semantic.color.brand.ambient.neutral.highest.background}",
           "type": "color"
         },
         "higher": {
-          "value": "{semantic.brand.ambient.neutral.higher.background}",
+          "value": "{semantic.color.brand.ambient.neutral.higher.background}",
           "type": "color"
         },
         "high": {
-          "value": "{semantic.brand.ambient.neutral.high.background}",
+          "value": "{semantic.color.brand.ambient.neutral.high.background}",
           "type": "color"
         },
         "mid": {
-          "value": "{semantic.brand.ambient.neutral.mid.background}",
+          "value": "{semantic.color.brand.ambient.neutral.mid.background}",
           "type": "color"
         },
         "low": {
-          "value": "{semantic.brand.ambient.neutral.low.background}",
+          "value": "{semantic.color.brand.ambient.neutral.low.background}",
           "type": "color"
         },
         "lower": {
-          "value": "{semantic.brand.ambient.neutral.lower.background}",
+          "value": "{semantic.color.brand.ambient.neutral.lower.background}",
           "type": "color"
         },
         "lowest": {
-          "value": "{semantic.brand.ambient.neutral.lowest.background}",
+          "value": "{semantic.color.brand.ambient.neutral.lowest.background}",
           "type": "color"
         }
       },
       "grayscale": {
         "highest": {
-          "value": "{semantic.brand.ambient.grayscale.highest.background}",
+          "value": "{semantic.color.brand.ambient.grayscale.highest.background}",
           "type": "color"
         },
         "higher": {
-          "value": "{semantic.brand.ambient.grayscale.higher.background}",
+          "value": "{semantic.color.brand.ambient.grayscale.higher.background}",
           "type": "color"
         },
         "high": {
-          "value": "{semantic.brand.ambient.grayscale.high.background}",
+          "value": "{semantic.color.brand.ambient.grayscale.high.background}",
           "type": "color"
         },
         "mid": {
-          "value": "{semantic.brand.ambient.grayscale.mid.background}",
+          "value": "{semantic.color.brand.ambient.grayscale.mid.background}",
           "type": "color"
         },
         "low": {
-          "value": "{semantic.brand.ambient.grayscale.low.background}",
+          "value": "{semantic.color.brand.ambient.grayscale.low.background}",
           "type": "color"
         },
         "lower": {
-          "value": "{semantic.brand.ambient.grayscale.lower.background}",
+          "value": "{semantic.color.brand.ambient.grayscale.lower.background}",
           "type": "color"
         },
         "lowest": {
-          "value": "{semantic.brand.ambient.grayscale.lowest.background}",
+          "value": "{semantic.color.brand.ambient.grayscale.lowest.background}",
           "type": "color"
         }
       }
     },
     "function": {
       "primary": {
-        "value": "{semantic.interface.function.primary.normal.background}",
+        "value": "{semantic.color.interface.function.primary.normal.background}",
         "type": "color"
       },
       "secondary": {
-        "value": "{semantic.interface.function.secondary.normal.background}",
+        "value": "{semantic.color.interface.function.secondary.normal.background}",
         "type": "color"
       },
       "link": {
-        "value": "{semantic.interface.function.link.normal.background}",
+        "value": "{semantic.color.interface.function.link.normal.background}",
         "type": "color"
       },
       "disabled": {
-        "value": "{semantic.interface.function.disabled.normal.background}",
+        "value": "{semantic.color.interface.function.disabled.normal.background}",
         "type": "color"
       }
     },
     "feedback": {
       "main": {
         "info": {
-          "value": "{semantic.interface.feedback.info.main.normal.background}",
+          "value": "{semantic.color.interface.feedback.info.main.normal.background}",
           "type": "color"
         },
         "success": {
-          "value": "{semantic.interface.feedback.success.main.normal.background}",
+          "value": "{semantic.color.interface.feedback.success.main.normal.background}",
           "type": "color"
         },
         "warning": {
-          "value": "{semantic.interface.feedback.warning.main.normal.background}",
+          "value": "{semantic.color.interface.feedback.warning.main.normal.background}",
           "type": "color"
         },
         "danger": {
-          "value": "{semantic.interface.feedback.danger.main.normal.background}",
+          "value": "{semantic.color.interface.feedback.danger.main.normal.background}",
           "type": "color"
         }
       },
       "secondary": {
         "info": {
-          "value": "{semantic.interface.feedback.info.secondary.normal.background}",
+          "value": "{semantic.color.interface.feedback.info.secondary.normal.background}",
           "type": "color"
         },
         "success": {
-          "value": "{semantic.interface.feedback.success.secondary.normal.background}",
+          "value": "{semantic.color.interface.feedback.success.secondary.normal.background}",
           "type": "color"
         },
         "warning": {
-          "value": "{semantic.interface.feedback.warning.secondary.normal.background}",
+          "value": "{semantic.color.interface.feedback.warning.secondary.normal.background}",
           "type": "color"
         },
         "danger": {
-          "value": "{semantic.interface.feedback.danger.secondary.normal.background}",
+          "value": "{semantic.color.interface.feedback.danger.secondary.normal.background}",
           "type": "color"
         }
       }
@@ -157,138 +157,138 @@
   },
   "sizing": {
     "zero": {
-      "value": "{semantic.sizing.zero}",
+      "value": "{semantic.dimension.sizing.zero}",
       "type": "sizing"
     },
     "pico": {
-      "value": "{semantic.sizing.pico}",
+      "value": "{semantic.dimension.sizing.pico}",
       "type": "sizing"
     },
     "nano": {
-      "value": "{semantic.sizing.nano}",
+      "value": "{semantic.dimension.sizing.nano}",
       "type": "sizing"
     },
     "micro": {
-      "value": "{semantic.sizing.micro}",
+      "value": "{semantic.dimension.sizing.micro}",
       "type": "sizing"
     },
     "extraSmall": {
-      "value": "{semantic.sizing.extraSmall}",
+      "value": "{semantic.dimension.sizing.extraSmall}",
       "type": "sizing"
     },
     "small": {
-      "value": "{semantic.sizing.small}",
+      "value": "{semantic.dimension.sizing.small}",
       "type": "sizing"
     },
     "medium": {
-      "value": "{semantic.sizing.medium}",
+      "value": "{semantic.dimension.sizing.medium}",
       "type": "sizing"
     },
     "large": {
-      "value": "{semantic.sizing.large}",
+      "value": "{semantic.dimension.sizing.large}",
       "type": "sizing"
     },
     "extraLarge": {
-      "value": "{semantic.sizing.extraLarge}",
+      "value": "{semantic.dimension.sizing.extraLarge}",
       "type": "sizing"
     },
     "mega": {
-      "value": "{semantic.sizing.mega}",
+      "value": "{semantic.dimension.sizing.mega}",
       "type": "sizing"
     },
     "giga": {
-      "value": "{semantic.sizing.giga}",
+      "value": "{semantic.dimension.sizing.giga}",
       "type": "sizing"
     }
   },
   "padding": {
     "zero": {
-      "value": "{semantic.spacing.zero}",
+      "value": "{semantic.dimension.spacing.zero}",
       "type": "spacing"
     },
     "micro": {
-      "value": "{semantic.spacing.micro}",
+      "value": "{semantic.dimension.spacing.micro}",
       "type": "spacing"
     },
     "extraSmall": {
-      "value": "{semantic.spacing.extraSmall}",
+      "value": "{semantic.dimension.spacing.extraSmall}",
       "type": "spacing"
     },
     "small": {
-      "value": "{semantic.spacing.small}",
+      "value": "{semantic.dimension.spacing.small}",
       "type": "spacing"
     },
     "medium": {
-      "value": "{semantic.spacing.medium}",
+      "value": "{semantic.dimension.spacing.medium}",
       "type": "spacing"
     },
     "large": {
-      "value": "{semantic.spacing.large}",
+      "value": "{semantic.dimension.spacing.large}",
       "type": "spacing"
     },
     "extraLarge": {
-      "value": "{semantic.spacing.extraLarge}",
+      "value": "{semantic.dimension.spacing.extraLarge}",
       "type": "spacing"
     },
     "mega": {
-      "value": "{semantic.spacing.mega}",
+      "value": "{semantic.dimension.spacing.mega}",
       "type": "spacing"
     },
     "giga": {
-      "value": "{semantic.spacing.giga}",
+      "value": "{semantic.dimension.spacing.giga}",
       "type": "spacing"
     }
   },
   "gap": {
     "zero": {
-      "value": "{semantic.spacing.zero}",
+      "value": "{semantic.dimension.spacing.zero}",
       "type": "spacing"
     },
     "micro": {
-      "value": "{semantic.spacing.micro}",
+      "value": "{semantic.dimension.spacing.micro}",
       "type": "spacing"
     },
     "extraSmall": {
-      "value": "{semantic.spacing.extraSmall}",
+      "value": "{semantic.dimension.spacing.extraSmall}",
       "type": "spacing"
     },
     "small": {
-      "value": "{semantic.spacing.small}",
+      "value": "{semantic.dimension.spacing.small}",
       "type": "spacing"
     },
     "medium": {
-      "value": "{semantic.spacing.medium}",
+      "value": "{semantic.dimension.spacing.medium}",
       "type": "spacing"
     },
     "large": {
-      "value": "{semantic.spacing.large}",
+      "value": "{semantic.dimension.spacing.large}",
       "type": "spacing"
     },
     "extraLarge": {
-      "value": "{semantic.spacing.extraLarge}",
+      "value": "{semantic.dimension.spacing.extraLarge}",
       "type": "spacing"
     },
     "mega": {
-      "value": "{semantic.spacing.mega}",
+      "value": "{semantic.dimension.spacing.mega}",
       "type": "spacing"
     },
     "giga": {
-      "value": "{semantic.spacing.giga}",
+      "value": "{semantic.dimension.spacing.giga}",
       "type": "spacing"
     }
   },
   "border": {
     "brand": {
       "first": {
-        "value": "{semantic.brand.branding.first.border}",
+        "value": "{semantic.color.brand.branding.first.border}",
         "type": "color"
       },
       "second": {
-        "value": "{semantic.brand.branding.second.border}",
+        "value": "{semantic.color.brand.branding.second.border}",
         "type": "color"
       },
       "third": {
-        "value": "{semantic.brand.branding.third.border}",
+        "value": "{semantic.color.brand.branding.third.border}",
         "type": "color"
       }
     },
@@ -296,191 +296,191 @@
       "contrast": {
         "positive": {
           "base": {
-            "value": "{semantic.brand.ambient.contrast.base.positive.border}",
+            "value": "{semantic.color.brand.ambient.contrast.base.positive.border}",
             "type": "color"
           },
           "deep": {
-            "value": "{semantic.brand.ambient.contrast.deep.positive.border}",
+            "value": "{semantic.color.brand.ambient.contrast.deep.positive.border}",
             "type": "color"
           }
         },
         "negative": {
           "base": {
-            "value": "{semantic.brand.ambient.contrast.base.negative.border}",
+            "value": "{semantic.color.brand.ambient.contrast.base.negative.border}",
             "type": "color"
           },
           "deep": {
-            "value": "{semantic.brand.ambient.contrast.deep.negative.border}",
+            "value": "{semantic.color.brand.ambient.contrast.deep.negative.border}",
             "type": "color"
           }
         }
       },
       "neutral": {
         "highest": {
-          "value": "{semantic.brand.ambient.neutral.highest.border}",
+          "value": "{semantic.color.brand.ambient.neutral.highest.border}",
           "type": "color"
         },
         "higher": {
-          "value": "{semantic.brand.ambient.neutral.higher.border}",
+          "value": "{semantic.color.brand.ambient.neutral.higher.border}",
           "type": "color"
         },
         "high": {
-          "value": "{semantic.brand.ambient.neutral.high.border}",
+          "value": "{semantic.color.brand.ambient.neutral.high.border}",
           "type": "color"
         },
         "mid": {
-          "value": "{semantic.brand.ambient.neutral.mid.border}",
+          "value": "{semantic.color.brand.ambient.neutral.mid.border}",
           "type": "color"
         },
         "low": {
-          "value": "{semantic.brand.ambient.neutral.low.border}",
+          "value": "{semantic.color.brand.ambient.neutral.low.border}",
           "type": "color"
         },
         "lower": {
-          "value": "{semantic.brand.ambient.neutral.lower.border}",
+          "value": "{semantic.color.brand.ambient.neutral.lower.border}",
           "type": "color"
         },
         "lowest": {
-          "value": "{semantic.brand.ambient.neutral.lowest.border}",
+          "value": "{semantic.color.brand.ambient.neutral.lowest.border}",
           "type": "color"
         }
       },
       "grayscale": {
         "highest": {
-          "value": "{semantic.brand.ambient.grayscale.highest.border}",
+          "value": "{semantic.color.brand.ambient.grayscale.highest.border}",
           "type": "color"
         },
         "higher": {
-          "value": "{semantic.brand.ambient.grayscale.higher.border}",
+          "value": "{semantic.color.brand.ambient.grayscale.higher.border}",
           "type": "color"
         },
         "high": {
-          "value": "{semantic.brand.ambient.grayscale.high.border}",
+          "value": "{semantic.color.brand.ambient.grayscale.high.border}",
           "type": "color"
         },
         "mid": {
-          "value": "{semantic.brand.ambient.grayscale.mid.border}",
+          "value": "{semantic.color.brand.ambient.grayscale.mid.border}",
           "type": "color"
         },
         "low": {
-          "value": "{semantic.brand.ambient.grayscale.low.border}",
+          "value": "{semantic.color.brand.ambient.grayscale.low.border}",
           "type": "color"
         },
         "lower": {
-          "value": "{semantic.brand.ambient.grayscale.lower.border}",
+          "value": "{semantic.color.brand.ambient.grayscale.lower.border}",
           "type": "color"
         },
         "lowest": {
-          "value": "{semantic.brand.ambient.grayscale.lowest.border}",
+          "value": "{semantic.color.brand.ambient.grayscale.lowest.border}",
           "type": "color"
         }
       }
     },
     "function": {
       "primary": {
-        "value": "{semantic.interface.function.primary.normal.border}",
+        "value": "{semantic.color.interface.function.primary.normal.border}",
         "type": "color"
       },
       "secondary": {
-        "value": "{semantic.interface.function.secondary.normal.border}",
+        "value": "{semantic.color.interface.function.secondary.normal.border}",
         "type": "color"
       },
       "link": {
-        "value": "{semantic.interface.function.link.normal.border}",
+        "value": "{semantic.color.interface.function.link.normal.border}",
         "type": "color"
       },
       "disabled": {
-        "value": "{semantic.interface.function.disabled.normal.border}",
+        "value": "{semantic.color.interface.function.disabled.normal.border}",
         "type": "color"
       }
     },
     "feedback": {
       "main": {
         "info": {
-          "value": "{semantic.interface.feedback.info.main.normal.border}",
+          "value": "{semantic.color.interface.feedback.info.main.normal.border}",
           "type": "color"
         },
         "success": {
-          "value": "{semantic.interface.feedback.success.main.normal.border}",
+          "value": "{semantic.color.interface.feedback.success.main.normal.border}",
           "type": "color"
         },
         "warning": {
-          "value": "{semantic.interface.feedback.warning.main.normal.border}",
+          "value": "{semantic.color.interface.feedback.warning.main.normal.border}",
           "type": "color"
         },
         "danger": {
-          "value": "{semantic.interface.feedback.danger.main.normal.border}",
+          "value": "{semantic.color.interface.feedback.danger.main.normal.border}",
           "type": "color"
         }
       },
       "secondary": {
         "info": {
-          "value": "{semantic.interface.feedback.info.secondary.normal.border}",
+          "value": "{semantic.color.interface.feedback.info.secondary.normal.border}",
           "type": "color"
         },
         "success": {
-          "value": "{semantic.interface.feedback.success.secondary.normal.border}",
+          "value": "{semantic.color.interface.feedback.success.secondary.normal.border}",
           "type": "color"
         },
         "warning": {
-          "value": "{semantic.interface.feedback.warning.secondary.normal.border}",
+          "value": "{semantic.color.interface.feedback.warning.secondary.normal.border}",
           "type": "color"
         },
         "danger": {
-          "value": "{semantic.interface.feedback.danger.secondary.normal.border}",
+          "value": "{semantic.color.interface.feedback.danger.secondary.normal.border}",
           "type": "color"
         }
       }
     },
     "width": {
       "none": {
-        "value": "{semantic.sizing.zero}",
+        "value": "{semantic.dimension.sizing.zero}",
         "type": "borderWidth"
       },
       "small": {
-        "value": "{semantic.sizing.pico}",
+        "value": "{semantic.dimension.sizing.pico}",
         "type": "borderWidth"
       },
       "medium": {
-        "value": "{semantic.sizing.nano}",
+        "value": "{semantic.dimension.sizing.nano}",
         "type": "borderWidth"
       },
       "large": {
-        "value": "{semantic.sizing.micro}",
+        "value": "{semantic.dimension.sizing.micro}",
         "type": "borderWidth"
       },
       "extraLarge": {
-        "value": "{semantic.sizing.extraSmall}",
+        "value": "{semantic.dimension.sizing.extraSmall}",
         "type": "borderWidth"
       }
     },
     "radii": {
       "none": {
-        "value": "{semantic.sizing.zero}",
+        "value": "{semantic.dimension.sizing.zero}",
         "type": "borderRadius"
       },
       "micro": {
-        "value": "{semantic.sizing.micro}",
+        "value": "{semantic.dimension.sizing.micro}",
         "type": "borderRadius"
       },
       "extraSmall": {
-        "value": "{semantic.sizing.extraSmall}",
+        "value": "{semantic.dimension.sizing.extraSmall}",
         "type": "borderRadius"
       },
       "small": {
-        "value": "{semantic.sizing.small}",
+        "value": "{semantic.dimension.sizing.small}",
         "type": "borderRadius"
       },
       "medium": {
-        "value": "{semantic.sizing.medium}",
+        "value": "{semantic.dimension.sizing.medium}",
         "type": "borderRadius"
       },
       "large": {
-        "value": "{semantic.sizing.large}",
+        "value": "{semantic.dimension.sizing.large}",
         "type": "borderRadius"
       },
       "extraLarge": {
-        "value": "{semantic.sizing.extraLarge}",
+        "value": "{semantic.dimension.sizing.extraLarge}",
         "type": "borderRadius"
       },
       "circular": {
@@ -493,15 +493,15 @@
     "on": {
       "brand": {
         "first": {
-          "value": "{semantic.brand.branding.first.txtOn}",
+          "value": "{semantic.color.brand.branding.first.txtOn}",
           "type": "color"
         },
         "second": {
-          "value": "{semantic.brand.branding.second.txtOn}",
+          "value": "{semantic.color.brand.branding.second.txtOn}",
           "type": "color"
         },
         "third": {
-          "value": "{semantic.brand.branding.third.txtOn}",
+          "value": "{semantic.color.brand.branding.third.txtOn}",
           "type": "color"
         }
       },
@@ -509,138 +509,138 @@
         "contrast": {
           "positive": {
             "base": {
-              "value": "{semantic.brand.ambient.contrast.base.positive.txtOn}",
+              "value": "{semantic.color.brand.ambient.contrast.base.positive.txtOn}",
               "type": "color"
             },
             "deep": {
-              "value": "{semantic.brand.ambient.contrast.deep.positive.txtOn}",
+              "value": "{semantic.color.brand.ambient.contrast.deep.positive.txtOn}",
               "type": "color"
             }
           },
           "negative": {
             "base": {
-              "value": "{semantic.brand.ambient.contrast.base.negative.txtOn}",
+              "value": "{semantic.color.brand.ambient.contrast.base.negative.txtOn}",
               "type": "color"
             },
             "deep": {
-              "value": "{semantic.brand.ambient.contrast.deep.negative.txtOn}",
+              "value": "{semantic.color.brand.ambient.contrast.deep.negative.txtOn}",
               "type": "color"
             }
           }
         },
         "neutral": {
           "highest": {
-            "value": "{semantic.brand.ambient.neutral.highest.txtOn}",
+            "value": "{semantic.color.brand.ambient.neutral.highest.txtOn}",
             "type": "color"
           },
           "higher": {
-            "value": "{semantic.brand.ambient.neutral.higher.txtOn}",
+            "value": "{semantic.color.brand.ambient.neutral.higher.txtOn}",
             "type": "color"
           },
           "high": {
-            "value": "{semantic.brand.ambient.neutral.high.txtOn}",
+            "value": "{semantic.color.brand.ambient.neutral.high.txtOn}",
             "type": "color"
           },
           "mid": {
-            "value": "{semantic.brand.ambient.neutral.mid.txtOn}",
+            "value": "{semantic.color.brand.ambient.neutral.mid.txtOn}",
             "type": "color"
           },
           "low": {
-            "value": "{semantic.brand.ambient.neutral.low.txtOn}",
+            "value": "{semantic.color.brand.ambient.neutral.low.txtOn}",
             "type": "color"
           },
           "lower": {
-            "value": "{semantic.brand.ambient.neutral.lower.txtOn}",
+            "value": "{semantic.color.brand.ambient.neutral.lower.txtOn}",
             "type": "color"
           },
           "lowest": {
-            "value": "{semantic.brand.ambient.neutral.lowest.txtOn}",
+            "value": "{semantic.color.brand.ambient.neutral.lowest.txtOn}",
             "type": "color"
           }
         },
         "grayscale": {
           "highest": {
-            "value": "{semantic.brand.ambient.grayscale.highest.txtOn}",
+            "value": "{semantic.color.brand.ambient.grayscale.highest.txtOn}",
             "type": "color"
           },
           "higher": {
-            "value": "{semantic.brand.ambient.grayscale.higher.txtOn}",
+            "value": "{semantic.color.brand.ambient.grayscale.higher.txtOn}",
             "type": "color"
           },
           "high": {
-            "value": "{semantic.brand.ambient.grayscale.high.txtOn}",
+            "value": "{semantic.color.brand.ambient.grayscale.high.txtOn}",
             "type": "color"
           },
           "mid": {
-            "value": "{semantic.brand.ambient.grayscale.mid.txtOn}",
+            "value": "{semantic.color.brand.ambient.grayscale.mid.txtOn}",
             "type": "color"
           },
           "low": {
-            "value": "{semantic.brand.ambient.grayscale.low.txtOn}",
+            "value": "{semantic.color.brand.ambient.grayscale.low.txtOn}",
             "type": "color"
           },
           "lower": {
-            "value": "{semantic.brand.ambient.grayscale.lower.txtOn}",
+            "value": "{semantic.color.brand.ambient.grayscale.lower.txtOn}",
             "type": "color"
           },
           "lowest": {
-            "value": "{semantic.brand.ambient.grayscale.lowest.txtOn}",
+            "value": "{semantic.color.brand.ambient.grayscale.lowest.txtOn}",
             "type": "color"
           }
         }
       },
       "function": {
         "primary": {
-          "value": "{semantic.interface.function.primary.normal.txtOn}",
+          "value": "{semantic.color.interface.function.primary.normal.txtOn}",
           "type": "color"
         },
         "secondary": {
-          "value": "{semantic.interface.function.secondary.normal.txtOn}",
+          "value": "{semantic.color.interface.function.secondary.normal.txtOn}",
           "type": "color"
         },
         "link": {
-          "value": "{semantic.interface.function.link.normal.txtOn}",
+          "value": "{semantic.color.interface.function.link.normal.txtOn}",
           "type": "color"
         },
         "disabled": {
-          "value": "{semantic.interface.function.disabled.normal.txtOn}",
+          "value": "{semantic.color.interface.function.disabled.normal.txtOn}",
           "type": "color"
         }
       },
       "feedback": {
         "main": {
           "info": {
-            "value": "{semantic.interface.feedback.info.main.normal.txtOn}",
+            "value": "{semantic.color.interface.feedback.info.main.normal.txtOn}",
             "type": "color"
           },
           "success": {
-            "value": "{semantic.interface.feedback.success.main.normal.txtOn}",
+            "value": "{semantic.color.interface.feedback.success.main.normal.txtOn}",
             "type": "color"
           },
           "warning": {
-            "value": "{semantic.interface.feedback.warning.main.normal.txtOn}",
+            "value": "{semantic.color.interface.feedback.warning.main.normal.txtOn}",
             "type": "color"
           },
           "danger": {
-            "value": "{semantic.interface.feedback.danger.main.normal.txtOn}",
+            "value": "{semantic.color.interface.feedback.danger.main.normal.txtOn}",
             "type": "color"
           }
         },
         "secondary": {
           "info": {
-            "value": "{semantic.interface.feedback.info.secondary.normal.txtOn}",
+            "value": "{semantic.color.interface.feedback.info.secondary.normal.txtOn}",
             "type": "color"
           },
           "success": {
-            "value": "{semantic.interface.feedback.success.secondary.normal.txtOn}",
+            "value": "{semantic.color.interface.feedback.success.secondary.normal.txtOn}",
             "type": "color"
           },
           "warning": {
-            "value": "{semantic.interface.feedback.warning.secondary.normal.txtOn}",
+            "value": "{semantic.color.interface.feedback.warning.secondary.normal.txtOn}",
             "type": "color"
           },
           "danger": {
-            "value": "{semantic.interface.feedback.danger.secondary.normal.txtOn}",
+            "value": "{semantic.color.interface.feedback.danger.secondary.normal.txtOn}",
             "type": "color"
           }
         }
@@ -648,77 +648,77 @@
     },
     "positive": {
       "title": {
-        "value": "{semantic.text.positive.title}",
+        "value": "{semantic.color.text.positive.title}",
         "type": "color"
       },
       "body": {
-        "value": "{semantic.text.positive.body}",
+        "value": "{semantic.color.text.positive.body}",
         "type": "color"
       },
       "highlight": {
-        "value": "{semantic.text.positive.highlight}",
+        "value": "{semantic.color.text.positive.highlight}",
         "type": "color"
       },
       "muted": {
-        "value": "{semantic.text.positive.muted}",
+        "value": "{semantic.color.text.positive.muted}",
         "type": "color"
       },
       "label": {
-        "value": "{semantic.text.positive.label}",
+        "value": "{semantic.color.text.positive.label}",
         "type": "color"
       },
       "info": {
-        "value": "{semantic.text.positive.info}",
+        "value": "{semantic.color.text.positive.info}",
         "type": "color"
       },
       "success": {
-        "value": "{semantic.text.positive.success}",
+        "value": "{semantic.color.text.positive.success}",
         "type": "color"
       },
       "warning": {
-        "value": "{semantic.text.positive.warning}",
+        "value": "{semantic.color.text.positive.warning}",
         "type": "color"
       },
       "danger": {
-        "value": "{semantic.text.positive.danger}",
+        "value": "{semantic.color.text.positive.danger}",
         "type": "color"
       }
     },
     "negative": {
       "title": {
-        "value": "{semantic.text.negative.title}",
+        "value": "{semantic.color.text.negative.title}",
         "type": "color"
       },
       "body": {
-        "value": "{semantic.text.negative.body}",
+        "value": "{semantic.color.text.negative.body}",
         "type": "color"
       },
       "highlight": {
-        "value": "{semantic.text.negative.highlight}",
+        "value": "{semantic.color.text.negative.highlight}",
         "type": "color"
       },
       "muted": {
-        "value": "{semantic.text.negative.muted}",
+        "value": "{semantic.color.text.negative.muted}",
         "type": "color"
       },
       "label": {
-        "value": "{semantic.text.negative.label}",
+        "value": "{semantic.color.text.negative.label}",
         "type": "color"
       },
       "info": {
-        "value": "{semantic.text.negative.info}",
+        "value": "{semantic.color.text.negative.info}",
         "type": "color"
       },
       "success": {
-        "value": "{semantic.text.negative.success}",
+        "value": "{semantic.color.text.negative.success}",
         "type": "color"
       },
       "warning": {
-        "value": "{semantic.text.negative.warning}",
+        "value": "{semantic.color.text.negative.warning}",
         "type": "color"
       },
       "danger": {
-        "value": "{semantic.text.negative.danger}",
+        "value": "{semantic.color.text.negative.danger}",
         "type": "color"
       }
     }
@@ -728,66 +728,66 @@
       "paragraph": {
         "type": "typography",
         "value": {
-          "fontFamily": "{text.fontFamilies.content}",
-          "fontWeight": "{text.fontWeights.regular}",
-          "lineHeight": "{text.lineHeights.small.close}",
-          "fontSize": "{text.fontSizes.small}",
-          "letterSpacing": "{text.letterSpacing.regular}",
-          "paragraphSpacing": "{text.paragraphSpacing.small}",
-          "textDecoration": "{text.decorations.default}",
-          "textCase": "{text.transforms.normal}"
+          "fontFamily": "{semantic.text.fontFamilies.content}",
+          "fontWeight": "{semantic.text.fontWeights.regular}",
+          "lineHeight": "{semantic.text.lineHeights.small.close}",
+          "fontSize": "{semantic.text.fontSizes.small}",
+          "letterSpacing": "{semantic.text.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.text.paragraphSpacing.small}",
+          "textDecoration": "{semantic.text.decorations.default}",
+          "textCase": "{semantic.text.transforms.normal}"
         }
       },
       "lead": {
         "type": "typography",
         "value": {
-          "fontFamily": "{text.fontFamilies.content}",
-          "fontWeight": "{text.fontWeights.regular}",
-          "lineHeight": "{text.lineHeights.medium.close}",
-          "fontSize": "{text.fontSizes.medium}",
-          "letterSpacing": "{text.letterSpacing.regular}",
-          "paragraphSpacing": "{text.paragraphSpacing.medium}",
-          "textDecoration": "{text.decorations.default}",
-          "textCase": "{text.transforms.normal}"
+          "fontFamily": "{semantic.text.fontFamilies.content}",
+          "fontWeight": "{semantic.text.fontWeights.regular}",
+          "lineHeight": "{semantic.text.lineHeights.medium.close}",
+          "fontSize": "{semantic.text.fontSizes.medium}",
+          "letterSpacing": "{semantic.text.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.text.paragraphSpacing.medium}",
+          "textDecoration": "{semantic.text.decorations.default}",
+          "textCase": "{semantic.text.transforms.normal}"
         }
       },
       "meta": {
         "type": "typography",
         "value": {
-          "fontFamily": "{text.fontFamilies.content}",
-          "fontWeight": "{text.fontWeights.regular}",
-          "lineHeight": "{text.lineHeights.micro.close}",
-          "fontSize": "{text.fontSizes.micro}",
-          "letterSpacing": "{text.letterSpacing.regular}",
-          "paragraphSpacing": "{text.paragraphSpacing.micro}",
-          "textDecoration": "{text.decorations.default}",
-          "textCase": "{text.transforms.normal}"
+          "fontFamily": "{semantic.text.fontFamilies.content}",
+          "fontWeight": "{semantic.text.fontWeights.regular}",
+          "lineHeight": "{semantic.text.lineHeights.micro.close}",
+          "fontSize": "{semantic.text.fontSizes.micro}",
+          "letterSpacing": "{semantic.text.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.text.paragraphSpacing.micro}",
+          "textDecoration": "{semantic.text.decorations.default}",
+          "textCase": "{semantic.text.transforms.normal}"
         }
       },
       "blockquote": {
         "type": "typography",
         "value": {
-          "fontFamily": "{text.fontFamilies.content}",
-          "fontWeight": "{text.fontWeights.regular}",
-          "lineHeight": "{text.lineHeights.large.close}",
-          "fontSize": "{text.fontSizes.large}",
-          "letterSpacing": "{text.letterSpacing.regular}",
-          "paragraphSpacing": "{text.paragraphSpacing.large}",
-          "textDecoration": "{text.decorations.default}",
-          "textCase": "{text.transforms.normal}"
+          "fontFamily": "{semantic.text.fontFamilies.content}",
+          "fontWeight": "{semantic.text.fontWeights.regular}",
+          "lineHeight": "{semantic.text.lineHeights.large.close}",
+          "fontSize": "{semantic.text.fontSizes.large}",
+          "letterSpacing": "{semantic.text.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.text.paragraphSpacing.large}",
+          "textDecoration": "{semantic.text.decorations.default}",
+          "textCase": "{semantic.text.transforms.normal}"
         }
       },
       "label": {
         "type": "typography",
         "value": {
-          "fontFamily": "{text.fontFamilies.content}",
-          "fontWeight": "{text.fontWeights.semibold}",
-          "lineHeight": "{text.lineHeights.extraSmall.close}",
-          "fontSize": "{text.fontSizes.extraSmall}",
-          "letterSpacing": "{text.letterSpacing.regular}",
-          "paragraphSpacing": "{text.paragraphSpacing.small}",
-          "textDecoration": "{text.decorations.default}",
-          "textCase": "{text.transforms.normal}"
+          "fontFamily": "{semantic.text.fontFamilies.content}",
+          "fontWeight": "{semantic.text.fontWeights.semibold}",
+          "lineHeight": "{semantic.text.lineHeights.extraSmall.close}",
+          "fontSize": "{semantic.text.fontSizes.extraSmall}",
+          "letterSpacing": "{semantic.text.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.text.paragraphSpacing.small}",
+          "textDecoration": "{semantic.text.decorations.default}",
+          "textCase": "{semantic.text.transforms.normal}"
         }
       }
     },
@@ -796,53 +796,53 @@
         "display1": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.stronger}",
-            "lineHeight": "{text.lineHeights.mega.close}",
-            "fontSize": "{text.fontSizes.mega}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.extraLarge}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.stronger}",
+            "lineHeight": "{semantic.text.lineHeights.mega.close}",
+            "fontSize": "{semantic.text.fontSizes.mega}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.extraLarge}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "display2": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.stronger}",
-            "lineHeight": "{text.lineHeights.extraLarge.close}",
-            "fontSize": "{text.fontSizes.extraLarge}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.large}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.stronger}",
+            "lineHeight": "{semantic.text.lineHeights.extraLarge.close}",
+            "fontSize": "{semantic.text.fontSizes.extraLarge}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.large}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "display3": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.stronger}",
-            "lineHeight": "{text.lineHeights.large.close}",
-            "fontSize": "{text.fontSizes.large}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.medium}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.stronger}",
+            "lineHeight": "{semantic.text.lineHeights.large.close}",
+            "fontSize": "{semantic.text.fontSizes.large}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.medium}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "display4": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.stronger}",
-            "lineHeight": "{text.lineHeights.medium.close}",
-            "fontSize": "{text.fontSizes.medium}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.small}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.stronger}",
+            "lineHeight": "{semantic.text.lineHeights.medium.close}",
+            "fontSize": "{semantic.text.fontSizes.medium}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.small}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         }
       },
@@ -850,81 +850,81 @@
         "headline1": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.bold}",
-            "lineHeight": "{text.lineHeights.extraLarge.close}",
-            "fontSize": "{text.fontSizes.extraLarge}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.large}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.bold}",
+            "lineHeight": "{semantic.text.lineHeights.extraLarge.close}",
+            "fontSize": "{semantic.text.fontSizes.extraLarge}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.large}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "headline2": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.bold}",
-            "lineHeight": "{text.lineHeights.large.close}",
-            "fontSize": "{text.fontSizes.large}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.medium}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.bold}",
+            "lineHeight": "{semantic.text.lineHeights.large.close}",
+            "fontSize": "{semantic.text.fontSizes.large}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.medium}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "headline3": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.bold}",
-            "lineHeight": "{text.lineHeights.large.close}",
-            "fontSize": "{text.fontSizes.large}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.medium}",
-            "fontStyles": "{text.fontStyles.italic}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.bold}",
+            "lineHeight": "{semantic.text.lineHeights.large.close}",
+            "fontSize": "{semantic.text.fontSizes.large}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.medium}",
+            "fontStyles": "{semantic.text.fontStyles.italic}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "headline4": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.bold}",
-            "lineHeight": "{text.lineHeights.medium.close}",
-            "fontSize": "{text.fontSizes.medium}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.small}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.bold}",
+            "lineHeight": "{semantic.text.lineHeights.medium.close}",
+            "fontSize": "{semantic.text.fontSizes.medium}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.small}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "headline5": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.bold}",
-            "lineHeight": "{text.lineHeights.medium.close}",
-            "fontSize": "{text.fontSizes.medium}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.small}",
-            "fontStyles": "{text.fontStyles.normal}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.bold}",
+            "lineHeight": "{semantic.text.lineHeights.medium.close}",
+            "fontSize": "{semantic.text.fontSizes.medium}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.small}",
+            "fontStyles": "{semantic.text.fontStyles.normal}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "headline6": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.bold}",
-            "lineHeight": "{text.lineHeights.small.close}",
-            "fontSize": "{text.fontSizes.small}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.small}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.uppercase}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.bold}",
+            "lineHeight": "{semantic.text.lineHeights.small.close}",
+            "fontSize": "{semantic.text.fontSizes.small}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.small}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.uppercase}"
           }
         }
       }
@@ -934,53 +934,53 @@
         "display1": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.stronger}",
-            "lineHeight": "{text.lineHeights.giga.close}",
-            "fontSize": "{text.fontSizes.tera}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.giga}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.stronger}",
+            "lineHeight": "{semantic.text.lineHeights.giga.close}",
+            "fontSize": "{semantic.text.fontSizes.tera}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.giga}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "display2": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.stronger}",
-            "lineHeight": "{text.lineHeights.tera.close}",
-            "fontSize": "{text.fontSizes.giga}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.giga}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.stronger}",
+            "lineHeight": "{semantic.text.lineHeights.tera.close}",
+            "fontSize": "{semantic.text.fontSizes.giga}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.giga}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "display3": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.stronger}",
-            "lineHeight": "{text.lineHeights.giga.close}",
-            "fontSize": "{text.fontSizes.giga}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.mega}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.stronger}",
+            "lineHeight": "{semantic.text.lineHeights.giga.close}",
+            "fontSize": "{semantic.text.fontSizes.giga}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.mega}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "display4": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.stronger}",
-            "lineHeight": "{text.lineHeights.mega.close}",
-            "fontSize": "{text.fontSizes.mega}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.extraLarge}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.stronger}",
+            "lineHeight": "{semantic.text.lineHeights.mega.close}",
+            "fontSize": "{semantic.text.fontSizes.mega}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.extraLarge}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         }
       },
@@ -988,79 +988,79 @@
         "headline1": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.bold}",
-            "lineHeight": "{text.lineHeights.tera.close}",
-            "fontSize": "{text.fontSizes.tera}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.giga}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.bold}",
+            "lineHeight": "{semantic.text.lineHeights.tera.close}",
+            "fontSize": "{semantic.text.fontSizes.tera}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.giga}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "headline2": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.bold}",
-            "lineHeight": "{text.lineHeights.giga.close}",
-            "fontSize": "{text.fontSizes.giga}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.mega}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.bold}",
+            "lineHeight": "{semantic.text.lineHeights.giga.close}",
+            "fontSize": "{semantic.text.fontSizes.giga}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.mega}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "headline3": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.bold}",
-            "lineHeight": "{text.lineHeights.mega.close}",
-            "fontSize": "{text.fontSizes.mega}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.extraLarge}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.bold}",
+            "lineHeight": "{semantic.text.lineHeights.mega.close}",
+            "fontSize": "{semantic.text.fontSizes.mega}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.extraLarge}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "headline4": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.bold}",
-            "lineHeight": "{text.lineHeights.extraLarge.close}",
-            "fontSize": "{text.fontSizes.extraLarge}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.large}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.bold}",
+            "lineHeight": "{semantic.text.lineHeights.extraLarge.close}",
+            "fontSize": "{semantic.text.fontSizes.extraLarge}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.large}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "headline5": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.bold}",
-            "lineHeight": "{text.lineHeights.large.close}",
-            "fontSize": "{text.fontSizes.large}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.medium}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.bold}",
+            "lineHeight": "{semantic.text.lineHeights.large.close}",
+            "fontSize": "{semantic.text.fontSizes.large}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.medium}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         },
         "headline6": {
           "type": "typography",
           "value": {
-            "fontFamily": "{text.fontFamilies.main}",
-            "fontWeight": "{text.fontWeights.bold}",
-            "lineHeight": "{text.lineHeights.medium.close}",
-            "fontSize": "{text.fontSizes.medium}",
-            "letterSpacing": "{text.letterSpacing.regular}",
-            "paragraphSpacing": "{text.paragraphSpacing.medium}",
-            "textDecoration": "{text.decorations.default}",
-            "textCase": "{text.transforms.normal}"
+            "fontFamily": "{semantic.text.fontFamilies.main}",
+            "fontWeight": "{semantic.text.fontWeights.bold}",
+            "lineHeight": "{semantic.text.lineHeights.medium.close}",
+            "fontSize": "{semantic.text.fontSizes.medium}",
+            "letterSpacing": "{semantic.text.letterSpacing.regular}",
+            "paragraphSpacing": "{semantic.text.paragraphSpacing.medium}",
+            "textDecoration": "{semantic.text.decorations.default}",
+            "textCase": "{semantic.text.transforms.normal}"
           }
         }
       }
