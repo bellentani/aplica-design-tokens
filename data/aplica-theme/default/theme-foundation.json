@@ -1355,35 +1355,35 @@
           "type": "paragraphSpacing"
         },
         "micro": {
-          "value": "{semantic.dimension.spacing..micro}",
+          "value": "{semantic.dimension.spacing.micro}",
           "type": "paragraphSpacing"
         },
         "extraSmall": {
-          "value": "{semantic.dimension.spacing..extraSmall}",
+          "value": "{semantic.dimension.spacing.extraSmall}",
           "type": "paragraphSpacing"
         },
         "small": {
-          "value": "{semantic.dimension.spacing..small}",
+          "value": "{semantic.dimension.spacing.small}",
           "type": "paragraphSpacing"
         },
         "medium": {
-          "value": "{semantic.dimension.spacing..medium}",
+          "value": "{semantic.dimension.spacing.medium}",
           "type": "paragraphSpacing"
         },
         "large": {
-          "value": "{semantic.dimension.spacing..large}",
+          "value": "{semantic.dimension.spacing.large}",
           "type": "paragraphSpacing"
         },
         "extraLarge": {
-          "value": "{semantic.dimension.spacing..extraLarge}",
+          "value": "{semantic.dimension.spacing.extraLarge}",
           "type": "paragraphSpacing"
         },
         "mega": {
-          "value": "{semantic.dimension.spacing..mega}",
+          "value": "{semantic.dimension.spacing.mega}",
           "type": "paragraphSpacing"
         },
         "giga": {
-          "value": "{semantic.dimension.spacing..giga}",
+          "value": "{semantic.dimension.spacing.giga}",
           "type": "paragraphSpacing"
         }
       }
