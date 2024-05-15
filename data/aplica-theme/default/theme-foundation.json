@@ -448,15 +448,15 @@
           "disabled": {
             "normal": {
               "background": {
-                "value": "{color.brand.ambient.grayscale.lower.background}",
+                "value": "{semantic.color.brand.ambient.grayscale.lower.background}",
                 "type": "color"
               },
               "txtOn": {
-                "value": "{color.brand.ambient.grayscale.mid.background}",
+                "value": "{semantic.color.brand.ambient.grayscale.mid.background}",
                 "type": "color"
               },
               "border": {
-                "value": "{color.brand.ambient.grayscale.lower.border}",
+                "value": "{semantic.color.brand.ambient.grayscale.lower.border}",
                 "type": "color"
               }
             }
@@ -1816,41 +1816,41 @@
         "luminosity": {
           "shadow": {
             "deep": {
-              "value": "{color.solid.ambient.contrast.deep.dark}",
+              "value": "{semantic.color.solid.ambient.contrast.deep.dark}",
               "type": "other"
             },
             "regular": {
-              "value": "{color.solid.ambient.grayscale.50}",
+              "value": "{semantic.color.solid.ambient.grayscale.50}",
               "type": "other"
             },
             "smooth": {
-              "value": "{color.solid.ambient.grayscale.30}",
+              "value": "{semantic.color.solid.ambient.grayscale.30}",
               "type": "other"
             }
           },
           "light": {
             "bright": {
-              "value": "{color.solid.ambient.contrast.deep.light}",
+              "value": "{semantic.color.solid.ambient.contrast.deep.light}",
               "type": "other"
             },
             "primary": {
-              "value": "{color.interaction.function.primary.default}",
+              "value": "{semantic.color.interaction.function.primary.default}",
               "type": "other"
             },
             "info": {
-              "value": "{color.interaction.feedback.info.default}",
+              "value": "{semantic.color.interaction.feedback.info.default}",
               "type": "other"
             },
             "success": {
-              "value": "{color.interaction.feedback.success.default}",
+              "value": "{semantic.color.interaction.feedback.success.default}",
               "type": "other"
             },
             "warning": {
-              "value": "{color.interaction.feedback.warning.default}",
+              "value": "{semantic.color.interaction.feedback.warning.default}",
               "type": "other"
             },
             "danger": {
-              "value": "{color.interaction.feedback.danger.default}",
+              "value": "{semantic.color.interaction.feedback.danger.default}",
               "type": "other"
             }
           }
