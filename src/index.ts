@@ -1,39 +1,77 @@
 import ColorJS from 'colorjs.io';
 import fs from 'fs';
-import { ColorsList } from './types';
+import { ColorsList, ThemeDefault } from './types';
 
 // nome do tema no arquivo gerado
 const THEME_NAME = 'padrao'; // nome do tema no arquivo gerado
 
+const WRITE_FILE = true; // alterar para não gerar arquivo toda hora em modo dev
+
 const colorWhite = '#FFFFFF';
 
-const themeDefault = {
+const mixColor = (color1: ColorJS, color2: ColorJS, amount: number) => {
+  const newColor = new ColorJS(color1);
+  newColor.mix(color2, amount);
+  return newColor.to("srgb").toString({ format: "hex" });
+}
+
+const themeDefault: ThemeDefault = {
   light: {
-    first: {
-      value: new ColorJS('#FE1B6A'),
-      neutral: new ColorJS('#2A0E18')
+    brand: {
+      first: {
+        value: new ColorJS('#FE1B6A'),
+        neutral: new ColorJS('#2A0E18')
+      },
+      second: {
+        value: new ColorJS('#2D9FE1'),
+        neutral: new ColorJS('#111D25')
+      },
+      third: {
+        value: new ColorJS('#955EA6'),
+        neutral: new ColorJS('#1C171E')
+      }
     },
-    second: {
-      value: new ColorJS('#2D9FE1'),
-      neutral: new ColorJS('#111D25')
-    },
-    third: {
-      value: new ColorJS('#955EA6'),
-      neutral: new ColorJS('#1C171E')
+    interface: {
+      function: {
+        primary: "#C40145",
+        secondary: "#1872A6",
+        link: "#0026D1",
+      },
+      feedback: {
+        info: "#00B8F0",
+        success: "#008A1E",
+        warning: "#F6AC3C",
+        danger: "#DF0707",
+      }
     }
   },
   dark: {
-    first: {
-      value: new ColorJS('#FE1B6A'),
-      neutral: new ColorJS('#F3DDE5')
+    brand: {
+      first: {
+        value: new ColorJS('#FE1B6A'),
+        neutral: new ColorJS('#F3DDE5')
+      },
+      second: {
+        value: new ColorJS('#2D9FE1'),
+        neutral: new ColorJS('#D5ECF9')
+      },
+      third: {
+        value: new ColorJS('#955EA6'),
+        neutral: new ColorJS('#EADFED')
+      }
     },
-    second: {
-      value: new ColorJS('#2D9FE1'),
-      neutral: new ColorJS('#D5ECF9')
-    },
-    third: {
-      value: new ColorJS('#955EA6'),
-      neutral: new ColorJS('#EADFED')
+    interface: {
+      function: {
+        primary: mixColor(new ColorJS("#C40145"),new ColorJS('#000'), 0.3),
+        secondary: mixColor(new ColorJS("#1872A6"),new ColorJS('#000'), 0.2),
+        link: mixColor(new ColorJS("#0026D1"),new ColorJS('#000'), 0.2),
+      },
+      feedback: {
+        info: mixColor(new ColorJS("#00B8F0"),new ColorJS('#000'), 0.2),
+        success: mixColor(new ColorJS("#008A1E"),new ColorJS('#000'), 0.2),
+        warning: mixColor(new ColorJS("#F6AC3C"),new ColorJS('#000'), 0.2),
+        danger: mixColor(new ColorJS("#DF0707"),new ColorJS('#000'), 0.2),
+      }
     }
   }
 }
@@ -69,7 +107,6 @@ const themeTangerine = {
   }
 }
 
-const writeFile = true; // alterar para não gerar arquivo toda hora em modo dev
 //  só alterar para o tema desejado e rodar o script
 const themeChoosed = themeDefault;
 
@@ -145,6 +182,238 @@ const generateNeutralColors = (neutral: ColorJS) => {
     neutralLightenCounter++;
   }
   return neutralColors;
+}
+
+const interfaceLight = (interfaceLight: any) => {
+  const functionKeys = Object.keys(interfaceLight.function);
+  const feedbackKeys = Object.keys(interfaceLight.feedback);
+  const functionColors: { [index: string]: any } = {};
+  const feedbackColors: { [index: string]: any } = {};
+
+  for (const key of functionKeys) {
+    const color = new ColorJS(interfaceLight.function[key]);
+
+    const colorHex = color.toString({ format: "hex" });
+
+    const colorLighten = gerarCoresClaras(color);
+
+    const colorNeutral = generateNeutralColors(color);
+    const colorNeutralHex = toDarken(color, 0.8);
+
+    functionColors[key] = {
+      palette: {
+        surface: {
+          10: { type: 'color', value: colorLighten[10] },
+          20: { type: 'color', value: colorLighten[20] },
+          30: { type: 'color', value: colorLighten[30] },
+          40: { type: 'color', value: colorLighten[40] },
+          50: { type: 'color', value: colorLighten[50] },
+          60: { type: 'color', value: colorLighten[60] },
+          70: { type: 'color', value: colorLighten[70] },
+          80: { type: 'color', value: colorLighten[80] },
+          90: { type: 'color', value: colorLighten[90] },
+          100: { type: 'color', value: colorHex },
+          110: { type: 'color', value: toDarken(color, 0.1) },
+          120: { type: 'color', value: toDarken(color, 0.2) },
+          130: { type: 'color', value: toDarken(color, 0.3) },
+          140: { type: 'color', value: toDarken(color, 0.4) },
+          150: { type: 'color', value: toDarken(color, 0.5) },
+          160: { type: 'color', value: toDarken(color, 0.6) },
+          170: { type: 'color', value: toDarken(color, 0.7) },
+          180: { type: 'color', value: toDarken(color, 0.8) },
+          190: { type: 'color', value: toDarken(color, 0.9) },
+        },
+        txtOn: {
+          10: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          20: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          30: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          40: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          50: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          60: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          70: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          80: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          90: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          100: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) }, // TODO
+          110: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) }, // TODO
+          120: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) }, // TODO
+          130: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          140: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          150: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          160: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          170: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          180: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          190: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+        }
+      },
+      neutrals: {
+        surface: {
+          5: { type: 'color', value: colorNeutral[5] },
+          10: { type: 'color', value: colorNeutral[10] },
+          20: { type: 'color', value: colorNeutral[20] },
+          30: { type: 'color', value: colorNeutral[30] },
+          40: { type: 'color', value: colorNeutral[40] },
+          50: { type: 'color', value: colorNeutral[50] },
+          60: { type: 'color', value: colorNeutral[60] },
+          70: { type: 'color', value: colorNeutral[70] },
+          80: { type: 'color', value: colorNeutral[80] },
+          90: { type: 'color', value: colorNeutral[90] },
+          100: { type: 'color', value: colorNeutral[100] },
+          110: { type: 'color', value: colorNeutral[110] },
+          120: { type: 'color', value: colorNeutral[120] },
+          130: { type: 'color', value: colorNeutralHex },
+          140: { type: 'color', value: toDarken(new ColorJS(colorNeutralHex), 0.5) }
+        },
+        txtOn: {
+          5: { type: 'color', value: colorNeutralHex },
+          10: { type: 'color', value: colorNeutralHex },
+          20: { type: 'color', value: colorNeutralHex },
+          30: { type: 'color', value: colorNeutralHex },
+          40: { type: 'color', value: colorNeutralHex },
+          50: { type: 'color', value: colorNeutralHex },
+          60: { type: 'color', value: colorNeutralHex },
+          70: { type: 'color', value: colorWhite },
+          80: { type: 'color', value: colorNeutral[5] },
+          90: { type: 'color', value: colorNeutral[10] },
+          100: { type: 'color', value: colorNeutral[10] },
+          110: { type: 'color', value: colorNeutral[10] },
+          120: { type: 'color', value: colorNeutral[10] },
+          130: { type: 'color', value: colorNeutral[10] },
+          140: { type: 'color', value: colorNeutral[10] }
+        }
+      },
+      behavior: {
+        surface: {
+          darkest: { type: 'color', value: toDarken(color, 0.8) },
+          action: { type: 'color', value: toDarken(color, 0.3) },
+          normal: { type: 'color', value: colorHex },
+          active: { type: 'color', value: colorLighten[60] },
+          lightest: { type: 'color', value: colorLighten[10] },
+        },
+        txtOn: {
+          darkest: { type: 'color', value: validateContrast(color, color, toLighten, 0.9) },
+          action: { type: 'color', value: validateContrast(color, color, toLighten, 0.9) },
+          normal: { type: 'color', value: validateContrast(color, color, toDarken, 0.9) },
+          active: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          lightest: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+        }
+      }
+    }
+  }
+
+  for (const key of feedbackKeys) {
+    const color = new ColorJS(interfaceLight.feedback[key]);
+
+    const colorHex = color.toString({ format: "hex" });
+
+    const colorLighten = gerarCoresClaras(color);
+
+    const colorNeutral = generateNeutralColors(color);
+    const colorNeutralHex = toDarken(color, 0.8);
+
+    feedbackColors[key] = {
+      palette: {
+        surface: {
+          10: { type: 'color', value: colorLighten[10] },
+          20: { type: 'color', value: colorLighten[20] },
+          30: { type: 'color', value: colorLighten[30] },
+          40: { type: 'color', value: colorLighten[40] },
+          50: { type: 'color', value: colorLighten[50] },
+          60: { type: 'color', value: colorLighten[60] },
+          70: { type: 'color', value: colorLighten[70] },
+          80: { type: 'color', value: colorLighten[80] },
+          90: { type: 'color', value: colorLighten[90] },
+          100: { type: 'color', value: colorHex },
+          110: { type: 'color', value: toDarken(color, 0.1) },
+          120: { type: 'color', value: toDarken(color, 0.2) },
+          130: { type: 'color', value: toDarken(color, 0.3) },
+          140: { type: 'color', value: toDarken(color, 0.4) },
+          150: { type: 'color', value: toDarken(color, 0.5) },
+          160: { type: 'color', value: toDarken(color, 0.6) },
+          170: { type: 'color', value: toDarken(color, 0.7) },
+          180: { type: 'color', value: toDarken(color, 0.8) },
+          190: { type: 'color', value: toDarken(color, 0.9) },
+        },
+        txtOn: {
+          10: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          20: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          30: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          40: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          50: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          60: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          70: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          80: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          90: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          100: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) }, // TODO
+          110: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) }, // TODO
+          120: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) }, // TODO
+          130: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          140: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          150: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          160: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          170: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          180: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          190: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+        }
+      },
+      neutrals: {
+        surface: {
+          5: { type: 'color', value: colorNeutral[5] },
+          10: { type: 'color', value: colorNeutral[10] },
+          20: { type: 'color', value: colorNeutral[20] },
+          30: { type: 'color', value: colorNeutral[30] },
+          40: { type: 'color', value: colorNeutral[40] },
+          50: { type: 'color', value: colorNeutral[50] },
+          60: { type: 'color', value: colorNeutral[60] },
+          70: { type: 'color', value: colorNeutral[70] },
+          80: { type: 'color', value: colorNeutral[80] },
+          90: { type: 'color', value: colorNeutral[90] },
+          100: { type: 'color', value: colorNeutral[100] },
+          110: { type: 'color', value: colorNeutral[110] },
+          120: { type: 'color', value: colorNeutral[120] },
+          130: { type: 'color', value: colorNeutralHex },
+          140: { type: 'color', value: toDarken(new ColorJS(colorNeutralHex), 0.5) }
+        },
+        txtOn: {
+          5: { type: 'color', value: colorNeutralHex },
+          10: { type: 'color', value: colorNeutralHex },
+          20: { type: 'color', value: colorNeutralHex },
+          30: { type: 'color', value: colorNeutralHex },
+          40: { type: 'color', value: colorNeutralHex },
+          50: { type: 'color', value: colorNeutralHex },
+          60: { type: 'color', value: colorNeutralHex },
+          70: { type: 'color', value: colorWhite },
+          80: { type: 'color', value: colorNeutral[5] },
+          90: { type: 'color', value: colorNeutral[10] },
+          100: { type: 'color', value: colorNeutral[10] },
+          110: { type: 'color', value: colorNeutral[10] },
+          120: { type: 'color', value: colorNeutral[10] },
+          130: { type: 'color', value: colorNeutral[10] },
+          140: { type: 'color', value: colorNeutral[10] }
+        }
+      },
+      behavior: {
+        surface: {
+          darkest: { type: 'color', value: toDarken(color, 0.8) },
+          action: { type: 'color', value: toDarken(color, 0.3) },
+          normal: { type: 'color', value: colorHex },
+          active: { type: 'color', value: colorLighten[60] },
+          lightest: { type: 'color', value: colorLighten[10] },
+        },
+        txtOn: {
+          darkest: { type: 'color', value: validateContrast(color, color, toLighten, 0.9) },
+          action: { type: 'color', value: validateContrast(color, color, toLighten, 0.9) },
+          normal: { type: 'color', value: validateContrast(color, color, toDarken, 0.9) },
+          active: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          lightest: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+        }
+      }
+    }
+  }
+
+  return {
+    function: functionColors,
+    feedback: feedbackColors
+  };
 }
 
 const paletteLight = (colorsLight: ColorsList): any => {
@@ -265,9 +534,238 @@ const paletteLight = (colorsLight: ColorsList): any => {
   }
   return {
     brand: palettes,
-    interface: {
-      todo: "TODO"
-    },
+  };
+}
+
+const interfaceDark = (interfaceLight: any) => {
+  const functionKeys = Object.keys(interfaceLight.function);
+  const feedbackKeys = Object.keys(interfaceLight.feedback);
+  const functionColors: { [index: string]: any } = {};
+  const feedbackColors: { [index: string]: any } = {};
+
+  for (const key of functionKeys) {
+    const color = new ColorJS(interfaceLight.function[key]);
+
+    const colorHex = color.toString({ format: "hex" });
+
+    const colorLighten = gerarCoresClaras(color);
+
+    const colorNeutral = generateNeutralColors(color);
+    const colorNeutralHex = toDarken(color, 0.8);
+
+    functionColors[key] = {
+      palette: {
+        surface: {
+          10: { type: 'color', value: colorLighten[10] },
+          20: { type: 'color', value: colorLighten[20] },
+          30: { type: 'color', value: colorLighten[30] },
+          40: { type: 'color', value: colorLighten[40] },
+          50: { type: 'color', value: colorLighten[50] },
+          60: { type: 'color', value: colorLighten[60] },
+          70: { type: 'color', value: colorLighten[70] },
+          80: { type: 'color', value: colorLighten[80] },
+          90: { type: 'color', value: colorLighten[90] },
+          100: { type: 'color', value: colorHex },
+          110: { type: 'color', value: toDarken(color, 0.1) },
+          120: { type: 'color', value: toDarken(color, 0.2) },
+          130: { type: 'color', value: toDarken(color, 0.3) },
+          140: { type: 'color', value: toDarken(color, 0.4) },
+          150: { type: 'color', value: toDarken(color, 0.5) },
+          160: { type: 'color', value: toDarken(color, 0.6) },
+          170: { type: 'color', value: toDarken(color, 0.7) },
+          180: { type: 'color', value: toDarken(color, 0.8) },
+          190: { type: 'color', value: toDarken(color, 0.9) },
+        },
+        txtOn: {
+          10: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          20: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          30: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          40: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          50: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          60: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          70: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          80: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          90: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          100: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) }, // TODO
+          110: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) }, // TODO
+          120: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) }, // TODO
+          130: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          140: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          150: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          160: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          170: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          180: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          190: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+        }
+      },
+      neutrals: {
+        surface: {
+          5: { type: 'color', value: colorNeutral[5] },
+          10: { type: 'color', value: colorNeutral[10] },
+          20: { type: 'color', value: colorNeutral[20] },
+          30: { type: 'color', value: colorNeutral[30] },
+          40: { type: 'color', value: colorNeutral[40] },
+          50: { type: 'color', value: colorNeutral[50] },
+          60: { type: 'color', value: colorNeutral[60] },
+          70: { type: 'color', value: colorNeutral[70] },
+          80: { type: 'color', value: colorNeutral[80] },
+          90: { type: 'color', value: colorNeutral[90] },
+          100: { type: 'color', value: colorNeutral[100] },
+          110: { type: 'color', value: colorNeutral[110] },
+          120: { type: 'color', value: colorNeutral[120] },
+          130: { type: 'color', value: colorNeutralHex },
+          140: { type: 'color', value: toDarken(new ColorJS(colorNeutralHex), 0.5) }
+        },
+        txtOn: {
+          5: { type: 'color', value: colorNeutralHex },
+          10: { type: 'color', value: colorNeutralHex },
+          20: { type: 'color', value: colorNeutralHex },
+          30: { type: 'color', value: colorNeutralHex },
+          40: { type: 'color', value: colorNeutralHex },
+          50: { type: 'color', value: colorNeutralHex },
+          60: { type: 'color', value: colorNeutralHex },
+          70: { type: 'color', value: colorWhite },
+          80: { type: 'color', value: colorNeutral[5] },
+          90: { type: 'color', value: colorNeutral[10] },
+          100: { type: 'color', value: colorNeutral[10] },
+          110: { type: 'color', value: colorNeutral[10] },
+          120: { type: 'color', value: colorNeutral[10] },
+          130: { type: 'color', value: colorNeutral[10] },
+          140: { type: 'color', value: colorNeutral[10] }
+        }
+      },
+      behavior: {
+        surface: {
+          darkest: { type: 'color', value: toDarken(color, 0.8) },
+          action: { type: 'color', value: toDarken(color, 0.3) },
+          normal: { type: 'color', value: colorHex },
+          active: { type: 'color', value: colorLighten[60] },
+          lightest: { type: 'color', value: colorLighten[10] },
+        },
+        txtOn: {
+          darkest: { type: 'color', value: validateContrast(color, color, toLighten, 0.9) },
+          action: { type: 'color', value: validateContrast(color, color, toLighten, 0.9) },
+          normal: { type: 'color', value: validateContrast(color, color, toDarken, 0.9) },
+          active: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          lightest: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+        }
+      }
+    }
+  }
+
+  for (const key of feedbackKeys) {
+    const color = new ColorJS(interfaceLight.feedback[key]);
+
+    const colorHex = color.toString({ format: "hex" });
+
+    const colorLighten = gerarCoresClaras(color);
+
+    const colorNeutral = generateNeutralColors(color);
+    const colorNeutralHex = toDarken(color, 0.8);
+
+    feedbackColors[key] = {
+      palette: {
+        surface: {
+          10: { type: 'color', value: colorLighten[10] },
+          20: { type: 'color', value: colorLighten[20] },
+          30: { type: 'color', value: colorLighten[30] },
+          40: { type: 'color', value: colorLighten[40] },
+          50: { type: 'color', value: colorLighten[50] },
+          60: { type: 'color', value: colorLighten[60] },
+          70: { type: 'color', value: colorLighten[70] },
+          80: { type: 'color', value: colorLighten[80] },
+          90: { type: 'color', value: colorLighten[90] },
+          100: { type: 'color', value: colorHex },
+          110: { type: 'color', value: toDarken(color, 0.1) },
+          120: { type: 'color', value: toDarken(color, 0.2) },
+          130: { type: 'color', value: toDarken(color, 0.3) },
+          140: { type: 'color', value: toDarken(color, 0.4) },
+          150: { type: 'color', value: toDarken(color, 0.5) },
+          160: { type: 'color', value: toDarken(color, 0.6) },
+          170: { type: 'color', value: toDarken(color, 0.7) },
+          180: { type: 'color', value: toDarken(color, 0.8) },
+          190: { type: 'color', value: toDarken(color, 0.9) },
+        },
+        txtOn: {
+          10: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          20: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          30: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          40: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          50: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          60: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          70: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          80: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          90: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          100: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) }, // TODO
+          110: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) }, // TODO
+          120: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) }, // TODO
+          130: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          140: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          150: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          160: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          170: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          180: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+          190: { type: 'color', value: validateContrast(color, color, toLighten, 0.1) },
+        }
+      },
+      neutrals: {
+        surface: {
+          5: { type: 'color', value: colorNeutral[5] },
+          10: { type: 'color', value: colorNeutral[10] },
+          20: { type: 'color', value: colorNeutral[20] },
+          30: { type: 'color', value: colorNeutral[30] },
+          40: { type: 'color', value: colorNeutral[40] },
+          50: { type: 'color', value: colorNeutral[50] },
+          60: { type: 'color', value: colorNeutral[60] },
+          70: { type: 'color', value: colorNeutral[70] },
+          80: { type: 'color', value: colorNeutral[80] },
+          90: { type: 'color', value: colorNeutral[90] },
+          100: { type: 'color', value: colorNeutral[100] },
+          110: { type: 'color', value: colorNeutral[110] },
+          120: { type: 'color', value: colorNeutral[120] },
+          130: { type: 'color', value: colorNeutralHex },
+          140: { type: 'color', value: toDarken(new ColorJS(colorNeutralHex), 0.5) }
+        },
+        txtOn: {
+          5: { type: 'color', value: colorNeutralHex },
+          10: { type: 'color', value: colorNeutralHex },
+          20: { type: 'color', value: colorNeutralHex },
+          30: { type: 'color', value: colorNeutralHex },
+          40: { type: 'color', value: colorNeutralHex },
+          50: { type: 'color', value: colorNeutralHex },
+          60: { type: 'color', value: colorNeutralHex },
+          70: { type: 'color', value: colorWhite },
+          80: { type: 'color', value: colorNeutral[5] },
+          90: { type: 'color', value: colorNeutral[10] },
+          100: { type: 'color', value: colorNeutral[10] },
+          110: { type: 'color', value: colorNeutral[10] },
+          120: { type: 'color', value: colorNeutral[10] },
+          130: { type: 'color', value: colorNeutral[10] },
+          140: { type: 'color', value: colorNeutral[10] }
+        }
+      },
+      behavior: {
+        surface: {
+          darkest: { type: 'color', value: toDarken(color, 0.8) },
+          action: { type: 'color', value: toDarken(color, 0.3) },
+          normal: { type: 'color', value: colorHex },
+          active: { type: 'color', value: colorLighten[60] },
+          lightest: { type: 'color', value: colorLighten[10] },
+        },
+        txtOn: {
+          darkest: { type: 'color', value: validateContrast(color, color, toLighten, 0.9) },
+          action: { type: 'color', value: validateContrast(color, color, toLighten, 0.9) },
+          normal: { type: 'color', value: validateContrast(color, color, toDarken, 0.9) },
+          active: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+          lightest: { type: 'color', value: validateContrast(color, color, toDarken, 0.8) },
+        }
+      }
+    }
+  }
+
+  return {
+    function: functionColors,
+    feedback: feedbackColors
   };
 }
 
@@ -387,26 +885,36 @@ const paletteDark = (colorsDark: ColorsList): any => {
     palettes[key] = valor;
   }
   return {
-    brand: palettes,
-    interface: {
-      todo: "TODO"
-    },
+    brand: palettes
   };
 }
 
-const themeFactoryDefault = (colorsLight: ColorsList, colorsDark: ColorsList) => {
+const themeFactoryDefault = (theme: ThemeDefault) => {
+  const colorsLight = theme.light.brand;
+  const colorsDark = theme.dark.brand;
+
   const light = paletteLight(colorsLight);
   const dark = paletteDark(colorsDark);
+  
+  const lightInterface = interfaceLight(theme.light.interface);
+  const darkInterface = interfaceDark(theme.dark.interface);
+
   return {
     "_color-palette": {
       mode: {
-        light: light,
-        dark: dark,
+        light: {
+          ...light,
+          interface: lightInterface,
+        },
+        dark: {
+          ...dark,
+          interface: darkInterface,
+        },
       }
     }
   }
 };
-if (writeFile) {
+if (WRITE_FILE) {
 
   if (!fs.existsSync('./temp')) {
     fs.mkdirSync('./temp');
@@ -415,7 +923,7 @@ if (writeFile) {
   fs.writeFileSync(
     `./temp/${+new Date()}_${THEME_NAME || `default`}.json`,
     JSON.stringify(
-      themeFactoryDefault(themeChoosed.light, themeChoosed.dark),
+      themeFactoryDefault(themeChoosed),
       null,
       2
     )
@@ -423,5 +931,6 @@ if (writeFile) {
 
   console.log("Arquivo gerado...")
 } else {
+  themeFactoryDefault(themeChoosed)
   console.log("rodou...")
 }
