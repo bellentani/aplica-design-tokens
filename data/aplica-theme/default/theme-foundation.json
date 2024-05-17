@@ -1038,23 +1038,28 @@
       "fontWeights": {
         "light": {
           "value": "Light",
-          "type": "fontWeights"
+          "type": "fontWeights",
+          "description": "300"
         },
         "regular": {
           "value": "Regular",
-          "type": "fontWeights"
+          "type": "fontWeights",
+          "description": "400"
         },
         "semibold": {
           "value": "SemiBold",
-          "type": "fontWeights"
+          "type": "fontWeights",
+          "description": "600"
         },
         "bold": {
           "value": "Bold",
-          "type": "fontWeights"
+          "type": "fontWeights",
+          "description": "700"
         },
         "stronger": {
           "value": "Black",
-          "type": "fontWeights"
+          "type": "fontWeights",
+          "description": "800"
         }
       },
       "decorations": {
