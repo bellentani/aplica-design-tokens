@@ -80,29 +80,29 @@
           "deep": {
             "positive": {
               "background": {
-                "value": "#000000",
+                "value": "#FFFFFF",
                 "type": "color"
               },
               "txtOn": {
-                "value": "#ffffff",
+                "value": "#000000",
                 "type": "color"
               },
               "border": {
-                "value": "#000000",
+                "value": "#FFFFFF",
                 "type": "color"
               }
             },
             "negative": {
               "background": {
-                "value": "#ffffff",
-                "type": "color"
-              },
-              "txtOn": {
                 "value": "#000000",
                 "type": "color"
               },
-              "border": {
+              "txtOn": {
                 "value": "#ffffff",
+                "type": "color"
+              },
+              "border": {
+                "value": "#000000",
                 "type": "color"
               }
             }
@@ -143,7 +143,7 @@
               "type": "color"
             },
             "txtOn": {
-              "value": "{_color-palette.mode.dark.brand.first.neutrals.txtOn.40}",
+              "value": "{_color-palette.mode.dark.brand.first.neutrals.txtOn.10}",
               "type": "color"
             },
             "border": {
@@ -315,7 +315,7 @@
         "primary": {
           "surface": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.function.primary.behavior.surface.lightest}",
+              "value": "{_color-palette.mode.dark.interface.function.primary.behavior.surface.darkest}",
               "type": "color",
               "description": ""
             },
@@ -342,7 +342,7 @@
           },
           "txtOn": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.function.primary.behavior.txtOn.lightest}",
+              "value": "{_color-palette.mode.dark.interface.function.primary.behavior.txtOn.darkest}",
               "type": "color",
               "description": ""
             },
@@ -371,7 +371,7 @@
         "secondary": {
           "surface": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.function.secondary.behavior.surface.lightest}",
+              "value": "{_color-palette.mode.dark.interface.function.secondary.behavior.surface.darkest}",
               "type": "color",
               "description": ""
             },
@@ -398,7 +398,7 @@
           },
           "txtOn": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.function.secondary.behavior.txtOn.lightest}",
+              "value": "{_color-palette.mode.dark.interface.function.secondary.behavior.txtOn.darkest}",
               "type": "color",
               "description": ""
             },
@@ -427,7 +427,7 @@
         "link": {
           "surface": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.function.link.behavior.surface.lightest}",
+              "value": "{_color-palette.mode.dark.interface.function.link.behavior.surface.darkest}",
               "type": "color",
               "description": ""
             },
@@ -454,7 +454,7 @@
           },
           "txtOn": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.function.link.behavior.txtOn.lightest}",
+              "value": "{_color-palette.mode.dark.interface.function.link.behavior.txtOn.darkest}",
               "type": "color",
               "description": ""
             },
@@ -485,7 +485,7 @@
         "info": {
           "surface": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.lightest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.darkest}",
               "type": "color",
               "description": ""
             },
@@ -512,7 +512,7 @@
           },
           "txtOn": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.info.behavior.txtOn.lightest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.info.behavior.txtOn.darkest}",
               "type": "color",
               "description": ""
             },
@@ -541,7 +541,7 @@
         "success": {
           "surface": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.lightest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.darkest}",
               "type": "color",
               "description": ""
             },
@@ -567,7 +567,7 @@
           },
           "txtOn": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.success.behavior.txtOn.lightest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.success.behavior.txtOn.darkest}",
               "type": "color",
               "description": ""
             },
@@ -595,7 +595,7 @@
         "warning": {
           "surface": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.lightest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.darkest}",
               "type": "color",
               "description": ""
             },
@@ -622,7 +622,7 @@
           },
           "txtOn": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.txtOn.lightest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.txtOn.darkest}",
               "type": "color",
               "description": ""
             },
@@ -651,7 +651,7 @@
         "danger": {
           "surface": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.lightest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.darkest}",
               "type": "color",
               "description": ""
             },
@@ -678,7 +678,7 @@
           },
           "txtOn": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.txtOn.lightest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.txtOn.darkest}",
               "type": "color",
               "description": ""
             },

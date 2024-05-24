@@ -80,20 +80,6 @@
           "deep": {
             "positive": {
               "background": {
-                "value": "#FFFFFF",
-                "type": "color"
-              },
-              "txtOn": {
-                "value": "#000000",
-                "type": "color"
-              },
-              "border": {
-                "value": "#FFFFFF",
-                "type": "color"
-              }
-            },
-            "negative": {
-              "background": {
                 "value": "#000000",
                 "type": "color"
               },
@@ -103,6 +89,20 @@
               },
               "border": {
                 "value": "#000000",
+                "type": "color"
+              }
+            },
+            "negative": {
+              "background": {
+                "value": "#ffffff",
+                "type": "color"
+              },
+              "txtOn": {
+                "value": "#000000",
+                "type": "color"
+              },
+              "border": {
+                "value": "#ffffff",
                 "type": "color"
               }
             }
@@ -143,7 +143,7 @@
               "type": "color"
             },
             "txtOn": {
-              "value": "{_color-palette.mode.light.brand.first.neutrals.txtOn.10}",
+              "value": "{_color-palette.mode.light.brand.first.neutrals.txtOn.40}",
               "type": "color"
             },
             "border": {
@@ -335,7 +335,7 @@
               "description": ""
             },
             "positive": {
-              "value": "{_color-palette.mode.light.interface.function.primary.behavior.surface.darkest}",
+              "value": "{_color-palette.mode.light.interface.function.primary.behavior.surface.lightest}",
               "type": "color",
               "description": ""
             }
@@ -362,7 +362,7 @@
               "description": ""
             },
             "positive": {
-              "value": "{_color-palette.mode.light.interface.function.primary.behavior.txtOn.darkest}",
+              "value": "{_color-palette.mode.light.interface.function.primary.behavior.txtOn.lightest}",
               "type": "color",
               "description": ""
             }
@@ -391,7 +391,7 @@
               "description": ""
             },
             "positive": {
-              "value": "{_color-palette.mode.light.interface.function.secondary.behavior.surface.darkest}",
+              "value": "{_color-palette.mode.light.interface.function.secondary.behavior.surface.lightest}",
               "type": "color",
               "description": ""
             }
@@ -418,7 +418,7 @@
               "description": ""
             },
             "positive": {
-              "value": "{_color-palette.mode.light.interface.function.secondary.behavior.txtOn.darkest}",
+              "value": "{_color-palette.mode.light.interface.function.secondary.behavior.txtOn.lightest}",
               "type": "color",
               "description": ""
             }
@@ -447,7 +447,7 @@
               "description": ""
             },
             "positive": {
-              "value": "{_color-palette.mode.light.interface.function.link.behavior.surface.darkest}",
+              "value": "{_color-palette.mode.light.interface.function.link.behavior.surface.lightest}",
               "type": "color",
               "description": ""
             }
@@ -474,7 +474,7 @@
               "description": ""
             },
             "positive": {
-              "value": "{_color-palette.mode.light.interface.function.link.behavior.txtOn.darkest}",
+              "value": "{_color-palette.mode.light.interface.function.link.behavior.txtOn.lightest}",
               "type": "color",
               "description": ""
             }
@@ -505,7 +505,7 @@
               "description": ""
             },
             "positive": {
-              "value": "{_color-palette.mode.light.interface.feedback.info.behavior.surface.darkest}",
+              "value": "{_color-palette.mode.light.interface.feedback.info.behavior.surface.lightest}",
               "type": "color",
               "description": ""
             }
@@ -532,7 +532,7 @@
               "description": ""
             },
             "positive": {
-              "value": "{_color-palette.mode.light.interface.feedback.info.behavior.txtOn.darkest}",
+              "value": "{_color-palette.mode.light.interface.feedback.info.behavior.txtOn.lightest}",
               "type": "color",
               "description": ""
             }
@@ -561,7 +561,7 @@
               "description": ""
             },
             "positive": {
-              "value": "{_color-palette.mode.light.interface.feedback.success.behavior.surface.darkest}",
+              "value": "{_color-palette.mode.light.interface.feedback.success.behavior.surface.lightest}",
               "type": "color"
             }
           },
@@ -587,7 +587,7 @@
               "description": ""
             },
             "positive": {
-              "value": "{_color-palette.mode.light.interface.feedback.success.behavior.txtOn.darkest}",
+              "value": "{_color-palette.mode.light.interface.feedback.success.behavior.txtOn.lightest}",
               "type": "color"
             }
           }
@@ -615,7 +615,7 @@
               "description": ""
             },
             "positive": {
-              "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.surface.darkest}",
+              "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.surface.lightest}",
               "type": "color",
               "description": ""
             }
@@ -642,7 +642,7 @@
               "description": ""
             },
             "positive": {
-              "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.txtOn.darkest}",
+              "value": "{_color-palette.mode.light.interface.feedback.warning.behavior.txtOn.lightest}",
               "type": "color",
               "description": ""
             }
@@ -671,7 +671,7 @@
               "description": ""
             },
             "positive": {
-              "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.surface.darkest}",
+              "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.surface.lightest}",
               "type": "color",
               "description": ""
             }
@@ -698,7 +698,7 @@
               "description": ""
             },
             "positive": {
-              "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.txtOn.darkest}",
+              "value": "{_color-palette.mode.light.interface.feedback.danger.behavior.txtOn.lightest}",
               "type": "color",
               "description": ""
             }
