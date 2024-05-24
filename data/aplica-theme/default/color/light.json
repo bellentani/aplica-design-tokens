@@ -80,29 +80,29 @@
           "deep": {
             "positive": {
               "background": {
-                "value": "#000000",
-                "type": "color"
-              },
-              "txtOn": {
                 "value": "#ffffff",
                 "type": "color"
               },
-              "border": {
+              "txtOn": {
                 "value": "#000000",
+                "type": "color"
+              },
+              "border": {
+                "value": "#ffffff",
                 "type": "color"
               }
             },
             "negative": {
               "background": {
-                "value": "#ffffff",
-                "type": "color"
-              },
-              "txtOn": {
                 "value": "#000000",
                 "type": "color"
               },
-              "border": {
+              "txtOn": {
                 "value": "#ffffff",
+                "type": "color"
+              },
+              "border": {
+                "value": "#000000",
                 "type": "color"
               }
             }
