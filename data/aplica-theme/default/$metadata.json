@@ -11,7 +11,15 @@
     "color/theme/_primitive-theme-default-config",
     "color/theme/_primitive-theme-tangerine",
     "color/theme/_primitive-theme-tangerine-config",
+    "color/theme/_primitive-theme-default-gerado",
+    "color/theme/_tangerine-generated",
     "dimensions/dimension",
-    "figma-generators/_generator-dimension"
+    "figma-generators/_generator-dimension",
+    "color/theme/generated/1715980069769_padrao",
+    "color/theme/generated/1715981242062_padrao",
+    "color/theme/generated/1716162294022_padrao",
+    "color/theme/generated/1716178198483_padrao",
+    "color/theme/generated/default",
+    "color/theme/generated/tangerine"
   ]
 }
