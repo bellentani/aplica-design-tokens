@@ -723,7 +723,7 @@
         }
       }
     },
-    "text": { 
+    "text": {
       "positive": {
         "title": {
           "value": "{color-theme.brand.ambient.grayscale.lower.background}",
