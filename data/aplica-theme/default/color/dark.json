@@ -315,7 +315,7 @@
         "primary": {
           "surface": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.function.primary.behavior.surface.darkest}",
+              "value": "{_color-palette.mode.dark.interface.function.primary.behavior.surface.lightest}",
               "type": "color",
               "description": ""
             },
@@ -342,7 +342,7 @@
           },
           "txtOn": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.function.primary.behavior.txtOn.darkest}",
+              "value": "{_color-palette.mode.dark.interface.function.primary.behavior.txtOn.lightest}",
               "type": "color",
               "description": ""
             },
@@ -371,7 +371,7 @@
         "secondary": {
           "surface": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.function.secondary.behavior.surface.darkest}",
+              "value": "{_color-palette.mode.dark.interface.function.secondary.behavior.surface.lightest}",
               "type": "color",
               "description": ""
             },
@@ -398,7 +398,7 @@
           },
           "txtOn": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.function.secondary.behavior.txtOn.darkest}",
+              "value": "{_color-palette.mode.dark.interface.function.secondary.behavior.txtOn.lightest}",
               "type": "color",
               "description": ""
             },
@@ -427,7 +427,7 @@
         "link": {
           "surface": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.function.link.behavior.surface.darkest}",
+              "value": "{_color-palette.mode.dark.interface.function.link.behavior.surface.lightest}",
               "type": "color",
               "description": ""
             },
@@ -454,7 +454,7 @@
           },
           "txtOn": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.function.link.behavior.txtOn.darkest}",
+              "value": "{_color-palette.mode.dark.interface.function.link.behavior.txtOn.lightest}",
               "type": "color",
               "description": ""
             },
@@ -485,7 +485,7 @@
         "info": {
           "surface": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.darkest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.lightest}",
               "type": "color",
               "description": ""
             },
@@ -512,7 +512,7 @@
           },
           "txtOn": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.info.behavior.txtOn.darkest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.info.behavior.txtOn.lightest}",
               "type": "color",
               "description": ""
             },
@@ -541,7 +541,7 @@
         "success": {
           "surface": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.darkest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.lightest}",
               "type": "color",
               "description": ""
             },
@@ -567,7 +567,7 @@
           },
           "txtOn": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.success.behavior.txtOn.darkest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.success.behavior.txtOn.lightest}",
               "type": "color",
               "description": ""
             },
@@ -595,7 +595,7 @@
         "warning": {
           "surface": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.darkest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.lightest}",
               "type": "color",
               "description": ""
             },
@@ -622,7 +622,7 @@
           },
           "txtOn": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.txtOn.darkest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.txtOn.lightest}",
               "type": "color",
               "description": ""
             },
@@ -651,7 +651,7 @@
         "danger": {
           "surface": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.darkest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.lightest}",
               "type": "color",
               "description": ""
             },
@@ -678,7 +678,7 @@
           },
           "txtOn": {
             "negative": {
-              "value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.txtOn.darkest}",
+              "value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.txtOn.lightest}",
               "type": "color",
               "description": ""
             },
