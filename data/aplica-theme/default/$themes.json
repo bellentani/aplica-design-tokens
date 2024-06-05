@@ -1737,7 +1737,7 @@
       "color-theme.text.negative.warning": "9c3d275728e965410186f36a10269a049d433f9d",
       "color-theme.text.negative.danger": "b8ebd6b27363d37188753eb8a272392048cc588e"
     },
-    "group": "theme"
+    "group": "mode"
   },
   {
     "id": "d78a140d2e85509da16fe3035bb5decffd942d36",
@@ -1746,7 +1746,7 @@
     "selectedTokenSets": {
       "color/dark": "enabled"
     },
-    "group": "theme",
+    "group": "mode",
     "$figmaCollectionId": "VariableCollectionId:1110:9125",
     "$figmaModeId": "1110:1",
     "$figmaVariableReferences": {
