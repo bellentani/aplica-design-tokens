@@ -13,6 +13,7 @@
     "color/theme/_primitive-theme-tangerine-config",
     "color/theme/_primitive-theme-default-gerado",
     "color/theme/_tangerine-generated",
+    "color/theme/_grinch-generated",
     "dimensions/dimension",
     "figma-generators/_generator-dimension",
     "color/theme/generated/1715980069769_padrao",
