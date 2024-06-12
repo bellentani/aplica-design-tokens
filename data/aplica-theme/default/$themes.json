@@ -6,7 +6,7 @@
     "selectedTokenSets": {
       "color/theme/_primitive-theme-default-config": "source",
       "color/theme/_primitive-theme-default": "enabled",
-      "color/theme/_grinch-generated": "disabled"
+      "semantic": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1071:5",
@@ -1580,7 +1580,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "color/light": "enabled",
-      "color/theme/_grinch-generated": "disabled"
+      "semantic": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1110:9125",
     "$figmaModeId": "1110:0",
@@ -1747,7 +1747,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "color/dark": "enabled",
-      "color/theme/_grinch-generated": "disabled"
+      "semantic": "disabled"
     },
     "group": "mode",
     "$figmaCollectionId": "VariableCollectionId:1110:9125",
@@ -1914,7 +1914,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "foundation": "enabled",
-      "color/theme/_grinch-generated": "disabled"
+      "semantic": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1064:12039",
     "$figmaModeId": "1064:4",
@@ -2086,8 +2086,7 @@
     "name": "default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "theme-foundation": "enabled",
-      "color/theme/_grinch-generated": "disabled"
+      "semantic": "enabled"
     },
     "group": "semantic",
     "$figmaCollectionId": "VariableCollectionId:1071:8168",
@@ -2304,7 +2303,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "color/theme/_tangerine-generated": "enabled",
-      "color/theme/_grinch-generated": "disabled"
+      "semantic": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1071:6",
@@ -3878,7 +3877,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "dimensions/dimension": "enabled",
-      "color/theme/_grinch-generated": "disabled"
+      "semantic": "disabled"
     },
     "group": "dimension",
     "$figmaCollectionId": "VariableCollectionId:1084:204709",
@@ -3902,7 +3901,8 @@
     "name": "aplica-grinch",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color/theme/_grinch-generated": "enabled"
+      "color/theme/_grinch-generated": "enabled",
+      "semantic": "disabled"
     },
     "group": "brand",
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
