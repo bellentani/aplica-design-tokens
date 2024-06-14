@@ -18,7 +18,7 @@ async function run() {
         transforms: ['name/kebab'],
         files: [
           {
-            destination: `vars-${name}.css`,
+            destination: `dist/vars-${name}.css`,
             format: 'css/variables',
           },
         ],

@@ -1,7 +1,7 @@
 {
   "type": "module",
   "dependencies": {
-    "style-dictionary": "4.0.0-prerelease.18",
+    "style-dictionary": "^4.0.0-prerelease.27",
     "@tokens-studio/sd-transforms": "^0.16.1"
   }
 }
