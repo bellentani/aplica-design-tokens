@@ -4,11 +4,11 @@
     "name": "joy-light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "semantic": "enabled",
-      "color/light": "enabled",
+      "semantic": "source",
+      "color/light": "source",
       "color/theme/_primitive-theme-default": "source",
       "color/theme/_primitive-theme-default-config": "source",
-      "dimensions/dimension": "enabled",
+      "dimensions/dimension": "source",
       "foundation": "enabled"
     },
     "group": "theme"
