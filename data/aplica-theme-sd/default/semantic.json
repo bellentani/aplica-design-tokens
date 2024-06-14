@@ -449,15 +449,15 @@
             "disabled": {
               "normal": {
                 "background": {
-                  "value": "{semantic.color.brand.ambient.grayscale.lower.background}",
+                  "value": "{semantic.foundations.color.brand.ambient.grayscale.lower.background}",
                   "type": "color"
                 },
                 "txtOn": {
-                  "value": "{semantic.color.brand.ambient.grayscale.mid.background}",
+                  "value": "{semantic.foundations.color.brand.ambient.grayscale.mid.background}",
                   "type": "color"
                 },
                 "border": {
-                  "value": "{semantic.color.brand.ambient.grayscale.lower.border}",
+                  "value": "{semantic.foundations.color.brand.ambient.grayscale.lower.border}",
                   "type": "color"
                 }
               }
@@ -1822,41 +1822,41 @@
           "luminosity": {
             "shadow": {
               "deep": {
-                "value": "{semantic.color.solid.ambient.contrast.deep.dark}",
+                "value": "{semantic.foundations.color.solid.ambient.contrast.deep.dark}",
                 "type": "other"
               },
               "regular": {
-                "value": "{semantic.color.solid.ambient.grayscale.50}",
+                "value": "{semantic.foundations.color.solid.ambient.grayscale.50}",
                 "type": "other"
               },
               "smooth": {
-                "value": "{semantic.color.solid.ambient.grayscale.30}",
+                "value": "{semantic.foundations.color.solid.ambient.grayscale.30}",
                 "type": "other"
               }
             },
             "light": {
               "bright": {
-                "value": "{semantic.color.solid.ambient.contrast.deep.light}",
+                "value": "{semantic.foundations.color.solid.ambient.contrast.deep.light}",
                 "type": "other"
               },
               "primary": {
-                "value": "{semantic.color.interaction.function.primary.default}",
+                "value": "{semantic.foundations.color.interaction.function.primary.default}",
                 "type": "other"
               },
               "info": {
-                "value": "{semantic.color.interaction.feedback.info.default}",
+                "value": "{semantic.foundations.color.interaction.feedback.info.default}",
                 "type": "other"
               },
               "success": {
-                "value": "{semantic.color.interaction.feedback.success.default}",
+                "value": "{semantic.foundations.color.interaction.feedback.success.default}",
                 "type": "other"
               },
               "warning": {
-                "value": "{semantic.color.interaction.feedback.warning.default}",
+                "value": "{semantic.foundations.color.interaction.feedback.warning.default}",
                 "type": "other"
               },
               "danger": {
-                "value": "{semantic.color.interaction.feedback.danger.default}",
+                "value": "{semantic.foundations.color.interaction.feedback.danger.default}",
                 "type": "other"
               }
             }
