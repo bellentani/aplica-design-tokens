@@ -1,6 +1,6 @@
 # Design Tokens Generator with Tokens Studio & Style Dictionary
 
-![Design Tokens](https://img.shields.io/badge/Aplica%20Tokens-Studio%20Plugin%20%26%20Style%20Dictionary-green)
+![Design Tokens](https://img.shields.io/badge/AplicaDS%20Tokens-Studio%20Plugin%20%26%20Style%20Dictionary-green)
 
 ## Overview
 
