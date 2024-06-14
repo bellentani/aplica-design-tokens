@@ -157,123 +157,123 @@
   },
   "sizing": {
     "zero": {
-      "value": "{semantic.dimension.sizing.zero}",
+      "value": "{semantic.foundations.dimension.sizing.zero}",
       "type": "sizing"
     },
     "pico": {
-      "value": "{semantic.dimension.sizing.pico}",
+      "value": "{semantic.foundations.dimension.sizing.pico}",
       "type": "sizing"
     },
     "nano": {
-      "value": "{semantic.dimension.sizing.nano}",
+      "value": "{semantic.foundations.dimension.sizing.nano}",
       "type": "sizing"
     },
     "micro": {
-      "value": "{semantic.dimension.sizing.micro}",
+      "value": "{semantic.foundations.dimension.sizing.micro}",
       "type": "sizing"
     },
     "extraSmall": {
-      "value": "{semantic.dimension.sizing.extraSmall}",
+      "value": "{semantic.foundations.dimension.sizing.extraSmall}",
       "type": "sizing"
     },
     "small": {
-      "value": "{semantic.dimension.sizing.small}",
+      "value": "{semantic.foundations.dimension.sizing.small}",
       "type": "sizing"
     },
     "medium": {
-      "value": "{semantic.dimension.sizing.medium}",
+      "value": "{semantic.foundations.dimension.sizing.medium}",
       "type": "sizing"
     },
     "large": {
-      "value": "{semantic.dimension.sizing.large}",
+      "value": "{semantic.foundations.dimension.sizing.large}",
       "type": "sizing"
     },
     "extraLarge": {
-      "value": "{semantic.dimension.sizing.extraLarge}",
+      "value": "{semantic.foundations.dimension.sizing.extraLarge}",
       "type": "sizing"
     },
     "mega": {
-      "value": "{semantic.dimension.sizing.mega}",
+      "value": "{semantic.foundations.dimension.sizing.mega}",
       "type": "sizing"
     },
     "giga": {
-      "value": "{semantic.dimension.sizing.giga}",
+      "value": "{semantic.foundations.dimension.sizing.giga}",
       "type": "sizing"
     }
   },
   "padding": {
     "zero": {
-      "value": "{semantic.dimension.spacing.zero}",
+      "value": "{semantic.foundations.dimension.spacing.zero}",
       "type": "spacing"
     },
     "micro": {
-      "value": "{semantic.dimension.spacing.micro}",
+      "value": "{semantic.foundations.dimension.spacing.micro}",
       "type": "spacing"
     },
     "extraSmall": {
-      "value": "{semantic.dimension.spacing.extraSmall}",
+      "value": "{semantic.foundations.dimension.spacing.extraSmall}",
       "type": "spacing"
     },
     "small": {
-      "value": "{semantic.dimension.spacing.small}",
+      "value": "{semantic.foundations.dimension.spacing.small}",
       "type": "spacing"
     },
     "medium": {
-      "value": "{semantic.dimension.spacing.medium}",
+      "value": "{semantic.foundations.dimension.spacing.medium}",
       "type": "spacing"
     },
     "large": {
-      "value": "{semantic.dimension.spacing.large}",
+      "value": "{semantic.foundations.dimension.spacing.large}",
       "type": "spacing"
     },
     "extraLarge": {
-      "value": "{semantic.dimension.spacing.extraLarge}",
+      "value": "{semantic.foundations.dimension.spacing.extraLarge}",
       "type": "spacing"
     },
     "mega": {
-      "value": "{semantic.dimension.spacing.mega}",
+      "value": "{semantic.foundations.dimension.spacing.mega}",
       "type": "spacing"
     },
     "giga": {
-      "value": "{semantic.dimension.spacing.giga}",
+      "value": "{semantic.foundations.dimension.spacing.giga}",
       "type": "spacing"
     }
   },
   "gap": {
     "zero": {
-      "value": "{semantic.dimension.spacing.zero}",
+      "value": "{semantic.foundations.dimension.spacing.zero}",
       "type": "spacing"
     },
     "micro": {
-      "value": "{semantic.dimension.spacing.micro}",
+      "value": "{semantic.foundations.dimension.spacing.micro}",
       "type": "spacing"
     },
     "extraSmall": {
-      "value": "{semantic.dimension.spacing.extraSmall}",
+      "value": "{semantic.foundations.dimension.spacing.extraSmall}",
       "type": "spacing"
     },
     "small": {
-      "value": "{semantic.dimension.spacing.small}",
+      "value": "{semantic.foundations.dimension.spacing.small}",
       "type": "spacing"
     },
     "medium": {
-      "value": "{semantic.dimension.spacing.medium}",
+      "value": "{semantic.foundations.dimension.spacing.medium}",
       "type": "spacing"
     },
     "large": {
-      "value": "{semantic.dimension.spacing.large}",
+      "value": "{semantic.foundations.dimension.spacing.large}",
       "type": "spacing"
     },
     "extraLarge": {
-      "value": "{semantic.dimension.spacing.extraLarge}",
+      "value": "{semantic.foundations.dimension.spacing.extraLarge}",
       "type": "spacing"
     },
     "mega": {
-      "value": "{semantic.dimension.spacing.mega}",
+      "value": "{semantic.foundations.dimension.spacing.mega}",
       "type": "spacing"
     },
     "giga": {
-      "value": "{semantic.dimension.spacing.giga}",
+      "value": "{semantic.foundations.dimension.spacing.giga}",
       "type": "spacing"
     }
   },
@@ -434,53 +434,53 @@
     },
     "width": {
       "none": {
-        "value": "{semantic.dimension.sizing.zero}",
+        "value": "{semantic.foundations.dimension.sizing.zero}",
         "type": "borderWidth"
       },
       "small": {
-        "value": "{semantic.dimension.sizing.pico}",
+        "value": "{semantic.foundations.dimension.sizing.pico}",
         "type": "borderWidth"
       },
       "medium": {
-        "value": "{semantic.dimension.sizing.nano}",
+        "value": "{semantic.foundations.dimension.sizing.nano}",
         "type": "borderWidth"
       },
       "large": {
-        "value": "{semantic.dimension.sizing.micro}",
+        "value": "{semantic.foundations.dimension.sizing.micro}",
         "type": "borderWidth"
       },
       "extraLarge": {
-        "value": "{semantic.dimension.sizing.extraSmall}",
+        "value": "{semantic.foundations.dimension.sizing.extraSmall}",
         "type": "borderWidth"
       }
     },
     "radii": {
       "none": {
-        "value": "{semantic.dimension.sizing.zero}",
+        "value": "{semantic.foundations.dimension.sizing.zero}",
         "type": "borderRadius"
       },
       "micro": {
-        "value": "{semantic.dimension.sizing.micro}",
+        "value": "{semantic.foundations.dimension.sizing.micro}",
         "type": "borderRadius"
       },
       "extraSmall": {
-        "value": "{semantic.dimension.sizing.extraSmall}",
+        "value": "{semantic.foundations.dimension.sizing.extraSmall}",
         "type": "borderRadius"
       },
       "small": {
-        "value": "{semantic.dimension.sizing.small}",
+        "value": "{semantic.foundations.dimension.sizing.small}",
         "type": "borderRadius"
       },
       "medium": {
-        "value": "{semantic.dimension.sizing.medium}",
+        "value": "{semantic.foundations.dimension.sizing.medium}",
         "type": "borderRadius"
       },
       "large": {
-        "value": "{semantic.dimension.sizing.large}",
+        "value": "{semantic.foundations.dimension.sizing.large}",
         "type": "borderRadius"
       },
       "extraLarge": {
-        "value": "{semantic.dimension.sizing.extraLarge}",
+        "value": "{semantic.foundations.dimension.sizing.extraLarge}",
         "type": "borderRadius"
       },
       "circular": {
