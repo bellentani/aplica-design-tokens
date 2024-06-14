@@ -1,0 +1,262 @@
+{
+  "sizing": {
+    "zero": {
+      "value": "{dimension.sizing.zero}",
+      "type": "sizing"
+    },
+    "pico": {
+      "value": "{dimension.sizing.pico}",
+      "type": "sizing"
+    },
+    "nano": {
+      "value": "{dimension.sizing.nano}",
+      "type": "sizing"
+    },
+    "micro": {
+      "value": "{dimension.sizing.micro}",
+      "type": "sizing"
+    },
+    "extraSmall": {
+      "value": "{dimension.sizing.extraSmall}",
+      "type": "sizing"
+    },
+    "small": {
+      "value": "{dimension.sizing.small}",
+      "type": "sizing"
+    },
+    "medium": {
+      "value": "{dimension.sizing.medium}",
+      "type": "sizing"
+    },
+    "large": {
+      "value": "{dimension.sizing.large}",
+      "type": "sizing"
+    },
+    "extraLarge": {
+      "value": "{dimension.sizing.extraLarge}",
+      "type": "sizing"
+    },
+    "mega": {
+      "value": "{dimension.sizing.mega}",
+      "type": "sizing"
+    },
+    "giga": {
+      "value": "{dimension.sizing.giga}",
+      "type": "sizing"
+    }
+  },
+  "padding": {
+    "vertical": {
+      "zero": {
+        "value": "{dimension.spacing.zero}",
+        "type": "spacing"
+      },
+      "micro": {
+        "value": "{dimension.spacing.micro}",
+        "type": "spacing"
+      },
+      "extraSmall": {
+        "value": "{dimension.spacing.extraSmall}",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "{dimension.spacing.small}",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "{dimension.spacing.medium}",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "{dimension.spacing.large}",
+        "type": "spacing"
+      },
+      "extraLarge": {
+        "value": "{dimension.spacing.extraLarge}",
+        "type": "spacing"
+      },
+      "mega": {
+        "value": "{dimension.spacing.mega}",
+        "type": "spacing"
+      },
+      "giga": {
+        "value": "{dimension.spacing.giga}",
+        "type": "spacing"
+      }
+    },
+    "horizontal": {
+      "zero": {
+        "value": "{dimension.spacing.zero}",
+        "type": "spacing"
+      },
+      "micro": {
+        "value": "{dimension.spacing.micro}",
+        "type": "spacing"
+      },
+      "extraSmall": {
+        "value": "{dimension.spacing.extraSmall}",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "{dimension.spacing.small}",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "{dimension.spacing.medium}",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "{dimension.spacing.large}",
+        "type": "spacing"
+      },
+      "extraLarge": {
+        "value": "{dimension.spacing.extraLarge}",
+        "type": "spacing"
+      },
+      "mega": {
+        "value": "{dimension.spacing.mega}",
+        "type": "spacing"
+      },
+      "giga": {
+        "value": "{dimension.spacing.giga}",
+        "type": "spacing"
+      }
+    }
+  },
+  "gap": {
+    "vertical": {
+      "zero": {
+        "value": "{dimension.spacing.zero}",
+        "type": "spacing"
+      },
+      "micro": {
+        "value": "{dimension.spacing.micro}",
+        "type": "spacing"
+      },
+      "extraSmall": {
+        "value": "{dimension.spacing.extraSmall}",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "{dimension.spacing.small}",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "{dimension.spacing.medium}",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "{dimension.spacing.large}",
+        "type": "spacing"
+      },
+      "extraLarge": {
+        "value": "{dimension.spacing.extraLarge}",
+        "type": "spacing"
+      },
+      "mega": {
+        "value": "{dimension.spacing.mega}",
+        "type": "spacing"
+      },
+      "giga": {
+        "value": "{dimension.spacing.giga}",
+        "type": "spacing"
+      }
+    },
+    "horizontal": {
+      "zero": {
+        "value": "{dimension.spacing.zero}",
+        "type": "spacing"
+      },
+      "micro": {
+        "value": "{dimension.spacing.micro}",
+        "type": "spacing"
+      },
+      "extraSmall": {
+        "value": "{dimension.spacing.extraSmall}",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "{dimension.spacing.small}",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "{dimension.spacing.medium}",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "{dimension.spacing.large}",
+        "type": "spacing"
+      },
+      "extraLarge": {
+        "value": "{dimension.spacing.extraLarge}",
+        "type": "spacing"
+      },
+      "mega": {
+        "value": "{dimension.spacing.mega}",
+        "type": "spacing"
+      },
+      "giga": {
+        "value": "{dimension.spacing.giga}",
+        "type": "spacing"
+      }
+    }
+  },
+  "border": {
+    "width": {
+      "none": {
+        "value": "{dimension.sizing.zero}",
+        "type": "borderWidth"
+      },
+      "small": {
+        "value": "{dimension.sizing.pico}",
+        "type": "borderWidth"
+      },
+      "medium": {
+        "value": "{dimension.sizing.nano}",
+        "type": "borderWidth"
+      },
+      "large": {
+        "value": "{dimension.sizing.micro}",
+        "type": "borderWidth"
+      },
+      "extraLarge": {
+        "value": "{dimension.sizing.extraSmall}",
+        "type": "borderWidth"
+      }
+    },
+    "radii": {
+      "none": {
+        "value": "{dimension.sizing.zero}",
+        "type": "borderRadius"
+      },
+      "micro": {
+        "value": "{dimension.sizing.micro}",
+        "type": "borderRadius"
+      },
+      "extraSmall": {
+        "value": "{dimension.sizing.extraSmall}",
+        "type": "borderRadius"
+      },
+      "small": {
+        "value": "{dimension.sizing.small}",
+        "type": "borderRadius"
+      },
+      "medium": {
+        "value": "{dimension.sizing.medium}",
+        "type": "borderRadius"
+      },
+      "large": {
+        "value": "{dimension.sizing.large}",
+        "type": "borderRadius"
+      },
+      "extraLarge": {
+        "value": "{dimension.sizing.extraLarge}",
+        "type": "borderRadius"
+      },
+      "circular": {
+        "value": "10000",
+        "type": "borderRadius"
+      }
+    }
+  }
+}
