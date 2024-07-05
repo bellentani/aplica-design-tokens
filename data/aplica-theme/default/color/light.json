@@ -759,7 +759,8 @@
         },
         "danger": {
           "value": "{color-theme.interface.feedback.danger.surface.action}",
-          "type,": "color"
+          "type,": "color",
+          "type": "other"
         }
       },
       "negative": {
