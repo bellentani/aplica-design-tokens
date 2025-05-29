@@ -3,15 +3,15 @@
     "brand": {
       "first": {
         "$type": "color",
-        "$value": "{foundations.color.brand.branding.first.background}"
+        "$value": "{semantic.color.brand.branding.first.background}"
       },
       "second": {
         "$type": "color",
-        "$value": "{foundations.color.brand.branding.second.background}"
+        "$value": "{semantic.color.brand.branding.second.background}"
       },
       "third": {
         "$type": "color",
-        "$value": "{foundations.color.brand.branding.third.background}"
+        "$value": "{semantic.color.brand.branding.third.background}"
       }
     },
     "ambient": {
@@ -19,138 +19,138 @@
         "positive": {
           "base": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.contrast.base.positive.background}"
+            "$value": "{semantic.color.brand.ambient.contrast.base.positive.background}"
           },
           "deep": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.contrast.deep.positive.background}"
+            "$value": "{semantic.color.brand.ambient.contrast.deep.positive.background}"
           }
         },
         "negative": {
           "base": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.contrast.base.negative.background}"
+            "$value": "{semantic.color.brand.ambient.contrast.base.negative.background}"
           },
           "deep": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.contrast.deep.negative.background}"
+            "$value": "{semantic.color.brand.ambient.contrast.deep.negative.background}"
           }
         }
       },
       "neutral": {
         "highest": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.neutral.highest.background}"
+          "$value": "{semantic.color.brand.ambient.neutral.highest.background}"
         },
         "higher": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.neutral.higher.background}"
+          "$value": "{semantic.color.brand.ambient.neutral.higher.background}"
         },
         "high": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.neutral.high.background}"
+          "$value": "{semantic.color.brand.ambient.neutral.high.background}"
         },
         "mid": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.neutral.mid.background}"
+          "$value": "{semantic.color.brand.ambient.neutral.mid.background}"
         },
         "low": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.neutral.low.background}"
+          "$value": "{semantic.color.brand.ambient.neutral.low.background}"
         },
         "lower": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.neutral.lower.background}"
+          "$value": "{semantic.color.brand.ambient.neutral.lower.background}"
         },
         "lowest": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.neutral.lowest.background}"
+          "$value": "{semantic.color.brand.ambient.neutral.lowest.background}"
         }
       },
       "grayscale": {
         "highest": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.grayscale.highest.background}"
+          "$value": "{semantic.color.brand.ambient.grayscale.highest.background}"
         },
         "higher": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.grayscale.higher.background}"
+          "$value": "{semantic.color.brand.ambient.grayscale.higher.background}"
         },
         "high": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.grayscale.high.background}"
+          "$value": "{semantic.color.brand.ambient.grayscale.high.background}"
         },
         "mid": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.grayscale.mid.background}"
+          "$value": "{semantic.color.brand.ambient.grayscale.mid.background}"
         },
         "low": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.grayscale.low.background}"
+          "$value": "{semantic.color.brand.ambient.grayscale.low.background}"
         },
         "lower": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.grayscale.lower.background}"
+          "$value": "{semantic.color.brand.ambient.grayscale.lower.background}"
         },
         "lowest": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.grayscale.lowest.background}"
+          "$value": "{semantic.color.brand.ambient.grayscale.lowest.background}"
         }
       }
     },
     "function": {
       "primary": {
         "$type": "color",
-        "$value": "{foundations.color.interface.function.primary.normal.background}"
+        "$value": "{semantic.color.interface.function.primary.normal.background}"
       },
       "secondary": {
         "$type": "color",
-        "$value": "{foundations.color.interface.function.secondary.normal.background}"
+        "$value": "{semantic.color.interface.function.secondary.normal.background}"
       },
       "link": {
         "$type": "color",
-        "$value": "{foundations.color.interface.function.link.normal.background}"
+        "$value": "{semantic.color.interface.function.link.normal.background}"
       },
       "disabled": {
         "$type": "color",
-        "$value": "{foundations.color.interface.function.disabled.normal.background}"
+        "$value": "{semantic.color.interface.function.disabled.normal.background}"
       }
     },
     "feedback": {
       "main": {
         "info": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.info.main.normal.background}"
+          "$value": "{semantic.color.interface.feedback.info.main.normal.background}"
         },
         "success": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.success.main.normal.background}"
+          "$value": "{semantic.color.interface.feedback.success.main.normal.background}"
         },
         "warning": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.warning.main.normal.background}"
+          "$value": "{semantic.color.interface.feedback.warning.main.normal.background}"
         },
         "danger": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.danger.main.normal.background}"
+          "$value": "{semantic.color.interface.feedback.danger.main.normal.background}"
         }
       },
       "secondary": {
         "info": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.info.secondary.normal.background}"
+          "$value": "{semantic.color.interface.feedback.info.secondary.normal.background}"
         },
         "success": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.success.secondary.normal.background}"
+          "$value": "{semantic.color.interface.feedback.success.secondary.normal.background}"
         },
         "warning": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.warning.secondary.normal.background}"
+          "$value": "{semantic.color.interface.feedback.warning.secondary.normal.background}"
         },
         "danger": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.danger.secondary.normal.background}"
+          "$value": "{semantic.color.interface.feedback.danger.secondary.normal.background}"
         }
       }
     }
@@ -158,138 +158,138 @@
   "sizing": {
     "zero": {
       "$type": "sizing",
-      "$value": "{foundations.dimension.sizing.zero}"
+      "$value": "{semantic.dimension.sizing.zero}"
     },
     "pico": {
       "$type": "sizing",
-      "$value": "{foundations.dimension.sizing.pico}"
+      "$value": "{semantic.dimension.sizing.pico}"
     },
     "nano": {
       "$type": "sizing",
-      "$value": "{foundations.dimension.sizing.nano}"
+      "$value": "{semantic.dimension.sizing.nano}"
     },
     "micro": {
       "$type": "sizing",
-      "$value": "{foundations.dimension.sizing.micro}"
+      "$value": "{semantic.dimension.sizing.micro}"
     },
     "extraSmall": {
       "$type": "sizing",
-      "$value": "{foundations.dimension.sizing.extraSmall}"
+      "$value": "{semantic.dimension.sizing.extraSmall}"
     },
     "small": {
       "$type": "sizing",
-      "$value": "{foundations.dimension.sizing.small}"
+      "$value": "{semantic.dimension.sizing.small}"
     },
     "medium": {
       "$type": "sizing",
-      "$value": "{foundations.dimension.sizing.medium}"
+      "$value": "{semantic.dimension.sizing.medium}"
     },
     "large": {
       "$type": "sizing",
-      "$value": "{foundations.dimension.sizing.large}"
+      "$value": "{semantic.dimension.sizing.large}"
     },
     "extraLarge": {
       "$type": "sizing",
-      "$value": "{foundations.dimension.sizing.extraLarge}"
+      "$value": "{semantic.dimension.sizing.extraLarge}"
     },
     "mega": {
       "$type": "sizing",
-      "$value": "{foundations.dimension.sizing.mega}"
+      "$value": "{semantic.dimension.sizing.mega}"
     },
     "giga": {
       "$type": "sizing",
-      "$value": "{foundations.dimension.sizing.giga}"
+      "$value": "{semantic.dimension.sizing.giga}"
     }
   },
   "padding": {
     "zero": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.zero}"
+      "$value": "{semantic.dimension.spacing.zero}"
     },
     "micro": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.micro}"
+      "$value": "{semantic.dimension.spacing.micro}"
     },
     "extraSmall": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.extraSmall}"
+      "$value": "{semantic.dimension.spacing.extraSmall}"
     },
     "small": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.small}"
+      "$value": "{semantic.dimension.spacing.small}"
     },
     "medium": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.medium}"
+      "$value": "{semantic.dimension.spacing.medium}"
     },
     "large": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.large}"
+      "$value": "{semantic.dimension.spacing.large}"
     },
     "extraLarge": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.extraLarge}"
+      "$value": "{semantic.dimension.spacing.extraLarge}"
     },
     "mega": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.mega}"
+      "$value": "{semantic.dimension.spacing.mega}"
     },
     "giga": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.giga}"
+      "$value": "{semantic.dimension.spacing.giga}"
     }
   },
   "gap": {
     "zero": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.zero}"
+      "$value": "{semantic.dimension.spacing.zero}"
     },
     "micro": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.micro}"
+      "$value": "{semantic.dimension.spacing.micro}"
     },
     "extraSmall": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.extraSmall}"
+      "$value": "{semantic.dimension.spacing.extraSmall}"
     },
     "small": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.small}"
+      "$value": "{semantic.dimension.spacing.small}"
     },
     "medium": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.medium}"
+      "$value": "{semantic.dimension.spacing.medium}"
     },
     "large": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.large}"
+      "$value": "{semantic.dimension.spacing.large}"
     },
     "extraLarge": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.extraLarge}"
+      "$value": "{semantic.dimension.spacing.extraLarge}"
     },
     "mega": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.mega}"
+      "$value": "{semantic.dimension.spacing.mega}"
     },
     "giga": {
       "$type": "spacing",
-      "$value": "{foundations.dimension.spacing.giga}"
+      "$value": "{semantic.dimension.spacing.giga}"
     }
   },
   "border": {
     "brand": {
       "first": {
         "$type": "color",
-        "$value": "{foundations.color.brand.branding.first.border}"
+        "$value": "{semantic.color.brand.branding.first.border}"
       },
       "second": {
         "$type": "color",
-        "$value": "{foundations.color.brand.branding.second.border}"
+        "$value": "{semantic.color.brand.branding.second.border}"
       },
       "third": {
         "$type": "color",
-        "$value": "{foundations.color.brand.branding.third.border}"
+        "$value": "{semantic.color.brand.branding.third.border}"
       }
     },
     "ambient": {
@@ -297,191 +297,191 @@
         "positive": {
           "base": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.contrast.base.positive.border}"
+            "$value": "{semantic.color.brand.ambient.contrast.base.positive.border}"
           },
           "deep": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.contrast.deep.positive.border}"
+            "$value": "{semantic.color.brand.ambient.contrast.deep.positive.border}"
           }
         },
         "negative": {
           "base": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.contrast.base.negative.border}"
+            "$value": "{semantic.color.brand.ambient.contrast.base.negative.border}"
           },
           "deep": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.contrast.deep.negative.border}"
+            "$value": "{semantic.color.brand.ambient.contrast.deep.negative.border}"
           }
         }
       },
       "neutral": {
         "highest": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.neutral.highest.border}"
+          "$value": "{semantic.color.brand.ambient.neutral.highest.border}"
         },
         "higher": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.neutral.higher.border}"
+          "$value": "{semantic.color.brand.ambient.neutral.higher.border}"
         },
         "high": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.neutral.high.border}"
+          "$value": "{semantic.color.brand.ambient.neutral.high.border}"
         },
         "mid": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.neutral.mid.border}"
+          "$value": "{semantic.color.brand.ambient.neutral.mid.border}"
         },
         "low": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.neutral.low.border}"
+          "$value": "{semantic.color.brand.ambient.neutral.low.border}"
         },
         "lower": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.neutral.lower.border}"
+          "$value": "{semantic.color.brand.ambient.neutral.lower.border}"
         },
         "lowest": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.neutral.lowest.border}"
+          "$value": "{semantic.color.brand.ambient.neutral.lowest.border}"
         }
       },
       "grayscale": {
         "highest": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.grayscale.highest.border}"
+          "$value": "{semantic.color.brand.ambient.grayscale.highest.border}"
         },
         "higher": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.grayscale.higher.border}"
+          "$value": "{semantic.color.brand.ambient.grayscale.higher.border}"
         },
         "high": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.grayscale.high.border}"
+          "$value": "{semantic.color.brand.ambient.grayscale.high.border}"
         },
         "mid": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.grayscale.mid.border}"
+          "$value": "{semantic.color.brand.ambient.grayscale.mid.border}"
         },
         "low": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.grayscale.low.border}"
+          "$value": "{semantic.color.brand.ambient.grayscale.low.border}"
         },
         "lower": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.grayscale.lower.border}"
+          "$value": "{semantic.color.brand.ambient.grayscale.lower.border}"
         },
         "lowest": {
           "$type": "color",
-          "$value": "{foundations.color.brand.ambient.grayscale.lowest.border}"
+          "$value": "{semantic.color.brand.ambient.grayscale.lowest.border}"
         }
       }
     },
     "function": {
       "primary": {
         "$type": "color",
-        "$value": "{foundations.color.interface.function.primary.normal.border}"
+        "$value": "{semantic.color.interface.function.primary.normal.border}"
       },
       "secondary": {
         "$type": "color",
-        "$value": "{foundations.color.interface.function.secondary.normal.border}"
+        "$value": "{semantic.color.interface.function.secondary.normal.border}"
       },
       "link": {
         "$type": "color",
-        "$value": "{foundations.color.interface.function.link.normal.border}"
+        "$value": "{semantic.color.interface.function.link.normal.border}"
       },
       "disabled": {
         "$type": "color",
-        "$value": "{foundations.color.interface.function.disabled.normal.border}"
+        "$value": "{semantic.color.interface.function.disabled.normal.border}"
       }
     },
     "feedback": {
       "main": {
         "info": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.info.main.normal.border}"
+          "$value": "{semantic.color.interface.feedback.info.main.normal.border}"
         },
         "success": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.success.main.normal.border}"
+          "$value": "{semantic.color.interface.feedback.success.main.normal.border}"
         },
         "warning": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.warning.main.normal.border}"
+          "$value": "{semantic.color.interface.feedback.warning.main.normal.border}"
         },
         "danger": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.danger.main.normal.border}"
+          "$value": "{semantic.color.interface.feedback.danger.main.normal.border}"
         }
       },
       "secondary": {
         "info": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.info.secondary.normal.border}"
+          "$value": "{semantic.color.interface.feedback.info.secondary.normal.border}"
         },
         "success": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.success.secondary.normal.border}"
+          "$value": "{semantic.color.interface.feedback.success.secondary.normal.border}"
         },
         "warning": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.warning.secondary.normal.border}"
+          "$value": "{semantic.color.interface.feedback.warning.secondary.normal.border}"
         },
         "danger": {
           "$type": "color",
-          "$value": "{foundations.color.interface.feedback.danger.secondary.normal.border}"
+          "$value": "{semantic.color.interface.feedback.danger.secondary.normal.border}"
         }
       }
     },
     "width": {
       "none": {
         "$type": "borderWidth",
-        "$value": "{foundations.dimension.sizing.zero}"
+        "$value": "{semantic.dimension.sizing.zero}"
       },
       "small": {
         "$type": "borderWidth",
-        "$value": "{foundations.dimension.sizing.pico}"
+        "$value": "{semantic.dimension.sizing.pico}"
       },
       "medium": {
         "$type": "borderWidth",
-        "$value": "{foundations.dimension.sizing.nano}"
+        "$value": "{semantic.dimension.sizing.nano}"
       },
       "large": {
         "$type": "borderWidth",
-        "$value": "{foundations.dimension.sizing.micro}"
+        "$value": "{semantic.dimension.sizing.micro}"
       },
       "extraLarge": {
         "$type": "borderWidth",
-        "$value": "{foundations.dimension.sizing.extraSmall}"
+        "$value": "{semantic.dimension.sizing.extraSmall}"
       }
     },
     "radii": {
       "none": {
         "$type": "borderRadius",
-        "$value": "{foundations.dimension.sizing.zero}"
+        "$value": "{semantic.dimension.sizing.zero}"
       },
       "micro": {
         "$type": "borderRadius",
-        "$value": "{foundations.dimension.sizing.micro}"
+        "$value": "{semantic.dimension.sizing.micro}"
       },
       "extraSmall": {
         "$type": "borderRadius",
-        "$value": "{foundations.dimension.sizing.extraSmall}"
+        "$value": "{semantic.dimension.sizing.extraSmall}"
       },
       "small": {
         "$type": "borderRadius",
-        "$value": "{foundations.dimension.sizing.small}"
+        "$value": "{semantic.dimension.sizing.small}"
       },
       "medium": {
         "$type": "borderRadius",
-        "$value": "{foundations.dimension.sizing.medium}"
+        "$value": "{semantic.dimension.sizing.medium}"
       },
       "large": {
         "$type": "borderRadius",
-        "$value": "{foundations.dimension.sizing.large}"
+        "$value": "{semantic.dimension.sizing.large}"
       },
       "extraLarge": {
         "$type": "borderRadius",
-        "$value": "{foundations.dimension.sizing.extraLarge}"
+        "$value": "{semantic.dimension.sizing.extraLarge}"
       },
       "circular": {
         "$type": "borderRadius",
@@ -494,15 +494,15 @@
       "brand": {
         "first": {
           "$type": "color",
-          "$value": "{foundations.color.brand.branding.first.txtOn}"
+          "$value": "{semantic.color.brand.branding.first.txtOn}"
         },
         "second": {
           "$type": "color",
-          "$value": "{foundations.color.brand.branding.second.txtOn}"
+          "$value": "{semantic.color.brand.branding.second.txtOn}"
         },
         "third": {
           "$type": "color",
-          "$value": "{foundations.color.brand.branding.third.txtOn}"
+          "$value": "{semantic.color.brand.branding.third.txtOn}"
         }
       },
       "ambient": {
@@ -510,138 +510,138 @@
           "positive": {
             "base": {
               "$type": "color",
-              "$value": "{foundations.color.brand.ambient.contrast.base.positive.txtOn}"
+              "$value": "{semantic.color.brand.ambient.contrast.base.positive.txtOn}"
             },
             "deep": {
               "$type": "color",
-              "$value": "{foundations.color.brand.ambient.contrast.deep.positive.txtOn}"
+              "$value": "{semantic.color.brand.ambient.contrast.deep.positive.txtOn}"
             }
           },
           "negative": {
             "base": {
               "$type": "color",
-              "$value": "{foundations.color.brand.ambient.contrast.base.negative.txtOn}"
+              "$value": "{semantic.color.brand.ambient.contrast.base.negative.txtOn}"
             },
             "deep": {
               "$type": "color",
-              "$value": "{foundations.color.brand.ambient.contrast.deep.negative.txtOn}"
+              "$value": "{semantic.color.brand.ambient.contrast.deep.negative.txtOn}"
             }
           }
         },
         "neutral": {
           "highest": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.neutral.highest.txtOn}"
+            "$value": "{semantic.color.brand.ambient.neutral.highest.txtOn}"
           },
           "higher": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.neutral.higher.txtOn}"
+            "$value": "{semantic.color.brand.ambient.neutral.higher.txtOn}"
           },
           "high": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.neutral.high.txtOn}"
+            "$value": "{semantic.color.brand.ambient.neutral.high.txtOn}"
           },
           "mid": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.neutral.mid.txtOn}"
+            "$value": "{semantic.color.brand.ambient.neutral.mid.txtOn}"
           },
           "low": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.neutral.low.txtOn}"
+            "$value": "{semantic.color.brand.ambient.neutral.low.txtOn}"
           },
           "lower": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.neutral.lower.txtOn}"
+            "$value": "{semantic.color.brand.ambient.neutral.lower.txtOn}"
           },
           "lowest": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.neutral.lowest.txtOn}"
+            "$value": "{semantic.color.brand.ambient.neutral.lowest.txtOn}"
           }
         },
         "grayscale": {
           "highest": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.grayscale.highest.txtOn}"
+            "$value": "{semantic.color.brand.ambient.grayscale.highest.txtOn}"
           },
           "higher": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.grayscale.higher.txtOn}"
+            "$value": "{semantic.color.brand.ambient.grayscale.higher.txtOn}"
           },
           "high": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.grayscale.high.txtOn}"
+            "$value": "{semantic.color.brand.ambient.grayscale.high.txtOn}"
           },
           "mid": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.grayscale.mid.txtOn}"
+            "$value": "{semantic.color.brand.ambient.grayscale.mid.txtOn}"
           },
           "low": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.grayscale.low.txtOn}"
+            "$value": "{semantic.color.brand.ambient.grayscale.low.txtOn}"
           },
           "lower": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.grayscale.lower.txtOn}"
+            "$value": "{semantic.color.brand.ambient.grayscale.lower.txtOn}"
           },
           "lowest": {
             "$type": "color",
-            "$value": "{foundations.color.brand.ambient.grayscale.lowest.txtOn}"
+            "$value": "{semantic.color.brand.ambient.grayscale.lowest.txtOn}"
           }
         }
       },
       "function": {
         "primary": {
           "$type": "color",
-          "$value": "{foundations.color.interface.function.primary.normal.txtOn}"
+          "$value": "{semantic.color.interface.function.primary.normal.txtOn}"
         },
         "secondary": {
           "$type": "color",
-          "$value": "{foundations.color.interface.function.secondary.normal.txtOn}"
+          "$value": "{semantic.color.interface.function.secondary.normal.txtOn}"
         },
         "link": {
           "$type": "color",
-          "$value": "{foundations.color.interface.function.link.normal.txtOn}"
+          "$value": "{semantic.color.interface.function.link.normal.txtOn}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{foundations.color.interface.function.disabled.normal.txtOn}"
+          "$value": "{semantic.color.interface.function.disabled.normal.txtOn}"
         }
       },
       "feedback": {
         "main": {
           "info": {
             "$type": "color",
-            "$value": "{foundations.color.interface.feedback.info.main.normal.txtOn}"
+            "$value": "{semantic.color.interface.feedback.info.main.normal.txtOn}"
           },
           "success": {
             "$type": "color",
-            "$value": "{foundations.color.interface.feedback.success.main.normal.txtOn}"
+            "$value": "{semantic.color.interface.feedback.success.main.normal.txtOn}"
           },
           "warning": {
             "$type": "color",
-            "$value": "{foundations.color.interface.feedback.warning.main.normal.txtOn}"
+            "$value": "{semantic.color.interface.feedback.warning.main.normal.txtOn}"
           },
           "danger": {
             "$type": "color",
-            "$value": "{foundations.color.interface.feedback.danger.main.normal.txtOn}"
+            "$value": "{semantic.color.interface.feedback.danger.main.normal.txtOn}"
           }
         },
         "secondary": {
           "info": {
             "$type": "color",
-            "$value": "{foundations.color.interface.feedback.info.secondary.normal.txtOn}"
+            "$value": "{semantic.color.interface.feedback.info.secondary.normal.txtOn}"
           },
           "success": {
             "$type": "color",
-            "$value": "{foundations.color.interface.feedback.success.secondary.normal.txtOn}"
+            "$value": "{semantic.color.interface.feedback.success.secondary.normal.txtOn}"
           },
           "warning": {
             "$type": "color",
-            "$value": "{foundations.color.interface.feedback.warning.secondary.normal.txtOn}"
+            "$value": "{semantic.color.interface.feedback.warning.secondary.normal.txtOn}"
           },
           "danger": {
             "$type": "color",
-            "$value": "{foundations.color.interface.feedback.danger.secondary.normal.txtOn}"
+            "$value": "{semantic.color.interface.feedback.danger.secondary.normal.txtOn}"
           }
         }
       }
@@ -649,77 +649,77 @@
     "positive": {
       "title": {
         "$type": "color",
-        "$value": "{foundations.color.text.positive.title}"
+        "$value": "{semantic.color.text.positive.title}"
       },
       "body": {
         "$type": "color",
-        "$value": "{foundations.color.text.positive.body}"
+        "$value": "{semantic.color.text.positive.body}"
       },
       "highlight": {
         "$type": "color",
-        "$value": "{foundations.color.text.positive.highlight}"
+        "$value": "{semantic.color.text.positive.highlight}"
       },
       "muted": {
         "$type": "color",
-        "$value": "{foundations.color.text.positive.muted}"
+        "$value": "{semantic.color.text.positive.muted}"
       },
       "label": {
         "$type": "color",
-        "$value": "{foundations.color.text.positive.label}"
+        "$value": "{semantic.color.text.positive.label}"
       },
       "info": {
         "$type": "color",
-        "$value": "{foundations.color.text.positive.info}"
+        "$value": "{semantic.color.text.positive.info}"
       },
       "success": {
         "$type": "color",
-        "$value": "{foundations.color.text.positive.success}"
+        "$value": "{semantic.color.text.positive.success}"
       },
       "warning": {
         "$type": "color",
-        "$value": "{foundations.color.text.positive.warning}"
+        "$value": "{semantic.color.text.positive.warning}"
       },
       "danger": {
         "$type": "color",
-        "$value": "{foundations.color.text.positive.danger}"
+        "$value": "{semantic.color.text.positive.danger}"
       }
     },
     "negative": {
       "title": {
         "$type": "color",
-        "$value": "{foundations.color.text.negative.title}"
+        "$value": "{semantic.color.text.negative.title}"
       },
       "body": {
         "$type": "color",
-        "$value": "{foundations.color.text.negative.body}"
+        "$value": "{semantic.color.text.negative.body}"
       },
       "highlight": {
         "$type": "color",
-        "$value": "{foundations.color.text.negative.highlight}"
+        "$value": "{semantic.color.text.negative.highlight}"
       },
       "muted": {
         "$type": "color",
-        "$value": "{foundations.color.text.negative.muted}"
+        "$value": "{semantic.color.text.negative.muted}"
       },
       "label": {
         "$type": "color",
-        "$value": "{foundations.color.text.negative.label}"
+        "$value": "{semantic.color.text.negative.label}"
       },
       "info": {
         "$type": "color",
-        "$value": "{foundations.color.text.negative.info}"
+        "$value": "{semantic.color.text.negative.info}"
       },
       "success": {
         "$type": "color",
-        "$value": "{foundations.color.text.negative.success}"
+        "$value": "{semantic.color.text.negative.success}"
       },
       "warning": {
         "$type": "color",
-        "$value": "{foundations.color.text.negative.warning}"
+        "$value": "{semantic.color.text.negative.warning}"
       },
       "danger": {
         "$type": "color",
-        "$value": "{foundations.color.text.negative.danger}"
+        "$value": "{semantic.color.text.negative.danger}"
       }
     }
   },
@@ -728,340 +728,66 @@
       "paragraph": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{foundations.text.fontFamilies.content}",
-          "fontWeight": "{foundations.text.fontWeights.regular}",
-          "lineHeight": "{foundations.text.lineHeights.small.close}",
-          "fontSize": "{foundations.text.fontSizes.small}",
-          "letterSpacing": "{foundations.text.letterSpacing.regular}",
-          "paragraphSpacing": "{foundations.text.paragraphSpacing.small}",
-          "textDecoration": "{foundations.text.decorations.default}",
-          "textCase": "{foundations.text.transforms.normal}"
+          "fontFamily": "{semantic.text.fontFamilies.content}",
+          "fontWeight": "{semantic.text.fontWeights.regular}",
+          "lineHeight": "{semantic.text.lineHeights.small.close}",
+          "fontSize": "{semantic.text.fontSizes.small}",
+          "letterSpacing": "{semantic.text.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.text.paragraphSpacing.small}",
+          "textDecoration": "{semantic.text.decorations.default}",
+          "textCase": "{semantic.text.transforms.normal}"
         }
       },
       "lead": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{foundations.text.fontFamilies.content}",
-          "fontWeight": "{foundations.text.fontWeights.regular}",
-          "lineHeight": "{foundations.text.lineHeights.medium.close}",
-          "fontSize": "{foundations.text.fontSizes.medium}",
-          "letterSpacing": "{foundations.text.letterSpacing.regular}",
-          "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
-          "textDecoration": "{foundations.text.decorations.default}",
-          "textCase": "{foundations.text.transforms.normal}"
+          "fontFamily": "{semantic.text.fontFamilies.content}",
+          "fontWeight": "{semantic.text.fontWeights.regular}",
+          "lineHeight": "{semantic.text.lineHeights.medium.close}",
+          "fontSize": "{semantic.text.fontSizes.medium}",
+          "letterSpacing": "{semantic.text.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.text.paragraphSpacing.medium}",
+          "textDecoration": "{semantic.text.decorations.default}",
+          "textCase": "{semantic.text.transforms.normal}"
         }
       },
       "meta": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{foundations.text.fontFamilies.content}",
-          "fontWeight": "{foundations.text.fontWeights.regular}",
-          "lineHeight": "{foundations.text.lineHeights.micro.close}",
-          "fontSize": "{foundations.text.fontSizes.micro}",
-          "letterSpacing": "{foundations.text.letterSpacing.regular}",
-          "paragraphSpacing": "{foundations.text.paragraphSpacing.micro}",
-          "textDecoration": "{foundations.text.decorations.default}",
-          "textCase": "{foundations.text.transforms.normal}"
+          "fontFamily": "{semantic.text.fontFamilies.content}",
+          "fontWeight": "{semantic.text.fontWeights.regular}",
+          "lineHeight": "{semantic.text.lineHeights.micro.close}",
+          "fontSize": "{semantic.text.fontSizes.micro}",
+          "letterSpacing": "{semantic.text.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.text.paragraphSpacing.micro}",
+          "textDecoration": "{semantic.text.decorations.default}",
+          "textCase": "{semantic.text.transforms.normal}"
         }
       },
       "blockquote": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{foundations.text.fontFamilies.content}",
-          "fontWeight": "{foundations.text.fontWeights.regular}",
-          "lineHeight": "{foundations.text.lineHeights.large.close}",
-          "fontSize": "{foundations.text.fontSizes.large}",
-          "letterSpacing": "{foundations.text.letterSpacing.regular}",
-          "paragraphSpacing": "{foundations.text.paragraphSpacing.large}",
-          "textDecoration": "{foundations.text.decorations.default}",
-          "textCase": "{foundations.text.transforms.normal}"
+          "fontFamily": "{semantic.text.fontFamilies.content}",
+          "fontWeight": "{semantic.text.fontWeights.regular}",
+          "lineHeight": "{semantic.text.lineHeights.large.close}",
+          "fontSize": "{semantic.text.fontSizes.large}",
+          "letterSpacing": "{semantic.text.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.text.paragraphSpacing.large}",
+          "textDecoration": "{semantic.text.decorations.default}",
+          "textCase": "{semantic.text.transforms.normal}"
         }
       },
       "label": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{foundations.text.fontFamilies.content}",
-          "fontWeight": "{foundations.text.fontWeights.semibold}",
-          "lineHeight": "{foundations.text.lineHeights.extraSmall.close}",
-          "fontSize": "{foundations.text.fontSizes.extraSmall}",
-          "letterSpacing": "{foundations.text.letterSpacing.regular}",
-          "paragraphSpacing": "{foundations.text.paragraphSpacing.small}",
-          "textDecoration": "{foundations.text.decorations.default}",
-          "textCase": "{foundations.text.transforms.normal}"
-        }
-      }
-    },
-    "mobile": {
-      "display": {
-        "display1": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.stronger}",
-            "lineHeight": "{foundations.text.lineHeights.mega.close}",
-            "fontSize": "{foundations.text.fontSizes.mega}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.extraLarge}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "display2": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.stronger}",
-            "lineHeight": "{foundations.text.lineHeights.extraLarge.close}",
-            "fontSize": "{foundations.text.fontSizes.extraLarge}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.large}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "display3": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.stronger}",
-            "lineHeight": "{foundations.text.lineHeights.large.close}",
-            "fontSize": "{foundations.text.fontSizes.large}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "display4": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.stronger}",
-            "lineHeight": "{foundations.text.lineHeights.medium.close}",
-            "fontSize": "{foundations.text.fontSizes.medium}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.small}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        }
-      },
-      "headline": {
-        "headline1": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.bold}",
-            "lineHeight": "{foundations.text.lineHeights.extraLarge.close}",
-            "fontSize": "{foundations.text.fontSizes.extraLarge}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.large}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "headline2": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.bold}",
-            "lineHeight": "{foundations.text.lineHeights.large.close}",
-            "fontSize": "{foundations.text.fontSizes.large}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "headline3": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.bold}",
-            "lineHeight": "{foundations.text.lineHeights.large.close}",
-            "fontSize": "{foundations.text.fontSizes.large}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
-            "fontStyles": "{foundations.text.fontStyles.italic}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "headline4": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.bold}",
-            "lineHeight": "{foundations.text.lineHeights.medium.close}",
-            "fontSize": "{foundations.text.fontSizes.medium}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.small}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "headline5": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.bold}",
-            "lineHeight": "{foundations.text.lineHeights.medium.close}",
-            "fontSize": "{foundations.text.fontSizes.medium}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.small}",
-            "fontStyles": "{foundations.text.fontStyles.normal}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "headline6": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.bold}",
-            "lineHeight": "{foundations.text.lineHeights.small.close}",
-            "fontSize": "{foundations.text.fontSizes.small}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.small}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.uppercase}"
-          }
-        }
-      }
-    },
-    "desktop": {
-      "display": {
-        "display1": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.stronger}",
-            "lineHeight": "{foundations.text.lineHeights.giga.close}",
-            "fontSize": "{foundations.text.fontSizes.tera}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.giga}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "display2": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.stronger}",
-            "lineHeight": "{foundations.text.lineHeights.tera.close}",
-            "fontSize": "{foundations.text.fontSizes.giga}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.giga}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "display3": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.stronger}",
-            "lineHeight": "{foundations.text.lineHeights.giga.close}",
-            "fontSize": "{foundations.text.fontSizes.giga}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.mega}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "display4": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.stronger}",
-            "lineHeight": "{foundations.text.lineHeights.mega.close}",
-            "fontSize": "{foundations.text.fontSizes.mega}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.extraLarge}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        }
-      },
-      "headline": {
-        "headline1": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.bold}",
-            "lineHeight": "{foundations.text.lineHeights.tera.close}",
-            "fontSize": "{foundations.text.fontSizes.tera}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.giga}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "headline2": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.bold}",
-            "lineHeight": "{foundations.text.lineHeights.giga.close}",
-            "fontSize": "{foundations.text.fontSizes.giga}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.mega}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "headline3": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.bold}",
-            "lineHeight": "{foundations.text.lineHeights.mega.close}",
-            "fontSize": "{foundations.text.fontSizes.mega}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.extraLarge}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "headline4": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.bold}",
-            "lineHeight": "{foundations.text.lineHeights.extraLarge.close}",
-            "fontSize": "{foundations.text.fontSizes.extraLarge}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.large}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "headline5": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.bold}",
-            "lineHeight": "{foundations.text.lineHeights.large.close}",
-            "fontSize": "{foundations.text.fontSizes.large}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
-        },
-        "headline6": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{foundations.text.fontFamilies.main}",
-            "fontWeight": "{foundations.text.fontWeights.bold}",
-            "lineHeight": "{foundations.text.lineHeights.medium.close}",
-            "fontSize": "{foundations.text.fontSizes.medium}",
-            "letterSpacing": "{foundations.text.letterSpacing.regular}",
-            "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
-            "textDecoration": "{foundations.text.decorations.default}",
-            "textCase": "{foundations.text.transforms.normal}"
-          }
+          "fontFamily": "{semantic.text.fontFamilies.content}",
+          "fontWeight": "{semantic.text.fontWeights.semibold}",
+          "lineHeight": "{semantic.text.lineHeights.extraSmall.close}",
+          "fontSize": "{semantic.text.fontSizes.extraSmall}",
+          "letterSpacing": "{semantic.text.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.text.paragraphSpacing.small}",
+          "textDecoration": "{semantic.text.decorations.default}",
+          "textCase": "{semantic.text.transforms.normal}"
         }
       }
     }

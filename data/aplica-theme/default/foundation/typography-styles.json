@@ -1,792 +1,798 @@
 {
   "typography-styles": {
     "theme-engine": {
-      "heading": {
-        "title-1": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-            "fontSize": "{semantic.typography.fontSizes.extraLarge}",
-            "lineHeight": "{semantic.typography.lineHeights.close.extraLarge}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
+      "block": {
+        "content": {
+          "body": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{semantic.typography.fontFamilies.content}",
+              "fontWeight": "{semantic.typography.fontWeights.content.regular.normal}",
+              "fontSize": "{semantic.typography.fontSizes.small}",
+              "lineHeight": "{semantic.typography.lineHeights.regular.small}",
+              "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
+              "textCase": "{semantic.typography.textCase.normal}",
+              "textDecoration": "{semantic.typography.textDecoration.default}"
+            },
+            "$description": "Use for primary content text, including descriptions, instructions, and general UI text. The Body style is designed to be easily readable and is the most frequently used text style."
           },
-          "$description": "Use for primary section headers, page titles, and key navigation elements. Title 1 serves as the main title style, drawing the user's attention to the most critical parts of the UI."
-        },
-        "title-2": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-            "fontSize": "{semantic.typography.fontSizes.large}",
-            "lineHeight": "{semantic.typography.lineHeights.close.large}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
+          "body-large": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{semantic.typography.fontFamilies.content}",
+              "fontWeight": "{semantic.typography.fontWeights.content.regular.normal}",
+              "fontSize": "{semantic.typography.fontSizes.medium}",
+              "lineHeight": "{semantic.typography.lineHeights.regular.medium}",
+              "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
+              "textCase": "{semantic.typography.textCase.normal}",
+              "textDecoration": "{semantic.typography.textDecoration.default}"
+            },
+            "$description": "Use for hightlight content text, chapter or category descriptions, instructions. The Body Large style is a support for Body Large and titles"
           },
-          "$description": "Suitable for secondary section headers, subheadings, and prominent text blocks. Title 2 helps maintain a clear content hierarchy beneath the primary titles."
-        },
-        "title-3": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-            "fontSize": "{semantic.typography.fontSizes.medium}",
-            "lineHeight": "{semantic.typography.lineHeights.regular.medium}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
+          "label": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{semantic.typography.fontFamilies.content}",
+              "fontWeight": "{semantic.typography.fontWeights.content.semibold.normal}",
+              "fontSize": "{semantic.typography.fontSizes.small}",
+              "lineHeight": "{semantic.typography.lineHeights.regular.small}",
+              "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
+              "textCase": "{semantic.typography.textCase.normal}",
+              "textDecoration": "{semantic.typography.textDecoration.default}"
+            },
+            "$description": "Suitable for indicative labels within forms, settings, or other interface elements where clear, non-interactive text is needed. The Label style is designed to provide clear identification of fields, categories, or statuses."
           },
-          "$description": "Ideal for tertiary headings, category labels, or smaller section dividers. Title 3 is used where space is limited but clarity is still essential."
-        },
-        "title-4": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-            "fontSize": "{semantic.typography.fontSizes.small}",
-            "lineHeight": "{semantic.typography.lineHeights.regular.small}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
+          "informative": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{semantic.typography.fontFamilies.content}",
+              "fontWeight": "{semantic.typography.fontWeights.content.regular.normal}",
+              "fontSize": "{semantic.typography.fontSizes.small}",
+              "lineHeight": "{semantic.typography.lineHeights.regular.small}",
+              "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
+              "textCase": "{semantic.typography.textCase.normal}",
+              "textDecoration": "{semantic.typography.textDecoration.default}"
+            },
+            "$description": "Ideal for alert messages, notifications, and important instructions. The Informative style ensures that crucial information is immediately recognizable to users."
           },
-          "$description": "Best for minor headings, labels, or descriptive titles where subtle emphasis is required. Title 4 is used to distinguish between different content types while maintaining readability."
-        },
-        "highlight-1": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-            "fontSize": "{semantic.typography.fontSizes.large}",
-            "lineHeight": "{semantic.typography.lineHeights.close.large}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
+          "meta": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{semantic.typography.fontFamilies.content}",
+              "fontWeight": "{semantic.typography.fontWeights.content.regular.normal}",
+              "fontSize": "{semantic.typography.fontSizes.extraSmall}",
+              "lineHeight": "{semantic.typography.lineHeights.close.extraSmall}",
+              "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
+              "textCase": "{semantic.typography.textCase.normal}",
+              "textDecoration": "{semantic.typography.textDecoration.default}"
+            },
+            "$description": "Best for secondary information such as timestamps, footnotes, or additional context. The Meta style is smaller, providing necessary details without overwhelming the primary content."
           },
-          "$description": "Use for key supporting information that needs to stand out beneath a primary title. Highlight 1 is essential for drawing attention to crucial details."
-        },
-        "highlight-2": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-            "fontSize": "{semantic.typography.fontSizes.medium}",
-            "lineHeight": "{semantic.typography.lineHeights.close.medium}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
+          "quote": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{semantic.typography.fontFamilies.content}",
+              "fontWeight": "{semantic.typography.fontWeights.content.regular.italic}",
+              "fontSize": "{semantic.typography.fontSizes.large}",
+              "lineHeight": "{semantic.typography.lineHeights.regular.large}",
+              "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
+              "textCase": "{semantic.typography.textCase.normal}",
+              "textDecoration": "{semantic.typography.textDecoration.default}"
+            },
+            "$description": "Best for secondary information such as timestamps, footnotes, or additional context. The Meta style is smaller, providing necessary details without overwhelming the primary content."
           },
-          "$description": "Suitable for secondary supporting text that complements the primary information. Highlight 2 helps to enhance readability without overpowering the main titles."
-        },
-        "highlight-3": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-            "fontSize": "{semantic.typography.fontSizes.small}",
-            "lineHeight": "{semantic.typography.lineHeights.regular.small}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          },
-          "$description": "Ideal for brief explanatory text or annotations that need subtle emphasis. Highlight 3 offers a balance between prominence and subtlety."
-        },
-        "highlight-4": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-            "fontSize": "{semantic.typography.fontSizes.extraSmall}",
-            "lineHeight": "{semantic.typography.lineHeights.regular.extraSmall}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          },
-          "$description": "Best for minor supporting text or disclaimers that should be noticeable but not distracting. Highlight 4 ensures that all relevant information is accessible without cluttering the UI."
-        }
-      },
-      "content": {
-        "body": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.content}",
-            "fontWeight": "{semantic.typography.fontWeights.content.regular.normal}",
-            "fontSize": "{semantic.typography.fontSizes.small}",
-            "lineHeight": "{semantic.typography.lineHeights.regular.small}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          },
-          "$description": "Use for primary content text, including descriptions, instructions, and general UI text. The Body style is designed to be easily readable and is the most frequently used text style."
-        },
-        "body-large": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.content}",
-            "fontWeight": "{semantic.typography.fontWeights.content.regular.normal}",
-            "fontSize": "{semantic.typography.fontSizes.medium}",
-            "lineHeight": "{semantic.typography.lineHeights.regular.medium}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          },
-          "$description": "Use for hightlight content text, chapter or category descriptions, instructions. The Body Large style is a support for Body Large and titles"
-        },
-        "label": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.content}",
-            "fontWeight": "{semantic.typography.fontWeights.content.semibold.normal}",
-            "fontSize": "{semantic.typography.fontSizes.small}",
-            "lineHeight": "{semantic.typography.lineHeights.regular.small}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          },
-          "$description": "Suitable for indicative labels within forms, settings, or other interface elements where clear, non-interactive text is needed. The Label style is designed to provide clear identification of fields, categories, or statuses."
-        },
-        "informative": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.content}",
-            "fontWeight": "{semantic.typography.fontWeights.content.regular.normal}",
-            "fontSize": "{semantic.typography.fontSizes.small}",
-            "lineHeight": "{semantic.typography.lineHeights.regular.small}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          },
-          "$description": "Ideal for alert messages, notifications, and important instructions. The Informative style ensures that crucial information is immediately recognizable to users."
-        },
-        "meta": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.content}",
-            "fontWeight": "{semantic.typography.fontWeights.content.regular.normal}",
-            "fontSize": "{semantic.typography.fontSizes.extraSmall}",
-            "lineHeight": "{semantic.typography.lineHeights.close.extraSmall}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          },
-          "$description": "Best for secondary information such as timestamps, footnotes, or additional context. The Meta style is smaller, providing necessary details without overwhelming the primary content."
-        },
-        "quote": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.content}",
-            "fontWeight": "{semantic.typography.fontWeights.content.regular.italic}",
-            "fontSize": "{semantic.typography.fontSizes.large}",
-            "lineHeight": "{semantic.typography.lineHeights.regular.large}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          },
-          "$description": "Best for secondary information such as timestamps, footnotes, or additional context. The Meta style is smaller, providing necessary details without overwhelming the primary content."
-        },
-        "lead": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.content}",
-            "fontWeight": "{semantic.typography.fontWeights.content.regular.normal}",
-            "fontSize": "{semantic.typography.fontSizes.extraLarge}",
-            "lineHeight": "{semantic.typography.lineHeights.regular.extraLarge}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          },
-          "$description": "Best for secondary information such as timestamps, footnotes, or additional context. The Meta style is smaller, providing necessary details without overwhelming the primary content."
-        }
-      },
-      "display": {
-        "display-1": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.display}",
-            "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
-            "fontSize": "{semantic.typography.fontSizes.peta}",
-            "lineHeight": "{semantic.typography.lineHeights.close.peta}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          },
-          "$description": "Used for the most prominent text elements, such as large headers and impactful banners. It commands attention and conveys the highest level of importance in the hierarchy."
-        },
-        "display-2": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.display}",
-            "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
-            "fontSize": "{semantic.typography.fontSizes.giga}",
-            "lineHeight": "{semantic.typography.lineHeights.close.giga}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          },
-          "$description": "Ideal for secondary headers or supporting text that requires visibility but less emphasis than Display 1. It balances prominence with readability."
-        },
-        "display-3": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.display}",
-            "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
-            "fontSize": "{semantic.typography.fontSizes.mega}",
-            "lineHeight": "{semantic.typography.lineHeights.close.mega}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          },
-          "$description": "Serves as a versatile style for subheaders or contextual highlights. It bridges the gap between primary content and less prominent details."
-        },
-        "display-4": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.display}",
-            "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
-            "fontSize": "{semantic.typography.fontSizes.extraLarge}",
-            "lineHeight": "{semantic.typography.lineHeights.close.extraLarge}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          },
-          "$description": "Designed for smaller banners, captions, or subtle emphasis within layouts. It maintains clarity while supporting a cohesive visual hierarchy."
-        }
-      },
-      "hierarchy": {
-        "headline-1": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-            "fontSize": "{semantic.typography.fontSizes.mega}",
-            "lineHeight": "{semantic.typography.lineHeights.close.mega}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
+          "lead": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{semantic.typography.fontFamilies.content}",
+              "fontWeight": "{semantic.typography.fontWeights.content.regular.normal}",
+              "fontSize": "{semantic.typography.fontSizes.extraLarge}",
+              "lineHeight": "{semantic.typography.lineHeights.regular.extraLarge}",
+              "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
+              "textCase": "{semantic.typography.textCase.normal}",
+              "textDecoration": "{semantic.typography.textDecoration.default}"
+            },
+            "$description": "Best for secondary information such as timestamps, footnotes, or additional context. The Meta style is smaller, providing necessary details without overwhelming the primary content."
           }
         },
-        "headline-2": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.bold.italic}",
-            "fontSize": "{semantic.typography.fontSizes.large}",
-            "lineHeight": "{semantic.typography.lineHeights.close.large}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          }
-        },
-        "headline-3": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-            "fontSize": "{semantic.typography.fontSizes.extraLarge}",
-            "lineHeight": "{semantic.typography.lineHeights.close.extraLarge}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          }
-        },
-        "headline-4": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-            "fontSize": "{semantic.typography.fontSizes.large}",
-            "lineHeight": "{semantic.typography.lineHeights.close.large}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          }
-        },
-        "headline-5": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-            "fontSize": "{semantic.typography.fontSizes.medium}",
-            "lineHeight": "{semantic.typography.lineHeights.close.medium}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          }
-        },
-        "headline-6": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.bold.italic}",
-            "fontSize": "{semantic.typography.fontSizes.medium}",
-            "lineHeight": "{semantic.typography.lineHeights.close.medium}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.default}"
-          }
-        }
-      },
-      "action": {
-        "strong": {
-          "tight": {
-            "extraSmall": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-                "fontSize": "{semantic.typography.fontSizes.extraSmall}",
-                "lineHeight": "{semantic.typography.lineHeights.tight.extraSmall}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
+        "action": {
+          "strong": {
+            "tight": {
+              "extraSmall": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.extraSmall}",
+                  "lineHeight": "{semantic.typography.lineHeights.tight.extraSmall}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "small": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.small}",
+                  "lineHeight": "{semantic.typography.lineHeights.tight.small}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "medium": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.medium}",
+                  "lineHeight": "{semantic.typography.lineHeights.tight.medium}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "large": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.large}",
+                  "lineHeight": "{semantic.typography.lineHeights.tight.large}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
               }
             },
-            "small": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-                "fontSize": "{semantic.typography.fontSizes.small}",
-                "lineHeight": "{semantic.typography.lineHeights.tight.small}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
+            "close": {
+              "extraSmall": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.extraSmall}",
+                  "lineHeight": "{semantic.typography.lineHeights.close.extraSmall}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "small": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.small}",
+                  "lineHeight": "{semantic.typography.lineHeights.close.small}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "medium": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.medium}",
+                  "lineHeight": "{semantic.typography.lineHeights.close.medium}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "large": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.large}",
+                  "lineHeight": "{semantic.typography.lineHeights.close.large}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
               }
             },
-            "medium": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-                "fontSize": "{semantic.typography.fontSizes.medium}",
-                "lineHeight": "{semantic.typography.lineHeights.tight.medium}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            },
-            "large": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-                "fontSize": "{semantic.typography.fontSizes.large}",
-                "lineHeight": "{semantic.typography.lineHeights.tight.large}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            }
-          },
-          "close": {
-            "extraSmall": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-                "fontSize": "{semantic.typography.fontSizes.extraSmall}",
-                "lineHeight": "{semantic.typography.lineHeights.close.extraSmall}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            },
-            "small": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-                "fontSize": "{semantic.typography.fontSizes.small}",
-                "lineHeight": "{semantic.typography.lineHeights.close.small}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            },
-            "medium": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-                "fontSize": "{semantic.typography.fontSizes.medium}",
-                "lineHeight": "{semantic.typography.lineHeights.close.medium}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            },
-            "large": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-                "fontSize": "{semantic.typography.fontSizes.large}",
-                "lineHeight": "{semantic.typography.lineHeights.close.large}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
+            "regular": {
+              "extraSmall": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.extraSmall}",
+                  "lineHeight": "{semantic.typography.lineHeights.regular.extraSmall}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "small": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.small}",
+                  "lineHeight": "{semantic.typography.lineHeights.regular.small}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "medium": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.medium}",
+                  "lineHeight": "{semantic.typography.lineHeights.regular.medium}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "large": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.large}",
+                  "lineHeight": "{semantic.typography.lineHeights.regular.large}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
               }
             }
           },
           "regular": {
-            "extraSmall": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-                "fontSize": "{semantic.typography.fontSizes.extraSmall}",
-                "lineHeight": "{semantic.typography.lineHeights.regular.extraSmall}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
+            "tight": {
+              "extraSmall": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.extraSmall}",
+                  "lineHeight": "{semantic.typography.lineHeights.tight.extraSmall}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "small": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.small}",
+                  "lineHeight": "{semantic.typography.lineHeights.tight.small}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "medium": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.medium}",
+                  "lineHeight": "{semantic.typography.lineHeights.tight.medium}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "large": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.large}",
+                  "lineHeight": "{semantic.typography.lineHeights.tight.large}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
               }
             },
-            "small": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-                "fontSize": "{semantic.typography.fontSizes.small}",
-                "lineHeight": "{semantic.typography.lineHeights.regular.small}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
+            "close": {
+              "extraSmall": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.extraSmall}",
+                  "lineHeight": "{semantic.typography.lineHeights.close.extraSmall}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "small": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.small}",
+                  "lineHeight": "{semantic.typography.lineHeights.close.small}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "medium": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.medium}",
+                  "lineHeight": "{semantic.typography.lineHeights.close.medium}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "large": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.large}",
+                  "lineHeight": "{semantic.typography.lineHeights.close.large}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
               }
             },
-            "medium": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-                "fontSize": "{semantic.typography.fontSizes.medium}",
-                "lineHeight": "{semantic.typography.lineHeights.regular.medium}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            },
-            "large": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.semibold.normal}",
-                "fontSize": "{semantic.typography.fontSizes.large}",
-                "lineHeight": "{semantic.typography.lineHeights.regular.large}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
+            "regular": {
+              "extraSmall": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.extraSmall}",
+                  "lineHeight": "{semantic.typography.lineHeights.regular.extraSmall}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "small": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.small}",
+                  "lineHeight": "{semantic.typography.lineHeights.regular.small}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "medium": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.medium}",
+                  "lineHeight": "{semantic.typography.lineHeights.regular.medium}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
+              },
+              "large": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{semantic.typography.fontFamilies.main}",
+                  "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+                  "fontSize": "{semantic.typography.fontSizes.large}",
+                  "lineHeight": "{semantic.typography.lineHeights.regular.large}",
+                  "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+                  "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+                  "paragraphIndent": "{semantic.dimension.spacing.zero}",
+                  "textCase": "{semantic.typography.textCase.normal}",
+                  "textDecoration": "{semantic.typography.textDecoration.default}"
+                }
               }
             }
           }
         },
-        "regular": {
-          "tight": {
-            "extraSmall": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-                "fontSize": "{semantic.typography.fontSizes.extraSmall}",
-                "lineHeight": "{semantic.typography.lineHeights.tight.extraSmall}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            },
-            "small": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-                "fontSize": "{semantic.typography.fontSizes.small}",
-                "lineHeight": "{semantic.typography.lineHeights.tight.small}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            },
-            "medium": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-                "fontSize": "{semantic.typography.fontSizes.medium}",
-                "lineHeight": "{semantic.typography.lineHeights.tight.medium}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            },
-            "large": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-                "fontSize": "{semantic.typography.fontSizes.large}",
-                "lineHeight": "{semantic.typography.lineHeights.tight.large}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
+        "link": {
+          "extraSmall": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{semantic.typography.fontFamilies.main}",
+              "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+              "fontSize": "{semantic.typography.fontSizes.extraSmall}",
+              "lineHeight": "{semantic.typography.lineHeights.tight.extraSmall}",
+              "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
+              "textCase": "{semantic.typography.textCase.normal}",
+              "textDecoration": "{semantic.typography.textDecoration.underline}"
             }
           },
-          "close": {
-            "extraSmall": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-                "fontSize": "{semantic.typography.fontSizes.extraSmall}",
-                "lineHeight": "{semantic.typography.lineHeights.close.extraSmall}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            },
-            "small": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-                "fontSize": "{semantic.typography.fontSizes.small}",
-                "lineHeight": "{semantic.typography.lineHeights.close.small}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            },
-            "medium": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-                "fontSize": "{semantic.typography.fontSizes.medium}",
-                "lineHeight": "{semantic.typography.lineHeights.close.medium}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            },
-            "large": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-                "fontSize": "{semantic.typography.fontSizes.large}",
-                "lineHeight": "{semantic.typography.lineHeights.close.large}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
+          "small": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{semantic.typography.fontFamilies.main}",
+              "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+              "fontSize": "{semantic.typography.fontSizes.small}",
+              "lineHeight": "{semantic.typography.lineHeights.tight.small}",
+              "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
+              "textCase": "{semantic.typography.textCase.normal}",
+              "textDecoration": "{semantic.typography.textDecoration.underline}"
             }
           },
-          "regular": {
-            "extraSmall": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-                "fontSize": "{semantic.typography.fontSizes.extraSmall}",
-                "lineHeight": "{semantic.typography.lineHeights.regular.extraSmall}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            },
-            "small": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-                "fontSize": "{semantic.typography.fontSizes.small}",
-                "lineHeight": "{semantic.typography.lineHeights.regular.small}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            },
-            "medium": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-                "fontSize": "{semantic.typography.fontSizes.medium}",
-                "lineHeight": "{semantic.typography.lineHeights.regular.medium}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
-            },
-            "large": {
-              "$type": "typography",
-              "$value": {
-                "fontFamily": "{semantic.typography.fontFamilies.main}",
-                "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-                "fontSize": "{semantic.typography.fontSizes.large}",
-                "lineHeight": "{semantic.typography.lineHeights.regular.large}",
-                "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-                "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-                "paragraphIndent": "{semantic.dimension.spacing.zero}",
-                "textCase": "{semantic.typography.textCase.normal}",
-                "textDecoration": "{semantic.typography.textDecoration.default}"
-              }
+          "medium": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{semantic.typography.fontFamilies.main}",
+              "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+              "fontSize": "{semantic.typography.fontSizes.medium}",
+              "lineHeight": "{semantic.typography.lineHeights.tight.medium}",
+              "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
+              "textCase": "{semantic.typography.textCase.normal}",
+              "textDecoration": "{semantic.typography.textDecoration.underline}"
+            }
+          },
+          "large": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{semantic.typography.fontFamilies.main}",
+              "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
+              "fontSize": "{semantic.typography.fontSizes.large}",
+              "lineHeight": "{semantic.typography.lineHeights.tight.large}",
+              "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
+              "textCase": "{semantic.typography.textCase.normal}",
+              "textDecoration": "{semantic.typography.textDecoration.underline}"
             }
           }
         }
       },
-      "link": {
-        "extraSmall": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-            "fontSize": "{semantic.typography.fontSizes.extraSmall}",
-            "lineHeight": "{semantic.typography.lineHeights.tight.extraSmall}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.underline}"
+      "mobile": {
+        "display": {
+          "display1": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.stronger}",
+              "lineHeight": "{foundations.text.lineHeights.mega.close}",
+              "fontSize": "{foundations.text.fontSizes.mega}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.extraLarge}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "display2": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.stronger}",
+              "lineHeight": "{foundations.text.lineHeights.extraLarge.close}",
+              "fontSize": "{foundations.text.fontSizes.extraLarge}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.large}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "display3": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.stronger}",
+              "lineHeight": "{foundations.text.lineHeights.large.close}",
+              "fontSize": "{foundations.text.fontSizes.large}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "display4": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.stronger}",
+              "lineHeight": "{foundations.text.lineHeights.medium.close}",
+              "fontSize": "{foundations.text.fontSizes.medium}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.small}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
           }
         },
-        "small": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-            "fontSize": "{semantic.typography.fontSizes.small}",
-            "lineHeight": "{semantic.typography.lineHeights.tight.small}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.underline}"
+        "headline": {
+          "headline1": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.bold}",
+              "lineHeight": "{foundations.text.lineHeights.extraLarge.close}",
+              "fontSize": "{foundations.text.fontSizes.extraLarge}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.large}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "headline2": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.bold}",
+              "lineHeight": "{foundations.text.lineHeights.large.close}",
+              "fontSize": "{foundations.text.fontSizes.large}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "headline3": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.bold}",
+              "lineHeight": "{foundations.text.lineHeights.large.close}",
+              "fontSize": "{foundations.text.fontSizes.large}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
+              "fontStyles": "{foundations.text.fontStyles.italic}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "headline4": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.bold}",
+              "lineHeight": "{foundations.text.lineHeights.medium.close}",
+              "fontSize": "{foundations.text.fontSizes.medium}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.small}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "headline5": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.bold}",
+              "lineHeight": "{foundations.text.lineHeights.medium.close}",
+              "fontSize": "{foundations.text.fontSizes.medium}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.small}",
+              "fontStyles": "{foundations.text.fontStyles.normal}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "headline6": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.bold}",
+              "lineHeight": "{foundations.text.lineHeights.small.close}",
+              "fontSize": "{foundations.text.fontSizes.small}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.small}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.uppercase}"
+            }
+          }
+        }
+      },
+      "desktop": {
+        "display": {
+          "display1": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.stronger}",
+              "lineHeight": "{foundations.text.lineHeights.giga.close}",
+              "fontSize": "{foundations.text.fontSizes.tera}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.giga}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "display2": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.stronger}",
+              "lineHeight": "{foundations.text.lineHeights.tera.close}",
+              "fontSize": "{foundations.text.fontSizes.giga}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.giga}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "display3": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.stronger}",
+              "lineHeight": "{foundations.text.lineHeights.giga.close}",
+              "fontSize": "{foundations.text.fontSizes.giga}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.mega}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "display4": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.stronger}",
+              "lineHeight": "{foundations.text.lineHeights.mega.close}",
+              "fontSize": "{foundations.text.fontSizes.mega}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.extraLarge}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
           }
         },
-        "medium": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-            "fontSize": "{semantic.typography.fontSizes.medium}",
-            "lineHeight": "{semantic.typography.lineHeights.tight.medium}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.underline}"
-          }
-        },
-        "large": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{semantic.typography.fontFamilies.main}",
-            "fontWeight": "{semantic.typography.fontWeights.main.regular.normal}",
-            "fontSize": "{semantic.typography.fontSizes.large}",
-            "lineHeight": "{semantic.typography.lineHeights.tight.large}",
-            "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-            "paragraphSpacing": "{semantic.dimension.spacing.zero}",
-            "paragraphIndent": "{semantic.dimension.spacing.zero}",
-            "textCase": "{semantic.typography.textCase.normal}",
-            "textDecoration": "{semantic.typography.textDecoration.underline}"
+        "headline": {
+          "headline1": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.bold}",
+              "lineHeight": "{foundations.text.lineHeights.tera.close}",
+              "fontSize": "{foundations.text.fontSizes.tera}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.giga}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "headline2": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.bold}",
+              "lineHeight": "{foundations.text.lineHeights.giga.close}",
+              "fontSize": "{foundations.text.fontSizes.giga}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.mega}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "headline3": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.bold}",
+              "lineHeight": "{foundations.text.lineHeights.mega.close}",
+              "fontSize": "{foundations.text.fontSizes.mega}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.extraLarge}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "headline4": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.bold}",
+              "lineHeight": "{foundations.text.lineHeights.extraLarge.close}",
+              "fontSize": "{foundations.text.fontSizes.extraLarge}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.large}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "headline5": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.bold}",
+              "lineHeight": "{foundations.text.lineHeights.large.close}",
+              "fontSize": "{foundations.text.fontSizes.large}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
+          },
+          "headline6": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "{foundations.text.fontFamilies.main}",
+              "fontWeight": "{foundations.text.fontWeights.bold}",
+              "lineHeight": "{foundations.text.lineHeights.medium.close}",
+              "fontSize": "{foundations.text.fontSizes.medium}",
+              "letterSpacing": "{foundations.text.letterSpacing.regular}",
+              "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
+              "textDecoration": "{foundations.text.decorations.default}",
+              "textCase": "{foundations.text.transforms.normal}"
+            }
           }
         }
       }
