@@ -728,66 +728,66 @@
       "paragraph": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{semantic.text.fontFamilies.content}",
-          "fontWeight": "{semantic.text.fontWeights.regular}",
-          "lineHeight": "{semantic.text.lineHeights.small.close}",
-          "fontSize": "{semantic.text.fontSizes.small}",
-          "letterSpacing": "{semantic.text.letterSpacing.regular}",
-          "paragraphSpacing": "{semantic.text.paragraphSpacing.small}",
-          "textDecoration": "{semantic.text.decorations.default}",
-          "textCase": "{semantic.text.transforms.normal}"
+          "fontFamily": "{semantic.typography.fontFamilies.content}",
+          "fontWeight": "{semantic.typography.fontWeights.regular}",
+          "lineHeight": "{semantic.typography.lineHeights.small.close}",
+          "fontSize": "{semantic.typography.fontSizes.small}",
+          "letterSpacing": "{semantic.typography.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.typography.paragraphSpacing.small}",
+          "textDecoration": "{semantic.typography.decorations.default}",
+          "textCase": "{semantic.typography.transforms.normal}"
         }
       },
       "lead": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{semantic.text.fontFamilies.content}",
-          "fontWeight": "{semantic.text.fontWeights.regular}",
-          "lineHeight": "{semantic.text.lineHeights.medium.close}",
-          "fontSize": "{semantic.text.fontSizes.medium}",
-          "letterSpacing": "{semantic.text.letterSpacing.regular}",
-          "paragraphSpacing": "{semantic.text.paragraphSpacing.medium}",
-          "textDecoration": "{semantic.text.decorations.default}",
-          "textCase": "{semantic.text.transforms.normal}"
+          "fontFamily": "{semantic.typography.fontFamilies.content}",
+          "fontWeight": "{semantic.typography.fontWeights.regular}",
+          "lineHeight": "{semantic.typography.lineHeights.medium.close}",
+          "fontSize": "{semantic.typography.fontSizes.medium}",
+          "letterSpacing": "{semantic.typography.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.typography.paragraphSpacing.medium}",
+          "textDecoration": "{semantic.typography.decorations.default}",
+          "textCase": "{semantic.typography.transforms.normal}"
         }
       },
       "meta": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{semantic.text.fontFamilies.content}",
-          "fontWeight": "{semantic.text.fontWeights.regular}",
-          "lineHeight": "{semantic.text.lineHeights.micro.close}",
-          "fontSize": "{semantic.text.fontSizes.micro}",
-          "letterSpacing": "{semantic.text.letterSpacing.regular}",
-          "paragraphSpacing": "{semantic.text.paragraphSpacing.micro}",
-          "textDecoration": "{semantic.text.decorations.default}",
-          "textCase": "{semantic.text.transforms.normal}"
+          "fontFamily": "{semantic.typography.fontFamilies.content}",
+          "fontWeight": "{semantic.typography.fontWeights.regular}",
+          "lineHeight": "{semantic.typography.lineHeights.micro.close}",
+          "fontSize": "{semantic.typography.fontSizes.micro}",
+          "letterSpacing": "{semantic.typography.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.typography.paragraphSpacing.micro}",
+          "textDecoration": "{semantic.typography.decorations.default}",
+          "textCase": "{semantic.typography.transforms.normal}"
         }
       },
       "blockquote": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{semantic.text.fontFamilies.content}",
-          "fontWeight": "{semantic.text.fontWeights.regular}",
-          "lineHeight": "{semantic.text.lineHeights.large.close}",
-          "fontSize": "{semantic.text.fontSizes.large}",
-          "letterSpacing": "{semantic.text.letterSpacing.regular}",
-          "paragraphSpacing": "{semantic.text.paragraphSpacing.large}",
-          "textDecoration": "{semantic.text.decorations.default}",
-          "textCase": "{semantic.text.transforms.normal}"
+          "fontFamily": "{semantic.typography.fontFamilies.content}",
+          "fontWeight": "{semantic.typography.fontWeights.regular}",
+          "lineHeight": "{semantic.typography.lineHeights.large.close}",
+          "fontSize": "{semantic.typography.fontSizes.large}",
+          "letterSpacing": "{semantic.typography.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.typography.paragraphSpacing.large}",
+          "textDecoration": "{semantic.typography.decorations.default}",
+          "textCase": "{semantic.typography.transforms.normal}"
         }
       },
       "label": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{semantic.text.fontFamilies.content}",
-          "fontWeight": "{semantic.text.fontWeights.semibold}",
-          "lineHeight": "{semantic.text.lineHeights.extraSmall.close}",
-          "fontSize": "{semantic.text.fontSizes.extraSmall}",
-          "letterSpacing": "{semantic.text.letterSpacing.regular}",
-          "paragraphSpacing": "{semantic.text.paragraphSpacing.small}",
-          "textDecoration": "{semantic.text.decorations.default}",
-          "textCase": "{semantic.text.transforms.normal}"
+          "fontFamily": "{semantic.typography.fontFamilies.content}",
+          "fontWeight": "{semantic.typography.fontWeights.semibold}",
+          "lineHeight": "{semantic.typography.lineHeights.extraSmall.close}",
+          "fontSize": "{semantic.typography.fontSizes.extraSmall}",
+          "letterSpacing": "{semantic.typography.letterSpacing.regular}",
+          "paragraphSpacing": "{semantic.typography.paragraphSpacing.small}",
+          "textDecoration": "{semantic.typography.decorations.default}",
+          "textCase": "{semantic.typography.transforms.normal}"
         }
       }
     }
