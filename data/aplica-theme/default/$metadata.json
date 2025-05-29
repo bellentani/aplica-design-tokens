@@ -1,26 +1,21 @@
 {
   "tokenSetOrder": [
     "semantic/default",
-    "brand/dark",
-    "brand/deprecated/_color-charts",
-    "brand/deprecated/_color-palette",
-    "brand/deprecated/_helper-color-scheme",
-    "brand/deprecated/_primitive-theme-tangerine",
-    "brand/deprecated/_primitive-theme-tangerine-config",
-    "brand/light",
     "foundation/default",
     "foundation/typography-styles",
     "brand/theme/_primitive-theme-default",
     "brand/theme/_primitive-theme-default-config",
     "brand/theme/_tangerine-generated",
     "brand/theme/_grinch-generated",
-    "dimensions/dimension",
-    "figma-generators/_generator-dimension",
     "brand/theme/generated/1715980069769_padrao",
     "brand/theme/generated/1715981242062_padrao",
     "brand/theme/generated/1716162294022_padrao",
     "brand/theme/generated/1716178198483_padrao",
     "brand/theme/generated/default",
-    "brand/theme/generated/tangerine"
+    "brand/theme/generated/tangerine",
+    "mode/dark",
+    "mode/light",
+    "dimensions/dimension",
+    "figma-generators/_generator-dimension"
   ]
 }
