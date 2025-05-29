@@ -1,6 +1,6 @@
 {
   "tokenSetOrder": [
-    "semantic",
+    "semantic/default",
     "color/dark",
     "color/deprecated/_color-charts",
     "color/deprecated/_color-palette",
@@ -8,7 +8,8 @@
     "color/deprecated/_primitive-theme-tangerine",
     "color/deprecated/_primitive-theme-tangerine-config",
     "color/light",
-    "foundation",
+    "foundation/default",
+    "foundation/typography-styles",
     "color/theme/_primitive-theme-default",
     "color/theme/_primitive-theme-default-config",
     "color/theme/_tangerine-generated",

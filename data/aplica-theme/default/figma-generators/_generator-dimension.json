@@ -1,261 +1,261 @@
 {
   "sizing": {
     "zero": {
-      "value": "{dimension.sizing.zero}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{dimension.sizing.zero}"
     },
     "pico": {
-      "value": "{dimension.sizing.pico}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{dimension.sizing.pico}"
     },
     "nano": {
-      "value": "{dimension.sizing.nano}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{dimension.sizing.nano}"
     },
     "micro": {
-      "value": "{dimension.sizing.micro}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{dimension.sizing.micro}"
     },
     "extraSmall": {
-      "value": "{dimension.sizing.extraSmall}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{dimension.sizing.extraSmall}"
     },
     "small": {
-      "value": "{dimension.sizing.small}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{dimension.sizing.small}"
     },
     "medium": {
-      "value": "{dimension.sizing.medium}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{dimension.sizing.medium}"
     },
     "large": {
-      "value": "{dimension.sizing.large}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{dimension.sizing.large}"
     },
     "extraLarge": {
-      "value": "{dimension.sizing.extraLarge}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{dimension.sizing.extraLarge}"
     },
     "mega": {
-      "value": "{dimension.sizing.mega}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{dimension.sizing.mega}"
     },
     "giga": {
-      "value": "{dimension.sizing.giga}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{dimension.sizing.giga}"
     }
   },
   "padding": {
     "vertical": {
       "zero": {
-        "value": "{dimension.spacing.zero}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.zero}"
       },
       "micro": {
-        "value": "{dimension.spacing.micro}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.micro}"
       },
       "extraSmall": {
-        "value": "{dimension.spacing.extraSmall}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.extraSmall}"
       },
       "small": {
-        "value": "{dimension.spacing.small}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.small}"
       },
       "medium": {
-        "value": "{dimension.spacing.medium}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.medium}"
       },
       "large": {
-        "value": "{dimension.spacing.large}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.large}"
       },
       "extraLarge": {
-        "value": "{dimension.spacing.extraLarge}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.extraLarge}"
       },
       "mega": {
-        "value": "{dimension.spacing.mega}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.mega}"
       },
       "giga": {
-        "value": "{dimension.spacing.giga}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.giga}"
       }
     },
     "horizontal": {
       "zero": {
-        "value": "{dimension.spacing.zero}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.zero}"
       },
       "micro": {
-        "value": "{dimension.spacing.micro}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.micro}"
       },
       "extraSmall": {
-        "value": "{dimension.spacing.extraSmall}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.extraSmall}"
       },
       "small": {
-        "value": "{dimension.spacing.small}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.small}"
       },
       "medium": {
-        "value": "{dimension.spacing.medium}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.medium}"
       },
       "large": {
-        "value": "{dimension.spacing.large}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.large}"
       },
       "extraLarge": {
-        "value": "{dimension.spacing.extraLarge}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.extraLarge}"
       },
       "mega": {
-        "value": "{dimension.spacing.mega}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.mega}"
       },
       "giga": {
-        "value": "{dimension.spacing.giga}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.giga}"
       }
     }
   },
   "gap": {
     "vertical": {
       "zero": {
-        "value": "{dimension.spacing.zero}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.zero}"
       },
       "micro": {
-        "value": "{dimension.spacing.micro}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.micro}"
       },
       "extraSmall": {
-        "value": "{dimension.spacing.extraSmall}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.extraSmall}"
       },
       "small": {
-        "value": "{dimension.spacing.small}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.small}"
       },
       "medium": {
-        "value": "{dimension.spacing.medium}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.medium}"
       },
       "large": {
-        "value": "{dimension.spacing.large}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.large}"
       },
       "extraLarge": {
-        "value": "{dimension.spacing.extraLarge}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.extraLarge}"
       },
       "mega": {
-        "value": "{dimension.spacing.mega}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.mega}"
       },
       "giga": {
-        "value": "{dimension.spacing.giga}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.giga}"
       }
     },
     "horizontal": {
       "zero": {
-        "value": "{dimension.spacing.zero}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.zero}"
       },
       "micro": {
-        "value": "{dimension.spacing.micro}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.micro}"
       },
       "extraSmall": {
-        "value": "{dimension.spacing.extraSmall}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.extraSmall}"
       },
       "small": {
-        "value": "{dimension.spacing.small}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.small}"
       },
       "medium": {
-        "value": "{dimension.spacing.medium}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.medium}"
       },
       "large": {
-        "value": "{dimension.spacing.large}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.large}"
       },
       "extraLarge": {
-        "value": "{dimension.spacing.extraLarge}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.extraLarge}"
       },
       "mega": {
-        "value": "{dimension.spacing.mega}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.mega}"
       },
       "giga": {
-        "value": "{dimension.spacing.giga}",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "{dimension.spacing.giga}"
       }
     }
   },
   "border": {
     "width": {
       "none": {
-        "value": "{dimension.sizing.zero}",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "{dimension.sizing.zero}"
       },
       "small": {
-        "value": "{dimension.sizing.pico}",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "{dimension.sizing.pico}"
       },
       "medium": {
-        "value": "{dimension.sizing.nano}",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "{dimension.sizing.nano}"
       },
       "large": {
-        "value": "{dimension.sizing.micro}",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "{dimension.sizing.micro}"
       },
       "extraLarge": {
-        "value": "{dimension.sizing.extraSmall}",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "{dimension.sizing.extraSmall}"
       }
     },
     "radii": {
       "none": {
-        "value": "{dimension.sizing.zero}",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{dimension.sizing.zero}"
       },
       "micro": {
-        "value": "{dimension.sizing.micro}",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{dimension.sizing.micro}"
       },
       "extraSmall": {
-        "value": "{dimension.sizing.extraSmall}",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{dimension.sizing.extraSmall}"
       },
       "small": {
-        "value": "{dimension.sizing.small}",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{dimension.sizing.small}"
       },
       "medium": {
-        "value": "{dimension.sizing.medium}",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{dimension.sizing.medium}"
       },
       "large": {
-        "value": "{dimension.sizing.large}",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{dimension.sizing.large}"
       },
       "extraLarge": {
-        "value": "{dimension.sizing.extraLarge}",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{dimension.sizing.extraLarge}"
       },
       "circular": {
-        "value": "10000",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "10000"
       }
     }
   }

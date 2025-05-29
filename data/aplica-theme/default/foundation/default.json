@@ -2,490 +2,490 @@
   "bg": {
     "brand": {
       "first": {
-        "value": "{foundations.color.brand.branding.first.background}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.brand.branding.first.background}"
       },
       "second": {
-        "value": "{foundations.color.brand.branding.second.background}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.brand.branding.second.background}"
       },
       "third": {
-        "value": "{foundations.color.brand.branding.third.background}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.brand.branding.third.background}"
       }
     },
     "ambient": {
       "contrast": {
         "positive": {
           "base": {
-            "value": "{foundations.color.brand.ambient.contrast.base.positive.background}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.contrast.base.positive.background}"
           },
           "deep": {
-            "value": "{foundations.color.brand.ambient.contrast.deep.positive.background}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.contrast.deep.positive.background}"
           }
         },
         "negative": {
           "base": {
-            "value": "{foundations.color.brand.ambient.contrast.base.negative.background}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.contrast.base.negative.background}"
           },
           "deep": {
-            "value": "{foundations.color.brand.ambient.contrast.deep.negative.background}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.contrast.deep.negative.background}"
           }
         }
       },
       "neutral": {
         "highest": {
-          "value": "{foundations.color.brand.ambient.neutral.highest.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.neutral.highest.background}"
         },
         "higher": {
-          "value": "{foundations.color.brand.ambient.neutral.higher.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.neutral.higher.background}"
         },
         "high": {
-          "value": "{foundations.color.brand.ambient.neutral.high.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.neutral.high.background}"
         },
         "mid": {
-          "value": "{foundations.color.brand.ambient.neutral.mid.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.neutral.mid.background}"
         },
         "low": {
-          "value": "{foundations.color.brand.ambient.neutral.low.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.neutral.low.background}"
         },
         "lower": {
-          "value": "{foundations.color.brand.ambient.neutral.lower.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.neutral.lower.background}"
         },
         "lowest": {
-          "value": "{foundations.color.brand.ambient.neutral.lowest.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.neutral.lowest.background}"
         }
       },
       "grayscale": {
         "highest": {
-          "value": "{foundations.color.brand.ambient.grayscale.highest.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.grayscale.highest.background}"
         },
         "higher": {
-          "value": "{foundations.color.brand.ambient.grayscale.higher.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.grayscale.higher.background}"
         },
         "high": {
-          "value": "{foundations.color.brand.ambient.grayscale.high.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.grayscale.high.background}"
         },
         "mid": {
-          "value": "{foundations.color.brand.ambient.grayscale.mid.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.grayscale.mid.background}"
         },
         "low": {
-          "value": "{foundations.color.brand.ambient.grayscale.low.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.grayscale.low.background}"
         },
         "lower": {
-          "value": "{foundations.color.brand.ambient.grayscale.lower.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.grayscale.lower.background}"
         },
         "lowest": {
-          "value": "{foundations.color.brand.ambient.grayscale.lowest.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.grayscale.lowest.background}"
         }
       }
     },
     "function": {
       "primary": {
-        "value": "{foundations.color.interface.function.primary.normal.background}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.interface.function.primary.normal.background}"
       },
       "secondary": {
-        "value": "{foundations.color.interface.function.secondary.normal.background}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.interface.function.secondary.normal.background}"
       },
       "link": {
-        "value": "{foundations.color.interface.function.link.normal.background}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.interface.function.link.normal.background}"
       },
       "disabled": {
-        "value": "{foundations.color.interface.function.disabled.normal.background}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.interface.function.disabled.normal.background}"
       }
     },
     "feedback": {
       "main": {
         "info": {
-          "value": "{foundations.color.interface.feedback.info.main.normal.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.info.main.normal.background}"
         },
         "success": {
-          "value": "{foundations.color.interface.feedback.success.main.normal.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.success.main.normal.background}"
         },
         "warning": {
-          "value": "{foundations.color.interface.feedback.warning.main.normal.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.warning.main.normal.background}"
         },
         "danger": {
-          "value": "{foundations.color.interface.feedback.danger.main.normal.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.danger.main.normal.background}"
         }
       },
       "secondary": {
         "info": {
-          "value": "{foundations.color.interface.feedback.info.secondary.normal.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.info.secondary.normal.background}"
         },
         "success": {
-          "value": "{foundations.color.interface.feedback.success.secondary.normal.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.success.secondary.normal.background}"
         },
         "warning": {
-          "value": "{foundations.color.interface.feedback.warning.secondary.normal.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.warning.secondary.normal.background}"
         },
         "danger": {
-          "value": "{foundations.color.interface.feedback.danger.secondary.normal.background}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.danger.secondary.normal.background}"
         }
       }
     }
   },
   "sizing": {
     "zero": {
-      "value": "{foundations.dimension.sizing.zero}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{foundations.dimension.sizing.zero}"
     },
     "pico": {
-      "value": "{foundations.dimension.sizing.pico}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{foundations.dimension.sizing.pico}"
     },
     "nano": {
-      "value": "{foundations.dimension.sizing.nano}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{foundations.dimension.sizing.nano}"
     },
     "micro": {
-      "value": "{foundations.dimension.sizing.micro}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{foundations.dimension.sizing.micro}"
     },
     "extraSmall": {
-      "value": "{foundations.dimension.sizing.extraSmall}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{foundations.dimension.sizing.extraSmall}"
     },
     "small": {
-      "value": "{foundations.dimension.sizing.small}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{foundations.dimension.sizing.small}"
     },
     "medium": {
-      "value": "{foundations.dimension.sizing.medium}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{foundations.dimension.sizing.medium}"
     },
     "large": {
-      "value": "{foundations.dimension.sizing.large}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{foundations.dimension.sizing.large}"
     },
     "extraLarge": {
-      "value": "{foundations.dimension.sizing.extraLarge}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{foundations.dimension.sizing.extraLarge}"
     },
     "mega": {
-      "value": "{foundations.dimension.sizing.mega}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{foundations.dimension.sizing.mega}"
     },
     "giga": {
-      "value": "{foundations.dimension.sizing.giga}",
-      "type": "sizing"
+      "$type": "sizing",
+      "$value": "{foundations.dimension.sizing.giga}"
     }
   },
   "padding": {
     "zero": {
-      "value": "{foundations.dimension.spacing.zero}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.zero}"
     },
     "micro": {
-      "value": "{foundations.dimension.spacing.micro}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.micro}"
     },
     "extraSmall": {
-      "value": "{foundations.dimension.spacing.extraSmall}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.extraSmall}"
     },
     "small": {
-      "value": "{foundations.dimension.spacing.small}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.small}"
     },
     "medium": {
-      "value": "{foundations.dimension.spacing.medium}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.medium}"
     },
     "large": {
-      "value": "{foundations.dimension.spacing.large}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.large}"
     },
     "extraLarge": {
-      "value": "{foundations.dimension.spacing.extraLarge}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.extraLarge}"
     },
     "mega": {
-      "value": "{foundations.dimension.spacing.mega}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.mega}"
     },
     "giga": {
-      "value": "{foundations.dimension.spacing.giga}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.giga}"
     }
   },
   "gap": {
     "zero": {
-      "value": "{foundations.dimension.spacing.zero}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.zero}"
     },
     "micro": {
-      "value": "{foundations.dimension.spacing.micro}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.micro}"
     },
     "extraSmall": {
-      "value": "{foundations.dimension.spacing.extraSmall}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.extraSmall}"
     },
     "small": {
-      "value": "{foundations.dimension.spacing.small}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.small}"
     },
     "medium": {
-      "value": "{foundations.dimension.spacing.medium}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.medium}"
     },
     "large": {
-      "value": "{foundations.dimension.spacing.large}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.large}"
     },
     "extraLarge": {
-      "value": "{foundations.dimension.spacing.extraLarge}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.extraLarge}"
     },
     "mega": {
-      "value": "{foundations.dimension.spacing.mega}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.mega}"
     },
     "giga": {
-      "value": "{foundations.dimension.spacing.giga}",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "{foundations.dimension.spacing.giga}"
     }
   },
   "border": {
     "brand": {
       "first": {
-        "value": "{foundations.color.brand.branding.first.border}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.brand.branding.first.border}"
       },
       "second": {
-        "value": "{foundations.color.brand.branding.second.border}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.brand.branding.second.border}"
       },
       "third": {
-        "value": "{foundations.color.brand.branding.third.border}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.brand.branding.third.border}"
       }
     },
     "ambient": {
       "contrast": {
         "positive": {
           "base": {
-            "value": "{foundations.color.brand.ambient.contrast.base.positive.border}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.contrast.base.positive.border}"
           },
           "deep": {
-            "value": "{foundations.color.brand.ambient.contrast.deep.positive.border}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.contrast.deep.positive.border}"
           }
         },
         "negative": {
           "base": {
-            "value": "{foundations.color.brand.ambient.contrast.base.negative.border}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.contrast.base.negative.border}"
           },
           "deep": {
-            "value": "{foundations.color.brand.ambient.contrast.deep.negative.border}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.contrast.deep.negative.border}"
           }
         }
       },
       "neutral": {
         "highest": {
-          "value": "{foundations.color.brand.ambient.neutral.highest.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.neutral.highest.border}"
         },
         "higher": {
-          "value": "{foundations.color.brand.ambient.neutral.higher.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.neutral.higher.border}"
         },
         "high": {
-          "value": "{foundations.color.brand.ambient.neutral.high.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.neutral.high.border}"
         },
         "mid": {
-          "value": "{foundations.color.brand.ambient.neutral.mid.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.neutral.mid.border}"
         },
         "low": {
-          "value": "{foundations.color.brand.ambient.neutral.low.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.neutral.low.border}"
         },
         "lower": {
-          "value": "{foundations.color.brand.ambient.neutral.lower.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.neutral.lower.border}"
         },
         "lowest": {
-          "value": "{foundations.color.brand.ambient.neutral.lowest.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.neutral.lowest.border}"
         }
       },
       "grayscale": {
         "highest": {
-          "value": "{foundations.color.brand.ambient.grayscale.highest.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.grayscale.highest.border}"
         },
         "higher": {
-          "value": "{foundations.color.brand.ambient.grayscale.higher.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.grayscale.higher.border}"
         },
         "high": {
-          "value": "{foundations.color.brand.ambient.grayscale.high.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.grayscale.high.border}"
         },
         "mid": {
-          "value": "{foundations.color.brand.ambient.grayscale.mid.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.grayscale.mid.border}"
         },
         "low": {
-          "value": "{foundations.color.brand.ambient.grayscale.low.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.grayscale.low.border}"
         },
         "lower": {
-          "value": "{foundations.color.brand.ambient.grayscale.lower.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.grayscale.lower.border}"
         },
         "lowest": {
-          "value": "{foundations.color.brand.ambient.grayscale.lowest.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.ambient.grayscale.lowest.border}"
         }
       }
     },
     "function": {
       "primary": {
-        "value": "{foundations.color.interface.function.primary.normal.border}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.interface.function.primary.normal.border}"
       },
       "secondary": {
-        "value": "{foundations.color.interface.function.secondary.normal.border}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.interface.function.secondary.normal.border}"
       },
       "link": {
-        "value": "{foundations.color.interface.function.link.normal.border}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.interface.function.link.normal.border}"
       },
       "disabled": {
-        "value": "{foundations.color.interface.function.disabled.normal.border}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.interface.function.disabled.normal.border}"
       }
     },
     "feedback": {
       "main": {
         "info": {
-          "value": "{foundations.color.interface.feedback.info.main.normal.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.info.main.normal.border}"
         },
         "success": {
-          "value": "{foundations.color.interface.feedback.success.main.normal.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.success.main.normal.border}"
         },
         "warning": {
-          "value": "{foundations.color.interface.feedback.warning.main.normal.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.warning.main.normal.border}"
         },
         "danger": {
-          "value": "{foundations.color.interface.feedback.danger.main.normal.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.danger.main.normal.border}"
         }
       },
       "secondary": {
         "info": {
-          "value": "{foundations.color.interface.feedback.info.secondary.normal.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.info.secondary.normal.border}"
         },
         "success": {
-          "value": "{foundations.color.interface.feedback.success.secondary.normal.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.success.secondary.normal.border}"
         },
         "warning": {
-          "value": "{foundations.color.interface.feedback.warning.secondary.normal.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.warning.secondary.normal.border}"
         },
         "danger": {
-          "value": "{foundations.color.interface.feedback.danger.secondary.normal.border}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.feedback.danger.secondary.normal.border}"
         }
       }
     },
     "width": {
       "none": {
-        "value": "{foundations.dimension.sizing.zero}",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "{foundations.dimension.sizing.zero}"
       },
       "small": {
-        "value": "{foundations.dimension.sizing.pico}",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "{foundations.dimension.sizing.pico}"
       },
       "medium": {
-        "value": "{foundations.dimension.sizing.nano}",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "{foundations.dimension.sizing.nano}"
       },
       "large": {
-        "value": "{foundations.dimension.sizing.micro}",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "{foundations.dimension.sizing.micro}"
       },
       "extraLarge": {
-        "value": "{foundations.dimension.sizing.extraSmall}",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "{foundations.dimension.sizing.extraSmall}"
       }
     },
     "radii": {
       "none": {
-        "value": "{foundations.dimension.sizing.zero}",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{foundations.dimension.sizing.zero}"
       },
       "micro": {
-        "value": "{foundations.dimension.sizing.micro}",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{foundations.dimension.sizing.micro}"
       },
       "extraSmall": {
-        "value": "{foundations.dimension.sizing.extraSmall}",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{foundations.dimension.sizing.extraSmall}"
       },
       "small": {
-        "value": "{foundations.dimension.sizing.small}",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{foundations.dimension.sizing.small}"
       },
       "medium": {
-        "value": "{foundations.dimension.sizing.medium}",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{foundations.dimension.sizing.medium}"
       },
       "large": {
-        "value": "{foundations.dimension.sizing.large}",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{foundations.dimension.sizing.large}"
       },
       "extraLarge": {
-        "value": "{foundations.dimension.sizing.extraLarge}",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{foundations.dimension.sizing.extraLarge}"
       },
       "circular": {
-        "value": "10000",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "10000"
       }
     }
   },
@@ -493,241 +493,241 @@
     "on": {
       "brand": {
         "first": {
-          "value": "{foundations.color.brand.branding.first.txtOn}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.branding.first.txtOn}"
         },
         "second": {
-          "value": "{foundations.color.brand.branding.second.txtOn}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.branding.second.txtOn}"
         },
         "third": {
-          "value": "{foundations.color.brand.branding.third.txtOn}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.brand.branding.third.txtOn}"
         }
       },
       "ambient": {
         "contrast": {
           "positive": {
             "base": {
-              "value": "{foundations.color.brand.ambient.contrast.base.positive.txtOn}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{foundations.color.brand.ambient.contrast.base.positive.txtOn}"
             },
             "deep": {
-              "value": "{foundations.color.brand.ambient.contrast.deep.positive.txtOn}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{foundations.color.brand.ambient.contrast.deep.positive.txtOn}"
             }
           },
           "negative": {
             "base": {
-              "value": "{foundations.color.brand.ambient.contrast.base.negative.txtOn}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{foundations.color.brand.ambient.contrast.base.negative.txtOn}"
             },
             "deep": {
-              "value": "{foundations.color.brand.ambient.contrast.deep.negative.txtOn}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{foundations.color.brand.ambient.contrast.deep.negative.txtOn}"
             }
           }
         },
         "neutral": {
           "highest": {
-            "value": "{foundations.color.brand.ambient.neutral.highest.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.neutral.highest.txtOn}"
           },
           "higher": {
-            "value": "{foundations.color.brand.ambient.neutral.higher.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.neutral.higher.txtOn}"
           },
           "high": {
-            "value": "{foundations.color.brand.ambient.neutral.high.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.neutral.high.txtOn}"
           },
           "mid": {
-            "value": "{foundations.color.brand.ambient.neutral.mid.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.neutral.mid.txtOn}"
           },
           "low": {
-            "value": "{foundations.color.brand.ambient.neutral.low.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.neutral.low.txtOn}"
           },
           "lower": {
-            "value": "{foundations.color.brand.ambient.neutral.lower.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.neutral.lower.txtOn}"
           },
           "lowest": {
-            "value": "{foundations.color.brand.ambient.neutral.lowest.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.neutral.lowest.txtOn}"
           }
         },
         "grayscale": {
           "highest": {
-            "value": "{foundations.color.brand.ambient.grayscale.highest.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.grayscale.highest.txtOn}"
           },
           "higher": {
-            "value": "{foundations.color.brand.ambient.grayscale.higher.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.grayscale.higher.txtOn}"
           },
           "high": {
-            "value": "{foundations.color.brand.ambient.grayscale.high.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.grayscale.high.txtOn}"
           },
           "mid": {
-            "value": "{foundations.color.brand.ambient.grayscale.mid.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.grayscale.mid.txtOn}"
           },
           "low": {
-            "value": "{foundations.color.brand.ambient.grayscale.low.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.grayscale.low.txtOn}"
           },
           "lower": {
-            "value": "{foundations.color.brand.ambient.grayscale.lower.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.grayscale.lower.txtOn}"
           },
           "lowest": {
-            "value": "{foundations.color.brand.ambient.grayscale.lowest.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.brand.ambient.grayscale.lowest.txtOn}"
           }
         }
       },
       "function": {
         "primary": {
-          "value": "{foundations.color.interface.function.primary.normal.txtOn}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.function.primary.normal.txtOn}"
         },
         "secondary": {
-          "value": "{foundations.color.interface.function.secondary.normal.txtOn}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.function.secondary.normal.txtOn}"
         },
         "link": {
-          "value": "{foundations.color.interface.function.link.normal.txtOn}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.function.link.normal.txtOn}"
         },
         "disabled": {
-          "value": "{foundations.color.interface.function.disabled.normal.txtOn}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{foundations.color.interface.function.disabled.normal.txtOn}"
         }
       },
       "feedback": {
         "main": {
           "info": {
-            "value": "{foundations.color.interface.feedback.info.main.normal.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.interface.feedback.info.main.normal.txtOn}"
           },
           "success": {
-            "value": "{foundations.color.interface.feedback.success.main.normal.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.interface.feedback.success.main.normal.txtOn}"
           },
           "warning": {
-            "value": "{foundations.color.interface.feedback.warning.main.normal.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.interface.feedback.warning.main.normal.txtOn}"
           },
           "danger": {
-            "value": "{foundations.color.interface.feedback.danger.main.normal.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.interface.feedback.danger.main.normal.txtOn}"
           }
         },
         "secondary": {
           "info": {
-            "value": "{foundations.color.interface.feedback.info.secondary.normal.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.interface.feedback.info.secondary.normal.txtOn}"
           },
           "success": {
-            "value": "{foundations.color.interface.feedback.success.secondary.normal.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.interface.feedback.success.secondary.normal.txtOn}"
           },
           "warning": {
-            "value": "{foundations.color.interface.feedback.warning.secondary.normal.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.interface.feedback.warning.secondary.normal.txtOn}"
           },
           "danger": {
-            "value": "{foundations.color.interface.feedback.danger.secondary.normal.txtOn}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{foundations.color.interface.feedback.danger.secondary.normal.txtOn}"
           }
         }
       }
     },
     "positive": {
       "title": {
-        "value": "{foundations.color.text.positive.title}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.positive.title}"
       },
       "body": {
-        "value": "{foundations.color.text.positive.body}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.positive.body}"
       },
       "highlight": {
-        "value": "{foundations.color.text.positive.highlight}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.positive.highlight}"
       },
       "muted": {
-        "value": "{foundations.color.text.positive.muted}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.positive.muted}"
       },
       "label": {
-        "value": "{foundations.color.text.positive.label}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.positive.label}"
       },
       "info": {
-        "value": "{foundations.color.text.positive.info}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.positive.info}"
       },
       "success": {
-        "value": "{foundations.color.text.positive.success}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.positive.success}"
       },
       "warning": {
-        "value": "{foundations.color.text.positive.warning}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.positive.warning}"
       },
       "danger": {
-        "value": "{foundations.color.text.positive.danger}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.positive.danger}"
       }
     },
     "negative": {
       "title": {
-        "value": "{foundations.color.text.negative.title}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.negative.title}"
       },
       "body": {
-        "value": "{foundations.color.text.negative.body}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.negative.body}"
       },
       "highlight": {
-        "value": "{foundations.color.text.negative.highlight}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.negative.highlight}"
       },
       "muted": {
-        "value": "{foundations.color.text.negative.muted}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.negative.muted}"
       },
       "label": {
-        "value": "{foundations.color.text.negative.label}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.negative.label}"
       },
       "info": {
-        "value": "{foundations.color.text.negative.info}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.negative.info}"
       },
       "success": {
-        "value": "{foundations.color.text.negative.success}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.negative.success}"
       },
       "warning": {
-        "value": "{foundations.color.text.negative.warning}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.negative.warning}"
       },
       "danger": {
-        "value": "{foundations.color.text.negative.danger}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{foundations.color.text.negative.danger}"
       }
     }
   },
   "typography": {
     "block": {
       "paragraph": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{foundations.text.fontFamilies.content}",
           "fontWeight": "{foundations.text.fontWeights.regular}",
           "lineHeight": "{foundations.text.lineHeights.small.close}",
@@ -739,8 +739,8 @@
         }
       },
       "lead": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{foundations.text.fontFamilies.content}",
           "fontWeight": "{foundations.text.fontWeights.regular}",
           "lineHeight": "{foundations.text.lineHeights.medium.close}",
@@ -752,8 +752,8 @@
         }
       },
       "meta": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{foundations.text.fontFamilies.content}",
           "fontWeight": "{foundations.text.fontWeights.regular}",
           "lineHeight": "{foundations.text.lineHeights.micro.close}",
@@ -765,8 +765,8 @@
         }
       },
       "blockquote": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{foundations.text.fontFamilies.content}",
           "fontWeight": "{foundations.text.fontWeights.regular}",
           "lineHeight": "{foundations.text.lineHeights.large.close}",
@@ -778,8 +778,8 @@
         }
       },
       "label": {
-        "type": "typography",
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{foundations.text.fontFamilies.content}",
           "fontWeight": "{foundations.text.fontWeights.semibold}",
           "lineHeight": "{foundations.text.lineHeights.extraSmall.close}",
@@ -794,8 +794,8 @@
     "mobile": {
       "display": {
         "display1": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.stronger}",
             "lineHeight": "{foundations.text.lineHeights.mega.close}",
@@ -807,8 +807,8 @@
           }
         },
         "display2": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.stronger}",
             "lineHeight": "{foundations.text.lineHeights.extraLarge.close}",
@@ -820,8 +820,8 @@
           }
         },
         "display3": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.stronger}",
             "lineHeight": "{foundations.text.lineHeights.large.close}",
@@ -833,8 +833,8 @@
           }
         },
         "display4": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.stronger}",
             "lineHeight": "{foundations.text.lineHeights.medium.close}",
@@ -848,8 +848,8 @@
       },
       "headline": {
         "headline1": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.bold}",
             "lineHeight": "{foundations.text.lineHeights.extraLarge.close}",
@@ -861,8 +861,8 @@
           }
         },
         "headline2": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.bold}",
             "lineHeight": "{foundations.text.lineHeights.large.close}",
@@ -874,8 +874,8 @@
           }
         },
         "headline3": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.bold}",
             "lineHeight": "{foundations.text.lineHeights.large.close}",
@@ -888,8 +888,8 @@
           }
         },
         "headline4": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.bold}",
             "lineHeight": "{foundations.text.lineHeights.medium.close}",
@@ -901,8 +901,8 @@
           }
         },
         "headline5": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.bold}",
             "lineHeight": "{foundations.text.lineHeights.medium.close}",
@@ -915,8 +915,8 @@
           }
         },
         "headline6": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.bold}",
             "lineHeight": "{foundations.text.lineHeights.small.close}",
@@ -932,8 +932,8 @@
     "desktop": {
       "display": {
         "display1": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.stronger}",
             "lineHeight": "{foundations.text.lineHeights.giga.close}",
@@ -945,8 +945,8 @@
           }
         },
         "display2": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.stronger}",
             "lineHeight": "{foundations.text.lineHeights.tera.close}",
@@ -958,8 +958,8 @@
           }
         },
         "display3": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.stronger}",
             "lineHeight": "{foundations.text.lineHeights.giga.close}",
@@ -971,8 +971,8 @@
           }
         },
         "display4": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.stronger}",
             "lineHeight": "{foundations.text.lineHeights.mega.close}",
@@ -986,8 +986,8 @@
       },
       "headline": {
         "headline1": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.bold}",
             "lineHeight": "{foundations.text.lineHeights.tera.close}",
@@ -999,8 +999,8 @@
           }
         },
         "headline2": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.bold}",
             "lineHeight": "{foundations.text.lineHeights.giga.close}",
@@ -1012,8 +1012,8 @@
           }
         },
         "headline3": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.bold}",
             "lineHeight": "{foundations.text.lineHeights.mega.close}",
@@ -1025,8 +1025,8 @@
           }
         },
         "headline4": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.bold}",
             "lineHeight": "{foundations.text.lineHeights.extraLarge.close}",
@@ -1038,8 +1038,8 @@
           }
         },
         "headline5": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.bold}",
             "lineHeight": "{foundations.text.lineHeights.large.close}",
@@ -1051,8 +1051,8 @@
           }
         },
         "headline6": {
-          "type": "typography",
-          "value": {
+          "$type": "typography",
+          "$value": {
             "fontFamily": "{foundations.text.fontFamilies.main}",
             "fontWeight": "{foundations.text.fontWeights.bold}",
             "lineHeight": "{foundations.text.lineHeights.medium.close}",
