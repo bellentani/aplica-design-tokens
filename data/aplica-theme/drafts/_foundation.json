@@ -14,47 +14,45 @@
         "$value": "{semantic.color.interface.function.disabled.normal.background}"
       },
       "brand": {
-        "first": {
-          "lowest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.first.lowest.background}"
-          },
-          "default": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.first.default.background}"
-          },
-          "highest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.first.highest.background}"
-          }
+        "lowest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.lowest.background}"
         },
-        "second": {
-          "lowest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.second.lowest.background}"
-          },
-          "default": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.second.default.background}"
-          },
-          "highest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.second.highest.background}"
-          }
+        "default": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.default.background}"
         },
-        "third": {
-          "lowest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.third.lowest.background}"
-          },
-          "default": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.third.default.background}"
-          },
-          "highest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.third.highest.background}"
-          }
+        "highest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.highest.background}"
+        }
+      },
+      "neutral": {
+        "lowest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.second.lowest.background}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.second.default.background}"
+        },
+        "highest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.second.highest.background}"
+        }
+      },
+      "rewards": {
+        "lowest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.third.lowest.background}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.third.default.background}"
+        },
+        "highest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.third.highest.background}"
         }
       },
       "feedback": {
@@ -98,6 +96,18 @@
             "$value": "{semantic.color.interface.feedback.danger.secondary.normal.background}"
           }
         }
+      },
+      "product": {
+        "cold": {
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.cold.lowest.background}"
+          },
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.cold.default.background}"
+          }
+        }
       }
     },
     "border": {
@@ -118,47 +128,45 @@
         "$value": "{semantic.color.interface.function.disabled.normal.border}"
       },
       "brand": {
-        "first": {
-          "lowest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.first.lowest.border}"
-          },
-          "default": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.first.default.border}"
-          },
-          "highest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.first.highest.border}"
-          }
+        "lowest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.lowest.border}"
         },
-        "second": {
-          "lowest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.second.lowest.border}"
-          },
-          "default": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.second.default.border}"
-          },
-          "highest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.second.highest.border}"
-          }
+        "default": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.default.border}"
         },
-        "third": {
-          "lowest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.third.lowest.border}"
-          },
-          "default": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.third.default.border}"
-          },
-          "highest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.third.highest.border}"
-          }
+        "highest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.highest.border}"
+        }
+      },
+      "rewards": {
+        "lowest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.third.lowest.border}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.third.default.border}"
+        },
+        "highest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.third.highest.border}"
+        }
+      },
+      "neutral": {
+        "lowest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.second.lowest.border}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.second.default.border}"
+        },
+        "highest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.second.highest.border}"
         }
       },
       "feedback": {
@@ -200,6 +208,18 @@
           "secondary": {
             "$type": "color",
             "$value": "{semantic.color.interface.feedback.danger.secondary.normal.border}"
+          }
+        }
+      },
+      "product": {
+        "cold": {
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.cold.lowest.border}"
+          },
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.cold.default.border}"
           }
         }
       },
