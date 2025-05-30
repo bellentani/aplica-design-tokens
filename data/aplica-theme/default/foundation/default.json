@@ -307,45 +307,47 @@
       },
       "on": {
         "brand": {
-          "lowest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.first.lowest.txtOn}"
+          "first": {
+            "lowest": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.branding.first.lowest.txtOn}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.branding.first.default.txtOn}"
+            },
+            "highest": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.branding.first.highest.txtOn}"
+            }
           },
-          "default": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.first.default.txtOn}"
+          "third": {
+            "lowest": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.branding.third.lowest.txtOn}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.branding.third.default.txtOn}"
+            },
+            "highest": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.branding.third.highest.txtOn}"
+            }
           },
-          "highest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.first.highest.txtOn}"
-          }
-        },
-        "rewards": {
-          "lowest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.third.lowest.txtOn}"
-          },
-          "default": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.third.default.txtOn}"
-          },
-          "highest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.third.highest.txtOn}"
-          }
-        },
-        "neutral": {
-          "lowest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.second.lowest.txtOn}"
-          },
-          "default": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.second.default.txtOn}"
-          },
-          "highest": {
-            "$type": "color",
-            "$value": "{semantic.color.brand.branding.second.highest.txtOn}"
+          "second": {
+            "lowest": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.branding.second.lowest.txtOn}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.branding.second.default.txtOn}"
+            },
+            "highest": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.branding.second.highest.txtOn}"
+            }
           }
         },
         "feedback": {
@@ -390,14 +392,6 @@
             }
           }
         }
-      },
-      "rewards": {
-        "$type": "color",
-        "$value": "{semantic.color.text.rewards}"
-      },
-      "cold": {
-        "$type": "color",
-        "$value": "{semantic.color.text.cold}"
       }
     },
     "opacity": {
