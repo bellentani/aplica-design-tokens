@@ -389,18 +389,6 @@
               "$value": "{semantic.color.interface.feedback.danger.secondary.normal.txtOn}"
             }
           }
-        },
-        "product": {
-          "cold": {
-            "secondary": {
-              "$type": "color",
-              "$value": "{semantic.color.product.cold.lowest.txtOn}"
-            },
-            "primary": {
-              "$type": "color",
-              "$value": "{semantic.color.product.cold.default.txtOn}"
-            }
-          }
         }
       },
       "rewards": {
