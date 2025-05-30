@@ -1,0 +1,596 @@
+{
+  "_theme-typography": {
+    "fontFamilies": {
+      "main": {
+        "face": {
+          "$type": "tfontFamiliesext",
+          "$value": "Roboto Flex"
+        },
+        "style": {
+          "light": {
+            "normal": {
+              "$type": "text",
+              "$value": "Light"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Light Italic"
+            }
+          },
+          "regular": {
+            "normal": {
+              "$type": "text",
+              "$value": "Regular"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Italic"
+            }
+          },
+          "semibold": {
+            "normal": {
+              "$type": "text",
+              "$value": "SemiBold"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "SemiBold  Italic"
+            }
+          },
+          "bold": {
+            "normal": {
+              "$type": "text",
+              "$value": "Bold"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Bold  Italic"
+            }
+          },
+          "black": {
+            "normal": {
+              "$type": "text",
+              "$value": "Black"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Black Italic"
+            }
+          }
+        }
+      },
+      "content": {
+        "face": {
+          "$type": "fontFamilies",
+          "$value": "Roboto Flex"
+        },
+        "style": {
+          "light": {
+            "normal": {
+              "$type": "text",
+              "$value": "Light"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Light Italic"
+            }
+          },
+          "regular": {
+            "normal": {
+              "$type": "text",
+              "$value": "Regular"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Italic"
+            }
+          },
+          "semibold": {
+            "normal": {
+              "$type": "text",
+              "$value": "SemiBold"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "SemiBold  Italic"
+            }
+          },
+          "bold": {
+            "normal": {
+              "$type": "text",
+              "$value": "Bold"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Bold  Italic"
+            }
+          },
+          "black": {
+            "normal": {
+              "$type": "text",
+              "$value": "Black"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Black Italic"
+            }
+          }
+        }
+      },
+      "display": {
+        "face": {
+          "$type": "fontFamilies",
+          "$value": "Gelada RC3 Variable"
+        },
+        "style": {
+          "light": {
+            "normal": {
+              "$type": "text",
+              "$value": "Light"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Light Italic"
+            }
+          },
+          "regular": {
+            "normal": {
+              "$type": "text",
+              "$value": "Regular"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Italic"
+            }
+          },
+          "semibold": {
+            "normal": {
+              "$type": "text",
+              "$value": "SemiBold"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "SemiBold  Italic"
+            }
+          },
+          "bold": {
+            "normal": {
+              "$type": "text",
+              "$value": "Bold"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Bold  Italic"
+            }
+          },
+          "black": {
+            "normal": {
+              "$type": "text",
+              "$value": "Black"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Black Italic"
+            }
+          }
+        }
+      },
+      "code": {
+        "face": {
+          "$type": "fontFamilies",
+          "$value": "Source Code Pro"
+        },
+        "style": {
+          "light": {
+            "normal": {
+              "$type": "text",
+              "$value": "Light"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Light Italic"
+            }
+          },
+          "regular": {
+            "normal": {
+              "$type": "text",
+              "$value": "Regular"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Italic"
+            }
+          },
+          "semibold": {
+            "normal": {
+              "$type": "text",
+              "$value": "SemiBold"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "SemiBold  Italic"
+            }
+          },
+          "bold": {
+            "normal": {
+              "$type": "text",
+              "$value": "Bold"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Bold  Italic"
+            }
+          },
+          "black": {
+            "normal": {
+              "$type": "text",
+              "$value": "Black"
+            },
+            "italic": {
+              "$type": "text",
+              "$value": "Black Italic"
+            }
+          }
+        }
+      }
+    },
+    "fontWeights": {
+      "main": {
+        "light": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.main.style.light.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.main.style.light.italic}"
+          }
+        },
+        "regular": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.main.style.regular.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.main.style.regular.italic}"
+          }
+        },
+        "bold": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.main.style.bold.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.main.style.bold.italic}"
+          }
+        },
+        "black": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.main.style.black.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.main.style.black.italic}"
+          }
+        },
+        "semibold": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.main.style.semibold.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.main.style.semibold.italic}"
+          }
+        }
+      },
+      "display": {
+        "light": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.display.style.light.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.display.style.light.italic}"
+          }
+        },
+        "regular": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.display.style.regular.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.display.style.regular.italic}"
+          }
+        },
+        "semibold": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.display.style.semibold.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.display.style.semibold.italic}"
+          }
+        },
+        "bold": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.display.style.bold.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.display.style.bold.italic}"
+          }
+        },
+        "black": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.display.style.black.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.display.style.black.italic}"
+          }
+        }
+      },
+      "content": {
+        "light": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.content.style.light.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.content.style.light.italic}"
+          }
+        },
+        "regular": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.content.style.regular.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.content.style.regular.italic}"
+          }
+        },
+        "semibold": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.content.style.semibold.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.content.style.semibold.italic}"
+          }
+        },
+        "bold": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.content.style.bold.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.content.style.bold.italic}"
+          }
+        },
+        "black": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.content.style.black.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.content.style.black.italic}"
+          }
+        }
+      },
+      "code": {
+        "light": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.code.style.light.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.code.style.light.italic}"
+          }
+        },
+        "regular": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.code.style.regular.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.code.style.regular.italic}"
+          }
+        },
+        "semibold": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.code.style.semibold.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.code.style.semibold.italic}"
+          }
+        },
+        "bold": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.code.style.bold.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.code.style.bold.italic}"
+          }
+        },
+        "black": {
+          "normal": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.code.style.black.normal}"
+          },
+          "italic": {
+            "$type": "text",
+            "$value": "{_theme-typography.fontFamilies.code.style.black.italic}"
+          }
+        }
+      }
+    },
+    "textDecorations": {
+      "default": {
+        "$type": "textDecoration",
+        "$value": "default"
+      },
+      "underline": {
+        "$type": "textDecoration",
+        "$value": "underline"
+      },
+      "lineThrough": {
+        "$type": "textDecoration",
+        "$value": "strike-through"
+      }
+    },
+    "textCases": {
+      "normal": {
+        "$type": "textCase",
+        "$value": "normal"
+      },
+      "uppercase": {
+        "$type": "textCase",
+        "$value": "uppercase"
+      },
+      "lowercase": {
+        "$type": "textCase",
+        "$value": "lowercase"
+      },
+      "capitalize": {
+        "$type": "text",
+        "$value": "capitalize"
+      }
+    },
+    "letterSpacings": {
+      "tight": {
+        "$type": "number",
+        "$value": -0.72
+      },
+      "regular": {
+        "$type": "number",
+        "$value": 0
+      },
+      "wild": {
+        "$type": "number",
+        "$value": 0.8
+      }
+    }
+  },
+  "_components": {
+    "global": {
+      "button": {
+        "icon": {
+          "small": {
+            "$type": "number",
+            "$value": "{_theme-dimensions.large}"
+          },
+          "medium": {
+            "$type": "number",
+            "$value": "{_theme-dimensions.extraLarge}"
+          }
+        },
+        "border": {
+          "radii": {
+            "topLeft": {
+              "small": {
+                "$type": "number",
+                "$value": "{foundation.border.radii.small}"
+              },
+              "medium": {
+                "$type": "number",
+                "$value": "{foundation.border.radii.medium}"
+              }
+            },
+            "topRight": {
+              "small": {
+                "$type": "number",
+                "$value": "{foundation.border.radii.small}"
+              },
+              "medium": {
+                "$type": "number",
+                "$value": "{foundation.border.radii.medium}"
+              }
+            },
+            "bottomLeft": {
+              "small": {
+                "$type": "number",
+                "$value": "{foundation.border.radii.small}"
+              },
+              "medium": {
+                "$type": "number",
+                "$value": "{foundation.border.radii.medium}"
+              }
+            },
+            "bottomRight": {
+              "small": {
+                "$type": "number",
+                "$value": "{foundation.border.radii.small}"
+              },
+              "medium": {
+                "$type": "number",
+                "$value": "{foundation.border.radii.medium}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "_theme-borders": {
+    "border": {
+      "radii": {
+        "straight": {
+          "$type": "number",
+          "$value": "{_theme-dimensions.zero}"
+        },
+        "micro": {
+          "$type": "number",
+          "$value": "{_theme-dimensions.micro}"
+        },
+        "extraSmall": {
+          "$type": "number",
+          "$value": "{_theme-dimensions.extraSmall}"
+        },
+        "small": {
+          "$type": "number",
+          "$value": "{_theme-dimensions.small}"
+        },
+        "medium": {
+          "$type": "number",
+          "$value": "{_theme-dimensions.medium}"
+        },
+        "large": {
+          "$type": "number",
+          "$value": "{_theme-dimensions.extraLarge}"
+        },
+        "extraLarge": {
+          "$type": "number",
+          "$value": "{_theme-dimensions.mega}"
+        },
+        "mega": {
+          "$type": "number",
+          "$value": "{_theme-dimensions.giga}"
+        },
+        "circular": {
+          "$type": "number",
+          "$value": 1000
+        }
+      }
+    }
+  }
+}
