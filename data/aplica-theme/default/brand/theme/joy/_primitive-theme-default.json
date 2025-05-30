@@ -332,6 +332,28 @@
                   "$type": "color",
                   "$value": "{_color-palette.mode.light.brand.first.palette.txtOn.10}"
                 }
+              },
+              "border": {
+                "darkest": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.180}"
+                },
+                "action": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.130}"
+                },
+                "normal": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.110}"
+                },
+                "active": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.60}"
+                },
+                "lightest": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.20}"
+                }
               }
             }
           },
@@ -664,6 +686,28 @@
                   "$type": "color",
                   "$value": "{_color-palette.mode.light.brand.second.palette.txtOn.10}"
                 }
+              },
+              "border": {
+                "darkest": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.180}"
+                },
+                "action": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.130}"
+                },
+                "normal": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.110}"
+                },
+                "active": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.60}"
+                },
+                "lightest": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.20}"
+                }
               }
             }
           },
@@ -995,6 +1039,28 @@
                 "lightest": {
                   "$type": "color",
                   "$value": "{_color-palette.mode.light.brand.third.palette.txtOn.10}"
+                }
+              },
+              "border": {
+                "darkest": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.third.palette.surface.180}"
+                },
+                "action": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.third.palette.surface.130}"
+                },
+                "normal": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.third.palette.surface.110}"
+                },
+                "active": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.third.palette.surface.60}"
+                },
+                "lightest": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.third.palette.surface.20}"
                 }
               }
             }
@@ -5678,6 +5744,28 @@
                   "$type": "color",
                   "$value": "{_color-palette.mode.dark.brand.first.palette.txtOn.10}"
                 }
+              },
+              "border": {
+                "darkest": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.dark.brand.first.palette.surface.180}"
+                },
+                "action": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.dark.brand.first.palette.surface.130}"
+                },
+                "normal": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.dark.brand.first.palette.surface.110}"
+                },
+                "active": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.dark.brand.first.palette.surface.60}"
+                },
+                "lightest": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.dark.brand.first.palette.surface.20}"
+                }
               }
             }
           },
@@ -6009,6 +6097,28 @@
                 "lightest": {
                   "$type": "color",
                   "$value": "{_color-palette.mode.dark.brand.second.palette.txtOn.10}"
+                }
+              },
+              "border": {
+                "darkest": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.180}"
+                },
+                "action": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.130}"
+                },
+                "normal": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.110}"
+                },
+                "active": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.60}"
+                },
+                "lightest": {
+                  "$type": "color",
+                  "$value": "{_color-palette.mode.light.brand.second.palette.surface.20}"
                 }
               }
             }
