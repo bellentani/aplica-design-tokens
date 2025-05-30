@@ -509,41 +509,41 @@
             "topLeft": {
               "small": {
                 "$type": "number",
-                "$value": "{foundation.border.radii.small}"
+                "$value": "{_theme-borders.radii.small}"
               },
               "medium": {
                 "$type": "number",
-                "$value": "{foundation.border.radii.medium}"
+                "$value": "{_theme-borders.radii.medium}"
               }
             },
             "topRight": {
               "small": {
                 "$type": "number",
-                "$value": "{foundation.border.radii.small}"
+                "$value": "{_theme-borders.radii.small}"
               },
               "medium": {
                 "$type": "number",
-                "$value": "{foundation.border.radii.medium}"
+                "$value": "{_theme-borders.radii.medium}"
               }
             },
             "bottomLeft": {
               "small": {
                 "$type": "number",
-                "$value": "{foundation.border.radii.small}"
+                "$value": "{_theme-borders.radii.small}"
               },
               "medium": {
                 "$type": "number",
-                "$value": "{foundation.border.radii.medium}"
+                "$value": "{_theme-borders.radii.medium}"
               }
             },
             "bottomRight": {
               "small": {
                 "$type": "number",
-                "$value": "{foundation.border.radii.small}"
+                "$value": "{_theme-borders.radii.small}"
               },
               "medium": {
                 "$type": "number",
-                "$value": "{foundation.border.radii.medium}"
+                "$value": "{_theme-borders.radii.medium}"
               }
             }
           }
@@ -552,44 +552,42 @@
     }
   },
   "_theme-borders": {
-    "border": {
-      "radii": {
-        "straight": {
-          "$type": "number",
-          "$value": "{_theme-dimensions.zero}"
-        },
-        "micro": {
-          "$type": "number",
-          "$value": "{_theme-dimensions.micro}"
-        },
-        "extraSmall": {
-          "$type": "number",
-          "$value": "{_theme-dimensions.extraSmall}"
-        },
-        "small": {
-          "$type": "number",
-          "$value": "{_theme-dimensions.small}"
-        },
-        "medium": {
-          "$type": "number",
-          "$value": "{_theme-dimensions.medium}"
-        },
-        "large": {
-          "$type": "number",
-          "$value": "{_theme-dimensions.extraLarge}"
-        },
-        "extraLarge": {
-          "$type": "number",
-          "$value": "{_theme-dimensions.mega}"
-        },
-        "mega": {
-          "$type": "number",
-          "$value": "{_theme-dimensions.giga}"
-        },
-        "circular": {
-          "$type": "number",
-          "$value": 1000
-        }
+    "radii": {
+      "straight": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.zero}"
+      },
+      "micro": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.micro}"
+      },
+      "extraSmall": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.extraSmall}"
+      },
+      "small": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.small}"
+      },
+      "medium": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.medium}"
+      },
+      "large": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.extraLarge}"
+      },
+      "extraLarge": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.mega}"
+      },
+      "mega": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.giga}"
+      },
+      "circular": {
+        "$type": "number",
+        "$value": 1000
       }
     }
   }
