@@ -919,60 +919,6 @@
         "danger": {
           "$type": "color",
           "$value": "{surface.color.text.danger}"
-        },
-        "rewards": {
-          "$type": "color",
-          "$value": "{surface.color.text.rewards}"
-        },
-        "cold": {
-          "$type": "color",
-          "$value": "{surface.color.text.cold}"
-        }
-      },
-      "product": {
-        "cold": {
-          "lowest": {
-            "background": {
-              "$type": "color",
-              "$value": "{surface.color.product.cold.lowest.background}"
-            },
-            "txtOn": {
-              "$type": "color",
-              "$value": "{surface.color.product.cold.lowest.txtOn}"
-            },
-            "border": {
-              "$type": "color",
-              "$value": "{surface.color.product.cold.lowest.border}"
-            }
-          },
-          "default": {
-            "background": {
-              "$type": "color",
-              "$value": "{surface.color.product.cold.default.background}"
-            },
-            "txtOn": {
-              "$type": "color",
-              "$value": "{surface.color.product.cold.default.txtOn}"
-            },
-            "border": {
-              "$type": "color",
-              "$value": "{surface.color.product.cold.default.border}"
-            }
-          },
-          "highest": {
-            "background": {
-              "$type": "color",
-              "$value": "{surface.color.product.cold.highest.background}"
-            },
-            "txtOn": {
-              "$type": "color",
-              "$value": "{surface.color.product.cold.highest.txtOn}"
-            },
-            "border": {
-              "$type": "color",
-              "$value": "{surface.color.product.cold.highest.border}"
-            }
-          }
         }
       }
     },
