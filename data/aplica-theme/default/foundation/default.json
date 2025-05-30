@@ -917,36 +917,36 @@
           }
         }
       },
-      "decorations": {
+      "textDecoration": {
         "default": {
           "$type": "text",
-          "$value": "{semantic.typography.decorations.default}"
+          "$value": "{semantic.typography.textDecoration.default}"
         },
         "underline": {
           "$type": "text",
-          "$value": "{semantic.typography.decorations.underline}"
+          "$value": "{semantic.typography.textDecoration.underline}"
         },
         "lineThrough": {
           "$type": "text",
-          "$value": "{semantic.typography.decorations.lineThrough}"
+          "$value": "{semantic.typography.textDecoration.lineThrough}"
         }
       },
-      "transforms": {
+      "textCase": {
         "normal": {
           "$type": "text",
-          "$value": "{semantic.typography.transforms.normal}"
+          "$value": "{semantic.typography.textCase.normal}"
         },
         "uppercase": {
           "$type": "text",
-          "$value": "{semantic.typography.transforms.uppercase}"
+          "$value": "{semantic.typography.textCase.uppercase}"
         },
         "lowercase": {
           "$type": "text",
-          "$value": "{semantic.typography.transforms.lowercase}"
+          "$value": "{semantic.typography.textCase.lowercase}"
         },
         "captalize": {
           "$type": "text",
-          "$value": "{semantic.typography.transforms.captalize}"
+          "$value": "{semantic.typography.textCase.captalize}"
         }
       }
     },

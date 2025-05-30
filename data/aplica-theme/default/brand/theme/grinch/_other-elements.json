@@ -3,7 +3,7 @@
     "fontFamilies": {
       "main": {
         "face": {
-          "$type": "tfontFamiliesext",
+          "$type": "fontFamilies",
           "$value": "Roboto Flex"
         },
         "style": {
@@ -120,7 +120,7 @@
       "display": {
         "face": {
           "$type": "fontFamilies",
-          "$value": "Gelada RC3 Variable"
+          "$value": "Poppins"
         },
         "style": {
           "light": {
