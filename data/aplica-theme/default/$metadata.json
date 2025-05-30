@@ -5,12 +5,12 @@
     "foundation/styles/typography-styles",
     "foundation/styles/depth-styles",
     "brand/theme/joy/_other-elements",
-    "brand/theme/_primitive-theme-default-config",
-    "brand/theme/_primitive-theme-default",
+    "brand/theme/joy/_primitive-theme-default",
+    "brand/theme/joy/_primitive-theme-default-config",
     "brand/theme/tangerine/_other-elements",
-    "brand/theme/_tangerine-generated",
+    "brand/theme/tangerine/_tangerine-generated",
     "brand/theme/grinch/_other-elements",
-    "brand/theme/_grinch-generated",
+    "brand/theme/grinch/_grinch-generated",
     "brand/theme/generated/1715980069769_padrao",
     "brand/theme/generated/1715981242062_padrao",
     "brand/theme/generated/1716162294022_padrao",
@@ -20,6 +20,8 @@
     "mode/dark",
     "mode/light",
     "dimensions/dimension",
-    "figma-generators/_generator-dimension"
+    "figma-generators/_generator-dimension",
+    "surface/negative",
+    "surface/positive"
   ]
 }
