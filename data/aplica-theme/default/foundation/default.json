@@ -490,6 +490,46 @@
     }
   },
   "txt": {
+    "title": {
+      "$type": "color",
+      "$value": "{semantic.color.text.title}"
+    },
+    "body": {
+      "$type": "color",
+      "$value": "{semantic.color.text.body}"
+    },
+    "highlight": {
+      "$type": "color",
+      "$value": "{semantic.color.text.highlight}"
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "{semantic.color.text.muted}"
+    },
+    "disabled": {
+      "$type": "color",
+      "$value": "{semantic.color.interface.function.disabled.normal.txtOn}"
+    },
+    "label": {
+      "$type": "color",
+      "$value": "{semantic.color.text.label}"
+    },
+    "info": {
+      "$type": "color",
+      "$value": "{semantic.color.text.info}"
+    },
+    "success": {
+      "$type": "color",
+      "$value": "{semantic.color.text.success}"
+    },
+    "warning": {
+      "$type": "color",
+      "$value": "{semantic.color.text.warning}"
+    },
+    "danger": {
+      "$type": "color",
+      "$value": "{semantic.color.text.danger}"
+    },
     "on": {
       "brand": {
         "first": {
@@ -644,82 +684,6 @@
             "$value": "{semantic.color.interface.feedback.danger.secondary.normal.txtOn}"
           }
         }
-      }
-    },
-    "positive": {
-      "title": {
-        "$type": "color",
-        "$value": "{semantic.color.text.positive.title}"
-      },
-      "body": {
-        "$type": "color",
-        "$value": "{semantic.color.text.positive.body}"
-      },
-      "highlight": {
-        "$type": "color",
-        "$value": "{semantic.color.text.positive.highlight}"
-      },
-      "muted": {
-        "$type": "color",
-        "$value": "{semantic.color.text.positive.muted}"
-      },
-      "label": {
-        "$type": "color",
-        "$value": "{semantic.color.text.positive.label}"
-      },
-      "info": {
-        "$type": "color",
-        "$value": "{semantic.color.text.positive.info}"
-      },
-      "success": {
-        "$type": "color",
-        "$value": "{semantic.color.text.positive.success}"
-      },
-      "warning": {
-        "$type": "color",
-        "$value": "{semantic.color.text.positive.warning}"
-      },
-      "danger": {
-        "$type": "color",
-        "$value": "{semantic.color.text.positive.danger}"
-      }
-    },
-    "negative": {
-      "title": {
-        "$type": "color",
-        "$value": "{semantic.color.text.negative.title}"
-      },
-      "body": {
-        "$type": "color",
-        "$value": "{semantic.color.text.negative.body}"
-      },
-      "highlight": {
-        "$type": "color",
-        "$value": "{semantic.color.text.negative.highlight}"
-      },
-      "muted": {
-        "$type": "color",
-        "$value": "{semantic.color.text.negative.muted}"
-      },
-      "label": {
-        "$type": "color",
-        "$value": "{semantic.color.text.negative.label}"
-      },
-      "info": {
-        "$type": "color",
-        "$value": "{semantic.color.text.negative.info}"
-      },
-      "success": {
-        "$type": "color",
-        "$value": "{semantic.color.text.negative.success}"
-      },
-      "warning": {
-        "$type": "color",
-        "$value": "{semantic.color.text.negative.warning}"
-      },
-      "danger": {
-        "$type": "color",
-        "$value": "{semantic.color.text.negative.danger}"
       }
     }
   },
