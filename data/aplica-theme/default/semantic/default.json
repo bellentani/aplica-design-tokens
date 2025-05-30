@@ -1714,39 +1714,39 @@
       "radii": {
         "straight": {
           "$type": "number",
-          "$value": "{_theme-borders.border.radii.straight}"
+          "$value": "{_theme-borders.radii.straight}"
         },
         "micro": {
           "$type": "number",
-          "$value": "{_theme-borders.border.radii.micro}"
+          "$value": "{_theme-borders.radii.micro}"
         },
         "extraSmall": {
           "$type": "number",
-          "$value": "{_theme-borders.border.radii.extraSmall}"
+          "$value": "{_theme-borders.radii.extraSmall}"
         },
         "small": {
           "$type": "number",
-          "$value": "{_theme-borders.border.radii.small}"
+          "$value": "{_theme-borders.radii.small}"
         },
         "medium": {
           "$type": "number",
-          "$value": "{_theme-borders.border.radii.medium}"
+          "$value": "{_theme-borders.radii.medium}"
         },
         "large": {
           "$type": "number",
-          "$value": "{_theme-borders.border.radii.large}"
+          "$value": "{_theme-borders.radii.large}"
         },
         "extraLarge": {
           "$type": "number",
-          "$value": "{_theme-borders.border.radii.extraLarge}"
+          "$value": "{_theme-borders.radii.extraLarge}"
         },
         "mega": {
           "$type": "number",
-          "$value": "{_theme-borders.border.radii.mega}"
+          "$value": "{_theme-borders.radii.mega}"
         },
         "circular": {
           "$type": "number",
-          "$value": "{_theme-borders.border.radii.circular}"
+          "$value": "{_theme-borders.radii.circular}"
         }
       }
     }
