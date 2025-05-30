@@ -479,15 +479,15 @@
     "letterSpacings": {
       "tight": {
         "$type": "number",
-        "$value": -0.72
+        "$value": "-0.72"
       },
       "regular": {
         "$type": "number",
-        "$value": 0
+        "$value": "0"
       },
       "wild": {
         "$type": "number",
-        "$value": 0.8
+        "$value": "0.8"
       }
     }
   },
@@ -587,7 +587,7 @@
       },
       "circular": {
         "$type": "number",
-        "$value": 1000
+        "$value": "1000"
       }
     }
   }

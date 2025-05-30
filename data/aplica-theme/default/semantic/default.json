@@ -988,31 +988,31 @@
       "raw": {
         "transparent": {
           "$type": "number",
-          "$value": 0
+          "$value": "0"
         },
         "superTransparent": {
           "$type": "number",
-          "$value": 10
+          "$value": "10"
         },
         "semiTranslucid": {
           "$type": "number",
-          "$value": 20
+          "$value": "20"
         },
         "translucid": {
           "$type": "number",
-          "$value": 50
+          "$value": "50"
         },
         "superTranslucid": {
           "$type": "number",
-          "$value": 80
+          "$value": "80"
         },
         "semiOpaque": {
           "$type": "number",
-          "$value": 90
+          "$value": "90"
         },
         "opaque": {
           "$type": "number",
-          "$value": 100
+          "$value": "100"
         }
       }
     },
@@ -1630,23 +1630,23 @@
       "spread": {
         "close": {
           "$type": "number",
-          "$value": 0
+          "$value": "0"
         },
         "next": {
           "$type": "number",
-          "$value": -2
+          "$value": "-2"
         },
         "near": {
           "$type": "number",
-          "$value": -4
+          "$value": "-4"
         },
         "distant": {
           "$type": "number",
-          "$value": -8
+          "$value": "-8"
         },
         "far": {
           "$type": "number",
-          "$value": -12
+          "$value": "-12"
         }
       }
     },

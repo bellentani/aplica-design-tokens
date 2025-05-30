@@ -944,9 +944,9 @@
           "$type": "text",
           "$value": "{semantic.typography.textCase.lowercase}"
         },
-        "captalize": {
+        "capitalize": {
           "$type": "text",
-          "$value": "{semantic.typography.textCase.captalize}"
+          "$value": "{semantic.typography.textCase.capitalize}"
         }
       }
     },
