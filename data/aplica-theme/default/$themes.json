@@ -7,10 +7,11 @@
       "dimensions/dimension": "source",
       "semantic/default": "enabled",
       "foundation/default": "enabled",
-      "foundation/typography-styles": "enabled",
       "brand/theme/_primitive-theme-default": "source",
       "brand/theme/_primitive-theme-default-config": "source",
-      "mode/light": "source"
+      "mode/light": "source",
+      "foundation/styles/typography-styles": "enabled",
+      "foundation/styles/depth-styles": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1071:5",
@@ -1586,9 +1587,10 @@
       "dimensions/dimension": "source",
       "semantic/default": "enabled",
       "foundation/default": "enabled",
-      "foundation/typography-styles": "enabled",
       "brand/theme/_tangerine-generated": "enabled",
-      "mode/light": "source"
+      "mode/light": "source",
+      "foundation/styles/typography-styles": "enabled",
+      "foundation/styles/depth-styles": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1071:6",
@@ -3164,9 +3166,10 @@
       "dimensions/dimension": "source",
       "semantic/default": "enabled",
       "foundation/default": "enabled",
-      "foundation/typography-styles": "enabled",
       "brand/theme/_grinch-generated": "enabled",
-      "mode/light": "source"
+      "mode/light": "source",
+      "foundation/styles/typography-styles": "enabled",
+      "foundation/styles/depth-styles": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1355:1",
