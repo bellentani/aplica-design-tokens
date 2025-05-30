@@ -10,8 +10,7 @@
       "brand/theme/_primitive-theme-default": "source",
       "brand/theme/_primitive-theme-default-config": "source",
       "mode/light": "source",
-      "foundation/styles/typography-styles": "enabled",
-      "foundation/styles/depth-styles": "disabled"
+      "foundation/styles/typography-styles": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1071:5",
@@ -1589,8 +1588,7 @@
       "foundation/default": "enabled",
       "brand/theme/_tangerine-generated": "enabled",
       "mode/light": "source",
-      "foundation/styles/typography-styles": "enabled",
-      "foundation/styles/depth-styles": "disabled"
+      "foundation/styles/typography-styles": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1071:6",
@@ -3168,8 +3166,7 @@
       "foundation/default": "enabled",
       "brand/theme/_grinch-generated": "enabled",
       "mode/light": "source",
-      "foundation/styles/typography-styles": "enabled",
-      "foundation/styles/depth-styles": "disabled"
+      "foundation/styles/typography-styles": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1355:1",
