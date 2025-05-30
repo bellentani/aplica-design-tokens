@@ -915,52 +915,6 @@
           }
         }
       },
-      "product": {
-        "cold": {
-          "lowest": {
-            "background": {
-              "$type": "color",
-              "$value": "{mode.product.cold.lowest.background}"
-            },
-            "txtOn": {
-              "$type": "color",
-              "$value": "{mode.product.cold.lowest.txtOn}"
-            },
-            "border": {
-              "$type": "color",
-              "$value": "{mode.product.cold.lowest.border}"
-            }
-          },
-          "default": {
-            "background": {
-              "$type": "color",
-              "$value": "{mode.product.cold.default.background}"
-            },
-            "txtOn": {
-              "$type": "color",
-              "$value": "{mode.product.cold.default.txtOn}"
-            },
-            "border": {
-              "$type": "color",
-              "$value": "{mode.product.cold.default.border}"
-            }
-          },
-          "highest": {
-            "background": {
-              "$type": "color",
-              "$value": "{mode.product.cold.highest.background}"
-            },
-            "txtOn": {
-              "$type": "color",
-              "$value": "{mode.product.cold.highest.txtOn}"
-            },
-            "border": {
-              "$type": "color",
-              "$value": "{mode.product.cold.highest.border}"
-            }
-          }
-        }
-      },
       "text": {
         "title": {
           "$type": "color",
@@ -1001,10 +955,6 @@
         "danger": {
           "$type": "color",
           "$value": "{mode.text.positive.danger}"
-        },
-        "cold": {
-          "$type": "color",
-          "$value": "{mode.text.positive.cold}"
         }
       }
     },
