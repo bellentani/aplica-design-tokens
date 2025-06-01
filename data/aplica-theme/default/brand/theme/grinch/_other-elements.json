@@ -493,7 +493,7 @@
   },
   "_color-palette": {
     "mode": {
-      "light:": {
+      "light": {
         "grayscale": {
           "surface": {
             "5": {
@@ -621,7 +621,7 @@
           }
         }
       },
-      "dark:": {
+      "dark": {
         "grayscale": {
           "surface": {
             "5": {
