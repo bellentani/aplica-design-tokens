@@ -366,7 +366,7 @@
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.light.grayscale.surface.100}"
+              "$value": "{_color-palette.mode.light.grayscale.surface.110}"
             }
           },
           "higher": {
@@ -380,7 +380,7 @@
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.light.grayscale.surface.120}"
+              "$value": "{_color-palette.mode.light.grayscale.surface.130}"
             }
           },
           "highest": {
@@ -394,7 +394,7 @@
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.light.grayscale.surface.140}"
+              "$value": "#000000"
             }
           }
         }
