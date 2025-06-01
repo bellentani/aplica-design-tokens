@@ -302,99 +302,99 @@
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "#f7f7f7"
+              "$value": "{_color-palette.mode.dark.grayscale.surface.5}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{mode.brand.ambient.grayscale.high.background}"
+              "$value": "{_color-palette.mode.dark.grayscale.txtOn.5}"
             },
             "border": {
               "$type": "color",
-              "$value": "#f7f7f7"
+              "$value": "{_color-palette.mode.dark.grayscale.surface.10}"
             }
           },
           "lower": {
             "background": {
               "$type": "color",
-              "$value": "#eeeeee"
+              "$value": "{_color-palette.mode.dark.grayscale.surface.10}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{mode.brand.ambient.grayscale.higher.background}"
+              "$value": "{_color-palette.mode.dark.grayscale.txtOn.10}"
             },
             "border": {
               "$type": "color",
-              "$value": "#eeeeee"
+              "$value": "{_color-palette.mode.dark.grayscale.surface.20}"
             }
           },
           "low": {
             "background": {
               "$type": "color",
-              "$value": "#bbbbbb"
+              "$value": "{_color-palette.mode.dark.grayscale.surface.40}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{mode.brand.ambient.grayscale.higher.background}"
+              "$value": "{_color-palette.mode.dark.grayscale.txtOn.40}"
             },
             "border": {
               "$type": "color",
-              "$value": "#bbbbbb"
+              "$value": "{_color-palette.mode.dark.grayscale.surface.50}"
             }
           },
           "mid": {
             "background": {
               "$type": "color",
-              "$value": "#888888"
+              "$value": "{_color-palette.mode.dark.grayscale.surface.70}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{mode.brand.ambient.grayscale.highest.background}"
+              "$value": "{_color-palette.mode.dark.grayscale.txtOn.70}"
             },
             "border": {
               "$type": "color",
-              "$value": "#888888"
+              "$value": "{_color-palette.mode.dark.grayscale.surface.80}"
             }
           },
           "high": {
             "background": {
               "$type": "color",
-              "$value": "#555555"
+              "$value": "{_color-palette.mode.dark.grayscale.surface.100}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{mode.brand.ambient.grayscale.lower.background}"
+              "$value": "{_color-palette.mode.dark.grayscale.txtOn.100}"
             },
             "border": {
               "$type": "color",
-              "$value": "#555555"
+              "$value": "{_color-palette.mode.dark.grayscale.surface.100}"
             }
           },
           "higher": {
             "background": {
               "$type": "color",
-              "$value": "#333333"
+              "$value": "{_color-palette.mode.dark.grayscale.surface.120}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{mode.brand.ambient.grayscale.lower.background}"
+              "$value": "{_color-palette.mode.dark.grayscale.txtOn.120}"
             },
             "border": {
               "$type": "color",
-              "$value": "#333333"
+              "$value": "{_color-palette.mode.dark.grayscale.surface.120}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "#111111"
+              "$value": "{_color-palette.mode.dark.grayscale.surface.140}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{mode.brand.ambient.grayscale.lower.background}"
+              "$value": "{_color-palette.mode.dark.grayscale.txtOn.140}"
             },
             "border": {
               "$type": "color",
-              "$value": "#111111"
+              "$value": "{_color-palette.mode.dark.grayscale.surface.140}"
             }
           }
         }
