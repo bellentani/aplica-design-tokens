@@ -3,7 +3,7 @@
     "fontFamilies": {
       "main": {
         "face": {
-          "$type": "fontFamilies",
+          "$type": "text",
           "$value": "Roboto Flex"
         },
         "style": {
@@ -446,29 +446,29 @@
     },
     "textDecorations": {
       "default": {
-        "$type": "textDecoration",
+        "$type": "text",
         "$value": "default"
       },
       "underline": {
-        "$type": "textDecoration",
+        "$type": "text",
         "$value": "underline"
       },
       "lineThrough": {
-        "$type": "textDecoration",
+        "$type": "text",
         "$value": "strike-through"
       }
     },
     "textCases": {
       "normal": {
-        "$type": "textCase",
+        "$type": "text",
         "$value": "normal"
       },
       "uppercase": {
-        "$type": "textCase",
+        "$type": "text",
         "$value": "uppercase"
       },
       "lowercase": {
-        "$type": "textCase",
+        "$type": "text",
         "$value": "lowercase"
       },
       "capitalize": {

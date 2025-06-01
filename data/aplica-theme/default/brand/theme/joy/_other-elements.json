@@ -3,7 +3,7 @@
     "fontFamilies": {
       "main": {
         "face": {
-          "$type": "tfontFamiliesext",
+          "$type": "text",
           "$value": "Roboto Flex"
         },
         "style": {
@@ -446,15 +446,15 @@
     },
     "textDecorations": {
       "default": {
-        "$type": "textDecoration",
+        "$type": "text",
         "$value": "default"
       },
       "underline": {
-        "$type": "textDecoration",
+        "$type": "text",
         "$value": "underline"
       },
       "lineThrough": {
-        "$type": "textDecoration",
+        "$type": "text",
         "$value": "strike-through"
       }
     },
