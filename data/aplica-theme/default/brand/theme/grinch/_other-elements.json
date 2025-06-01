@@ -34,7 +34,7 @@
             },
             "italic": {
               "$type": "text",
-              "$value": "SemiBold  Italic"
+              "$value": "SemiBold Italic"
             }
           },
           "bold": {
@@ -44,7 +44,7 @@
             },
             "italic": {
               "$type": "text",
-              "$value": "Bold  Italic"
+              "$value": "Bold Italic"
             }
           },
           "black": {
@@ -92,7 +92,7 @@
             },
             "italic": {
               "$type": "text",
-              "$value": "SemiBold  Italic"
+              "$value": "SemiBold Italic"
             }
           },
           "bold": {
@@ -102,7 +102,7 @@
             },
             "italic": {
               "$type": "text",
-              "$value": "Bold  Italic"
+              "$value": "Bold Italic"
             }
           },
           "black": {
@@ -120,7 +120,7 @@
       "display": {
         "face": {
           "$type": "fontFamilies",
-          "$value": "Poppins"
+          "$value": "Inter"
         },
         "style": {
           "light": {
@@ -146,11 +146,11 @@
           "semibold": {
             "normal": {
               "$type": "text",
-              "$value": "SemiBold"
+              "$value": "Semi Bold"
             },
             "italic": {
               "$type": "text",
-              "$value": "SemiBold  Italic"
+              "$value": "Semi Bold Italic"
             }
           },
           "bold": {
@@ -160,7 +160,7 @@
             },
             "italic": {
               "$type": "text",
-              "$value": "Bold  Italic"
+              "$value": "Bold Italic"
             }
           },
           "black": {
@@ -208,7 +208,7 @@
             },
             "italic": {
               "$type": "text",
-              "$value": "SemiBold  Italic"
+              "$value": "SemiBold Italic"
             }
           },
           "bold": {
@@ -218,7 +218,7 @@
             },
             "italic": {
               "$type": "text",
-              "$value": "Bold  Italic"
+              "$value": "Bold Italic"
             }
           },
           "black": {
