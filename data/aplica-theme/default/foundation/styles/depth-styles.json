@@ -11,7 +11,7 @@
           "color": "{semantic.opacity.color.grayscale.superTransparent}",
           "type": "{semantic.depth.position.inner}"
         },
-        "$description": "Token de Profundidade para nível negativo interno, usado para dar senso de elementos com conteúdo interno (como formulários)."
+        "$description": "Negative internal depth token, used to give a sense of elements with inner content (such as forms)."
       },
       "zero": {
         "$type": "boxShadow",
@@ -22,7 +22,7 @@
           "spread": "{semantic.depth.proximity.flat}",
           "color": "{semantic.opacity.color.grayscale.superTranslucid}"
         },
-        "$description": "Esse é o token de valor zero para profundidade. Normalmente ele é invocado em todos os componentes que possam usar um componente Box como agrupador. Motivo: isso facilita criar animações de relevo quando outros agrupadores de níveis diferentes são chamados."
+        "$description": "This is the zero value token for depth. It is usually invoked in all components that may use a Box component as a wrapper. Reason: this facilitates creating elevation animations when other wrappers of different levels are called."
       },
       "one": {
         "$type": "boxShadow",
@@ -33,10 +33,10 @@
           "spread": "{semantic.depth.proximity.flat}",
           "color": "{semantic.opacity.color.grayscale.superTransparent}",
           "type": "{semantic.depth.position.outter}"
-        }
+        },
+        "$description": "Depth token for level one, used for subtle elevation of elements above the base surface."
       },
       "two": {
-        "description": "",
         "$type": "boxShadow",
         "$value": {
           "x": "{semantic.depth.distance.flat}",
@@ -45,10 +45,10 @@
           "spread": "{semantic.depth.proximity.close}",
           "color": "{semantic.opacity.color.grayscale.superTransparent}",
           "type": "{semantic.depth.position.outter}"
-        }
+        },
+        "$description": "Depth token for level two, used for slightly more prominent elevation, such as cards or raised buttons."
       },
       "three": {
-        "description": "",
         "$type": "boxShadow",
         "$value": {
           "x": "{semantic.depth.distance.flat}",
@@ -57,10 +57,10 @@
           "spread": "{semantic.depth.proximity.medium}",
           "color": "{semantic.opacity.color.grayscale.superTransparent}",
           "type": "{semantic.depth.position.outter}"
-        }
+        },
+        "$description": "Depth token for level three, used for elements that need to stand out more, such as modals or floating panels."
       },
       "four": {
-        "description": "",
         "$type": "boxShadow",
         "$value": {
           "x": "{semantic.depth.distance.flat}",
@@ -69,10 +69,10 @@
           "spread": "{semantic.depth.proximity.close}",
           "color": "{semantic.opacity.color.grayscale.superTransparent}",
           "type": "{semantic.depth.position.outter}"
-        }
+        },
+        "$description": "Depth token for level four, used for high prominence elements, such as overlays or dialogs."
       },
       "five": {
-        "description": "",
         "$type": "boxShadow",
         "$value": {
           "x": "{semantic.depth.distance.flat}",
@@ -81,10 +81,10 @@
           "spread": "{semantic.depth.proximity.close}",
           "color": "{semantic.opacity.color.grayscale.superTransparent}",
           "type": "{semantic.depth.position.outter}"
-        }
+        },
+        "$description": "Depth token for level five, used for very prominent elements that must appear above most content."
       },
       "six": {
-        "description": "",
         "$type": "boxShadow",
         "$value": {
           "x": "{semantic.depth.distance.flat}",
@@ -93,7 +93,8 @@
           "spread": "{semantic.depth.proximity.close}",
           "color": "{semantic.opacity.color.grayscale.superTransparent}",
           "type": "{semantic.depth.position.outter}"
-        }
+        },
+        "$description": "Depth token for level six, used for the highest elevation, typically reserved for temporary or critical UI elements."
       }
     }
   }
