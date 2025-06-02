@@ -6,43 +6,43 @@
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.palette.surface.180}"
+              "$value": "{theme.dark.brand.first.palette.surface.180}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.palette.txtOn.180}"
+              "$value": "{theme.dark.brand.first.palette.txtOn.180}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.palette.surface.170}"
+              "$value": "{theme.dark.brand.first.palette.surface.170}"
             }
           },
           "default": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.palette.surface.100}"
+              "$value": "{theme.dark.brand.first.palette.surface.100}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.palette.txtOn.100}"
+              "$value": "{theme.dark.brand.first.palette.txtOn.100}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.palette.surface.110}"
+              "$value": "{theme.dark.brand.first.palette.surface.110}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.palette.surface.90}"
+              "$value": "{theme.dark.brand.first.palette.surface.90}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.palette.txtOn.90}"
+              "$value": "{theme.dark.brand.first.palette.txtOn.90}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.palette.surface.80}"
+              "$value": "{theme.dark.brand.first.palette.surface.80}"
             }
           }
         },
@@ -50,43 +50,43 @@
           "default": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.second.palette.surface.100}"
+              "$value": "{theme.dark.brand.second.palette.surface.100}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.second.palette.txtOn.100}"
+              "$value": "{theme.dark.brand.second.palette.txtOn.100}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.second.palette.surface.110}"
+              "$value": "{theme.dark.brand.second.palette.surface.110}"
             }
           },
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.second.palette.surface.180}"
+              "$value": "{theme.dark.brand.second.palette.surface.180}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.second.palette.txtOn.180}"
+              "$value": "{theme.dark.brand.second.palette.txtOn.180}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.second.palette.surface.170}"
+              "$value": "{theme.dark.brand.second.palette.surface.170}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.second.palette.surface.90}"
+              "$value": "{theme.dark.brand.second.palette.surface.90}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.second.palette.txtOn.90}"
+              "$value": "{theme.dark.brand.second.palette.txtOn.90}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.second.palette.surface.80}"
+              "$value": "{theme.dark.brand.second.palette.surface.80}"
             }
           }
         },
@@ -94,43 +94,43 @@
           "default": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.third.palette.surface.100}"
+              "$value": "{theme.dark.brand.third.palette.surface.100}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.third.palette.txtOn.100}"
+              "$value": "{theme.dark.brand.third.palette.txtOn.100}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.third.palette.surface.110}"
+              "$value": "{theme.dark.brand.third.palette.surface.110}"
             }
           },
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.third.palette.surface.180}"
+              "$value": "{theme.dark.brand.third.palette.surface.180}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.third.palette.txtOn.180}"
+              "$value": "{theme.dark.brand.third.palette.txtOn.180}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.third.palette.surface.170}"
+              "$value": "{theme.dark.brand.third.palette.surface.170}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.third.palette.surface.100}"
+              "$value": "{theme.dark.brand.third.palette.surface.100}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.third.palette.txtOn.100}"
+              "$value": "{theme.dark.brand.third.palette.txtOn.100}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.third.palette.surface.110}"
+              "$value": "{theme.dark.brand.third.palette.surface.110}"
             }
           }
         }
@@ -141,29 +141,29 @@
             "positive": {
               "background": {
                 "$type": "color",
-                "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.5}"
+                "$value": "{theme.dark.brand.first.neutrals.surface.5}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{_color-palette.mode.dark.brand.first.neutrals.txtOn.5}"
+                "$value": "{theme.dark.brand.first.neutrals.txtOn.5}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.5}"
+                "$value": "{theme.dark.brand.first.neutrals.surface.5}"
               }
             },
             "negative": {
               "background": {
                 "$type": "color",
-                "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.140}"
+                "$value": "{theme.dark.brand.first.neutrals.surface.140}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{_color-palette.mode.dark.brand.first.neutrals.txtOn.140}"
+                "$value": "{theme.dark.brand.first.neutrals.txtOn.140}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.140}"
+                "$value": "{theme.dark.brand.first.neutrals.surface.140}"
               }
             }
           },
@@ -202,99 +202,99 @@
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.5}"
+              "$value": "{theme.dark.brand.first.neutrals.surface.5}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.txtOn.5}"
+              "$value": "{theme.dark.brand.first.neutrals.txtOn.5}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.5}"
+              "$value": "{theme.dark.brand.first.neutrals.surface.5}"
             }
           },
           "lower": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.10}"
+              "$value": "{theme.dark.brand.first.neutrals.surface.10}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.txtOn.10}"
+              "$value": "{theme.dark.brand.first.neutrals.txtOn.10}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.10}"
+              "$value": "{theme.dark.brand.first.neutrals.surface.10}"
             }
           },
           "low": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.40}"
+              "$value": "{theme.dark.brand.first.neutrals.surface.40}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.txtOn.10}"
+              "$value": "{theme.dark.brand.first.neutrals.txtOn.10}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.40}"
+              "$value": "{theme.dark.brand.first.neutrals.surface.40}"
             }
           },
           "mid": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.70}"
+              "$value": "{theme.dark.brand.first.neutrals.surface.70}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.txtOn.70}"
+              "$value": "{theme.dark.brand.first.neutrals.txtOn.70}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.60}"
+              "$value": "{theme.dark.brand.first.neutrals.surface.60}"
             }
           },
           "high": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.100}"
+              "$value": "{theme.dark.brand.first.neutrals.surface.100}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.txtOn.100}"
+              "$value": "{theme.dark.brand.first.neutrals.txtOn.100}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.100}"
+              "$value": "{theme.dark.brand.first.neutrals.surface.100}"
             }
           },
           "higher": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.120}"
+              "$value": "{theme.dark.brand.first.neutrals.surface.120}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.txtOn.120}"
+              "$value": "{theme.dark.brand.first.neutrals.txtOn.120}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.120}"
+              "$value": "{theme.dark.brand.first.neutrals.surface.120}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.140}"
+              "$value": "{theme.dark.brand.first.neutrals.surface.140}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.txtOn.140}"
+              "$value": "{theme.dark.brand.first.neutrals.txtOn.140}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.brand.first.neutrals.surface.140}"
+              "$value": "{theme.dark.brand.first.neutrals.surface.140}"
             }
           }
         },
@@ -302,95 +302,95 @@
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.surface.5}"
+              "$value": "{theme.dark.grayscale.surface.5}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.txtOn.5}"
+              "$value": "{theme.dark.grayscale.txtOn.5}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.surface.10}"
+              "$value": "{theme.dark.grayscale.surface.10}"
             }
           },
           "lower": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.surface.10}"
+              "$value": "{theme.dark.grayscale.surface.10}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.txtOn.10}"
+              "$value": "{theme.dark.grayscale.txtOn.10}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.surface.20}"
+              "$value": "{theme.dark.grayscale.surface.20}"
             }
           },
           "low": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.surface.40}"
+              "$value": "{theme.dark.grayscale.surface.40}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.txtOn.40}"
+              "$value": "{theme.dark.grayscale.txtOn.40}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.surface.50}"
+              "$value": "{theme.dark.grayscale.surface.50}"
             }
           },
           "mid": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.surface.70}"
+              "$value": "{theme.dark.grayscale.surface.70}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.txtOn.70}"
+              "$value": "{theme.dark.grayscale.txtOn.70}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.surface.80}"
+              "$value": "{theme.dark.grayscale.surface.80}"
             }
           },
           "high": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.surface.100}"
+              "$value": "{theme.dark.grayscale.surface.100}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.txtOn.100}"
+              "$value": "{theme.dark.grayscale.txtOn.100}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.surface.110}"
+              "$value": "{theme.dark.grayscale.surface.110}"
             }
           },
           "higher": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.surface.120}"
+              "$value": "{theme.dark.grayscale.surface.120}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.txtOn.120}"
+              "$value": "{theme.dark.grayscale.txtOn.120}"
             },
             "border": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.surface.130}"
+              "$value": "{theme.dark.grayscale.surface.130}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.surface.140}"
+              "$value": "{theme.dark.grayscale.surface.140}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.grayscale.txtOn.140}"
+              "$value": "{theme.dark.grayscale.txtOn.140}"
             },
             "border": {
               "$type": "color",
@@ -406,67 +406,67 @@
           "surface": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.surface.lightest}"
+              "$value": "{theme.dark.interface.function.primary.behavior.surface.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.surface.action}"
+              "$value": "{theme.dark.interface.function.primary.behavior.surface.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.surface.normal}"
+              "$value": "{theme.dark.interface.function.primary.behavior.surface.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.surface.active}"
+              "$value": "{theme.dark.interface.function.primary.behavior.surface.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.surface.darkest}"
+              "$value": "{theme.dark.interface.function.primary.behavior.surface.darkest}"
             }
           },
           "txtOn": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.txtOn.lightest}"
+              "$value": "{theme.dark.interface.function.primary.behavior.txtOn.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.txtOn.action}"
+              "$value": "{theme.dark.interface.function.primary.behavior.txtOn.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.txtOn.normal}"
+              "$value": "{theme.dark.interface.function.primary.behavior.txtOn.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.txtOn.active}"
+              "$value": "{theme.dark.interface.function.primary.behavior.txtOn.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.txtOn.darkest}"
+              "$value": "{theme.dark.interface.function.primary.behavior.txtOn.darkest}"
             }
           },
           "border": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.surface.lightest}"
+              "$value": "{theme.dark.interface.function.primary.behavior.surface.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.surface.action}"
+              "$value": "{theme.dark.interface.function.primary.behavior.surface.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.surface.normal}"
+              "$value": "{theme.dark.interface.function.primary.behavior.surface.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.surface.active}"
+              "$value": "{theme.dark.interface.function.primary.behavior.surface.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.primary.behavior.surface.darkest}"
+              "$value": "{theme.dark.interface.function.primary.behavior.surface.darkest}"
             }
           }
         },
@@ -474,67 +474,67 @@
           "surface": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.surface.lightest}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.surface.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.surface.action}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.surface.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.surface.normal}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.surface.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.surface.active}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.surface.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.surface.darkest}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.surface.darkest}"
             }
           },
           "txtOn": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.txtOn.lightest}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.txtOn.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.txtOn.action}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.txtOn.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.txtOn.normal}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.txtOn.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.txtOn.active}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.txtOn.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.txtOn.darkest}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.txtOn.darkest}"
             }
           },
           "border": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.surface.lightest}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.surface.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.surface.action}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.surface.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.surface.normal}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.surface.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.surface.active}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.surface.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.secondary.behavior.surface.darkest}"
+              "$value": "{theme.dark.interface.function.secondary.behavior.surface.darkest}"
             }
           }
         },
@@ -542,67 +542,67 @@
           "surface": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.surface.lightest}"
+              "$value": "{theme.dark.interface.function.link.behavior.surface.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.surface.action}"
+              "$value": "{theme.dark.interface.function.link.behavior.surface.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.surface.normal}"
+              "$value": "{theme.dark.interface.function.link.behavior.surface.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.surface.active}"
+              "$value": "{theme.dark.interface.function.link.behavior.surface.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.surface.darkest}"
+              "$value": "{theme.dark.interface.function.link.behavior.surface.darkest}"
             }
           },
           "txtOn": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.txtOn.lightest}"
+              "$value": "{theme.dark.interface.function.link.behavior.txtOn.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.txtOn.action}"
+              "$value": "{theme.dark.interface.function.link.behavior.txtOn.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.txtOn.normal}"
+              "$value": "{theme.dark.interface.function.link.behavior.txtOn.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.txtOn.active}"
+              "$value": "{theme.dark.interface.function.link.behavior.txtOn.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.txtOn.darkest}"
+              "$value": "{theme.dark.interface.function.link.behavior.txtOn.darkest}"
             }
           },
           "border": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.surface.lightest}"
+              "$value": "{theme.dark.interface.function.link.behavior.surface.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.surface.action}"
+              "$value": "{theme.dark.interface.function.link.behavior.surface.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.surface.normal}"
+              "$value": "{theme.dark.interface.function.link.behavior.surface.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.surface.active}"
+              "$value": "{theme.dark.interface.function.link.behavior.surface.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.function.link.behavior.surface.darkest}"
+              "$value": "{theme.dark.interface.function.link.behavior.surface.darkest}"
             }
           }
         }
@@ -612,67 +612,67 @@
           "surface": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.lightest}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.surface.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.action}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.surface.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.normal}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.surface.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.active}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.surface.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.darkest}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.surface.darkest}"
             }
           },
           "txtOn": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.txtOn.lightest}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.txtOn.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.txtOn.action}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.txtOn.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.txtOn.normal}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.txtOn.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.txtOn.active}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.txtOn.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.txtOn.darkest}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.txtOn.darkest}"
             }
           },
           "border": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.lightest}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.surface.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.action}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.surface.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.normal}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.surface.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.active}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.surface.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.darkest}"
+              "$value": "{theme.dark.interface.feedback.info.behavior.surface.darkest}"
             }
           }
         },
@@ -680,67 +680,67 @@
           "surface": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.lightest}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.surface.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.action}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.surface.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.normal}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.surface.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.active}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.surface.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.darkest}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.surface.darkest}"
             }
           },
           "txtOn": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.txtOn.lightest}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.txtOn.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.txtOn.action}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.txtOn.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.txtOn.normal}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.txtOn.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.txtOn.active}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.txtOn.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.txtOn.darkest}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.txtOn.darkest}"
             }
           },
           "border": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.lightest}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.surface.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.action}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.surface.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.normal}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.surface.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.active}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.surface.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.darkest}"
+              "$value": "{theme.dark.interface.feedback.success.behavior.surface.darkest}"
             }
           }
         },
@@ -748,67 +748,67 @@
           "surface": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.lightest}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.surface.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.action}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.surface.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.normal}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.surface.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.active}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.surface.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.darkest}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.surface.darkest}"
             }
           },
           "txtOn": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.txtOn.lightest}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.txtOn.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.txtOn.action}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.txtOn.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.txtOn.normal}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.txtOn.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.txtOn.active}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.txtOn.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.txtOn.darkest}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.txtOn.darkest}"
             }
           },
           "border": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.lightest}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.surface.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.action}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.surface.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.normal}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.surface.normal}"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.active}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.surface.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.darkest}"
+              "$value": "{theme.dark.interface.feedback.warning.behavior.surface.darkest}"
             }
           }
         },
@@ -816,70 +816,70 @@
           "surface": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.lightest}"
+              "$value": "{theme.dark.interface.feedback.danger.behavior.surface.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.action}"
+              "$value": "{theme.dark.interface.feedback.danger.behavior.surface.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.normal}",
+              "$value": "{theme.dark.interface.feedback.danger.behavior.surface.normal}",
               "$description": "$color.interface.feedback.danger.normal"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.active}"
+              "$value": "{theme.dark.interface.feedback.danger.behavior.surface.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.darkest}"
+              "$value": "{theme.dark.interface.feedback.danger.behavior.surface.darkest}"
             }
           },
           "txtOn": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.txtOn.lightest}"
+              "$value": "{theme.dark.interface.feedback.danger.behavior.txtOn.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.txtOn.action}"
+              "$value": "{theme.dark.interface.feedback.danger.behavior.txtOn.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.txtOn.normal}",
+              "$value": "{theme.dark.interface.feedback.danger.behavior.txtOn.normal}",
               "$description": "$color.interface.feedback.danger.normal"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.txtOn.active}"
+              "$value": "{theme.dark.interface.feedback.danger.behavior.txtOn.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.txtOn.darkest}"
+              "$value": "{theme.dark.interface.feedback.danger.behavior.txtOn.darkest}"
             }
           },
           "border": {
             "negative": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.lightest}"
+              "$value": "{theme.dark.interface.feedback.danger.behavior.surface.lightest}"
             },
             "action": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.action}"
+              "$value": "{theme.dark.interface.feedback.danger.behavior.surface.action}"
             },
             "normal": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.normal}",
+              "$value": "{theme.dark.interface.feedback.danger.behavior.surface.normal}",
               "$description": "$color.interface.feedback.danger.normal"
             },
             "active": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.active}"
+              "$value": "{theme.dark.interface.feedback.danger.behavior.surface.active}"
             },
             "positive": {
               "$type": "color",
-              "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.darkest}"
+              "$value": "{theme.dark.interface.feedback.danger.behavior.surface.darkest}"
             }
           }
         }
@@ -943,7 +943,7 @@
         },
         "cold": {
           "$type": "color",
-          "$value": "{_color-palette.mode.dark.product.cold.behavior.surface.action}"
+          "$value": "{theme.dark.product.cold.behavior.surface.action}"
         }
       },
       "negative": {
@@ -989,53 +989,7 @@
         },
         "cold": {
           "$type": "color",
-          "$value": "{_color-palette.mode.dark.product.cold.behavior.surface.active}"
-        }
-      }
-    },
-    "product": {
-      "cold": {
-        "lowest": {
-          "background": {
-            "$type": "color",
-            "$value": "{_color-palette.mode.dark.product.cold.palette.surface.180}"
-          },
-          "txtOn": {
-            "$type": "color",
-            "$value": "{_color-palette.mode.dark.product.cold.palette.txtOn.180}"
-          },
-          "border": {
-            "$type": "color",
-            "$value": "{_color-palette.mode.dark.product.cold.palette.surface.170}"
-          }
-        },
-        "default": {
-          "background": {
-            "$type": "color",
-            "$value": "{_color-palette.mode.dark.product.cold.palette.surface.100}"
-          },
-          "txtOn": {
-            "$type": "color",
-            "$value": "{_color-palette.mode.dark.product.cold.palette.txtOn.100}"
-          },
-          "border": {
-            "$type": "color",
-            "$value": "{_color-palette.mode.dark.product.cold.palette.surface.110}"
-          }
-        },
-        "highest": {
-          "background": {
-            "$type": "color",
-            "$value": "{_color-palette.mode.dark.product.cold.palette.surface.10}"
-          },
-          "txtOn": {
-            "$type": "color",
-            "$value": "{_color-palette.mode.dark.product.cold.palette.txtOn.10}"
-          },
-          "border": {
-            "$type": "color",
-            "$value": "{_color-palette.mode.dark.product.cold.palette.surface.20}"
-          }
+          "$value": "{theme.dark.product.cold.behavior.surface.active}"
         }
       }
     }
