@@ -1627,26 +1627,70 @@
       }
     },
     "depth": {
-      "spread": {
-        "close": {
-          "$type": "number",
-          "$value": "0"
+      "position": {
+        "outter": {
+          "$type": "other",
+          "$value": "dropShadow"
         },
-        "next": {
-          "$type": "number",
-          "$value": "-2"
+        "inner": {
+          "$type": "other",
+          "$value": "innerShadow"
+        }
+      },
+      "distance": {
+        "flat": {
+          "$type": "other",
+          "$value": "{_theme-dimensions.zero}"
         },
-        "near": {
-          "$type": "number",
-          "$value": "-4"
+        "micro": {
+          "$type": "other",
+          "$value": "{_theme-dimensions.micro}"
         },
+        "extraSmall": {
+          "$type": "other",
+          "$value": "{_theme-dimensions.extraSmall}"
+        },
+        "small": {
+          "$type": "other",
+          "$value": "{_theme-dimensions.small}"
+        },
+        "medium": {
+          "$type": "other",
+          "$value": "{_theme-dimensions.medium}"
+        },
+        "large": {
+          "$type": "other",
+          "$value": "{_theme-dimensions.large}"
+        },
+        "extraLarge": {
+          "$type": "other",
+          "$value": "{_theme-dimensions.extraLarge}"
+        },
+        "mega": {
+          "$type": "other",
+          "$value": "{_theme-dimensions.mega}"
+        },
+        "giga": {
+          "$type": "other",
+          "$value": "{_theme-dimensions.giga}"
+        }
+      },
+      "proximity": {
         "distant": {
-          "$type": "number",
-          "$value": "-8"
+          "$type": "other",
+          "$value": "-{_theme-dimensions.extraSmall}"
         },
-        "far": {
-          "$type": "number",
-          "$value": "-12"
+        "medium": {
+          "$type": "other",
+          "$value": "-{_theme-dimensions.micro}"
+        },
+        "close": {
+          "$type": "other",
+          "$value": "-{_theme-dimensions.nano}"
+        },
+        "flat": {
+          "$type": "other",
+          "$value": "{_theme-dimensions.zero}"
         }
       }
     },
