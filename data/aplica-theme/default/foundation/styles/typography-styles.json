@@ -16,7 +16,7 @@
               "textCase": "{semantic.typography.textCase.normal}",
               "textDecoration": "{semantic.typography.textDecoration.default}"
             },
-            "$description": "Use for primary content text, including descriptions, instructions, and general UI text. The Body style is designed to be easily readable and is the most frequently used text style."
+            "$description": "Use for general content text, such as paragraphs, descriptions, and instructions. Body is the default text style for most UI content, optimized for readability at 14px."
           },
           "body-large": {
             "$type": "typography",
@@ -31,7 +31,7 @@
               "textCase": "{semantic.typography.textCase.normal}",
               "textDecoration": "{semantic.typography.textDecoration.default}"
             },
-            "$description": "Use for hightlight content text, chapter or category descriptions, instructions. The Body Large style is a support for Body Large and titles"
+            "$description": "Use for content that requires enhanced readability, such as important information, summaries, or sections where larger text improves user experience. Body Large is ideal for supporting main content and titles."
           },
           "label": {
             "$type": "typography",
@@ -91,7 +91,7 @@
               "textCase": "{semantic.typography.textCase.normal}",
               "textDecoration": "{semantic.typography.textDecoration.default}"
             },
-            "$description": "Best for secondary information such as timestamps, footnotes, or additional context. The Meta style is smaller, providing necessary details without overwhelming the primary content."
+            "$description": "Use for quotations or highlighted statements within content. The Quote style is designed to distinguish quoted or referenced text from the main content, often with italic emphasis."
           },
           "lead": {
             "$type": "typography",
@@ -106,7 +106,7 @@
               "textCase": "{semantic.typography.textCase.normal}",
               "textDecoration": "{semantic.typography.textDecoration.default}"
             },
-            "$description": "Best for secondary information such as timestamps, footnotes, or additional context. The Meta style is smaller, providing necessary details without overwhelming the primary content."
+            "$description": "Use for introductory or leading text that precedes main content. The Lead style is larger and draws attention to key messages or summaries."
           }
         },
         "action": {
@@ -124,7 +124,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for strong action elements (such as buttons) in very compact spaces, where emphasis and clarity are required."
               },
               "small": {
                 "$type": "typography",
@@ -138,7 +139,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for strong action elements (such as buttons) in small spaces, providing emphasis and readability."
               },
               "medium": {
                 "$type": "typography",
@@ -152,7 +154,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for strong action elements (such as buttons) in medium-sized spaces, balancing emphasis and legibility."
               },
               "large": {
                 "$type": "typography",
@@ -166,7 +169,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for strong action elements (such as buttons) in large spaces, ensuring high visibility and impact."
               }
             },
             "close": {
@@ -182,7 +186,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for strong action elements in very compact spaces with closer line height, maximizing space efficiency."
               },
               "small": {
                 "$type": "typography",
@@ -196,7 +201,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for strong action elements in small spaces with closer line height, maintaining emphasis in limited space."
               },
               "medium": {
                 "$type": "typography",
@@ -210,7 +216,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for strong action elements in medium spaces with closer line height, balancing compactness and emphasis."
               },
               "large": {
                 "$type": "typography",
@@ -224,7 +231,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for strong action elements in large spaces with closer line height, providing strong emphasis and clarity."
               }
             },
             "regular": {
@@ -240,7 +248,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for strong action elements in very compact spaces with regular line height, ensuring clarity and emphasis."
               },
               "small": {
                 "$type": "typography",
@@ -254,7 +263,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for strong action elements in small spaces with regular line height, providing emphasis and readability."
               },
               "medium": {
                 "$type": "typography",
@@ -268,7 +278,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for strong action elements in medium spaces with regular line height, balancing emphasis and legibility."
               },
               "large": {
                 "$type": "typography",
@@ -282,7 +293,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for strong action elements in large spaces with regular line height, ensuring high visibility and impact."
               }
             }
           },
@@ -300,7 +312,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for regular action elements (such as secondary buttons or links) in very compact spaces, where space efficiency is important."
               },
               "small": {
                 "$type": "typography",
@@ -314,7 +327,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for regular action elements in small spaces, providing clarity and accessibility."
               },
               "medium": {
                 "$type": "typography",
@@ -328,7 +342,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for regular action elements in medium spaces, balancing compactness and readability."
               },
               "large": {
                 "$type": "typography",
@@ -342,7 +357,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for regular action elements in large spaces, ensuring clear and accessible actions."
               }
             },
             "close": {
@@ -358,7 +374,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for regular action elements in very compact spaces with closer line height, maximizing space efficiency."
               },
               "small": {
                 "$type": "typography",
@@ -372,7 +389,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for regular action elements in small spaces with closer line height, maintaining clarity in limited space."
               },
               "medium": {
                 "$type": "typography",
@@ -386,7 +404,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for regular action elements in medium spaces with closer line height, balancing compactness and readability."
               },
               "large": {
                 "$type": "typography",
@@ -400,7 +419,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for regular action elements in large spaces with closer line height, ensuring clear and accessible actions."
               }
             },
             "regular": {
@@ -416,7 +436,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for regular action elements in very compact spaces with regular line height, ensuring clarity and accessibility."
               },
               "small": {
                 "$type": "typography",
@@ -430,7 +451,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for regular action elements in small spaces with regular line height, providing clarity and accessibility."
               },
               "medium": {
                 "$type": "typography",
@@ -444,7 +466,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for regular action elements in medium spaces with regular line height, balancing compactness and readability."
               },
               "large": {
                 "$type": "typography",
@@ -458,7 +481,8 @@
                   "paragraphIndent": "{semantic.dimension.spacing.zero}",
                   "textCase": "{semantic.typography.textCase.normal}",
                   "textDecoration": "{semantic.typography.textDecoration.default}"
-                }
+                },
+                "$description": "Use for regular action elements in large spaces with regular line height, ensuring clear and accessible actions."
               }
             }
           }
@@ -476,7 +500,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textCase": "{semantic.typography.textCase.normal}",
               "textDecoration": "{semantic.typography.textDecoration.underline}"
-            }
+            },
+            "$description": "Use for links in very compact spaces, ensuring they remain visible and accessible."
           },
           "small": {
             "$type": "typography",
@@ -490,7 +515,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textCase": "{semantic.typography.textCase.normal}",
               "textDecoration": "{semantic.typography.textDecoration.underline}"
-            }
+            },
+            "$description": "Use for links in small spaces, providing clarity and accessibility."
           },
           "medium": {
             "$type": "typography",
@@ -504,7 +530,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textCase": "{semantic.typography.textCase.normal}",
               "textDecoration": "{semantic.typography.textDecoration.underline}"
-            }
+            },
+            "$description": "Use for links in medium spaces, balancing visibility and readability."
           },
           "large": {
             "$type": "typography",
@@ -518,7 +545,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textCase": "{semantic.typography.textCase.normal}",
               "textDecoration": "{semantic.typography.textDecoration.underline}"
-            }
+            },
+            "$description": "Use for links in large spaces, ensuring high visibility and accessibility."
           }
         }
       },
@@ -536,7 +564,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for the largest display text on mobile, such as splash screens or main titles. Provides maximum emphasis."
           },
           "display2": {
             "$type": "typography",
@@ -550,7 +579,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for large display text on mobile, such as section headers or prominent titles."
           },
           "display3": {
             "$type": "typography",
@@ -564,7 +594,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for medium display text on mobile, suitable for sub-headers or highlighted content."
           },
           "display4": {
             "$type": "typography",
@@ -578,7 +609,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for smaller display text on mobile, such as minor section headers or supporting titles."
           }
         },
         "headline": {
@@ -594,7 +626,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for the largest headline text on mobile, such as main page titles."
           },
           "headline2": {
             "$type": "typography",
@@ -608,7 +641,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for large headline text on mobile, such as section headers."
           },
           "headline3": {
             "$type": "typography",
@@ -622,7 +656,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for medium headline text on mobile, suitable for sub-headers or highlighted content."
           },
           "headline4": {
             "$type": "typography",
@@ -636,7 +671,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for smaller headline text on mobile, such as minor section headers."
           },
           "headline5": {
             "$type": "typography",
@@ -648,7 +684,8 @@
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for small headline text on mobile, such as supporting titles or captions."
           },
           "headline6": {
             "$type": "typography",
@@ -662,7 +699,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.uppercase}"
-            }
+            },
+            "$description": "Use for the smallest headline text on mobile, such as overlines or minor captions."
           }
         }
       },
@@ -680,7 +718,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for the largest display text on desktop, such as splash screens or main titles. Provides maximum emphasis."
           },
           "display2": {
             "$type": "typography",
@@ -694,7 +733,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for large display text on desktop, such as section headers or prominent titles."
           },
           "display3": {
             "$type": "typography",
@@ -708,7 +748,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for medium display text on desktop, suitable for sub-headers or highlighted content."
           },
           "display4": {
             "$type": "typography",
@@ -722,7 +763,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for smaller display text on desktop, such as minor section headers or supporting titles."
           }
         },
         "headline": {
@@ -738,7 +780,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for the largest headline text on desktop, such as main page titles."
           },
           "headline2": {
             "$type": "typography",
@@ -752,7 +795,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for large headline text on desktop, such as section headers."
           },
           "headline3": {
             "$type": "typography",
@@ -766,7 +810,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for medium headline text on desktop, suitable for sub-headers or highlighted content."
           },
           "headline4": {
             "$type": "typography",
@@ -780,7 +825,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for smaller headline text on desktop, such as minor section headers."
           },
           "headline5": {
             "$type": "typography",
@@ -794,7 +840,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for small headline text on desktop, such as supporting titles or captions."
           },
           "headline6": {
             "$type": "typography",
@@ -808,7 +855,8 @@
               "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
-            }
+            },
+            "$description": "Use for the smallest headline text on desktop, such as overlines or minor captions."
           }
         }
       }
