@@ -406,7 +406,7 @@
           "surface": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.primary.surface.darkest}"
+              "$value": "{theme.light.interface.function.primary.surface.negative}"
             },
             "action": {
               "$type": "color",
@@ -422,13 +422,13 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.primary.surface.lightest}"
+              "$value": "{theme.light.interface.function.primary.surface.positive}"
             }
           },
           "txtOn": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.primary.txtOn.darkest}"
+              "$value": "{theme.light.interface.function.primary.txtOn.negative}"
             },
             "action": {
               "$type": "color",
@@ -444,13 +444,13 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.primary.txtOn.lightest}"
+              "$value": "{theme.light.interface.function.primary.txtOn.positive}"
             }
           },
           "border": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.primary.border.darkest}"
+              "$value": "{theme.light.interface.function.primary.border.negative}"
             },
             "action": {
               "$type": "color",
@@ -466,7 +466,7 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.primary.border.lightest}"
+              "$value": "{theme.light.interface.function.primary.border.positive}"
             }
           }
         },
@@ -474,7 +474,7 @@
           "surface": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.secondary.surface.darkest}"
+              "$value": "{theme.light.interface.function.secondary.surface.negative}"
             },
             "action": {
               "$type": "color",
@@ -490,13 +490,13 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.secondary.surface.lightest}"
+              "$value": "{theme.light.interface.function.secondary.surface.positive}"
             }
           },
           "txtOn": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.secondary.txtOn.darkest}"
+              "$value": "{theme.light.interface.function.secondary.txtOn.negative}"
             },
             "action": {
               "$type": "color",
@@ -512,13 +512,13 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.secondary.txtOn.lightest}"
+              "$value": "{theme.light.interface.function.secondary.txtOn.negative}"
             }
           },
           "border": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.secondary.border.darkest}"
+              "$value": "{theme.light.interface.function.secondary.border.negative}"
             },
             "action": {
               "$type": "color",
@@ -534,7 +534,7 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.secondary.border.lightest}"
+              "$value": "{theme.light.interface.function.secondary.border.positive}"
             }
           }
         },
@@ -542,7 +542,7 @@
           "surface": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.link.surface.darkest}"
+              "$value": "{theme.light.interface.function.link.surface.negative}"
             },
             "action": {
               "$type": "color",
@@ -558,13 +558,13 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.link.surface.lightest}"
+              "$value": "{theme.light.interface.function.link.surface.positive}"
             }
           },
           "txtOn": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.link.txtOn.darkest}"
+              "$value": "{theme.light.interface.function.link.txtOn.negative}"
             },
             "action": {
               "$type": "color",
@@ -580,13 +580,13 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.link.txtOn.lightest}"
+              "$value": "{theme.light.interface.function.link.txtOn.positive}"
             }
           },
           "border": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.link.border.darkest}"
+              "$value": "{theme.light.interface.function.link.border.negative}"
             },
             "action": {
               "$type": "color",
@@ -602,7 +602,7 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.function.link.border.lightest}"
+              "$value": "{theme.light.interface.function.link.border.positive}"
             }
           }
         }
@@ -612,7 +612,7 @@
           "surface": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.info.surface.darkest}"
+              "$value": "{theme.light.interface.feedback.info.surface.negative}"
             },
             "action": {
               "$type": "color",
@@ -628,13 +628,13 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.info.surface.lightest}"
+              "$value": "{theme.light.interface.feedback.info.surface.positive}"
             }
           },
           "txtOn": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.info.txtOn.darkest}"
+              "$value": "{theme.light.interface.feedback.info.txtOn.negative}"
             },
             "action": {
               "$type": "color",
@@ -650,13 +650,13 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.info.txtOn.lightest}"
+              "$value": "{theme.light.interface.feedback.info.txtOn.positive}"
             }
           },
           "border": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.info.border.darkest}"
+              "$value": "{theme.light.interface.feedback.info.border.negative}"
             },
             "action": {
               "$type": "color",
@@ -672,7 +672,7 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.info.border.lightest}"
+              "$value": "{theme.light.interface.feedback.info.border.positive}"
             }
           }
         },
@@ -680,7 +680,7 @@
           "surface": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.success.surface.darkest}"
+              "$value": "{theme.light.interface.feedback.success.surface.negative}"
             },
             "action": {
               "$type": "color",
@@ -696,13 +696,13 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.success.surface.lightest}"
+              "$value": "{theme.light.interface.feedback.success.surface.positive}"
             }
           },
           "txtOn": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.success.txtOn.darkest}"
+              "$value": "{theme.light.interface.feedback.success.txtOn.negative}"
             },
             "action": {
               "$type": "color",
@@ -718,13 +718,13 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.success.txtOn.lightest}"
+              "$value": "{theme.light.interface.feedback.success.txtOn.negative}"
             }
           },
           "border": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.success.border.darkest}"
+              "$value": "{theme.light.interface.feedback.success.border.negative}"
             },
             "action": {
               "$type": "color",
@@ -740,7 +740,7 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.success.border.lightest}"
+              "$value": "{theme.light.interface.feedback.success.border.positive}"
             }
           }
         },
@@ -748,7 +748,7 @@
           "surface": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.warning.surface.darkest}"
+              "$value": "{theme.light.interface.feedback.warning.surface.negative}"
             },
             "action": {
               "$type": "color",
@@ -764,13 +764,13 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.warning.surface.lightest}"
+              "$value": "{theme.light.interface.feedback.warning.surface.positive}"
             }
           },
           "txtOn": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.warning.txtOn.darkest}"
+              "$value": "{theme.light.interface.feedback.warning.txtOn.negative}"
             },
             "action": {
               "$type": "color",
@@ -786,13 +786,13 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.warning.txtOn.lightest}"
+              "$value": "{theme.light.interface.feedback.warning.txtOn.positive}"
             }
           },
           "border": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.warning.border.darkest}"
+              "$value": "{theme.light.interface.feedback.warning.border.negative}"
             },
             "action": {
               "$type": "color",
@@ -808,7 +808,7 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.warning.border.lightest}"
+              "$value": "{theme.light.interface.feedback.warning.border.positive}"
             }
           }
         },
@@ -816,7 +816,7 @@
           "surface": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.danger.surface.darkest}"
+              "$value": "{theme.light.interface.feedback.danger.surface.negative}"
             },
             "action": {
               "$type": "color",
@@ -832,13 +832,13 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.danger.surface.lightest}"
+              "$value": "{theme.light.interface.feedback.danger.surface.positive}"
             }
           },
           "txtOn": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.danger.txtOn.darkest}"
+              "$value": "{theme.light.interface.feedback.danger.txtOn.negative}"
             },
             "action": {
               "$type": "color",
@@ -854,13 +854,13 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.danger.txtOn.lightest}"
+              "$value": "{theme.light.interface.feedback.danger.txtOn.positive}"
             }
           },
           "border": {
             "negative": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.danger.border.darkest}"
+              "$value": "{theme.light.interface.feedback.danger.border.negative}"
             },
             "action": {
               "$type": "color",
@@ -876,7 +876,7 @@
             },
             "positive": {
               "$type": "color",
-              "$value": "{theme.light.interface.feedback.danger.border.lightest}"
+              "$value": "{theme.light.interface.feedback.danger.border.positive}"
             }
           }
         }
