@@ -527,53 +527,53 @@
           "display1": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.stronger}",
-              "lineHeight": "{foundations.text.lineHeights.mega.close}",
-              "fontSize": "{foundations.text.fontSizes.mega}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.extraLarge}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.stronger}",
+              "lineHeight": "{semantic.text.lineHeights.mega.close}",
+              "fontSize": "{semantic.text.fontSizes.mega}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.extraLarge}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "display2": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.stronger}",
-              "lineHeight": "{foundations.text.lineHeights.extraLarge.close}",
-              "fontSize": "{foundations.text.fontSizes.extraLarge}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.large}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.stronger}",
+              "lineHeight": "{semantic.text.lineHeights.extraLarge.close}",
+              "fontSize": "{semantic.text.fontSizes.extraLarge}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.large}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "display3": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.stronger}",
-              "lineHeight": "{foundations.text.lineHeights.large.close}",
-              "fontSize": "{foundations.text.fontSizes.large}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.stronger}",
+              "lineHeight": "{semantic.text.lineHeights.large.close}",
+              "fontSize": "{semantic.text.fontSizes.large}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.medium}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "display4": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.stronger}",
-              "lineHeight": "{foundations.text.lineHeights.medium.close}",
-              "fontSize": "{foundations.text.fontSizes.medium}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.small}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.stronger}",
+              "lineHeight": "{semantic.text.lineHeights.medium.close}",
+              "fontSize": "{semantic.text.fontSizes.medium}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.small}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           }
         },
@@ -581,81 +581,81 @@
           "headline1": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.bold}",
-              "lineHeight": "{foundations.text.lineHeights.extraLarge.close}",
-              "fontSize": "{foundations.text.fontSizes.extraLarge}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.large}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.bold}",
+              "lineHeight": "{semantic.text.lineHeights.extraLarge.close}",
+              "fontSize": "{semantic.text.fontSizes.extraLarge}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.large}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "headline2": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.bold}",
-              "lineHeight": "{foundations.text.lineHeights.large.close}",
-              "fontSize": "{foundations.text.fontSizes.large}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.bold}",
+              "lineHeight": "{semantic.text.lineHeights.large.close}",
+              "fontSize": "{semantic.text.fontSizes.large}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.medium}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "headline3": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.bold}",
-              "lineHeight": "{foundations.text.lineHeights.large.close}",
-              "fontSize": "{foundations.text.fontSizes.large}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
-              "fontStyles": "{foundations.text.fontStyles.italic}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.bold}",
+              "lineHeight": "{semantic.text.lineHeights.large.close}",
+              "fontSize": "{semantic.text.fontSizes.large}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.medium}",
+              "fontStyles": "{semantic.text.fontStyles.italic}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "headline4": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.bold}",
-              "lineHeight": "{foundations.text.lineHeights.medium.close}",
-              "fontSize": "{foundations.text.fontSizes.medium}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.small}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.bold}",
+              "lineHeight": "{semantic.text.lineHeights.medium.close}",
+              "fontSize": "{semantic.text.fontSizes.medium}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.small}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "headline5": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.bold}",
-              "lineHeight": "{foundations.text.lineHeights.medium.close}",
-              "fontSize": "{foundations.text.fontSizes.medium}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.small}",
-              "fontStyles": "{foundations.text.fontStyles.normal}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.bold}",
+              "lineHeight": "{semantic.text.lineHeights.medium.close}",
+              "fontSize": "{semantic.text.fontSizes.medium}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.small}",
+              "fontStyles": "{semantic.text.fontStyles.normal}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "headline6": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.bold}",
-              "lineHeight": "{foundations.text.lineHeights.small.close}",
-              "fontSize": "{foundations.text.fontSizes.small}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.small}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.uppercase}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.bold}",
+              "lineHeight": "{semantic.text.lineHeights.small.close}",
+              "fontSize": "{semantic.text.fontSizes.small}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.small}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.uppercase}"
             }
           }
         }
@@ -665,53 +665,53 @@
           "display1": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.stronger}",
-              "lineHeight": "{foundations.text.lineHeights.giga.close}",
-              "fontSize": "{foundations.text.fontSizes.tera}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.giga}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.stronger}",
+              "lineHeight": "{semantic.text.lineHeights.giga.close}",
+              "fontSize": "{semantic.text.fontSizes.tera}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.giga}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "display2": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.stronger}",
-              "lineHeight": "{foundations.text.lineHeights.tera.close}",
-              "fontSize": "{foundations.text.fontSizes.giga}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.giga}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.stronger}",
+              "lineHeight": "{semantic.text.lineHeights.tera.close}",
+              "fontSize": "{semantic.text.fontSizes.giga}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.giga}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "display3": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.stronger}",
-              "lineHeight": "{foundations.text.lineHeights.giga.close}",
-              "fontSize": "{foundations.text.fontSizes.giga}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.mega}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.stronger}",
+              "lineHeight": "{semantic.text.lineHeights.giga.close}",
+              "fontSize": "{semantic.text.fontSizes.giga}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.mega}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "display4": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.stronger}",
-              "lineHeight": "{foundations.text.lineHeights.mega.close}",
-              "fontSize": "{foundations.text.fontSizes.mega}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.extraLarge}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.stronger}",
+              "lineHeight": "{semantic.text.lineHeights.mega.close}",
+              "fontSize": "{semantic.text.fontSizes.mega}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.extraLarge}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           }
         },
@@ -719,79 +719,79 @@
           "headline1": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.bold}",
-              "lineHeight": "{foundations.text.lineHeights.tera.close}",
-              "fontSize": "{foundations.text.fontSizes.tera}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.giga}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.bold}",
+              "lineHeight": "{semantic.text.lineHeights.tera.close}",
+              "fontSize": "{semantic.text.fontSizes.tera}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.giga}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "headline2": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.bold}",
-              "lineHeight": "{foundations.text.lineHeights.giga.close}",
-              "fontSize": "{foundations.text.fontSizes.giga}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.mega}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.bold}",
+              "lineHeight": "{semantic.text.lineHeights.giga.close}",
+              "fontSize": "{semantic.text.fontSizes.giga}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.mega}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "headline3": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.bold}",
-              "lineHeight": "{foundations.text.lineHeights.mega.close}",
-              "fontSize": "{foundations.text.fontSizes.mega}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.extraLarge}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.bold}",
+              "lineHeight": "{semantic.text.lineHeights.mega.close}",
+              "fontSize": "{semantic.text.fontSizes.mega}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.extraLarge}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "headline4": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.bold}",
-              "lineHeight": "{foundations.text.lineHeights.extraLarge.close}",
-              "fontSize": "{foundations.text.fontSizes.extraLarge}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.large}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.bold}",
+              "lineHeight": "{semantic.text.lineHeights.extraLarge.close}",
+              "fontSize": "{semantic.text.fontSizes.extraLarge}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.large}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "headline5": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.bold}",
-              "lineHeight": "{foundations.text.lineHeights.large.close}",
-              "fontSize": "{foundations.text.fontSizes.large}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.bold}",
+              "lineHeight": "{semantic.text.lineHeights.large.close}",
+              "fontSize": "{semantic.text.fontSizes.large}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.medium}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           },
           "headline6": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "{foundations.text.fontFamilies.main}",
-              "fontWeight": "{foundations.text.fontWeights.bold}",
-              "lineHeight": "{foundations.text.lineHeights.medium.close}",
-              "fontSize": "{foundations.text.fontSizes.medium}",
-              "letterSpacing": "{foundations.text.letterSpacing.regular}",
-              "paragraphSpacing": "{foundations.text.paragraphSpacing.medium}",
-              "textDecoration": "{foundations.text.decorations.default}",
-              "textCase": "{foundations.text.transforms.normal}"
+              "fontFamily": "{semantic.text.fontFamilies.main}",
+              "fontWeight": "{semantic.text.fontWeights.bold}",
+              "lineHeight": "{semantic.text.lineHeights.medium.close}",
+              "fontSize": "{semantic.text.fontSizes.medium}",
+              "letterSpacing": "{semantic.text.letterSpacing.regular}",
+              "paragraphSpacing": "{semantic.text.paragraphSpacing.medium}",
+              "textDecoration": "{semantic.text.decorations.default}",
+              "textCase": "{semantic.text.transforms.normal}"
             }
           }
         }

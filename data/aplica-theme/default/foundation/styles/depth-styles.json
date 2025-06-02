@@ -18,35 +18,35 @@
         },
         "micro": {
           "$type": "other",
-          "$value": "{size.micro}"
+          "$value": "{semantic.sizing.micro}"
         },
         "extraSmall": {
           "$type": "other",
-          "$value": "{size.extraSmall}"
+          "$value": "{semantic.sizing.extraSmall}"
         },
         "small": {
           "$type": "other",
-          "$value": "{size.small}"
+          "$value": "{semantic.sizing.small}"
         },
         "medium": {
           "$type": "other",
-          "$value": "{size.medium}"
+          "$value": "{semantic.sizing.medium}"
         },
         "large": {
           "$type": "other",
-          "$value": "{size.large}"
+          "$value": "{semantic.sizing.large}"
         },
         "extraLarge": {
           "$type": "other",
-          "$value": "{size.extraLarge}"
+          "$value": "{semantic.sizing.extraLarge}"
         },
         "mega": {
           "$type": "other",
-          "$value": "{size.mega}"
+          "$value": "{semantic.sizing.mega}"
         },
         "giga": {
           "$type": "other",
-          "$value": "{size.giga}"
+          "$value": "{semantic.sizing.giga}"
         }
       },
       "intensity": {
