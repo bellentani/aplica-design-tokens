@@ -938,7 +938,7 @@
       "negative": {
         "title": {
           "$type": "color",
-          "$value": "{theme.light.text.positive.title}"
+          "$value": "{theme.light.text.negative.title}"
         },
         "body": {
           "$type": "color",
