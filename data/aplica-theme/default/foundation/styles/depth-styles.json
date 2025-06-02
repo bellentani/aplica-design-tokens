@@ -85,21 +85,21 @@
         "shadow": {
           "deep": {
             "$type": "other",
-            "$value": "{semantic.color.brand.branding.ambient.grayscale.highest}"
+            "$value": "{semantic.color.brand.ambient.grayscale.highest}"
           },
           "regular": {
             "$type": "other",
-            "$value": "{semantic.color.brand.branding.ambient.grayscale.mid}"
+            "$value": "{semantic.color.brand.ambient.grayscale.mid}"
           },
           "smooth": {
             "$type": "other",
-            "$value": "{semantic.color.brand.branding.ambient.grayscale.lower}"
+            "$value": "{semantic.color.brand.ambient.grayscale.lower}"
           }
         },
         "light": {
           "bright": {
             "$type": "other",
-            "$value": "{semantic.color.brand.branding.ambient.contrast.deep.background}"
+            "$value": "{semantic.color.brand.ambient.contrast.deep.background}"
           },
           "primary": {
             "$type": "other",
