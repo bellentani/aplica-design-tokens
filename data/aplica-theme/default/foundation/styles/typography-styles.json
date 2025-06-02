@@ -540,7 +540,7 @@
             "$type": "typography",
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
-              "fontWeight": "{semantic.typography.fontWeights.stronger}",
+              "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
               "lineHeight": "{semantic.typography.lineHeights.extraLarge.close}",
               "fontSize": "{semantic.typography.fontSizes.extraLarge}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
@@ -552,7 +552,7 @@
             "$type": "typography",
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
-              "fontWeight": "{semantic.typography.fontWeights.stronger}",
+              "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
               "lineHeight": "{semantic.typography.lineHeights.large.close}",
               "fontSize": "{semantic.typography.fontSizes.large}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
