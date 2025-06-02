@@ -532,6 +532,8 @@
               "lineHeight": "{semantic.typography.lineHeights.mega.close}",
               "fontSize": "{semantic.typography.fontSizes.mega}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -544,6 +546,8 @@
               "lineHeight": "{semantic.typography.lineHeights.extraLarge.close}",
               "fontSize": "{semantic.typography.fontSizes.extraLarge}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -556,6 +560,8 @@
               "lineHeight": "{semantic.typography.lineHeights.large.close}",
               "fontSize": "{semantic.typography.fontSizes.large}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -568,6 +574,8 @@
               "lineHeight": "{semantic.typography.lineHeights.medium.close}",
               "fontSize": "{semantic.typography.fontSizes.medium}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -582,6 +590,8 @@
               "lineHeight": "{semantic.typography.lineHeights.extraLarge.close}",
               "fontSize": "{semantic.typography.fontSizes.extraLarge}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -594,6 +604,8 @@
               "lineHeight": "{semantic.typography.lineHeights.large.close}",
               "fontSize": "{semantic.typography.fontSizes.large}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -606,7 +618,8 @@
               "lineHeight": "{semantic.typography.lineHeights.large.close}",
               "fontSize": "{semantic.typography.fontSizes.large}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-              "fontStyles": "{semantic.typography.fontStyles.italic}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -619,6 +632,8 @@
               "lineHeight": "{semantic.typography.lineHeights.medium.close}",
               "fontSize": "{semantic.typography.fontSizes.medium}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -631,7 +646,6 @@
               "lineHeight": "{semantic.typography.lineHeights.medium.close}",
               "fontSize": "{semantic.typography.fontSizes.medium}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
-              "fontStyles": "{semantic.typography.fontStyles.normal}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -644,6 +658,8 @@
               "lineHeight": "{semantic.typography.lineHeights.small.close}",
               "fontSize": "{semantic.typography.fontSizes.small}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.uppercase}"
             }
@@ -660,6 +676,8 @@
               "lineHeight": "{semantic.typography.lineHeights.giga.close}",
               "fontSize": "{semantic.typography.fontSizes.tera}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -672,6 +690,8 @@
               "lineHeight": "{semantic.typography.lineHeights.tera.close}",
               "fontSize": "{semantic.typography.fontSizes.giga}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -684,6 +704,8 @@
               "lineHeight": "{semantic.typography.lineHeights.giga.close}",
               "fontSize": "{semantic.typography.fontSizes.giga}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -696,6 +718,8 @@
               "lineHeight": "{semantic.typography.lineHeights.mega.close}",
               "fontSize": "{semantic.typography.fontSizes.mega}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -710,6 +734,8 @@
               "lineHeight": "{semantic.typography.lineHeights.tera.close}",
               "fontSize": "{semantic.typography.fontSizes.tera}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -722,6 +748,8 @@
               "lineHeight": "{semantic.typography.lineHeights.giga.close}",
               "fontSize": "{semantic.typography.fontSizes.giga}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -734,6 +762,8 @@
               "lineHeight": "{semantic.typography.lineHeights.mega.close}",
               "fontSize": "{semantic.typography.fontSizes.mega}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -746,6 +776,8 @@
               "lineHeight": "{semantic.typography.lineHeights.extraLarge.close}",
               "fontSize": "{semantic.typography.fontSizes.extraLarge}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -758,6 +790,8 @@
               "lineHeight": "{semantic.typography.lineHeights.large.close}",
               "fontSize": "{semantic.typography.fontSizes.large}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
@@ -770,6 +804,8 @@
               "lineHeight": "{semantic.typography.lineHeights.medium.close}",
               "fontSize": "{semantic.typography.fontSizes.medium}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
+              "paragraphSpacing": "{semantic.dimension.spacing.zero}",
+              "paragraphIndent": "{semantic.dimension.spacing.zero}",
               "textDecoration": "{semantic.typography.textCase.normal}",
               "textCase": "{semantic.typography.textDecoration.default}"
             }
