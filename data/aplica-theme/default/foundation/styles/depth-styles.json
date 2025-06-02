@@ -85,15 +85,15 @@
         "shadow": {
           "deep": {
             "$type": "color",
-            "$value": "{semantic.color.brand.ambient.grayscale.highest}"
+            "$value": "{semantic.color.brand.ambient.grayscale.highest.background}"
           },
           "regular": {
             "$type": "color",
-            "$value": "{semantic.color.brand.ambient.grayscale.mid}"
+            "$value": "{semantic.color.brand.ambient.grayscale.mid.background}"
           },
           "smooth": {
             "$type": "color",
-            "$value": "{semantic.color.brand.ambient.grayscale.lower}"
+            "$value": "{semantic.color.brand.ambient.grayscale.lower.background}"
           }
         },
         "light": {
@@ -107,19 +107,19 @@
           },
           "info": {
             "$type": "color",
-            "$value": "{semantic.color.interface.feedback.info.normal.background}"
+            "$value": "{semantic.color.interface.feedback.info.main.normal.background}"
           },
           "success": {
             "$type": "color",
-            "$value": "{semantic.color.interface.feedback.success.normal.background}"
+            "$value": "{semantic.color.interface.feedback.success.main.normal.background}"
           },
           "warning": {
             "$type": "color",
-            "$value": "{semantic.color.interface.feedback.warning.normal.background}"
+            "$value": "{semantic.color.interface.feedback.warning.main.normal.background}"
           },
           "danger": {
             "$type": "color",
-            "$value": "{semantic.color.interface.feedback.danger.normal.background}"
+            "$value": "{semantic.color.interface.feedback.danger.main.normal.background}"
           }
         }
       }
