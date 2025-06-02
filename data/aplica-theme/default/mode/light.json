@@ -916,7 +916,7 @@
         },
         "label": {
           "$type": "color",
-          "$value": "{theme.light.text.positive.info}"
+          "$value": "{theme.light.text.positive.label}"
         },
         "info": {
           "$type": "color",
@@ -954,7 +954,7 @@
         },
         "label": {
           "$type": "color",
-          "$value": "{theme.light.text.negative.info}"
+          "$value": "{theme.light.text.negative.label}"
         },
         "info": {
           "$type": "color",
