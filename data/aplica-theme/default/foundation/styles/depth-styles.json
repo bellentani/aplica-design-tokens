@@ -66,15 +66,15 @@
       "proximity": {
         "distant": {
           "$type": "other",
-          "$value": "-{size.extraSmall}"
+          "$value": "-{semantic.dimension.sizing.extraSmall}"
         },
         "medium": {
           "$type": "other",
-          "$value": "-{size.micro}"
+          "$value": "-{semantic.dimension.sizing.micro}"
         },
         "close": {
           "$type": "other",
-          "$value": "-{size.nano}"
+          "$value": "-{semantic.dimension.sizing.nano}"
         },
         "flat": {
           "$type": "other",
