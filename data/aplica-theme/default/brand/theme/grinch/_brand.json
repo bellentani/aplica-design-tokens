@@ -1916,14 +1916,6 @@
           "danger": {
             "$type": "color",
             "$value": "{mode.interface.feedback.danger.surface.action}"
-          },
-          "rewards": {
-            "$type": "color",
-            "$value": "{mode.brand.branding.third.lowest.border}"
-          },
-          "cold": {
-            "$type": "color",
-            "$value": "{_color-palette.mode.dark.product.cold.behavior.surface.action}"
           }
         },
         "negative": {
@@ -1962,14 +1954,6 @@
           "danger": {
             "$type": "color",
             "$value": "{mode.interface.feedback.danger.surface.active}"
-          },
-          "rewards": {
-            "$type": "color",
-            "$value": "{mode.brand.branding.third.default.background}"
-          },
-          "cold": {
-            "$type": "color",
-            "$value": "{_color-palette.mode.dark.product.cold.behavior.surface.active}"
           }
         }
       }

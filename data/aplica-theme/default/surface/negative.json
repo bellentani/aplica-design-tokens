@@ -932,10 +932,6 @@
           "$type": "color",
           "$value": "{mode.text.negative.muted}"
         },
-        "rewards": {
-          "$type": "color",
-          "$value": "{mode.text.negative.rewards}"
-        },
         "label": {
           "$type": "color",
           "$value": "{mode.text.negative.label}"
