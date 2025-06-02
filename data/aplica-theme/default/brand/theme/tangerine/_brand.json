@@ -1903,7 +1903,7 @@
           },
           "info": {
             "$type": "color",
-            "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.action}"
+            "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.action}"
           },
           "success": {
             "$type": "color",
