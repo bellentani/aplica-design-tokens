@@ -84,41 +84,41 @@
       "luminosity": {
         "shadow": {
           "deep": {
-            "$type": "other",
+            "$type": "color",
             "$value": "{semantic.color.brand.ambient.grayscale.highest}"
           },
           "regular": {
-            "$type": "other",
+            "$type": "color",
             "$value": "{semantic.color.brand.ambient.grayscale.mid}"
           },
           "smooth": {
-            "$type": "other",
+            "$type": "color",
             "$value": "{semantic.color.brand.ambient.grayscale.lower}"
           }
         },
         "light": {
           "bright": {
-            "$type": "other",
+            "$type": "color",
             "$value": "{semantic.color.brand.ambient.contrast.deep.background}"
           },
           "primary": {
-            "$type": "other",
+            "$type": "color",
             "$value": "{semantic.color.interface.function.primary.normal.background}"
           },
           "info": {
-            "$type": "other",
+            "$type": "color",
             "$value": "{semantic.color.interface.feedback.info.normal.background}"
           },
           "success": {
-            "$type": "other",
+            "$type": "color",
             "$value": "{semantic.color.interface.feedback.success.normal.background}"
           },
           "warning": {
-            "$type": "other",
+            "$type": "color",
             "$value": "{semantic.color.interface.feedback.warning.normal.background}"
           },
           "danger": {
-            "$type": "other",
+            "$type": "color",
             "$value": "{semantic.color.interface.feedback.danger.normal.background}"
           }
         }
