@@ -85,41 +85,41 @@
         "shadow": {
           "deep": {
             "$type": "other",
-            "$value": "{foundations.color.solid.ambient.contrast.deep.dark}"
+            "$value": "{semantic.color.brand.branding.ambient.grayscale.highest}"
           },
           "regular": {
             "$type": "other",
-            "$value": "{foundations.color.solid.ambient.grayscale.50}"
+            "$value": "{semantic.color.brand.branding.ambient.grayscale.mid}"
           },
           "smooth": {
             "$type": "other",
-            "$value": "{foundations.color.solid.ambient.grayscale.30}"
+            "$value": "{semantic.color.brand.branding.ambient.grayscale.lower}"
           }
         },
         "light": {
           "bright": {
             "$type": "other",
-            "$value": "{foundations.color.solid.ambient.contrast.deep.light}"
+            "$value": "{semantic.color.brand.branding.ambient.contrast.deep.background}"
           },
           "primary": {
             "$type": "other",
-            "$value": "{foundations.color.interaction.function.primary.default}"
+            "$value": "{semantic.color.interface.function.primary.normal.background}"
           },
           "info": {
             "$type": "other",
-            "$value": "{foundations.color.interaction.feedback.info.default}"
+            "$value": "{semantic.color.interface.feedback.info.normal.background}"
           },
           "success": {
             "$type": "other",
-            "$value": "{foundations.color.interaction.feedback.success.default}"
+            "$value": "{semantic.color.interface.feedback.success.normal.background}"
           },
           "warning": {
             "$type": "other",
-            "$value": "{foundations.color.interaction.feedback.warning.default}"
+            "$value": "{semantic.color.interface.feedback.warning.normal.background}"
           },
           "danger": {
             "$type": "other",
-            "$value": "{foundations.color.interaction.feedback.danger.default}"
+            "$value": "{semantic.color.interface.feedback.danger.normal.background}"
           }
         }
       }
