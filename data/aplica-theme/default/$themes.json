@@ -5,9 +5,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "brand/theme/joy/_other-elements": "enabled",
-      "brand/theme/joy/_primitive-theme-default": "enabled",
+      "brand/theme/joy/_primitive-theme-default": "source",
       "brand/theme/joy/_primitive-theme-default-config": "source",
-      "dimensions/dimension": "source"
+      "dimensions/dimension": "source",
+      "brand/theme/joy/_brand": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1071:5",
@@ -1851,8 +1852,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "brand/theme/tangerine/_other-elements": "enabled",
-      "brand/theme/tangerine/_tangerine-generated": "enabled",
-      "dimensions/dimension": "source"
+      "brand/theme/tangerine/_tangerine-generated": "source",
+      "dimensions/dimension": "source",
+      "brand/theme/tangerine/_brand": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1071:6",
@@ -3699,8 +3701,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "brand/theme/grinch/_other-elements": "enabled",
-      "brand/theme/grinch/_grinch-generated": "enabled",
-      "dimensions/dimension": "source"
+      "brand/theme/grinch/_grinch-generated": "source",
+      "dimensions/dimension": "source",
+      "brand/theme/grinch/_brand": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1355:1",
