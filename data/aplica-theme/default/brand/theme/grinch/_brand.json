@@ -924,19 +924,19 @@
           },
           "info": {
             "$type": "color",
-            "$value": "{_color-palette.mode.light.interface.feedback.info.behavior.action}"
+            "$value": "{_color-palette.mode.light.interface.feedback.info.behavior.surface.action}"
           },
           "success": {
             "$type": "color",
-            "$value": "{_color-palette.mode.light.interface.feedback.success.behavior.action}"
+            "$value": "{_color-palette.mode.light.interface.feedback.success.behavior.surface.action}"
           },
           "warning": {
             "$type": "color",
-            "$value": "{_color-palette.mode.light.interface.feedback.warning.behavior.action}"
+            "$value": "{_color-palette.mode.light.interface.feedback.warning.behavior.surface.action}"
           },
           "danger": {
             "$type": "color",
-            "$value": "{_color-palette.mode.light.interface.feedback.danger.behavior.action}"
+            "$value": "{_color-palette.mode.light.interface.feedback.danger.behavior.surface.action}"
           }
         },
         "negative": {
@@ -962,19 +962,19 @@
           },
           "info": {
             "$type": "color",
-            "$value": "{_color-palette.mode.light.interface.feedback.info.behavior.active}"
+            "$value": "{_color-palette.mode.light.interface.feedback.info.behavior.surface.active}"
           },
           "success": {
             "$type": "color",
-            "$value": "{_color-palette.mode.light.interface.feedback.success.behavior.active}"
+            "$value": "{_color-palette.mode.light.interface.feedback.success.behavior.surface.active}"
           },
           "warning": {
             "$type": "color",
-            "$value": "{_color-palette.mode.light.interface.feedback.warning.behavior.active}"
+            "$value": "{_color-palette.mode.light.interface.feedback.warning.behavior.surface.active}"
           },
           "danger": {
             "$type": "color",
-            "$value": "{_color-palette.mode.light.interface.feedback.danger.behavior.active}"
+            "$value": "{_color-palette.mode.light.interface.feedback.danger.behavior.surface.active}"
           }
         }
       }
@@ -1907,15 +1907,15 @@
           },
           "success": {
             "$type": "color",
-            "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.action}"
+            "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.action}"
           },
           "warning": {
             "$type": "color",
-            "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.action}"
+            "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.action}"
           },
           "danger": {
             "$type": "color",
-            "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.action}"
+            "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.action}"
           }
         },
         "positive": {
@@ -1941,19 +1941,19 @@
           },
           "info": {
             "$type": "color",
-            "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.active}"
+            "$value": "{_color-palette.mode.dark.interface.feedback.info.behavior.surface.active}"
           },
           "success": {
             "$type": "color",
-            "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.active}"
+            "$value": "{_color-palette.mode.dark.interface.feedback.success.behavior.surface.active}"
           },
           "warning": {
             "$type": "color",
-            "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.active}"
+            "$value": "{_color-palette.mode.dark.interface.feedback.warning.behavior.surface.active}"
           },
           "danger": {
             "$type": "color",
-            "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.active}"
+            "$value": "{_color-palette.mode.dark.interface.feedback.danger.behavior.surface.active}"
           }
         }
       }
