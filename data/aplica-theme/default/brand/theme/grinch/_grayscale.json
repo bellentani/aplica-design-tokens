@@ -1,0 +1,262 @@
+{
+      "_color-palette": {
+    "mode": {
+      "light": {
+        "grayscale": {
+          "surface": {
+            "5": {
+              "$type": "color",
+              "$value": "#f7f7f7"
+            },
+            "10": {
+              "$type": "color",
+              "$value": "#eeeeee"
+            },
+            "20": {
+              "$type": "color",
+              "$value": "#dddddd"
+            },
+            "30": {
+              "$type": "color",
+              "$value": "#cccccc"
+            },
+            "40": {
+              "$type": "color",
+              "$value": "#bbbbbb"
+            },
+            "50": {
+              "$type": "color",
+              "$value": "#aaaaaa"
+            },
+            "60": {
+              "$type": "color",
+              "$value": "#999999"
+            },
+            "70": {
+              "$type": "color",
+              "$value": "#888888"
+            },
+            "80": {
+              "$type": "color",
+              "$value": "#777777"
+            },
+            "90": {
+              "$type": "color",
+              "$value": "#666666"
+            },
+            "100": {
+              "$type": "color",
+              "$value": "#555555"
+            },
+            "110": {
+              "$type": "color",
+              "$value": "#444444"
+            },
+            "120": {
+              "$type": "color",
+              "$value": "#333333"
+            },
+            "130": {
+              "$type": "color",
+              "$value": "#222222"
+            },
+            "140": {
+              "$type": "color",
+              "$value": "#111111"
+            }
+          },
+          "txtOn": {
+            "5": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "10": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "20": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "30": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "40": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "50": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "60": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "70": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "80": {
+              "$type": "color",
+              "$value": "#000000"
+            },
+            "90": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "100": {
+              "$type": "color",
+              "$value": "#f7f7f7"
+            },
+            "110": {
+              "$type": "color",
+              "$value": "#f7f7f7"
+            },
+            "120": {
+              "$type": "color",
+              "$value": "#f7f7f7"
+            },
+            "130": {
+              "$type": "color",
+              "$value": "#f7f7f7"
+            },
+            "140": {
+              "$type": "color",
+              "$value": "#f7f7f7"
+            }
+          }
+        }
+      },
+      "dark": {
+        "grayscale": {
+          "surface": {
+            "5": {
+              "$type": "color",
+              "$value": "#f7f7f7"
+            },
+            "10": {
+              "$type": "color",
+              "$value": "#eeeeee"
+            },
+            "20": {
+              "$type": "color",
+              "$value": "#dddddd"
+            },
+            "30": {
+              "$type": "color",
+              "$value": "#cccccc"
+            },
+            "40": {
+              "$type": "color",
+              "$value": "#bbbbbb"
+            },
+            "50": {
+              "$type": "color",
+              "$value": "#aaaaaa"
+            },
+            "60": {
+              "$type": "color",
+              "$value": "#999999"
+            },
+            "70": {
+              "$type": "color",
+              "$value": "#888888"
+            },
+            "80": {
+              "$type": "color",
+              "$value": "#777777"
+            },
+            "90": {
+              "$type": "color",
+              "$value": "#666666"
+            },
+            "100": {
+              "$type": "color",
+              "$value": "#555555"
+            },
+            "110": {
+              "$type": "color",
+              "$value": "#444444"
+            },
+            "120": {
+              "$type": "color",
+              "$value": "#333333"
+            },
+            "130": {
+              "$type": "color",
+              "$value": "#222222"
+            },
+            "140": {
+              "$type": "color",
+              "$value": "#111111"
+            }
+          },
+          "txtOn": {
+            "5": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "10": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "20": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "30": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "40": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "50": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "60": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "70": {
+              "$type": "color",
+              "$value": "#111111"
+            },
+            "80": {
+              "$type": "color",
+              "$value": "#000000"
+            },
+            "90": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "100": {
+              "$type": "color",
+              "$value": "#f7f7f7"
+            },
+            "110": {
+              "$type": "color",
+              "$value": "#f7f7f7"
+            },
+            "120": {
+              "$type": "color",
+              "$value": "#f7f7f7"
+            },
+            "130": {
+              "$type": "color",
+              "$value": "#f7f7f7"
+            },
+            "140": {
+              "$type": "color",
+              "$value": "#f7f7f7"
+            }
+          }
+        }
+      }
+    }
+  }
+}
