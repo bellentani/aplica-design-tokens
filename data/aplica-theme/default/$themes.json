@@ -8,7 +8,8 @@
       "dimensions/dimension": "source",
       "brand/theme/joy/_brand": "enabled",
       "brand/theme/joy/_primitive-theme-default": "source",
-      "brand/theme/joy/_primitive-theme-default-config": "source"
+      "brand/theme/joy/_primitive-theme-default-config": "source",
+      "brand/theme/joy/_grayscale": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1071:5",
@@ -612,7 +613,8 @@
       "brand/theme/tangerine/_other-elements": "enabled",
       "dimensions/dimension": "source",
       "brand/theme/tangerine/_brand": "enabled",
-      "brand/theme/tangerine/_tangerine-generated": "source"
+      "brand/theme/tangerine/_tangerine-generated": "source",
+      "brand/theme/tangerine/_grayscale": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1071:6",
@@ -1219,7 +1221,8 @@
       "brand/theme/grinch/_other-elements": "enabled",
       "dimensions/dimension": "source",
       "brand/theme/grinch/_brand": "enabled",
-      "brand/theme/grinch/_grinch-generated": "source"
+      "brand/theme/grinch/_grinch-generated": "source",
+      "brand/theme/grinch/_grayscale": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1355:1",
