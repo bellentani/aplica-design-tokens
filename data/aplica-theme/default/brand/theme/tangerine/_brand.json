@@ -888,15 +888,15 @@
         "disabled": {
           "background": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.higher.background}"
+            "$value": "{_color-palette.mode.light.grayscale.surface.120}"
           },
           "text": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.mid.background}"
+            "$value": "{_color-palette.mode.light.grayscale.surface.70}"
           },
           "border": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.higher.background}"
+            "$value": "{_color-palette.mode.light.grayscale.surface.120}"
           }
         }
       },
@@ -904,77 +904,77 @@
         "positive": {
           "title": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.higher.background}"
+            "$value": "{_color-palette.mode.light.grayscale.surface.120}"
           },
           "body": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.high.background}"
+            "$value": "{_color-palette.mode.light.grayscale.surface.100}"
           },
           "highlight": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.highest.background}"
+            "$value": "{_color-palette.mode.light.grayscale.surface.140}"
           },
           "muted": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.low.background}"
+            "$value": "{_color-palette.mode.light.grayscale.surface.40}"
           },
           "label": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.higher.background}"
+            "$value": "{_color-palette.mode.light.grayscale.surface.120}"
           },
           "info": {
             "$type": "color",
-            "$value": "{mode.interface.feedback.info.surface.action}"
+            "$value": "{_color-palette.mode.light.interface.feedback.info.surface.action}"
           },
           "success": {
             "$type": "color",
-            "$value": "{mode.interface.feedback.success.surface.action}"
+            "$value": "{_color-palette.mode.light.interface.feedback.success.surface.action}"
           },
           "warning": {
             "$type": "color",
-            "$value": "{mode.interface.feedback.warning.surface.action}"
+            "$value": "{_color-palette.mode.light.interface.feedback.warning.surface.action}"
           },
           "danger": {
             "$type": "color",
-            "$value": "{mode.interface.feedback.danger.surface.action}"
+            "$value": "{_color-palette.mode.light.interface.feedback.danger.surface.action}"
           }
         },
         "negative": {
           "title": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.lower.background}"
+            "$value": "{_color-palette.mode.light.grayscale.surface.10}"
           },
           "body": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.low.background}"
+            "$value": "{_color-palette.mode.light.grayscale.surface.40}"
           },
           "highlight": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.lowest.background}"
+            "$value": "{_color-palette.mode.light.grayscale.surface.5}"
           },
           "muted": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.high.background}"
+            "$value": "{_color-palette.mode.light.grayscale.surface.70}"
           },
           "label": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.lower.background}"
+            "$value": "{_color-palette.mode.light.grayscale.surface.10}"
           },
           "info": {
             "$type": "color",
-            "$value": "{mode.interface.feedback.info.surface.active}"
+            "$value": "{_color-palette.mode.light.interface.feedback.info.surface.active}"
           },
           "success": {
             "$type": "color",
-            "$value": "{mode.interface.feedback.success.surface.active}"
+            "$value": "{_color-palette.mode.light.interface.feedback.success.surface.active}"
           },
           "warning": {
             "$type": "color",
-            "$value": "{mode.interface.feedback.warning.surface.active}"
+            "$value": "{_color-palette.mode.light.interface.feedback.warning.surface.active}"
           },
           "danger": {
             "$type": "color",
-            "$value": "{mode.interface.feedback.danger.surface.active}"
+            "$value": "{_color-palette.mode.light.interface.feedback.danger.surface.active}"
           }
         }
       }
@@ -1867,93 +1867,93 @@
         "disabled": {
           "background": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.higher.background}"
+            "$value": "{_color-palette.mode.dark.grayscale.surface.120}"
           },
           "text": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.mid.background}"
+            "$value": "{_color-palette.mode.dark.grayscale.surface.70}"
           },
           "border": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.higher.background}"
+            "$value": "{_color-palette.mode.dark.grayscale.surface.120}"
           }
         }
       },
       "text": {
-        "positive": {
-          "title": {
-            "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.lower.background}"
-          },
-          "body": {
-            "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.low.background}"
-          },
-          "highlight": {
-            "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.lowest.background}"
-          },
-          "muted": {
-            "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.high.background}"
-          },
-          "label": {
-            "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.lower.background}"
-          },
-          "info": {
-            "$type": "color",
-            "$value": "{mode.interface.feedback.info.surface.action}"
-          },
-          "success": {
-            "$type": "color",
-            "$value": "{mode.interface.feedback.success.surface.action}"
-          },
-          "warning": {
-            "$type": "color",
-            "$value": "{mode.interface.feedback.warning.surface.action}"
-          },
-          "danger": {
-            "$type": "color",
-            "$value": "{mode.interface.feedback.danger.surface.action}"
-          }
-        },
         "negative": {
           "title": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.high.background}"
+            "$value": "{_color-palette.mode.dark.grayscale.surface.120}"
           },
           "body": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.higher.background}"
+            "$value": "{_color-palette.mode.dark.grayscale.surface.100}"
           },
           "highlight": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.higher.background}"
+            "$value": "{_color-palette.mode.dark.grayscale.surface.140}"
           },
           "muted": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.low.background}"
+            "$value": "{_color-palette.mode.dark.grayscale.surface.40}"
           },
           "label": {
             "$type": "color",
-            "$value": "{mode.brand.ambient.grayscale.higher.background}"
+            "$value": "{_color-palette.mode.dark.grayscale.surface.120}"
           },
           "info": {
             "$type": "color",
-            "$value": "{mode.interface.feedback.info.surface.active}"
+            "$value": "{_color-palette.mode.dark.interface.feedback.info.surface.action}"
           },
           "success": {
             "$type": "color",
-            "$value": "{mode.interface.feedback.success.surface.active}"
+            "$value": "{_color-palette.mode.dark.interface.feedback.success.surface.action}"
           },
           "warning": {
             "$type": "color",
-            "$value": "{mode.interface.feedback.warning.surface.active}"
+            "$value": "{_color-palette.mode.dark.interface.feedback.warning.surface.action}"
           },
           "danger": {
             "$type": "color",
-            "$value": "{mode.interface.feedback.danger.surface.active}"
+            "$value": "{_color-palette.mode.dark.interface.feedback.danger.surface.action}"
+          }
+        },
+        "positive": {
+          "title": {
+            "$type": "color",
+            "$value": "{_color-palette.mode.dark.grayscale.surface.10}"
+          },
+          "body": {
+            "$type": "color",
+            "$value": "{_color-palette.mode.dark.grayscale.surface.40}"
+          },
+          "highlight": {
+            "$type": "color",
+            "$value": "{_color-palette.mode.dark.grayscale.surface.5}"
+          },
+          "muted": {
+            "$type": "color",
+            "$value": "{_color-palette.mode.dark.grayscale.surface.70}"
+          },
+          "label": {
+            "$type": "color",
+            "$value": "{_color-palette.mode.dark.grayscale.surface.10}"
+          },
+          "info": {
+            "$type": "color",
+            "$value": "{_color-palette.mode.dark.interface.feedback.info.surface.active}"
+          },
+          "success": {
+            "$type": "color",
+            "$value": "{_color-palette.mode.dark.interface.feedback.success.surface.active}"
+          },
+          "warning": {
+            "$type": "color",
+            "$value": "{_color-palette.mode.dark.interface.feedback.warning.surface.active}"
+          },
+          "danger": {
+            "$type": "color",
+            "$value": "{_color-palette.mode.dark.interface.feedback.danger.surface.active}"
           }
         }
       }
