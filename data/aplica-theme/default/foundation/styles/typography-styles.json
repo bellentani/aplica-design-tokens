@@ -528,7 +528,7 @@
             "$type": "typography",
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
-              "fontWeight": "{semantic.typography.fontWeights.stronger}",
+              "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
               "lineHeight": "{semantic.typography.lineHeights.mega.close}",
               "fontSize": "{semantic.typography.fontSizes.mega}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
