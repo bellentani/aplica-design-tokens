@@ -120,7 +120,7 @@
       "display": {
         "face": {
           "$type": "fontFamilies",
-          "$value": "Poppins"
+          "$value": "Inter"
         },
         "style": {
           "light": {
@@ -146,11 +146,11 @@
           "semibold": {
             "normal": {
               "$type": "text",
-              "$value": "SemiBold"
+              "$value": "Semi Bold"
             },
             "italic": {
               "$type": "text",
-              "$value": "SemiBold Italic"
+              "$value": "Semi Bold Italic"
             }
           },
           "bold": {
@@ -488,174 +488,6 @@
       "wild": {
         "$type": "number",
         "$value": "0.8"
-      }
-    }
-  },
-  "_components": {
-    "global": {
-      "button": {
-        "icon": {
-          "small": {
-            "$type": "number",
-            "$value": "{_theme-dimensions.large}"
-          },
-          "medium": {
-            "$type": "number",
-            "$value": "{_theme-dimensions.extraLarge}"
-          }
-        },
-        "border": {
-          "radii": {
-            "topLeft": {
-              "small": {
-                "$type": "number",
-                "$value": "{_theme-borders.radii.small}"
-              },
-              "medium": {
-                "$type": "number",
-                "$value": "{_theme-borders.radii.medium}"
-              }
-            },
-            "topRight": {
-              "small": {
-                "$type": "number",
-                "$value": "{_theme-borders.radii.small}"
-              },
-              "medium": {
-                "$type": "number",
-                "$value": "{_theme-borders.radii.medium}"
-              }
-            },
-            "bottomLeft": {
-              "small": {
-                "$type": "number",
-                "$value": "{_theme-borders.radii.small}"
-              },
-              "medium": {
-                "$type": "number",
-                "$value": "{_theme-borders.radii.medium}"
-              }
-            },
-            "bottomRight": {
-              "small": {
-                "$type": "number",
-                "$value": "{_theme-borders.radii.small}"
-              },
-              "medium": {
-                "$type": "number",
-                "$value": "{_theme-borders.radii.medium}"
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "_theme-borders": {
-    "radii": {
-      "straight": {
-        "$type": "number",
-        "$value": "{_theme-dimensions.zero}"
-      },
-      "micro": {
-        "$type": "number",
-        "$value": "{_theme-dimensions.micro}"
-      },
-      "extraSmall": {
-        "$type": "number",
-        "$value": "{_theme-dimensions.extraSmall}"
-      },
-      "small": {
-        "$type": "number",
-        "$value": "{_theme-dimensions.small}"
-      },
-      "medium": {
-        "$type": "number",
-        "$value": "{_theme-dimensions.medium}"
-      },
-      "large": {
-        "$type": "number",
-        "$value": "{_theme-dimensions.extraLarge}"
-      },
-      "extraLarge": {
-        "$type": "number",
-        "$value": "{_theme-dimensions.mega}"
-      },
-      "mega": {
-        "$type": "number",
-        "$value": "{_theme-dimensions.giga}"
-      },
-      "circular": {
-        "$type": "number",
-        "$value": "1000"
-      }
-    }
-  },
-  "_theme-depth": {
-    "position": {
-      "outter": {
-        "$type": "other",
-        "$value": "dropShadow"
-      },
-      "inner": {
-        "$type": "other",
-        "$value": "innerShadow"
-      }
-    },
-    "distance": {
-      "flat": {
-        "$type": "other",
-        "$value": "{_theme-dimensions.zero}"
-      },
-      "micro": {
-        "$type": "other",
-        "$value": "{_theme-dimensions.micro}"
-      },
-      "extraSmall": {
-        "$type": "other",
-        "$value": "{_theme-dimensions.extraSmall}"
-      },
-      "small": {
-        "$type": "other",
-        "$value": "{_theme-dimensions.small}"
-      },
-      "medium": {
-        "$type": "other",
-        "$value": "{_theme-dimensions.medium}"
-      },
-      "large": {
-        "$type": "other",
-        "$value": "{_theme-dimensions.large}"
-      },
-      "extraLarge": {
-        "$type": "other",
-        "$value": "{_theme-dimensions.extraLarge}"
-      },
-      "mega": {
-        "$type": "other",
-        "$value": "{_theme-dimensions.mega}"
-      },
-      "giga": {
-        "$type": "other",
-        "$value": "{_theme-dimensions.giga}"
-      }
-    },
-    "proximity": {
-      "distant": {
-        "$type": "other",
-        "$value": "-{_theme-dimensions.extraSmall}"
-      },
-      "medium": {
-        "$type": "other",
-        "$value": "-{_theme-dimensions.micro}"
-      },
-      "close": {
-        "$type": "other",
-        "$value": "-{_theme-dimensions.nano}"
-      },
-      "flat": {
-        "$type": "other",
-        "$value": "{_theme-dimensions.zero}"
       }
     }
   }

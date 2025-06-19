@@ -1,0 +1,42 @@
+{
+  "_theme-borders": {
+    "radii": {
+      "straight": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.zero}"
+      },
+      "micro": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.micro}"
+      },
+      "extraSmall": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.extraSmall}"
+      },
+      "small": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.small}"
+      },
+      "medium": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.medium}"
+      },
+      "large": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.extraLarge}"
+      },
+      "extraLarge": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.mega}"
+      },
+      "mega": {
+        "$type": "number",
+        "$value": "{_theme-dimensions.giga}"
+      },
+      "circular": {
+        "$type": "number",
+        "$value": "1000"
+      }
+    }
+  }
+}
