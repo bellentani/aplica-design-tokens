@@ -1,8 +1,8 @@
-# Theme Engine - Executive Summary
+# Aplica Theme Engine - Executive Summary
 
-## O que é o Theme Engine
+## O que é o Aplica Theme Engine
 
-O **Theme Engine** é uma arquitetura multidimensional de Design Tokens que automatiza a criação e gestão de temas visuais através de transformações hierárquicas em 5 camadas. Funciona como uma "fábrica de temas" que garante consistência, acessibilidade e escalabilidade para múltiplas marcas e contextos visuais.
+O **Aplica Theme Engine** é uma arquitetura multidimensional de Design Tokens que automatiza a criação e gestão de temas visuais através de transformações hierárquicas em 5 camadas. Funciona como uma "fábrica de temas" que garante consistência, acessibilidade e escalabilidade para múltiplas marcas e contextos visuais.
 
 ## Problema que Resolve
 
@@ -45,11 +45,21 @@ O **Theme Engine** é uma arquitetura multidimensional de Design Tokens que auto
 ## Arquitetura em 5 Camadas
 
 ```
-Theme → Mode → Surface → Semantic → Foundation
-  ↓       ↓        ↓          ↓           ↓
-Marca   Light   Positive   Consolidado  Simplificado
-        Dark    Negative   com finalidade para uso
+Brand Theme → Mode → Surface → Semantic → Foundation
+    ↓         ↓        ↓          ↓           ↓
+  Marca    Light   Positive   Consolidado  Simplificado
+           Dark    Negative   com finalidade para uso
 ```
+
+### **Estrutura Atual:**
+- **Marcas:** `joy` (Tokens Studio), `tangerine` (API), `grinch` (API)
+- **Modes:** `light`, `dark`
+- **Surfaces:** `positive`, `negative`
+- **Temas Gerados:** 12 temas automáticos
+
+### **Abordagens de Geração:**
+- **Joy:** Utiliza matemática nativa do Tokens Studio
+- **Tangerine & Grinch:** Utilizam nossa API de geração de tokens
 
 ## Resultados Esperados
 

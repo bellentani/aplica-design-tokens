@@ -1,22 +1,37 @@
-# Theme Engine - Arquitetura Técnica Completa
+# Aplica Theme Engine - Arquitetura Técnica Completa
 
 ## 📋 Visão Geral
 
-O **Theme Engine** é uma arquitetura multidimensional de Design Tokens que permite a criação e gestão escalável de temas visuais através de transformações hierárquicas. A arquitetura suporta múltiplas marcas, modos visuais e contextos de superfície, gerando temas finais de forma programática.
+O **Aplica Theme Engine** é uma arquitetura multidimensional de Design Tokens que permite a criação e gestão escalável de temas visuais através de transformações hierárquicas. A arquitetura suporta múltiplas marcas, modos visuais e contextos de superfície, gerando temas finais de forma programática.
 
 ## 🏗️ Arquitetura de 5 Camadas
 
 ### **Single Source of Truth (SSoT)**
 ```
 Git Repository (JSON files)
-├── theme/ze/
-│   ├── _brand.json
-│   ├── _grayscale.json  
-│   ├── _primitive_theme.json (gerado por API de acessibilidade)
-│   └── _other_elements.json
-├── dimension/
-│   └── normal.json
-├── mode (WIP)/
+├── brand/theme/
+│   ├── tangerine/
+│   │   ├── _brand.json
+│   │   ├── _grayscale.json  
+│   │   ├── _theme-typography.json
+│   │   ├── _theme-borders.json
+│   │   ├── _theme-depth.json
+│   │   ├── _components.json
+│   │   └── _tangerine-generated.json
+│   ├── joy/
+│   │   ├── _brand.json
+│   │   ├── _grayscale.json
+│   │   ├── _primitive-theme-default.json
+│   │   ├── _primitive-theme-default-config.json
+│   │   └── _other-elements.json
+│   └── grinch/
+│       ├── _brand.json
+│       ├── _grayscale.json
+│       ├── _grinch-generated.json
+│       └── _other-elements.json
+├── dimensions/
+│   └── dimension.json
+├── mode/
 │   ├── light.json
 │   └── dark.json
 ├── surface/
@@ -24,20 +39,22 @@ Git Repository (JSON files)
 │   └── negative.json
 ├── semantic/
 │   └── default.json
-├── foundation/ze/
+├── foundation/
 │   ├── default.json
 │   └── styles/
-└── components/
-    ├── buttons.json
-    ├── inputs.json
-    └── ...
+│       ├── typography-styles.json
+│       └── depth-styles.json
+├── figma-generators/
+│   └── _generator-dimension.json
+├── $themes.json
+└── $metadata.json
 ```
 
 **Nota sobre arquivos com underscore (_):**
 - São tokens estruturais e indicativos
 - Não fazem parte da cadeia principal de transformação
 - Facilitam organização de theme sets no Tokens Studio
-- Ex: `_primitive_theme.json` é gerado por API de acessibilidade
+- Ex: `_primitive-theme-default.json` é gerado por API de acessibilidade
 
 ---
 
@@ -45,12 +62,12 @@ Git Repository (JSON files)
 
 ### **Fluxo Principal**
 ```
-Theme → Mode → Surface → Semantic → Foundation
+Brand Theme → Mode → Surface → Semantic → Foundation
 ```
 
 ### **Fluxo Dimensional** 
 ```
-Dimension → Semantic → Foundation
+Dimensions → Semantic → Foundation
 ```
 
 ### **Fluxo de Componentes**
@@ -64,10 +81,14 @@ Semantic → Components (direto)
 
 ### **1. CORE - Espinha Dorsal**
 
-#### **Theme**
-- **Responsabilidade:** Define aspectos visuais específicos de cada tema (onde brand é uma característica)
+#### **Brand Theme**
+- **Responsabilidade:** Define aspectos visuais específicos de cada marca/tema
+- **Localização:** `brand/theme/[marca]/`
+- **Marcas Atuais:**
+  - **joy:** Marca que utiliza Tokens Studio com matemática e cálculos nativos
+  - **tangerine:** Marca que utiliza nossa API de geração de tokens
+  - **grinch:** Marca que utiliza nossa API de geração de tokens
 - **Conteúdo:** Color palettes, tipografia, elementos visuais do tema
-- **Exemplo:** `theme/ze/_brand.json`
 
 ##### **Estrutura de Objetos:**
 
@@ -162,14 +183,15 @@ Semantic → Components (direto)
 ```
 
 **Customização Avançada:** 
-- Marcas podem "quebrar" o `_primitive_theme` quando necessário
+- Marcas que usam nossa API podem "quebrar" o `_primitive-theme` quando necessário
 - Permite valores específicos que não seguem decomposição padrão
 - Usado em marcas evoluídas com personalizações específicas
 - **Restrição Crítica:** Acessibilidade surface vs txtOn deve sempre ser mantida
+- **Joy (Tokens Studio):** Utiliza matemática nativa do Tokens Studio para cálculos de acessibilidade
 
-#### **Dimension**
+#### **Dimensions**
 - **Responsabilidade:** Define valores dimensionais (spacing, sizing, typography)
-- **Exemplo:** `dimension/normal.json`
+- **Arquivo:** `dimensions/dimension.json`
 - **Fluxo:** Impacta diretamente Semantic (bypass Mode/Surface)
 - **Contexto:** "normal" permite futuras variações (compact, spacious)
 
@@ -323,7 +345,7 @@ Surface adiciona sistema de opacidade com valores hexadecimais hardcoded:
 - **Propósito:** Criar a interface final que será consumida por Foundation e Components
 
 #### **Conceito Central:**
-A SEMANTIC é onde as cores ganham **finalidade de interface**. É o resultado final de todas as transformações (Theme → Mode → Surface) consolidado em uma estrutura única e coerente que será distribuída para as camadas superiores.
+A SEMANTIC é onde as cores ganham **finalidade de interface**. É o resultado final de todas as transformações (Brand Theme → Mode → Surface) consolidado em uma estrutura única e coerente que será distribuída para as camadas superiores.
 
 #### **Estrutura Completa do Semantic:**
 
@@ -331,7 +353,7 @@ A SEMANTIC é onde as cores ganham **finalidade de interface**. É o resultado f
 ```json
 "semantic": {
   "color": {
-    "theme": { // cores do tema com finalidade
+    "brand": { // cores do tema com finalidade
       "branding": { first, second, third },
       "ambient": { contrast, neutral, grayscale }
     },
@@ -398,296 +420,208 @@ A SEMANTIC é onde as cores ganham **finalidade de interface**. É o resultado f
   "letterSpacings": { 
     regular: 0%, tight: -2%, wild: 2% 
   },
-  "textCase": { 
-    normal, uppercase, lowercase, capitalize 
+  "textDecorations": {
+    default: "none", underline: "underline", lineThrough: "line-through"
   },
-  "textDecoration": { 
-    default: none, underline, lineThrough 
+  "textCases": {
+    capitalize: "capitalize"
   }
 }
 ```
 
-**4. Dimension - Sistema de medidas:**
+**4. Spacing - Sistema de espaçamentos:**
 ```json
-"dimension": {
-  "sizing": { // inclui pico e nano para bordas/linhas
-    zero: 0, pico: 1, nano: 2, micro: 4, 
-    extraSmall: 8, small: 12, medium: 16, large: 20,
-    extraLarge: 24, mega: 28, giga: 44, tera: 72, peta: 116
-  },
-  "spacing": { // sem pico/nano (mínimo é micro: 4)
-    zero: 0, micro: 4, extraSmall: 8, small: 12, 
-    medium: 16, large: 20, extraLarge: 24, 
-    mega: 28, giga: 44, tera: 72, peta: 116
-  }
+"spacing": {
+  "zero": 0, "pico": 1, "nano": 2, "micro": 4,
+  "extraSmall": 8, "small": 12, "medium": 16,
+  "large": 20, "extraLarge": 24, "mega": 28,
+  "giga": 44, "tera": 72, "peta": 116
 }
 ```
 
-**5. Depth - Sistema de profundidade:**
+**5. Sizing - Sistema de tamanhos:**
 ```json
-"depth": {
-  "spread": { // valores de espalhamento de sombra
-    close: 0,     // colado (muito próximo ao fundo)
-    next: -2,     // próximo
-    near: -4,     // perto
-    distant: -8,  // distante
-    far: -12      // longe
+"sizing": {
+  // mesma estrutura do spacing
+}
+```
+
+**6. Border Radius - Sistema de bordas:**
+```json
+"borderRadius": {
+  "straight": 0, "micro": 2, "extraSmall": 4, "small": 8,
+  "medium": 12, "large": 16, "extraLarge": 20, "mega": 24,
+  "circular": 9999
+}
+```
+
+**7. Shadows - Sistema de sombras:**
+```json
+"shadows": {
+  "depth": {
+    "level1": { x, y, blur, spread, color },
+    "level2": { x, y, blur, spread, color },
+    "level3": { x, y, blur, spread, color },
+    "level4": { x, y, blur, spread, color }
   }
 }
 ```
-**Nota:** Valores em pontos/pixels/em conforme aplicação
 
-**6. Border - Sistema de bordas:**
+### **5. FOUNDATION - Interface Simplificada**
+
+- **Responsabilidade:** Cria interface simplificada para uso direto em componentes
+- **Arquivos:** `foundation/default.json`, `foundation/styles/`
+- **Propósito:** Abstrair complexidade do Semantic para uso prático
+
+#### **Estrutura Foundation:**
+
+**1. Backgrounds (`bg`):**
+```json
+"foundation": {
+  "bg": {
+    "primary": "{semantic.color.brand.ambient.contrast.deep.background}",
+    "secondary": "{semantic.color.brand.ambient.neutral.lowest.background}",
+    "disabled": "{semantic.color.interface.function.disabled.normal.background}",
+    "brand": {
+      "first": { "lowest": {}, "default": {}, "highest": {} },
+      "second": { "lowest": {}, "default": {}, "highest": {} },
+      "third": { "lowest": {}, "default": {}, "highest": {} }
+    },
+    "feedback": {
+      "info": { "primary": {}, "secondary": {} },
+      "success": { "primary": {}, "secondary": {} },
+      "warning": { "primary": {}, "secondary": {} },
+      "danger": { "primary": {}, "secondary": {} }
+    }
+  }
+}
+```
+
+**2. Borders (`border`):**
 ```json
 "border": {
-  "width": { // espessuras mapeadas de sizing
-    none: 0 (zero),
-    small: 1 (pico),
-    medium: 2 (nano),
-    large: 4 (micro),
-    extraLarge: 8 (extraSmall)
-  },
-  "radii": { // raios de borda
-    straight: 0,      // reto
-    micro: 2,         // quase reto
-    extraSmall: 4,    // sutil
-    small: 8,         // pequeno
-    medium: 16,       // médio
-    large: 24,        // grande
-    extraLarge: 32,   // extra grande
-    mega: 48,         // mega
-    circular: 999     // circular/pill
-  }
+  "primary": "{semantic.color.brand.ambient.contrast.base.border}",
+  "secondary": "{semantic.color.brand.ambient.grayscale.lower.border}",
+  "tertiary": "{semantic.color.brand.ambient.grayscale.mid.border}",
+  "disabled": "{semantic.color.interface.function.disabled.normal.border}",
+  "brand": { /* mesma estrutura do bg.brand */ },
+  "feedback": { /* mesma estrutura do bg.feedback */ }
 }
 ```
 
-**7. Components - Tokens base de componentes:**
+**3. Text (`text`):**
 ```json
-"components": {
-  "global": {
-    "button": {
-      "icon": { // tamanhos de ícone
-        small: 16,
-        medium: 20
-      },
-      "border": {
-        "radii": { // raios customizados por canto
-          topLeft: { small: 8, medium: 16 },
-          topRight: { small: 8, medium: 16 },
-          bottomLeft: { small: 8, medium: 16 },
-          bottomRight: { small: 8, medium: 16 }
-        }
-      }
-    }
-  }
+"text": {
+  "primary": "{semantic.color.text.title}",
+  "secondary": "{semantic.color.text.body}",
+  "muted": "{semantic.color.text.muted}",
+  "disabled": "{semantic.color.interface.function.disabled.normal.txtOn}",
+  "brand": { /* mesma estrutura do bg.brand */ },
+  "feedback": { /* mesma estrutura do bg.feedback */ }
 }
 ```
-**Nota:** Arquitetura exemplificativa. Tokens globais de componentes permitem customização por marca sem adicionar complexidade nas camadas superiores. Mantido em Semantic para facilitar gestão do time de DS.
 
-#### **Observações Importantes:**
-
-1. **Sizing vs Spacing:**
-   - **Sizing:** tem pico (1) e nano (2) para elementos mínimos
-   - **Spacing:** começa em micro (4) pois é para distâncias
-
-2. **Depth Spread:**
-   - Valores negativos indicam direção da sombra
-   - Quanto mais negativo, mais "longe" a sombra
-
-3. **Border Width:**
-   - Mapeia semanticamente os valores de sizing
-   - none=0, small=1, medium=2, large=4, extraLarge=8
-
-4. **Components Global:**
-   - Define padrões base reutilizáveis
-   - Outros componentes podem estender esses valores
-
-#### **Referências no Semantic:**
-- Colors: apontam para `{surface.color.*}`
-- Typography: apontam para `{_theme_typography.*}`
-- Dimensions: apontam para `{_theme_dimensions.*}`
-- Borders: apontam para `{_theme_borders.*}`
-- Components: apontam para `{_components.*}`
-
-Este é o contrato final que Foundation e Components consomem!
-
-### **5. CONTEXTO DE USO**
-
-#### **Foundation**
-- **Responsabilidade:** Simplifica tokens de cada tema semantic para facilitar decisões de design
-- **Fonte:** Consome tokens dos temas semantic gerados
-- **Estrutura:** Collection separada com tokens próprios + styles
-- **Conteúdo:**
-  - `default.json`: Valores simplificados para designers (aliases dos temas semantic)
-  - `styles/`: Typography styles, Elevation styles (compositions)
-
+**4. Typography (`typography`):**
 ```json
-{
-  "foundation": {
-    "bg": {
-      "primary": {
-        "$type": "color",
-        "$value": "{semantic.color.brand.ambient.contrast.deep.background}"
-      }
-    }
-  }
+"typography": {
+  "fontFamilies": { /* referência direta ao semantic */ },
+  "fontWeights": { /* referência direta ao semantic */ },
+  "fontSizes": { /* referência direta ao semantic */ },
+  "lineHeights": { /* referência direta ao semantic */ },
+  "letterSpacings": { /* referência direta ao semantic */ }
 }
 ```
 
-#### **Components**
-- **Responsabilidade:** Tokens específicos para componentes
-- **Fonte:** Consome diretamente dos temas semantic gerados
-- **Estrutura:** JSONs separados por componente
-- **Referência:** Sempre usa `{semantic.color...}` - o nome do tema é definido no carregamento da UI
-
----
-
-## 🎛️ Geração de Temas
-
-### **Composição de Temas**
-Para gerar um tema completo, é necessário combinar múltiplos arquivos JSON:
-
-**Estratégia de Repetição de Estruturas:**
-- **`_color_palette`** aparece em vários arquivos mas mantém mesma estrutura
-- **`_theme_typography`** aparece em Theme e Dimension com propósitos diferentes:
-  - **Theme:** atributos que mudam por marca (famílias, pesos)
-  - **Dimension:** atributos que mudam por tamanho (fontSizes, lineHeights)
-- **Separação por estabilidade:** Ex: grayscale separado pois quase nunca muda
-- **Clareza de propósito:** Cada arquivo tem objetivo bem definido
-
-### **Fórmula de Temas Semantic**
-```
-Total de Temas = N marcas × M modes × S surfaces
-```
-
-**Exemplo Atual:**
-- Marcas: 1 (Zé)
-- Modes: 2 (Light, Dark) 
-- Surfaces: 2 (Positive, Negative)
-- **Temas Gerados:** 4 temas semantic
-
-### **Estrutura de Cada Tema Semantic**
+**5. Spacing (`spacing`):**
 ```json
-{
-  "semantic": {
-    "color": { /* todos os tokens de cor resolvidos */ },
-    "dimension": { /* todos os tokens dimensionais */ },
-    "typography": { /* todas as definições tipográficas */ },
-    "border": { /* todos os tokens de borda */ }
-  }
-}
+"spacing": { /* referência direta ao semantic */ }
 ```
 
----
-
-## 🔄 Sincronização Multi-Plataforma
-
-### **Fluxo de Updates**
-```
-Git Repository (SSoT)
-    ├─── CI/CD Trigger ───→ Figma Collections/Modes
-    └─── Style Dictionary ───→ Code Artifacts (CSS, JSON, etc.)
-```
-
-### **Figma Integration**
-- **Collections:** Cada camada vira uma Collection no Figma
-- **Modes:** Combinações multidimensionais viram Modes do Figma
-- **Sincronização:** Automática via CI/CD quando JSONs mudam
-
-### **Code Integration**
-- **Style Dictionary:** Base para transformação dos JSONs
-- **Custom Transformers:** Cada squad de tech implementa conforme stack
-- **Outputs Exemplo:**
-  - **Web:** CSS custom properties
-  - **React Native:** JSON objects
-  - **iOS:** Swift color sets
-  - **Android:** XML resources
-
----
-
-## 🛡️ Validação e Qualidade
-
-### **Acessibilidade**
-- **API de Contraste:** Valida automaticamente na Color Palette
-- **Garantias:** Todos os pares surface/txtOn passam por validação WCAG
-- **Factory:** `_color_palette` serve como fonte para geração de cores acessíveis
-
-### **Style Dictionary Resolution**
-- **Raw Values:** Semantic layer resolve todas as referências
-- **No Circularity:** Transformações seguem fluxo hierárquico estrito
-- **Error Handling:** Tokens Studio valida dependências durante build
-
----
-
-## 📦 Build Strategy
-
-### **On-Demand Building**
-- **Trigger:** Mudanças nos JSONs do Git
-- **Scope:** Apenas temas afetados são reconstruídos
-- **Distribuição:** Cada projeto recebe seu subset necessário
-
-### **Project Configuration**
+**6. Sizing (`sizing`):**
 ```json
-{
-  "themes": ["ze-light-positive", "ze-dark-positive"],
-  "outputFormat": ["css", "json"],
-  "components": ["buttons", "inputs"]
-}
+"sizing": { /* referência direta ao semantic */ }
 ```
 
----
+**7. Border Radius (`borderRadius`):**
+```json
+"borderRadius": { /* referência direta ao semantic */ }
+```
 
-## 🔧 Extensibilidade
+**8. Shadows (`shadows`):**
+```json
+"shadows": { /* referência direta ao semantic */ }
+```
 
-### **Adicionando Nova Marca**
-1. Criar `theme/nova-marca/_brand.json`
-2. Configurar Color Palette com API de acessibilidade
-3. Definir visual elements específicos da marca
-4. Build automático gera novos temas
+#### **Foundation Styles:**
 
-### **Adicionando Novo Mode**
-1. Criar `mode/novo-mode.json`
-2. Definir transformações dos tokens de Brand
-3. Multiplicar possibilidades: N × 3 × 2 temas
+**`foundation/styles/typography-styles.json`:**
+- Combinações pré-definidas de tipografia
+- Ex: `heading1`, `body1`, `caption`, etc.
 
-### **Adicionando Nova Surface**
-1. Criar `surface/nova-surface.json`
-2. Definir lógica de mapeamento
-3. Multiplicar possibilidades: N × 2 × 3 temas
-
----
-
-## ⚠️ Considerações Técnicas
-
-### **Performance**
-- **Build Time:** Proporcional ao número de temas × complexidade
-- **Bundle Size:** Projetos recebem apenas subset necessário
-- **Runtime:** Theme switching dependente da arquitetura front-end
-
-### **Governance**
-- **Single Source:** Apenas JSONs no Git podem alterar tokens
-- **Responsabilidades:** Cada camada tem ownership específico
-- **Versionamento:** Git history mantém evolução completa
-
-### **Escalabilidade**
-- **Horizontal:** Novas marcas/modes aumentam combinações exponencialmente
-- **Vertical:** Novas camadas requerem refatoração arquitetural
-- **Density:** Novos arquivos dimension (compact/spacious) multiplicam temas
-- **Limite Prático:** Monitorar tempo de build vs número de combinações
-
-### **Notas Técnicas**
-- **Unidades:** Valores numéricos podem ser pontos, pixels ou em conforme aplicação
-- **Color Palette Factory:** `_primitive_theme.json` gerado por API com regras de acessibilidade
-- **Arquivos underscore (_):** Tokens estruturais fora da cadeia principal de transformação
+**`foundation/styles/depth-styles.json`:**
+- Combinações pré-definidas de sombras
+- Ex: `card`, `modal`, `tooltip`, etc.
 
 ---
 
-## 📚 Referências
+## 🔧 Ferramentas e Automação
 
-- [Tokens Studio Transform Documentation](https://docs.tokens.studio/transform-tokens/style-dictionary)
-- [W3C Design Tokens Specification](https://tr.designtokens.org/format/)
-- [Style Dictionary Documentation](https://amzn.github.io/style-dictionary/)
+### **Figma Generators**
+- **Localização:** `figma-generators/_generator-dimension.json`
+- **Propósito:** Gerar tokens específicos para Figma
+- **Funcionalidade:** Transforma tokens em formato compatível com Tokens Studio
+
+### **Metadata e Configuração**
+- **`$metadata.json`:** Define ordem de carregamento dos token sets
+- **`$themes.json`:** Configurações dos temas no Tokens Studio
+- **Token Set Order:** Controla precedência e resolução de conflitos
 
 ---
 
-*Esta documentação serve como base técnica para discussões futuras sobre escalabilidade, implementação e evolução do Theme Engine.*
+## 📈 Escalabilidade e Manutenção
+
+### **Adicionando Novas Marcas:**
+1. Criar pasta `brand/theme/[nova-marca]/`
+2. Adicionar arquivos `_brand.json`, `_grayscale.json`, etc.
+3. Atualizar `$metadata.json` com nova ordem
+4. Sistema gera automaticamente todos os temas derivados
+
+### **Adicionando Novos Modes:**
+1. Criar arquivo `mode/[novo-mode].json`
+2. Definir transformações específicas
+3. Atualizar `$metadata.json`
+4. Sistema propaga para todas as marcas
+
+### **Adicionando Novas Surfaces:**
+1. Criar arquivo `surface/[nova-surface].json`
+2. Definir lógica de inversão
+3. Atualizar `$metadata.json`
+4. Sistema aplica a todas as combinações
+
+---
+
+## 🎯 Benefícios da Arquitetura
+
+### **1. Escalabilidade Exponencial**
+- 1 marca × 2 modes × 2 surfaces = 4 temas automáticos
+- Adicionar 1 marca gera automaticamente 4+ temas
+- Novos modes/surfaces multiplicam possibilidades
+
+### **2. Consistência Garantida**
+- Transformações matemáticas padronizadas
+- Hierarquia visual preservada em todos contextos
+- Acessibilidade validada automaticamente
+
+### **3. Manutenção Simplificada**
+- Mudanças em 1 arquivo propagam para todos temas
+- Responsabilidades isoladas por camada
+- Debugging facilitado por transformações claras
+
+### **4. Flexibilidade Controlada**
+- Marcas podem customizar mantendo estrutura
+- Tokens globais de componentes por marca
+- Extensível sem quebrar sistema existente
+
+---
+
+*Esta arquitetura transforma a complexidade de múltiplos temas em um processo automatizado, escalável e confiável.*

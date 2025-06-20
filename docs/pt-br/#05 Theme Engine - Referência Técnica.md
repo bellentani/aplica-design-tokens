@@ -1,4 +1,4 @@
-# Theme Engine - Referência Técnica
+# Aplica Theme Engine - Referência Técnica
 
 ## Glossário de Termos
 
@@ -8,8 +8,8 @@ Valores de design armazenados como dados (JSON) que representam decisões visuai
 ### **SSoT (Single Source of Truth)**
 Repositório Git centralizado contendo todos os arquivos JSON que definem os tokens. Única fonte autorizada para mudanças.
 
-### **Factory (_primitive_theme)**
-Sistema automatizado que gera paletas de cores garantindo acessibilidade através de algoritmos de contraste e harmonia.
+### **Factory (_primitive-theme)**
+Sistema automatizado que gera paletas de cores garantindo acessibilidade através de algoritmos de contraste e harmonia. Utilizado pelas marcas que usam nossa API de geração de tokens.
 
 ### **Transformer**
 Processo que converte tokens JSON em formatos consumíveis (CSS, XML, Swift, etc.) usando Style Dictionary ou similar.
@@ -22,6 +22,9 @@ Camada que consolida todas as transformações anteriores, dando finalidade espe
 
 ### **Theme Set**
 Configuração no Tokens Studio que define quais arquivos JSON compõem um tema específico.
+
+### **Tokens Studio Native**
+Sistema nativo do Tokens Studio que utiliza matemática e cálculos próprios para geração de tokens. Utilizado pela marca Joy.
 
 ## Fórmulas e Sistemas
 
@@ -113,9 +116,11 @@ highest ↔ lowest
 ```
 
 ### **Tokens Estruturais (underscore)**
-- `_primitive_theme`: Gerado por API
-- `_color_palette`: Factory de cores
-- `_theme_*`: Sistemas base reutilizáveis
+- `_primitive-theme-default`: Gerado por API (usado por Tangerine e Grinch)
+- `_primitive-theme-default-config`: Configuração da API
+- `_color-palette`: Factory de cores
+- `_theme-*`: Sistemas base reutilizáveis
+- `_other-elements`: Elementos específicos do Tokens Studio (usado por Joy)
 - Não participam da cadeia de transformação principal
 
 ## APIs e Integrações
@@ -220,4 +225,4 @@ theme_ze_light_positive_normal
 
 ---
 
-*Esta referência técnica serve como consulta rápida para implementadores e mantenedores do Theme Engine.*
+*Esta referência técnica serve como consulta rápida para implementadores e mantenedores do Aplica Theme Engine.*
