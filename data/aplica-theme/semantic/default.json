@@ -1187,38 +1187,38 @@
       },
       "raw": {
         "transparent": {
-          "$type": "number",
+          "$type": "opacity",
           "$value": "0",
           "$description": "Transparent opacity value (0%)"
         },
         "superTransparent": {
-          "$type": "number",
+          "$type": "opacity",
           "$value": "10",
           "$description": "Super transparent opacity value (10%)"
         },
         "semiTranslucid": {
-          "$type": "number",
-          "$value": "20",
+          "$type": "opacity",
+          "$value": "0.2",
           "$description": "Semi translucent opacity value (20%)"
         },
         "translucid": {
-          "$type": "number",
-          "$value": "50",
+          "$type": "opacity",
+          "$value": "0.5",
           "$description": "Translucent opacity value (50%)"
         },
         "superTranslucid": {
-          "$type": "number",
-          "$value": "80",
+          "$type": "opacity",
+          "$value": "0.8",
           "$description": "Super translucent opacity value (80%)"
         },
         "semiOpaque": {
-          "$type": "number",
-          "$value": "90",
+          "$type": "opacity",
+          "$value": "0.9",
           "$description": "Semi opaque opacity value (90%)"
         },
         "opaque": {
-          "$type": "number",
-          "$value": "100",
+          "$type": "opacity",
+          "$value": "1",
           "$description": "Opaque opacity value (100%)"
         }
       }
