@@ -12,7 +12,7 @@ Git Repository (JSON files)
 ├── brand/theme/
 │   ├── tangerine/
 │   │   ├── _brand.json
-│   │   ├── _grayscale.json  
+│   │   ├── _grayscale.json
 │   │   ├── _theme-typography.json
 │   │   ├── _theme-borders.json
 │   │   ├── _theme-depth.json
@@ -21,14 +21,20 @@ Git Repository (JSON files)
 │   ├── joy/
 │   │   ├── _brand.json
 │   │   ├── _grayscale.json
+│   │   ├── _theme-typography.json
+│   │   ├── _theme-borders.json
+│   │   ├── _theme-depth.json
+│   │   ├── _components.json
 │   │   ├── _primitive-theme-default.json
-│   │   ├── _primitive-theme-default-config.json
-│   │   └── _other-elements.json
+│   │   └── _primitive-theme-default-config.json
 │   └── grinch/
 │       ├── _brand.json
 │       ├── _grayscale.json
-│       ├── _grinch-generated.json
-│       └── _other-elements.json
+│       ├── _theme-typography.json
+│       ├── _theme-borders.json
+│       ├── _theme-depth.json
+│       ├── _components.json
+│       └── _grinch-generated.json
 ├── dimensions/
 │   └── dimension.json
 ├── mode/
