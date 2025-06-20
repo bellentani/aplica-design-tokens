@@ -4,12 +4,15 @@
     "name": "aplica-joy",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "brand/theme/joy/_other-elements": "enabled",
       "dimensions/dimension": "source",
       "brand/theme/joy/_brand": "enabled",
       "brand/theme/joy/_primitive-theme-default": "source",
       "brand/theme/joy/_primitive-theme-default-config": "source",
-      "brand/theme/joy/_grayscale": "source"
+      "brand/theme/joy/_grayscale": "source",
+      "brand/theme/joy/_components": "enabled",
+      "brand/theme/joy/_theme-borders": "enabled",
+      "brand/theme/joy/_theme-depth": "enabled",
+      "brand/theme/joy/_theme-typography": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1071:5",
@@ -546,11 +549,14 @@
     "name": "aplica-tangerine",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "brand/theme/tangerine/_other-elements": "enabled",
       "dimensions/dimension": "source",
       "brand/theme/tangerine/_brand": "enabled",
       "brand/theme/tangerine/_tangerine-generated": "source",
-      "brand/theme/tangerine/_grayscale": "source"
+      "brand/theme/tangerine/_grayscale": "source",
+      "brand/theme/tangerine/_components": "enabled",
+      "brand/theme/tangerine/_theme-borders": "enabled",
+      "brand/theme/tangerine/_theme-depth": "enabled",
+      "brand/theme/tangerine/_theme-typography": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1071:6",
@@ -1090,11 +1096,14 @@
     "name": "aplica-grinch",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "brand/theme/grinch/_other-elements": "enabled",
       "dimensions/dimension": "source",
       "brand/theme/grinch/_brand": "enabled",
       "brand/theme/grinch/_grinch-generated": "source",
-      "brand/theme/grinch/_grayscale": "source"
+      "brand/theme/grinch/_grayscale": "source",
+      "brand/theme/grinch/_components": "enabled",
+      "brand/theme/grinch/_theme-borders": "enabled",
+      "brand/theme/grinch/_theme-depth": "enabled",
+      "brand/theme/grinch/_theme-typography": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1071:9132",
     "$figmaModeId": "1355:1",
