@@ -486,19 +486,19 @@
     "typography": {
       "fontFamilies": {
         "main": {
-          "$type": "text",
+          "$type": "fontFamilies",
           "$value": "{semantic.typography.fontFamilies.main}"
         },
         "display": {
-          "$type": "text",
+          "$type": "fontFamilies",
           "$value": "{semantic.typography.fontFamilies.display}"
         },
         "content": {
-          "$type": "text",
+          "$type": "fontFamilies",
           "$value": "{semantic.typography.fontFamilies.content}"
         },
         "code": {
-          "$type": "text",
+          "$type": "fontFamilies",
           "$value": "{semantic.typography.fontFamilies.code}"
         }
       },
@@ -506,51 +506,51 @@
         "main": {
           "light": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.main.light.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.main.light.italic}"
             }
           },
           "regular": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.main.regular.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.main.regular.italic}"
             }
           },
           "semibold": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.main.semibold.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.main.semibold.italic}"
             }
           },
           "bold": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.main.bold.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.main.bold.italic}"
             }
           },
           "stronger": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.main.stronger.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.main.stronger.italic}"
             }
           }
@@ -558,51 +558,51 @@
         "display": {
           "light": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.display.light.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.display.light.italic}"
             }
           },
           "regular": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.display.regular.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.display.regular.italic}"
             }
           },
           "semibold": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.display.semibold.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.display.semibold.italic}"
             }
           },
           "bold": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.display.bold.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.display.bold.italic}"
             }
           },
           "stronger": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.display.stronger.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.display.stronger.italic}"
             }
           }
@@ -610,51 +610,51 @@
         "content": {
           "light": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.content.light.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.content.light.italic}"
             }
           },
           "regular": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.content.regular.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.content.regular.italic}"
             }
           },
           "semibold": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.content.semibold.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.content.semibold.italic}"
             }
           },
           "bold": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.content.bold.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.content.bold.italic}"
             }
           },
           "stronger": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.content.stronger.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.content.stronger.italic}"
             }
           }
@@ -662,51 +662,51 @@
         "code": {
           "light": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.code.light.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.code.light.italic}"
             }
           },
           "regular": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.code.regular.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.code.regular.italic}"
             }
           },
           "semibold": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.code.semibold.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.code.semibold.italic}"
             }
           },
           "bold": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.code.bold.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.code.bold.italic}"
             }
           },
           "stronger": {
             "normal": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.code.stronger.normal}"
             },
             "italic": {
-              "$type": "text",
+              "$type": "fontWeights",
               "$value": "{semantic.typography.fontWeights.code.stronger.italic}"
             }
           }
@@ -714,403 +714,403 @@
       },
       "fontSizes": {
         "micro": {
-          "$type": "number",
+          "$type": "fontSizes",
           "$value": "{semantic.typography.fontSizes.micro}"
         },
         "extraSmall": {
-          "$type": "number",
+          "$type": "fontSizes",
           "$value": "{semantic.typography.fontSizes.extraSmall}"
         },
         "small": {
-          "$type": "number",
+          "$type": "fontSizes",
           "$value": "{semantic.typography.fontSizes.small}"
         },
         "medium": {
-          "$type": "number",
+          "$type": "fontSizes",
           "$value": "{semantic.typography.fontSizes.medium}"
         },
         "large": {
-          "$type": "number",
+          "$type": "fontSizes",
           "$value": "{semantic.typography.fontSizes.large}"
         },
         "extraLarge": {
-          "$type": "number",
+          "$type": "fontSizes",
           "$value": "{semantic.typography.fontSizes.extraLarge}"
         },
         "mega": {
-          "$type": "number",
+          "$type": "fontSizes",
           "$value": "{semantic.typography.fontSizes.mega}"
         },
         "giga": {
-          "$type": "number",
+          "$type": "fontSizes",
           "$value": "{semantic.typography.fontSizes.giga}"
         },
         "tera": {
-          "$type": "number",
+          "$type": "fontSizes",
           "$value": "{semantic.typography.fontSizes.tera}"
         },
         "peta": {
-          "$type": "number",
+          "$type": "fontSizes",
           "$value": "{semantic.typography.fontSizes.peta}"
         },
         "exa": {
-          "$type": "number",
+          "$type": "fontSizes",
           "$value": "{semantic.typography.fontSizes.exa}"
         }
       },
       "letterSpacings": {
         "tight": {
-          "$type": "number",
+          "$type": "letterSpacing",
           "$value": "{semantic.typography.letterSpacings.tight}"
         },
         "regular": {
-          "$type": "number",
+          "$type": "letterSpacing",
           "$value": "{semantic.typography.letterSpacings.regular}"
         },
         "wild": {
-          "$type": "number",
+          "$type": "letterSpacing",
           "$value": "{semantic.typography.letterSpacings.wild}"
         }
       },
       "lineHeights": {
         "tight": {
           "micro": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.tight.micro}"
           },
           "extraSmall": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.tight.extraSmall}"
           },
           "small": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.tight.small}"
           },
           "medium": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.tight.medium}"
           },
           "large": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.tight.large}"
           },
           "extraLarge": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.tight.extraLarge}"
           },
           "mega": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.tight.mega}"
           },
           "giga": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.tight.giga}"
           },
           "tera": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.tight.tera}"
           },
           "peta": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.tight.peta}"
           },
           "exa": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.tight.exa}"
           }
         },
         "close": {
           "micro": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.close.micro}"
           },
           "extraSmall": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.close.extraSmall}"
           },
           "small": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.close.small}"
           },
           "medium": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.close.medium}"
           },
           "large": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.close.large}"
           },
           "extraLarge": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.close.extraLarge}"
           },
           "mega": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.close.mega}"
           },
           "giga": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.close.giga}"
           },
           "tera": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.close.tera}"
           },
           "peta": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.close.peta}"
           },
           "exa": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.close.exa}"
           }
         },
         "regular": {
           "micro": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.regular.micro}"
           },
           "extraSmall": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.regular.extraSmall}"
           },
           "small": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.regular.small}"
           },
           "medium": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.regular.medium}"
           },
           "large": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.regular.large}"
           },
           "extraLarge": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.regular.extraLarge}"
           },
           "mega": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.regular.mega}"
           },
           "giga": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.regular.giga}"
           },
           "tera": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.regular.tera}"
           },
           "peta": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.regular.peta}"
           },
           "exa": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.regular.exa}"
           }
         },
         "wild": {
           "micro": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.wild.micro}"
           },
           "extraSmall": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.wild.extraSmall}"
           },
           "small": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.wild.small}"
           },
           "medium": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.wild.medium}"
           },
           "large": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.wild.large}"
           },
           "extraLarge": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.wild.extraLarge}"
           },
           "mega": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.wild.mega}"
           },
           "giga": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.wild.giga}"
           },
           "tera": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.wild.tera}"
           },
           "peta": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.wild.peta}"
           },
           "exa": {
-            "$type": "number",
+            "$type": "lineHeights",
             "$value": "{semantic.typography.lineHeights.wild.exa}"
           }
         }
       },
       "textDecoration": {
         "default": {
-          "$type": "text",
+          "$type": "textDecoration",
           "$value": "{semantic.typography.textDecoration.default}"
         },
         "underline": {
-          "$type": "text",
+          "$type": "textDecoration",
           "$value": "{semantic.typography.textDecoration.underline}"
         },
         "lineThrough": {
-          "$type": "text",
+          "$type": "textDecoration",
           "$value": "{semantic.typography.textDecoration.lineThrough}"
         }
       },
       "textCase": {
         "normal": {
-          "$type": "text",
+          "$type": "textCase",
           "$value": "{semantic.typography.textCase.normal}"
         },
         "uppercase": {
-          "$type": "text",
+          "$type": "textCase",
           "$value": "{semantic.typography.textCase.uppercase}"
         },
         "lowercase": {
-          "$type": "text",
+          "$type": "textCase",
           "$value": "{semantic.typography.textCase.lowercase}"
         },
         "capitalize": {
-          "$type": "text",
+          "$type": "textCase",
           "$value": "{semantic.typography.textCase.capitalize}"
         }
       }
     },
     "sizing": {
       "zero": {
-        "$type": "number",
+        "$type": "sizing",
         "$value": "{semantic.dimension.sizing.zero}",
         "$description": "Zero sizing (0px)"
       },
       "pico": {
-        "$type": "number",
+        "$type": "sizing",
         "$value": "{semantic.dimension.sizing.pico}",
         "$description": "Pico sizing (1px)"
       },
       "nano": {
-        "$type": "number",
+        "$type": "sizing",
         "$value": "{semantic.dimension.sizing.nano}",
         "$description": "Nano sizing (2px)"
       },
       "micro": {
-        "$type": "number",
+        "$type": "sizing",
         "$value": "{semantic.dimension.sizing.micro}",
         "$description": "Micro sizing (4px)"
       },
       "extraSmall": {
-        "$type": "number",
+        "$type": "sizing",
         "$value": "{semantic.dimension.sizing.extraSmall}",
         "$description": "Extra small sizing (8px)"
       },
       "small": {
-        "$type": "number",
+        "$type": "sizing",
         "$value": "{semantic.dimension.sizing.small}",
         "$description": "Small sizing (12px)"
       },
       "medium": {
-        "$type": "number",
+        "$type": "sizing",
         "$value": "{semantic.dimension.sizing.medium}",
         "$description": "Medium sizing (16px)"
       },
       "large": {
-        "$type": "number",
+        "$type": "sizing",
         "$value": "{semantic.dimension.sizing.large}",
         "$description": "Large sizing (24px)"
       },
       "extraLarge": {
-        "$type": "number",
+        "$type": "sizing",
         "$value": "{semantic.dimension.sizing.extraLarge}",
         "$description": "Extra large sizing (32px)"
       },
       "mega": {
-        "$type": "number",
+        "$type": "sizing",
         "$value": "{semantic.dimension.sizing.mega}",
         "$description": "Mega sizing (48px)"
       },
       "giga": {
-        "$type": "number",
+        "$type": "sizing",
         "$value": "{semantic.dimension.sizing.giga}",
         "$description": "Giga sizing (64px)"
       },
       "tera": {
-        "$type": "number",
+        "$type": "sizing",
         "$value": "{semantic.dimension.sizing.tera}",
         "$description": "Tera sizing (96px)"
       },
       "peta": {
-        "$type": "number",
+        "$type": "sizing",
         "$value": "{semantic.dimension.sizing.peta}",
         "$description": "Peta sizing (128px)"
       }
     },
     "spacing": {
       "zero": {
-        "$type": "number",
+        "$type": "spacing",
         "$value": "{semantic.dimension.spacing.zero}",
         "$description": "Zero padding (0px)"
       },
       "micro": {
-        "$type": "number",
+        "$type": "spacing",
         "$value": "{semantic.dimension.spacing.micro}",
         "$description": "Micro padding (4px)"
       },
       "extraSmall": {
-        "$type": "number",
+        "$type": "spacing",
         "$value": "{semantic.dimension.spacing.extraSmall}",
         "$description": "Extra small padding (8px)"
       },
       "small": {
-        "$type": "number",
+        "$type": "spacing",
         "$value": "{semantic.dimension.spacing.small}",
         "$description": "Small padding (12px)"
       },
       "medium": {
-        "$type": "number",
+        "$type": "spacing",
         "$value": "{semantic.dimension.spacing.medium}",
         "$description": "Medium padding (16px)"
       },
       "large": {
-        "$type": "number",
+        "$type": "spacing",
         "$value": "{semantic.dimension.spacing.large}",
         "$description": "Large padding (24px)"
       },
       "extraLarge": {
-        "$type": "number",
+        "$type": "spacing",
         "$value": "{semantic.dimension.spacing.extraLarge}",
         "$description": "Extra large padding (32px)"
       },
       "mega": {
-        "$type": "number",
+        "$type": "spacing",
         "$value": "{semantic.dimension.spacing.mega}",
         "$description": "Mega padding (48px)"
       },
       "giga": {
-        "$type": "number",
+        "$type": "spacing",
         "$value": "{semantic.dimension.spacing.giga}",
         "$description": "Giga padding (64px)"
       },
       "tera": {
-        "$type": "number",
+        "$type": "spacing",
         "$value": "{semantic.dimension.spacing.tera}",
         "$description": "Tera padding (96px)"
       },
       "peta": {
-        "$type": "number",
+        "$type": "spacing",
         "$value": "{semantic.dimension.spacing.peta}",
         "$description": "Peta padding (128px)"
       }
