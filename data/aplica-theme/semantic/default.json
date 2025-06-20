@@ -1556,15 +1556,18 @@
       "letterSpacings": {
         "regular": {
           "$type": "letterSpacing",
-          "$value": "{_theme-typography.letterSpacings.regular}"
+          "$value": "{_theme-typography.letterSpacings.regular}",
+          "$description": "Regular letter spacing for normal text"
         },
         "tight": {
           "$type": "letterSpacing",
-          "$value": "{_theme-typography.letterSpacings.tight}"
+          "$value": "{_theme-typography.letterSpacings.tight}",
+          "$description": "Tight letter spacing for condensed text"
         },
         "wild": {
           "$type": "letterSpacing",
-          "$value": "{_theme-typography.letterSpacings.wild}"
+          "$value": "{_theme-typography.letterSpacings.wild}",
+          "$description": "Wild letter spacing for expanded text"
         }
       },
       "lineHeights": {
@@ -1767,33 +1770,40 @@
       "textCase": {
         "normal": {
           "$type": "textCase",
-          "$value": "{_theme-typography.textCases.normal}"
+          "$value": "{_theme-typography.textCases.normal}",
+          "$description": "Normal text case (no transformation)"
         },
         "uppercase": {
           "$type": "textCase",
-          "$value": "{_theme-typography.textCases.uppercase}"
+          "$value": "{_theme-typography.textCases.uppercase}",
+          "$description": "Uppercase text transformation"
         },
         "lowercase": {
           "$type": "textCase",
-          "$value": "{_theme-typography.textCases.lowercase}"
+          "$value": "{_theme-typography.textCases.lowercase}",
+          "$description": "Lowercase text transformation"
         },
         "capitalize": {
           "$type": "textCase",
-          "$value": "{_theme-typography.textCases.capitalize}"
+          "$value": "{_theme-typography.textCases.capitalize}",
+          "$description": "Capitalize text transformation (first letter of each word)"
         }
       },
       "textDecoration": {
         "default": {
           "$type": "textDecoration",
-          "$value": "{_theme-typography.textDecorations.default}"
+          "$value": "{_theme-typography.textDecorations.default}",
+          "$description": "Default text decoration (none)"
         },
         "underline": {
           "$type": "textDecoration",
-          "$value": "{_theme-typography.textDecorations.underline}"
+          "$value": "{_theme-typography.textDecorations.underline}",
+          "$description": "Underlined text decoration"
         },
         "lineThrough": {
           "$type": "textDecoration",
-          "$value": "{_theme-typography.textDecorations.lineThrough}"
+          "$value": "{_theme-typography.textDecorations.lineThrough}",
+          "$description": "Line-through text decoration (strikethrough)"
         }
       }
     },
@@ -1801,101 +1811,125 @@
       "sizing": {
         "zero": {
           "$type": "sizing",
-          "$value": "{_theme-dimensions.zero}"
+          "$value": "{_theme-dimensions.zero}",
+          "$description": "Zero sizing dimension (0px)"
         },
         "pico": {
           "$type": "sizing",
-          "$value": "{_theme-dimensions.pico}"
+          "$value": "{_theme-dimensions.pico}",
+          "$description": "Pico sizing dimension (1px)"
         },
         "nano": {
           "$type": "sizing",
-          "$value": "{_theme-dimensions.nano}"
+          "$value": "{_theme-dimensions.nano}",
+          "$description": "Nano sizing dimension (2px)"
         },
         "micro": {
           "$type": "sizing",
-          "$value": "{_theme-dimensions.micro}"
+          "$value": "{_theme-dimensions.micro}",
+          "$description": "Micro sizing dimension (4px)"
         },
         "extraSmall": {
           "$type": "sizing",
-          "$value": "{_theme-dimensions.extraSmall}"
+          "$value": "{_theme-dimensions.extraSmall}",
+          "$description": "Extra small sizing dimension (8px)"
         },
         "small": {
           "$type": "sizing",
-          "$value": "{_theme-dimensions.small}"
+          "$value": "{_theme-dimensions.small}",
+          "$description": "Small sizing dimension (12px)"
         },
         "medium": {
           "$type": "sizing",
-          "$value": "{_theme-dimensions.medium}"
+          "$value": "{_theme-dimensions.medium}",
+          "$description": "Medium sizing dimension (16px)"
         },
         "large": {
           "$type": "sizing",
-          "$value": "{_theme-dimensions.large}"
+          "$value": "{_theme-dimensions.large}",
+          "$description": "Large sizing dimension (24px)"
         },
         "extraLarge": {
           "$type": "sizing",
-          "$value": "{_theme-dimensions.extraLarge}"
+          "$value": "{_theme-dimensions.extraLarge}",
+          "$description": "Extra large sizing dimension (32px)"
         },
         "mega": {
           "$type": "sizing",
-          "$value": "{_theme-dimensions.mega}"
+          "$value": "{_theme-dimensions.mega}",
+          "$description": "Mega sizing dimension (48px)"
         },
         "giga": {
           "$type": "sizing",
-          "$value": "{_theme-dimensions.giga}"
+          "$value": "{_theme-dimensions.giga}",
+          "$description": "Giga sizing dimension (64px)"
         },
         "tera": {
           "$type": "sizing",
-          "$value": "{_theme-dimensions.tera}"
+          "$value": "{_theme-dimensions.tera}",
+          "$description": "Tera sizing dimension (96px)"
         },
         "peta": {
           "$type": "sizing",
-          "$value": "{_theme-dimensions.peta}"
+          "$value": "{_theme-dimensions.peta}",
+          "$description": "Peta sizing dimension (128px)"
         }
       },
       "spacing": {
         "zero": {
           "$type": "spacing",
-          "$value": "{_theme-dimensions.zero}"
+          "$value": "{_theme-dimensions.zero}",
+          "$description": "Zero spacing dimension (0px)"
         },
         "micro": {
           "$type": "spacing",
-          "$value": "{_theme-dimensions.micro}"
+          "$value": "{_theme-dimensions.micro}",
+          "$description": "Micro spacing dimension (4px)"
         },
         "extraSmall": {
           "$type": "spacing",
-          "$value": "{_theme-dimensions.extraSmall}"
+          "$value": "{_theme-dimensions.extraSmall}",
+          "$description": "Extra small spacing dimension (8px)"
         },
         "small": {
           "$type": "spacing",
-          "$value": "{_theme-dimensions.small}"
+          "$value": "{_theme-dimensions.small}",
+          "$description": "Small spacing dimension (12px)"
         },
         "medium": {
           "$type": "spacing",
-          "$value": "{_theme-dimensions.medium}"
+          "$value": "{_theme-dimensions.medium}",
+          "$description": "Medium spacing dimension (16px)"
         },
         "large": {
           "$type": "spacing",
-          "$value": "{_theme-dimensions.large}"
+          "$value": "{_theme-dimensions.large}",
+          "$description": "Large spacing dimension (24px)"
         },
         "extraLarge": {
           "$type": "spacing",
-          "$value": "{_theme-dimensions.extraLarge}"
+          "$value": "{_theme-dimensions.extraLarge}",
+          "$description": "Extra large spacing dimension (32px)"
         },
         "mega": {
           "$type": "spacing",
-          "$value": "{_theme-dimensions.mega}"
+          "$value": "{_theme-dimensions.mega}",
+          "$description": "Mega spacing dimension (48px)"
         },
         "giga": {
           "$type": "spacing",
-          "$value": "{_theme-dimensions.giga}"
+          "$value": "{_theme-dimensions.giga}",
+          "$description": "Giga spacing dimension (64px)"
         },
         "tera": {
           "$type": "spacing",
-          "$value": "{_theme-dimensions.tera}"
+          "$value": "{_theme-dimensions.tera}",
+          "$description": "Tera spacing dimension (96px)"
         },
         "peta": {
           "$type": "spacing",
-          "$value": "{_theme-dimensions.peta}"
+          "$value": "{_theme-dimensions.peta}",
+          "$description": "Peta spacing dimension (128px)"
         }
       }
     },
@@ -1903,67 +1937,82 @@
       "position": {
         "outter": {
           "$type": "other",
-          "$value": "dropShadow"
+          "$value": "dropShadow",
+          "$description": "Outer shadow position (drop shadow)"
         },
         "inner": {
           "$type": "other",
-          "$value": "innerShadow"
+          "$value": "innerShadow",
+          "$description": "Inner shadow position (inset shadow)"
         }
       },
       "distance": {
         "flat": {
           "$type": "other",
-          "$value": "{_theme-dimensions.zero}"
+          "$value": "{_theme-dimensions.zero}",
+          "$description": "Flat depth distance (no elevation)"
         },
         "micro": {
           "$type": "other",
-          "$value": "{_theme-dimensions.micro}"
+          "$value": "{_theme-dimensions.micro}",
+          "$description": "Micro depth distance (4px elevation)"
         },
         "extraSmall": {
           "$type": "other",
-          "$value": "{_theme-dimensions.extraSmall}"
+          "$value": "{_theme-dimensions.extraSmall}",
+          "$description": "Extra small depth distance (8px elevation)"
         },
         "small": {
           "$type": "other",
-          "$value": "{_theme-dimensions.small}"
+          "$value": "{_theme-dimensions.small}",
+          "$description": "Small depth distance (12px elevation)"
         },
         "medium": {
           "$type": "other",
-          "$value": "{_theme-dimensions.medium}"
+          "$value": "{_theme-dimensions.medium}",
+          "$description": "Medium depth distance (16px elevation)"
         },
         "large": {
           "$type": "other",
-          "$value": "{_theme-dimensions.large}"
+          "$value": "{_theme-dimensions.large}",
+          "$description": "Large depth distance (24px elevation)"
         },
         "extraLarge": {
           "$type": "other",
-          "$value": "{_theme-dimensions.extraLarge}"
+          "$value": "{_theme-dimensions.extraLarge}",
+          "$description": "Extra large depth distance (32px elevation)"
         },
         "mega": {
           "$type": "other",
-          "$value": "{_theme-dimensions.mega}"
+          "$value": "{_theme-dimensions.mega}",
+          "$description": "Mega depth distance (48px elevation)"
         },
         "giga": {
           "$type": "other",
-          "$value": "{_theme-dimensions.giga}"
+          "$value": "{_theme-dimensions.giga}",
+          "$description": "Giga depth distance (64px elevation)"
         }
       },
       "proximity": {
         "distant": {
           "$type": "other",
-          "$value": "-{_theme-dimensions.extraSmall}"
+          "$value": "-{_theme-dimensions.extraSmall}",
+          "$description": "Distant proximity (negative 8px - pushed back)"
         },
         "medium": {
           "$type": "other",
-          "$value": "-{_theme-dimensions.micro}"
+          "$value": "-{_theme-dimensions.micro}",
+          "$description": "Medium proximity (negative 4px - slightly pushed back)"
         },
         "close": {
           "$type": "other",
-          "$value": "-{_theme-dimensions.nano}"
+          "$value": "-{_theme-dimensions.nano}",
+          "$description": "Close proximity (negative 2px - minimal push back)"
         },
         "flat": {
           "$type": "other",
-          "$value": "{_theme-dimensions.zero}"
+          "$value": "{_theme-dimensions.zero}",
+          "$description": "Flat proximity (0px - no push back)"
         }
       }
     },
@@ -1973,11 +2022,13 @@
           "icon": {
             "small": {
               "$type": "number",
-              "$value": "{_components.global.button.icon.small}"
+              "$value": "{_components.global.button.icon.small}",
+              "$description": "Small button icon size"
             },
             "medium": {
               "$type": "number",
-              "$value": "{_components.global.button.icon.medium}"
+              "$value": "{_components.global.button.icon.medium}",
+              "$description": "Medium button icon size"
             }
           },
           "border": {
@@ -1985,41 +2036,49 @@
               "topLeft": {
                 "small": {
                   "$type": "number",
-                  "$value": "{_components.global.button.border.radii.topLeft.small}"
+                  "$value": "{_components.global.button.border.radii.topLeft.small}",
+                  "$description": "Small button top-left border radius"
                 },
                 "medium": {
                   "$type": "number",
-                  "$value": "{_components.global.button.border.radii.topLeft.medium}"
+                  "$value": "{_components.global.button.border.radii.topLeft.medium}",
+                  "$description": "Medium button top-left border radius"
                 }
               },
               "topRight": {
                 "small": {
                   "$type": "number",
-                  "$value": "{_components.global.button.border.radii.topRight.small}"
+                  "$value": "{_components.global.button.border.radii.topRight.small}",
+                  "$description": "Small button top-right border radius"
                 },
                 "medium": {
                   "$type": "number",
-                  "$value": "{_components.global.button.border.radii.topRight.medium}"
+                  "$value": "{_components.global.button.border.radii.topRight.medium}",
+                  "$description": "Medium button top-right border radius"
                 }
               },
               "bottomLeft": {
                 "small": {
                   "$type": "number",
-                  "$value": "{_components.global.button.border.radii.bottomLeft.small}"
+                  "$value": "{_components.global.button.border.radii.bottomLeft.small}",
+                  "$description": "Small button bottom-left border radius"
                 },
                 "medium": {
                   "$type": "number",
-                  "$value": "{_components.global.button.border.radii.bottomLeft.medium}"
+                  "$value": "{_components.global.button.border.radii.bottomLeft.medium}",
+                  "$description": "Medium button bottom-left border radius"
                 }
               },
               "bottomRight": {
                 "small": {
                   "$type": "number",
-                  "$value": "{_components.global.button.border.radii.bottomRight.small}"
+                  "$value": "{_components.global.button.border.radii.bottomRight.small}",
+                  "$description": "Small button bottom-right border radius"
                 },
                 "medium": {
                   "$type": "number",
-                  "$value": "{_components.global.button.border.radii.bottomRight.medium}"
+                  "$value": "{_components.global.button.border.radii.bottomRight.medium}",
+                  "$description": "Medium button bottom-right border radius"
                 }
               }
             }
@@ -2078,23 +2137,28 @@
       "width": {
         "none": {
           "$type": "borderWidth",
-          "$value": "{semantic.dimension.sizing.zero}"
+          "$value": "{semantic.dimension.sizing.zero}",
+          "$description": "No border width (0px)"
         },
         "small": {
           "$type": "borderWidth",
-          "$value": "{semantic.dimension.sizing.pico}"
+          "$value": "{semantic.dimension.sizing.pico}",
+          "$description": "Small border width (1px)"
         },
         "medium": {
           "$type": "borderWidth",
-          "$value": "{semantic.dimension.sizing.nano}"
+          "$value": "{semantic.dimension.sizing.nano}",
+          "$description": "Medium border width (2px)"
         },
         "large": {
           "$type": "borderWidth",
-          "$value": "{semantic.dimension.sizing.micro}"
+          "$value": "{semantic.dimension.sizing.micro}",
+          "$description": "Large border width (4px)"
         },
         "extraLarge": {
           "$type": "borderWidth",
-          "$value": "{semantic.dimension.sizing.extraSmall}"
+          "$value": "{semantic.dimension.sizing.extraSmall}",
+          "$description": "Extra large border width (8px)"
         }
       }
     }
