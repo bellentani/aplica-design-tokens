@@ -1063,7 +1063,7 @@
       "proximity": {
         "distant": {
           "$type": "other",
-          "$value": "{semantic.depth.proximity.next}"
+          "$value": "{semantic.depth.proximity.distant}"
         },
         "medium": {
           "$type": "other",
