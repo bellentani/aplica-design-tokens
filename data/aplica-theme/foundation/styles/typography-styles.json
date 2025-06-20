@@ -557,7 +557,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.mega.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.mega}",
               "fontSize": "{semantic.typography.fontSizes.mega}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -572,7 +572,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.extraLarge.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.extraLarge}",
               "fontSize": "{semantic.typography.fontSizes.extraLarge}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -587,7 +587,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.large.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.large}",
               "fontSize": "{semantic.typography.fontSizes.large}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -602,7 +602,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.medium.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.medium}",
               "fontSize": "{semantic.typography.fontSizes.medium}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -619,7 +619,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.extraLarge.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.extraLarge}",
               "fontSize": "{semantic.typography.fontSizes.extraLarge}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -634,7 +634,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.large.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.large}",
               "fontSize": "{semantic.typography.fontSizes.large}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -649,7 +649,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.main.bold.italic}",
-              "lineHeight": "{semantic.typography.lineHeights.large.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.large}",
               "fontSize": "{semantic.typography.fontSizes.large}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -664,7 +664,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.medium.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.medium}",
               "fontSize": "{semantic.typography.fontSizes.medium}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -679,7 +679,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.medium.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.medium}",
               "fontSize": "{semantic.typography.fontSizes.medium}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "textDecoration": "{semantic.typography.textCase.normal}",
@@ -692,7 +692,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.small.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.small}",
               "fontSize": "{semantic.typography.fontSizes.small}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -711,7 +711,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.giga.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.giga}",
               "fontSize": "{semantic.typography.fontSizes.tera}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -726,7 +726,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.tera.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.tera}",
               "fontSize": "{semantic.typography.fontSizes.giga}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -741,7 +741,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.giga.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.giga}",
               "fontSize": "{semantic.typography.fontSizes.giga}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -756,7 +756,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.display.stronger.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.mega.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.mega}",
               "fontSize": "{semantic.typography.fontSizes.mega}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -773,7 +773,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.tera.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.tera}",
               "fontSize": "{semantic.typography.fontSizes.tera}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -788,7 +788,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.giga.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.giga}",
               "fontSize": "{semantic.typography.fontSizes.giga}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -803,7 +803,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.mega.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.mega}",
               "fontSize": "{semantic.typography.fontSizes.mega}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -818,7 +818,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.extraLarge.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.extraLarge}",
               "fontSize": "{semantic.typography.fontSizes.extraLarge}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -833,7 +833,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.large.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.large}",
               "fontSize": "{semantic.typography.fontSizes.large}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
@@ -848,7 +848,7 @@
             "$value": {
               "fontFamily": "{semantic.typography.fontFamilies.main}",
               "fontWeight": "{semantic.typography.fontWeights.main.bold.normal}",
-              "lineHeight": "{semantic.typography.lineHeights.medium.close}",
+              "lineHeight": "{semantic.typography.lineHeights.close.medium}",
               "fontSize": "{semantic.typography.fontSizes.medium}",
               "letterSpacing": "{semantic.typography.letterSpacings.regular}",
               "paragraphSpacing": "{semantic.dimension.spacing.zero}",
