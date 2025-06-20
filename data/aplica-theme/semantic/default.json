@@ -2074,6 +2074,28 @@
           "$value": "{_theme-borders.radii.circular}",
           "$description": "Circular border radius (9999px - fully rounded)"
         }
+      },
+      "width": {
+        "none": {
+          "$type": "borderWidth",
+          "$value": "{semantic.dimension.sizing.zero}"
+        },
+        "small": {
+          "$type": "borderWidth",
+          "$value": "{semantic.dimension.sizing.pico}"
+        },
+        "medium": {
+          "$type": "borderWidth",
+          "$value": "{semantic.dimension.sizing.nano}"
+        },
+        "large": {
+          "$type": "borderWidth",
+          "$value": "{semantic.dimension.sizing.micro}"
+        },
+        "extraLarge": {
+          "$type": "borderWidth",
+          "$value": "{semantic.dimension.sizing.extraSmall}"
+        }
       }
     }
   }

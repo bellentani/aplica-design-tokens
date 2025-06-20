@@ -205,24 +205,24 @@
       },
       "width": {
         "none": {
-          "$type": "number",
-          "$value": "{foundation.sizing.zero}"
+          "$type": "borderWidth",
+          "$value": "{semantic.border.width.none}"
         },
         "small": {
-          "$type": "number",
-          "$value": "{foundation.sizing.pico}"
+          "$type": "borderWidth",
+          "$value": "{semantic.border.width.small}"
         },
         "medium": {
-          "$type": "number",
-          "$value": "{foundation.sizing.nano}"
+          "$type": "borderWidth",
+          "$value": "{semantic.border.width.medium}"
         },
         "large": {
-          "$type": "number",
-          "$value": "{foundation.sizing.micro}"
+          "$type": "borderWidth",
+          "$value": "{semantic.border.width.large}"
         },
         "extraLarge": {
-          "$type": "number",
-          "$value": "{foundation.sizing.extraSmall}"
+          "$type": "borderWidth",
+          "$value": "{semantic.border.width.extraLarge}"
         }
       },
       "radii": {
