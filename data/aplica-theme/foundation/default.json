@@ -1060,26 +1060,22 @@
       }
     },
     "elevation": {
-      "spread": {
-        "close": {
-          "$type": "number",
-          "$value": "{semantic.depth.spread.close}"
-        },
-        "next": {
-          "$type": "number",
-          "$value": "{semantic.depth.spread.next}"
-        },
-        "near": {
-          "$type": "number",
-          "$value": "{semantic.depth.spread.near}"
-        },
+      "proximity": {
         "distant": {
-          "$type": "number",
-          "$value": "{semantic.depth.spread.distant}"
+          "$type": "other",
+          "$value": "{semantic.depth.proximity.next}"
         },
-        "far": {
-          "$type": "number",
-          "$value": "{semantic.depth.spread.far}"
+        "medium": {
+          "$type": "other",
+          "$value": "{semantic.depth.proximity.medium}"
+        },
+        "close": {
+          "$type": "other",
+          "$value": "{semantic.depth.proximity.close}"
+        },
+        "flat": {
+          "$type": "other",
+          "$value": "{semantic.depth.proximity.flat}"
         }
       }
     }
