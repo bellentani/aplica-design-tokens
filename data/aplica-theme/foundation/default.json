@@ -227,40 +227,49 @@
       },
       "radii": {
         "none": {
-          "$type": "number",
-          "$value": "{semantic.border.radii.straight}"
+          "$type": "borderRadius",
+          "$value": "{semantic.border.radii.straight}",
+          "$description": "No border radius (straight edges)"
         },
         "micro": {
-          "$type": "number",
-          "$value": "{semantic.border.radii.micro}"
+          "$type": "borderRadius",
+          "$value": "{semantic.border.radii.micro}",
+          "$description": "Micro border radius (2px)"
         },
         "extraSmall": {
-          "$type": "number",
-          "$value": "{semantic.border.radii.extraSmall}"
+          "$type": "borderRadius",
+          "$value": "{semantic.border.radii.extraSmall}",
+          "$description": "Extra small border radius (4px)"
         },
         "small": {
-          "$type": "number",
-          "$value": "{semantic.border.radii.small}"
+          "$type": "borderRadius",
+          "$value": "{semantic.border.radii.small}",
+          "$description": "Small border radius (8px)"
         },
         "medium": {
-          "$type": "number",
-          "$value": "{semantic.border.radii.medium}"
+          "$type": "borderRadius",
+          "$value": "{semantic.border.radii.medium}",
+          "$description": "Medium border radius (12px)"
         },
         "large": {
-          "$type": "number",
-          "$value": "{semantic.border.radii.large}"
+          "$type": "borderRadius",
+          "$value": "{semantic.border.radii.large}",
+          "$description": "Large border radius (16px)"
         },
         "extraLarge": {
-          "$type": "number",
-          "$value": "{semantic.border.radii.extraLarge}"
+          "$type": "borderRadius",
+          "$value": "{semantic.border.radii.extraLarge}",
+          "$description": "Extra large border radius (20px)"
         },
         "circular": {
-          "$type": "number",
-          "$value": "{semantic.border.radii.circular}"
+          "$type": "borderRadius",
+          "$value": "{semantic.border.radii.circular}",
+          "$description": "Circular border radius (fully rounded)"
         },
         "mega": {
-          "$type": "number",
-          "$value": "{semantic.border.radii.mega}"
+          "$type": "borderRadius",
+          "$value": "{semantic.border.radii.mega}",
+          "$description": "Mega border radius (24px)"
         }
       }
     },

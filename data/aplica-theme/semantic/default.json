@@ -7,43 +7,52 @@
             "default": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.first.default.background}"
+                "$value": "{surface.color.brand.branding.first.default.background}",
+                "$description": "Primary brand color (first) in default state for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.first.default.txtOn}"
+                "$value": "{surface.color.brand.branding.first.default.txtOn}",
+                "$description": "Text color on primary brand color (first) in default state"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.first.default.border}"
+                "$value": "{surface.color.brand.branding.first.default.border}",
+                "$description": "Border color for primary brand color (first) in default state"
               }
             },
             "lowest": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.first.lowest.background}"
+                "$value": "{surface.color.brand.branding.first.lowest.background}",
+                "$description": "Primary brand color (first) in lowest intensity for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.first.lowest.txtOn}"
+                "$value": "{surface.color.brand.branding.first.lowest.txtOn}",
+                "$description": "Text color on primary brand color (first) in lowest intensity"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.first.lowest.border}"
+                "$value": "{surface.color.brand.branding.first.lowest.border}",
+                "$description": "Border color for primary brand color (first) in lowest intensity"
               }
             },
             "highest": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.first.highest.background}"
+                "$value": "{surface.color.brand.branding.first.highest.background}",
+                "$description": "Primary brand color (first) in highest intensity for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.first.highest.txtOn}"
+                "$value": "{surface.color.brand.branding.first.highest.txtOn}",
+                "$description": "Text color on primary brand color (first) in highest intensity"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.first.highest.border}"
+                "$value": "{surface.color.brand.branding.first.highest.border}",
+                "$description": "Border color for primary brand color (first) in highest intensity"
               }
             }
           },
@@ -51,43 +60,52 @@
             "default": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.second.default.background}"
+                "$value": "{surface.color.brand.branding.second.default.background}",
+                "$description": "Secondary brand color (second) in default state for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.second.default.txtOn}"
+                "$value": "{surface.color.brand.branding.second.default.txtOn}",
+                "$description": "Text color on secondary brand color (second) in default state"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.second.default.border}"
+                "$value": "{surface.color.brand.branding.second.default.border}",
+                "$description": "Border color for secondary brand color (second) in default state"
               }
             },
             "lowest": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.second.lowest.background}"
+                "$value": "{surface.color.brand.branding.second.lowest.background}",
+                "$description": "Secondary brand color (second) in lowest intensity for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.second.lowest.txtOn}"
+                "$value": "{surface.color.brand.branding.second.lowest.txtOn}",
+                "$description": "Text color on secondary brand color (second) in lowest intensity"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.second.lowest.border}"
+                "$value": "{surface.color.brand.branding.second.lowest.border}",
+                "$description": "Border color for secondary brand color (second) in lowest intensity"
               }
             },
             "highest": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.second.highest.background}"
+                "$value": "{surface.color.brand.branding.second.highest.background}",
+                "$description": "Secondary brand color (second) in highest intensity for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.second.highest.txtOn}"
+                "$value": "{surface.color.brand.branding.second.highest.txtOn}",
+                "$description": "Text color on secondary brand color (second) in highest intensity"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.second.highest.border}"
+                "$value": "{surface.color.brand.branding.second.highest.border}",
+                "$description": "Border color for secondary brand color (second) in highest intensity"
               }
             }
           },
@@ -95,43 +113,52 @@
             "default": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.third.default.background}"
+                "$value": "{surface.color.brand.branding.third.default.background}",
+                "$description": "Tertiary brand color (third) in default state for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.third.default.txtOn}"
+                "$value": "{surface.color.brand.branding.third.default.txtOn}",
+                "$description": "Text color on tertiary brand color (third) in default state"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.third.default.border}"
+                "$value": "{surface.color.brand.branding.third.default.border}",
+                "$description": "Border color for tertiary brand color (third) in default state"
               }
             },
             "lowest": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.third.lowest.background}"
+                "$value": "{surface.color.brand.branding.third.lowest.background}",
+                "$description": "Tertiary brand color (third) in lowest intensity for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.third.lowest.txtOn}"
+                "$value": "{surface.color.brand.branding.third.lowest.txtOn}",
+                "$description": "Text color on tertiary brand color (third) in lowest intensity"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.third.lowest.border}"
+                "$value": "{surface.color.brand.branding.third.lowest.border}",
+                "$description": "Border color for tertiary brand color (third) in lowest intensity"
               }
             },
             "highest": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.third.highest.background}"
+                "$value": "{surface.color.brand.branding.third.highest.background}",
+                "$description": "Tertiary brand color (third) in highest intensity for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.third.highest.txtOn}"
+                "$value": "{surface.color.brand.branding.third.highest.txtOn}",
+                "$description": "Text color on tertiary brand color (third) in highest intensity"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.branding.third.highest.border}"
+                "$value": "{surface.color.brand.branding.third.highest.border}",
+                "$description": "Border color for tertiary brand color (third) in highest intensity"
               }
             }
           }
@@ -141,29 +168,35 @@
             "base": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.contrast.base.light.background}"
+                "$value": "{surface.color.brand.ambient.contrast.base.light.background}",
+                "$description": "Base contrast color for background (light surface)"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.contrast.base.light.txtOn}"
+                "$value": "{surface.color.brand.ambient.contrast.base.light.txtOn}",
+                "$description": "Text color on base contrast background (light surface)"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.contrast.base.light.border}"
+                "$value": "{surface.color.brand.ambient.contrast.base.light.border}",
+                "$description": "Border color for base contrast (light surface)"
               }
             },
             "deep": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.contrast.deep.light.background}"
+                "$value": "{surface.color.brand.ambient.contrast.deep.light.background}",
+                "$description": "Deep contrast color for background (light surface)"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.contrast.deep.light.txtOn}"
+                "$value": "{surface.color.brand.ambient.contrast.deep.light.txtOn}",
+                "$description": "Text color on deep contrast background (light surface)"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.contrast.deep.light.border}"
+                "$value": "{surface.color.brand.ambient.contrast.deep.light.border}",
+                "$description": "Border color for deep contrast (light surface)"
               }
             }
           },
@@ -171,99 +204,120 @@
             "lowest": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.lowest.background}"
+                "$value": "{surface.color.brand.ambient.neutral.lowest.background}",
+                "$description": "Lightest neutral color for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.lowest.txtOn}"
+                "$value": "{surface.color.brand.ambient.neutral.lowest.txtOn}",
+                "$description": "Text color on lightest neutral background"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.lowest.border}"
+                "$value": "{surface.color.brand.ambient.neutral.lowest.border}",
+                "$description": "Border color for lightest neutral"
               }
             },
             "lower": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.lower.background}"
+                "$value": "{surface.color.brand.ambient.neutral.lower.background}",
+                "$description": "Lower neutral color for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.lower.txtOn}"
+                "$value": "{surface.color.brand.ambient.neutral.lower.txtOn}",
+                "$description": "Text color on lower neutral background"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.lower.border}"
+                "$value": "{surface.color.brand.ambient.neutral.lower.border}",
+                "$description": "Border color for lower neutral"
               }
             },
             "low": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.low.background}"
+                "$value": "{surface.color.brand.ambient.neutral.low.background}",
+                "$description": "Low neutral color for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.low.txtOn}"
+                "$value": "{surface.color.brand.ambient.neutral.low.txtOn}",
+                "$description": "Text color on low neutral background"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.low.border}"
+                "$value": "{surface.color.brand.ambient.neutral.low.border}",
+                "$description": "Border color for low neutral"
               }
             },
             "mid": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.mid.background}"
+                "$value": "{surface.color.brand.ambient.neutral.mid.background}",
+                "$description": "Mid neutral color for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.mid.txtOn}"
+                "$value": "{surface.color.brand.ambient.neutral.mid.txtOn}",
+                "$description": "Text color on mid neutral background"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.mid.border}"
+                "$value": "{surface.color.brand.ambient.neutral.mid.border}",
+                "$description": "Border color for mid neutral"
               }
             },
             "high": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.high.background}"
+                "$value": "{surface.color.brand.ambient.neutral.high.background}",
+                "$description": "High neutral color for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.high.txtOn}"
+                "$value": "{surface.color.brand.ambient.neutral.high.txtOn}",
+                "$description": "Text color on high neutral background"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.mid.border}"
+                "$value": "{surface.color.brand.ambient.neutral.mid.border}",
+                "$description": "Border color for high neutral"
               }
             },
             "higher": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.higher.background}"
+                "$value": "{surface.color.brand.ambient.neutral.higher.background}",
+                "$description": "Higher neutral color for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.higher.txtOn}"
+                "$value": "{surface.color.brand.ambient.neutral.higher.txtOn}",
+                "$description": "Text color on higher neutral background"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.higher.border}"
+                "$value": "{surface.color.brand.ambient.neutral.higher.border}",
+                "$description": "Border color for higher neutral"
               }
             },
             "highest": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.highest.background}"
+                "$value": "{surface.color.brand.ambient.neutral.highest.background}",
+                "$description": "Highest neutral color for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.highest.txtOn}"
+                "$value": "{surface.color.brand.ambient.neutral.highest.txtOn}",
+                "$description": "Text color on highest neutral background"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.neutral.highest.border}"
+                "$value": "{surface.color.brand.ambient.neutral.highest.border}",
+                "$description": "Border color for highest neutral"
               }
             }
           },
@@ -271,99 +325,120 @@
             "lowest": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.lowest.background}"
+                "$value": "{surface.color.brand.ambient.grayscale.lowest.background}",
+                "$description": "Lightest grayscale color for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.lowest.txtOn}"
+                "$value": "{surface.color.brand.ambient.grayscale.lowest.txtOn}",
+                "$description": "Text color on lightest grayscale background"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.lowest.border}"
+                "$value": "{surface.color.brand.ambient.grayscale.lowest.border}",
+                "$description": "Border color for lightest grayscale"
               }
             },
             "lower": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.lower.background}"
+                "$value": "{surface.color.brand.ambient.grayscale.lower.background}",
+                "$description": "Lower grayscale color for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.lower.txtOn}"
+                "$value": "{surface.color.brand.ambient.grayscale.lower.txtOn}",
+                "$description": "Text color on lower grayscale background"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.lower.border}"
+                "$value": "{surface.color.brand.ambient.grayscale.lower.border}",
+                "$description": "Border color for lower grayscale"
               }
             },
             "low": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.low.background}"
+                "$value": "{surface.color.brand.ambient.grayscale.low.background}",
+                "$description": "Low grayscale color for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.low.txtOn}"
+                "$value": "{surface.color.brand.ambient.grayscale.low.txtOn}",
+                "$description": "Text color on low grayscale background"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.low.border}"
+                "$value": "{surface.color.brand.ambient.grayscale.low.border}",
+                "$description": "Border color for low grayscale"
               }
             },
             "mid": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.mid.background}"
+                "$value": "{surface.color.brand.ambient.grayscale.mid.background}",
+                "$description": "Mid grayscale color for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.mid.txtOn}"
+                "$value": "{surface.color.brand.ambient.grayscale.mid.txtOn}",
+                "$description": "Text color on mid grayscale background"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.mid.border}"
+                "$value": "{surface.color.brand.ambient.grayscale.mid.border}",
+                "$description": "Border color for mid grayscale"
               }
             },
             "high": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.high.background}"
+                "$value": "{surface.color.brand.ambient.grayscale.high.background}",
+                "$description": "High grayscale color for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.high.txtOn}"
+                "$value": "{surface.color.brand.ambient.grayscale.high.txtOn}",
+                "$description": "Text color on high grayscale background"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.high.border}"
+                "$value": "{surface.color.brand.ambient.grayscale.high.border}",
+                "$description": "Border color for high grayscale"
               }
             },
             "higher": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.higher.background}"
+                "$value": "{surface.color.brand.ambient.grayscale.higher.background}",
+                "$description": "Higher grayscale color for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.higher.txtOn}"
+                "$value": "{surface.color.brand.ambient.grayscale.higher.txtOn}",
+                "$description": "Text color on higher grayscale background"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.higher.border}"
+                "$value": "{surface.color.brand.ambient.grayscale.higher.border}",
+                "$description": "Border color for higher grayscale"
               }
             },
             "highest": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.highest.background}"
+                "$value": "{surface.color.brand.ambient.grayscale.highest.background}",
+                "$description": "Highest grayscale color for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.highest.txtOn}"
+                "$value": "{surface.color.brand.ambient.grayscale.highest.txtOn}",
+                "$description": "Text color on highest grayscale background"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.brand.ambient.grayscale.highest.border}"
+                "$value": "{surface.color.brand.ambient.grayscale.highest.border}",
+                "$description": "Border color for highest grayscale"
               }
             }
           }
@@ -375,43 +450,52 @@
             "normal": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.primary.normal.background}"
+                "$value": "{surface.color.interface.function.primary.normal.background}",
+                "$description": "Primary interface function color in normal state for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.primary.normal.txtOn}"
+                "$value": "{surface.color.interface.function.primary.normal.txtOn}",
+                "$description": "Text color on primary interface function in normal state"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.primary.normal.border}"
+                "$value": "{surface.color.interface.function.primary.normal.border}",
+                "$description": "Border color for primary interface function in normal state"
               }
             },
             "action": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.primary.action.background}"
+                "$value": "{surface.color.interface.function.primary.action.background}",
+                "$description": "Primary interface function color in action state for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.primary.action.txtOn}"
+                "$value": "{surface.color.interface.function.primary.action.txtOn}",
+                "$description": "Text color on primary interface function in action state"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.primary.action.border}"
+                "$value": "{surface.color.interface.function.primary.action.border}",
+                "$description": "Border color for primary interface function in action state"
               }
             },
             "active": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.primary.active.background}"
+                "$value": "{surface.color.interface.function.primary.active.background}",
+                "$description": "Primary interface function color in active state for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.primary.active.txtOn}"
+                "$value": "{surface.color.interface.function.primary.active.txtOn}",
+                "$description": "Text color on primary interface function in active state"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.primary.active.border}"
+                "$value": "{surface.color.interface.function.primary.active.border}",
+                "$description": "Border color for primary interface function in active state"
               }
             }
           },
@@ -419,43 +503,52 @@
             "normal": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.secondary.normal.background}"
+                "$value": "{surface.color.interface.function.secondary.normal.background}",
+                "$description": "Secondary interface function color in normal state for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.secondary.normal.txtOn}"
+                "$value": "{surface.color.interface.function.secondary.normal.txtOn}",
+                "$description": "Text color on secondary interface function in normal state"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.secondary.normal.border}"
+                "$value": "{surface.color.interface.function.secondary.normal.border}",
+                "$description": "Border color for secondary interface function in normal state"
               }
             },
             "action": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.secondary.action.background}"
+                "$value": "{surface.color.interface.function.secondary.action.background}",
+                "$description": "Secondary interface function color in action state for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.secondary.action.txtOn}"
+                "$value": "{surface.color.interface.function.secondary.action.txtOn}",
+                "$description": "Text color on secondary interface function in action state"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.secondary.action.border}"
+                "$value": "{surface.color.interface.function.secondary.action.border}",
+                "$description": "Border color for secondary interface function in action state"
               }
             },
             "active": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.secondary.active.background}"
+                "$value": "{surface.color.interface.function.secondary.active.background}",
+                "$description": "Secondary interface function color in active state for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.secondary.active.txtOn}"
+                "$value": "{surface.color.interface.function.secondary.active.txtOn}",
+                "$description": "Text color on secondary interface function in active state"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.secondary.active.border}"
+                "$value": "{surface.color.interface.function.secondary.active.border}",
+                "$description": "Border color for secondary interface function in active state"
               }
             }
           },
@@ -463,43 +556,52 @@
             "normal": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.link.normal.background}"
+                "$value": "{surface.color.interface.function.link.normal.background}",
+                "$description": "Link interface function color in normal state for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.link.normal.txtOn}"
+                "$value": "{surface.color.interface.function.link.normal.txtOn}",
+                "$description": "Text color on link interface function in normal state"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.link.normal.border}"
+                "$value": "{surface.color.interface.function.link.normal.border}",
+                "$description": "Border color for link interface function in normal state"
               }
             },
             "action": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.link.action.background}"
+                "$value": "{surface.color.interface.function.link.action.background}",
+                "$description": "Link interface function color in action state for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.link.action.txtOn}"
+                "$value": "{surface.color.interface.function.link.action.txtOn}",
+                "$description": "Text color on link interface function in action state"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.link.action.border}"
+                "$value": "{surface.color.interface.function.link.action.border}",
+                "$description": "Border color for link interface function in action state"
               }
             },
             "active": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.link.active.background}"
+                "$value": "{surface.color.interface.function.link.active.background}",
+                "$description": "Link interface function color in active state for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.link.active.txtOn}"
+                "$value": "{surface.color.interface.function.link.active.txtOn}",
+                "$description": "Text color on link interface function in active state"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.link.active.border}"
+                "$value": "{surface.color.interface.function.link.active.border}",
+                "$description": "Border color for link interface function in active state"
               }
             }
           },
@@ -507,15 +609,18 @@
             "normal": {
               "background": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.disabled.normal.background}"
+                "$value": "{surface.color.interface.function.disabled.normal.background}",
+                "$description": "Disabled interface function color in normal state for background"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.disabled.normal.txtOn}"
+                "$value": "{surface.color.interface.function.disabled.normal.txtOn}",
+                "$description": "Text color on disabled interface function in normal state"
               },
               "border": {
                 "$type": "color",
-                "$value": "{surface.color.interface.function.disabled.normal.border}"
+                "$value": "{surface.color.interface.function.disabled.normal.border}",
+                "$description": "Border color for disabled interface function in normal state"
               }
             }
           }
@@ -526,43 +631,52 @@
               "normal": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.main.normal.background}"
+                  "$value": "{surface.color.interface.feedback.info.main.normal.background}",
+                  "$description": "Info feedback main color in normal state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.main.normal.txtOn}"
+                  "$value": "{surface.color.interface.feedback.info.main.normal.txtOn}",
+                  "$description": "Text color on info feedback main in normal state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.main.normal.border}"
+                  "$value": "{surface.color.interface.feedback.info.main.normal.border}",
+                  "$description": "Border color for info feedback main in normal state"
                 }
               },
               "action": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.main.action.background}"
+                  "$value": "{surface.color.interface.feedback.info.main.action.background}",
+                  "$description": "Info feedback main color in action state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.main.action.txtOn}"
+                  "$value": "{surface.color.interface.feedback.info.main.action.txtOn}",
+                  "$description": "Text color on info feedback main in action state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.main.action.border}"
+                  "$value": "{surface.color.interface.feedback.info.main.action.border}",
+                  "$description": "Border color for info feedback main in action state"
                 }
               },
               "active": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.main.active.background}"
+                  "$value": "{surface.color.interface.feedback.info.main.active.background}",
+                  "$description": "Info feedback main color in active state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.main.active.txtOn}"
+                  "$value": "{surface.color.interface.feedback.info.main.active.txtOn}",
+                  "$description": "Text color on info feedback main in active state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.main.active.border}"
+                  "$value": "{surface.color.interface.feedback.info.main.active.border}",
+                  "$description": "Border color for info feedback main in active state"
                 }
               }
             },
@@ -570,43 +684,52 @@
               "normal": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.secondary.normal.background}"
+                  "$value": "{surface.color.interface.feedback.info.secondary.normal.background}",
+                  "$description": "Info feedback secondary color in normal state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.secondary.normal.txtOn}"
+                  "$value": "{surface.color.interface.feedback.info.secondary.normal.txtOn}",
+                  "$description": "Text color on info feedback secondary in normal state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.secondary.normal.border}"
+                  "$value": "{surface.color.interface.feedback.info.secondary.normal.border}",
+                  "$description": "Border color for info feedback secondary in normal state"
                 }
               },
               "action": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.secondary.action.background}"
+                  "$value": "{surface.color.interface.feedback.info.secondary.action.background}",
+                  "$description": "Info feedback secondary color in action state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.secondary.action.txtOn}"
+                  "$value": "{surface.color.interface.feedback.info.secondary.action.txtOn}",
+                  "$description": "Text color on info feedback secondary in action state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.secondary.action.border}"
+                  "$value": "{surface.color.interface.feedback.info.secondary.action.border}",
+                  "$description": "Border color for info feedback secondary in action state"
                 }
               },
               "active": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.secondary.active.background}"
+                  "$value": "{surface.color.interface.feedback.info.secondary.active.background}",
+                  "$description": "Info feedback secondary color in active state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.secondary.active.txtOn}"
+                  "$value": "{surface.color.interface.feedback.info.secondary.active.txtOn}",
+                  "$description": "Text color on info feedback secondary in active state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.info.secondary.active.border}"
+                  "$value": "{surface.color.interface.feedback.info.secondary.active.border}",
+                  "$description": "Border color for info feedback secondary in active state"
                 }
               }
             }
@@ -616,43 +739,52 @@
               "normal": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.main.normal.background}"
+                  "$value": "{surface.color.interface.feedback.success.main.normal.background}",
+                  "$description": "Success feedback main color in normal state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.main.normal.txtOn}"
+                  "$value": "{surface.color.interface.feedback.success.main.normal.txtOn}",
+                  "$description": "Text color on success feedback main in normal state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.main.normal.border}"
+                  "$value": "{surface.color.interface.feedback.success.main.normal.border}",
+                  "$description": "Border color for success feedback main in normal state"
                 }
               },
               "action": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.main.action.background}"
+                  "$value": "{surface.color.interface.feedback.success.main.action.background}",
+                  "$description": "Success feedback main color in action state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.main.action.txtOn}"
+                  "$value": "{surface.color.interface.feedback.success.main.action.txtOn}",
+                  "$description": "Text color on success feedback main in action state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.main.action.border}"
+                  "$value": "{surface.color.interface.feedback.success.main.action.border}",
+                  "$description": "Border color for success feedback main in action state"
                 }
               },
               "active": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.main.active.background}"
+                  "$value": "{surface.color.interface.feedback.success.main.active.background}",
+                  "$description": "Success feedback main color in active state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.main.active.txtOn}"
+                  "$value": "{surface.color.interface.feedback.success.main.active.txtOn}",
+                  "$description": "Text color on success feedback main in active state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.main.active.border}"
+                  "$value": "{surface.color.interface.feedback.success.main.active.border}",
+                  "$description": "Border color for success feedback main in active state"
                 }
               }
             },
@@ -660,43 +792,52 @@
               "normal": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.secondary.normal.background}"
+                  "$value": "{surface.color.interface.feedback.success.secondary.normal.background}",
+                  "$description": "Success feedback secondary color in normal state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.secondary.normal.txtOn}"
+                  "$value": "{surface.color.interface.feedback.success.secondary.normal.txtOn}",
+                  "$description": "Text color on success feedback secondary in normal state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.secondary.normal.border}"
+                  "$value": "{surface.color.interface.feedback.success.secondary.normal.border}",
+                  "$description": "Border color for success feedback secondary in normal state"
                 }
               },
               "action": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.secondary.action.background}"
+                  "$value": "{surface.color.interface.feedback.success.secondary.action.background}",
+                  "$description": "Success feedback secondary color in action state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.secondary.action.txtOn}"
+                  "$value": "{surface.color.interface.feedback.success.secondary.action.txtOn}",
+                  "$description": "Text color on success feedback secondary in action state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.secondary.action.border}"
+                  "$value": "{surface.color.interface.feedback.success.secondary.action.border}",
+                  "$description": "Border color for success feedback secondary in action state"
                 }
               },
               "active": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.secondary.active.background}"
+                  "$value": "{surface.color.interface.feedback.success.secondary.active.background}",
+                  "$description": "Success feedback secondary color in active state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.secondary.active.txtOn}"
+                  "$value": "{surface.color.interface.feedback.success.secondary.active.txtOn}",
+                  "$description": "Text color on success feedback secondary in active state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.success.secondary.active.border}"
+                  "$value": "{surface.color.interface.feedback.success.secondary.active.border}",
+                  "$description": "Border color for success feedback secondary in active state"
                 }
               }
             }
@@ -706,43 +847,52 @@
               "normal": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.main.normal.background}"
+                  "$value": "{surface.color.interface.feedback.warning.main.normal.background}",
+                  "$description": "Warning feedback main color in normal state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.main.normal.txtOn}"
+                  "$value": "{surface.color.interface.feedback.warning.main.normal.txtOn}",
+                  "$description": "Text color on warning feedback main in normal state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.main.normal.border}"
+                  "$value": "{surface.color.interface.feedback.warning.main.normal.border}",
+                  "$description": "Border color for warning feedback main in normal state"
                 }
               },
               "action": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.main.action.background}"
+                  "$value": "{surface.color.interface.feedback.warning.main.action.background}",
+                  "$description": "Warning feedback main color in action state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.main.action.txtOn}"
+                  "$value": "{surface.color.interface.feedback.warning.main.action.txtOn}",
+                  "$description": "Text color on warning feedback main in action state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.main.action.border}"
+                  "$value": "{surface.color.interface.feedback.warning.main.action.border}",
+                  "$description": "Border color for warning feedback main in action state"
                 }
               },
               "active": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.main.active.background}"
+                  "$value": "{surface.color.interface.feedback.warning.main.active.background}",
+                  "$description": "Warning feedback main color in active state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.main.active.txtOn}"
+                  "$value": "{surface.color.interface.feedback.warning.main.active.txtOn}",
+                  "$description": "Text color on warning feedback main in active state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.main.active.border}"
+                  "$value": "{surface.color.interface.feedback.warning.main.active.border}",
+                  "$description": "Border color for warning feedback main in active state"
                 }
               }
             },
@@ -750,43 +900,52 @@
               "normal": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.secondary.normal.background}"
+                  "$value": "{surface.color.interface.feedback.warning.secondary.normal.background}",
+                  "$description": "Warning feedback secondary color in normal state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.secondary.normal.txtOn}"
+                  "$value": "{surface.color.interface.feedback.warning.secondary.normal.txtOn}",
+                  "$description": "Text color on warning feedback secondary in normal state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.secondary.normal.border}"
+                  "$value": "{surface.color.interface.feedback.warning.secondary.normal.border}",
+                  "$description": "Border color for warning feedback secondary in normal state"
                 }
               },
               "action": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.secondary.action.background}"
+                  "$value": "{surface.color.interface.feedback.warning.secondary.action.background}",
+                  "$description": "Warning feedback secondary color in action state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.secondary.action.txtOn}"
+                  "$value": "{surface.color.interface.feedback.warning.secondary.action.txtOn}",
+                  "$description": "Text color on warning feedback secondary in action state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.secondary.action.border}"
+                  "$value": "{surface.color.interface.feedback.warning.secondary.action.border}",
+                  "$description": "Border color for warning feedback secondary in action state"
                 }
               },
               "active": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.secondary.active.background}"
+                  "$value": "{surface.color.interface.feedback.warning.secondary.active.background}",
+                  "$description": "Warning feedback secondary color in active state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.secondary.active.txtOn}"
+                  "$value": "{surface.color.interface.feedback.warning.secondary.active.txtOn}",
+                  "$description": "Text color on warning feedback secondary in active state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.warning.secondary.active.border}"
+                  "$value": "{surface.color.interface.feedback.warning.secondary.active.border}",
+                  "$description": "Border color for warning feedback secondary in active state"
                 }
               }
             }
@@ -796,43 +955,52 @@
               "normal": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.main.normal.background}"
+                  "$value": "{surface.color.interface.feedback.danger.main.normal.background}",
+                  "$description": "Danger feedback main color in normal state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.main.normal.txtOn}"
+                  "$value": "{surface.color.interface.feedback.danger.main.normal.txtOn}",
+                  "$description": "Text color on danger feedback main in normal state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.main.normal.border}"
+                  "$value": "{surface.color.interface.feedback.danger.main.normal.border}",
+                  "$description": "Border color for danger feedback main in normal state"
                 }
               },
               "action": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.main.action.background}"
+                  "$value": "{surface.color.interface.feedback.danger.main.action.background}",
+                  "$description": "Danger feedback main color in action state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.main.action.txtOn}"
+                  "$value": "{surface.color.interface.feedback.danger.main.action.txtOn}",
+                  "$description": "Text color on danger feedback main in action state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.main.action.border}"
+                  "$value": "{surface.color.interface.feedback.danger.main.action.border}",
+                  "$description": "Border color for danger feedback main in action state"
                 }
               },
               "active": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.main.active.background}"
+                  "$value": "{surface.color.interface.feedback.danger.main.active.background}",
+                  "$description": "Danger feedback main color in active state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.main.active.txtOn}"
+                  "$value": "{surface.color.interface.feedback.danger.main.active.txtOn}",
+                  "$description": "Text color on danger feedback main in active state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.main.active.border}"
+                  "$value": "{surface.color.interface.feedback.danger.main.active.border}",
+                  "$description": "Border color for danger feedback main in active state"
                 }
               }
             },
@@ -840,43 +1008,52 @@
               "normal": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.secondary.normal.background}"
+                  "$value": "{surface.color.interface.feedback.danger.secondary.normal.background}",
+                  "$description": "Danger feedback secondary color in normal state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.secondary.normal.txtOn}"
+                  "$value": "{surface.color.interface.feedback.danger.secondary.normal.txtOn}",
+                  "$description": "Text color on danger feedback secondary in normal state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.secondary.normal.border}"
+                  "$value": "{surface.color.interface.feedback.danger.secondary.normal.border}",
+                  "$description": "Border color for danger feedback secondary in normal state"
                 }
               },
               "action": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.secondary.action.background}"
+                  "$value": "{surface.color.interface.feedback.danger.secondary.action.background}",
+                  "$description": "Danger feedback secondary color in action state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.secondary.action.txtOn}"
+                  "$value": "{surface.color.interface.feedback.danger.secondary.action.txtOn}",
+                  "$description": "Text color on danger feedback secondary in action state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.secondary.action.border}"
+                  "$value": "{surface.color.interface.feedback.danger.secondary.action.border}",
+                  "$description": "Border color for danger feedback secondary in action state"
                 }
               },
               "active": {
                 "background": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.secondary.active.background}"
+                  "$value": "{surface.color.interface.feedback.danger.secondary.active.background}",
+                  "$description": "Danger feedback secondary color in active state for background"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.secondary.active.txtOn}"
+                  "$value": "{surface.color.interface.feedback.danger.secondary.active.txtOn}",
+                  "$description": "Text color on danger feedback secondary in active state"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{surface.color.interface.feedback.danger.secondary.active.border}"
+                  "$value": "{surface.color.interface.feedback.danger.secondary.active.border}",
+                  "$description": "Border color for danger feedback secondary in active state"
                 }
               }
             }
@@ -886,39 +1063,48 @@
       "text": {
         "title": {
           "$type": "color",
-          "$value": "{surface.color.text.title}"
+          "$value": "{surface.color.text.title}",
+          "$description": "Color for text titles"
         },
         "body": {
           "$type": "color",
-          "$value": "{surface.color.text.body}"
+          "$value": "{surface.color.text.body}",
+          "$description": "Color for body text"
         },
         "highlight": {
           "$type": "color",
-          "$value": "{surface.color.text.highlight}"
+          "$value": "{surface.color.text.highlight}",
+          "$description": "Color for highlighted text"
         },
         "muted": {
           "$type": "color",
-          "$value": "{surface.color.text.muted}"
+          "$value": "{surface.color.text.muted}",
+          "$description": "Color for muted text"
         },
         "label": {
           "$type": "color",
-          "$value": "{surface.color.text.label}"
+          "$value": "{surface.color.text.label}",
+          "$description": "Color for label text"
         },
         "info": {
           "$type": "color",
-          "$value": "{surface.color.text.info}"
+          "$value": "{surface.color.text.info}",
+          "$description": "Color for info text"
         },
         "success": {
           "$type": "color",
-          "$value": "{surface.color.text.success}"
+          "$value": "{surface.color.text.success}",
+          "$description": "Color for success text"
         },
         "warning": {
           "$type": "color",
-          "$value": "{surface.color.text.warning}"
+          "$value": "{surface.color.text.warning}",
+          "$description": "Color for warning text"
         },
         "danger": {
           "$type": "color",
-          "$value": "{surface.color.text.danger}"
+          "$value": "{surface.color.text.danger}",
+          "$description": "Color for danger text"
         }
       }
     },
@@ -927,92 +1113,113 @@
         "grayscale": {
           "superTransparent": {
             "$type": "color",
-            "$value": "{surface.opacity.color.dark.superTransparent}"
+            "$value": "{surface.opacity.color.dark.superTransparent}",
+            "$description": "Super transparent grayscale color (dark surface)"
           },
           "semiTranslucid": {
             "$type": "color",
-            "$value": "{surface.opacity.color.dark.semiTranslucid}"
+            "$value": "{surface.opacity.color.dark.semiTranslucid}",
+            "$description": "Semi translucent grayscale color (dark surface)"
           },
           "translucid": {
             "$type": "color",
-            "$value": "{surface.opacity.color.dark.translucid}"
+            "$value": "{surface.opacity.color.dark.translucid}",
+            "$description": "Translucent grayscale color (dark surface)"
           },
           "superTranslucid": {
             "$type": "color",
-            "$value": "{surface.opacity.color.dark.superTranslucid}"
+            "$value": "{surface.opacity.color.dark.superTranslucid}",
+            "$description": "Super translucent grayscale color (dark surface)"
           },
           "semiOpaque": {
             "$type": "color",
-            "$value": "{surface.opacity.color.dark.semiOpaque}"
+            "$value": "{surface.opacity.color.dark.semiOpaque}",
+            "$description": "Semi opaque grayscale color (dark surface)"
           },
           "transparent": {
             "$type": "color",
-            "$value": "{surface.opacity.color.dark.transparent}"
+            "$value": "{surface.opacity.color.dark.transparent}",
+            "$description": "Transparent grayscale color (dark surface)"
           },
           "opaque": {
             "$type": "color",
-            "$value": "{surface.opacity.color.dark.opaque}"
+            "$value": "{surface.opacity.color.dark.opaque}",
+            "$description": "Opaque grayscale color (dark surface)"
           }
         },
         "light": {
           "superTransparent": {
             "$type": "color",
-            "$value": "{surface.opacity.color.light.superTransparent}"
+            "$value": "{surface.opacity.color.light.superTransparent}",
+            "$description": "Super transparent light color (light surface)"
           },
           "semiTranslucid": {
             "$type": "color",
-            "$value": "{surface.opacity.color.light.semiTranslucid}"
+            "$value": "{surface.opacity.color.light.semiTranslucid}",
+            "$description": "Semi translucent light color (light surface)"
           },
           "translucid": {
             "$type": "color",
-            "$value": "{surface.opacity.color.light.translucid}"
+            "$value": "{surface.opacity.color.light.translucid}",
+            "$description": "Translucent light color (light surface)"
           },
           "superTranslucid": {
             "$type": "color",
-            "$value": "{surface.opacity.color.light.superTranslucid}"
+            "$value": "{surface.opacity.color.light.superTranslucid}",
+            "$description": "Super translucent light color (light surface)"
           },
           "semiOpaque": {
             "$type": "color",
-            "$value": "{surface.opacity.color.light.semiOpaque}"
+            "$value": "{surface.opacity.color.light.semiOpaque}",
+            "$description": "Semi opaque light color (light surface)"
           },
           "transparent": {
             "$type": "color",
-            "$value": "{surface.opacity.color.light.transparent}"
+            "$value": "{surface.opacity.color.light.transparent}",
+            "$description": "Transparent light color (light surface)"
           },
           "opaque": {
             "$type": "color",
-            "$value": "{surface.opacity.color.light.opaque}"
+            "$value": "{surface.opacity.color.light.opaque}",
+            "$description": "Opaque light color (light surface)"
           }
         }
       },
       "raw": {
         "transparent": {
           "$type": "number",
-          "$value": "0"
+          "$value": "0",
+          "$description": "Transparent opacity value (0%)"
         },
         "superTransparent": {
           "$type": "number",
-          "$value": "10"
+          "$value": "10",
+          "$description": "Super transparent opacity value (10%)"
         },
         "semiTranslucid": {
           "$type": "number",
-          "$value": "20"
+          "$value": "20",
+          "$description": "Semi translucent opacity value (20%)"
         },
         "translucid": {
           "$type": "number",
-          "$value": "50"
+          "$value": "50",
+          "$description": "Translucent opacity value (50%)"
         },
         "superTranslucid": {
           "$type": "number",
-          "$value": "80"
+          "$value": "80",
+          "$description": "Super translucent opacity value (80%)"
         },
         "semiOpaque": {
           "$type": "number",
-          "$value": "90"
+          "$value": "90",
+          "$description": "Semi opaque opacity value (90%)"
         },
         "opaque": {
           "$type": "number",
-          "$value": "100"
+          "$value": "100",
+          "$description": "Opaque opacity value (100%)"
         }
       }
     },
@@ -1020,19 +1227,23 @@
       "fontFamilies": {
         "code": {
           "$type": "fontFamilies",
-          "$value": "{_theme-typography.fontFamilies.code.face}"
+          "$value": "{_theme-typography.fontFamilies.code.face}",
+          "$description": "Code font family for programming and technical content"
         },
         "content": {
           "$type": "fontFamilies",
-          "$value": "{_theme-typography.fontFamilies.content.face}"
+          "$value": "{_theme-typography.fontFamilies.content.face}",
+          "$description": "Content font family for body text and general content"
         },
         "display": {
           "$type": "fontFamilies",
-          "$value": "{_theme-typography.fontFamilies.display.face}"
+          "$value": "{_theme-typography.fontFamilies.display.face}",
+          "$description": "Display font family for headings and prominent text"
         },
         "main": {
           "$type": "fontFamilies",
-          "$value": "{_theme-typography.fontFamilies.main.face}"
+          "$value": "{_theme-typography.fontFamilies.main.face}",
+          "$description": "Main font family for primary text content"
         }
       },
       "fontWeights": {
@@ -1040,51 +1251,61 @@
           "bold": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.code.bold.italic}"
+              "$value": "{_theme-typography.fontWeights.code.bold.italic}",
+              "$description": "Bold italic font weight for code font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.code.bold.normal}"
+              "$value": "{_theme-typography.fontWeights.code.bold.normal}",
+              "$description": "Bold normal font weight for code font family"
             }
           },
           "light": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.code.light.italic}"
+              "$value": "{_theme-typography.fontWeights.code.light.italic}",
+              "$description": "Light italic font weight for code font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.code.light.normal}"
+              "$value": "{_theme-typography.fontWeights.code.light.normal}",
+              "$description": "Light normal font weight for code font family"
             }
           },
           "regular": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.code.regular.italic}"
+              "$value": "{_theme-typography.fontWeights.code.regular.italic}",
+              "$description": "Regular italic font weight for code font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.code.regular.normal}"
+              "$value": "{_theme-typography.fontWeights.code.regular.normal}",
+              "$description": "Regular normal font weight for code font family"
             }
           },
           "semibold": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.code.semibold.italic}"
+              "$value": "{_theme-typography.fontWeights.code.semibold.italic}",
+              "$description": "Semibold italic font weight for code font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.code.semibold.normal}"
+              "$value": "{_theme-typography.fontWeights.code.semibold.normal}",
+              "$description": "Semibold normal font weight for code font family"
             }
           },
           "stronger": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.code.black.italic}"
+              "$value": "{_theme-typography.fontWeights.code.black.italic}",
+              "$description": "Stronger italic font weight for code font family (maps to black)"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.code.black.normal}"
+              "$value": "{_theme-typography.fontWeights.code.black.normal}",
+              "$description": "Stronger normal font weight for code font family (maps to black)"
             }
           }
         },
@@ -1092,51 +1313,61 @@
           "bold": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.content.bold.italic}"
+              "$value": "{_theme-typography.fontWeights.content.bold.italic}",
+              "$description": "Bold italic font weight for content font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.content.bold.normal}"
+              "$value": "{_theme-typography.fontWeights.content.bold.normal}",
+              "$description": "Bold normal font weight for content font family"
             }
           },
           "light": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.display.regular.italic}"
+              "$value": "{_theme-typography.fontWeights.display.regular.italic}",
+              "$description": "Light italic font weight for content font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.content.light.normal}"
+              "$value": "{_theme-typography.fontWeights.content.light.normal}",
+              "$description": "Light normal font weight for content font family"
             }
           },
           "regular": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.content.regular.italic}"
+              "$value": "{_theme-typography.fontWeights.content.regular.italic}",
+              "$description": "Regular italic font weight for content font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.content.regular.normal}"
+              "$value": "{_theme-typography.fontWeights.content.regular.normal}",
+              "$description": "Regular normal font weight for content font family"
             }
           },
           "semibold": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.content.semibold.italic}"
+              "$value": "{_theme-typography.fontWeights.content.semibold.italic}",
+              "$description": "Semibold italic font weight for content font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.content.semibold.normal}"
+              "$value": "{_theme-typography.fontWeights.content.semibold.normal}",
+              "$description": "Semibold normal font weight for content font family"
             }
           },
           "stronger": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.content.black.italic}"
+              "$value": "{_theme-typography.fontWeights.content.black.italic}",
+              "$description": "Stronger italic font weight for content font family (maps to black)"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.content.black.normal}"
+              "$value": "{_theme-typography.fontWeights.content.black.normal}",
+              "$description": "Stronger normal font weight for content font family (maps to black)"
             }
           }
         },
@@ -1144,51 +1375,61 @@
           "bold": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.display.bold.italic}"
+              "$value": "{_theme-typography.fontWeights.display.bold.italic}",
+              "$description": "Bold italic font weight for display font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.display.bold.normal}"
+              "$value": "{_theme-typography.fontWeights.display.bold.normal}",
+              "$description": "Bold normal font weight for display font family"
             }
           },
           "light": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.display.light.italic}"
+              "$value": "{_theme-typography.fontWeights.display.light.italic}",
+              "$description": "Light italic font weight for display font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.display.light.normal}"
+              "$value": "{_theme-typography.fontWeights.display.light.normal}",
+              "$description": "Light normal font weight for display font family"
             }
           },
           "regular": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.display.regular.italic}"
+              "$value": "{_theme-typography.fontWeights.display.regular.italic}",
+              "$description": "Regular italic font weight for display font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.display.regular.normal}"
+              "$value": "{_theme-typography.fontWeights.display.regular.normal}",
+              "$description": "Regular normal font weight for display font family"
             }
           },
           "semibold": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.display.semibold.italic}"
+              "$value": "{_theme-typography.fontWeights.display.semibold.italic}",
+              "$description": "Semibold italic font weight for display font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.display.semibold.normal}"
+              "$value": "{_theme-typography.fontWeights.display.semibold.normal}",
+              "$description": "Semibold normal font weight for display font family"
             }
           },
           "stronger": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.display.black.italic}"
+              "$value": "{_theme-typography.fontWeights.display.black.italic}",
+              "$description": "Stronger italic font weight for display font family (maps to black)"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.display.black.normal}"
+              "$value": "{_theme-typography.fontWeights.display.black.normal}",
+              "$description": "Stronger normal font weight for display font family (maps to black)"
             }
           }
         },
@@ -1196,99 +1437,120 @@
           "bold": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.main.bold.italic}"
+              "$value": "{_theme-typography.fontWeights.main.bold.italic}",
+              "$description": "Bold italic font weight for main font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.main.bold.normal}"
+              "$value": "{_theme-typography.fontWeights.main.bold.normal}",
+              "$description": "Bold normal font weight for main font family"
             }
           },
           "light": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.main.light.italic}"
+              "$value": "{_theme-typography.fontWeights.main.light.italic}",
+              "$description": "Light italic font weight for main font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.main.light.normal}"
+              "$value": "{_theme-typography.fontWeights.main.light.normal}",
+              "$description": "Light normal font weight for main font family"
             }
           },
           "regular": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.main.regular.italic}"
+              "$value": "{_theme-typography.fontWeights.main.regular.italic}",
+              "$description": "Regular italic font weight for main font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.main.regular.normal}"
+              "$value": "{_theme-typography.fontWeights.main.regular.normal}",
+              "$description": "Regular normal font weight for main font family"
             }
           },
           "semibold": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.main.semibold.italic}"
+              "$value": "{_theme-typography.fontWeights.main.semibold.italic}",
+              "$description": "Semibold italic font weight for main font family"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.main.semibold.normal}"
+              "$value": "{_theme-typography.fontWeights.main.semibold.normal}",
+              "$description": "Semibold normal font weight for main font family"
             }
           },
           "stronger": {
             "italic": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.main.black.italic}"
+              "$value": "{_theme-typography.fontWeights.main.black.italic}",
+              "$description": "Stronger italic font weight for main font family (maps to black)"
             },
             "normal": {
               "$type": "fontWeights",
-              "$value": "{_theme-typography.fontWeights.main.black.normal}"
+              "$value": "{_theme-typography.fontWeights.main.black.normal}",
+              "$description": "Stronger normal font weight for main font family (maps to black)"
             }
           }
         }
       },
       "fontSizes": {
-        "exa": {
+        "micro": {
           "$type": "fontSizes",
-          "$value": "{_theme-typography.fontSizes.exa}"
-        },
-        "extraLarge": {
-          "$type": "fontSizes",
-          "$value": "{_theme-typography.fontSizes.extraLarge}"
+          "$value": "{_theme-typography.fontSizes.micro}",
+          "$description": "Micro font size (10px)"
         },
         "extraSmall": {
           "$type": "fontSizes",
-          "$value": "{_theme-typography.fontSizes.extraSmall}"
-        },
-        "giga": {
-          "$type": "fontSizes",
-          "$value": "{_theme-typography.fontSizes.giga}"
-        },
-        "large": {
-          "$type": "fontSizes",
-          "$value": "{_theme-typography.fontSizes.large}"
-        },
-        "medium": {
-          "$type": "fontSizes",
-          "$value": "{_theme-typography.fontSizes.medium}"
-        },
-        "mega": {
-          "$type": "fontSizes",
-          "$value": "{_theme-typography.fontSizes.mega}"
-        },
-        "micro": {
-          "$type": "fontSizes",
-          "$value": "{_theme-typography.fontSizes.micro}"
-        },
-        "peta": {
-          "$type": "fontSizes",
-          "$value": "{_theme-typography.fontSizes.peta}"
+          "$value": "{_theme-typography.fontSizes.extraSmall}",
+          "$description": "Extra small font size (12px)"
         },
         "small": {
           "$type": "fontSizes",
-          "$value": "{_theme-typography.fontSizes.small}"
+          "$value": "{_theme-typography.fontSizes.small}",
+          "$description": "Small font size (14px)"
+        },
+        "medium": {
+          "$type": "fontSizes",
+          "$value": "{_theme-typography.fontSizes.medium}",
+          "$description": "Medium font size (16px) - base size"
+        },
+        "large": {
+          "$type": "fontSizes",
+          "$value": "{_theme-typography.fontSizes.large}",
+          "$description": "Large font size (20px)"
+        },
+        "extraLarge": {
+          "$type": "fontSizes",
+          "$value": "{_theme-typography.fontSizes.extraLarge}",
+          "$description": "Extra large font size (24px)"
+        },
+        "mega": {
+          "$type": "fontSizes",
+          "$value": "{_theme-typography.fontSizes.mega}",
+          "$description": "Mega font size (28px)"
+        },
+        "giga": {
+          "$type": "fontSizes",
+          "$value": "{_theme-typography.fontSizes.giga}",
+          "$description": "Giga font size (36px)"
         },
         "tera": {
           "$type": "fontSizes",
-          "$value": "{_theme-typography.fontSizes.tera}"
+          "$value": "{_theme-typography.fontSizes.tera}",
+          "$description": "Tera font size (40px)"
+        },
+        "peta": {
+          "$type": "fontSizes",
+          "$value": "{_theme-typography.fontSizes.peta}",
+          "$description": "Peta font size (48px)"
+        },
+        "exa": {
+          "$type": "fontSizes",
+          "$value": "{_theme-typography.fontSizes.exa}",
+          "$description": "Exa font size (60px)"
         }
       },
       "letterSpacings": {
@@ -1307,49 +1569,60 @@
       },
       "lineHeights": {
         "close": {
-          "exa": {
+          "micro": {
             "$type": "lineHeights",
-            "$value": "{_theme-typography.lineHeights.close.exa}"
-          },
-          "extraLarge": {
-            "$type": "lineHeights",
-            "$value": "{_theme-typography.lineHeights.close.extraLarge}"
+            "$value": "{_theme-typography.lineHeights.close.micro}",
+            "$description": "Close line height for micro font size (120%)"
           },
           "extraSmall": {
             "$type": "lineHeights",
-            "$value": "{_theme-typography.lineHeights.close.extraSmall}"
-          },
-          "giga": {
-            "$type": "lineHeights",
-            "$value": "{_theme-typography.lineHeights.close.giga}"
-          },
-          "large": {
-            "$type": "lineHeights",
-            "$value": "{_theme-typography.lineHeights.close.large}"
-          },
-          "medium": {
-            "$type": "lineHeights",
-            "$value": "{_theme-typography.lineHeights.close.medium}"
-          },
-          "mega": {
-            "$type": "lineHeights",
-            "$value": "{_theme-typography.lineHeights.close.mega}"
-          },
-          "micro": {
-            "$type": "lineHeights",
-            "$value": "{_theme-typography.lineHeights.close.micro}"
-          },
-          "peta": {
-            "$type": "lineHeights",
-            "$value": "{_theme-typography.lineHeights.close.peta}"
+            "$value": "{_theme-typography.lineHeights.close.extraSmall}",
+            "$description": "Close line height for extra small font size (120%)"
           },
           "small": {
             "$type": "lineHeights",
-            "$value": "{_theme-typography.lineHeights.close.small}"
+            "$value": "{_theme-typography.lineHeights.close.small}",
+            "$description": "Close line height for small font size (120%)"
+          },
+          "medium": {
+            "$type": "lineHeights",
+            "$value": "{_theme-typography.lineHeights.close.medium}",
+            "$description": "Close line height for medium font size (120%)"
+          },
+          "large": {
+            "$type": "lineHeights",
+            "$value": "{_theme-typography.lineHeights.close.large}",
+            "$description": "Close line height for large font size (120%)"
+          },
+          "extraLarge": {
+            "$type": "lineHeights",
+            "$value": "{_theme-typography.lineHeights.close.extraLarge}",
+            "$description": "Close line height for extra large font size (120%)"
+          },
+          "mega": {
+            "$type": "lineHeights",
+            "$value": "{_theme-typography.lineHeights.close.mega}",
+            "$description": "Close line height for mega font size (120%)"
+          },
+          "giga": {
+            "$type": "lineHeights",
+            "$value": "{_theme-typography.lineHeights.close.giga}",
+            "$description": "Close line height for giga font size (120%)"
           },
           "tera": {
             "$type": "lineHeights",
-            "$value": "{_theme-typography.lineHeights.close.tera}"
+            "$value": "{_theme-typography.lineHeights.close.tera}",
+            "$description": "Close line height for tera font size (120%)"
+          },
+          "peta": {
+            "$type": "lineHeights",
+            "$value": "{_theme-typography.lineHeights.close.peta}",
+            "$description": "Close line height for peta font size (120%)"
+          },
+          "exa": {
+            "$type": "lineHeights",
+            "$value": "{_theme-typography.lineHeights.close.exa}",
+            "$description": "Close line height for exa font size (120%)"
           }
         },
         "regular": {
@@ -1757,40 +2030,49 @@
     "border": {
       "radii": {
         "straight": {
-          "$type": "number",
-          "$value": "{_theme-borders.radii.straight}"
+          "$type": "borderRadius",
+          "$value": "{_theme-borders.radii.straight}",
+          "$description": "Straight border radius (0px - no rounding)"
         },
         "micro": {
-          "$type": "number",
-          "$value": "{_theme-borders.radii.micro}"
+          "$type": "borderRadius",
+          "$value": "{_theme-borders.radii.micro}",
+          "$description": "Micro border radius (2px)"
         },
         "extraSmall": {
-          "$type": "number",
-          "$value": "{_theme-borders.radii.extraSmall}"
+          "$type": "borderRadius",
+          "$value": "{_theme-borders.radii.extraSmall}",
+          "$description": "Extra small border radius (4px)"
         },
         "small": {
-          "$type": "number",
-          "$value": "{_theme-borders.radii.small}"
+          "$type": "borderRadius",
+          "$value": "{_theme-borders.radii.small}",
+          "$description": "Small border radius (8px)"
         },
         "medium": {
-          "$type": "number",
-          "$value": "{_theme-borders.radii.medium}"
+          "$type": "borderRadius",
+          "$value": "{_theme-borders.radii.medium}",
+          "$description": "Medium border radius (12px)"
         },
         "large": {
-          "$type": "number",
-          "$value": "{_theme-borders.radii.large}"
+          "$type": "borderRadius",
+          "$value": "{_theme-borders.radii.large}",
+          "$description": "Large border radius (16px)"
         },
         "extraLarge": {
-          "$type": "number",
-          "$value": "{_theme-borders.radii.extraLarge}"
+          "$type": "borderRadius",
+          "$value": "{_theme-borders.radii.extraLarge}",
+          "$description": "Extra large border radius (20px)"
         },
         "mega": {
-          "$type": "number",
-          "$value": "{_theme-borders.radii.mega}"
+          "$type": "borderRadius",
+          "$value": "{_theme-borders.radii.mega}",
+          "$description": "Mega border radius (24px)"
         },
         "circular": {
-          "$type": "number",
-          "$value": "{_theme-borders.radii.circular}"
+          "$type": "borderRadius",
+          "$value": "{_theme-borders.radii.circular}",
+          "$description": "Circular border radius (9999px - fully rounded)"
         }
       }
     }
