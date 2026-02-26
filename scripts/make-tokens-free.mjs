@@ -205,31 +205,37 @@ function mergeBorders(content, themeDir) {
   const p = path.join(themeDir, '_borders.json');
   if (!fs.existsSync(p)) return;
   const data = JSON.parse(fs.readFileSync(p, 'utf8'));
-  const radii = data._theme_borders?.radii;
-  if (!radii) return;
+  const themeBorders = data._theme_borders;
+  if (!themeBorders?.radii) return;
+  const radii = themeBorders.radii;
   if (!content.global) content.global = {};
   if (!content.global.border) content.global.border = {};
   if (!content.global.border.radii) content.global.border.radii = {};
   for (const [key, token] of Object.entries(radii)) {
     content.global.border.radii[key] = token && typeof token === 'object' ? { ...token } : token;
   }
+  content._theme_borders = JSON.parse(JSON.stringify(themeBorders));
 }
 
 function mergeTypography(content, themeDir) {
   const p = path.join(themeDir, '_typography.json');
   if (!fs.existsSync(p)) return;
   const data = JSON.parse(fs.readFileSync(p, 'utf8'));
-  const fontFamilies = data._theme_typography?.fontFamilies;
-  if (!fontFamilies) return;
+  const themeTypography = data._theme_typography;
+  if (!themeTypography) return;
   if (!content.global) content.global = {};
   if (!content.global.text) content.global.text = {};
   if (!content.global.text.fontFamilies) content.global.text.fontFamilies = {};
-  for (const [name, node] of Object.entries(fontFamilies)) {
-    const face = node?.face;
-    if (face && typeof face === 'object') {
-      content.global.text.fontFamilies[name] = { ...face };
+  const fontFamilies = themeTypography.fontFamilies;
+  if (fontFamilies) {
+    for (const [name, node] of Object.entries(fontFamilies)) {
+      const face = node?.face;
+      if (face && typeof face === 'object') {
+        content.global.text.fontFamilies[name] = { ...face };
+      }
     }
   }
+  content._theme_typography = JSON.parse(JSON.stringify(themeTypography));
 }
 
 function mergeGradients(content, themeDir) {
