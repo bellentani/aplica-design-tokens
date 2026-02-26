@@ -1,118 +1,97 @@
-# Design Tokens Generator with Tokens Studio & Style Dictionary
+# Aplica Theme — Referência de Arquitetura de Design Tokens
 
-![Design Tokens](https://img.shields.io/badge/Aplica%20Tokens-Studio%20Plugin%20%26%20Style%20Dictionary-green)
+![Design Tokens](https://img.shields.io/badge/Aplica%20Tokens-Tokens%20Studio%20%26%20Figma-blue)
 
-## Overview
+Repositório de **referência** da arquitetura de Design Tokens (Aplica Theme) para estudo, treinamentos e uso como boilerplate no Figma. Material gratuito e open source; **não depende do Aplica Theme Engine** nem de scripts de geração — apenas a estrutura de tokens e a documentação.
 
-This project aims to streamline the creation and management of design tokens using the [Tokens Studio](https://www.tokens.studio/) plugin for Figma, in conjunction with [Style Dictionary](https://amzn.github.io/style-dictionary/). By leveraging these tools, we automate the process of generating, organizing, and distributing design tokens across different platforms.
+---
 
-### What are Design Tokens?
+## O que este repositório contém
 
-Design tokens are the visual design atoms of the design system — specifically, they are named entities that store visual design attributes. These can include colors, typography, spacing, and more. They are used to ensure consistent design language across various platforms and products.
+- **`data/aplica-theme/`** — Tokens prontos (valores já resolvidos) para uso no [Tokens Studio](https://www.tokens.studio/) no Figma. Boilerplate para iniciar um Design System com arquitetura em camadas (foundation, semantic, surface, mode, dimension, brand).
+- **`data/aplica-theme-with-extensions/`** — Mesma estrutura que `aplica-theme`, mas usando **Extensions do Tokens Studio** (ex.: dark mode por `modify`/mix). Útil para estudar cálculos e composição de tokens dentro do plugin.
+- **`docs/`** — Documentação da arquitetura em português (pt-br) e inglês (en): camadas, semântica, escala, implementação e [estrutura do tema](docs/pt-br/#07%20Aplica%20Theme%20-%20Estrutura%20do%20Tema.md).
+- **`data/tokens-aplica-*.json`** — Gerações unificadas de tokens; documentação à parte (a ser detalhada depois).
+- **`tokens-studio-model/`** — Modelo alternativo (nomenclatura brand/theme/joy, etc.); referência de uso de extensions, não a pasta padrão de consumo.
 
-### Why Tokens Studio & Style Dictionary?
+---
 
-- **Tokens Studio** allows for easy creation and management of design tokens directly within Figma, which is great for designers.
-- **Style Dictionary** takes these tokens and transforms them into formats suitable for development, making it easier to apply consistent styles in different programming environments.
+## Estrutura do projeto
 
-## Features
+```
+├── data/
+│   ├── aplica-theme/                    # Tokens resolvidos (Figma/Tokens Studio)
+│   ├── aplica-theme-with-extensions/    # Mesma estrutura + Extensions (ex.: dark)
+│   ├── tokens-aplica-boilerplate.json
+│   └── tokens-aplica-default.json
+├── docs/
+│   ├── pt-br/                           # Documentação em português
+│   └── en/                              # Documentação em inglês
+├── tokens-studio-model/                 # Referência alternativa (extensions)
+├── AI_CONTEXT.md                        # Contexto para agentes de IA
+├── README.md
+└── LICENSE
+```
 
-- **Automated Token Generation**: Create design tokens directly from Figma using the Tokens Studio plugin.
-- **Cross-Platform Support**: Transform tokens into multiple formats (JSON, SCSS, XML, etc.) using Style Dictionary.
-- **Consistency & Scalability**: Maintain a single source of truth for design tokens that can be applied consistently across all platforms.
-- **Customizable & Extendable**: Tailor the token generation process to fit your specific project needs and easily extend it with additional functionality.
+---
 
-## Getting Started
+## Como usar no Figma
 
-Follow these steps to set up and use the Design Tokens Generator:
+1. Instale o plugin [Tokens Studio](https://www.tokens.studio/) no Figma.
+2. Clone este repositório ou baixe a pasta de dados desejada.
+3. No Tokens Studio, **conecte** o projeto ao repositório ou importe uma das pastas:
+   - **`data/aplica-theme`** — uso direto, todos os valores já calculados.
+   - **`data/aplica-theme-with-extensions`** — mesmo tema, com dark mode e dimension gerados via Extensions no plugin.
+4. Use os themes e modos (light/dark, positive/negative, marcas) conforme definido em `$themes.json` e na documentação.
 
-### Prerequisites
+Detalhes de implementação e fluxo de camadas: [Guia de Implementação](docs/pt-br/#04%20Aplica%20Theme%20Engine%20-%20Guia%20de%20Implementa%C3%A7%C3%A3o.md) (pt-br) / [Implementation Guide](docs/en/#04%20Aplica%20Theme%20Engine%20-%20Implementation%20Guide.md) (en).
 
-- [Node.js](https://nodejs.org/) (version 12 or higher)
-- A Figma account with access to the [Tokens Studio](https://www.tokens.studio/) plugin
-- A GitHub repository to store your project
+---
 
-### Installation
+## Público
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/bellentani/aplica-design-tokens.git
-   cd design-tokens-generator
-   ```
+- **Designers** e times que queiram estudar temas multidimensionais, escala, decisões centralizadas e usar como base sem o Aplica Theme Engine.
+- **Cursos e treinamentos** em Design System: conceitos de Multidimensional Themes, Scale, Centralized Design System Decisions.
+- Qualquer pessoa que queira evoluir o próprio Design System usando esta arquitetura como exemplo.
 
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
+---
 
-### Using Tokens Studio
+## Documentação
 
-1. **Setup Tokens Studio in Figma**:
-   - Open your Figma project.
-   - Open the [Tokens Studio plugin](https://www.tokens.studio/).
-   - Setupe tokens within Figma using the plugin.
+| Documento | Conteúdo |
+|-----------|----------|
+| [#01 Arquitetura Técnica Completa](docs/pt-br/#01%20Aplica%20Theme%20Engine%20-%20Arquitetura%20T%C3%A9cnica%20Completa.md) | Visão geral e 5 camadas |
+| [#07 Estrutura do Tema](docs/pt-br/#07%20Aplica%20Theme%20-%20Estrutura%20do%20Tema.md) | Árvore de arquivos e convenções |
+| [#04 Guia de Implementação](docs/pt-br/#04%20Aplica%20Theme%20Engine%20-%20Guia%20de%20Implementa%C3%A7%C3%A3o.md) | Uso no Figma e consumo |
+| [#05 Referência Técnica](docs/pt-br/#05%20Aplica%20Theme%20Engine%20-%20Refer%C3%AAncia%20T%C3%A9cnica.md) | Fórmulas, tipos de token, glossário |
 
-2. **Export Tokens**:
-   - Export your tokens from Tokens Studio in a JSON format.
+Versões em inglês em `docs/en/`.
 
-### Integrating with Style Dictionary
-
-1. **Place your JSON tokens**:
-   - Save the exported JSON file in the `tokens` directory within your project.
-
-2. **Configure Style Dictionary**:
-   - Open `config.json` and customize it according to your token categories and desired output formats.
-
-3. **Build the tokens**:
-   - Run the following command to generate the tokens in the specified formats:
-     ```bash
-     npm run build
-     ```
-
-## Project Structure
-
-- **tokens/**: Contains the exported token files from Tokens Studio.
-- **build/**: The output directory where generated tokens will be saved.
-- **config.json**: The configuration file for Style Dictionary.
-- **scripts/**: Custom scripts to enhance the token generation process.
-- **README.md**: Project documentation.
-
-## Usage
-
-### Command Line Interface
-
-You can run various commands to generate and manage your tokens:
-
-- `npm run build`: Generate tokens based on the configuration.
-- `npm run clean`: Clean the build directory.
-
-### Customizing Output Formats
-
-Edit the `config.json` file to specify how and where the tokens should be output. You can define multiple formats and destinations to suit different platform requirements.
+---
 
 ## Contributing
 
-We welcome contributions! Please follow these steps to contribute:
+Contributions are welcome:
 
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
+2. Create a branch (`git checkout -b feature/your-feature`).
 3. Commit your changes (`git commit -m 'Add some feature'`).
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
 
+---
+
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- Thanks to the teams at [Tokens Studio](https://www.tokens.studio/) and [Style Dictionary](https://amzn.github.io/style-dictionary/) for providing such powerful tools.
-- Inspired by design systems and token management best practices.
-
-## Contact
-
-For questions or support, please open an issue on this repository or reach out via [email](mailto:2rsnz49ft@relay.firefox.com).
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-Feel free to customize the content as per your specific project details and requirements.
+## Acknowledgements
+
+- [Tokens Studio](https://www.tokens.studio/) for the Figma plugin and token format.
+- Design systems and token management best practices that inspired this architecture.
+
+## Contact
+
+For questions or support, please open an issue on this repository.

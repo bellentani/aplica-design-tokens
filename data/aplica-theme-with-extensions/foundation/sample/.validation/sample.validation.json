@@ -1,0 +1,385 @@
+{
+  "foundation": "D:\\workspace\\aplica-ds\\aplica-tokens-theme-engine\\data\\foundation\\sample\\default.json",
+  "semantic": "D:\\workspace\\aplica-ds\\aplica-tokens-theme-engine\\data\\semantic\\default.json",
+  "timestamp": "2026-02-24T11:22:12.789Z",
+  "valid": false,
+  "totalReferences": 148,
+  "validReferences": 86,
+  "invalidReferences": [
+    {
+      "reference": "semantic.color.interface.feedback.info.main.normal.background",
+      "tokenPath": "color.interface.feedback.info.main.normal.background",
+      "suggestion": "color.interface.feedback.info.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.info.secondary.normal.background",
+      "tokenPath": "color.interface.feedback.info.secondary.normal.background",
+      "suggestion": "color.interface.feedback.info.secondary.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.success.main.normal.background",
+      "tokenPath": "color.interface.feedback.success.main.normal.background",
+      "suggestion": "color.interface.feedback.success.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.success.secondary.normal.background",
+      "tokenPath": "color.interface.feedback.success.secondary.normal.background",
+      "suggestion": "color.interface.feedback.success.secondary.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.warning.main.normal.background",
+      "tokenPath": "color.interface.feedback.warning.main.normal.background",
+      "suggestion": "color.interface.feedback.warning.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.warning.secondary.normal.background",
+      "tokenPath": "color.interface.feedback.warning.secondary.normal.background",
+      "suggestion": "color.interface.feedback.warning.secondary.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.danger.main.normal.background",
+      "tokenPath": "color.interface.feedback.danger.main.normal.background",
+      "suggestion": "color.interface.feedback.danger.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.danger.secondary.normal.background",
+      "tokenPath": "color.interface.feedback.danger.secondary.normal.background",
+      "suggestion": "color.interface.feedback.danger.secondary.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.rewards_default.default.background",
+      "tokenPath": "color.product.rewards_default.default.background",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.rewards_secondary.default.background",
+      "tokenPath": "color.product.rewards_secondary.default.background",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.cold_default.default.background",
+      "tokenPath": "color.product.cold_default.default.background",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.cold_secondary.default.background",
+      "tokenPath": "color.product.cold_secondary.default.background",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.promo_default.default.background",
+      "tokenPath": "color.product.promo_default.default.background",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.promo_secondary.default.background",
+      "tokenPath": "color.product.promo_secondary.default.background",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.time_bomb_default.default.background",
+      "tokenPath": "color.product.time_bomb_default.default.background",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.time_bomb_secondary.default.background",
+      "tokenPath": "color.product.time_bomb_secondary.default.background",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.rgb_default.default.background",
+      "tokenPath": "color.product.rgb_default.default.background",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.rgb_secondary.default.background",
+      "tokenPath": "color.product.rgb_secondary.default.background",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.info.main.normal.border",
+      "tokenPath": "color.interface.feedback.info.main.normal.border",
+      "suggestion": "color.interface.feedback.info.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.info.secondary.normal.border",
+      "tokenPath": "color.interface.feedback.info.secondary.normal.border",
+      "suggestion": "color.interface.feedback.info.secondary.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.success.main.normal.border",
+      "tokenPath": "color.interface.feedback.success.main.normal.border",
+      "suggestion": "color.interface.feedback.success.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.success.secondary.normal.border",
+      "tokenPath": "color.interface.feedback.success.secondary.normal.border",
+      "suggestion": "color.interface.feedback.success.secondary.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.warning.main.normal.border",
+      "tokenPath": "color.interface.feedback.warning.main.normal.border",
+      "suggestion": "color.interface.feedback.warning.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.warning.secondary.normal.border",
+      "tokenPath": "color.interface.feedback.warning.secondary.normal.border",
+      "suggestion": "color.interface.feedback.warning.secondary.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.danger.main.normal.border",
+      "tokenPath": "color.interface.feedback.danger.main.normal.border",
+      "suggestion": "color.interface.feedback.danger.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.danger.secondary.normal.border",
+      "tokenPath": "color.interface.feedback.danger.secondary.normal.border",
+      "suggestion": "color.interface.feedback.danger.secondary.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.rewards_default.default.border",
+      "tokenPath": "color.product.rewards_default.default.border",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.rewards_secondary.default.border",
+      "tokenPath": "color.product.rewards_secondary.default.border",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.cold_default.default.border",
+      "tokenPath": "color.product.cold_default.default.border",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.cold_secondary.default.border",
+      "tokenPath": "color.product.cold_secondary.default.border",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.promo_default.default.border",
+      "tokenPath": "color.product.promo_default.default.border",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.promo_secondary.default.border",
+      "tokenPath": "color.product.promo_secondary.default.border",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.time_bomb_default.default.border",
+      "tokenPath": "color.product.time_bomb_default.default.border",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.time_bomb_secondary.default.border",
+      "tokenPath": "color.product.time_bomb_secondary.default.border",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.rgb_default.default.border",
+      "tokenPath": "color.product.rgb_default.default.border",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.rgb_secondary.default.border",
+      "tokenPath": "color.product.rgb_secondary.default.border",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.info.main.normal.txtOn",
+      "tokenPath": "color.interface.feedback.info.main.normal.txtOn",
+      "suggestion": "color.interface.feedback.info.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.info.secondary.normal.txtOn",
+      "tokenPath": "color.interface.feedback.info.secondary.normal.txtOn",
+      "suggestion": "color.interface.feedback.info.secondary.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.success.main.normal.txtOn",
+      "tokenPath": "color.interface.feedback.success.main.normal.txtOn",
+      "suggestion": "color.interface.feedback.success.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.success.secondary.normal.txtOn",
+      "tokenPath": "color.interface.feedback.success.secondary.normal.txtOn",
+      "suggestion": "color.interface.feedback.success.secondary.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.warning.main.normal.txtOn",
+      "tokenPath": "color.interface.feedback.warning.main.normal.txtOn",
+      "suggestion": "color.interface.feedback.warning.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.warning.secondary.normal.txtOn",
+      "tokenPath": "color.interface.feedback.warning.secondary.normal.txtOn",
+      "suggestion": "color.interface.feedback.warning.secondary.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.danger.main.normal.txtOn",
+      "tokenPath": "color.interface.feedback.danger.main.normal.txtOn",
+      "suggestion": "color.interface.feedback.danger.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.interface.feedback.danger.secondary.normal.txtOn",
+      "tokenPath": "color.interface.feedback.danger.secondary.normal.txtOn",
+      "suggestion": "color.interface.feedback.danger.secondary.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.rewards_default.default.txtOn",
+      "tokenPath": "color.product.rewards_default.default.txtOn",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.rewards_secondary.default.txtOn",
+      "tokenPath": "color.product.rewards_secondary.default.txtOn",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.cold_default.default.txtOn",
+      "tokenPath": "color.product.cold_default.default.txtOn",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.cold_secondary.default.txtOn",
+      "tokenPath": "color.product.cold_secondary.default.txtOn",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.promo_default.default.txtOn",
+      "tokenPath": "color.product.promo_default.default.txtOn",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.promo_secondary.default.txtOn",
+      "tokenPath": "color.product.promo_secondary.default.txtOn",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.time_bomb_default.default.txtOn",
+      "tokenPath": "color.product.time_bomb_default.default.txtOn",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.time_bomb_secondary.default.txtOn",
+      "tokenPath": "color.product.time_bomb_secondary.default.txtOn",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.rgb_default.default.txtOn",
+      "tokenPath": "color.product.rgb_default.default.txtOn",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.product.rgb_secondary.default.txtOn",
+      "tokenPath": "color.product.rgb_secondary.default.txtOn",
+      "suggestion": "color.product.promo.default.lowest.background"
+    },
+    {
+      "reference": "semantic.color.text.rewards_default",
+      "tokenPath": "color.text.rewards_default",
+      "suggestion": "color.text.title"
+    },
+    {
+      "reference": "semantic.color.text.rewards_secondary",
+      "tokenPath": "color.text.rewards_secondary",
+      "suggestion": "color.text.title"
+    },
+    {
+      "reference": "semantic.color.text.cold_default",
+      "tokenPath": "color.text.cold_default",
+      "suggestion": "color.text.title"
+    },
+    {
+      "reference": "semantic.color.text.cold_secondary",
+      "tokenPath": "color.text.cold_secondary",
+      "suggestion": "color.text.title"
+    },
+    {
+      "reference": "semantic.color.text.time_bomb_default",
+      "tokenPath": "color.text.time_bomb_default",
+      "suggestion": "color.text.title"
+    },
+    {
+      "reference": "semantic.color.text.time_bomb_secondary",
+      "tokenPath": "color.text.time_bomb_secondary",
+      "suggestion": "color.text.title"
+    },
+    {
+      "reference": "semantic.color.text.rgb_default",
+      "tokenPath": "color.text.rgb_default",
+      "suggestion": "color.text.title"
+    },
+    {
+      "reference": "semantic.color.text.rgb_secondary",
+      "tokenPath": "color.text.rgb_secondary",
+      "suggestion": "color.text.title"
+    }
+  ],
+  "missingTokens": [
+    "color.interface.feedback.info.main.normal.background",
+    "color.interface.feedback.info.secondary.normal.background",
+    "color.interface.feedback.success.main.normal.background",
+    "color.interface.feedback.success.secondary.normal.background",
+    "color.interface.feedback.warning.main.normal.background",
+    "color.interface.feedback.warning.secondary.normal.background",
+    "color.interface.feedback.danger.main.normal.background",
+    "color.interface.feedback.danger.secondary.normal.background",
+    "color.product.rewards_default.default.background",
+    "color.product.rewards_secondary.default.background",
+    "color.product.cold_default.default.background",
+    "color.product.cold_secondary.default.background",
+    "color.product.promo_default.default.background",
+    "color.product.promo_secondary.default.background",
+    "color.product.time_bomb_default.default.background",
+    "color.product.time_bomb_secondary.default.background",
+    "color.product.rgb_default.default.background",
+    "color.product.rgb_secondary.default.background",
+    "color.interface.feedback.info.main.normal.border",
+    "color.interface.feedback.info.secondary.normal.border",
+    "color.interface.feedback.success.main.normal.border",
+    "color.interface.feedback.success.secondary.normal.border",
+    "color.interface.feedback.warning.main.normal.border",
+    "color.interface.feedback.warning.secondary.normal.border",
+    "color.interface.feedback.danger.main.normal.border",
+    "color.interface.feedback.danger.secondary.normal.border",
+    "color.product.rewards_default.default.border",
+    "color.product.rewards_secondary.default.border",
+    "color.product.cold_default.default.border",
+    "color.product.cold_secondary.default.border",
+    "color.product.promo_default.default.border",
+    "color.product.promo_secondary.default.border",
+    "color.product.time_bomb_default.default.border",
+    "color.product.time_bomb_secondary.default.border",
+    "color.product.rgb_default.default.border",
+    "color.product.rgb_secondary.default.border",
+    "color.interface.feedback.info.main.normal.txtOn",
+    "color.interface.feedback.info.secondary.normal.txtOn",
+    "color.interface.feedback.success.main.normal.txtOn",
+    "color.interface.feedback.success.secondary.normal.txtOn",
+    "color.interface.feedback.warning.main.normal.txtOn",
+    "color.interface.feedback.warning.secondary.normal.txtOn",
+    "color.interface.feedback.danger.main.normal.txtOn",
+    "color.interface.feedback.danger.secondary.normal.txtOn",
+    "color.product.rewards_default.default.txtOn",
+    "color.product.rewards_secondary.default.txtOn",
+    "color.product.cold_default.default.txtOn",
+    "color.product.cold_secondary.default.txtOn",
+    "color.product.promo_default.default.txtOn",
+    "color.product.promo_secondary.default.txtOn",
+    "color.product.time_bomb_default.default.txtOn",
+    "color.product.time_bomb_secondary.default.txtOn",
+    "color.product.rgb_default.default.txtOn",
+    "color.product.rgb_secondary.default.txtOn",
+    "color.text.rewards_default",
+    "color.text.rewards_secondary",
+    "color.text.cold_default",
+    "color.text.cold_secondary",
+    "color.text.time_bomb_default",
+    "color.text.time_bomb_secondary",
+    "color.text.rgb_default",
+    "color.text.rgb_secondary"
+  ],
+  "errors": []
+}

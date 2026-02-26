@@ -1,0 +1,18 @@
+══════════════════════════════════════════════════════════════════════
+  FOUNDATION VALIDATION REPORT
+══════════════════════════════════════════════════════════════════════
+
+Foundation: D:\workspace\aplica-ds\aplica-tokens-theme-engine\data\foundation\engine\default.json
+Semantic:   D:\workspace\aplica-ds\aplica-tokens-theme-engine\data\semantic\default.json
+Timestamp:  2026-02-24T11:22:12.609Z
+
+──────────────────────────────────────────────────────────────────────
+  SUMMARY
+──────────────────────────────────────────────────────────────────────
+
+Status:           ✅ VALID
+Total References: 138
+Valid:            138
+Invalid:          0
+
+══════════════════════════════════════════════════════════════════════

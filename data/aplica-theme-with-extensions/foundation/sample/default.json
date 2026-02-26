@@ -1,0 +1,714 @@
+{
+  "foundation": {
+    "bg": {
+      "brand": {
+        "brand": {
+          "main": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.branding.first.default.background}"
+          },
+          "intermediate": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.branding.first.lowest.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.branding.second.default.background}"
+          },
+          "tertiary": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.branding.third.default.background}"
+          }
+        }
+      },
+      "neutral": {
+        "neutral": {
+          "main": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.high.background}"
+          },
+          "intermediate": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.mid.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.low.background}"
+          },
+          "tertiary": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.higher.background}"
+          }
+        }
+      },
+      "feedback": {
+        "info": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.info.main.normal.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.info.secondary.normal.background}"
+          }
+        },
+        "success": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.success.main.normal.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.success.secondary.normal.background}"
+          }
+        },
+        "warning": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.warning.main.normal.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.warning.secondary.normal.background}"
+          }
+        },
+        "danger": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.danger.main.normal.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.danger.secondary.normal.background}"
+          }
+        }
+      },
+      "product": {
+        "rewards": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.rewards_default.default.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.rewards_secondary.default.background}"
+          }
+        },
+        "cold": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.cold_default.default.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.cold_secondary.default.background}"
+          }
+        },
+        "promo": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.promo_default.default.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.promo_secondary.default.background}"
+          }
+        },
+        "time_bomb": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.time_bomb_default.default.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.time_bomb_secondary.default.background}"
+          }
+        },
+        "rgb": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.rgb_default.default.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.rgb_secondary.default.background}"
+          }
+        }
+      }
+    },
+    "border": {
+      "brand": {
+        "brand": {
+          "main": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.branding.first.default.border}"
+          },
+          "intermediate": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.branding.first.lowest.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.branding.second.default.border}"
+          },
+          "tertiary": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.branding.third.default.border}"
+          }
+        }
+      },
+      "neutral": {
+        "neutral": {
+          "main": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.high.border}"
+          },
+          "intermediate": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.mid.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.low.border}"
+          },
+          "tertiary": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.higher.border}"
+          }
+        }
+      },
+      "feedback": {
+        "info": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.info.main.normal.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.info.secondary.normal.border}"
+          }
+        },
+        "success": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.success.main.normal.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.success.secondary.normal.border}"
+          }
+        },
+        "warning": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.warning.main.normal.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.warning.secondary.normal.border}"
+          }
+        },
+        "danger": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.danger.main.normal.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.danger.secondary.normal.border}"
+          }
+        }
+      },
+      "product": {
+        "rewards": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.rewards_default.default.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.rewards_secondary.default.border}"
+          }
+        },
+        "cold": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.cold_default.default.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.cold_secondary.default.border}"
+          }
+        },
+        "promo": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.promo_default.default.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.promo_secondary.default.border}"
+          }
+        },
+        "time_bomb": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.time_bomb_default.default.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.time_bomb_secondary.default.border}"
+          }
+        },
+        "rgb": {
+          "primary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.rgb_default.default.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.rgb_secondary.default.border}"
+          }
+        }
+      },
+      "width": {
+        "none": {
+          "$type": "number",
+          "$value": "{semantic.border.width.none}"
+        },
+        "small": {
+          "$type": "number",
+          "$value": "{semantic.border.width.small}"
+        },
+        "medium": {
+          "$type": "number",
+          "$value": "{semantic.border.width.medium}"
+        },
+        "large": {
+          "$type": "number",
+          "$value": "{semantic.border.width.large}"
+        },
+        "extraLarge": {
+          "$type": "number",
+          "$value": "{semantic.border.width.extraLarge}"
+        }
+      },
+      "radii": {
+        "none": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.straight}"
+        },
+        "micro": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.micro}"
+        },
+        "extraSmall": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.extraSmall}"
+        },
+        "small": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.small}"
+        },
+        "medium": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.medium}"
+        },
+        "large": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.large}"
+        },
+        "extraLarge": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.extraLarge}"
+        },
+        "circular": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.circular}"
+        },
+        "mega": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.mega}"
+        }
+      }
+    },
+    "txt": {
+      "on": {
+        "brand": {
+          "brand": {
+            "main": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.branding.first.default.txtOn}"
+            },
+            "intermediate": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.branding.first.lowest.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.branding.second.default.txtOn}"
+            },
+            "tertiary": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.branding.third.default.txtOn}"
+            }
+          }
+        },
+        "neutral": {
+          "neutral": {
+            "main": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.ambient.neutral.high.txtOn}"
+            },
+            "intermediate": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.ambient.neutral.mid.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.ambient.neutral.low.txtOn}"
+            },
+            "tertiary": {
+              "$type": "color",
+              "$value": "{semantic.color.brand.ambient.neutral.higher.txtOn}"
+            }
+          }
+        },
+        "feedback": {
+          "info": {
+            "primary": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.info.main.normal.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.info.secondary.normal.txtOn}"
+            }
+          },
+          "success": {
+            "primary": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.success.main.normal.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.success.secondary.normal.txtOn}"
+            }
+          },
+          "warning": {
+            "primary": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.warning.main.normal.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.warning.secondary.normal.txtOn}"
+            }
+          },
+          "danger": {
+            "primary": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.danger.main.normal.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.danger.secondary.normal.txtOn}"
+            }
+          }
+        },
+        "product": {
+          "rewards": {
+            "primary": {
+              "$type": "color",
+              "$value": "{semantic.color.product.rewards_default.default.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.product.rewards_secondary.default.txtOn}"
+            }
+          },
+          "cold": {
+            "primary": {
+              "$type": "color",
+              "$value": "{semantic.color.product.cold_default.default.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.product.cold_secondary.default.txtOn}"
+            }
+          },
+          "promo": {
+            "primary": {
+              "$type": "color",
+              "$value": "{semantic.color.product.promo_default.default.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.product.promo_secondary.default.txtOn}"
+            }
+          },
+          "time_bomb": {
+            "primary": {
+              "$type": "color",
+              "$value": "{semantic.color.product.time_bomb_default.default.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.product.time_bomb_secondary.default.txtOn}"
+            }
+          },
+          "rgb": {
+            "primary": {
+              "$type": "color",
+              "$value": "{semantic.color.product.rgb_default.default.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.product.rgb_secondary.default.txtOn}"
+            }
+          }
+        }
+      },
+      "info_primary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.info_default}"
+      },
+      "info_secondary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.info_secondary}"
+      },
+      "success_primary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.success_default}"
+      },
+      "success_secondary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.success_secondary}"
+      },
+      "warning_primary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.warning_default}"
+      },
+      "warning_secondary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.warning_secondary}"
+      },
+      "danger_primary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.danger_default}"
+      },
+      "danger_secondary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.danger_secondary}"
+      },
+      "rewards_primary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.rewards_default}"
+      },
+      "rewards_secondary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.rewards_secondary}"
+      },
+      "cold_primary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.cold_default}"
+      },
+      "cold_secondary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.cold_secondary}"
+      },
+      "promo_primary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.promo_default}"
+      },
+      "promo_secondary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.promo_secondary}"
+      },
+      "time_bomb_primary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.time_bomb_default}"
+      },
+      "time_bomb_secondary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.time_bomb_secondary}"
+      },
+      "rgb_primary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.rgb_default}"
+      },
+      "rgb_secondary": {
+        "$type": "color",
+        "$value": "{semantic.color.text.rgb_secondary}"
+      }
+    },
+    "opacity": {
+      "color": {
+        "grayscale": {
+          "superTransparent": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.grayscale.superTransparent}"
+          },
+          "semiTranslucid": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.grayscale.semiTranslucid}"
+          },
+          "translucid": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.grayscale.translucid}"
+          },
+          "superTranslucid": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.grayscale.superTranslucid}"
+          },
+          "semiOpaque": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.grayscale.semiOpaque}"
+          }
+        },
+        "light": {
+          "superTransparent": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.light.superTransparent}"
+          },
+          "semiTranslucid": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.light.semiTranslucid}"
+          },
+          "translucid": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.light.translucid}"
+          },
+          "superTranslucid": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.light.superTranslucid}"
+          },
+          "semiOpaque": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.light.semiOpaque}"
+          }
+        }
+      }
+    },
+    "sizing": {
+      "zero": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.zero}"
+      },
+      "pico": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.pico}"
+      },
+      "nano": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.nano}"
+      },
+      "micro": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.micro}"
+      },
+      "extraSmall": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.extraSmall}"
+      },
+      "small": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.small}"
+      },
+      "medium": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.medium}"
+      },
+      "large": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.large}"
+      },
+      "extraLarge": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.extraLarge}"
+      },
+      "mega": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.mega}"
+      },
+      "giga": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.giga}"
+      },
+      "tera": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.tera}"
+      },
+      "peta": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.peta}"
+      }
+    },
+    "spacing": {
+      "zero": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.zero}"
+      },
+      "micro": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.micro}"
+      },
+      "extraSmall": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.extraSmall}"
+      },
+      "small": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.small}"
+      },
+      "medium": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.medium}"
+      },
+      "large": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.large}"
+      },
+      "extraLarge": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.extraLarge}"
+      },
+      "mega": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.mega}"
+      },
+      "giga": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.giga}"
+      },
+      "tera": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.tera}"
+      },
+      "peta": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.peta}"
+      }
+    },
+    "typography": {
+      "fontFamilies": {
+        "main": {
+          "$type": "fontFamilies",
+          "$value": "{semantic.typography.fontFamilies.main}"
+        },
+        "content": {
+          "$type": "fontFamilies",
+          "$value": "{semantic.typography.fontFamilies.content}"
+        },
+        "display": {
+          "$type": "fontFamilies",
+          "$value": "{semantic.typography.fontFamilies.display}"
+        },
+        "code": {
+          "$type": "fontFamilies",
+          "$value": "{semantic.typography.fontFamilies.code}"
+        }
+      }
+    }
+  }
+}

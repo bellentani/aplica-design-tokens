@@ -1,0 +1,270 @@
+══════════════════════════════════════════════════════════════════════
+  FOUNDATION VALIDATION REPORT
+══════════════════════════════════════════════════════════════════════
+
+Foundation: D:\workspace\aplica-ds\aplica-tokens-theme-engine\data\foundation\sample\default.json
+Semantic:   D:\workspace\aplica-ds\aplica-tokens-theme-engine\data\semantic\default.json
+Timestamp:  2026-02-24T11:22:12.789Z
+
+──────────────────────────────────────────────────────────────────────
+  SUMMARY
+──────────────────────────────────────────────────────────────────────
+
+Status:           ❌ INVALID
+Total References: 148
+Valid:            86
+Invalid:          62
+
+──────────────────────────────────────────────────────────────────────
+  MISSING TOKENS
+──────────────────────────────────────────────────────────────────────
+
+  ❌ semantic.color.interface.feedback.info.main.normal.background
+     Expected: semantic.color.interface.feedback.info.main.normal.background
+     Suggestion: semantic.color.interface.feedback.info.default.lowest.background
+
+  ❌ semantic.color.interface.feedback.info.secondary.normal.background
+     Expected: semantic.color.interface.feedback.info.secondary.normal.background
+     Suggestion: semantic.color.interface.feedback.info.secondary.lowest.background
+
+  ❌ semantic.color.interface.feedback.success.main.normal.background
+     Expected: semantic.color.interface.feedback.success.main.normal.background
+     Suggestion: semantic.color.interface.feedback.success.default.lowest.background
+
+  ❌ semantic.color.interface.feedback.success.secondary.normal.background
+     Expected: semantic.color.interface.feedback.success.secondary.normal.background
+     Suggestion: semantic.color.interface.feedback.success.secondary.lowest.background
+
+  ❌ semantic.color.interface.feedback.warning.main.normal.background
+     Expected: semantic.color.interface.feedback.warning.main.normal.background
+     Suggestion: semantic.color.interface.feedback.warning.default.lowest.background
+
+  ❌ semantic.color.interface.feedback.warning.secondary.normal.background
+     Expected: semantic.color.interface.feedback.warning.secondary.normal.background
+     Suggestion: semantic.color.interface.feedback.warning.secondary.lowest.background
+
+  ❌ semantic.color.interface.feedback.danger.main.normal.background
+     Expected: semantic.color.interface.feedback.danger.main.normal.background
+     Suggestion: semantic.color.interface.feedback.danger.default.lowest.background
+
+  ❌ semantic.color.interface.feedback.danger.secondary.normal.background
+     Expected: semantic.color.interface.feedback.danger.secondary.normal.background
+     Suggestion: semantic.color.interface.feedback.danger.secondary.lowest.background
+
+  ❌ semantic.color.product.rewards_default.default.background
+     Expected: semantic.color.product.rewards_default.default.background
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.rewards_secondary.default.background
+     Expected: semantic.color.product.rewards_secondary.default.background
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.cold_default.default.background
+     Expected: semantic.color.product.cold_default.default.background
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.cold_secondary.default.background
+     Expected: semantic.color.product.cold_secondary.default.background
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.promo_default.default.background
+     Expected: semantic.color.product.promo_default.default.background
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.promo_secondary.default.background
+     Expected: semantic.color.product.promo_secondary.default.background
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.time_bomb_default.default.background
+     Expected: semantic.color.product.time_bomb_default.default.background
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.time_bomb_secondary.default.background
+     Expected: semantic.color.product.time_bomb_secondary.default.background
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.rgb_default.default.background
+     Expected: semantic.color.product.rgb_default.default.background
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.rgb_secondary.default.background
+     Expected: semantic.color.product.rgb_secondary.default.background
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.interface.feedback.info.main.normal.border
+     Expected: semantic.color.interface.feedback.info.main.normal.border
+     Suggestion: semantic.color.interface.feedback.info.default.lowest.background
+
+  ❌ semantic.color.interface.feedback.info.secondary.normal.border
+     Expected: semantic.color.interface.feedback.info.secondary.normal.border
+     Suggestion: semantic.color.interface.feedback.info.secondary.lowest.background
+
+  ❌ semantic.color.interface.feedback.success.main.normal.border
+     Expected: semantic.color.interface.feedback.success.main.normal.border
+     Suggestion: semantic.color.interface.feedback.success.default.lowest.background
+
+  ❌ semantic.color.interface.feedback.success.secondary.normal.border
+     Expected: semantic.color.interface.feedback.success.secondary.normal.border
+     Suggestion: semantic.color.interface.feedback.success.secondary.lowest.background
+
+  ❌ semantic.color.interface.feedback.warning.main.normal.border
+     Expected: semantic.color.interface.feedback.warning.main.normal.border
+     Suggestion: semantic.color.interface.feedback.warning.default.lowest.background
+
+  ❌ semantic.color.interface.feedback.warning.secondary.normal.border
+     Expected: semantic.color.interface.feedback.warning.secondary.normal.border
+     Suggestion: semantic.color.interface.feedback.warning.secondary.lowest.background
+
+  ❌ semantic.color.interface.feedback.danger.main.normal.border
+     Expected: semantic.color.interface.feedback.danger.main.normal.border
+     Suggestion: semantic.color.interface.feedback.danger.default.lowest.background
+
+  ❌ semantic.color.interface.feedback.danger.secondary.normal.border
+     Expected: semantic.color.interface.feedback.danger.secondary.normal.border
+     Suggestion: semantic.color.interface.feedback.danger.secondary.lowest.background
+
+  ❌ semantic.color.product.rewards_default.default.border
+     Expected: semantic.color.product.rewards_default.default.border
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.rewards_secondary.default.border
+     Expected: semantic.color.product.rewards_secondary.default.border
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.cold_default.default.border
+     Expected: semantic.color.product.cold_default.default.border
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.cold_secondary.default.border
+     Expected: semantic.color.product.cold_secondary.default.border
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.promo_default.default.border
+     Expected: semantic.color.product.promo_default.default.border
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.promo_secondary.default.border
+     Expected: semantic.color.product.promo_secondary.default.border
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.time_bomb_default.default.border
+     Expected: semantic.color.product.time_bomb_default.default.border
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.time_bomb_secondary.default.border
+     Expected: semantic.color.product.time_bomb_secondary.default.border
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.rgb_default.default.border
+     Expected: semantic.color.product.rgb_default.default.border
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.rgb_secondary.default.border
+     Expected: semantic.color.product.rgb_secondary.default.border
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.interface.feedback.info.main.normal.txtOn
+     Expected: semantic.color.interface.feedback.info.main.normal.txtOn
+     Suggestion: semantic.color.interface.feedback.info.default.lowest.background
+
+  ❌ semantic.color.interface.feedback.info.secondary.normal.txtOn
+     Expected: semantic.color.interface.feedback.info.secondary.normal.txtOn
+     Suggestion: semantic.color.interface.feedback.info.secondary.lowest.background
+
+  ❌ semantic.color.interface.feedback.success.main.normal.txtOn
+     Expected: semantic.color.interface.feedback.success.main.normal.txtOn
+     Suggestion: semantic.color.interface.feedback.success.default.lowest.background
+
+  ❌ semantic.color.interface.feedback.success.secondary.normal.txtOn
+     Expected: semantic.color.interface.feedback.success.secondary.normal.txtOn
+     Suggestion: semantic.color.interface.feedback.success.secondary.lowest.background
+
+  ❌ semantic.color.interface.feedback.warning.main.normal.txtOn
+     Expected: semantic.color.interface.feedback.warning.main.normal.txtOn
+     Suggestion: semantic.color.interface.feedback.warning.default.lowest.background
+
+  ❌ semantic.color.interface.feedback.warning.secondary.normal.txtOn
+     Expected: semantic.color.interface.feedback.warning.secondary.normal.txtOn
+     Suggestion: semantic.color.interface.feedback.warning.secondary.lowest.background
+
+  ❌ semantic.color.interface.feedback.danger.main.normal.txtOn
+     Expected: semantic.color.interface.feedback.danger.main.normal.txtOn
+     Suggestion: semantic.color.interface.feedback.danger.default.lowest.background
+
+  ❌ semantic.color.interface.feedback.danger.secondary.normal.txtOn
+     Expected: semantic.color.interface.feedback.danger.secondary.normal.txtOn
+     Suggestion: semantic.color.interface.feedback.danger.secondary.lowest.background
+
+  ❌ semantic.color.product.rewards_default.default.txtOn
+     Expected: semantic.color.product.rewards_default.default.txtOn
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.rewards_secondary.default.txtOn
+     Expected: semantic.color.product.rewards_secondary.default.txtOn
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.cold_default.default.txtOn
+     Expected: semantic.color.product.cold_default.default.txtOn
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.cold_secondary.default.txtOn
+     Expected: semantic.color.product.cold_secondary.default.txtOn
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.promo_default.default.txtOn
+     Expected: semantic.color.product.promo_default.default.txtOn
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.promo_secondary.default.txtOn
+     Expected: semantic.color.product.promo_secondary.default.txtOn
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.time_bomb_default.default.txtOn
+     Expected: semantic.color.product.time_bomb_default.default.txtOn
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.time_bomb_secondary.default.txtOn
+     Expected: semantic.color.product.time_bomb_secondary.default.txtOn
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.rgb_default.default.txtOn
+     Expected: semantic.color.product.rgb_default.default.txtOn
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.product.rgb_secondary.default.txtOn
+     Expected: semantic.color.product.rgb_secondary.default.txtOn
+     Suggestion: semantic.color.product.promo.default.lowest.background
+
+  ❌ semantic.color.text.rewards_default
+     Expected: semantic.color.text.rewards_default
+     Suggestion: semantic.color.text.title
+
+  ❌ semantic.color.text.rewards_secondary
+     Expected: semantic.color.text.rewards_secondary
+     Suggestion: semantic.color.text.title
+
+  ❌ semantic.color.text.cold_default
+     Expected: semantic.color.text.cold_default
+     Suggestion: semantic.color.text.title
+
+  ❌ semantic.color.text.cold_secondary
+     Expected: semantic.color.text.cold_secondary
+     Suggestion: semantic.color.text.title
+
+  ❌ semantic.color.text.time_bomb_default
+     Expected: semantic.color.text.time_bomb_default
+     Suggestion: semantic.color.text.title
+
+  ❌ semantic.color.text.time_bomb_secondary
+     Expected: semantic.color.text.time_bomb_secondary
+     Suggestion: semantic.color.text.title
+
+  ❌ semantic.color.text.rgb_default
+     Expected: semantic.color.text.rgb_default
+     Suggestion: semantic.color.text.title
+
+  ❌ semantic.color.text.rgb_secondary
+     Expected: semantic.color.text.rgb_secondary
+     Suggestion: semantic.color.text.title
+
+══════════════════════════════════════════════════════════════════════

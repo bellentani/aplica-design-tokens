@@ -1,0 +1,82 @@
+{
+  "sizing": {
+    "zero": { "$type": "sizing", "$value": "{dimension.semantic.zero}" },
+    "pico": { "$type": "sizing", "$value": "{dimension.semantic.pico}" },
+    "nano": { "$type": "sizing", "$value": "{dimension.semantic.nano}" },
+    "micro": { "$type": "sizing", "$value": "{dimension.semantic.micro}" },
+    "extraSmall": { "$type": "sizing", "$value": "{dimension.semantic.extraSmall}" },
+    "small": { "$type": "sizing", "$value": "{dimension.semantic.small}" },
+    "medium": { "$type": "sizing", "$value": "{dimension.semantic.medium}" },
+    "large": { "$type": "sizing", "$value": "{dimension.semantic.large}" },
+    "extraLarge": { "$type": "sizing", "$value": "{dimension.semantic.extraLarge}" },
+    "mega": { "$type": "sizing", "$value": "{dimension.semantic.mega}" },
+    "giga": { "$type": "sizing", "$value": "{dimension.semantic.giga}" }
+  },
+  "padding": {
+    "vertical": {
+      "zero": { "$type": "spacing", "$value": "{dimension.semantic.zero}" },
+      "micro": { "$type": "spacing", "$value": "{dimension.semantic.micro}" },
+      "extraSmall": { "$type": "spacing", "$value": "{dimension.semantic.extraSmall}" },
+      "small": { "$type": "spacing", "$value": "{dimension.semantic.small}" },
+      "medium": { "$type": "spacing", "$value": "{dimension.semantic.medium}" },
+      "large": { "$type": "spacing", "$value": "{dimension.semantic.large}" },
+      "extraLarge": { "$type": "spacing", "$value": "{dimension.semantic.extraLarge}" },
+      "mega": { "$type": "spacing", "$value": "{dimension.semantic.mega}" },
+      "giga": { "$type": "spacing", "$value": "{dimension.semantic.giga}" }
+    },
+    "horizontal": {
+      "zero": { "$type": "spacing", "$value": "{dimension.semantic.zero}" },
+      "micro": { "$type": "spacing", "$value": "{dimension.semantic.micro}" },
+      "extraSmall": { "$type": "spacing", "$value": "{dimension.semantic.extraSmall}" },
+      "small": { "$type": "spacing", "$value": "{dimension.semantic.small}" },
+      "medium": { "$type": "spacing", "$value": "{dimension.semantic.medium}" },
+      "large": { "$type": "spacing", "$value": "{dimension.semantic.large}" },
+      "extraLarge": { "$type": "spacing", "$value": "{dimension.semantic.extraLarge}" },
+      "mega": { "$type": "spacing", "$value": "{dimension.semantic.mega}" },
+      "giga": { "$type": "spacing", "$value": "{dimension.semantic.giga}" }
+    }
+  },
+  "gap": {
+    "vertical": {
+      "zero": { "$type": "spacing", "$value": "{dimension.semantic.zero}" },
+      "micro": { "$type": "spacing", "$value": "{dimension.semantic.micro}" },
+      "extraSmall": { "$type": "spacing", "$value": "{dimension.semantic.extraSmall}" },
+      "small": { "$type": "spacing", "$value": "{dimension.semantic.small}" },
+      "medium": { "$type": "spacing", "$value": "{dimension.semantic.medium}" },
+      "large": { "$type": "spacing", "$value": "{dimension.semantic.large}" },
+      "extraLarge": { "$type": "spacing", "$value": "{dimension.semantic.extraLarge}" },
+      "mega": { "$type": "spacing", "$value": "{dimension.semantic.mega}" },
+      "giga": { "$type": "spacing", "$value": "{dimension.semantic.giga}" }
+    },
+    "horizontal": {
+      "zero": { "$type": "spacing", "$value": "{dimension.semantic.zero}" },
+      "micro": { "$type": "spacing", "$value": "{dimension.semantic.micro}" },
+      "extraSmall": { "$type": "spacing", "$value": "{dimension.semantic.extraSmall}" },
+      "small": { "$type": "spacing", "$value": "{dimension.semantic.small}" },
+      "medium": { "$type": "spacing", "$value": "{dimension.semantic.medium}" },
+      "large": { "$type": "spacing", "$value": "{dimension.semantic.large}" },
+      "extraLarge": { "$type": "spacing", "$value": "{dimension.semantic.extraLarge}" },
+      "mega": { "$type": "spacing", "$value": "{dimension.semantic.mega}" },
+      "giga": { "$type": "spacing", "$value": "{dimension.semantic.giga}" }
+    }
+  },
+  "border": {
+    "width": {
+      "none": { "$type": "borderWidth", "$value": "{dimension.semantic.zero}" },
+      "small": { "$type": "borderWidth", "$value": "{dimension.semantic.pico}" },
+      "medium": { "$type": "borderWidth", "$value": "{dimension.semantic.nano}" },
+      "large": { "$type": "borderWidth", "$value": "{dimension.semantic.micro}" },
+      "extraLarge": { "$type": "borderWidth", "$value": "{dimension.semantic.extraSmall}" }
+    },
+    "radii": {
+      "none": { "$type": "borderRadius", "$value": "{dimension.semantic.zero}" },
+      "micro": { "$type": "borderRadius", "$value": "{dimension.semantic.micro}" },
+      "extraSmall": { "$type": "borderRadius", "$value": "{dimension.semantic.extraSmall}" },
+      "small": { "$type": "borderRadius", "$value": "{dimension.semantic.small}" },
+      "medium": { "$type": "borderRadius", "$value": "{dimension.semantic.medium}" },
+      "large": { "$type": "borderRadius", "$value": "{dimension.semantic.large}" },
+      "extraLarge": { "$type": "borderRadius", "$value": "{dimension.semantic.extraLarge}" },
+      "circular": { "$type": "borderRadius", "$value": "10000" }
+    }
+  }
+}

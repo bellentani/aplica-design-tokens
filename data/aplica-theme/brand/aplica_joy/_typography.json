@@ -1,0 +1,846 @@
+{
+  "_theme_typography": {
+    "fontFamilies": {
+      "main": {
+        "face": {
+          "$type": "fontFamilies",
+          "$value": "Noto Sans"
+        },
+        "style": {
+          "light": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Light",
+              "$extensions": {
+                "com.aplica.numericWeight": 300
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Light Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 300
+              }
+            }
+          },
+          "regular": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Regular",
+              "$extensions": {
+                "com.aplica.numericWeight": 400
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Regular Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 400
+              }
+            }
+          },
+          "semibold": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "SemiBold",
+              "$extensions": {
+                "com.aplica.numericWeight": 600
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "SemiBold Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 600
+              }
+            }
+          },
+          "bold": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Bold",
+              "$extensions": {
+                "com.aplica.numericWeight": 700
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Bold Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 700
+              }
+            }
+          },
+          "black": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Black",
+              "$extensions": {
+                "com.aplica.numericWeight": 900
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Black Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 900
+              }
+            }
+          }
+        }
+      },
+      "content": {
+        "face": {
+          "$type": "fontFamilies",
+          "$value": "Noto Sans"
+        },
+        "style": {
+          "light": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Light",
+              "$extensions": {
+                "com.aplica.numericWeight": 300
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Light Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 300
+              }
+            }
+          },
+          "regular": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Regular",
+              "$extensions": {
+                "com.aplica.numericWeight": 400
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Regular Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 400
+              }
+            }
+          },
+          "semibold": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "SemiBold",
+              "$extensions": {
+                "com.aplica.numericWeight": 600
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "SemiBold Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 600
+              }
+            }
+          },
+          "bold": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Bold",
+              "$extensions": {
+                "com.aplica.numericWeight": 700
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Bold Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 700
+              }
+            }
+          },
+          "black": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Black",
+              "$extensions": {
+                "com.aplica.numericWeight": 900
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Black Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 900
+              }
+            }
+          }
+        }
+      },
+      "display": {
+        "face": {
+          "$type": "fontFamilies",
+          "$value": "Poppins"
+        },
+        "style": {
+          "light": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Light",
+              "$extensions": {
+                "com.aplica.numericWeight": 300
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Light Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 300
+              }
+            }
+          },
+          "regular": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Regular",
+              "$extensions": {
+                "com.aplica.numericWeight": 400
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Regular Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 400
+              }
+            }
+          },
+          "semibold": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "SemiBold",
+              "$extensions": {
+                "com.aplica.numericWeight": 600
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "SemiBold Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 600
+              }
+            }
+          },
+          "bold": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Bold",
+              "$extensions": {
+                "com.aplica.numericWeight": 700
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Bold Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 700
+              }
+            }
+          },
+          "black": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Black",
+              "$extensions": {
+                "com.aplica.numericWeight": 900
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Black Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 900
+              }
+            }
+          }
+        }
+      },
+      "code": {
+        "face": {
+          "$type": "fontFamilies",
+          "$value": "IBM Plex Mono"
+        },
+        "style": {
+          "light": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Light",
+              "$extensions": {
+                "com.aplica.numericWeight": 300
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Light Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 300
+              }
+            }
+          },
+          "regular": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Regular",
+              "$extensions": {
+                "com.aplica.numericWeight": 400
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Regular Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 400
+              }
+            }
+          },
+          "semibold": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "SemiBold",
+              "$extensions": {
+                "com.aplica.numericWeight": 600
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "SemiBold Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 600
+              }
+            }
+          },
+          "bold": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Bold",
+              "$extensions": {
+                "com.aplica.numericWeight": 700
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Bold Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 700
+              }
+            }
+          },
+          "black": {
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "Black",
+              "$extensions": {
+                "com.aplica.numericWeight": 700
+              }
+            },
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "Black Italic",
+              "$extensions": {
+                "com.aplica.numericWeight": 700
+              }
+            }
+          }
+        }
+      }
+    },
+    "fontWeights": {
+      "main": {
+        "light": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.main.style.light.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.main.style.light.italic}"
+          }
+        },
+        "regular": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.main.style.regular.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.main.style.regular.italic}"
+          }
+        },
+        "semibold": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.main.style.semibold.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.main.style.semibold.italic}"
+          }
+        },
+        "bold": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.main.style.bold.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.main.style.bold.italic}"
+          }
+        },
+        "black": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.main.style.black.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.main.style.black.italic}"
+          }
+        }
+      },
+      "content": {
+        "light": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.content.style.light.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.content.style.light.italic}"
+          }
+        },
+        "regular": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.content.style.regular.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.content.style.regular.italic}"
+          }
+        },
+        "semibold": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.content.style.semibold.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.content.style.semibold.italic}"
+          }
+        },
+        "bold": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.content.style.bold.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.content.style.bold.italic}"
+          }
+        },
+        "black": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.content.style.black.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.content.style.black.italic}"
+          }
+        }
+      },
+      "display": {
+        "light": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.display.style.light.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.display.style.light.italic}"
+          }
+        },
+        "regular": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.display.style.regular.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.display.style.regular.italic}"
+          }
+        },
+        "semibold": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.display.style.semibold.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.display.style.semibold.italic}"
+          }
+        },
+        "bold": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.display.style.bold.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.display.style.bold.italic}"
+          }
+        },
+        "black": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.display.style.black.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.display.style.black.italic}"
+          }
+        }
+      },
+      "code": {
+        "light": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.code.style.light.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.code.style.light.italic}"
+          }
+        },
+        "regular": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.code.style.regular.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.code.style.regular.italic}"
+          }
+        },
+        "semibold": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.code.style.semibold.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.code.style.semibold.italic}"
+          }
+        },
+        "bold": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.code.style.bold.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.code.style.bold.italic}"
+          }
+        },
+        "black": {
+          "normal": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.code.style.black.normal}"
+          },
+          "italic": {
+            "$type": "fontWeights",
+            "$value": "{_theme_typography.fontFamilies.code.style.black.italic}"
+          }
+        }
+      }
+    },
+    "textDecoration": {
+      "default": {
+        "$type": "textDecoration",
+        "$value": "default"
+      },
+      "underline": {
+        "$type": "textDecoration",
+        "$value": "underline"
+      },
+      "lineThrough": {
+        "$type": "textDecoration",
+        "$value": "strike-through"
+      }
+    },
+    "textCases": {
+      "normal": {
+        "$type": "textCase",
+        "$value": "normal"
+      },
+      "uppercase": {
+        "$type": "textCase",
+        "$value": "uppercase"
+      },
+      "lowercase": {
+        "$type": "textCase",
+        "$value": "lowercase"
+      },
+      "capitalize": {
+        "$type": "textCase",
+        "$value": "capitalize"
+      }
+    },
+    "letterSpacings": {
+      "tight": {
+        "$type": "letterSpacing",
+        "$value": -0.72
+      },
+      "regular": {
+        "$type": "letterSpacing",
+        "$value": 0
+      },
+      "wild": {
+        "$type": "letterSpacing",
+        "$value": 0.8
+      }
+    },
+    "fontSizes": {
+      "micro": {
+        "$type": "fontSizes",
+        "$value": 10
+      },
+      "extraSmall": {
+        "$type": "fontSizes",
+        "$value": 12
+      },
+      "small": {
+        "$type": "fontSizes",
+        "$value": 14
+      },
+      "medium": {
+        "$type": "fontSizes",
+        "$value": 16
+      },
+      "large": {
+        "$type": "fontSizes",
+        "$value": 20
+      },
+      "extraLarge": {
+        "$type": "fontSizes",
+        "$value": 24
+      },
+      "mega": {
+        "$type": "fontSizes",
+        "$value": 28
+      },
+      "giga": {
+        "$type": "fontSizes",
+        "$value": 36
+      },
+      "tera": {
+        "$type": "fontSizes",
+        "$value": 40
+      },
+      "peta": {
+        "$type": "fontSizes",
+        "$value": 48
+      },
+      "exa": {
+        "$type": "fontSizes",
+        "$value": 60
+      }
+    },
+    "lineHeights": {
+      "tight": {
+        "micro": {
+          "$type": "lineHeights",
+          "$value": 12
+        },
+        "extraSmall": {
+          "$type": "lineHeights",
+          "$value": 12
+        },
+        "small": {
+          "$type": "lineHeights",
+          "$value": 16
+        },
+        "medium": {
+          "$type": "lineHeights",
+          "$value": 16
+        },
+        "large": {
+          "$type": "lineHeights",
+          "$value": 20
+        },
+        "extraLarge": {
+          "$type": "lineHeights",
+          "$value": 24
+        },
+        "mega": {
+          "$type": "lineHeights",
+          "$value": 28
+        },
+        "giga": {
+          "$type": "lineHeights",
+          "$value": 36
+        },
+        "tera": {
+          "$type": "lineHeights",
+          "$value": 40
+        },
+        "peta": {
+          "$type": "lineHeights",
+          "$value": 48
+        },
+        "exa": {
+          "$type": "lineHeights",
+          "$value": 60
+        }
+      },
+      "close": {
+        "micro": {
+          "$type": "lineHeights",
+          "$value": 12
+        },
+        "extraSmall": {
+          "$type": "lineHeights",
+          "$value": 16
+        },
+        "small": {
+          "$type": "lineHeights",
+          "$value": 20
+        },
+        "medium": {
+          "$type": "lineHeights",
+          "$value": 20
+        },
+        "large": {
+          "$type": "lineHeights",
+          "$value": 24
+        },
+        "extraLarge": {
+          "$type": "lineHeights",
+          "$value": 32
+        },
+        "mega": {
+          "$type": "lineHeights",
+          "$value": 36
+        },
+        "giga": {
+          "$type": "lineHeights",
+          "$value": 44
+        },
+        "tera": {
+          "$type": "lineHeights",
+          "$value": 48
+        },
+        "peta": {
+          "$type": "lineHeights",
+          "$value": 60
+        },
+        "exa": {
+          "$type": "lineHeights",
+          "$value": 72
+        }
+      },
+      "regular": {
+        "micro": {
+          "$type": "lineHeights",
+          "$value": 16
+        },
+        "extraSmall": {
+          "$type": "lineHeights",
+          "$value": 20
+        },
+        "small": {
+          "$type": "lineHeights",
+          "$value": 20
+        },
+        "medium": {
+          "$type": "lineHeights",
+          "$value": 24
+        },
+        "large": {
+          "$type": "lineHeights",
+          "$value": 28
+        },
+        "extraLarge": {
+          "$type": "lineHeights",
+          "$value": 36
+        },
+        "mega": {
+          "$type": "lineHeights",
+          "$value": 40
+        },
+        "giga": {
+          "$type": "lineHeights",
+          "$value": 52
+        },
+        "tera": {
+          "$type": "lineHeights",
+          "$value": 56
+        },
+        "peta": {
+          "$type": "lineHeights",
+          "$value": 68
+        },
+        "exa": {
+          "$type": "lineHeights",
+          "$value": 84
+        }
+      },
+      "wild": {
+        "micro": {
+          "$type": "lineHeights",
+          "$value": 20
+        },
+        "extraSmall": {
+          "$type": "lineHeights",
+          "$value": 24
+        },
+        "small": {
+          "$type": "lineHeights",
+          "$value": 28
+        },
+        "medium": {
+          "$type": "lineHeights",
+          "$value": 32
+        },
+        "large": {
+          "$type": "lineHeights",
+          "$value": 36
+        },
+        "extraLarge": {
+          "$type": "lineHeights",
+          "$value": 44
+        },
+        "mega": {
+          "$type": "lineHeights",
+          "$value": 52
+        },
+        "giga": {
+          "$type": "lineHeights",
+          "$value": 68
+        },
+        "tera": {
+          "$type": "lineHeights",
+          "$value": 72
+        },
+        "peta": {
+          "$type": "lineHeights",
+          "$value": 88
+        },
+        "exa": {
+          "$type": "lineHeights",
+          "$value": 108
+        }
+      }
+    }
+  }
+}
