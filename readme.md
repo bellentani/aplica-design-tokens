@@ -1,71 +1,76 @@
-# Aplica Theme — Referência de Arquitetura de Design Tokens
+# Aplica Theme — Design Tokens Architecture Reference
 
 ![Design Tokens](https://img.shields.io/badge/Aplica%20Tokens-Tokens%20Studio%20%26%20Figma-blue)
 
-Repositório de **referência** da arquitetura de Design Tokens (Aplica Theme) para estudo, treinamentos e uso como boilerplate no Figma. Material gratuito e open source; **não depende do Aplica Theme Engine** nem de scripts de geração — apenas a estrutura de tokens e a documentação.
+A **reference** repository for Design Tokens architecture (Aplica Theme) for study, training, and use as a boilerplate in Figma. Free and open source; **does not depend on the Aplica Theme Engine** or any generation scripts — token structure and documentation only.
 
 ---
 
-## O que este repositório contém
+## What this repository contains
 
-- **`data/aplica-theme/`** — Tokens prontos (valores já resolvidos) para uso no [Tokens Studio](https://www.tokens.studio/) no Figma. Boilerplate para iniciar um Design System com arquitetura em camadas (foundation, semantic, surface, mode, dimension, brand).
-- **`data/aplica-theme-with-extensions/`** — Mesma estrutura que `aplica-theme`, mas usando **Extensions do Tokens Studio** (ex.: dark mode por `modify`/mix). Útil para estudar cálculos e composição de tokens dentro do plugin.
-- **`docs/`** — Documentação da arquitetura em português (pt-br) e inglês (en): camadas, semântica, escala, implementação e [estrutura do tema](docs/pt-br/#07%20Aplica%20Theme%20-%20Estrutura%20do%20Tema.md).
-- **`data/tokens-aplica-*.json`** — Gerações unificadas de tokens; documentação à parte (a ser detalhada depois).
-- **`tokens-studio-model/`** — Modelo alternativo (nomenclatura brand/theme/joy, etc.); referência de uso de extensions, não a pasta padrão de consumo.
+- **`data/aplica-theme/`** — Ready-to-use tokens (resolved values) for [Tokens Studio](https://www.tokens.studio/) in Figma. Boilerplate to start a Design System with a layered architecture (foundation, semantic, surface, mode, dimension, brand).
+- **`data/aplica-theme-with-extensions/`** — Same structure as `aplica-theme`, but using **Tokens Studio Extensions** (e.g. dark mode via `modify`/mix). Useful for studying token calculations and composition inside the plugin.
+- **`docs/`** — Architecture documentation in Portuguese (pt-br) and English (en): layers, semantics, scale, implementation, and [theme structure](docs/pt-br/#07%20Aplica%20Theme%20-%20Estrutura%20do%20Tema.md).
+- **`data/tokens-aplica-*.json`** — Unified token outputs; documented separately (to be detailed later).
+- **`tokens-studio-model/`** — Alternative model (brand/theme/joy naming, etc.); reference for using extensions, not the default consumption folder.
 
 ---
 
-## Estrutura do projeto
+## Project structure
 
 ```
 ├── data/
-│   ├── aplica-theme/                    # Tokens resolvidos (Figma/Tokens Studio)
-│   ├── aplica-theme-with-extensions/    # Mesma estrutura + Extensions (ex.: dark)
+│   ├── aplica-theme/                    # Resolved tokens (Figma/Tokens Studio)
+│   ├── aplica-theme-with-extensions/    # Same structure + Extensions (e.g. dark)
 │   ├── tokens-aplica-boilerplate.json
 │   └── tokens-aplica-default.json
 ├── docs/
-│   ├── pt-br/                           # Documentação em português
-│   └── en/                              # Documentação em inglês
-├── tokens-studio-model/                 # Referência alternativa (extensions)
-├── AI_CONTEXT.md                        # Contexto para agentes de IA
+│   ├── pt-br/                           # Documentation in Portuguese
+│   └── en/                              # Documentation in English
+├── tokens-studio-model/                 # Alternative reference (extensions)
+├── AI_CONTEXT.md                        # Context for AI agents
 ├── README.md
 └── LICENSE
 ```
 
 ---
 
-## Como usar no Figma
+## How to use in Figma
 
-1. Instale o plugin [Tokens Studio](https://www.tokens.studio/) no Figma.
-2. Clone este repositório ou baixe a pasta de dados desejada.
-3. No Tokens Studio, **conecte** o projeto ao repositório ou importe uma das pastas:
-   - **`data/aplica-theme`** — uso direto, todos os valores já calculados.
-   - **`data/aplica-theme-with-extensions`** — mesmo tema, com dark mode e dimension gerados via Extensions no plugin.
-4. Use os themes e modos (light/dark, positive/negative, marcas) conforme definido em `$themes.json` e na documentação.
+**Tokens Studio version:**  
+- **Free:** You can use the free version of [Tokens Studio](https://www.tokens.studio/) to load **`data/tokens-aplica-default.json`** (unified token output).  
+- **Pro:** Loading **`data/aplica-theme`** or **`data/aplica-theme-with-extensions`** (multi-set theme structure with `$metadata.json` / `$themes.json`) requires **Tokens Studio Pro**.
 
-Detalhes de implementação e fluxo de camadas: [Guia de Implementação](docs/pt-br/#04%20Aplica%20Theme%20Engine%20-%20Guia%20de%20Implementa%C3%A7%C3%A3o.md) (pt-br) / [Implementation Guide](docs/en/#04%20Aplica%20Theme%20Engine%20-%20Implementation%20Guide.md) (en).
+1. Install the [Tokens Studio](https://www.tokens.studio/) plugin in Figma (free or Pro, depending on which data you use).
+2. Clone this repository or download the desired data folder or file.
+3. In Tokens Studio, **connect** the project to the repository or import the data:
+   - **`data/tokens-aplica-default.json`** — single file; works with the **free** version.
+   - **`data/aplica-theme`** — full theme structure; requires **Pro**. Direct use; all values already calculated.
+   - **`data/aplica-theme-with-extensions`** — full theme with Extensions; requires **Pro**. Dark mode and dimension generated via the plugin.
+4. Use themes and modes (light/dark, positive/negative, brands) as defined in `$themes.json` and in the documentation when using the theme folders.
 
----
-
-## Público
-
-- **Designers** e times que queiram estudar temas multidimensionais, escala, decisões centralizadas e usar como base sem o Aplica Theme Engine.
-- **Cursos e treinamentos** em Design System: conceitos de Multidimensional Themes, Scale, Centralized Design System Decisions.
-- Qualquer pessoa que queira evoluir o próprio Design System usando esta arquitetura como exemplo.
+Implementation details and layer flow: [Implementation Guide](docs/en/#04%20Aplica%20Theme%20Engine%20-%20Implementation%20Guide.md) (en) / [Guia de Implementação](docs/pt-br/#04%20Aplica%20Theme%20Engine%20-%20Guia%20de%20Implementa%C3%A7%C3%A3o.md) (pt-br).
 
 ---
 
-## Documentação
+## Audience
 
-| Documento | Conteúdo |
-|-----------|----------|
-| [#01 Arquitetura Técnica Completa](docs/pt-br/#01%20Aplica%20Theme%20Engine%20-%20Arquitetura%20T%C3%A9cnica%20Completa.md) | Visão geral e 5 camadas |
-| [#07 Estrutura do Tema](docs/pt-br/#07%20Aplica%20Theme%20-%20Estrutura%20do%20Tema.md) | Árvore de arquivos e convenções |
-| [#04 Guia de Implementação](docs/pt-br/#04%20Aplica%20Theme%20Engine%20-%20Guia%20de%20Implementa%C3%A7%C3%A3o.md) | Uso no Figma e consumo |
-| [#05 Referência Técnica](docs/pt-br/#05%20Aplica%20Theme%20Engine%20-%20Refer%C3%AAncia%20T%C3%A9cnica.md) | Fórmulas, tipos de token, glossário |
+- **Designers** and teams who want to study multidimensional themes, scale, centralized decisions, and use this as a base without the Aplica Theme Engine.
+- **Courses and training** on Design Systems: Multidimensional Themes, Scale, Centralized Design System Decisions.
+- Anyone who wants to evolve their own Design System using this architecture as an example.
 
-Versões em inglês em `docs/en/`.
+---
+
+## Documentation
+
+| Document | Content |
+|----------|---------|
+| [#01 Complete Technical Architecture](docs/en/#01%20Aplica%20Theme%20Engine%20-%20Complete%20Technical%20Architecture.md) | Overview and 5 layers |
+| [#07 Theme Structure](docs/en/#07%20Aplica%20Theme%20-%20Theme%20Structure.md) | File tree and conventions |
+| [#04 Implementation Guide](docs/en/#04%20Aplica%20Theme%20Engine%20-%20Implementation%20Guide.md) | Figma usage and consumption |
+| [#05 Technical Reference](docs/en/#05%20Aplica%20Theme%20Engine%20-%20Technical%20Reference.md) | Formulas, token types, glossary |
+
+Portuguese versions in `docs/pt-br/`.
 
 ---
 

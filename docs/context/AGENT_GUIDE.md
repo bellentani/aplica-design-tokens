@@ -38,8 +38,9 @@ When you start a task in this repository:
 ### Task: "Update or add documentation"
 1. Follow [RULES.md](RULES.md) (language: English for docs in context and code). Do not invent builder concepts (e.g. `npm run build:themes`, `sync:architecture`) — they do not exist in this repo.
 
-### Task: "Version / release" (if applicable)
+### Task: "Version / release" or "Write commit message"
 1. Any CHANGELOG here refers to **this** repo (documentation and data structure). Update CHANGELOG with a compact narrative; put file lists in `docs/context/RELEASE_FILES.md` if that file exists.
+2. **Commit messages**: Follow [COMMIT_CONVENTION.md](../../COMMIT_CONVENTION.md) (Conventional Commits). Use the correct type (`feat`, `fix`, `docs`, `style`, `refactor`, etc.) and format when proposing or writing commits.
 
 ## Warning Zones
 

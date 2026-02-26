@@ -10,6 +10,7 @@
 - **[AI_CONTEXT.md](../../AI_CONTEXT.md)**: Master entry point. Read first.
 - **[docs/context/AGENT_GUIDE.md](AGENT_GUIDE.md)**: Operational rules for agents.
 - **[docs/context/RULES.md](RULES.md)**: Project constitution and constraints.
+- **[COMMIT_CONVENTION.md](../../COMMIT_CONVENTION.md)**: Commit message format (Conventional Commits). Use when suggesting or writing commits.
 
 ## Project state (docs/context/)
 

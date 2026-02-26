@@ -25,6 +25,7 @@
 ## Navigation for AI
 
 - **Context folder (load first):** Agents should load [docs/context/AGENT_GUIDE.md](docs/context/AGENT_GUIDE.md) and [docs/context/RULES.md](docs/context/RULES.md) for operational rules; use [docs/context/INDEX.md](docs/context/INDEX.md) for quick lookup.
+- **Commit messages:** [COMMIT_CONVENTION.md](COMMIT_CONVENTION.md) — project uses Conventional Commits; follow it when suggesting or writing commit messages.
 - **Theme structure (what lives where):** [docs/pt-br/#07 Aplica Theme - Estrutura do Tema](docs/pt-br/#07%20Aplica%20Theme%20-%20Estrutura%20do%20Tema.md) and [docs/en/#07 Theme Structure](docs/en/#07%20Aplica%20Theme%20-%20Theme%20Structure.md).
 - **Overview and Figma usage:** [README.md](README.md).
 - **Architecture and layers:** docs/pt-br/#01, #03, #05 (and docs/en equivalents).
@@ -43,6 +44,7 @@
 | **data/aplica-theme/mode/light.json**, **dark.json** | Light and dark modes; reference `theme.color.light` and `theme.color.dark` from brand sets. |
 | **data/aplica-theme/dimension/normal.json** | Dimension scale (sizing, spacing, etc.). |
 | **data/aplica-theme/brand/** | One folder per brand (aplica_joy, aplica_tangerine, aplica_grinch, theme_engine); each with _brand, _grayscale, _borders, _typography, _gradients, $meta; joy and theme_engine also have _primitive_theme. |
+| **COMMIT_CONVENTION.md** | Commit message format (Conventional Commits); use when proposing or writing commits. |
 
 There is no `theme-generator.mjs`, `build.mjs`, or build `config.json` in this repo.
 
