@@ -23,6 +23,7 @@
 
 - **Theme structure (file tree and conventions):** [docs/pt-br/#07 Aplica Theme - Estrutura do Tema](../../pt-br/#07%20Aplica%20Theme%20-%20Estrutura%20do%20Tema.md), [docs/en/#07 Theme Structure](../../en/#07%20Aplica%20Theme%20-%20Theme%20Structure.md).
 - **Token usage (Semantic vs Foundation, Figma):** [docs/context/tokens/token-usage-for-components-and-figma.md](tokens/token-usage-for-components-and-figma.md).
+- **Tokens-free generation (make-tokens-free):** Merge order, output naming (theme-mode-surface), clean build, DTCG: [docs/context/TOKENS_FREE_GENERATION.md](TOKENS_FREE_GENERATION.md).
 
 ## Technical documentation (docs/)
 
@@ -44,7 +45,7 @@
 In `data/aplica-theme/` (resolved) and `data/aplica-theme-with-extensions/` (with Extensions). No build or theme generator here.
 
 **Is there a build or theme generator?**  
-No. This repo has no `dynamic-themes/`, `transformers/`, or `npm run build:themes`. Data is source of truth as-is.
+No theme engine or dynamic-themes. The only generation script is `make-tokens-free` (`npm run make:tokens-free`), which produces `data/aplica-theme-free/` from `data/aplica-theme/`. See [TOKENS_FREE_GENERATION.md](TOKENS_FREE_GENERATION.md).
 
 **Which layer do components use?**  
 **Semantic** is the exposed layer; **Foundation** is aliases. See [token-usage-for-components-and-figma.md](tokens/token-usage-for-components-and-figma.md).

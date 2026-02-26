@@ -13,7 +13,7 @@ A **reference** repository for Design Tokens architecture (Aplica Theme) for stu
 - **`docs/`** — Architecture documentation in Portuguese (pt-br) and English (en): layers, semantics, scale, implementation, and [theme structure](docs/pt-br/#07%20Aplica%20Theme%20-%20Estrutura%20do%20Tema.md).
 - **`data/tokens-aplica-default.json`** — Single-file token set based on **aplica_joy** (all values in one file). Use with **Tokens Studio Free** in Figma.
 - **`data/tokens-aplica-boilerplate.json`** — Same architecture as default; **template to start your Design System**. Copy and replace brand colors and typography with your own.
-- **`data/aplica-theme-free/`** — Single-file token sets built for **Tokens Studio Free**: one file per theme (e.g. `tokens-free-aplica-joy.json`, `tokens-free-theme-engine.json`, `tokens-aplica-default.json`). Generate with **`npm run make:tokens-free`** from themes in `data/aplica-theme/brand/`.
+- **`data/aplica-theme-free/`** — Single-file token sets built for **Tokens Studio Free**: one file per theme × mode × surface (e.g. `tokens-free-aplica_joy-light-positive.json`, `tokens-free-aplica_grinch-dark-negative.json`). Generate with **`npm run make:tokens-free`** from themes in `data/aplica-theme/brand/`.
 
 ---
 
@@ -46,7 +46,7 @@ A **reference** repository for Design Tokens architecture (Aplica Theme) for stu
 2. Clone this repository or download the desired data folder or file.
 3. In Tokens Studio, **connect** the project to the repository or import the data:
    - **`data/aplica-theme-free/`** — built single-file sets; works with the **free** version (run `npm run make:tokens-free` to generate).
-   - **`data/tokens-aplica-default.json`** — single file (aplica_joy); also generated into `aplica-theme-free/`.
+   - **`data/tokens-aplica-default.json`** — single file (aplica_joy) in `data/`; for other combinations use generated files in `aplica-theme-free/`.
    - **`data/tokens-aplica-boilerplate.json`** — same structure as default; use as starting point for your DS (replace brand/typography).
    - **`data/aplica-theme`** — full theme structure; requires **Pro**. Direct use; all values already calculated.
    - **`data/aplica-theme-with-extensions`** — full theme with Extensions; requires **Pro**. Dark mode and dimension generated via the plugin.

@@ -11835,43 +11835,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_default.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_default.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_default.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_default.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_default.border.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_default.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_default.surface.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_default.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_default.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_default.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_default.border.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_default.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_default.surface.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_default.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_default.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_default.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_default.border.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_default.border.highest}"
                 }
               }
             },
@@ -11879,43 +11879,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_secondary.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_secondary.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_secondary.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_secondary.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_secondary.border.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_secondary.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_secondary.surface.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_secondary.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_secondary.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_secondary.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_secondary.border.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_secondary.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_secondary.surface.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_secondary.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_secondary.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_secondary.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.info_secondary.border.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.info_secondary.border.highest}"
                 }
               }
             }
@@ -11925,43 +11925,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_default.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_default.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_default.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_default.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_default.border.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_default.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_default.surface.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_default.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_default.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_default.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_default.border.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_default.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_default.surface.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_default.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_default.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_default.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_default.border.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_default.border.highest}"
                 }
               }
             },
@@ -11969,43 +11969,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_secondary.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_secondary.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_secondary.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_secondary.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_secondary.border.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_secondary.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_secondary.surface.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_secondary.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_secondary.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_secondary.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_secondary.border.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_secondary.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_secondary.surface.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_secondary.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_secondary.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_secondary.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.success_secondary.border.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.success_secondary.border.highest}"
                 }
               }
             }
@@ -12015,43 +12015,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_default.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_default.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_default.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_default.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_default.border.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_default.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_default.surface.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_default.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_default.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_default.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_default.border.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_default.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_default.surface.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_default.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_default.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_default.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_default.border.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_default.border.highest}"
                 }
               }
             },
@@ -12059,43 +12059,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_secondary.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_secondary.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_secondary.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_secondary.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_secondary.border.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_secondary.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_secondary.surface.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_secondary.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_secondary.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_secondary.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_secondary.border.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_secondary.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_secondary.surface.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_secondary.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_secondary.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_secondary.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.warning_secondary.border.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.warning_secondary.border.highest}"
                 }
               }
             }
@@ -12105,43 +12105,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_default.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_default.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_default.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_default.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_default.border.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_default.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_default.surface.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_default.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_default.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_default.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_default.border.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_default.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_default.surface.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_default.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_default.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_default.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_default.border.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_default.border.highest}"
                 }
               }
             },
@@ -12149,43 +12149,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_secondary.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_secondary.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_secondary.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_secondary.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_secondary.border.lowest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_secondary.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_secondary.surface.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_secondary.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_secondary.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_secondary.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_secondary.border.normal}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_secondary.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_secondary.surface.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_secondary.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_secondary.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_secondary.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.positive.feedback.danger_secondary.border.highest}"
+                  "$value": "{theme.color.dark.interface.positive.feedback.danger_secondary.border.highest}"
                 }
               }
             }
@@ -12199,43 +12199,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_default.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_default.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_default.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_default.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_default.border.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_default.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_default.surface.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_default.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_default.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_default.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_default.border.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_default.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_default.surface.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_default.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_default.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_default.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_default.border.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_default.border.highest}"
                 }
               }
             },
@@ -12243,43 +12243,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_secondary.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_secondary.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_secondary.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_secondary.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_secondary.border.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_secondary.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_secondary.surface.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_secondary.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_secondary.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_secondary.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_secondary.border.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_secondary.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_secondary.surface.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_secondary.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_secondary.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_secondary.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.info_secondary.border.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.info_secondary.border.highest}"
                 }
               }
             }
@@ -12289,43 +12289,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_default.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_default.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_default.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_default.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_default.border.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_default.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_default.surface.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_default.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_default.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_default.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_default.border.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_default.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_default.surface.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_default.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_default.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_default.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_default.border.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_default.border.highest}"
                 }
               }
             },
@@ -12333,43 +12333,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_secondary.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_secondary.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_secondary.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_secondary.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_secondary.border.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_secondary.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_secondary.surface.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_secondary.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_secondary.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_secondary.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_secondary.border.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_secondary.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_secondary.surface.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_secondary.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_secondary.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_secondary.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.success_secondary.border.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.success_secondary.border.highest}"
                 }
               }
             }
@@ -12379,43 +12379,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_default.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_default.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_default.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_default.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_default.border.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_default.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_default.surface.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_default.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_default.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_default.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_default.border.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_default.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_default.surface.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_default.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_default.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_default.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_default.border.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_default.border.highest}"
                 }
               }
             },
@@ -12423,43 +12423,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_secondary.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_secondary.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_secondary.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_secondary.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_secondary.border.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_secondary.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_secondary.surface.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_secondary.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_secondary.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_secondary.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_secondary.border.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_secondary.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_secondary.surface.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_secondary.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_secondary.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_secondary.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.warning_secondary.border.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.warning_secondary.border.highest}"
                 }
               }
             }
@@ -12469,43 +12469,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_default.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_default.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_default.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_default.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_default.border.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_default.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_default.surface.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_default.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_default.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_default.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_default.border.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_default.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_default.surface.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_default.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_default.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_default.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_default.border.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_default.border.highest}"
                 }
               }
             },
@@ -12513,43 +12513,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_secondary.surface.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_secondary.surface.lowest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_secondary.txtOn.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_secondary.txtOn.lowest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_secondary.border.lowest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_secondary.border.lowest}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_secondary.surface.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_secondary.surface.normal}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_secondary.txtOn.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_secondary.txtOn.normal}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_secondary.border.normal}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_secondary.border.normal}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_secondary.surface.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_secondary.surface.highest}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_secondary.txtOn.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_secondary.txtOn.highest}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.interface.negative.feedback.danger_secondary.border.highest}"
+                  "$value": "{theme.color.dark.interface.negative.feedback.danger_secondary.border.highest}"
                 }
               }
             }
@@ -12563,43 +12563,43 @@
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_default.lowest.background}"
+              "$value": "{theme.color.dark.product.positive.promo_default.lowest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_default.lowest.txtOn}"
+              "$value": "{theme.color.dark.product.positive.promo_default.lowest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_default.lowest.border}"
+              "$value": "{theme.color.dark.product.positive.promo_default.lowest.border}"
             }
           },
           "default": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_default.default.background}"
+              "$value": "{theme.color.dark.product.positive.promo_default.default.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_default.default.txtOn}"
+              "$value": "{theme.color.dark.product.positive.promo_default.default.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_default.default.border}"
+              "$value": "{theme.color.dark.product.positive.promo_default.default.border}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_default.highest.background}"
+              "$value": "{theme.color.dark.product.positive.promo_default.highest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_default.highest.txtOn}"
+              "$value": "{theme.color.dark.product.positive.promo_default.highest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_default.highest.border}"
+              "$value": "{theme.color.dark.product.positive.promo_default.highest.border}"
             }
           }
         },
@@ -12607,43 +12607,43 @@
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_secondary.lowest.background}"
+              "$value": "{theme.color.dark.product.positive.promo_secondary.lowest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_secondary.lowest.txtOn}"
+              "$value": "{theme.color.dark.product.positive.promo_secondary.lowest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_secondary.lowest.border}"
+              "$value": "{theme.color.dark.product.positive.promo_secondary.lowest.border}"
             }
           },
           "default": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_secondary.default.background}"
+              "$value": "{theme.color.dark.product.positive.promo_secondary.default.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_secondary.default.txtOn}"
+              "$value": "{theme.color.dark.product.positive.promo_secondary.default.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_secondary.default.border}"
+              "$value": "{theme.color.dark.product.positive.promo_secondary.default.border}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_secondary.highest.background}"
+              "$value": "{theme.color.dark.product.positive.promo_secondary.highest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_secondary.highest.txtOn}"
+              "$value": "{theme.color.dark.product.positive.promo_secondary.highest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.promo_secondary.highest.border}"
+              "$value": "{theme.color.dark.product.positive.promo_secondary.highest.border}"
             }
           }
         }
@@ -12653,43 +12653,43 @@
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_default.lowest.background}"
+              "$value": "{theme.color.dark.product.positive.cashback_default.lowest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_default.lowest.txtOn}"
+              "$value": "{theme.color.dark.product.positive.cashback_default.lowest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_default.lowest.border}"
+              "$value": "{theme.color.dark.product.positive.cashback_default.lowest.border}"
             }
           },
           "default": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_default.default.background}"
+              "$value": "{theme.color.dark.product.positive.cashback_default.default.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_default.default.txtOn}"
+              "$value": "{theme.color.dark.product.positive.cashback_default.default.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_default.default.border}"
+              "$value": "{theme.color.dark.product.positive.cashback_default.default.border}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_default.highest.background}"
+              "$value": "{theme.color.dark.product.positive.cashback_default.highest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_default.highest.txtOn}"
+              "$value": "{theme.color.dark.product.positive.cashback_default.highest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_default.highest.border}"
+              "$value": "{theme.color.dark.product.positive.cashback_default.highest.border}"
             }
           }
         },
@@ -12697,43 +12697,43 @@
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_secondary.lowest.background}"
+              "$value": "{theme.color.dark.product.positive.cashback_secondary.lowest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_secondary.lowest.txtOn}"
+              "$value": "{theme.color.dark.product.positive.cashback_secondary.lowest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_secondary.lowest.border}"
+              "$value": "{theme.color.dark.product.positive.cashback_secondary.lowest.border}"
             }
           },
           "default": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_secondary.default.background}"
+              "$value": "{theme.color.dark.product.positive.cashback_secondary.default.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_secondary.default.txtOn}"
+              "$value": "{theme.color.dark.product.positive.cashback_secondary.default.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_secondary.default.border}"
+              "$value": "{theme.color.dark.product.positive.cashback_secondary.default.border}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_secondary.highest.background}"
+              "$value": "{theme.color.dark.product.positive.cashback_secondary.highest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_secondary.highest.txtOn}"
+              "$value": "{theme.color.dark.product.positive.cashback_secondary.highest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.cashback_secondary.highest.border}"
+              "$value": "{theme.color.dark.product.positive.cashback_secondary.highest.border}"
             }
           }
         }
@@ -12743,43 +12743,43 @@
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_default.lowest.background}"
+              "$value": "{theme.color.dark.product.positive.premium_default.lowest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_default.lowest.txtOn}"
+              "$value": "{theme.color.dark.product.positive.premium_default.lowest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_default.lowest.border}"
+              "$value": "{theme.color.dark.product.positive.premium_default.lowest.border}"
             }
           },
           "default": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_default.default.background}"
+              "$value": "{theme.color.dark.product.positive.premium_default.default.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_default.default.txtOn}"
+              "$value": "{theme.color.dark.product.positive.premium_default.default.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_default.default.border}"
+              "$value": "{theme.color.dark.product.positive.premium_default.default.border}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_default.highest.background}"
+              "$value": "{theme.color.dark.product.positive.premium_default.highest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_default.highest.txtOn}"
+              "$value": "{theme.color.dark.product.positive.premium_default.highest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_default.highest.border}"
+              "$value": "{theme.color.dark.product.positive.premium_default.highest.border}"
             }
           }
         },
@@ -12787,43 +12787,43 @@
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_secondary.lowest.background}"
+              "$value": "{theme.color.dark.product.positive.premium_secondary.lowest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_secondary.lowest.txtOn}"
+              "$value": "{theme.color.dark.product.positive.premium_secondary.lowest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_secondary.lowest.border}"
+              "$value": "{theme.color.dark.product.positive.premium_secondary.lowest.border}"
             }
           },
           "default": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_secondary.default.background}"
+              "$value": "{theme.color.dark.product.positive.premium_secondary.default.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_secondary.default.txtOn}"
+              "$value": "{theme.color.dark.product.positive.premium_secondary.default.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_secondary.default.border}"
+              "$value": "{theme.color.dark.product.positive.premium_secondary.default.border}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_secondary.highest.background}"
+              "$value": "{theme.color.dark.product.positive.premium_secondary.highest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_secondary.highest.txtOn}"
+              "$value": "{theme.color.dark.product.positive.premium_secondary.highest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.product.positive.premium_secondary.highest.border}"
+              "$value": "{theme.color.dark.product.positive.premium_secondary.highest.border}"
             }
           }
         }
@@ -12833,189 +12833,189 @@
       "positive": {
         "title": {
           "$type": "color",
-          "$value": "{theme.color.light.text.positive.title}"
+          "$value": "{theme.color.dark.text.positive.title}"
         },
         "body": {
           "$type": "color",
-          "$value": "{theme.color.light.text.positive.body}"
+          "$value": "{theme.color.dark.text.positive.body}"
         },
         "highlight": {
           "$type": "color",
-          "$value": "{theme.color.light.text.positive.highlight}"
+          "$value": "{theme.color.dark.text.positive.highlight}"
         },
         "muted": {
           "$type": "color",
-          "$value": "{theme.color.light.text.positive.muted}"
+          "$value": "{theme.color.dark.text.positive.muted}"
         },
         "label": {
           "$type": "color",
-          "$value": "{theme.color.light.text.positive.label}"
+          "$value": "{theme.color.dark.text.positive.label}"
         },
         "info_default": {
           "$type": "color",
-          "$value": "{theme.color.light.text.positive.info_default}"
+          "$value": "{theme.color.dark.text.positive.info_default}"
         },
         "info_secondary": {
           "$type": "color",
-          "$value": "{theme.color.light.text.positive.info_secondary}"
+          "$value": "{theme.color.dark.text.positive.info_secondary}"
         },
         "success_default": {
           "$type": "color",
-          "$value": "{theme.color.light.text.positive.success_default}"
+          "$value": "{theme.color.dark.text.positive.success_default}"
         },
         "success_secondary": {
           "$type": "color",
-          "$value": "{theme.color.light.text.positive.success_secondary}"
+          "$value": "{theme.color.dark.text.positive.success_secondary}"
         },
         "warning_default": {
           "$type": "color",
-          "$value": "{theme.color.light.text.positive.warning_default}"
+          "$value": "{theme.color.dark.text.positive.warning_default}"
         },
         "warning_secondary": {
           "$type": "color",
-          "$value": "{theme.color.light.text.positive.warning_secondary}"
+          "$value": "{theme.color.dark.text.positive.warning_secondary}"
         },
         "danger_default": {
           "$type": "color",
-          "$value": "{theme.color.light.text.positive.danger_default}"
+          "$value": "{theme.color.dark.text.positive.danger_default}"
         },
         "danger_secondary": {
           "$type": "color",
-          "$value": "{theme.color.light.text.positive.danger_secondary}"
+          "$value": "{theme.color.dark.text.positive.danger_secondary}"
         },
         "promo_default": {
           "$type": "color",
-          "$value": "{theme.color.light.product.positive.promo_default.highest.background}"
+          "$value": "{theme.color.dark.product.positive.promo_default.highest.background}"
         },
         "promo_secondary": {
           "$type": "color",
-          "$value": "{theme.color.light.product.positive.promo_secondary.highest.background}"
+          "$value": "{theme.color.dark.product.positive.promo_secondary.highest.background}"
         },
         "cashback_default": {
           "$type": "color",
-          "$value": "{theme.color.light.product.positive.cashback_default.highest.background}"
+          "$value": "{theme.color.dark.product.positive.cashback_default.highest.background}"
         },
         "cashback_secondary": {
           "$type": "color",
-          "$value": "{theme.color.light.product.positive.cashback_secondary.highest.background}"
+          "$value": "{theme.color.dark.product.positive.cashback_secondary.highest.background}"
         },
         "premium_default": {
           "$type": "color",
-          "$value": "{theme.color.light.product.positive.premium_default.highest.background}"
+          "$value": "{theme.color.dark.product.positive.premium_default.highest.background}"
         },
         "premium_secondary": {
           "$type": "color",
-          "$value": "{theme.color.light.product.positive.premium_secondary.highest.background}"
+          "$value": "{theme.color.dark.product.positive.premium_secondary.highest.background}"
         }
       },
       "negative": {
         "title": {
           "$type": "color",
-          "$value": "{theme.color.light.text.negative.title}"
+          "$value": "{theme.color.dark.text.negative.title}"
         },
         "body": {
           "$type": "color",
-          "$value": "{theme.color.light.text.negative.body}"
+          "$value": "{theme.color.dark.text.negative.body}"
         },
         "highlight": {
           "$type": "color",
-          "$value": "{theme.color.light.text.negative.highlight}"
+          "$value": "{theme.color.dark.text.negative.highlight}"
         },
         "muted": {
           "$type": "color",
-          "$value": "{theme.color.light.text.negative.muted}"
+          "$value": "{theme.color.dark.text.negative.muted}"
         },
         "label": {
           "$type": "color",
-          "$value": "{theme.color.light.text.negative.label}"
+          "$value": "{theme.color.dark.text.negative.label}"
         },
         "info_default": {
           "$type": "color",
-          "$value": "{theme.color.light.text.negative.info_default}"
+          "$value": "{theme.color.dark.text.negative.info_default}"
         },
         "info_secondary": {
           "$type": "color",
-          "$value": "{theme.color.light.text.negative.info_secondary}"
+          "$value": "{theme.color.dark.text.negative.info_secondary}"
         },
         "success_default": {
           "$type": "color",
-          "$value": "{theme.color.light.text.negative.success_default}"
+          "$value": "{theme.color.dark.text.negative.success_default}"
         },
         "success_secondary": {
           "$type": "color",
-          "$value": "{theme.color.light.text.negative.success_secondary}"
+          "$value": "{theme.color.dark.text.negative.success_secondary}"
         },
         "warning_default": {
           "$type": "color",
-          "$value": "{theme.color.light.text.negative.warning_default}"
+          "$value": "{theme.color.dark.text.negative.warning_default}"
         },
         "warning_secondary": {
           "$type": "color",
-          "$value": "{theme.color.light.text.negative.warning_secondary}"
+          "$value": "{theme.color.dark.text.negative.warning_secondary}"
         },
         "danger_default": {
           "$type": "color",
-          "$value": "{theme.color.light.text.negative.danger_default}"
+          "$value": "{theme.color.dark.text.negative.danger_default}"
         },
         "danger_secondary": {
           "$type": "color",
-          "$value": "{theme.color.light.text.negative.danger_secondary}"
+          "$value": "{theme.color.dark.text.negative.danger_secondary}"
         },
         "promo_default": {
           "$type": "color",
-          "$value": "{theme.color.light.product.positive.promo_default.highest.background}"
+          "$value": "{theme.color.dark.product.positive.promo_default.highest.background}"
         },
         "promo_secondary": {
           "$type": "color",
-          "$value": "{theme.color.light.product.positive.promo_secondary.highest.background}"
+          "$value": "{theme.color.dark.product.positive.promo_secondary.highest.background}"
         },
         "cashback_default": {
           "$type": "color",
-          "$value": "{theme.color.light.product.positive.cashback_default.highest.background}"
+          "$value": "{theme.color.dark.product.positive.cashback_default.highest.background}"
         },
         "cashback_secondary": {
           "$type": "color",
-          "$value": "{theme.color.light.product.positive.cashback_secondary.highest.background}"
+          "$value": "{theme.color.dark.product.positive.cashback_secondary.highest.background}"
         },
         "premium_default": {
           "$type": "color",
-          "$value": "{theme.color.light.product.positive.premium_default.highest.background}"
+          "$value": "{theme.color.dark.product.positive.premium_default.highest.background}"
         },
         "premium_secondary": {
           "$type": "color",
-          "$value": "{theme.color.light.product.positive.premium_secondary.highest.background}"
+          "$value": "{theme.color.dark.product.positive.premium_secondary.highest.background}"
         }
       }
     },
     "gradient": {
-      "light": {
+      "dark": {
         "interface": {
           "positive": {
             "primary": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.interface.positive.primary}"
+              "$value": "{theme.color.dark.gradient.interface.positive.primary}"
             },
             "secondary": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.interface.positive.secondary}"
+              "$value": "{theme.color.dark.gradient.interface.positive.secondary}"
             },
             "link": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.interface.positive.link}"
+              "$value": "{theme.color.dark.gradient.interface.positive.link}"
             }
           },
           "negative": {
             "primary": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.interface.negative.primary}"
+              "$value": "{theme.color.dark.gradient.interface.negative.primary}"
             },
             "secondary": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.interface.negative.secondary}"
+              "$value": "{theme.color.dark.gradient.interface.negative.secondary}"
             },
             "link": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.interface.negative.link}"
+              "$value": "{theme.color.dark.gradient.interface.negative.link}"
             }
           }
         },
@@ -13023,101 +13023,101 @@
           "positive": {
             "promo_default": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.product.positive.promo_default}"
+              "$value": "{theme.color.dark.gradient.product.positive.promo_default}"
             },
             "promo_secondary": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.product.positive.promo_secondary}"
+              "$value": "{theme.color.dark.gradient.product.positive.promo_secondary}"
             },
             "cashback_default": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.product.positive.cashback_default}"
+              "$value": "{theme.color.dark.gradient.product.positive.cashback_default}"
             },
             "cashback_secondary": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.product.positive.cashback_secondary}"
+              "$value": "{theme.color.dark.gradient.product.positive.cashback_secondary}"
             },
             "premium_default": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.product.positive.premium_default}"
+              "$value": "{theme.color.dark.gradient.product.positive.premium_default}"
             },
             "premium_secondary": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.product.positive.premium_secondary}"
+              "$value": "{theme.color.dark.gradient.product.positive.premium_secondary}"
             }
           },
           "negative": {
             "promo_default": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.product.negative.promo_default}"
+              "$value": "{theme.color.dark.gradient.product.negative.promo_default}"
             },
             "promo_secondary": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.product.negative.promo_secondary}"
+              "$value": "{theme.color.dark.gradient.product.negative.promo_secondary}"
             },
             "cashback_default": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.product.negative.cashback_default}"
+              "$value": "{theme.color.dark.gradient.product.negative.cashback_default}"
             },
             "cashback_secondary": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.product.negative.cashback_secondary}"
+              "$value": "{theme.color.dark.gradient.product.negative.cashback_secondary}"
             },
             "premium_default": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.product.negative.premium_default}"
+              "$value": "{theme.color.dark.gradient.product.negative.premium_default}"
             },
             "premium_secondary": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.product.negative.premium_secondary}"
+              "$value": "{theme.color.dark.gradient.product.negative.premium_secondary}"
             }
           }
         }
       }
     },
     "brand": {
-      "light": {
+      "dark": {
         "first": {
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.first.lowest.background}"
+              "$value": "{theme.color.dark.brand.branding.first.lowest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.first.lowest.txtOn}"
+              "$value": "{theme.color.dark.brand.branding.first.lowest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.first.lowest.border}"
+              "$value": "{theme.color.dark.brand.branding.first.lowest.border}"
             }
           },
           "default": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.first.default.background}"
+              "$value": "{theme.color.dark.brand.branding.first.default.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.first.default.txtOn}"
+              "$value": "{theme.color.dark.brand.branding.first.default.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.first.default.border}"
+              "$value": "{theme.color.dark.brand.branding.first.default.border}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.first.highest.background}"
+              "$value": "{theme.color.dark.brand.branding.first.highest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.first.highest.txtOn}"
+              "$value": "{theme.color.dark.brand.branding.first.highest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.first.highest.border}"
+              "$value": "{theme.color.dark.brand.branding.first.highest.border}"
             }
           }
         },
@@ -13125,43 +13125,43 @@
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.second.lowest.background}"
+              "$value": "{theme.color.dark.brand.branding.second.lowest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.second.lowest.txtOn}"
+              "$value": "{theme.color.dark.brand.branding.second.lowest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.second.lowest.border}"
+              "$value": "{theme.color.dark.brand.branding.second.lowest.border}"
             }
           },
           "default": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.second.default.background}"
+              "$value": "{theme.color.dark.brand.branding.second.default.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.second.default.txtOn}"
+              "$value": "{theme.color.dark.brand.branding.second.default.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.second.default.border}"
+              "$value": "{theme.color.dark.brand.branding.second.default.border}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.second.highest.background}"
+              "$value": "{theme.color.dark.brand.branding.second.highest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.second.highest.txtOn}"
+              "$value": "{theme.color.dark.brand.branding.second.highest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.second.highest.border}"
+              "$value": "{theme.color.dark.brand.branding.second.highest.border}"
             }
           }
         },
@@ -13169,43 +13169,43 @@
           "lowest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.third.lowest.background}"
+              "$value": "{theme.color.dark.brand.branding.third.lowest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.third.lowest.txtOn}"
+              "$value": "{theme.color.dark.brand.branding.third.lowest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.third.lowest.border}"
+              "$value": "{theme.color.dark.brand.branding.third.lowest.border}"
             }
           },
           "default": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.third.default.background}"
+              "$value": "{theme.color.dark.brand.branding.third.default.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.third.default.txtOn}"
+              "$value": "{theme.color.dark.brand.branding.third.default.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.third.default.border}"
+              "$value": "{theme.color.dark.brand.branding.third.default.border}"
             }
           },
           "highest": {
             "background": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.third.highest.background}"
+              "$value": "{theme.color.dark.brand.branding.third.highest.background}"
             },
             "txtOn": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.third.highest.txtOn}"
+              "$value": "{theme.color.dark.brand.branding.third.highest.txtOn}"
             },
             "border": {
               "$type": "color",
-              "$value": "{theme.color.light.brand.branding.third.highest.border}"
+              "$value": "{theme.color.dark.brand.branding.third.highest.border}"
             }
           }
         }

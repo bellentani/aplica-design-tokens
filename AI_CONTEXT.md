@@ -16,6 +16,7 @@
 |------|---------|
 | **data/aplica-theme/** | **Resolved** tokens (all values pre-calculated). Structure consumable by Tokens Studio: foundation, semantic, surface, mode, dimension, brand (aplica_joy, aplica_tangerine, aplica_grinch, theme_engine). |
 | **data/aplica-theme-with-extensions/** | Same structure as `aplica-theme`, but uses **Tokens Studio Extensions** (e.g. dark mode via `$extensions.studio.tokens.modify`). Includes `figma-generators/_generator-dimension` and an example config with extensions in `brand/aplica_joy`. |
+| **data/aplica-theme-free/** | **Generated** single-file token JSONs: one per theme × mode × surface (e.g. `tokens-free-aplica_joy-light-positive.json`). Built by `npm run make:tokens-free`; see [docs/context/TOKENS_FREE_GENERATION.md](docs/context/TOKENS_FREE_GENERATION.md). Output uses DTCG notation (`$type`, `$value`). Directory is cleared on each run. |
 | **docs/** | Architecture documentation in pt-br and en. Includes [Theme Structure (#07)](docs/pt-br/#07%20Aplica%20Theme%20-%20Estrutura%20do%20Tema.md) (file tree and conventions), architecture (#01, #03), implementation (#04), technical reference (#05). |
 | **data/tokens-aplica-*.json** | Unified token outputs; documented separately. |
 
@@ -44,6 +45,7 @@
 | **data/aplica-theme/mode/light.json**, **dark.json** | Light and dark modes; reference `theme.color.light` and `theme.color.dark` from brand sets. |
 | **data/aplica-theme/dimension/normal.json** | Dimension scale (sizing, spacing, etc.). |
 | **data/aplica-theme/brand/** | One folder per brand (aplica_joy, aplica_tangerine, aplica_grinch, theme_engine); each with _brand, _grayscale, _borders, _typography, _gradients, $meta; joy and theme_engine also have _primitive_theme. |
+| **scripts/make-tokens-free.mjs** | Generates `data/aplica-theme-free/tokens-free-{theme}-{mode}-{surface}.json`. Merge order: Phase 1 (primitive_theme → grayscale → dimension → borders → typography → gradients → _brand), Phase 2 (mode → surface → semantic → foundation/engine). Clean build; DTCG output. See [TOKENS_FREE_GENERATION.md](docs/context/TOKENS_FREE_GENERATION.md). |
 | **CHANGELOG.md** | Root changelog; main changes per version (Keep a Changelog format). |
 | **docs/context/CHANGELOG_DETAILED.md** | Detailed changelog for AI; implementation notes and areas touched per version; update when releasing or documenting features. |
 | **COMMIT_CONVENTION.md** | Commit message format (Conventional Commits); use when proposing or writing commits. |

@@ -14,14 +14,15 @@ This repository is a **public reference** for the Aplica Theme token architectur
 |------|---------|
 | **data/aplica-theme/** | Resolved tokens; full structure (foundation, semantic, surface, mode, dimension, brand). Use as boilerplate in Figma. |
 | **data/aplica-theme-with-extensions/** | Same structure with Tokens Studio Extensions (e.g. dark mode via `$extensions.studio.tokens.modify`); includes figma-generators. |
+| **data/aplica-theme-free/** | Generated single-file JSONs: one per theme × mode × surface (`tokens-free-{theme}-{mode}-{surface}.json`). Built by `npm run make:tokens-free`; see [TOKENS_FREE_GENERATION.md](TOKENS_FREE_GENERATION.md). DTCG notation; directory cleared on each run. |
 | **docs/pt-br/, docs/en/** | Architecture (#01, #03, #05), implementation (#04), theme structure (#07), semantics (#06). |
-| **docs/context/** | Agent rules (AGENT_GUIDE, RULES), index (INDEX), summary (this file), LLM workflow, changelogs (CHANGELOG_DETAILED). |
+| **docs/context/** | Agent rules (AGENT_GUIDE, RULES), index (INDEX), summary (this file), LLM workflow, changelogs (CHANGELOG_DETAILED), [TOKENS_FREE_GENERATION.md](TOKENS_FREE_GENERATION.md). |
 | **data/tokens-aplica-*.json** | Unified token outputs; documented separately. |
 
 ## Current status
 
 - **Theme structure** is documented (docs/#07). Two data variants: resolved (`aplica-theme`) and with-extensions (`aplica-theme-with-extensions`).
-- **No build or generator** in this repo. Token data is maintained as-is or via external processes.
+- **Tokens-free generation:** `npm run make:tokens-free` generates `data/aplica-theme-free/` (one file per theme×mode×surface; DTCG output). See [TOKENS_FREE_GENERATION.md](TOKENS_FREE_GENERATION.md). No other build or theme engine in this repo.
 - **Human docs** exist in Portuguese (pt-br) and English (en). **Agent-facing context** is in English.
 
 ## Ready for use

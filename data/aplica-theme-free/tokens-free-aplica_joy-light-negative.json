@@ -13221,43 +13221,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.default.lowest.background}"
+                  "$value": "{mode.interface.negative.feedback.info.default.lowest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.default.lowest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.info.default.lowest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.default.lowest.border}"
+                  "$value": "{mode.interface.negative.feedback.info.default.lowest.border}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.default.default.background}"
+                  "$value": "{mode.interface.negative.feedback.info.default.default.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.default.default.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.info.default.default.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.default.default.border}"
+                  "$value": "{mode.interface.negative.feedback.info.default.default.border}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.default.highest.background}"
+                  "$value": "{mode.interface.negative.feedback.info.default.highest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.default.highest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.info.default.highest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.default.highest.border}"
+                  "$value": "{mode.interface.negative.feedback.info.default.highest.border}"
                 }
               }
             },
@@ -13265,43 +13265,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.secondary.lowest.background}"
+                  "$value": "{mode.interface.negative.feedback.info.secondary.lowest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.secondary.lowest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.info.secondary.lowest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.secondary.lowest.border}"
+                  "$value": "{mode.interface.negative.feedback.info.secondary.lowest.border}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.secondary.default.background}"
+                  "$value": "{mode.interface.negative.feedback.info.secondary.default.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.secondary.default.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.info.secondary.default.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.secondary.default.border}"
+                  "$value": "{mode.interface.negative.feedback.info.secondary.default.border}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.secondary.highest.background}"
+                  "$value": "{mode.interface.negative.feedback.info.secondary.highest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.secondary.highest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.info.secondary.highest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.info.secondary.highest.border}"
+                  "$value": "{mode.interface.negative.feedback.info.secondary.highest.border}"
                 }
               }
             }
@@ -13311,43 +13311,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.default.lowest.background}"
+                  "$value": "{mode.interface.negative.feedback.success.default.lowest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.default.lowest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.success.default.lowest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.default.lowest.border}"
+                  "$value": "{mode.interface.negative.feedback.success.default.lowest.border}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.default.default.background}"
+                  "$value": "{mode.interface.negative.feedback.success.default.default.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.default.default.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.success.default.default.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.default.default.border}"
+                  "$value": "{mode.interface.negative.feedback.success.default.default.border}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.default.highest.background}"
+                  "$value": "{mode.interface.negative.feedback.success.default.highest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.default.highest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.success.default.highest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.default.highest.border}"
+                  "$value": "{mode.interface.negative.feedback.success.default.highest.border}"
                 }
               }
             },
@@ -13355,43 +13355,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.secondary.lowest.background}"
+                  "$value": "{mode.interface.negative.feedback.success.secondary.lowest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.secondary.lowest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.success.secondary.lowest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.secondary.lowest.border}"
+                  "$value": "{mode.interface.negative.feedback.success.secondary.lowest.border}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.secondary.default.background}"
+                  "$value": "{mode.interface.negative.feedback.success.secondary.default.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.secondary.default.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.success.secondary.default.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.secondary.default.border}"
+                  "$value": "{mode.interface.negative.feedback.success.secondary.default.border}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.secondary.highest.background}"
+                  "$value": "{mode.interface.negative.feedback.success.secondary.highest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.secondary.highest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.success.secondary.highest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.success.secondary.highest.border}"
+                  "$value": "{mode.interface.negative.feedback.success.secondary.highest.border}"
                 }
               }
             }
@@ -13401,43 +13401,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.default.lowest.background}"
+                  "$value": "{mode.interface.negative.feedback.warning.default.lowest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.default.lowest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.warning.default.lowest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.default.lowest.border}"
+                  "$value": "{mode.interface.negative.feedback.warning.default.lowest.border}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.default.default.background}"
+                  "$value": "{mode.interface.negative.feedback.warning.default.default.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.default.default.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.warning.default.default.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.default.default.border}"
+                  "$value": "{mode.interface.negative.feedback.warning.default.default.border}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.default.highest.background}"
+                  "$value": "{mode.interface.negative.feedback.warning.default.highest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.default.highest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.warning.default.highest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.default.highest.border}"
+                  "$value": "{mode.interface.negative.feedback.warning.default.highest.border}"
                 }
               }
             },
@@ -13445,43 +13445,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.secondary.lowest.background}"
+                  "$value": "{mode.interface.negative.feedback.warning.secondary.lowest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.secondary.lowest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.warning.secondary.lowest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.secondary.lowest.border}"
+                  "$value": "{mode.interface.negative.feedback.warning.secondary.lowest.border}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.secondary.default.background}"
+                  "$value": "{mode.interface.negative.feedback.warning.secondary.default.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.secondary.default.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.warning.secondary.default.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.secondary.default.border}"
+                  "$value": "{mode.interface.negative.feedback.warning.secondary.default.border}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.secondary.highest.background}"
+                  "$value": "{mode.interface.negative.feedback.warning.secondary.highest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.secondary.highest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.warning.secondary.highest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.warning.secondary.highest.border}"
+                  "$value": "{mode.interface.negative.feedback.warning.secondary.highest.border}"
                 }
               }
             }
@@ -13491,43 +13491,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.default.lowest.background}"
+                  "$value": "{mode.interface.negative.feedback.danger.default.lowest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.default.lowest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.danger.default.lowest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.default.lowest.border}"
+                  "$value": "{mode.interface.negative.feedback.danger.default.lowest.border}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.default.default.background}"
+                  "$value": "{mode.interface.negative.feedback.danger.default.default.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.default.default.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.danger.default.default.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.default.default.border}"
+                  "$value": "{mode.interface.negative.feedback.danger.default.default.border}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.default.highest.background}"
+                  "$value": "{mode.interface.negative.feedback.danger.default.highest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.default.highest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.danger.default.highest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.default.highest.border}"
+                  "$value": "{mode.interface.negative.feedback.danger.default.highest.border}"
                 }
               }
             },
@@ -13535,43 +13535,43 @@
               "lowest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.secondary.lowest.background}"
+                  "$value": "{mode.interface.negative.feedback.danger.secondary.lowest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.secondary.lowest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.danger.secondary.lowest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.secondary.lowest.border}"
+                  "$value": "{mode.interface.negative.feedback.danger.secondary.lowest.border}"
                 }
               },
               "default": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.secondary.default.background}"
+                  "$value": "{mode.interface.negative.feedback.danger.secondary.default.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.secondary.default.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.danger.secondary.default.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.secondary.default.border}"
+                  "$value": "{mode.interface.negative.feedback.danger.secondary.default.border}"
                 }
               },
               "highest": {
                 "background": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.secondary.highest.background}"
+                  "$value": "{mode.interface.negative.feedback.danger.secondary.highest.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.secondary.highest.txtOn}"
+                  "$value": "{mode.interface.negative.feedback.danger.secondary.highest.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{mode.interface.positive.feedback.danger.secondary.highest.border}"
+                  "$value": "{mode.interface.negative.feedback.danger.secondary.highest.border}"
                 }
               }
             }
@@ -13582,43 +13582,43 @@
             "normal": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.primary.surface.normal}"
+                "$value": "{theme.color.dark.interface.negative.function.primary.surface.normal}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.primary.txtOn.normal}"
+                "$value": "{theme.color.dark.interface.negative.function.primary.txtOn.normal}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.primary.border.normal}"
+                "$value": "{theme.color.dark.interface.negative.function.primary.border.normal}"
               }
             },
             "action": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.primary.surface.action}"
+                "$value": "{theme.color.dark.interface.negative.function.primary.surface.action}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.primary.txtOn.action}"
+                "$value": "{theme.color.dark.interface.negative.function.primary.txtOn.action}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.primary.border.action}"
+                "$value": "{theme.color.dark.interface.negative.function.primary.border.action}"
               }
             },
             "active": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.primary.surface.active}"
+                "$value": "{theme.color.dark.interface.negative.function.primary.surface.active}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.primary.txtOn.active}"
+                "$value": "{theme.color.dark.interface.negative.function.primary.txtOn.active}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.primary.border.active}"
+                "$value": "{theme.color.dark.interface.negative.function.primary.border.active}"
               }
             }
           },
@@ -13626,43 +13626,43 @@
             "normal": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.secondary.surface.normal}"
+                "$value": "{theme.color.dark.interface.negative.function.secondary.surface.normal}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.secondary.txtOn.normal}"
+                "$value": "{theme.color.dark.interface.negative.function.secondary.txtOn.normal}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.secondary.border.normal}"
+                "$value": "{theme.color.dark.interface.negative.function.secondary.border.normal}"
               }
             },
             "action": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.secondary.surface.action}"
+                "$value": "{theme.color.dark.interface.negative.function.secondary.surface.action}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.secondary.txtOn.action}"
+                "$value": "{theme.color.dark.interface.negative.function.secondary.txtOn.action}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.secondary.border.action}"
+                "$value": "{theme.color.dark.interface.negative.function.secondary.border.action}"
               }
             },
             "active": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.secondary.surface.active}"
+                "$value": "{theme.color.dark.interface.negative.function.secondary.surface.active}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.secondary.txtOn.active}"
+                "$value": "{theme.color.dark.interface.negative.function.secondary.txtOn.active}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.secondary.border.active}"
+                "$value": "{theme.color.dark.interface.negative.function.secondary.border.active}"
               }
             }
           },
@@ -13670,43 +13670,43 @@
             "normal": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.link.surface.normal}"
+                "$value": "{theme.color.dark.interface.negative.function.link.surface.normal}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.link.txtOn.normal}"
+                "$value": "{theme.color.dark.interface.negative.function.link.txtOn.normal}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.link.border.normal}"
+                "$value": "{theme.color.dark.interface.negative.function.link.border.normal}"
               }
             },
             "action": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.link.surface.action}"
+                "$value": "{theme.color.dark.interface.negative.function.link.surface.action}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.link.txtOn.action}"
+                "$value": "{theme.color.dark.interface.negative.function.link.txtOn.action}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.link.border.action}"
+                "$value": "{theme.color.dark.interface.negative.function.link.border.action}"
               }
             },
             "active": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.link.surface.active}"
+                "$value": "{theme.color.dark.interface.negative.function.link.surface.active}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.link.txtOn.active}"
+                "$value": "{theme.color.dark.interface.negative.function.link.txtOn.active}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.function.link.border.active}"
+                "$value": "{theme.color.dark.interface.negative.function.link.border.active}"
               }
             }
           },
@@ -13714,15 +13714,15 @@
             "normal": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.disabled.background}"
+                "$value": "{theme.color.dark.interface.negative.disabled.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.disabled.text}"
+                "$value": "{theme.color.dark.interface.negative.disabled.text}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.interface.positive.disabled.border}"
+                "$value": "{theme.color.dark.interface.negative.disabled.border}"
               }
             }
           }
@@ -14003,79 +14003,79 @@
       "text": {
         "title": {
           "$type": "color",
-          "$value": "{mode.text.positive.title}"
+          "$value": "{mode.text.negative.title}"
         },
         "body": {
           "$type": "color",
-          "$value": "{mode.text.positive.body}"
+          "$value": "{mode.text.negative.body}"
         },
         "highlight": {
           "$type": "color",
-          "$value": "{mode.text.positive.highlight}"
+          "$value": "{mode.text.negative.highlight}"
         },
         "muted": {
           "$type": "color",
-          "$value": "{mode.text.positive.muted}"
+          "$value": "{mode.text.negative.muted}"
         },
         "label": {
           "$type": "color",
-          "$value": "{mode.text.positive.label}"
+          "$value": "{mode.text.negative.label}"
         },
         "info_default": {
           "$type": "color",
-          "$value": "{mode.text.positive.info_default}"
+          "$value": "{mode.text.negative.info_default}"
         },
         "info_secondary": {
           "$type": "color",
-          "$value": "{mode.text.positive.info_secondary}"
+          "$value": "{mode.text.negative.info_secondary}"
         },
         "success_default": {
           "$type": "color",
-          "$value": "{mode.text.positive.success_default}"
+          "$value": "{mode.text.negative.success_default}"
         },
         "success_secondary": {
           "$type": "color",
-          "$value": "{mode.text.positive.success_secondary}"
+          "$value": "{mode.text.negative.success_secondary}"
         },
         "warning_default": {
           "$type": "color",
-          "$value": "{mode.text.positive.warning_default}"
+          "$value": "{mode.text.negative.warning_default}"
         },
         "warning_secondary": {
           "$type": "color",
-          "$value": "{mode.text.positive.warning_secondary}"
+          "$value": "{mode.text.negative.warning_secondary}"
         },
         "danger_default": {
           "$type": "color",
-          "$value": "{mode.text.positive.danger_default}"
+          "$value": "{mode.text.negative.danger_default}"
         },
         "danger_secondary": {
           "$type": "color",
-          "$value": "{mode.text.positive.danger_secondary}"
+          "$value": "{mode.text.negative.danger_secondary}"
         },
         "promo_default": {
           "$type": "color",
-          "$value": "{mode.text.positive.promo_default}"
+          "$value": "{mode.text.negative.promo_default}"
         },
         "promo_secondary": {
           "$type": "color",
-          "$value": "{mode.text.positive.promo_secondary}"
+          "$value": "{mode.text.negative.promo_secondary}"
         },
         "cashback_default": {
           "$type": "color",
-          "$value": "{mode.text.positive.cashback_default}"
+          "$value": "{mode.text.negative.cashback_default}"
         },
         "cashback_secondary": {
           "$type": "color",
-          "$value": "{mode.text.positive.cashback_secondary}"
+          "$value": "{mode.text.negative.cashback_secondary}"
         },
         "premium_default": {
           "$type": "color",
-          "$value": "{mode.text.positive.premium_default}"
+          "$value": "{mode.text.negative.premium_default}"
         },
         "premium_secondary": {
           "$type": "color",
-          "$value": "{mode.text.positive.premium_secondary}"
+          "$value": "{mode.text.negative.premium_secondary}"
         }
       },
       "brand": {
@@ -14085,29 +14085,29 @@
               "light": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.brand.ambient.contrast.base.positive.background}"
+                  "$value": "{theme.color.light.brand.ambient.contrast.base.negative.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.brand.ambient.contrast.base.positive.txtOn}"
+                  "$value": "{theme.color.light.brand.ambient.contrast.base.negative.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.brand.ambient.contrast.base.positive.border}"
+                  "$value": "{theme.color.light.brand.ambient.contrast.base.negative.border}"
                 }
               },
               "dark": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.dark.brand.ambient.contrast.base.positive.background}"
+                  "$value": "{theme.color.dark.brand.ambient.contrast.base.negative.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.dark.brand.ambient.contrast.base.positive.txtOn}"
+                  "$value": "{theme.color.dark.brand.ambient.contrast.base.negative.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.dark.brand.ambient.contrast.base.positive.border}"
+                  "$value": "{theme.color.dark.brand.ambient.contrast.base.negative.border}"
                 }
               }
             },
@@ -14115,29 +14115,29 @@
               "light": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.light.brand.ambient.contrast.deep.positive.background}"
+                  "$value": "{theme.color.light.brand.ambient.contrast.deep.negative.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.light.brand.ambient.contrast.deep.positive.txtOn}"
+                  "$value": "{theme.color.light.brand.ambient.contrast.deep.negative.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.light.brand.ambient.contrast.deep.positive.border}"
+                  "$value": "{theme.color.light.brand.ambient.contrast.deep.negative.border}"
                 }
               },
               "dark": {
                 "background": {
                   "$type": "color",
-                  "$value": "{theme.color.dark.brand.ambient.contrast.deep.positive.background}"
+                  "$value": "{theme.color.dark.brand.ambient.contrast.deep.negative.background}"
                 },
                 "txtOn": {
                   "$type": "color",
-                  "$value": "{theme.color.dark.brand.ambient.contrast.deep.positive.txtOn}"
+                  "$value": "{theme.color.dark.brand.ambient.contrast.deep.negative.txtOn}"
                 },
                 "border": {
                   "$type": "color",
-                  "$value": "{theme.color.dark.brand.ambient.contrast.deep.positive.border}"
+                  "$value": "{theme.color.dark.brand.ambient.contrast.deep.negative.border}"
                 }
               }
             }
@@ -14146,99 +14146,99 @@
             "lowest": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.lowest.positive.background}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.lowest.negative.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.lowest.positive.txtOn}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.lowest.negative.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.lowest.positive.border}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.lowest.negative.border}"
               }
             },
             "lower": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.lower.positive.background}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.lower.negative.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.lower.positive.txtOn}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.lower.negative.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.lower.positive.border}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.lower.negative.border}"
               }
             },
             "low": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.low.positive.background}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.low.negative.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.low.positive.txtOn}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.low.negative.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.low.positive.border}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.low.negative.border}"
               }
             },
             "mid": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.mid.positive.background}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.mid.negative.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.mid.positive.txtOn}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.mid.negative.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.mid.positive.border}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.mid.negative.border}"
               }
             },
             "high": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.high.positive.background}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.high.negative.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.high.positive.txtOn}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.high.negative.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.high.positive.border}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.high.negative.border}"
               }
             },
             "higher": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.higher.positive.background}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.higher.negative.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.higher.positive.txtOn}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.higher.negative.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.higher.positive.border}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.higher.negative.border}"
               }
             },
             "highest": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.highest.positive.background}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.highest.negative.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.highest.positive.txtOn}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.highest.negative.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.neutral.highest.positive.border}"
+                "$value": "{theme.color.dark.brand.ambient.neutral.highest.negative.border}"
               }
             }
           },
@@ -14246,99 +14246,99 @@
             "lowest": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.lowest.positive.background}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.lowest.negative.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.lowest.positive.txtOn}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.lowest.negative.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.lowest.positive.border}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.lowest.negative.border}"
               }
             },
             "lower": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.lower.positive.background}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.lower.negative.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.lower.positive.txtOn}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.lower.negative.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.lower.positive.border}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.lower.negative.border}"
               }
             },
             "low": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.low.positive.background}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.low.negative.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.low.positive.txtOn}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.low.negative.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.low.positive.border}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.low.negative.border}"
               }
             },
             "mid": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.mid.positive.background}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.mid.negative.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.mid.positive.txtOn}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.mid.negative.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.mid.positive.border}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.mid.negative.border}"
               }
             },
             "high": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.high.positive.background}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.high.negative.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.high.positive.txtOn}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.high.negative.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.high.positive.border}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.high.negative.border}"
               }
             },
             "higher": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.higher.positive.background}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.higher.negative.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.higher.positive.txtOn}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.higher.negative.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.higher.positive.border}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.higher.negative.border}"
               }
             },
             "highest": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.highest.positive.background}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.highest.negative.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.highest.positive.txtOn}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.highest.negative.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.ambient.grayscale.highest.positive.border}"
+                "$value": "{theme.color.dark.brand.ambient.grayscale.highest.negative.border}"
               }
             }
           }
@@ -14348,43 +14348,43 @@
             "lowest": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.first.lowest.background}"
+                "$value": "{theme.color.dark.brand.branding.first.lowest.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.first.lowest.txtOn}"
+                "$value": "{theme.color.dark.brand.branding.first.lowest.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.first.lowest.border}"
+                "$value": "{theme.color.dark.brand.branding.first.lowest.border}"
               }
             },
             "default": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.first.default.background}"
+                "$value": "{theme.color.dark.brand.branding.first.default.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.first.default.txtOn}"
+                "$value": "{theme.color.dark.brand.branding.first.default.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.first.default.border}"
+                "$value": "{theme.color.dark.brand.branding.first.default.border}"
               }
             },
             "highest": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.first.highest.background}"
+                "$value": "{theme.color.dark.brand.branding.first.highest.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.first.highest.txtOn}"
+                "$value": "{theme.color.dark.brand.branding.first.highest.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.first.highest.border}"
+                "$value": "{theme.color.dark.brand.branding.first.highest.border}"
               }
             }
           },
@@ -14392,43 +14392,43 @@
             "lowest": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.second.lowest.background}"
+                "$value": "{theme.color.dark.brand.branding.second.lowest.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.second.lowest.txtOn}"
+                "$value": "{theme.color.dark.brand.branding.second.lowest.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.second.lowest.border}"
+                "$value": "{theme.color.dark.brand.branding.second.lowest.border}"
               }
             },
             "default": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.second.default.background}"
+                "$value": "{theme.color.dark.brand.branding.second.default.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.second.default.txtOn}"
+                "$value": "{theme.color.dark.brand.branding.second.default.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.second.default.border}"
+                "$value": "{theme.color.dark.brand.branding.second.default.border}"
               }
             },
             "highest": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.second.highest.background}"
+                "$value": "{theme.color.dark.brand.branding.second.highest.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.second.highest.txtOn}"
+                "$value": "{theme.color.dark.brand.branding.second.highest.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.second.highest.border}"
+                "$value": "{theme.color.dark.brand.branding.second.highest.border}"
               }
             }
           },
@@ -14436,43 +14436,43 @@
             "lowest": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.third.lowest.background}"
+                "$value": "{theme.color.dark.brand.branding.third.lowest.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.third.lowest.txtOn}"
+                "$value": "{theme.color.dark.brand.branding.third.lowest.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.third.lowest.border}"
+                "$value": "{theme.color.dark.brand.branding.third.lowest.border}"
               }
             },
             "default": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.third.default.background}"
+                "$value": "{theme.color.dark.brand.branding.third.default.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.third.default.txtOn}"
+                "$value": "{theme.color.dark.brand.branding.third.default.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.third.default.border}"
+                "$value": "{theme.color.dark.brand.branding.third.default.border}"
               }
             },
             "highest": {
               "background": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.third.highest.background}"
+                "$value": "{theme.color.dark.brand.branding.third.highest.background}"
               },
               "txtOn": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.third.highest.txtOn}"
+                "$value": "{theme.color.dark.brand.branding.third.highest.txtOn}"
               },
               "border": {
                 "$type": "color",
-                "$value": "{theme.color.light.brand.branding.third.highest.border}"
+                "$value": "{theme.color.dark.brand.branding.third.highest.border}"
               }
             }
           }
@@ -14483,29 +14483,29 @@
           "positive": {
             "primary": {
               "$type": "color",
-              "$value": "{mode.gradient.light.interface.positive.primary}"
+              "$value": "{mode.gradient.dark.interface.positive.primary}"
             },
             "secondary": {
               "$type": "color",
-              "$value": "{mode.gradient.light.interface.positive.secondary}"
+              "$value": "{mode.gradient.dark.interface.positive.secondary}"
             },
             "link": {
               "$type": "color",
-              "$value": "{mode.gradient.light.interface.positive.link}"
+              "$value": "{mode.gradient.dark.interface.positive.link}"
             }
           },
           "negative": {
             "primary": {
               "$type": "color",
-              "$value": "{mode.gradient.light.interface.negative.primary}"
+              "$value": "{mode.gradient.dark.interface.negative.primary}"
             },
             "secondary": {
               "$type": "color",
-              "$value": "{mode.gradient.light.interface.negative.secondary}"
+              "$value": "{mode.gradient.dark.interface.negative.secondary}"
             },
             "link": {
               "$type": "color",
-              "$value": "{mode.gradient.light.interface.negative.link}"
+              "$value": "{mode.gradient.dark.interface.negative.link}"
             }
           }
         },
@@ -14513,53 +14513,53 @@
           "positive": {
             "promo_default": {
               "$type": "color",
-              "$value": "{mode.gradient.light.product.positive.promo_default}"
+              "$value": "{mode.gradient.dark.product.positive.promo_default}"
             },
             "promo_secondary": {
               "$type": "color",
-              "$value": "{mode.gradient.light.product.positive.promo_secondary}"
+              "$value": "{mode.gradient.dark.product.positive.promo_secondary}"
             },
             "cashback_default": {
               "$type": "color",
-              "$value": "{mode.gradient.light.product.positive.cashback_default}"
+              "$value": "{mode.gradient.dark.product.positive.cashback_default}"
             },
             "cashback_secondary": {
               "$type": "color",
-              "$value": "{mode.gradient.light.product.positive.cashback_secondary}"
+              "$value": "{mode.gradient.dark.product.positive.cashback_secondary}"
             },
             "premium_default": {
               "$type": "color",
-              "$value": "{mode.gradient.light.product.positive.premium_default}"
+              "$value": "{mode.gradient.dark.product.positive.premium_default}"
             },
             "premium_secondary": {
               "$type": "color",
-              "$value": "{mode.gradient.light.product.positive.premium_secondary}"
+              "$value": "{mode.gradient.dark.product.positive.premium_secondary}"
             }
           },
           "negative": {
             "promo_default": {
               "$type": "color",
-              "$value": "{mode.gradient.light.product.negative.promo_default}"
+              "$value": "{mode.gradient.dark.product.negative.promo_default}"
             },
             "promo_secondary": {
               "$type": "color",
-              "$value": "{mode.gradient.light.product.negative.promo_secondary}"
+              "$value": "{mode.gradient.dark.product.negative.promo_secondary}"
             },
             "cashback_default": {
               "$type": "color",
-              "$value": "{mode.gradient.light.product.negative.cashback_default}"
+              "$value": "{mode.gradient.dark.product.negative.cashback_default}"
             },
             "cashback_secondary": {
               "$type": "color",
-              "$value": "{mode.gradient.light.product.negative.cashback_secondary}"
+              "$value": "{mode.gradient.dark.product.negative.cashback_secondary}"
             },
             "premium_default": {
               "$type": "color",
-              "$value": "{mode.gradient.light.product.negative.premium_default}"
+              "$value": "{mode.gradient.dark.product.negative.premium_default}"
             },
             "premium_secondary": {
               "$type": "color",
-              "$value": "{mode.gradient.light.product.negative.premium_secondary}"
+              "$value": "{mode.gradient.dark.product.negative.premium_secondary}"
             }
           }
         },
@@ -14567,43 +14567,43 @@
           "first": {
             "lowest": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.configColor.first.lowest}"
+              "$value": "{theme.color.dark.gradient.configColor.first.lowest}"
             },
             "default": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.configColor.first.default}"
+              "$value": "{theme.color.dark.gradient.configColor.first.default}"
             },
             "highest": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.configColor.first.highest}"
+              "$value": "{theme.color.dark.gradient.configColor.first.highest}"
             }
           },
           "second": {
             "lowest": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.configColor.second.lowest}"
+              "$value": "{theme.color.dark.gradient.configColor.second.lowest}"
             },
             "default": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.configColor.second.default}"
+              "$value": "{theme.color.dark.gradient.configColor.second.default}"
             },
             "highest": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.configColor.second.highest}"
+              "$value": "{theme.color.dark.gradient.configColor.second.highest}"
             }
           },
           "third": {
             "lowest": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.configColor.third.lowest}"
+              "$value": "{theme.color.dark.gradient.configColor.third.lowest}"
             },
             "default": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.configColor.third.default}"
+              "$value": "{theme.color.dark.gradient.configColor.third.default}"
             },
             "highest": {
               "$type": "color",
-              "$value": "{theme.color.light.gradient.configColor.third.highest}"
+              "$value": "{theme.color.dark.gradient.configColor.third.highest}"
             }
           }
         }

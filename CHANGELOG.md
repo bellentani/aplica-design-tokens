@@ -10,6 +10,27 @@ All notable changes to **this repository** (Aplica Design Tokens reference) are 
 
 ---
 
+## [2.1.0] - 2025-02-25
+
+### Added
+
+- **Tokens-free generation (theme × mode × surface):** `npm run make:tokens-free` now outputs one JSON file per combination **theme × mode × surface** (e.g. `tokens-free-aplica_joy-light-positive.json`, `tokens-free-aplica_joy-dark-negative.json`) in `data/aplica-theme-free/`. Output uses DTCG (W3C) notation (`$type`, `$value`).
+- **docs/context/TOKENS_FREE_GENERATION.md:** Reference for merge order, output naming, clean-build behavior, and base file resolution. Linked from AI_CONTEXT and INDEX.
+
+### Changed
+
+- **scripts/make-tokens-free.mjs:** Rewritten to build per-theme base (primitive_theme → grayscale → dimension → borders → typography → gradients → _brand), then per combination (mode → surface → semantic → foundation/engine). Output directory is cleared on each run.
+- **data/aplica-theme-free/:** Output structure is now one file per theme-mode-surface (16 files for 4 themes × 2 modes × 2 surfaces) instead of one file per theme.
+- **AI_CONTEXT.md:** Data structure table includes `data/aplica-theme-free/`; Key files include `scripts/make-tokens-free.mjs` and link to TOKENS_FREE_GENERATION.md.
+- **docs/context/INDEX.md:** Added link to TOKENS_FREE_GENERATION.md under Theme and data.
+- **README.md:** aplica-theme-free described as built single-file sets (theme × mode × surface); Figma Free usage points to aplica-theme-free or data/tokens-aplica-default.json.
+
+### Removed
+
+- Previous one-file-per-theme outputs from aplica-theme-free (e.g. `tokens-free-aplica_joy.json`, `tokens-free-theme-engine.json`) in favor of theme-mode-surface files.
+
+---
+
 ## [2.0.0] - 2025-02-25
 
 ### Added
