@@ -15,8 +15,7 @@ This repository is a **public reference** for the Aplica Theme token architectur
 | **data/aplica-theme/** | Resolved tokens; full structure (foundation, semantic, surface, mode, dimension, brand). Use as boilerplate in Figma. |
 | **data/aplica-theme-with-extensions/** | Same structure with Tokens Studio Extensions (e.g. dark mode via `$extensions.studio.tokens.modify`); includes figma-generators. |
 | **docs/pt-br/, docs/en/** | Architecture (#01, #03, #05), implementation (#04), theme structure (#07), semantics (#06). |
-| **docs/context/** | Agent rules (AGENT_GUIDE, RULES), index (INDEX), summary (this file), LLM workflow. |
-| **tokens-studio-model/** | Alternative layout (brand/theme/joy); reference for extensions. |
+| **docs/context/** | Agent rules (AGENT_GUIDE, RULES), index (INDEX), summary (this file), LLM workflow, changelogs (CHANGELOG_DETAILED). |
 | **data/tokens-aplica-*.json** | Unified token outputs; documented separately. |
 
 ## Current status

@@ -10,6 +10,8 @@
 - **[AI_CONTEXT.md](../../AI_CONTEXT.md)**: Master entry point. Read first.
 - **[docs/context/AGENT_GUIDE.md](AGENT_GUIDE.md)**: Operational rules for agents.
 - **[docs/context/RULES.md](RULES.md)**: Project constitution and constraints.
+- **[CHANGELOG.md](../../CHANGELOG.md)**: Main changes per version (Keep a Changelog format).
+- **[docs/context/CHANGELOG_DETAILED.md](CHANGELOG_DETAILED.md)**: Detailed changelog for AI and feature verification; update when releasing or documenting features.
 - **[COMMIT_CONVENTION.md](../../COMMIT_CONVENTION.md)**: Commit message format (Conventional Commits). Use when suggesting or writing commits.
 
 ## Project state (docs/context/)

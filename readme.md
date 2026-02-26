@@ -13,8 +13,7 @@ A **reference** repository for Design Tokens architecture (Aplica Theme) for stu
 - **`docs/`** — Architecture documentation in Portuguese (pt-br) and English (en): layers, semantics, scale, implementation, and [theme structure](docs/pt-br/#07%20Aplica%20Theme%20-%20Estrutura%20do%20Tema.md).
 - **`data/tokens-aplica-default.json`** — Single-file token set based on **aplica_joy** (all values in one file). Use with **Tokens Studio Free** in Figma.
 - **`data/tokens-aplica-boilerplate.json`** — Same architecture as default; **template to start your Design System**. Copy and replace brand colors and typography with your own.
-- **`data/tokens-free-*.json`** — One single-file set per theme (e.g. `tokens-free-aplica-joy.json`, `tokens-free-theme-engine.json`). Regenerate with **`npm run make:tokens-free`** from themes in `data/aplica-theme/brand/` (themes that have `_primitive_theme.json`).
-- **`tokens-studio-model/`** — Alternative model (brand/theme/joy naming, etc.); reference for using extensions, not the default consumption folder.
+- **`data/aplica-theme-free/`** — Single-file token sets built for **Tokens Studio Free**: one file per theme (e.g. `tokens-free-aplica-joy.json`, `tokens-free-theme-engine.json`, `tokens-aplica-default.json`). Generate with **`npm run make:tokens-free`** from themes in `data/aplica-theme/brand/`.
 
 ---
 
@@ -24,13 +23,12 @@ A **reference** repository for Design Tokens architecture (Aplica Theme) for stu
 ├── data/
 │   ├── aplica-theme/                    # Resolved tokens (Figma/Tokens Studio)
 │   ├── aplica-theme-with-extensions/    # Same structure + Extensions (e.g. dark)
+│   ├── aplica-theme-free/               # Built single-file sets (npm run make:tokens-free)
 │   ├── tokens-aplica-boilerplate.json
-│   ├── tokens-aplica-default.json
-│   └── tokens-free-*.json               # One per theme (npm run make:tokens-free)
+│   └── tokens-aplica-default.json
 ├── docs/
 │   ├── pt-br/                           # Documentation in Portuguese
 │   └── en/                              # Documentation in English
-├── tokens-studio-model/                 # Alternative reference (extensions)
 ├── AI_CONTEXT.md                        # Context for AI agents
 ├── README.md
 └── LICENSE
@@ -41,13 +39,14 @@ A **reference** repository for Design Tokens architecture (Aplica Theme) for stu
 ## How to use in Figma
 
 **Tokens Studio version:**  
-- **Free:** You can use the free version of [Tokens Studio](https://www.tokens.studio/) to load **`data/tokens-aplica-default.json`** (unified token output).  
+- **Free:** Use the free version of [Tokens Studio](https://www.tokens.studio/) with **`data/aplica-theme-free/`** (e.g. `tokens-aplica-default.json` or `tokens-free-aplica-joy.json`) or **`data/tokens-aplica-default.json`**.  
 - **Pro:** Loading **`data/aplica-theme`** or **`data/aplica-theme-with-extensions`** (multi-set theme structure with `$metadata.json` / `$themes.json`) requires **Tokens Studio Pro**.
 
 1. Install the [Tokens Studio](https://www.tokens.studio/) plugin in Figma (free or Pro, depending on which data you use).
 2. Clone this repository or download the desired data folder or file.
 3. In Tokens Studio, **connect** the project to the repository or import the data:
-   - **`data/tokens-aplica-default.json`** — single file (aplica_joy filled); works with the **free** version.
+   - **`data/aplica-theme-free/`** — built single-file sets; works with the **free** version (run `npm run make:tokens-free` to generate).
+   - **`data/tokens-aplica-default.json`** — single file (aplica_joy); also generated into `aplica-theme-free/`.
    - **`data/tokens-aplica-boilerplate.json`** — same structure as default; use as starting point for your DS (replace brand/typography).
    - **`data/aplica-theme`** — full theme structure; requires **Pro**. Direct use; all values already calculated.
    - **`data/aplica-theme-with-extensions`** — full theme with Extensions; requires **Pro**. Dark mode and dimension generated via the plugin.

@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /**
  * Generates single-file "tokens-free" JSON for each theme in data/aplica-theme/brand/
- * that has _primitive_theme.json. Output: data/tokens-free-{theme}.json
+ * that has _primitive_theme.json. Output: data/aplica-theme-free/tokens-free-{theme}.json
  *
- * Run: npm run make tokens-free
+ * Run: npm run make:tokens-free
  */
 
 import fs from 'fs';
@@ -13,8 +13,9 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
 const THEMES_DIR = path.join(ROOT, 'data/aplica-theme/brand');
-const BASE_PATH = path.join(ROOT, 'data/tokens-aplica-default.json');
-const OUT_DIR = path.join(ROOT, 'data');
+const OUT_DIR = path.join(ROOT, 'data/aplica-theme-free');
+const BASE_PATH_DEFAULT = path.join(ROOT, 'data/tokens-aplica-default.json');
+const BASE_PATH_FREE = path.join(OUT_DIR, 'tokens-aplica-default.json');
 
 const BRAND_KEYS = ['first', 'second', 'third'];
 
@@ -124,12 +125,15 @@ function main() {
     console.error('Themes dir not found:', THEMES_DIR);
     process.exit(1);
   }
-  if (!fs.existsSync(BASE_PATH)) {
-    console.error('Base file not found:', BASE_PATH);
+  const basePath = fs.existsSync(BASE_PATH_FREE) ? BASE_PATH_FREE : BASE_PATH_DEFAULT;
+  if (!fs.existsSync(basePath)) {
+    console.error('Base file not found. Put tokens-aplica-default.json in data/ or data/aplica-theme-free/:', basePath);
     process.exit(1);
   }
 
-  const baseContent = JSON.parse(fs.readFileSync(BASE_PATH, 'utf8'));
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+
+  const baseContent = JSON.parse(fs.readFileSync(basePath, 'utf8'));
   const dirs = fs.readdirSync(THEMES_DIR, { withFileTypes: true });
   const themeDirs = dirs.filter((d) => d.isDirectory()).map((d) => d.name);
 
@@ -148,7 +152,7 @@ function main() {
     if (themeName === 'aplica_joy') {
       const defaultPath = path.join(OUT_DIR, 'tokens-aplica-default.json');
       fs.writeFileSync(defaultPath, JSON.stringify(content, null, 2), 'utf8');
-      console.log('Updated', defaultPath, '(default = aplica_joy)');
+      console.log('Generated', defaultPath, '(default = aplica_joy)');
     }
     generated++;
   }

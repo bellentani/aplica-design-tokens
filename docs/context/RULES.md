@@ -42,13 +42,13 @@ This repository is a **reference** for token architecture. There is no theme gen
 
 - **`data/`**: Token sets for Tokens Studio. `aplica-theme` = resolved values; `aplica-theme-with-extensions` = same structure with Tokens Studio Extensions (e.g. dark mode via modify).
 - **`docs/`**: Architecture and user docs (pt-br, en) and `docs/context/` for agent rules and index.
-- **`tokens-studio-model/`**: Alternative model for extensions; reference only, not the default consumption path.
 - **Protected control files**: Do not delete or overwrite `data/aplica-theme/$metadata.json`, `data/aplica-theme/$themes.json` (or the same in `aplica-theme-with-extensions`) without explicit intent; they define token set order and theme combinations for Tokens Studio.
 
 ## 5. Release & Versioning
 
+- **Root [CHANGELOG.md](../../CHANGELOG.md):** Clear, direct summary of main changes per version (no long file lists). Use Keep a Changelog format (Added, Changed, Removed, etc.).
+- **Detailed [docs/context/CHANGELOG_DETAILED.md](CHANGELOG_DETAILED.md):** Descriptive changelog for AI; update when implementing features or releasing so future agents can verify what was done (summary, features, files/areas touched, decisions).
 - Any CHANGELOG in this repo describes changes to **this** repo (documentation and data structure), not Aplica Theme Engine versions.
-- If maintaining versioned releases, document modified files in `docs/context/RELEASE_FILES.md` (paths relative to repo root) so forks and IA can target updates.
 
 ## 6. Agent Behavior
 
