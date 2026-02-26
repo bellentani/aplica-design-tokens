@@ -1,8 +1,8 @@
 # Conventional Commits
 
-Este projeto segue o padrão [Conventional Commits](https://www.conventionalcommits.org/) para padronizar as mensagens de commit.
+This project follows [Conventional Commits](https://www.conventionalcommits.org/) to standardize commit messages.
 
-## Formato
+## Format
 
 ```
 <type>[optional scope]: <description>
@@ -12,87 +12,87 @@ Este projeto segue o padrão [Conventional Commits](https://www.conventionalcomm
 [optional footer(s)]
 ```
 
-## Tipos de Commit
+## Commit Types
 
 ### `feat`
-Novas funcionalidades para o usuário.
+New features for the user.
 ```bash
 feat: add new typography styles for mobile
 feat(colors): add new primary color palette
 ```
 
 ### `fix`
-Correções de bugs.
+Bug fixes.
 ```bash
 fix: resolve typography line height issue
 fix(spacing): correct spacing values in mobile theme
 ```
 
 ### `docs`
-Mudanças na documentação.
+Documentation changes.
 ```bash
 docs: update README with new installation steps
 docs: add examples for typography usage
 ```
 
 ### `style`
-Mudanças que não afetam o significado do código (espaçamento, formatação, etc.).
+Changes that do not affect code meaning (spacing, formatting, etc.).
 ```bash
 style: format JSON files with consistent indentation
 style: fix code formatting issues
 ```
 
 ### `refactor`
-Refatoração de código que não corrige bugs nem adiciona funcionalidades.
+Code refactoring that does not fix bugs or add features.
 ```bash
 refactor: reorganize typography structure
 refactor(colors): simplify color token organization
 ```
 
 ### `perf`
-Melhorias de performance.
+Performance improvements.
 ```bash
 perf: optimize typography rendering
 perf: reduce bundle size by removing unused tokens
 ```
 
 ### `test`
-Adicionando ou corrigindo testes.
+Adding or updating tests.
 ```bash
 test: add unit tests for typography styles
 test: fix failing color validation tests
 ```
 
 ### `chore`
-Tarefas de manutenção, dependências, etc.
+Maintenance tasks, dependencies, etc.
 ```bash
 chore: update dependencies
 chore: add commitizen configuration
 ```
 
 ### `ci`
-Mudanças em arquivos de CI/CD.
+CI/CD changes.
 ```bash
 ci: add GitHub Actions workflow
 ci: update deployment configuration
 ```
 
 ### `build`
-Mudanças no sistema de build.
+Build system changes.
 ```bash
 build: update webpack configuration
 build: add new build scripts
 ```
 
 ### `revert`
-Reverter commits anteriores.
+Revert previous commits.
 ```bash
 revert: revert "feat: add new typography styles"
 ```
 
-## Escopo (Opcional)
+## Scope (Optional)
 
-O escopo deve ser o nome do componente afetado (entre parênteses):
+Scope should be the name of the affected component (in parentheses):
 
 ```bash
 feat(typography): add new display styles
@@ -100,15 +100,15 @@ fix(colors): resolve contrast issues
 docs(spacing): update spacing documentation
 ```
 
-## Descrição
+## Description
 
-- Use o imperativo, tempo presente: "add" não "added" nem "adds"
-- Não capitalize a primeira letra
-- Não termine com ponto (.)
+- Use imperative, present tense: "add" not "added" or "adds"
+- Do not capitalize the first letter
+- Do not end with a period (.)
 
-## Corpo (Opcional)
+## Body (Optional)
 
-Use o corpo para explicar o que e por que vs. como:
+Use the body to explain what and why vs. how:
 
 ```bash
 feat: add new typography styles
@@ -118,9 +118,9 @@ feat: add new typography styles
 - Support both regular and bold font weights
 ```
 
-## Rodapé (Opcional)
+## Footer (Optional)
 
-Use o rodapé para referenciar issues:
+Use the footer to reference issues:
 
 ```bash
 feat: add new typography styles
@@ -129,23 +129,32 @@ Closes #123
 Fixes #456
 ```
 
-## Como Usar
+## How to Use
 
-### Usando Commitizen (Recomendado)
-```bash
-npm run commit
-```
-
-### Commit Manual
+### Manual commit
 ```bash
 git commit -m "feat: add new typography styles for mobile"
 ```
 
-## Validação
+## Validation
 
-O projeto usa commitlint para validar automaticamente o formato dos commits. Se o commit não seguir o padrão, ele será rejeitado.
+The project uses commitlint to validate commit format automatically. Commits that do not follow the convention will be rejected.
 
-## Exemplos de Commits Válidos
+### Length rules (commitlint)
+
+- **Subject:** minimum 15 characters, maximum 72.
+- **Header (type + scope + subject):** maximum 90 characters.
+
+### IDE usage (Cursor / VS Code)
+
+- **Maximum length** rules are in `.vscode/settings.json`: the commit box warns when the first line exceeds 90 characters.
+- **Minimum length** is not validated by the IDE; commitlint enforces it on commit (minimum 15 characters in the subject).
+- To use the commit template in the terminal (format reminder), configure once per project:
+  ```bash
+  git config commit.template .vscode/commit-template.txt
+  ```
+
+## Valid Commit Examples
 
 ```bash
 feat: add new color palette
@@ -161,21 +170,21 @@ build: update build configuration
 revert: revert "feat: add new colors"
 ```
 
-## Exemplos de Commits Inválidos
+## Invalid Commit Examples
 
 ```bash
-# Sem tipo
+# Missing type
 update typography styles
 
-# Tipo inválido
+# Invalid type
 update: add new styles
 
-# Descrição muito longa
+# Description too long
 feat: add a very long description that exceeds the maximum length allowed for commit messages
 
-# Com ponto no final
+# Period at the end
 feat: add new styles.
 
-# Capitalizado
+# Capitalized
 feat: Add new styles
-``` 
+```

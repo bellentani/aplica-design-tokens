@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "commit": "echo Use: git commit -m \"tipo: mensagem\" (tipos: feat, fix, docs, chore, refactor, style, perf, test, ci, build)",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "echo Use: git commit -m \"type: message\" (types: feat, fix, docs, chore, refactor, style, perf, test, ci, build)",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make:tokens-free": "node scripts/make-tokens-free.mjs"
   },
   "keywords": [
     "design-tokens",
