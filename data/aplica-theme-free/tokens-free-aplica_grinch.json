@@ -91,50 +91,58 @@
           "type": "borderWidth"
         },
         "extraSmall": {
-          "value": "{size.pico}",
+          "value": "{global.size.pico}",
           "type": "borderWidth"
         },
         "small": {
-          "value": "{size.nano}",
+          "value": "{global.size.nano}",
           "type": "borderWidth"
         },
         "medium": {
-          "value": "{size.micro}",
+          "value": "{global.size.micro}",
           "type": "borderWidth"
         },
         "large": {
-          "value": "{size.extraSmall}",
+          "value": "{global.size.extraSmall}",
           "type": "borderWidth"
         }
       },
       "radii": {
         "straight": {
-          "value": "0",
-          "type": "borderRadius"
+          "type": "borderRadius",
+          "value": "0px"
         },
         "micro": {
-          "value": "{size.micro}",
-          "type": "borderRadius"
+          "type": "borderRadius",
+          "value": "{dimension.semantic.micro}"
         },
         "extraSmall": {
-          "value": "{size.extraSmall}",
-          "type": "borderRadius"
+          "type": "borderRadius",
+          "value": "{dimension.semantic.extraSmall}"
         },
         "small": {
-          "value": "{size.small}",
-          "type": "borderRadius"
+          "type": "borderRadius",
+          "value": "{dimension.semantic.small}"
         },
         "medium": {
-          "value": "{size.medium}",
-          "type": "borderRadius"
+          "type": "borderRadius",
+          "value": "{dimension.semantic.medium}"
         },
         "large": {
-          "value": "{size.large}",
-          "type": "borderRadius"
+          "type": "borderRadius",
+          "value": "{dimension.semantic.extraLarge}"
         },
         "circular": {
-          "value": "10000",
-          "type": "borderRadius"
+          "type": "borderRadius",
+          "value": "1000px"
+        },
+        "extraLarge": {
+          "type": "borderRadius",
+          "value": "{dimension.semantic.mega}"
+        },
+        "mega": {
+          "type": "borderRadius",
+          "value": "{dimension.semantic.giga}"
         }
       },
       "style": {
@@ -154,397 +162,397 @@
       "layout": {
         "sharp": {
           "straight": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           }
         },
         "rounded": {
           "micro": {
-            "value": "{border.radii.micro} {border.radii.micro} {border.radii.micro} {border.radii.micro}",
+            "value": "{global.border.radii.micro} {global.border.radii.micro} {global.border.radii.micro} {global.border.radii.micro}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.extraSmall} {border.radii.extraSmall} {border.radii.extraSmall} {border.radii.extraSmall}",
+            "value": "{global.border.radii.extraSmall} {global.border.radii.extraSmall} {global.border.radii.extraSmall} {global.border.radii.extraSmall}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.small} {border.radii.small} {border.radii.small} {border.radii.small}",
+            "value": "{global.border.radii.small} {global.border.radii.small} {global.border.radii.small} {global.border.radii.small}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.medium} {border.radii.medium} {border.radii.medium} {border.radii.medium}",
+            "value": "{global.border.radii.medium} {global.border.radii.medium} {global.border.radii.medium} {global.border.radii.medium}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.large} {border.radii.large} {border.radii.large} {border.radii.large}",
+            "value": "{global.border.radii.large} {global.border.radii.large} {global.border.radii.large} {global.border.radii.large}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.circular} {border.radii.circular} {border.radii.circular} {border.radii.circular}",
+            "value": "{global.border.radii.circular} {global.border.radii.circular} {global.border.radii.circular} {global.border.radii.circular}",
             "type": "borderRadius"
           }
         },
         "roundedTopRight": {
           "micro": {
-            "value": "{border.radii.straight} {border.radii.micro} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.micro} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.straight} {border.radii.extraSmall} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.extraSmall} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.straight} {border.radii.small} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.small} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.straight} {border.radii.medium} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.medium} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.straight} {border.radii.large} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.large} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.straight} {border.radii.circular} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.circular} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           }
         },
         "roundedTopLeft": {
           "micro": {
-            "value": "{border.radii.micro} {border.radii.straight} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.micro} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.extraSmall} {border.radii.straight} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.extraSmall} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.small} {border.radii.straight} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.small} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.medium} {border.radii.straight} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.medium} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.large} {border.radii.straight} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.large} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.circular} {border.radii.straight} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.circular} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           }
         },
         "roundedBottomRight": {
           "micro": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.micro} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.micro} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.extraSmall} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.extraSmall} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.small} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.small} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.medium} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.medium} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.large} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.large} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.circular} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.circular} {global.border.radii.straight}",
             "type": "borderRadius"
           }
         },
         "roundedBottomLeft": {
           "micro": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.straight} {border.radii.micro}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.micro}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.straight} {border.radii.extraSmall}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.extraSmall}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.straight} {border.radii.small}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.small}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.straight} {border.radii.medium}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.medium}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.straight} {border.radii.large}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.large}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.straight} {border.radii.circular}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.circular}",
             "type": "borderRadius"
           }
         },
         "roundedTop": {
           "micro": {
-            "value": "{border.radii.micro} {border.radii.micro} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.micro} {global.border.radii.micro} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.extraSmall} {border.radii.extraSmall} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.extraSmall} {global.border.radii.extraSmall} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.small} {border.radii.small} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.small} {global.border.radii.small} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.medium} {border.radii.medium} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.medium} {global.border.radii.medium} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.large} {border.radii.large} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.large} {global.border.radii.large} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.circular} {border.radii.circular} {border.radii.straight} {border.radii.straight}",
+            "value": "{global.border.radii.circular} {global.border.radii.circular} {global.border.radii.straight} {global.border.radii.straight}",
             "type": "borderRadius"
           }
         },
         "roundedBottom": {
           "micro": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.micro} {border.radii.micro}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.micro} {global.border.radii.micro}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.extraSmall} {border.radii.extraSmall}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.extraSmall} {global.border.radii.extraSmall}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.small} {border.radii.small}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.small} {global.border.radii.small}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.medium} {border.radii.medium}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.medium} {global.border.radii.medium}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.large} {border.radii.large}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.large} {global.border.radii.large}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.straight} {border.radii.straight} {border.radii.circular} {border.radii.circular}",
+            "value": "{global.border.radii.straight} {global.border.radii.straight} {global.border.radii.circular} {global.border.radii.circular}",
             "type": "borderRadius"
           }
         },
         "roundedRight": {
           "micro": {
-            "value": "{border.radii.straight} {border.radii.micro} {border.radii.micro} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.micro} {global.border.radii.micro} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.straight} {border.radii.extraSmall} {border.radii.extraSmall} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.extraSmall} {global.border.radii.extraSmall} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.straight} {border.radii.small} {border.radii.small} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.small} {global.border.radii.small} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.straight} {border.radii.medium} {border.radii.medium} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.medium} {global.border.radii.medium} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.straight} {border.radii.large} {border.radii.large} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.large} {global.border.radii.large} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.straight} {border.radii.circular} {border.radii.circular} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.circular} {global.border.radii.circular} {global.border.radii.straight}",
             "type": "borderRadius"
           }
         },
         "roundedLeft": {
           "micro": {
-            "value": "{border.radii.micro} {border.radii.straight} {border.radii.straight} {border.radii.micro}",
+            "value": "{global.border.radii.micro} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.micro}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.extraSmall} {border.radii.straight} {border.radii.straight} {border.radii.extraSmall}",
+            "value": "{global.border.radii.extraSmall} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.extraSmall}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.small} {border.radii.straight} {border.radii.straight} {border.radii.small}",
+            "value": "{global.border.radii.small} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.small}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.medium} {border.radii.straight} {border.radii.straight} {border.radii.medium}",
+            "value": "{global.border.radii.medium} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.medium}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.large} {border.radii.straight} {border.radii.straight} {border.radii.large}",
+            "value": "{global.border.radii.large} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.large}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.circular} {border.radii.straight} {border.radii.straight} {border.radii.circular}",
+            "value": "{global.border.radii.circular} {global.border.radii.straight} {global.border.radii.straight} {global.border.radii.circular}",
             "type": "borderRadius"
           }
         },
         "roundedTangentRight": {
           "micro": {
-            "value": "{border.radii.straight} {border.radii.micro} {border.radii.micro} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.micro} {global.border.radii.micro} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.straight} {border.radii.extraSmall} {border.radii.extraSmall} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.extraSmall} {global.border.radii.extraSmall} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.straight} {border.radii.small} {border.radii.small} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.small} {global.border.radii.small} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.straight} {border.radii.medium} {border.radii.medium} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.medium} {global.border.radii.medium} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.straight} {border.radii.large} {border.radii.large} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.large} {global.border.radii.large} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.straight} {border.radii.circular} {border.radii.circular} {border.radii.straight}",
+            "value": "{global.border.radii.straight} {global.border.radii.circular} {global.border.radii.circular} {global.border.radii.straight}",
             "type": "borderRadius"
           }
         },
         "roundedTangentLeft": {
           "micro": {
-            "value": "{border.radii.micro} {border.radii.straight} {border.radii.micro} {border.radii.straight}",
+            "value": "{global.border.radii.micro} {global.border.radii.straight} {global.border.radii.micro} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.extraSmall} {border.radii.straight} {border.radii.extraSmall} {border.radii.straight}",
+            "value": "{global.border.radii.extraSmall} {global.border.radii.straight} {global.border.radii.extraSmall} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.small} {border.radii.straight} {border.radii.small} {border.radii.straight}",
+            "value": "{global.border.radii.small} {global.border.radii.straight} {global.border.radii.small} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.medium} {border.radii.straight} {border.radii.medium} {border.radii.straight}",
+            "value": "{global.border.radii.medium} {global.border.radii.straight} {global.border.radii.medium} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.large} {border.radii.straight} {border.radii.large} {border.radii.straight}",
+            "value": "{global.border.radii.large} {global.border.radii.straight} {global.border.radii.large} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.circular} {border.radii.straight} {border.radii.circular} {border.radii.straight}",
+            "value": "{global.border.radii.circular} {global.border.radii.straight} {global.border.radii.circular} {global.border.radii.straight}",
             "type": "borderRadius"
           }
         },
         "sharpTopRight": {
           "micro": {
-            "value": "{border.radii.micro} {border.radii.straight} {border.radii.micro} {border.radii.micro}",
+            "value": "{global.border.radii.micro} {global.border.radii.straight} {global.border.radii.micro} {global.border.radii.micro}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.extraSmall} {border.radii.straight} {border.radii.extraSmall} {border.radii.extraSmall}",
+            "value": "{global.border.radii.extraSmall} {global.border.radii.straight} {global.border.radii.extraSmall} {global.border.radii.extraSmall}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.small} {border.radii.straight} {border.radii.small} {border.radii.small}",
+            "value": "{global.border.radii.small} {global.border.radii.straight} {global.border.radii.small} {global.border.radii.small}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.medium} {border.radii.straight} {border.radii.medium} {border.radii.medium}",
+            "value": "{global.border.radii.medium} {global.border.radii.straight} {global.border.radii.medium} {global.border.radii.medium}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.large} {border.radii.straight} {border.radii.large} {border.radii.large}",
+            "value": "{global.border.radii.large} {global.border.radii.straight} {global.border.radii.large} {global.border.radii.large}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.circular} {border.radii.straight} {border.radii.circular} {border.radii.circular}",
+            "value": "{global.border.radii.circular} {global.border.radii.straight} {global.border.radii.circular} {global.border.radii.circular}",
             "type": "borderRadius"
           }
         },
         "sharpTopLeft": {
           "micro": {
-            "value": "{border.radii.straight} {border.radii.micro} {border.radii.micro} {border.radii.micro}",
+            "value": "{global.border.radii.straight} {global.border.radii.micro} {global.border.radii.micro} {global.border.radii.micro}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.straight} {border.radii.extraSmall} {border.radii.extraSmall} {border.radii.extraSmall}",
+            "value": "{global.border.radii.straight} {global.border.radii.extraSmall} {global.border.radii.extraSmall} {global.border.radii.extraSmall}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.straight} {border.radii.small} {border.radii.small} {border.radii.small}",
+            "value": "{global.border.radii.straight} {global.border.radii.small} {global.border.radii.small} {global.border.radii.small}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.straight} {border.radii.medium} {border.radii.medium} {border.radii.medium}",
+            "value": "{global.border.radii.straight} {global.border.radii.medium} {global.border.radii.medium} {global.border.radii.medium}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.straight} {border.radii.large} {border.radii.large} {border.radii.large}",
+            "value": "{global.border.radii.straight} {global.border.radii.large} {global.border.radii.large} {global.border.radii.large}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.straight} {border.radii.circular} {border.radii.circular} {border.radii.circular}",
+            "value": "{global.border.radii.straight} {global.border.radii.circular} {global.border.radii.circular} {global.border.radii.circular}",
             "type": "borderRadius"
           }
         },
         "sharpBottomRight": {
           "micro": {
-            "value": "{border.radii.micro} {border.radii.micro} {border.radii.straight} {border.radii.micro}",
+            "value": "{global.border.radii.micro} {global.border.radii.micro} {global.border.radii.straight} {global.border.radii.micro}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.extraSmall} {border.radii.extraSmall} {border.radii.straight} {border.radii.extraSmall}",
+            "value": "{global.border.radii.extraSmall} {global.border.radii.extraSmall} {global.border.radii.straight} {global.border.radii.extraSmall}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.small} {border.radii.small} {border.radii.straight} {border.radii.small}",
+            "value": "{global.border.radii.small} {global.border.radii.small} {global.border.radii.straight} {global.border.radii.small}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.medium} {border.radii.medium} {border.radii.straight} {border.radii.medium}",
+            "value": "{global.border.radii.medium} {global.border.radii.medium} {global.border.radii.straight} {global.border.radii.medium}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.large} {border.radii.large} {border.radii.straight} {border.radii.large}",
+            "value": "{global.border.radii.large} {global.border.radii.large} {global.border.radii.straight} {global.border.radii.large}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.circular} {border.radii.circular} {border.radii.straight} {border.radii.circular}",
+            "value": "{global.border.radii.circular} {global.border.radii.circular} {global.border.radii.straight} {global.border.radii.circular}",
             "type": "borderRadius"
           }
         },
         "sharpBottomLeft": {
           "micro": {
-            "value": "{border.radii.micro} {border.radii.micro} {border.radii.micro} {border.radii.straight}",
+            "value": "{global.border.radii.micro} {global.border.radii.micro} {global.border.radii.micro} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "extraSmall": {
-            "value": "{border.radii.extraSmall} {border.radii.extraSmall} {border.radii.extraSmall} {border.radii.straight}",
+            "value": "{global.border.radii.extraSmall} {global.border.radii.extraSmall} {global.border.radii.extraSmall} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{border.radii.small} {border.radii.small} {border.radii.small} {border.radii.straight}",
+            "value": "{global.border.radii.small} {global.border.radii.small} {global.border.radii.small} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "medium": {
-            "value": "{border.radii.medium} {border.radii.medium} {border.radii.medium} {border.radii.straight}",
+            "value": "{global.border.radii.medium} {global.border.radii.medium} {global.border.radii.medium} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "large": {
-            "value": "{border.radii.large} {border.radii.large} {border.radii.large} {border.radii.straight}",
+            "value": "{global.border.radii.large} {global.border.radii.large} {global.border.radii.large} {global.border.radii.straight}",
             "type": "borderRadius"
           },
           "circular": {
-            "value": "{border.radii.circular} {border.radii.circular} {border.radii.circular} {border.radii.straight}",
+            "value": "{global.border.radii.circular} {global.border.radii.circular} {global.border.radii.circular} {global.border.radii.straight}",
             "type": "borderRadius"
           }
         }
@@ -568,11 +576,11 @@
         },
         "gradient": {
           "main": {
-            "value": "linear-gradient(137deg, {color.brand.solid.main} 0%, {color.brand.solid.opposite} 100%)",
+            "value": "linear-gradient(137deg, {global.color.brand.solid.main} 0%, {global.color.brand.solid.opposite} 100%)",
             "type": "color"
           },
           "secondary": {
-            "value": "radial-gradient(165.5% 165.5% at 12% 10.5%, {color.brand.solid.main} 0%, {color.brand.solid.complementary} 100%)",
+            "value": "radial-gradient(165.5% 165.5% at 12% 10.5%, {global.color.brand.solid.main} 0%, {global.color.brand.solid.complementary} 100%)",
             "type": "color"
           }
         }
@@ -602,64 +610,64 @@
         },
         "grayscale": {
           "5": {
-            "value": "#f7f7f7",
-            "type": "color"
+            "type": "color",
+            "value": "#f7f7f7"
           },
           "10": {
-            "value": "#eeeeee",
-            "type": "color"
+            "type": "color",
+            "value": "#eeeeee"
           },
           "20": {
-            "value": "#dddddd",
-            "type": "color"
+            "type": "color",
+            "value": "#dddddd"
           },
           "30": {
-            "value": "#cccccc",
-            "type": "color"
+            "type": "color",
+            "value": "#cccccc"
           },
           "40": {
-            "value": "#bbbbbb",
-            "type": "color"
+            "type": "color",
+            "value": "#bbbbbb"
           },
           "50": {
-            "value": "#aaaaaa",
-            "type": "color"
+            "type": "color",
+            "value": "#aaaaaa"
           },
           "60": {
-            "value": "#999999",
-            "type": "color"
+            "type": "color",
+            "value": "#999999"
           },
           "70": {
-            "value": "#888888",
-            "type": "color"
+            "type": "color",
+            "value": "#888888"
           },
           "80": {
-            "value": "#777777",
-            "type": "color"
+            "type": "color",
+            "value": "#777777"
           },
           "90": {
-            "value": "#666666",
-            "type": "color"
+            "type": "color",
+            "value": "#666666"
           },
           "100": {
-            "value": "#555555",
-            "type": "color"
+            "type": "color",
+            "value": "#555555"
           },
           "110": {
-            "value": "#444444",
-            "type": "color"
+            "type": "color",
+            "value": "#444444"
           },
           "120": {
-            "value": "#333333",
-            "type": "color"
+            "type": "color",
+            "value": "#333333"
           },
           "130": {
-            "value": "#222222",
-            "type": "color"
+            "type": "color",
+            "value": "#222222"
           },
           "140": {
-            "value": "#111111",
-            "type": "color"
+            "type": "color",
+            "value": "#111111"
           }
         },
         "neutral": {
@@ -920,37 +928,37 @@
           "positive": {
             "base": {
               "title": {
-                "value": "{color.ambient.grayscale.80}",
+                "value": "{global.color.ambient.grayscale.80}",
                 "type": "color"
               },
               "body": {
-                "value": "{color.ambient.grayscale.80}",
+                "value": "{global.color.ambient.grayscale.80}",
                 "type": "color"
               },
               "muted": {
-                "value": "{color.ambient.grayscale.50}",
+                "value": "{global.color.ambient.grayscale.50}",
                 "type": "color"
               },
               "labels": {
-                "value": "{color.ambient.grayscale.90}",
+                "value": "{global.color.ambient.grayscale.90}",
                 "type": "color"
               }
             },
             "feedback": {
               "info": {
-                "value": "{color.interaction.feedback.info.action}",
+                "value": "{global.color.interaction.feedback.info.action}",
                 "type": "color"
               },
               "success": {
-                "value": "{color.interaction.feedback.success.action}",
+                "value": "{global.color.interaction.feedback.success.action}",
                 "type": "color"
               },
               "warning": {
-                "value": "{color.interaction.feedback.warning.action}",
+                "value": "{global.color.interaction.feedback.warning.action}",
                 "type": "color"
               },
               "error": {
-                "value": "{color.interaction.feedback.danger.action}",
+                "value": "{global.color.interaction.feedback.danger.action}",
                 "type": "color"
               }
             }
@@ -958,37 +966,37 @@
           "negative": {
             "base": {
               "title": {
-                "value": "{color.ambient.grayscale.20}",
+                "value": "{global.color.ambient.grayscale.20}",
                 "type": "color"
               },
               "body": {
-                "value": "{color.ambient.grayscale.20}",
+                "value": "{global.color.ambient.grayscale.20}",
                 "type": "color"
               },
               "muted": {
-                "value": "{color.ambient.grayscale.40}",
+                "value": "{global.color.ambient.grayscale.40}",
                 "type": "color"
               },
               "labels": {
-                "value": "{color.ambient.grayscale.20}",
+                "value": "{global.color.ambient.grayscale.20}",
                 "type": "color"
               }
             },
             "feedback": {
               "info": {
-                "value": "{color.interaction.feedback.info.action}",
+                "value": "{global.color.interaction.feedback.info.action}",
                 "type": "color"
               },
               "success": {
-                "value": "{color.interaction.feedback.success.action}",
+                "value": "{global.color.interaction.feedback.success.action}",
                 "type": "color"
               },
               "warning": {
-                "value": "{color.interaction.feedback.warning.action}",
+                "value": "{global.color.interaction.feedback.warning.action}",
                 "type": "color"
               },
               "error": {
-                "value": "{color.interaction.feedback.danger.action}",
+                "value": "{global.color.interaction.feedback.danger.action}",
                 "type": "color"
               }
             }
@@ -1075,16 +1083,20 @@
     "text": {
       "fontFamilies": {
         "main": {
-          "value": "Poppins",
-          "type": "fontFamilies"
+          "type": "fontFamilies",
+          "value": "Roboto"
         },
         "content": {
-          "value": "Poppins",
-          "type": "fontFamilies"
+          "type": "fontFamilies",
+          "value": "Roboto"
         },
         "code": {
-          "value": "Source Code Pro",
-          "type": "fontFamilies"
+          "type": "fontFamilies",
+          "value": "IBM Plex Mono"
+        },
+        "display": {
+          "type": "fontFamilies",
+          "value": "Sansita"
         }
       },
       "fontWeights": {
@@ -1417,35 +1429,35 @@
           "type": "paragraphSpacing"
         },
         "micro": {
-          "value": "{spacing.micro}",
+          "value": "{global.spacing.micro}",
           "type": "paragraphSpacing"
         },
         "extraSmall": {
-          "value": "{spacing.extraSmall}",
+          "value": "{global.spacing.extraSmall}",
           "type": "paragraphSpacing"
         },
         "small": {
-          "value": "{spacing.small}",
+          "value": "{global.spacing.small}",
           "type": "paragraphSpacing"
         },
         "medium": {
-          "value": "{spacing.medium}",
+          "value": "{global.spacing.medium}",
           "type": "paragraphSpacing"
         },
         "large": {
-          "value": "{spacing.large}",
+          "value": "{global.spacing.large}",
           "type": "paragraphSpacing"
         },
         "extraLarge": {
-          "value": "{spacing.extraLarge}",
+          "value": "{global.spacing.extraLarge}",
           "type": "paragraphSpacing"
         },
         "mega": {
-          "value": "{spacing.mega}",
+          "value": "{global.spacing.mega}",
           "type": "paragraphSpacing"
         },
         "giga": {
-          "value": "{spacing.giga}",
+          "value": "{global.spacing.giga}",
           "type": "paragraphSpacing"
         }
       },
@@ -1837,35 +1849,35 @@
             "type": "other"
           },
           "micro": {
-            "value": "{size.micro}",
+            "value": "{global.size.micro}",
             "type": "other"
           },
           "extraSmall": {
-            "value": "{size.extraSmall}",
+            "value": "{global.size.extraSmall}",
             "type": "other"
           },
           "small": {
-            "value": "{size.small}",
+            "value": "{global.size.small}",
             "type": "other"
           },
           "medium": {
-            "value": "{size.medium}",
+            "value": "{global.size.medium}",
             "type": "other"
           },
           "large": {
-            "value": "{size.large}",
+            "value": "{global.size.large}",
             "type": "other"
           },
           "extraLarge": {
-            "value": "{size.extraLarge}",
+            "value": "{global.size.extraLarge}",
             "type": "other"
           },
           "mega": {
-            "value": "{size.mega}",
+            "value": "{global.size.mega}",
             "type": "other"
           },
           "giga": {
-            "value": "{size.giga}",
+            "value": "{global.size.giga}",
             "type": "other"
           }
         },
@@ -1885,15 +1897,15 @@
         },
         "proximity": {
           "distant": {
-            "value": "-{size.extraSmall}",
+            "value": "-{global.size.extraSmall}",
             "type": "other"
           },
           "medium": {
-            "value": "-{size.micro}",
+            "value": "-{global.size.micro}",
             "type": "other"
           },
           "close": {
-            "value": "-{size.nano}",
+            "value": "-{global.size.nano}",
             "type": "other"
           },
           "flat": {
@@ -1904,41 +1916,41 @@
         "luminosity": {
           "shadow": {
             "deep": {
-              "value": "{color.ambient.contrast.deep.dark}",
+              "value": "{global.color.ambient.contrast.deep.dark}",
               "type": "other"
             },
             "regular": {
-              "value": "{color.ambient.grayscale.50}",
+              "value": "{global.color.ambient.grayscale.50}",
               "type": "other"
             },
             "smooth": {
-              "value": "{color.ambient.grayscale.30}",
+              "value": "{global.color.ambient.grayscale.30}",
               "type": "other"
             }
           },
           "light": {
             "bright": {
-              "value": "{color.ambient.contrast.deep.light}",
+              "value": "{global.color.ambient.contrast.deep.light}",
               "type": "other"
             },
             "primary": {
-              "value": "{color.interaction.function.primary.default}",
+              "value": "{global.color.interaction.function.primary.default}",
               "type": "other"
             },
             "info": {
-              "value": "{color.interaction.feedback.info.default}",
+              "value": "{global.color.interaction.feedback.info.default}",
               "type": "other"
             },
             "success": {
-              "value": "{color.interaction.feedback.success.default}",
+              "value": "{global.color.interaction.feedback.success.default}",
               "type": "other"
             },
             "warning": {
-              "value": "{color.interaction.feedback.warning.default}",
+              "value": "{global.color.interaction.feedback.warning.default}",
               "type": "other"
             },
             "danger": {
-              "value": "{color.interaction.feedback.danger.default}",
+              "value": "{global.color.interaction.feedback.danger.default}",
               "type": "other"
             }
           }
@@ -2038,6 +2050,84 @@
           },
           "type": "boxShadow",
           "description": ""
+        }
+      }
+    },
+    "gradientConfig": {
+      "degrees": {
+        "horizontal": {
+          "type": "number",
+          "value": 180
+        },
+        "vertical": {
+          "type": "number",
+          "value": 270
+        },
+        "toBottom": {
+          "type": "number",
+          "value": 90
+        },
+        "diagonalLeft": {
+          "type": "number",
+          "value": -45
+        },
+        "diagonalRight": {
+          "type": "number",
+          "value": 45
+        },
+        "diagonalBrand": {
+          "type": "number",
+          "value": 135
+        },
+        "diagonalBrandAlt": {
+          "type": "number",
+          "value": 141
+        }
+      },
+      "steps": {
+        "0": {
+          "type": "number",
+          "value": 0
+        },
+        "10": {
+          "type": "number",
+          "value": 10
+        },
+        "20": {
+          "type": "number",
+          "value": 20
+        },
+        "30": {
+          "type": "number",
+          "value": 30
+        },
+        "40": {
+          "type": "number",
+          "value": 40
+        },
+        "50": {
+          "type": "number",
+          "value": 50
+        },
+        "60": {
+          "type": "number",
+          "value": 60
+        },
+        "70": {
+          "type": "number",
+          "value": 70
+        },
+        "80": {
+          "type": "number",
+          "value": 80
+        },
+        "90": {
+          "type": "number",
+          "value": 90
+        },
+        "100": {
+          "type": "number",
+          "value": 100
         }
       }
     }
@@ -5690,6 +5780,212 @@
             }
           }
         }
+      }
+    }
+  },
+  "dimension": {
+    "scale": {
+      "0": {
+        "type": "dimension",
+        "value": "0px",
+        "description": "Zero spacing - removes all spacing, used for resetting margins/padding"
+      },
+      "25": {
+        "type": "dimension",
+        "value": "2px",
+        "description": "Minimal spacing - hairline gaps, subtle borders, tight icon spacing"
+      },
+      "50": {
+        "type": "dimension",
+        "value": "4px",
+        "description": "Tiny spacing - compact padding, small gaps between related elements"
+      },
+      "75": {
+        "type": "dimension",
+        "value": "6px",
+        "description": "Very small spacing - tight padding for dense layouts, small border radius"
+      },
+      "100": {
+        "type": "dimension",
+        "value": "8px",
+        "description": "Small spacing - standard padding for compact components, base unit for spacing scale"
+      },
+      "125": {
+        "type": "dimension",
+        "value": "10px",
+        "description": "Small-medium spacing - slightly more breathing room than base unit"
+      },
+      "150": {
+        "type": "dimension",
+        "value": "12px",
+        "description": "Medium-small spacing - comfortable padding for small components, form field spacing"
+      },
+      "175": {
+        "type": "dimension",
+        "value": "14px",
+        "description": "Medium spacing - standard padding for medium components, card padding"
+      },
+      "200": {
+        "type": "dimension",
+        "value": "16px",
+        "description": "Base spacing - default padding for most components, standard gap between elements"
+      },
+      "225": {
+        "type": "dimension",
+        "value": "18px",
+        "description": "Medium-large spacing - comfortable padding for larger components"
+      },
+      "250": {
+        "type": "dimension",
+        "value": "20px",
+        "description": "Large spacing - generous padding, section spacing, larger gaps"
+      },
+      "275": {
+        "type": "dimension",
+        "value": "22px",
+        "description": "Large-medium spacing - between large and extra large, for flexible layouts"
+      },
+      "300": {
+        "type": "dimension",
+        "value": "24px",
+        "description": "Extra large spacing - substantial padding, major section gaps, card spacing"
+      },
+      "350": {
+        "type": "dimension",
+        "value": "28px",
+        "description": "XL spacing - large component padding, significant section separation"
+      },
+      "400": {
+        "type": "dimension",
+        "value": "32px",
+        "description": "2XL spacing - very large padding, major layout sections, container spacing"
+      },
+      "450": {
+        "type": "dimension",
+        "value": "36px",
+        "description": "2XL-medium spacing - between 2XL and 3XL, for flexible large layouts"
+      },
+      "500": {
+        "type": "dimension",
+        "value": "40px",
+        "description": "3XL spacing - extra large padding, major container spacing, hero sections"
+      },
+      "550": {
+        "type": "dimension",
+        "value": "44px",
+        "description": "Touch target size - minimum recommended size for touch interactions (WCAG)"
+      },
+      "600": {
+        "type": "dimension",
+        "value": "48px",
+        "description": "3XL-large spacing - very large padding, major section spacing"
+      },
+      "700": {
+        "type": "dimension",
+        "value": "56px",
+        "description": "4XL spacing - massive padding, large container spacing, feature sections"
+      },
+      "800": {
+        "type": "dimension",
+        "value": "64px",
+        "description": "5XL spacing - huge padding, major layout sections, page-level spacing"
+      },
+      "900": {
+        "type": "dimension",
+        "value": "72px",
+        "description": "6XL spacing - enormous padding, hero section spacing, major page divisions"
+      },
+      "1000": {
+        "type": "dimension",
+        "value": "80px",
+        "description": "7XL spacing - maximum component padding, large hero sections"
+      },
+      "1200": {
+        "type": "dimension",
+        "value": "96px",
+        "description": "8XL spacing - extreme padding, full-page sections, major layout divisions"
+      },
+      "1400": {
+        "type": "dimension",
+        "value": "112px",
+        "description": "9XL spacing - maximum layout spacing, full-page hero sections"
+      },
+      "1450": {
+        "type": "dimension",
+        "value": "116px",
+        "description": "9XL-large spacing - between 9XL and 10XL, for flexible maximum layouts"
+      },
+      "1600": {
+        "type": "dimension",
+        "value": "128px",
+        "description": "10XL spacing - absolute maximum spacing, full-page sections, extreme layouts"
+      }
+    },
+    "semantic": {
+      "zero": {
+        "type": "dimension",
+        "value": "{dimension.scale.0}",
+        "description": "Zero spacing - removes all spacing, used for resetting margins/padding"
+      },
+      "pico": {
+        "type": "dimension",
+        "value": "1px",
+        "description": "Minimal 1px spacing - hairline gaps, subtle borders, pixel-perfect adjustments"
+      },
+      "nano": {
+        "type": "dimension",
+        "value": "{dimension.scale.25}",
+        "description": "Nano spacing (2px) - minimal gaps, tight icon spacing, subtle borders"
+      },
+      "micro": {
+        "type": "dimension",
+        "value": "{dimension.scale.50}",
+        "description": "Micro spacing (4px) - compact padding, small gaps between related elements"
+      },
+      "extraSmall": {
+        "type": "dimension",
+        "value": "{dimension.scale.100}",
+        "description": "Extra small spacing (8px) - base unit for spacing scale, standard compact padding"
+      },
+      "small": {
+        "type": "dimension",
+        "value": "{dimension.scale.150}",
+        "description": "Small spacing (12px) - comfortable padding for small components, form field spacing"
+      },
+      "medium": {
+        "type": "dimension",
+        "value": "{dimension.scale.200}",
+        "description": "Medium spacing (16px) - default padding for most components, standard gap between elements"
+      },
+      "large": {
+        "type": "dimension",
+        "value": "{dimension.scale.250}",
+        "description": "Large spacing (20px) - generous padding, section spacing, larger gaps"
+      },
+      "extraLarge": {
+        "type": "dimension",
+        "value": "{dimension.scale.300}",
+        "description": "Extra large spacing (24px) - substantial padding, major section gaps, card spacing"
+      },
+      "mega": {
+        "type": "dimension",
+        "value": "{dimension.scale.350}",
+        "description": "Mega spacing (28px) - large component padding, significant section separation"
+      },
+      "giga": {
+        "type": "dimension",
+        "value": "{dimension.scale.550}",
+        "description": "Giga spacing (44px) - touch target size, minimum recommended for touch interactions (WCAG)"
+      },
+      "tera": {
+        "type": "dimension",
+        "value": "{dimension.scale.900}",
+        "description": "Tera spacing (72px) - enormous padding, hero section spacing, major page divisions"
+      },
+      "peta": {
+        "type": "dimension",
+        "value": "{dimension.scale.1450}",
+        "description": "Peta spacing (116px) - maximum layout spacing, full-page hero sections, extreme layouts"
       }
     }
   }

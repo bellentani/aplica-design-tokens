@@ -1084,11 +1084,11 @@
       "fontFamilies": {
         "main": {
           "type": "fontFamilies",
-          "value": "Noto Sans"
+          "value": "Roboto"
         },
         "content": {
           "type": "fontFamilies",
-          "value": "Noto Sans"
+          "value": "Roboto"
         },
         "code": {
           "type": "fontFamilies",
@@ -1096,7 +1096,7 @@
         },
         "display": {
           "type": "fontFamilies",
-          "value": "Poppins"
+          "value": "Sansita"
         }
       },
       "fontWeights": {
