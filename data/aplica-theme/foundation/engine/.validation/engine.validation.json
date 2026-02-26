@@ -1,11 +1,26 @@
 {
-  "foundation": "D:\\workspace\\aplica-ds\\aplica-tokens-theme-engine\\data\\foundation\\engine\\default.json",
-  "semantic": "D:\\workspace\\aplica-ds\\aplica-tokens-theme-engine\\data\\semantic\\default.json",
-  "timestamp": "2026-02-24T11:22:12.609Z",
-  "valid": true,
-  "totalReferences": 138,
-  "validReferences": 138,
-  "invalidReferences": [],
-  "missingTokens": [],
-  "errors": []
+  "foundation": {
+    "$type": "other",
+    "$value": "D:\\workspace\\aplica-ds\\aplica-tokens-theme-engine\\data\\foundation\\engine\\default.json"
+  },
+  "semantic": {
+    "$type": "other",
+    "$value": "D:\\workspace\\aplica-ds\\aplica-tokens-theme-engine\\data\\semantic\\default.json"
+  },
+  "timestamp": {
+    "$type": "other",
+    "$value": "2026-02-24T11:22:12.609Z"
+  },
+  "valid": {
+    "$type": "other",
+    "$value": true
+  },
+  "totalReferences": {
+    "$type": "other",
+    "$value": 138
+  },
+  "validReferences": {
+    "$type": "other",
+    "$value": 138
+  }
 }

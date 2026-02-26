@@ -1,49 +1,136 @@
 {
-  "$description": "Theme generation metadata - All files in this directory are auto-generated",
-  "$generator": "dynamic-themes/scripts/generate-all-themes.mjs",
-  "$config": "dynamic-themes/configs/aplica-joy.config.mjs",
-  "$documentation": "dynamic-themes/README.md",
-  "$generatedAt": "2026-02-24T11:22:10.794Z",
-  "$warning": "All files are auto-generated. Changes will be lost on next generation. Edit the config file instead.",
-  "$files": [
-    {
-      "name": "_primitive_theme.json",
-      "description": "Color primitives - base color palette with all variations",
-      "hasMeta": true
+  "$description": {
+    "$type": "other",
+    "$value": "Theme generation metadata - All files in this directory are auto-generated"
+  },
+  "$generator": {
+    "$type": "other",
+    "$value": "dynamic-themes/scripts/generate-all-themes.mjs"
+  },
+  "$config": {
+    "$type": "other",
+    "$value": "dynamic-themes/configs/aplica-joy.config.mjs"
+  },
+  "$documentation": {
+    "$type": "other",
+    "$value": "dynamic-themes/README.md"
+  },
+  "$generatedAt": {
+    "$type": "other",
+    "$value": "2026-02-24T11:22:10.794Z"
+  },
+  "$warning": {
+    "$type": "other",
+    "$value": "All files are auto-generated. Changes will be lost on next generation. Edit the config file instead."
+  },
+  "$files": {
+    "0": {
+      "name": {
+        "$type": "other",
+        "$value": "_primitive_theme.json"
+      },
+      "description": {
+        "$type": "other",
+        "$value": "Color primitives - base color palette with all variations"
+      },
+      "hasMeta": {
+        "$type": "other",
+        "$value": true
+      }
     },
-    {
-      "name": "_grayscale.json",
-      "description": "Grayscale color tokens",
-      "hasMeta": true
+    "1": {
+      "name": {
+        "$type": "other",
+        "$value": "_grayscale.json"
+      },
+      "description": {
+        "$type": "other",
+        "$value": "Grayscale color tokens"
+      },
+      "hasMeta": {
+        "$type": "other",
+        "$value": true
+      }
     },
-    {
-      "name": "_brand.json",
-      "description": "Brand color tokens - semantic color mappings",
-      "hasMeta": true
+    "2": {
+      "name": {
+        "$type": "other",
+        "$value": "_brand.json"
+      },
+      "description": {
+        "$type": "other",
+        "$value": "Brand color tokens - semantic color mappings"
+      },
+      "hasMeta": {
+        "$type": "other",
+        "$value": true
+      }
     },
-    {
-      "name": "_typography.json",
-      "description": "Typography tokens - font families, sizes, weights, line heights",
-      "hasMeta": true
+    "3": {
+      "name": {
+        "$type": "other",
+        "$value": "_typography.json"
+      },
+      "description": {
+        "$type": "other",
+        "$value": "Typography tokens - font families, sizes, weights, line heights"
+      },
+      "hasMeta": {
+        "$type": "other",
+        "$value": true
+      }
     },
-    {
-      "name": "_borders.json",
-      "description": "Border radius tokens",
-      "hasMeta": true
+    "4": {
+      "name": {
+        "$type": "other",
+        "$value": "_borders.json"
+      },
+      "description": {
+        "$type": "other",
+        "$value": "Border radius tokens"
+      },
+      "hasMeta": {
+        "$type": "other",
+        "$value": true
+      }
     },
-    {
-      "name": "_gradients.json",
-      "description": "Gradient config tokens (degrees, steps) - structure from themes.config.json",
-      "hasMeta": false
+    "5": {
+      "name": {
+        "$type": "other",
+        "$value": "_gradients.json"
+      },
+      "description": {
+        "$type": "other",
+        "$value": "Gradient config tokens (degrees, steps) - structure from themes.config.json"
+      },
+      "hasMeta": {
+        "$type": "other",
+        "$value": false
+      }
     }
-  ],
+  },
   "$options": {
-    "includePrimitives": true,
-    "uiTokens": false
+    "includePrimitives": {
+      "$type": "other",
+      "$value": true
+    },
+    "uiTokens": {
+      "$type": "other",
+      "$value": false
+    }
   },
   "$accessibility": {
-    "level": "AAA",
-    "bypass": false,
-    "validatedAt": "2026-02-24T11:22:10.673Z"
+    "level": {
+      "$type": "other",
+      "$value": "AAA"
+    },
+    "bypass": {
+      "$type": "other",
+      "$value": false
+    },
+    "validatedAt": {
+      "$type": "other",
+      "$value": "2026-02-24T11:22:10.673Z"
+    }
   }
 }

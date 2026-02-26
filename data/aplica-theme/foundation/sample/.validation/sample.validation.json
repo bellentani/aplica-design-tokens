@@ -1,385 +1,1146 @@
 {
-  "foundation": "D:\\workspace\\aplica-ds\\aplica-tokens-theme-engine\\data\\foundation\\sample\\default.json",
-  "semantic": "D:\\workspace\\aplica-ds\\aplica-tokens-theme-engine\\data\\semantic\\default.json",
-  "timestamp": "2026-02-24T11:22:12.789Z",
-  "valid": false,
-  "totalReferences": 148,
-  "validReferences": 86,
-  "invalidReferences": [
-    {
-      "reference": "semantic.color.interface.feedback.info.main.normal.background",
-      "tokenPath": "color.interface.feedback.info.main.normal.background",
-      "suggestion": "color.interface.feedback.info.default.lowest.background"
+  "foundation": {
+    "$type": "other",
+    "$value": "D:\\workspace\\aplica-ds\\aplica-tokens-theme-engine\\data\\foundation\\sample\\default.json"
+  },
+  "semantic": {
+    "$type": "other",
+    "$value": "D:\\workspace\\aplica-ds\\aplica-tokens-theme-engine\\data\\semantic\\default.json"
+  },
+  "timestamp": {
+    "$type": "other",
+    "$value": "2026-02-24T11:22:12.789Z"
+  },
+  "valid": {
+    "$type": "other",
+    "$value": false
+  },
+  "totalReferences": {
+    "$type": "other",
+    "$value": 148
+  },
+  "validReferences": {
+    "$type": "other",
+    "$value": 86
+  },
+  "invalidReferences": {
+    "0": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.info.main.normal.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.info.main.normal.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.info.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.info.secondary.normal.background",
-      "tokenPath": "color.interface.feedback.info.secondary.normal.background",
-      "suggestion": "color.interface.feedback.info.secondary.lowest.background"
+    "1": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.info.secondary.normal.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.info.secondary.normal.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.info.secondary.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.success.main.normal.background",
-      "tokenPath": "color.interface.feedback.success.main.normal.background",
-      "suggestion": "color.interface.feedback.success.default.lowest.background"
+    "2": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.success.main.normal.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.success.main.normal.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.success.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.success.secondary.normal.background",
-      "tokenPath": "color.interface.feedback.success.secondary.normal.background",
-      "suggestion": "color.interface.feedback.success.secondary.lowest.background"
+    "3": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.success.secondary.normal.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.success.secondary.normal.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.success.secondary.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.warning.main.normal.background",
-      "tokenPath": "color.interface.feedback.warning.main.normal.background",
-      "suggestion": "color.interface.feedback.warning.default.lowest.background"
+    "4": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.warning.main.normal.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.warning.main.normal.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.warning.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.warning.secondary.normal.background",
-      "tokenPath": "color.interface.feedback.warning.secondary.normal.background",
-      "suggestion": "color.interface.feedback.warning.secondary.lowest.background"
+    "5": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.warning.secondary.normal.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.warning.secondary.normal.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.warning.secondary.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.danger.main.normal.background",
-      "tokenPath": "color.interface.feedback.danger.main.normal.background",
-      "suggestion": "color.interface.feedback.danger.default.lowest.background"
+    "6": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.danger.main.normal.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.danger.main.normal.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.danger.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.danger.secondary.normal.background",
-      "tokenPath": "color.interface.feedback.danger.secondary.normal.background",
-      "suggestion": "color.interface.feedback.danger.secondary.lowest.background"
+    "7": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.danger.secondary.normal.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.danger.secondary.normal.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.danger.secondary.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.rewards_default.default.background",
-      "tokenPath": "color.product.rewards_default.default.background",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "8": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.rewards_default.default.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.rewards_default.default.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.rewards_secondary.default.background",
-      "tokenPath": "color.product.rewards_secondary.default.background",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "9": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.rewards_secondary.default.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.rewards_secondary.default.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.cold_default.default.background",
-      "tokenPath": "color.product.cold_default.default.background",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "10": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.cold_default.default.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.cold_default.default.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.cold_secondary.default.background",
-      "tokenPath": "color.product.cold_secondary.default.background",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "11": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.cold_secondary.default.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.cold_secondary.default.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.promo_default.default.background",
-      "tokenPath": "color.product.promo_default.default.background",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "12": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.promo_default.default.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.promo_default.default.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.promo_secondary.default.background",
-      "tokenPath": "color.product.promo_secondary.default.background",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "13": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.promo_secondary.default.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.promo_secondary.default.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.time_bomb_default.default.background",
-      "tokenPath": "color.product.time_bomb_default.default.background",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "14": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.time_bomb_default.default.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.time_bomb_default.default.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.time_bomb_secondary.default.background",
-      "tokenPath": "color.product.time_bomb_secondary.default.background",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "15": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.time_bomb_secondary.default.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.time_bomb_secondary.default.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.rgb_default.default.background",
-      "tokenPath": "color.product.rgb_default.default.background",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "16": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.rgb_default.default.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.rgb_default.default.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.rgb_secondary.default.background",
-      "tokenPath": "color.product.rgb_secondary.default.background",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "17": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.rgb_secondary.default.background"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.rgb_secondary.default.background"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.info.main.normal.border",
-      "tokenPath": "color.interface.feedback.info.main.normal.border",
-      "suggestion": "color.interface.feedback.info.default.lowest.background"
+    "18": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.info.main.normal.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.info.main.normal.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.info.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.info.secondary.normal.border",
-      "tokenPath": "color.interface.feedback.info.secondary.normal.border",
-      "suggestion": "color.interface.feedback.info.secondary.lowest.background"
+    "19": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.info.secondary.normal.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.info.secondary.normal.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.info.secondary.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.success.main.normal.border",
-      "tokenPath": "color.interface.feedback.success.main.normal.border",
-      "suggestion": "color.interface.feedback.success.default.lowest.background"
+    "20": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.success.main.normal.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.success.main.normal.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.success.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.success.secondary.normal.border",
-      "tokenPath": "color.interface.feedback.success.secondary.normal.border",
-      "suggestion": "color.interface.feedback.success.secondary.lowest.background"
+    "21": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.success.secondary.normal.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.success.secondary.normal.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.success.secondary.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.warning.main.normal.border",
-      "tokenPath": "color.interface.feedback.warning.main.normal.border",
-      "suggestion": "color.interface.feedback.warning.default.lowest.background"
+    "22": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.warning.main.normal.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.warning.main.normal.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.warning.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.warning.secondary.normal.border",
-      "tokenPath": "color.interface.feedback.warning.secondary.normal.border",
-      "suggestion": "color.interface.feedback.warning.secondary.lowest.background"
+    "23": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.warning.secondary.normal.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.warning.secondary.normal.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.warning.secondary.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.danger.main.normal.border",
-      "tokenPath": "color.interface.feedback.danger.main.normal.border",
-      "suggestion": "color.interface.feedback.danger.default.lowest.background"
+    "24": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.danger.main.normal.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.danger.main.normal.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.danger.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.danger.secondary.normal.border",
-      "tokenPath": "color.interface.feedback.danger.secondary.normal.border",
-      "suggestion": "color.interface.feedback.danger.secondary.lowest.background"
+    "25": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.danger.secondary.normal.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.danger.secondary.normal.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.danger.secondary.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.rewards_default.default.border",
-      "tokenPath": "color.product.rewards_default.default.border",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "26": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.rewards_default.default.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.rewards_default.default.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.rewards_secondary.default.border",
-      "tokenPath": "color.product.rewards_secondary.default.border",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "27": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.rewards_secondary.default.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.rewards_secondary.default.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.cold_default.default.border",
-      "tokenPath": "color.product.cold_default.default.border",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "28": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.cold_default.default.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.cold_default.default.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.cold_secondary.default.border",
-      "tokenPath": "color.product.cold_secondary.default.border",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "29": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.cold_secondary.default.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.cold_secondary.default.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.promo_default.default.border",
-      "tokenPath": "color.product.promo_default.default.border",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "30": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.promo_default.default.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.promo_default.default.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.promo_secondary.default.border",
-      "tokenPath": "color.product.promo_secondary.default.border",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "31": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.promo_secondary.default.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.promo_secondary.default.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.time_bomb_default.default.border",
-      "tokenPath": "color.product.time_bomb_default.default.border",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "32": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.time_bomb_default.default.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.time_bomb_default.default.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.time_bomb_secondary.default.border",
-      "tokenPath": "color.product.time_bomb_secondary.default.border",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "33": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.time_bomb_secondary.default.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.time_bomb_secondary.default.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.rgb_default.default.border",
-      "tokenPath": "color.product.rgb_default.default.border",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "34": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.rgb_default.default.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.rgb_default.default.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.rgb_secondary.default.border",
-      "tokenPath": "color.product.rgb_secondary.default.border",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "35": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.rgb_secondary.default.border"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.rgb_secondary.default.border"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.info.main.normal.txtOn",
-      "tokenPath": "color.interface.feedback.info.main.normal.txtOn",
-      "suggestion": "color.interface.feedback.info.default.lowest.background"
+    "36": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.info.main.normal.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.info.main.normal.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.info.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.info.secondary.normal.txtOn",
-      "tokenPath": "color.interface.feedback.info.secondary.normal.txtOn",
-      "suggestion": "color.interface.feedback.info.secondary.lowest.background"
+    "37": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.info.secondary.normal.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.info.secondary.normal.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.info.secondary.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.success.main.normal.txtOn",
-      "tokenPath": "color.interface.feedback.success.main.normal.txtOn",
-      "suggestion": "color.interface.feedback.success.default.lowest.background"
+    "38": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.success.main.normal.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.success.main.normal.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.success.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.success.secondary.normal.txtOn",
-      "tokenPath": "color.interface.feedback.success.secondary.normal.txtOn",
-      "suggestion": "color.interface.feedback.success.secondary.lowest.background"
+    "39": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.success.secondary.normal.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.success.secondary.normal.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.success.secondary.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.warning.main.normal.txtOn",
-      "tokenPath": "color.interface.feedback.warning.main.normal.txtOn",
-      "suggestion": "color.interface.feedback.warning.default.lowest.background"
+    "40": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.warning.main.normal.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.warning.main.normal.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.warning.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.warning.secondary.normal.txtOn",
-      "tokenPath": "color.interface.feedback.warning.secondary.normal.txtOn",
-      "suggestion": "color.interface.feedback.warning.secondary.lowest.background"
+    "41": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.warning.secondary.normal.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.warning.secondary.normal.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.warning.secondary.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.danger.main.normal.txtOn",
-      "tokenPath": "color.interface.feedback.danger.main.normal.txtOn",
-      "suggestion": "color.interface.feedback.danger.default.lowest.background"
+    "42": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.danger.main.normal.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.danger.main.normal.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.danger.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.interface.feedback.danger.secondary.normal.txtOn",
-      "tokenPath": "color.interface.feedback.danger.secondary.normal.txtOn",
-      "suggestion": "color.interface.feedback.danger.secondary.lowest.background"
+    "43": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.interface.feedback.danger.secondary.normal.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.interface.feedback.danger.secondary.normal.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.interface.feedback.danger.secondary.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.rewards_default.default.txtOn",
-      "tokenPath": "color.product.rewards_default.default.txtOn",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "44": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.rewards_default.default.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.rewards_default.default.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.rewards_secondary.default.txtOn",
-      "tokenPath": "color.product.rewards_secondary.default.txtOn",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "45": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.rewards_secondary.default.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.rewards_secondary.default.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.cold_default.default.txtOn",
-      "tokenPath": "color.product.cold_default.default.txtOn",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "46": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.cold_default.default.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.cold_default.default.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.cold_secondary.default.txtOn",
-      "tokenPath": "color.product.cold_secondary.default.txtOn",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "47": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.cold_secondary.default.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.cold_secondary.default.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.promo_default.default.txtOn",
-      "tokenPath": "color.product.promo_default.default.txtOn",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "48": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.promo_default.default.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.promo_default.default.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.promo_secondary.default.txtOn",
-      "tokenPath": "color.product.promo_secondary.default.txtOn",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "49": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.promo_secondary.default.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.promo_secondary.default.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.time_bomb_default.default.txtOn",
-      "tokenPath": "color.product.time_bomb_default.default.txtOn",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "50": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.time_bomb_default.default.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.time_bomb_default.default.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.time_bomb_secondary.default.txtOn",
-      "tokenPath": "color.product.time_bomb_secondary.default.txtOn",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "51": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.time_bomb_secondary.default.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.time_bomb_secondary.default.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.rgb_default.default.txtOn",
-      "tokenPath": "color.product.rgb_default.default.txtOn",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "52": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.rgb_default.default.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.rgb_default.default.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.product.rgb_secondary.default.txtOn",
-      "tokenPath": "color.product.rgb_secondary.default.txtOn",
-      "suggestion": "color.product.promo.default.lowest.background"
+    "53": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.product.rgb_secondary.default.txtOn"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.product.rgb_secondary.default.txtOn"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.product.promo.default.lowest.background"
+      }
     },
-    {
-      "reference": "semantic.color.text.rewards_default",
-      "tokenPath": "color.text.rewards_default",
-      "suggestion": "color.text.title"
+    "54": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.text.rewards_default"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.text.rewards_default"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.text.title"
+      }
     },
-    {
-      "reference": "semantic.color.text.rewards_secondary",
-      "tokenPath": "color.text.rewards_secondary",
-      "suggestion": "color.text.title"
+    "55": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.text.rewards_secondary"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.text.rewards_secondary"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.text.title"
+      }
     },
-    {
-      "reference": "semantic.color.text.cold_default",
-      "tokenPath": "color.text.cold_default",
-      "suggestion": "color.text.title"
+    "56": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.text.cold_default"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.text.cold_default"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.text.title"
+      }
     },
-    {
-      "reference": "semantic.color.text.cold_secondary",
-      "tokenPath": "color.text.cold_secondary",
-      "suggestion": "color.text.title"
+    "57": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.text.cold_secondary"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.text.cold_secondary"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.text.title"
+      }
     },
-    {
-      "reference": "semantic.color.text.time_bomb_default",
-      "tokenPath": "color.text.time_bomb_default",
-      "suggestion": "color.text.title"
+    "58": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.text.time_bomb_default"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.text.time_bomb_default"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.text.title"
+      }
     },
-    {
-      "reference": "semantic.color.text.time_bomb_secondary",
-      "tokenPath": "color.text.time_bomb_secondary",
-      "suggestion": "color.text.title"
+    "59": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.text.time_bomb_secondary"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.text.time_bomb_secondary"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.text.title"
+      }
     },
-    {
-      "reference": "semantic.color.text.rgb_default",
-      "tokenPath": "color.text.rgb_default",
-      "suggestion": "color.text.title"
+    "60": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.text.rgb_default"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.text.rgb_default"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.text.title"
+      }
     },
-    {
-      "reference": "semantic.color.text.rgb_secondary",
-      "tokenPath": "color.text.rgb_secondary",
-      "suggestion": "color.text.title"
+    "61": {
+      "reference": {
+        "$type": "other",
+        "$value": "semantic.color.text.rgb_secondary"
+      },
+      "tokenPath": {
+        "$type": "other",
+        "$value": "color.text.rgb_secondary"
+      },
+      "suggestion": {
+        "$type": "other",
+        "$value": "color.text.title"
+      }
     }
-  ],
-  "missingTokens": [
-    "color.interface.feedback.info.main.normal.background",
-    "color.interface.feedback.info.secondary.normal.background",
-    "color.interface.feedback.success.main.normal.background",
-    "color.interface.feedback.success.secondary.normal.background",
-    "color.interface.feedback.warning.main.normal.background",
-    "color.interface.feedback.warning.secondary.normal.background",
-    "color.interface.feedback.danger.main.normal.background",
-    "color.interface.feedback.danger.secondary.normal.background",
-    "color.product.rewards_default.default.background",
-    "color.product.rewards_secondary.default.background",
-    "color.product.cold_default.default.background",
-    "color.product.cold_secondary.default.background",
-    "color.product.promo_default.default.background",
-    "color.product.promo_secondary.default.background",
-    "color.product.time_bomb_default.default.background",
-    "color.product.time_bomb_secondary.default.background",
-    "color.product.rgb_default.default.background",
-    "color.product.rgb_secondary.default.background",
-    "color.interface.feedback.info.main.normal.border",
-    "color.interface.feedback.info.secondary.normal.border",
-    "color.interface.feedback.success.main.normal.border",
-    "color.interface.feedback.success.secondary.normal.border",
-    "color.interface.feedback.warning.main.normal.border",
-    "color.interface.feedback.warning.secondary.normal.border",
-    "color.interface.feedback.danger.main.normal.border",
-    "color.interface.feedback.danger.secondary.normal.border",
-    "color.product.rewards_default.default.border",
-    "color.product.rewards_secondary.default.border",
-    "color.product.cold_default.default.border",
-    "color.product.cold_secondary.default.border",
-    "color.product.promo_default.default.border",
-    "color.product.promo_secondary.default.border",
-    "color.product.time_bomb_default.default.border",
-    "color.product.time_bomb_secondary.default.border",
-    "color.product.rgb_default.default.border",
-    "color.product.rgb_secondary.default.border",
-    "color.interface.feedback.info.main.normal.txtOn",
-    "color.interface.feedback.info.secondary.normal.txtOn",
-    "color.interface.feedback.success.main.normal.txtOn",
-    "color.interface.feedback.success.secondary.normal.txtOn",
-    "color.interface.feedback.warning.main.normal.txtOn",
-    "color.interface.feedback.warning.secondary.normal.txtOn",
-    "color.interface.feedback.danger.main.normal.txtOn",
-    "color.interface.feedback.danger.secondary.normal.txtOn",
-    "color.product.rewards_default.default.txtOn",
-    "color.product.rewards_secondary.default.txtOn",
-    "color.product.cold_default.default.txtOn",
-    "color.product.cold_secondary.default.txtOn",
-    "color.product.promo_default.default.txtOn",
-    "color.product.promo_secondary.default.txtOn",
-    "color.product.time_bomb_default.default.txtOn",
-    "color.product.time_bomb_secondary.default.txtOn",
-    "color.product.rgb_default.default.txtOn",
-    "color.product.rgb_secondary.default.txtOn",
-    "color.text.rewards_default",
-    "color.text.rewards_secondary",
-    "color.text.cold_default",
-    "color.text.cold_secondary",
-    "color.text.time_bomb_default",
-    "color.text.time_bomb_secondary",
-    "color.text.rgb_default",
-    "color.text.rgb_secondary"
-  ],
-  "errors": []
+  },
+  "missingTokens": {
+    "0": {
+      "$type": "other",
+      "$value": "color.interface.feedback.info.main.normal.background"
+    },
+    "1": {
+      "$type": "other",
+      "$value": "color.interface.feedback.info.secondary.normal.background"
+    },
+    "2": {
+      "$type": "other",
+      "$value": "color.interface.feedback.success.main.normal.background"
+    },
+    "3": {
+      "$type": "other",
+      "$value": "color.interface.feedback.success.secondary.normal.background"
+    },
+    "4": {
+      "$type": "other",
+      "$value": "color.interface.feedback.warning.main.normal.background"
+    },
+    "5": {
+      "$type": "other",
+      "$value": "color.interface.feedback.warning.secondary.normal.background"
+    },
+    "6": {
+      "$type": "other",
+      "$value": "color.interface.feedback.danger.main.normal.background"
+    },
+    "7": {
+      "$type": "other",
+      "$value": "color.interface.feedback.danger.secondary.normal.background"
+    },
+    "8": {
+      "$type": "other",
+      "$value": "color.product.rewards_default.default.background"
+    },
+    "9": {
+      "$type": "other",
+      "$value": "color.product.rewards_secondary.default.background"
+    },
+    "10": {
+      "$type": "other",
+      "$value": "color.product.cold_default.default.background"
+    },
+    "11": {
+      "$type": "other",
+      "$value": "color.product.cold_secondary.default.background"
+    },
+    "12": {
+      "$type": "other",
+      "$value": "color.product.promo_default.default.background"
+    },
+    "13": {
+      "$type": "other",
+      "$value": "color.product.promo_secondary.default.background"
+    },
+    "14": {
+      "$type": "other",
+      "$value": "color.product.time_bomb_default.default.background"
+    },
+    "15": {
+      "$type": "other",
+      "$value": "color.product.time_bomb_secondary.default.background"
+    },
+    "16": {
+      "$type": "other",
+      "$value": "color.product.rgb_default.default.background"
+    },
+    "17": {
+      "$type": "other",
+      "$value": "color.product.rgb_secondary.default.background"
+    },
+    "18": {
+      "$type": "other",
+      "$value": "color.interface.feedback.info.main.normal.border"
+    },
+    "19": {
+      "$type": "other",
+      "$value": "color.interface.feedback.info.secondary.normal.border"
+    },
+    "20": {
+      "$type": "other",
+      "$value": "color.interface.feedback.success.main.normal.border"
+    },
+    "21": {
+      "$type": "other",
+      "$value": "color.interface.feedback.success.secondary.normal.border"
+    },
+    "22": {
+      "$type": "other",
+      "$value": "color.interface.feedback.warning.main.normal.border"
+    },
+    "23": {
+      "$type": "other",
+      "$value": "color.interface.feedback.warning.secondary.normal.border"
+    },
+    "24": {
+      "$type": "other",
+      "$value": "color.interface.feedback.danger.main.normal.border"
+    },
+    "25": {
+      "$type": "other",
+      "$value": "color.interface.feedback.danger.secondary.normal.border"
+    },
+    "26": {
+      "$type": "other",
+      "$value": "color.product.rewards_default.default.border"
+    },
+    "27": {
+      "$type": "other",
+      "$value": "color.product.rewards_secondary.default.border"
+    },
+    "28": {
+      "$type": "other",
+      "$value": "color.product.cold_default.default.border"
+    },
+    "29": {
+      "$type": "other",
+      "$value": "color.product.cold_secondary.default.border"
+    },
+    "30": {
+      "$type": "other",
+      "$value": "color.product.promo_default.default.border"
+    },
+    "31": {
+      "$type": "other",
+      "$value": "color.product.promo_secondary.default.border"
+    },
+    "32": {
+      "$type": "other",
+      "$value": "color.product.time_bomb_default.default.border"
+    },
+    "33": {
+      "$type": "other",
+      "$value": "color.product.time_bomb_secondary.default.border"
+    },
+    "34": {
+      "$type": "other",
+      "$value": "color.product.rgb_default.default.border"
+    },
+    "35": {
+      "$type": "other",
+      "$value": "color.product.rgb_secondary.default.border"
+    },
+    "36": {
+      "$type": "other",
+      "$value": "color.interface.feedback.info.main.normal.txtOn"
+    },
+    "37": {
+      "$type": "other",
+      "$value": "color.interface.feedback.info.secondary.normal.txtOn"
+    },
+    "38": {
+      "$type": "other",
+      "$value": "color.interface.feedback.success.main.normal.txtOn"
+    },
+    "39": {
+      "$type": "other",
+      "$value": "color.interface.feedback.success.secondary.normal.txtOn"
+    },
+    "40": {
+      "$type": "other",
+      "$value": "color.interface.feedback.warning.main.normal.txtOn"
+    },
+    "41": {
+      "$type": "other",
+      "$value": "color.interface.feedback.warning.secondary.normal.txtOn"
+    },
+    "42": {
+      "$type": "other",
+      "$value": "color.interface.feedback.danger.main.normal.txtOn"
+    },
+    "43": {
+      "$type": "other",
+      "$value": "color.interface.feedback.danger.secondary.normal.txtOn"
+    },
+    "44": {
+      "$type": "other",
+      "$value": "color.product.rewards_default.default.txtOn"
+    },
+    "45": {
+      "$type": "other",
+      "$value": "color.product.rewards_secondary.default.txtOn"
+    },
+    "46": {
+      "$type": "other",
+      "$value": "color.product.cold_default.default.txtOn"
+    },
+    "47": {
+      "$type": "other",
+      "$value": "color.product.cold_secondary.default.txtOn"
+    },
+    "48": {
+      "$type": "other",
+      "$value": "color.product.promo_default.default.txtOn"
+    },
+    "49": {
+      "$type": "other",
+      "$value": "color.product.promo_secondary.default.txtOn"
+    },
+    "50": {
+      "$type": "other",
+      "$value": "color.product.time_bomb_default.default.txtOn"
+    },
+    "51": {
+      "$type": "other",
+      "$value": "color.product.time_bomb_secondary.default.txtOn"
+    },
+    "52": {
+      "$type": "other",
+      "$value": "color.product.rgb_default.default.txtOn"
+    },
+    "53": {
+      "$type": "other",
+      "$value": "color.product.rgb_secondary.default.txtOn"
+    },
+    "54": {
+      "$type": "other",
+      "$value": "color.text.rewards_default"
+    },
+    "55": {
+      "$type": "other",
+      "$value": "color.text.rewards_secondary"
+    },
+    "56": {
+      "$type": "other",
+      "$value": "color.text.cold_default"
+    },
+    "57": {
+      "$type": "other",
+      "$value": "color.text.cold_secondary"
+    },
+    "58": {
+      "$type": "other",
+      "$value": "color.text.time_bomb_default"
+    },
+    "59": {
+      "$type": "other",
+      "$value": "color.text.time_bomb_secondary"
+    },
+    "60": {
+      "$type": "other",
+      "$value": "color.text.rgb_default"
+    },
+    "61": {
+      "$type": "other",
+      "$value": "color.text.rgb_secondary"
+    }
+  }
 }

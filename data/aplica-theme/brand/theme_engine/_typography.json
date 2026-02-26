@@ -9,82 +9,82 @@
         "style": {
           "light": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Light",
               "$extensions": {
                 "com.aplica.numericWeight": 300
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Light"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Light Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 300
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Light Italic"
             }
           },
           "regular": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Regular",
               "$extensions": {
                 "com.aplica.numericWeight": 400
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Regular"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Regular Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 400
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Regular Italic"
             }
           },
           "semibold": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "SemiBold",
               "$extensions": {
                 "com.aplica.numericWeight": 600
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "SemiBold"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "SemiBold Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 600
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "SemiBold Italic"
             }
           },
           "bold": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Bold",
               "$extensions": {
                 "com.aplica.numericWeight": 700
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Bold"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Bold Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 700
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Bold Italic"
             }
           },
           "black": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Black",
               "$extensions": {
                 "com.aplica.numericWeight": 900
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Black"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Black Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 900
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Black Italic"
             }
           }
         }
@@ -97,82 +97,82 @@
         "style": {
           "light": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Light",
               "$extensions": {
                 "com.aplica.numericWeight": 300
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Light"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Light Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 300
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Light Italic"
             }
           },
           "regular": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Regular",
               "$extensions": {
                 "com.aplica.numericWeight": 400
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Regular"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Regular Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 400
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Regular Italic"
             }
           },
           "semibold": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "SemiBold",
               "$extensions": {
                 "com.aplica.numericWeight": 600
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "SemiBold"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "SemiBold Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 600
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "SemiBold Italic"
             }
           },
           "bold": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Bold",
               "$extensions": {
                 "com.aplica.numericWeight": 700
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Bold"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Bold Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 700
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Bold Italic"
             }
           },
           "black": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Black",
               "$extensions": {
                 "com.aplica.numericWeight": 900
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Black"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Black Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 900
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Black Italic"
             }
           }
         }
@@ -185,82 +185,82 @@
         "style": {
           "light": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Regular",
               "$extensions": {
                 "com.aplica.numericWeight": 400
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Regular"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Regular Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 400
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Regular Italic"
             }
           },
           "regular": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Regular",
               "$extensions": {
                 "com.aplica.numericWeight": 400
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Regular"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Regular Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 400
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Regular Italic"
             }
           },
           "semibold": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Bold",
               "$extensions": {
                 "com.aplica.numericWeight": 700
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Bold"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Bold Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 700
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Bold Italic"
             }
           },
           "bold": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "ExtraBold",
               "$extensions": {
                 "com.aplica.numericWeight": 800
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "ExtraBold"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "ExtraBold Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 800
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "ExtraBold Italic"
             }
           },
           "black": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Black",
               "$extensions": {
                 "com.aplica.numericWeight": 900
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Black"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Black Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 900
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Black Italic"
             }
           }
         }
@@ -273,82 +273,82 @@
         "style": {
           "light": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Light",
               "$extensions": {
                 "com.aplica.numericWeight": 300
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Light"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Light Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 300
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Light Italic"
             }
           },
           "regular": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Regular",
               "$extensions": {
                 "com.aplica.numericWeight": 400
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Regular"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Regular Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 400
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Regular Italic"
             }
           },
           "semibold": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "SemiBold",
               "$extensions": {
                 "com.aplica.numericWeight": 600
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "SemiBold"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "SemiBold Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 600
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "SemiBold Italic"
             }
           },
           "bold": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Bold",
               "$extensions": {
                 "com.aplica.numericWeight": 700
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Bold"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Bold Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 700
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Bold Italic"
             }
           },
           "black": {
             "normal": {
-              "$type": "fontWeights",
-              "$value": "Black",
               "$extensions": {
                 "com.aplica.numericWeight": 700
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Black"
             },
             "italic": {
-              "$type": "fontWeights",
-              "$value": "Black Italic",
               "$extensions": {
                 "com.aplica.numericWeight": 700
-              }
+              },
+              "$type": "fontWeights",
+              "$value": "Black Italic"
             }
           }
         }

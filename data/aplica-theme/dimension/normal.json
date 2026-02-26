@@ -2,144 +2,150 @@
   "dimension": {
     "scale": {
       "0": {
-        "$value": "0px",
         "$type": "dimension",
+        "$value": "0px",
         "$description": "Zero spacing - removes all spacing, used for resetting margins/padding"
       },
       "25": {
-        "$value": "2px",
         "$type": "dimension",
+        "$value": "2px",
         "$description": "Minimal spacing - hairline gaps, subtle borders, tight icon spacing"
       },
       "50": {
-        "$value": "4px",
         "$type": "dimension",
+        "$value": "4px",
         "$description": "Tiny spacing - compact padding, small gaps between related elements"
       },
       "75": {
-        "$value": "6px",
         "$type": "dimension",
+        "$value": "6px",
         "$description": "Very small spacing - tight padding for dense layouts, small border radius"
       },
       "100": {
-        "$value": "8px",
         "$type": "dimension",
+        "$value": "8px",
         "$description": "Small spacing - standard padding for compact components, base unit for spacing scale"
       },
       "125": {
-        "$value": "10px",
         "$type": "dimension",
+        "$value": "10px",
         "$description": "Small-medium spacing - slightly more breathing room than base unit"
       },
       "150": {
-        "$value": "12px",
         "$type": "dimension",
+        "$value": "12px",
         "$description": "Medium-small spacing - comfortable padding for small components, form field spacing"
       },
       "175": {
-        "$value": "14px",
         "$type": "dimension",
+        "$value": "14px",
         "$description": "Medium spacing - standard padding for medium components, card padding"
       },
       "200": {
-        "$value": "16px",
         "$type": "dimension",
+        "$value": "16px",
         "$description": "Base spacing - default padding for most components, standard gap between elements"
       },
       "225": {
-        "$value": "18px",
         "$type": "dimension",
+        "$value": "18px",
         "$description": "Medium-large spacing - comfortable padding for larger components"
       },
       "250": {
-        "$value": "20px",
         "$type": "dimension",
+        "$value": "20px",
         "$description": "Large spacing - generous padding, section spacing, larger gaps"
       },
       "275": {
-        "$value": "22px",
         "$type": "dimension",
+        "$value": "22px",
         "$description": "Large-medium spacing - between large and extra large, for flexible layouts"
       },
       "300": {
-        "$value": "24px",
         "$type": "dimension",
+        "$value": "24px",
         "$description": "Extra large spacing - substantial padding, major section gaps, card spacing"
       },
       "350": {
-        "$value": "28px",
         "$type": "dimension",
+        "$value": "28px",
         "$description": "XL spacing - large component padding, significant section separation"
       },
       "400": {
-        "$value": "32px",
         "$type": "dimension",
+        "$value": "32px",
         "$description": "2XL spacing - very large padding, major layout sections, container spacing"
       },
       "450": {
-        "$value": "36px",
         "$type": "dimension",
+        "$value": "36px",
         "$description": "2XL-medium spacing - between 2XL and 3XL, for flexible large layouts"
       },
       "500": {
-        "$value": "40px",
         "$type": "dimension",
+        "$value": "40px",
         "$description": "3XL spacing - extra large padding, major container spacing, hero sections"
       },
       "550": {
-        "$value": "44px",
         "$type": "dimension",
+        "$value": "44px",
         "$description": "Touch target size - minimum recommended size for touch interactions (WCAG)"
       },
       "600": {
-        "$value": "48px",
         "$type": "dimension",
+        "$value": "48px",
         "$description": "3XL-large spacing - very large padding, major section spacing"
       },
       "700": {
-        "$value": "56px",
         "$type": "dimension",
+        "$value": "56px",
         "$description": "4XL spacing - massive padding, large container spacing, feature sections"
       },
       "800": {
-        "$value": "64px",
         "$type": "dimension",
+        "$value": "64px",
         "$description": "5XL spacing - huge padding, major layout sections, page-level spacing"
       },
       "900": {
-        "$value": "72px",
         "$type": "dimension",
+        "$value": "72px",
         "$description": "6XL spacing - enormous padding, hero section spacing, major page divisions"
       },
       "1000": {
-        "$value": "80px",
         "$type": "dimension",
+        "$value": "80px",
         "$description": "7XL spacing - maximum component padding, large hero sections"
       },
       "1200": {
-        "$value": "96px",
         "$type": "dimension",
+        "$value": "96px",
         "$description": "8XL spacing - extreme padding, full-page sections, major layout divisions"
       },
       "1400": {
-        "$value": "112px",
         "$type": "dimension",
+        "$value": "112px",
         "$description": "9XL spacing - maximum layout spacing, full-page hero sections"
       },
       "1450": {
-        "$value": "116px",
         "$type": "dimension",
+        "$value": "116px",
         "$description": "9XL-large spacing - between 9XL and 10XL, for flexible maximum layouts"
       },
       "1600": {
-        "$value": "128px",
         "$type": "dimension",
+        "$value": "128px",
         "$description": "10XL spacing - absolute maximum spacing, full-page sections, extreme layouts"
       },
-      "$description": "Primitive dimension scale. Use semantic tokens for human-readable contexts."
+      "$description": {
+        "$type": "other",
+        "$value": "Primitive dimension scale. Use semantic tokens for human-readable contexts."
+      }
     },
     "semantic": {
-      "$description": "Human-readable dimension aliases. Use for documentation and foundation contexts.",
+      "$description": {
+        "$type": "other",
+        "$value": "Human-readable dimension aliases. Use for documentation and foundation contexts."
+      },
       "zero": {
         "$type": "dimension",
         "$value": "{dimension.scale.0}",
